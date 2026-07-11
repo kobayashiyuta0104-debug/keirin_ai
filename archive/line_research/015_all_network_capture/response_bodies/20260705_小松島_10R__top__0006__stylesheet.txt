@@ -1,0 +1,1853 @@
+
+@charset "UTF-8";
+
+/*------------------------------------------------*/
+/* ダイアログのベースCSS */
+.ui-dialog{
+	border: 0 !important;
+	background: rgba(255,255,255,0.0)  !important;
+	color: #404040 !important;
+	-webkit-print-color-adjust:exact;
+}
+/* ダイアログ背景設定 */
+.ui-widget-overlay {
+    background: #FFFFFF;
+    opacity: .00;
+    filter: Alpha(Opacity=00);
+    /* support: IE8; */
+}
+/* ダイアログのフォント(jquery対策) */
+.ui-widget,.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button{
+    font-family: "Meiryo UI", "Osaka", "Osaka-等幅", "MS PGothic","ＭＳ Ｐゴシック", sans-serif;
+	font-size:16px;
+	color:#404040;
+}
+/*------------------------------------------------*/
+/* ダイアログヘッダーのベースCSS */
+.ui-dialog .ui-dialog-titlebar{
+    margin-bottom:-1px;
+	padding: 5px 10px 0px 10px;
+	font-size:20px;
+	font-weight:bold;
+	color: #404040;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-top:2px solid #0670b1;
+	border-top-left-radius: 6px; 
+	border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+}
+.ui-widget-header{
+	background:#F5F4F2 !important;
+	border-width:0;
+}
+..ui-dialog-title,ui-dialog-cancel{
+	background:#F5F4F2 !important;
+}
+
+.ui-dialog .ui-dialog-title{
+	width:auto
+}
+
+.ui-dialog .ui-dialog-content{
+    overflow:visible;
+}
+/*------------------------------------------------*/
+/* タイトル表示 */
+div.sub_dlg_title {
+	padding: 5px 0 5px;
+	font-size:20px;
+	font-weight:bold;
+	color: #404040;
+}
+
+/*------------------------------------------------*/
+/* 閉じる「Ｘ」ボタン */
+div.cancel_btn a:focus {
+	outline: none;
+	outline-offset: 0;
+	text-decoration: none;
+	color: #404040;
+	cursor:pointer;
+}
+div.cancel_btn a:hover {
+	text-decoration: none;
+	color: #0670B1;
+	cursor:pointer;
+}
+
+div.cancel_btn a.cancel_btn_fsz {
+	font-size: 26px;
+	font-weight: bold;
+}
+/*------------------------------------------------*/
+.fred{color:#CD0000 !important;}	/* グラフ赤 */
+.fblue{color:#007DBB !important;}	/* グラフ青 */
+
+.kigou {
+	font-weight: normal;
+	font-family:"ＭＳ Ｐゴシック","MS PGothic";
+}
+/*------------------------------------------------*/
+/* ダイアログのみに!imoportantをつけるため
+/* 下記クラス名はP_base.cssからコピー
+/*------------------------------------------------*/
+.ui-dialog .tbl_header{background-color:#D9D7CE !important;}
+.ui-dialog .msg_bg_color{background-color:#FFFF80 !important}
+
+/* 逃げ（表色） */
+.ui-dialog .klmari_nige_graph {
+  background-color: #f0e8ff !important;
+  border: 1px solid #888888 !important;
+}
+
+/* 捲り（表色） */
+.ui-dialog .klmari_makuri_graph {
+  background-color: #fffef8 !important;
+  border: 1px solid #888888 !important;
+}
+
+/* 差し（表色） */
+.ui-dialog .klmari_sashi_graph {
+  background-color: #ccffcf !important;
+  border: 1px solid #888888 !important;
+}
+
+/* マーク（表色） */
+.ui-dialog .klmari_mark_graph {
+  background-color: #fdeb97 !important;
+  border: 1px solid #888888 !important;
+}
+
+/* 決まり手なし（表色） */
+.ui-dialog .klmari_nasi_graph {
+  background-color: #7f7f7f !important;
+  border: 1px solid #888888 !important;
+}
+/*------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9101_PC_３連単支持率グラフ詳細 */
+
+/* ダイアログ表示領域枠設定 */
+#y3rentan {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1 !important;
+	border-right:2px solid #0670b1 !important;
+	border-bottom:2px solid #0670b1 !important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+table.y3rentan_tbl1{
+	margin: 0;
+	padding: 0;
+	width: 670px;
+	height:40px;
+	background-color: #FFFFFF !important;
+	font-size: 16px !important;
+	text-align: center !important;
+	border: 0;
+	border-collapse: collapse;
+}
+
+table.y3rentan_tbl1 td {
+	border-color: #333;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0px;
+}
+table.y3rentan_tbl1 td.title {
+	background-color: #D9D7CE !important;
+	font-weight:bold;
+}
+
+table.y3rentan_tbl1 td.entry {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-left-width: 0px;
+}
+
+table.y3rentan_tbl2{
+	margin: 0;
+	padding: 0;
+	width: 670px;
+	height:40px;
+	background-color: #FFFFFF !important;
+	font-size: 16px !important;
+	text-align: center !important;
+	border: 0;
+	border-collapse: collapse;
+}
+
+table.y3rentan_tbl2 td {
+	border-color: #333;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0px;
+}
+table.y3rentan_tbl2 td.title {
+	background-color: #D9D7CE !important;
+	font-weight:bold;
+}
+
+table.y3rentan_tbl2 td.entry {
+	border-right-width: 1px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+}
+
+table.y3rentan_tbl3{
+	margin: 0;
+	padding: 0;
+	width: 670px;
+	height:40px;
+	background-color: #FFFFFF !important;
+	font-size: 16px !important;
+	text-align: center !important;
+	border: 0;
+	border-collapse: collapse;
+}
+
+table.y3rentan_tbl3 td {
+	border-color: #333;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0px;
+}
+table.y3rentan_tbl3 td.title {
+	background-color: #D9D7CE !important;
+	font-weight:bold;
+}
+
+table.y3rentan_tbl3 td.entry {
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+}
+
+table.y3rentan_tbl4{
+	margin: 0;
+	padding: 0;
+	width: 670px;
+	height:40px;
+	background-color: #FFFFFF !important;
+	font-size: 16px !important;
+	text-align: center !important;
+	border: 0;
+	border-collapse: collapse;
+}
+
+table.y3rentan_tbl4 td {
+	border-color: #333;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 1px;
+}
+table.y3rentan_tbl4 td.title {
+	background-color: #D9D7CE !important;
+	border-right-width: 1px;
+	font-weight:bold;
+}
+
+table.y3rentan_tbl4 td.entry {
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9102_PC_平均競走得点グラフ */
+
+/* ダイアログ表示領域枠設定 */
+#over_kyosotokuten {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px !important;
+	border-left:2px solid #0670b1 !important;
+	border-right:2px solid #0670b1 !important;
+	border-bottom:2px solid #0670b1 !important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+img.over_kyosotokuten {
+	width: 100%;
+}
+
+table.over_kyosotokuten_tbl{
+	margin: 0;
+	padding 0;
+	width: 963px;
+	background-color: #FFFFFF !important;
+	font-size: 16px !important;
+	text-align: center !important;
+	font-weight:normal;
+	table-layout:fixed;
+	border-collapse: collapse;
+
+}
+table.over_kyosotokuten_tbl th {
+	padding: 0;
+	color: #404040 !important;
+    background-color: #D9D7CE !important;
+	text-align: center;
+	vertical-align: middle;
+	font-weight:normal;
+
+	border-color: #888888 !important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+
+table.over_kyosotokuten_tbl td {
+	border-color: #888888 !important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+
+table.over_kyosotokuten_tbl td.kn {
+	height: 45px;
+	line-height: 100%;
+	vertical-align:middle;
+	padding: 4px 0 0px;
+}
+
+table.over_kyosotokuten_tbl .blank1 {
+	background-color:#F5F4F2 !important;
+	border-top-width: 0px;
+}
+
+table.over_kyosotokuten_tbl .blank2 {
+	background-color:#F5F4F2 !important;
+	border-top-width: 0px;
+	border-left-width: 0px;
+}
+
+table.over_kyosotokuten_tbl .bbw1 {
+	border-bottom-width: 1px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9103_PC_決まり手内訳 */
+
+/* ダイアログ表示領域枠設定 */
+#kimarite {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1 !important;
+	border-right:2px solid #0670b1 !important;
+	border-bottom:2px solid #0670b1 !important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+	
+}
+
+table.kimarite_tbl{
+	margin: 0;
+	padding 0;
+	width: 240px;
+	border: 1px solid #333333 !important;
+}
+table.kimarite_tbl th {
+	color: #404040;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #D7F6F5 !important;
+    padding:4px;
+	border-color: #333333 !important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+
+table.kimarite_tbl td {
+	color: #404040;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF !important;
+	padding:4px;
+	border-color: #333333 !important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9104_PC_BHレース一覧 */
+
+/* ダイアログ表示領域枠設定 */
+#B15 {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1!important;
+	border-right:2px solid #0670b1!important;
+	border-bottom:2px solid #0670b1!important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+table.B15_tbl {
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	border: 1px solid #333!important;
+}
+
+table.B15_tbl th {
+	color: #404040 !important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #D7F6F5!important;
+    
+	border-color: #333 !important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+
+table.B15_tbl th.t1 {	width: 56px;	}
+table.B15_tbl th.t2 {	/*width: 80px;*/	}
+table.B15_tbl th.t3 {	width: 26px;	}
+table.B15_tbl th.t4 {	width: 90px;	}
+table.B15_tbl th.t5 {	width: 26px;	}
+table.B15_tbl th.t6 {	width: 26px;	}
+table.B15_tbl th.t7 {	width: 26px;	}
+
+table.B15_tbl td {
+	color: #404040 !important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF!important;
+	padding:4px;
+	border-color: #333!important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+table.B15_tbl td.grade {
+	width: 80px;
+}
+table.B15_tbl td.kdate {
+	width: 150px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9105_PC_Sレース一覧 */
+
+/* ダイアログ表示領域枠設定 */
+#S17 {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1!important;
+	border-right:2px solid #0670b1!important;
+	border-bottom:2px solid #0670b1!important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+table.S17_tbl {
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	border: 1px solid #333!important;
+}
+
+table.S17_tbl th {
+	color: #404040!important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #D7F6F5!important;
+    
+	border-color: #333!important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+
+table.S17_tbl th.t1 {	width: 56px;	}
+table.S17_tbl th.t2 {	/*width: 80px;*/	}
+table.S17_tbl th.t3 {	width: 28px;	}
+table.S17_tbl th.t4 {	width: 90px;	}
+table.S17_tbl th.t5 {	width: 28px;	}
+
+table.S17_tbl td {
+	color: #404040!important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF!important;
+	padding:4px;
+	border-color: #333!important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+table.S17_tbl td.grade {
+	width: 80px;
+}
+table.S17_tbl td.kdate {
+	width: 150px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9106_PC_同時出走レース一覧 */
+
+/* ダイアログ表示領域枠設定 */
+#taisen_seiseki2 {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1!important;
+	border-right:2px solid #0670b1!important;
+	border-bottom:2px solid #0670b1!important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+table.taisen_seiseki2_tbl {
+	margin: 0;
+	padding 0;
+	width: 700px;
+	border: 1px solid #333!important;
+}
+
+table.taisen_seiseki2_tbl th {
+	color: #404040 !important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #D7F6F5 !important;
+    
+	border-color: #333!important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+
+table.taisen_seiseki2_tbl th.t1 {	width: 72px;	}
+table.taisen_seiseki2_tbl th.t2 {	width: 60px;	}
+table.taisen_seiseki2_tbl th.t3 {	width: 120px;	}
+table.taisen_seiseki2_tbl th.t4 {	width: 26px;	}
+table.taisen_seiseki2_tbl th.t5 {	width: 90px;	}
+table.taisen_seiseki2_tbl th.t6 {	/*width: 28px;*/	}
+
+table.taisen_seiseki2_tbl th.sname {	width: 110px;	}
+
+table.taisen_seiseki2_tbl td {
+	color: #404040!important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF!important;
+	padding:4px;
+	border-color: #333!important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+
+/* trリンクのマウスオーバー時の動作 */
+table.taisen_seiseki2_tbl tr.clc:hover td {
+	background-color: #E8D4FF!important;
+	cursor: pointer !important;
+}
+
+/* tableリンクのマウスオーバー時の動作 */
+table.taisen_seiseki2_tbl tr td.clc:hover table tr td{
+	background-color: #E8D4FF!important;
+	cursor: pointer !important;
+}
+
+
+
+table.sub_taisen_seiseki2_tbl {
+	margin: 0;
+	padding 0;
+	width: 100%;
+	border: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+table.sub_taisen_seiseki2_tbl td {
+	padding 0;
+	border: 0;
+	width: 33%;
+	text-align: center;
+	vertical-align: middle;
+	background-image: initial;
+}
+table.sub_taisen_seiseki2_tbl td.at-l {
+	text-align: left;
+}
+table.sub_taisen_seiseki2_tbl td.at-r {
+	text-align: right;
+}
+
+table.taisen_seiseki2_tbl tr td.kachi,
+table.sub_taisen_seiseki2_tbl tr td.kachi {
+	background-color: #FFF0F0!important;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9107_PC_1～3着時レース一覧 */
+
+/* ダイアログ表示領域枠設定 */
+#chaku {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1!important;
+	border-right:2px solid #0670b1!important;
+	border-bottom:2px solid #0670b1!important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+table.chaku_tbl {
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	border: 1px solid #333!important;
+}
+
+table.chaku_tbl th {
+	color: #404040!important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #D7F6F5!important;
+	border-color: #333!important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+
+table.chaku_tbl th.t1 {	width: 56px;	}
+table.chaku_tbl th.t2 {	/*width: 60px;*/	}
+table.chaku_tbl th.t3 {	width: 20px;	}
+table.chaku_tbl th.t4 {	width: 100px;	}
+table.chaku_tbl th.t5 {	width: 80px;	}
+
+
+table.chaku_tbl td {
+	color: #404040!important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	padding:4px;
+	border-color: #333!important;
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+
+table.chaku_tbl td table td{padding:0}
+
+table.chaku_tbl td.grade {
+	width: 80px;
+}
+table.chaku_tbl td.kdate {
+	width: 150px;
+}
+
+table.sub_chaku_tbl {
+	margin: 0;
+	padding 0;
+	width: 100%;
+	border: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+table.sub_chaku_tbl tr td {
+	padding 0;
+	border: 0;
+	width: 33%;
+	text-align: center;
+	vertical-align: middle;
+	background-image: none;
+}
+table.sub_chaku_tbl tr td.at-l {
+	text-align: left;
+}
+table.sub_chaku_tbl tr td.at-r {
+	text-align: right;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9108_PC_1着時の決まり手情報 */
+
+/* ダイアログ表示領域枠設定 */
+#tejun1 {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1!important;
+	border-right:2px solid #0670b1!important;
+	border-bottom:2px solid #0670b1!important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+div.sub_dlg_title div.sub_msg {
+	width: 850px;
+	margin-top: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+#tejun1 table{width:100%}
+#tejun1 table tr td{padding:0}
+#tejun1 table tr td table tr td {
+	padding:0px;
+	text-align: center;
+	height:60px
+}
+#tejun1 table tr td table tr td table tr td{padding:4px}
+
+.dwb-r{border-right:3px solid #333333 !important}
+.dwb-l{border-left:3px solid #333333 !important}
+.dwb-b{border-bottom:3px solid #333333 !important}
+.dwb-t{border-top:3px solid #333333 !important}
+.dwb-a{border:3px solid #333333 !important}
+
+/* 右下の「単位(％)」等 */
+table.sample_bar_tbl {
+	padding: 10px;
+}
+table.sample_bar_tbl tr td {
+	width: 72px;
+	text-align: center;
+	vertical-align: middle;
+
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9109_PC_2着時の決まり手情報 */
+
+/* ダイアログ表示領域枠設定 */
+#tejun2 {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1!important;
+	border-right:2px solid #0670b1!important;
+	border-bottom:2px solid #0670b1!important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+#tejun2 table{width:100%}
+#tejun2 table tr td{padding:0}
+#tejun2 table tr td table tr td {
+	padding:0px;
+	text-align: center;
+	height:60px
+}
+#tejun2 table tr td table tr td table tr td{padding:4px}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9110_PC_短評・展開 */
+
+/* ダイアログ表示領域枠設定 */
+#tanten_ari {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1!important;
+	border-right:2px solid #0670b1!important;
+	border-bottom:2px solid #0670b1!important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+	line-height: 20px;
+
+}
+
+#tanten_ari p {
+	margin: 0;
+}
+
+#tanten_nashi table.kara100p_tbl {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+}
+
+/* 開催情報のTBL */
+
+#tanten_ari table.tanten_ari_tbl {
+	vertical-align: middle;
+	background-color: #D7F6F5!important;
+	width: 474px;
+}
+#tanten_ari table.tanten_ari_tbl th{
+	text-align: center;
+	vertical-align: middle;
+	padding-top:1px;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#D9D7CE!important;
+	font-weight:normal;
+
+}
+#tanten_ari table.tanten_ari_tbl td{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#FFFFFF!important;
+	padding-top:1px;
+
+}
+
+/* BSのTBL */
+
+#tanten_ari table.tanten_ari_tbl_bs {
+	vertical-align: middle;
+}
+#tanten_ari table.tanten_ari_tbl_bs th{
+	text-align: center;
+	vertical-align: middle;
+	padding-top:1px;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#D9D7CE!important;
+	font-weight:normal;
+
+}
+#tanten_ari table.tanten_ari_tbl_bs td{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	padding-top:1px;
+	background-color:#FFFFFF!important;
+}
+
+/* 車番のTBL */
+
+#tanten_ari table.tanten_ari_tbl_sya {
+	padding: 0;
+	margin: 0;
+	width: 474px;
+	line-height: 22px;
+}
+#tanten_ari table.tanten_ari_tbl_sya th{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#D9D7CE!important;
+	font-weight:normal;
+	padding-top:1px;
+
+}
+#tanten_ari table.tanten_ari_tbl_sya td{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	padding-top:1px;
+}
+#tanten_ari table.tanten_ari_tbl_sya div{
+	line-height: 1;
+}
+
+
+
+
+/* レース展開のTBL */
+
+#tanten_ari table.tanten_ari_tbl_race {
+	padding: 0;
+	margin: 0;
+	width: 474px;
+	line-height: 16px;
+
+}
+#tanten_ari table.tanten_ari_tbl_race th{
+	text-align: center;
+	vertical-align: middle;
+	padding-top:0px;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#D9D7CE!important;
+	font-weight:normal;
+
+}
+#tanten_ari table.tanten_ari_tbl_race td{
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#FFFFFF!important;
+
+}
+#tanten_ari table.rece_deployment td{
+	border:none !important;
+	font-size:9px!important;
+}
+
+/* 払戻のTBL */
+
+#tanten_ari table.tanten_ari_tbl_modoshi {
+	padding: 0;
+	margin: 0;
+	width: 474px;
+	line-height: 22px;
+}
+#tanten_ari table.tanten_ari_tbl_modoshi th{
+	text-align: center;
+	vertical-align: middle;
+	padding: 1px 0px 0px 4px;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#D9D7CE!important;
+	font-weight:normal;
+
+}
+#tanten_ari table.tanten_ari_tbl_modoshi td{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#FFFFFF!important;
+	font-weight:normal;
+	padding-top:1px;
+
+}
+#tanten_ari table.tanten_ari_tbl_modoshi tr{
+	height: 35px;
+
+}
+
+
+#tanten_ari table.tanten_ari_tbl_modoshi td.nobackcolor{
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#F5F4F2!important;
+
+}
+
+.spacepadding4{
+	padding-left:4px;
+
+}
+
+div.inline_top {
+	display: inline-block;
+	_display: inline;
+	vertical-align: top;
+}
+div.wsp10 {
+	display: inline-block;
+	_display: inline;
+	width: 10px;
+}
+
+#tanten_ari .bikou_tbl {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 250px;
+	table-layout: fixed;
+}
+#tanten_ari .bikou_tbl tr td{
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+	font-size: 16px;
+	background-color:#FFFFFF!important;
+	border:1px solid #888888!important;
+}
+
+
+#tanten_ari div.lnum {
+    width: 18px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2px;
+    border: 1px solid #666!important;
+    border-collapse: collapse;
+    border-radius: 3px;
+    display: inline-block;
+    _display: inline;
+}
+
+#pilblBiko {
+	word-break: break-all; 
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PJ9110_PC_短評・展開(なし) */
+
+/* ダイアログ表示領域枠設定 */
+#tanten_nashi {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1!important;
+	border-right:2px solid #0670b1!important;
+	border-bottom:2px solid #0670b1!important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+	line-height: 20px;
+
+}
+
+#tanten_nashi table.kara100p_tbl {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+}
+
+
+/* 開催情報のTBL */
+
+#tanten_nashi table.tanten_nashi_tbl {
+	vertical-align: middle;
+	background-color: #D7F6F5!important;
+	width: 474px;
+}
+#tanten_nashi table.tanten_nashi_tbl th{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#D9D7CE!important;
+	font-weight:normal;
+
+}
+#tanten_nashi table.tanten_nashi_tbl td {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#FFFFFF!important;
+	padding-top:1px;
+	border: 1px solid #888888!important;
+}
+
+
+#tanten_nashi th{
+	text-align:center;
+	background-color:#F5F4F2!important;
+	padding:1px;
+	vertical-align: middle;
+	font-size: 16px;
+}
+#tanten_nashi td{
+	vertical-align: middle;
+	font-size: 16px;
+}
+/* 着番のTBL */
+
+#tanten_nashi table.tanten_nashi_tbl_tya {
+	padding: 0;
+	margin: 0;
+	width: 474px;
+	line-height: 22px;
+}
+#tanten_nashi table.tanten_nashi_tbl_tya th{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#D9D7CE!important;
+	font-weight:normal;
+	padding-top:1px;
+
+}
+#tanten_nashi table.tanten_nashi_tbl_tya td{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	padding-top:1px;
+}
+
+/* 払戻のTBL */
+
+#tanten_nashi table.tanten_nashi_tbl_modoshi {
+	padding: 0;
+	margin: 0;
+	width: 474px;
+	line-height: 22px;
+}
+#tanten_nashi table.tanten_nashi_tbl_modoshi th{
+	text-align: center;
+	vertical-align: middle;
+	padding: 1px 0px 0px 4px;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#D9D7CE!important;
+	font-weight:normal;
+
+}
+#tanten_nashi table.tanten_nashi_tbl_modoshi td{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#FFFFFF!important;
+	font-weight:normal;
+	padding-top:1px;
+
+}
+
+#tanten_nashi table.tanten_nashi_tbl_modoshi td.nobackcolor{
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px;
+	font-size: 16px;
+	border: 1px solid #888888!important;
+	background-color:#F5F4F2!important;
+
+}
+
+#tanten_nashi .bikou_tbl_nashi {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 250px;
+}
+#tanten_nashi .bikou_tbl_nashi tr td{
+	text-align: leftt;
+	vertical-align: top;
+	padding: 5px;
+	border: 1px solid #888888!important;
+	font-size: 16px;
+	background-color:#FFFFFF!important;
+
+}
+/*-----------------------------------------------------------------------------------------------*/
+/* PY0101～PY0107_PC_ヘルプ */
+/* ダイアログ表示領域枠設定 */
+#raceInfoSubHelp {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1!important;
+	border-right:2px solid #0670b1!important;
+	border-bottom:2px solid #0670b1!important;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+	
+}
+
+#PY0101 {
+    height: 600px;
+    width: 670px;
+}
+#PY0102 {
+    height: 330px;
+    width: 490px;
+}
+#PY0103 {
+    height: 540px;
+    width: 670px;
+}
+#PY0104 {
+    height: 400px;
+    width: 710px;
+}
+#PY0105 {
+    height: 800px;
+    width: 850px;
+}
+#PY0106 {
+    height: 140px;
+    width: 580px;
+}
+#PY0107 {
+    height: 210px;
+    width: 500px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PT9101_PC_初期金額設定(1932) */
+
+/* ダイアログ表示領域枠設定 */
+#PT9101 {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+/*-----------------------------------------------------------------------------------------------*/
+/* PT9102_PC_テンキー(1871) */
+
+/* ダイアログ表示領域枠設定 */
+#PT9102 {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PM0109_PC_投票成績(的中率グラフ)(1451) */
+
+/* ダイアログ表示領域枠設定 (月別グラフ　60か月) */
+#PM0109 {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (月別グラフ　14か月) */
+#PM0109_44month {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (月別グラフ　14か月) */
+#PM0109_14month {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (一押し選手別グラフ　50人) */
+#PM0109_50ichioshi {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (競輪場別グラフ　50人) */
+#PM0109_50krj {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (一押し選手別グラフ　20人) */
+#PM0109_20ichioshi {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (一押し選手別グラフ　9人) */
+#PM0109_9ichioshi {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (グレード別グラフ　9人) */
+#PM0109_9grd {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (賭け式別グラフ　9人) */
+#PM0109_9kakeshiki {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PM0110_PC_投票成績(的中率ランキング)(1452) */
+
+/* ダイアログ表示領域枠設定 */
+#PM0110 {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+#PM0110_44month {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+#PM0110_14month {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (一押し選手別グラフ　50人) */
+#PM0110_50ichioshi {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (競輪場別グラフ　50人) */
+#PM0110_50krj {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (一押し選手別グラフ　20人) */
+#PM0110_20ichioshi {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (一押し選手別グラフ　9人) */
+#PM0110_9ichioshi {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (グレード別グラフ　9人) */
+#PM0110_9grd {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 (賭け式別グラフ　9人) */
+#PM0110_9kake {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PM0105_PC_投票履歴明細(1902)_おめでとうメッセージ */
+
+/* ダイアログ表示領域枠設定 */
+#PM0105_omedetou {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border: 2px solid #0670b1;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PM0116_PC_(的中おめでとうメッセージ)(分離) */
+
+/* ダイアログ表示領域枠設定 */
+#PM0116_tekichu {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border: 2px solid #0670b1;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 auto;
+	line-height: 20px;
+    height:640px !important;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PM0116_PC_(的中おめでとうメッセージ)(分離) */
+
+/* ダイアログ表示領域枠設定 */
+#PM0116_omedetou {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border: 2px solid #0670b1;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+/*-----------------------------------------------------------------------------------------------*/
+/* PT0533_関連オッズ(1920) */
+
+/* ダイアログ表示領域枠設定 */
+#kannren_ozu {
+
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+#kannren_ozu table.kannren_ozu_tbl {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+}
+
+#kannren_ozu table.kannren_ozu_tbl tr td{
+	text-align: left;
+	vertical-align: top;
+	border: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	font-size: 16px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PM0201編集破棄(1799) */
+
+/* ダイアログ表示領域枠設定 */
+#conf_cancel {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border: 2px solid #0670b1;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PM0201編集保存(1799) */
+
+/* ダイアログ表示領域枠設定 */
+#conf_save {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border: 2px solid #0670b1;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* PM0201編集保存(1799) */
+
+/* ダイアログ表示領域枠設定 */
+#set_init {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border-left:2px solid #0670b1;
+	border-right:2px solid #0670b1;
+	border-bottom:2px solid #0670b1;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* アラートダイアログ */
+
+/* ダイアログ表示領域枠設定 */
+#alert_dialog {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border: 2px solid #0670b1;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+
+/* ダイアログ表示領域枠設定 */
+#alert_dialog_lock {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border: 2px solid #0670b1;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+
+/* PC0101ダイアログ表示領域枠設定 */
+#PC0101_kaime_chk {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border: 2px solid #0670b1;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+
+/* PC0102ダイアログ表示領域枠設定 */
+#PC0102_kaime_chk {
+	background:#F5F4F2 !important;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.60);
+	padding: 5px 10px 15px 10px;
+	border: 2px solid #0670b1;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 auto;
+}

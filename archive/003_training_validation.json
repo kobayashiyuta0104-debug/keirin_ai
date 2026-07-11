@@ -1,0 +1,64 @@
+{
+  "input_file": "C:\\競輪AI\\data_official\\002_feature_dataset.json",
+  "validation_source_file": "C:\\競輪AI\\data_official\\002_feature_validation.json",
+  "output_csv": "C:\\競輪AI\\data_official\\training\\003_training_dataset.csv",
+  "feature_schema_file": "C:\\競輪AI\\data_official\\training\\003_feature_schema.json",
+  "row_count": 153,
+  "training_feature_count": 181,
+  "categorical_feature_count": 36,
+  "numeric_feature_count": 145,
+  "duplicate_features": {},
+  "unknown_features": [],
+  "schema_002_003_match": {
+    "match": true,
+    "problem": null,
+    "missing_in_003": [],
+    "extra_in_003": [],
+    "feature_count_002": 181,
+    "feature_count_003": 181
+  },
+  "csv_validation": {
+    "csv_column_count": 188,
+    "expected_csv_column_count": 188,
+    "duplicate_csv_columns": {},
+    "count_match": true
+  },
+  "feature_type_validation": {
+    "categorical_value_count": 4300,
+    "numeric_value_count": 16791,
+    "missing_value_count": 6602,
+    "problem_count": 0
+  },
+  "target_missing_distribution": {},
+  "label_leakage_columns": [],
+  "training_statistics": {
+    "row_count": 153,
+    "player_count_distribution": {
+      "7": 128,
+      "6": 9,
+      "8": 3,
+      "9": 9,
+      "5": 4
+    },
+    "payout_class_distribution": {
+      "20000_TO_49999": 20,
+      "UNDER_10000": 106,
+      "50000_PLUS": 7,
+      "10000_TO_19999": 20
+    },
+    "is_20000_plus_distribution": {
+      "1": 27,
+      "0": 126
+    },
+    "is_50000_plus_distribution": {
+      "0": 146,
+      "1": 7
+    },
+    "race_date_distribution": {
+      "20260705": 83,
+      "20260706": 70
+    }
+  },
+  "problem_count": 0,
+  "problems": []
+}

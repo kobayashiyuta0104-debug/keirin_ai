@@ -1,0 +1,43 @@
+{
+  "source_race_count": 2565,
+  "training_row_count": 2565,
+  "official_feature_count": 181,
+  "categorical_feature_count": 36,
+  "numeric_feature_count": 145,
+  "csv_column_count": 188,
+  "expected_csv_column_count": 188,
+  "feature_count_distribution": {
+    "181": 2565
+  },
+  "exact_feature_order_count": 2565,
+  "duplicate_race_keys": {},
+  "player_count_distribution": {
+    "7": 2088,
+    "9": 272,
+    "6": 148,
+    "5": 45,
+    "8": 12
+  },
+  "payout_class_distribution": {
+    "UNDER_10000": 1841,
+    "50000_PLUS": 157,
+    "20000_TO_49999": 255,
+    "10000_TO_19999": 312
+  },
+  "is_20000_plus_distribution": {
+    "0": 2153,
+    "1": 412
+  },
+  "is_50000_plus_distribution": {
+    "0": 2408,
+    "1": 157
+  },
+  "missing_feature_cell_count": 102715,
+  "feature_type_problem_count": 0,
+  "target_missing": {},
+  "label_leakage_features": [],
+  "undefined_feature_types": [],
+  "duplicate_feature_type_names": [],
+  "problem_count": 0,
+  "problems": []
+}

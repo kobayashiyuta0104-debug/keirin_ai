@@ -1,0 +1,256 @@
+/* 結果一覧(PC) */
+
+@charset "UTF-8";
+
+/* タイトルの位置修正用 */
+.layraceresult{
+	margin-right: 35px;
+    margin-left:  35px;
+    margin-top:10px;
+}
+
+#PJ0306 .layraceresult{
+	margin-bottom:35px;
+}
+
+/* 結果一覧のレース番号head */
+#raceresult #bctdRaceHead{
+    width:4.3%;
+    padding:5px 0px;
+}
+
+/* 結果一覧の種目名head */
+#raceresult #bctdSyumokuHead{
+    width:9%;
+    padding:5px 2px;
+}
+
+/* 結果一覧の1着head */
+#raceresult #bctdFristHead{
+    width:11.5%;
+    padding:5px 2px;
+}
+
+/* 結果一覧の2着head */
+#raceresult #bctdScondHead{
+    width:11.5%;
+    padding:5px 2px;
+}
+
+/* 結果一覧の3着head */
+#raceresult #bctdThirdHead{
+    width:10.5%;
+    padding:5px 2px;
+}
+
+/* 結果一覧の2車単head */
+#raceresult #bctd2syaHead{
+    width:19%;
+    padding:5px 2px;
+}
+
+/* 結果一覧の3連単head */
+#raceresult #bctd3renHead{
+    width:20%;
+    padding:5px 2px;
+}
+
+/* 結果一覧の結果ボタンhead */
+#raceresult #bctdResultHead{
+    width:2%;
+    padding:5px 2px;
+}
+
+/* 結果一覧の連続再生head */
+#raceresult #bctdReproHead{
+    width:3.5%;
+    padding:5px 2px;
+}
+
+/* 結果一覧のダイジェストhead */
+#raceresult #bctdDigestHead{
+    width:9%;
+    padding:5px 2px;
+}
+
+/* 結果一覧の全選択ボタン */
+#raceresult #bcbtnAllCheck{
+    padding: 0.5px 2px 1px;
+    width: 28px;
+    margin-top: 2px;
+}
+
+/* 結果一覧の結果ボタン */
+#raceresult .mini{
+    width: 41px;
+}
+
+/* 結果一覧のダイジェストボタン */
+#raceresult .digestbtn{
+    width: 100%;
+}
+
+/* 結果一覧の連続ダイジェストボタン */
+#raceresult .rendigestbtn{
+    width: 140px;
+}
+
+/* 結果一覧のダイジェストボタン */
+#raceresult .digesticon{
+    margin-right: 2px;
+}
+
+
+/* チェックボックス */
+#raceresult .check_size{
+	width:20px;
+	height:20px;
+}
+
+/* スペーサー */
+#raceresult .spacer{
+	padding-top:10px
+}
+#raceresult .spacerm{
+	margin-top:10px
+}
+
+/* 車番の位置調整 */
+#raceresult .lnum{
+	margin-right: 2px;
+}
+
+#raceresult .syaban{
+	width:15%;
+}
+
+#raceresult .sensyuName{
+	width:70%;
+}
+
+/* 結果一覧のpadding設定 */
+#raceresult #bctblResul>tbody>tr>td{
+	padding:4px 1px;
+}
+
+#raceresult .2syakumi{
+	width:15.1%;
+}
+
+
+/* 結果一覧のpadding設定2(2車単、3連単用) */
+#raceresult .kingaku {
+	padding:4px 1px !important;
+}
+
+/* 結果一覧の組のサイズ */
+#raceresult .kumi{
+	width:20.1%;
+}
+/* 結果一覧の組のサイズ */
+#raceresult .ninki{
+	width:20%;
+}
+
+
+/* 欠車のTable */
+#raceresult .tblKessya{
+	width:40%
+}
+
+/* 欠車のレース */
+#raceresult .tdkessyaRace{
+	width:40%
+}
+
+/* 過去のDokanto!結果一覧 */
+#raceresult #oldDokanto{
+	width:210px;
+}
+
+/* DokantoのTbl */
+#raceresult .dokanto{
+	width:70%;
+}
+
+/* Dokanto タイトル */
+#raceresult .dokantoTitle{
+	width:125px;
+	padding:4px
+}
+
+/* Dokanto タイトル */
+#raceresult .dokantoData{
+	width:12%;
+	padding:4px
+}
+
+/* Dokanto スペース */
+#raceresult .dokantospace{
+	width:5%;
+}
+
+#raceresult .wsize_90p{
+	width:90%	
+}
+#raceresult .wsize_25p{
+	width:25%	
+}
+#raceresult .wsize_27p{
+	width:27%	
+}
+#raceresult .wsize_29p{
+	width:29%	
+}
+#raceresult .wsize_30p{
+	width:30%	
+}
+#raceresult .wsize_40p{
+	width:40%	
+}
+#raceresult .wsize_45p{
+	width:45%	
+}
+
+#raceresult .wsize_49p{
+	width:49%	
+}
+#raceresult .wsize_56p{
+	width:56%	
+}
+#raceresult .wsize_4p{
+	width:4%	
+}
+
+#raceresult .h55{
+	height:55px;
+}
+	
+#raceresult .pt1{
+	padding-top:1px
+}
+
+#raceresult .tblpadding td{
+	padding:4px
+}
+
+#raceresult .wsize_45p .tblpadding td{
+	padding:3px
+}
+
+#raceresult .pad0{padding:0 !important}
+#raceresult .padr0{
+	padding-right:0 !important
+}
+#raceresult .padl0{
+	padding-left:0 !important
+}
+#raceresult .msg_table{
+	display: table;
+	width: 100%;
+	height: 40px;
+}
+#raceresult .msg_table .msg_cell{
+	display: table-cell;
+	vertical-align: middle;
+}

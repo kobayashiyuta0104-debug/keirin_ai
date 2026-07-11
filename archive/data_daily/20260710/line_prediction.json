@@ -1,0 +1,6370 @@
+{
+  "program": "043_capture_all_venues_official_lines.py",
+  "captured_at": "2026-07-10T14:31:16.932796",
+  "race_date": "20260710",
+  "venue_count": 8,
+  "race_count": 80,
+  "line_found_count": 50,
+  "competition_count": 2,
+  "line_not_found_count": 30,
+  "validation_error_count": 0,
+  "error_count": 0,
+  "live_venues": [
+    {
+      "index": 0,
+      "venue": "前橋",
+      "button_id": "hcombtnLive0",
+      "onclick": "pc0101_checkKaimeLive('0')",
+      "hidden_id": "hcomHdnTouhyouLive0",
+      "hidden_value": "D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM"
+    },
+    {
+      "index": 1,
+      "venue": "函館",
+      "button_id": "hcombtnLive1",
+      "onclick": "pc0101_checkKaimeLive('1')",
+      "hidden_id": "hcomHdnTouhyouLive1",
+      "hidden_value": "T9wMz-ha1TZ640Z-S5GN5Lj37nIT_hpE1pP7n8r0_zE"
+    },
+    {
+      "index": 2,
+      "venue": "伊東",
+      "button_id": "hcombtnLive2",
+      "onclick": "pc0101_checkKaimeLive('2')",
+      "hidden_id": "hcomHdnTouhyouLive2",
+      "hidden_value": "W2uRQM1igycPTuhMZ-U0HxluJbAQf-41MmWPl-1Y9aE"
+    },
+    {
+      "index": 3,
+      "venue": "大垣",
+      "button_id": "hcombtnLive3",
+      "onclick": "pc0101_checkKaimeLive('3')",
+      "hidden_id": "hcomHdnTouhyouLive3",
+      "hidden_value": "M55-TiOKRgzcmeiQ08HxlTDSC_Y4MZOULUfYGnS8eTw"
+    },
+    {
+      "index": 4,
+      "venue": "いわき平",
+      "button_id": "hcombtnLive4",
+      "onclick": "pc0101_checkKaimeLive('4')",
+      "hidden_id": "hcomHdnTouhyouLive4",
+      "hidden_value": "6nWOJ2YgWUh0vVMBoyI8CI6juP_egQtEjCYj4mlac8Y"
+    },
+    {
+      "index": 5,
+      "venue": "小田原",
+      "button_id": "hcombtnLive5",
+      "onclick": "pc0101_checkKaimeLive('5')",
+      "hidden_id": "hcomHdnTouhyouLive5",
+      "hidden_value": "oGn5WPyFKUs7MmpVS67mXcyaXcWr_MsPN1Xq4sYA1Ag"
+    },
+    {
+      "index": 6,
+      "venue": "名古屋",
+      "button_id": "hcombtnLive6",
+      "onclick": "pc0101_checkKaimeLive('6')",
+      "hidden_id": "hcomHdnTouhyouLive6",
+      "hidden_value": "u93Y_4IZiF1UgerS4eAiiib0tYhdENWfypeOKshBZA4"
+    },
+    {
+      "index": 7,
+      "venue": "広島",
+      "button_id": "hcombtnLive7",
+      "onclick": "pc0101_checkKaimeLive('7')",
+      "hidden_id": "hcomHdnTouhyouLive7",
+      "hidden_value": "Ozpk-eumfo_0DwX9fHqEYT7qyR_ltNxTg6mAvFPgD6E"
+    }
+  ],
+  "venues": [
+    {
+      "venue": "前橋",
+      "live_button": {
+        "index": 0,
+        "venue": "前橋",
+        "button_id": "hcombtnLive0",
+        "onclick": "pc0101_checkKaimeLive('0')",
+        "hidden_id": "hcomHdnTouhyouLive0",
+        "hidden_value": "D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM"
+      },
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.52
+      },
+      "status": "VENUE_COMPLETE",
+      "error": null,
+      "races": [
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 1,
+          "race_key": "20260710_前橋_1R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "text": "1R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg6yKHIJumn0V1D_pL0-QyZo"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.337
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 2,
+          "race_key": "20260710_前橋_2R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "text": "2R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg7YnWUEHNDveXwNz883qAmo"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.326
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 3,
+          "race_key": "20260710_前橋_3R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "text": "3R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg8ZETJHI272cmccux_n2-tM"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.331
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 4,
+          "race_key": "20260710_前橋_4R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "text": "4R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjgx_V5PzaCViSMMgd67MdmnE"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.306
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 5,
+          "race_key": "20260710_前橋_5R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "text": "5R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjgw1yGwbwqSrsgs13Go265no"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.324
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 6,
+          "race_key": "20260710_前橋_6R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "text": "6R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg8DsXR-nb3YbGx_2ykhaIlQ"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.312
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 7,
+          "race_key": "20260710_前橋_7R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "text": "7R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg4aVYN1CM9vOgRObzAFqc1s"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.353
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 8,
+          "race_key": "20260710_前橋_8R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "text": "8R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg21M9qrRZgsxZlCiipFEj34"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.328
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 9,
+          "race_key": "20260710_前橋_9R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "text": "9R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn active",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg1HWeyq02UGb7WtTymQwe2Q"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.519
+          },
+          "prediction_type": "コマ切れ",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              7,
+              3
+            ],
+            [
+              1,
+              5,
+              9
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              4
+            ],
+            [
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 9,
+              "car_numbers": [
+                7,
+                3,
+                1,
+                5,
+                9,
+                8,
+                2,
+                4,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                8,
+                9,
+                11,
+                13
+              ],
+              "reconstructed_lines": [
+                [
+                  7,
+                  3
+                ],
+                [
+                  1,
+                  5,
+                  9
+                ],
+                [
+                  8,
+                  2
+                ],
+                [
+                  4
+                ],
+                [
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              7,
+              3,
+              1,
+              5,
+              9,
+              8,
+              2,
+              4,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "rider_count": 9,
+            "unique_rider_count": 9,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 10,
+          "race_key": "20260710_前橋_10R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 10,
+            "id": "hhRaceBtn10",
+            "text": "10R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjgy9fAEn0CSI1hSKg7GzMboQ"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.516
+          },
+          "prediction_type": "四分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              7,
+              1,
+              4
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              6,
+              9
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 9,
+              "car_numbers": [
+                7,
+                1,
+                4,
+                5,
+                2,
+                8,
+                3,
+                6,
+                9
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9,
+                11,
+                12
+              ],
+              "reconstructed_lines": [
+                [
+                  7,
+                  1,
+                  4
+                ],
+                [
+                  5,
+                  2
+                ],
+                [
+                  8,
+                  3
+                ],
+                [
+                  6,
+                  9
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              7,
+              1,
+              4,
+              5,
+              2,
+              8,
+              3,
+              6,
+              9
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "rider_count": 9,
+            "unique_rider_count": 9,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 11,
+          "race_key": "20260710_前橋_11R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 11,
+            "id": "hhRaceBtn11",
+            "text": "11R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg1JXltTL3ak5aqJ3aGavmvw"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.52
+          },
+          "prediction_type": "四分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              2,
+              5,
+              8
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 9,
+              "car_numbers": [
+                2,
+                5,
+                8,
+                9,
+                1,
+                7,
+                3,
+                6,
+                4
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9,
+                11,
+                12
+              ],
+              "reconstructed_lines": [
+                [
+                  2,
+                  5,
+                  8
+                ],
+                [
+                  9,
+                  1
+                ],
+                [
+                  7,
+                  3
+                ],
+                [
+                  6,
+                  4
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              2,
+              5,
+              8,
+              9,
+              1,
+              7,
+              3,
+              6,
+              4
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "rider_count": 9,
+            "unique_rider_count": 9,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 12,
+          "race_key": "20260710_前橋_12R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 12,
+            "id": "hhRaceBtn12",
+            "text": "12R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg-86H6yIcmrK9ms2fjfwuMM"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "四分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              3,
+              1,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 9,
+              "car_numbers": [
+                3,
+                1,
+                7,
+                5,
+                8,
+                9,
+                4,
+                2,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9,
+                11,
+                12
+              ],
+              "reconstructed_lines": [
+                [
+                  3,
+                  1,
+                  7
+                ],
+                [
+                  5,
+                  8
+                ],
+                [
+                  9,
+                  4
+                ],
+                [
+                  2,
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              3,
+              1,
+              7,
+              5,
+              8,
+              9,
+              4,
+              2,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "rider_count": 9,
+            "unique_rider_count": 9,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        }
+      ]
+    },
+    {
+      "venue": "函館",
+      "live_button": {
+        "index": 1,
+        "venue": "函館",
+        "button_id": "hcombtnLive1",
+        "onclick": "pc0101_checkKaimeLive('1')",
+        "hidden_id": "hcomHdnTouhyouLive1",
+        "hidden_value": "T9wMz-ha1TZ640Z-S5GN5Lj37nIT_hpE1pP7n8r0_zE"
+      },
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.519
+      },
+      "status": "VENUE_COMPLETE",
+      "error": null,
+      "races": [
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 1,
+          "race_key": "20260710_函館_1R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "text": "1R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn active",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5JyLIbhZ9FZgrqAqdyafs1k"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.292
+          },
+          "prediction_type": "四分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              1,
+              5
+            ],
+            [
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                5,
+                4,
+                3,
+                6,
+                2,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                6,
+                7,
+                9,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  4
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              5,
+              4,
+              3,
+              6,
+              2,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 2,
+          "race_key": "20260710_函館_2R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "text": "2R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5LP9kcC518gHU3vbqW8uRks"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.519
+          },
+          "prediction_type": "四分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              1,
+              7
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              4
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                7,
+                5,
+                3,
+                6,
+                2,
+                4
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  7
+                ],
+                [
+                  5,
+                  3
+                ],
+                [
+                  6,
+                  2
+                ],
+                [
+                  4
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              7,
+              5,
+              3,
+              6,
+              2,
+              4
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 3,
+          "race_key": "20260710_函館_3R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "text": "3R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5GHvfsoElRPZZcNMvgxS0y4"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.515
+          },
+          "prediction_type": "コマ切れ",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              6,
+              5,
+              3
+            ],
+            [
+              4
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                6,
+                5,
+                3,
+                4,
+                2,
+                1,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                7,
+                9,
+                11
+              ],
+              "reconstructed_lines": [
+                [
+                  6,
+                  5,
+                  3
+                ],
+                [
+                  4
+                ],
+                [
+                  2
+                ],
+                [
+                  1
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              6,
+              5,
+              3,
+              4,
+              2,
+              1,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 4,
+          "race_key": "20260710_函館_4R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "text": "4R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5MPKN4273vHMZ-l9K9mVbbY"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.516
+          },
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              4,
+              7,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                4,
+                7,
+                1,
+                2,
+                5,
+                3,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  4,
+                  7,
+                  1
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              4,
+              7,
+              1,
+              2,
+              5,
+              3,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 5,
+          "race_key": "20260710_函館_5R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "text": "5R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5Ijxbp95JOyVSg02dhsl-nU"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.518
+          },
+          "prediction_type": "二分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              1,
+              7,
+              4
+            ],
+            [
+              5,
+              2,
+              3,
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                7,
+                4,
+                5,
+                2,
+                3,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  7,
+                  4
+                ],
+                [
+                  5,
+                  2,
+                  3,
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              7,
+              4,
+              5,
+              2,
+              3,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 6,
+          "race_key": "20260710_函館_6R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "text": "6R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5CuOc12wF9RksCG14Rco5uI"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.524
+          },
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              5,
+              1,
+              7
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                5,
+                1,
+                7,
+                4,
+                2,
+                6,
+                3
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  5,
+                  1,
+                  7
+                ],
+                [
+                  4,
+                  2
+                ],
+                [
+                  6,
+                  3
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              5,
+              1,
+              7,
+              4,
+              2,
+              6,
+              3
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 7,
+          "race_key": "20260710_函館_7R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "text": "7R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5BYH4thmGK-4xbMkDZx7WbM"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              7,
+              2,
+              4
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                7,
+                2,
+                4,
+                5,
+                1,
+                6,
+                3
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  7,
+                  2,
+                  4
+                ],
+                [
+                  5,
+                  1
+                ],
+                [
+                  6,
+                  3
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              7,
+              2,
+              4,
+              5,
+              1,
+              6,
+              3
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 8,
+          "race_key": "20260710_函館_8R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "text": "8R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5N674mVGG-t8ANFC8YsUPgM"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.523
+          },
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              7,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              1,
+              4,
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                7,
+                3,
+                5,
+                2,
+                1,
+                4,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  7,
+                  3
+                ],
+                [
+                  5,
+                  2
+                ],
+                [
+                  1,
+                  4,
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              7,
+              3,
+              5,
+              2,
+              1,
+              4,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 9,
+          "race_key": "20260710_函館_9R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "text": "9R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5AMfrC6snXsXQf5kkWw7OP8"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.519
+          },
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              3,
+              6
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              5,
+              2,
+              4
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                3,
+                6,
+                7,
+                1,
+                5,
+                2,
+                4
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  3,
+                  6
+                ],
+                [
+                  7,
+                  1
+                ],
+                [
+                  5,
+                  2,
+                  4
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              3,
+              6,
+              7,
+              1,
+              5,
+              2,
+              4
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 10,
+          "race_key": "20260710_函館_10R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 10,
+            "id": "hhRaceBtn10",
+            "text": "10R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5GG4toZsZxf6lglwNNFyS1M"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.524
+          },
+          "prediction_type": "四分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              5,
+              2
+            ],
+            [
+              3
+            ],
+            [
+              6
+            ],
+            [
+              4,
+              1,
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                5,
+                2,
+                3,
+                6,
+                4,
+                1,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                6,
+                8,
+                9,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  5,
+                  2
+                ],
+                [
+                  3
+                ],
+                [
+                  6
+                ],
+                [
+                  4,
+                  1,
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              5,
+              2,
+              3,
+              6,
+              4,
+              1,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 11,
+          "race_key": "20260710_函館_11R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 11,
+            "id": "hhRaceBtn11",
+            "text": "11R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5HL9q39K7cdPg7RZfXkKrRo"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "四分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              4,
+              6
+            ],
+            [
+              1,
+              7,
+              5
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                4,
+                6,
+                1,
+                7,
+                5,
+                2,
+                3
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                8,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  4,
+                  6
+                ],
+                [
+                  1,
+                  7,
+                  5
+                ],
+                [
+                  2
+                ],
+                [
+                  3
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              4,
+              6,
+              1,
+              7,
+              5,
+              2,
+              3
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "函館",
+          "race_no": 12,
+          "race_key": "20260710_函館_12R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 12,
+            "id": "hhRaceBtn12",
+            "text": "12R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "T9wMz-ha1TZ640Z-S5GN5AIG1IFc4LqI1ZrLHYWchlk"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.523
+          },
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              4,
+              1,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                4,
+                1,
+                7,
+                3,
+                5,
+                6,
+                2
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  4,
+                  1,
+                  7
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  6,
+                  2
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              4,
+              1,
+              7,
+              3,
+              5,
+              6,
+              2
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        }
+      ]
+    },
+    {
+      "venue": "伊東",
+      "live_button": {
+        "index": 2,
+        "venue": "伊東",
+        "button_id": "hcombtnLive2",
+        "onclick": "pc0101_checkKaimeLive('2')",
+        "hidden_id": "hcomHdnTouhyouLive2",
+        "hidden_value": "W2uRQM1igycPTuhMZ-U0HxluJbAQf-41MmWPl-1Y9aE"
+      },
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.524
+      },
+      "status": "VENUE_COMPLETE",
+      "error": null,
+      "races": [
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 1,
+          "race_key": "20260710_伊東_1R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "text": "1R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn active",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0H8DVJOJzsbvoNLD2BmLUg28"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.298
+          },
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              2,
+              6
+            ],
+            [
+              5,
+              1,
+              4
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                2,
+                6,
+                5,
+                1,
+                4,
+                3,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  2,
+                  6
+                ],
+                [
+                  5,
+                  1,
+                  4
+                ],
+                [
+                  3,
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              2,
+              6,
+              5,
+              1,
+              4,
+              3,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 2,
+          "race_key": "20260710_伊東_2R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "text": "2R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0H1ckeGFVEhpuVqRpv-w0D0Y"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.524
+          },
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              5,
+              2,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                5,
+                2,
+                7,
+                1,
+                6,
+                4,
+                3
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  5,
+                  2,
+                  7
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              5,
+              2,
+              7,
+              1,
+              6,
+              4,
+              3
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 3,
+          "race_key": "20260710_伊東_3R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "text": "3R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0H7vIXH0Ti0tAannT2KqlyiE"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.523
+          },
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              5,
+              1,
+              4
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                5,
+                1,
+                4,
+                6,
+                2,
+                7,
+                3
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  5,
+                  1,
+                  4
+                ],
+                [
+                  6,
+                  2
+                ],
+                [
+                  7,
+                  3
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              5,
+              1,
+              4,
+              6,
+              2,
+              7,
+              3
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 4,
+          "race_key": "20260710_伊東_4R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "text": "4R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0H8ICl6mBsm4jGAvGtZwPe74"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.516
+          },
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              1,
+              4
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              5,
+              3,
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                4,
+                7,
+                2,
+                5,
+                3,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  4
+                ],
+                [
+                  7,
+                  2
+                ],
+                [
+                  5,
+                  3,
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              4,
+              7,
+              2,
+              5,
+              3,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 5,
+          "race_key": "20260710_伊東_5R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "text": "5R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0HxEvcDx0fhALPKxJhzjXWhw"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.519
+          },
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              3,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                3,
+                7,
+                1,
+                4,
+                2,
+                5,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  3,
+                  7
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              3,
+              7,
+              1,
+              4,
+              2,
+              5,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 6,
+          "race_key": "20260710_伊東_6R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "text": "6R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0H21VOEbv9I2qglR4RuXGtxw"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": null,
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              5
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                2,
+                5,
+                3,
+                4,
+                6,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13
+              ],
+              "reconstructed_lines": [
+                [
+                  1
+                ],
+                [
+                  2
+                ],
+                [
+                  5
+                ],
+                [
+                  3
+                ],
+                [
+                  4
+                ],
+                [
+                  6
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              2,
+              5,
+              3,
+              4,
+              6,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 7,
+          "race_key": "20260710_伊東_7R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "text": "7R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0HywiY6upGw73OhvcozRmeR0"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.516
+          },
+          "prediction_type": null,
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              4
+            ],
+            [
+              3
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                2,
+                1,
+                4,
+                3,
+                5,
+                6,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13
+              ],
+              "reconstructed_lines": [
+                [
+                  2
+                ],
+                [
+                  1
+                ],
+                [
+                  4
+                ],
+                [
+                  3
+                ],
+                [
+                  5
+                ],
+                [
+                  6
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              2,
+              1,
+              4,
+              3,
+              5,
+              6,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 8,
+          "race_key": "20260710_伊東_8R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "text": "8R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0H_MbbdvzpixJSW5S-bSdP_M"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "コマ切れ",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              1,
+              6
+            ],
+            [
+              5
+            ],
+            [
+              4,
+              7,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                6,
+                5,
+                4,
+                7,
+                2,
+                3
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                6,
+                7,
+                8,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  6
+                ],
+                [
+                  5
+                ],
+                [
+                  4,
+                  7,
+                  2
+                ],
+                [
+                  3
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              6,
+              5,
+              4,
+              7,
+              2,
+              3
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 9,
+          "race_key": "20260710_伊東_9R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "text": "9R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0H4vx61ga1JWfhGG7iZPRcAU"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.516
+          },
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              4,
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                4,
+                1,
+                6,
+                2,
+                5,
+                7,
+                3
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  4,
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  7,
+                  3
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              4,
+              1,
+              6,
+              2,
+              5,
+              7,
+              3
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 10,
+          "race_key": "20260710_伊東_10R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 10,
+            "id": "hhRaceBtn10",
+            "text": "10R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0HyFLA3uR3a6F_Ogzxwtg6Zk"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.522
+          },
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                7,
+                2,
+                4,
+                6,
+                5,
+                3
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  4,
+                  6
+                ],
+                [
+                  5,
+                  3
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              7,
+              2,
+              4,
+              6,
+              5,
+              3
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 11,
+          "race_key": "20260710_伊東_11R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 11,
+            "id": "hhRaceBtn11",
+            "text": "11R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0H9qriovAign0hs407G4h8bs"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              4,
+              3,
+              1
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                4,
+                3,
+                1,
+                2,
+                7,
+                6,
+                5
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  4,
+                  3,
+                  1
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  6,
+                  5
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              4,
+              3,
+              1,
+              2,
+              7,
+              6,
+              5
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "伊東",
+          "race_no": 12,
+          "race_key": "20260710_伊東_12R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 12,
+            "id": "hhRaceBtn12",
+            "text": "12R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "W2uRQM1igycPTuhMZ-U0H6mTzW8wj0OAvzeb7gTmiB8"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.516
+          },
+          "prediction_type": "コマ切れ",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              3,
+              7
+            ],
+            [
+              1
+            ],
+            [
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                4,
+                2,
+                5,
+                3,
+                7,
+                1,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                8,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  4,
+                  2
+                ],
+                [
+                  5,
+                  3,
+                  7
+                ],
+                [
+                  1
+                ],
+                [
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              4,
+              2,
+              5,
+              3,
+              7,
+              1,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        }
+      ]
+    },
+    {
+      "venue": "大垣",
+      "live_button": {
+        "index": 3,
+        "venue": "大垣",
+        "button_id": "hcombtnLive3",
+        "onclick": "pc0101_checkKaimeLive('3')",
+        "hidden_id": "hcomHdnTouhyouLive3",
+        "hidden_value": "M55-TiOKRgzcmeiQ08HxlTDSC_Y4MZOULUfYGnS8eTw"
+      },
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.515
+      },
+      "status": "VENUE_COMPLETE",
+      "error": null,
+      "races": [
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 1,
+          "race_key": "20260710_大垣_1R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "text": "1R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxlUCkGmOvz-_69-nOayrYkIQ"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.344
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 2,
+          "race_key": "20260710_大垣_2R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "text": "2R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxlWpjJgMnPoAVZYw0ulnpBH4"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.272
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 3,
+          "race_key": "20260710_大垣_3R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "text": "3R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxldUsS6Vg4U7l1yehKI2FSlk"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.264
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 4,
+          "race_key": "20260710_大垣_4R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "text": "4R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxlRn_gdL0zuICp7i-bbYGBJg"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.289
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 5,
+          "race_key": "20260710_大垣_5R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "text": "5R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08Hxlbjk5OxySO57V24Py-8AkX8"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.29
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 6,
+          "race_key": "20260710_大垣_6R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "text": "6R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxlQdMMGGx19cNx0apvYQ5wng"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.289
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 7,
+          "race_key": "20260710_大垣_7R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "text": "7R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxlbsbmBIRYW7xAjtJGlGCStc"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.315
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 8,
+          "race_key": "20260710_大垣_8R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "text": "8R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxlYq3-Zjo6FQEaVOE66Dp-xo"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.306
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 9,
+          "race_key": "20260710_大垣_9R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "text": "9R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn active",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxldwTWBdzkOZ3AyGl9XAIBbs"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.526
+          },
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              5,
+              3
+            ],
+            [
+              7,
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                5,
+                3,
+                7,
+                1,
+                6,
+                2,
+                4
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  5,
+                  3
+                ],
+                [
+                  7,
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              5,
+              3,
+              7,
+              1,
+              6,
+              2,
+              4
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 10,
+          "race_key": "20260710_大垣_10R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 10,
+            "id": "hhRaceBtn10",
+            "text": "10R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxlU-07JOyb2hUHQICH-MPe-k"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.515
+          },
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              4,
+              1
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7,
+              5
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                4,
+                1,
+                2,
+                6,
+                3,
+                7,
+                5
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  4,
+                  1
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  3,
+                  7,
+                  5
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              4,
+              1,
+              2,
+              6,
+              3,
+              7,
+              5
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 11,
+          "race_key": "20260710_大垣_11R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 11,
+            "id": "hhRaceBtn11",
+            "text": "11R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxlRmP7S68sS7eEoStkEyN7Fc"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.523
+          },
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              5,
+              1
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              4
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                5,
+                1,
+                3,
+                6,
+                7,
+                2,
+                4
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  5,
+                  1
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  7,
+                  2
+                ],
+                [
+                  4
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              5,
+              1,
+              3,
+              6,
+              7,
+              2,
+              4
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "大垣",
+          "race_no": 12,
+          "race_key": "20260710_大垣_12R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 12,
+            "id": "hhRaceBtn12",
+            "text": "12R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "M55-TiOKRgzcmeiQ08HxlRK_uvikWZHz-BcH4r-CICw"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.521
+          },
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              1,
+              6
+            ],
+            [
+              4
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                6,
+                4,
+                7,
+                3,
+                2,
+                5
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                6,
+                7,
+                9,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  6
+                ],
+                [
+                  4
+                ],
+                [
+                  7,
+                  3
+                ],
+                [
+                  2,
+                  5
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              6,
+              4,
+              7,
+              3,
+              2,
+              5
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        }
+      ]
+    },
+    {
+      "venue": "いわき平",
+      "live_button": {
+        "index": 4,
+        "venue": "いわき平",
+        "button_id": "hcombtnLive4",
+        "onclick": "pc0101_checkKaimeLive('4')",
+        "hidden_id": "hcomHdnTouhyouLive4",
+        "hidden_value": "6nWOJ2YgWUh0vVMBoyI8CI6juP_egQtEjCYj4mlac8Y"
+      },
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.521
+      },
+      "status": "VENUE_COMPLETE",
+      "error": null,
+      "races": [
+        {
+          "race_date": "20260710",
+          "venue": "いわき平",
+          "race_no": 1,
+          "race_key": "20260710_いわき平_1R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "text": "1R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn active",
+            "disabled": false,
+            "encp": "6nWOJ2YgWUh0vVMBoyI8CGUBSFfqtZ4mnlLTLIImIhY"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.289
+          },
+          "prediction_type": "二分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              3,
+              2,
+              4
+            ],
+            [
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "has_competition": true,
+          "competition_rows": [
+            {
+              "row_index": 1,
+              "car_numbers": [
+                1
+              ],
+              "car_cell_indexes": [
+                2
+              ],
+              "reconstructed_lines": [
+                [
+                  1
+                ]
+              ]
+            }
+          ],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 6,
+              "car_numbers": [
+                3,
+                2,
+                4,
+                5,
+                7,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                7,
+                8
+              ],
+              "reconstructed_lines": [
+                [
+                  3,
+                  2,
+                  4
+                ],
+                [
+                  5
+                ],
+                [
+                  7,
+                  6
+                ]
+              ]
+            },
+            {
+              "row_index": 1,
+              "car_count": 1,
+              "car_numbers": [
+                1
+              ],
+              "car_cell_indexes": [
+                2
+              ],
+              "reconstructed_lines": [
+                [
+                  1
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              3,
+              2,
+              4,
+              5,
+              7,
+              6,
+              1
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "いわき平",
+          "race_no": 2,
+          "race_key": "20260710_いわき平_2R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "text": "2R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "6nWOJ2YgWUh0vVMBoyI8CK4_EaVXuP7p8UifiORFTTM"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "二分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              4,
+              1,
+              2
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6
+            ]
+          ],
+          "has_competition": true,
+          "competition_rows": [
+            {
+              "row_index": 1,
+              "car_numbers": [
+                3
+              ],
+              "car_cell_indexes": [
+                2
+              ],
+              "reconstructed_lines": [
+                [
+                  3
+                ]
+              ]
+            }
+          ],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 6,
+              "car_numbers": [
+                4,
+                1,
+                2,
+                5,
+                7,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8
+              ],
+              "reconstructed_lines": [
+                [
+                  4,
+                  1,
+                  2
+                ],
+                [
+                  5,
+                  7
+                ],
+                [
+                  6
+                ]
+              ]
+            },
+            {
+              "row_index": 1,
+              "car_count": 1,
+              "car_numbers": [
+                3
+              ],
+              "car_cell_indexes": [
+                2
+              ],
+              "reconstructed_lines": [
+                [
+                  3
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              4,
+              1,
+              2,
+              5,
+              7,
+              6,
+              3
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "いわき平",
+          "race_no": 3,
+          "race_key": "20260710_いわき平_3R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "text": "3R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "6nWOJ2YgWUh0vVMBoyI8CGdv8OGkTdxnHEldBh_Oxx4"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.516
+          },
+          "prediction_type": "二分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              1,
+              2,
+              6,
+              7
+            ],
+            [
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                2,
+                6,
+                7,
+                3,
+                4,
+                5
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  2,
+                  6,
+                  7
+                ],
+                [
+                  3
+                ],
+                [
+                  4,
+                  5
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              2,
+              6,
+              7,
+              3,
+              4,
+              5
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "いわき平",
+          "race_no": 4,
+          "race_key": "20260710_いわき平_4R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "text": "4R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "6nWOJ2YgWUh0vVMBoyI8CM9bxkErDDfIdDe6Hikzlyo"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.516
+          },
+          "prediction_type": "コマ切れ",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              3,
+              4,
+              7
+            ],
+            [
+              1
+            ],
+            [
+              6
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                3,
+                4,
+                7,
+                1,
+                6,
+                5,
+                2
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                7,
+                9,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  3,
+                  4,
+                  7
+                ],
+                [
+                  1
+                ],
+                [
+                  6
+                ],
+                [
+                  5,
+                  2
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              3,
+              4,
+              7,
+              1,
+              6,
+              5,
+              2
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "いわき平",
+          "race_no": 5,
+          "race_key": "20260710_いわき平_5R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "text": "5R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "6nWOJ2YgWUh0vVMBoyI8CFjcdCVRYeURNfWq9lGVxhA"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.52
+          },
+          "prediction_type": "コマ切れ",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                4,
+                5,
+                3,
+                2,
+                6,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                10
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  2
+                ],
+                [
+                  6
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              4,
+              5,
+              3,
+              2,
+              6,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "いわき平",
+          "race_no": 6,
+          "race_key": "20260710_いわき平_6R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "text": "6R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "6nWOJ2YgWUh0vVMBoyI8CAIqhrJXVn8HQ7XwrPpaE1c"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.518
+          },
+          "prediction_type": "二分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              1,
+              5,
+              2
+            ],
+            [
+              6,
+              3,
+              4
+            ],
+            [
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                5,
+                2,
+                6,
+                3,
+                4,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  5,
+                  2
+                ],
+                [
+                  6,
+                  3,
+                  4
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              5,
+              2,
+              6,
+              3,
+              4,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "いわき平",
+          "race_no": 7,
+          "race_key": "20260710_いわき平_7R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "text": "7R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "6nWOJ2YgWUh0vVMBoyI8CMyS08bGZic9emhvhKX8org"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.52
+          },
+          "prediction_type": "三分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              2,
+              1,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                2,
+                1,
+                3,
+                4,
+                5,
+                7,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  2,
+                  1,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  7,
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              2,
+              1,
+              3,
+              4,
+              5,
+              7,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "いわき平",
+          "race_no": 8,
+          "race_key": "20260710_いわき平_8R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "text": "8R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "6nWOJ2YgWUh0vVMBoyI8CHjIq36nX2eJrOw_NzRVBnk"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.516
+          },
+          "prediction_type": "三分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              1,
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                2,
+                6,
+                3,
+                7,
+                5,
+                4
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  2,
+                  6
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              2,
+              6,
+              3,
+              7,
+              5,
+              4
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "いわき平",
+          "race_no": 9,
+          "race_key": "20260710_いわき平_9R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "text": "9R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "6nWOJ2YgWUh0vVMBoyI8CAXey9v3GvW2IlnNsfcGr3o"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "三分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              6,
+              1,
+              2
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                6,
+                1,
+                2,
+                3,
+                5,
+                7,
+                4
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  6,
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  7,
+                  4
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              6,
+              1,
+              2,
+              3,
+              5,
+              7,
+              4
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        }
+      ]
+    },
+    {
+      "venue": "小田原",
+      "live_button": {
+        "index": 5,
+        "venue": "小田原",
+        "button_id": "hcombtnLive5",
+        "onclick": "pc0101_checkKaimeLive('5')",
+        "hidden_id": "hcomHdnTouhyouLive5",
+        "hidden_value": "oGn5WPyFKUs7MmpVS67mXcyaXcWr_MsPN1Xq4sYA1Ag"
+      },
+      "venue_wait": {
+        "changed": false,
+        "wait_seconds": 15.276
+      },
+      "status": "VENUE_COMPLETE",
+      "error": null,
+      "races": [
+        {
+          "race_date": "20260710",
+          "venue": "小田原",
+          "race_no": 1,
+          "race_key": "20260710_小田原_1R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "text": "1R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "oGn5WPyFKUs7MmpVS67mXQgwLv9aQOvBF7VZHwKtXcU"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.281
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "小田原",
+          "race_no": 2,
+          "race_key": "20260710_小田原_2R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "text": "2R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "oGn5WPyFKUs7MmpVS67mXXZBMLDmaJIW3ggo5GMPBp4"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.277
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "小田原",
+          "race_no": 3,
+          "race_key": "20260710_小田原_3R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "text": "3R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "oGn5WPyFKUs7MmpVS67mXSLIvE2IwtrlLe97cX87BtE"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.282
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "小田原",
+          "race_no": 4,
+          "race_key": "20260710_小田原_4R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "text": "4R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "oGn5WPyFKUs7MmpVS67mXRdwKWLw5Ns9WFVJrFEzZRw"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.275
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "小田原",
+          "race_no": 5,
+          "race_key": "20260710_小田原_5R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "text": "5R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "oGn5WPyFKUs7MmpVS67mXZOETl6EpEg3pdx_vAwy2jw"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.254
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "小田原",
+          "race_no": 6,
+          "race_key": "20260710_小田原_6R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "text": "6R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "oGn5WPyFKUs7MmpVS67mXdcy1g6SUJ-uqbFdXcM8EJU"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.281
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "小田原",
+          "race_no": 7,
+          "race_key": "20260710_小田原_7R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "text": "7R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin active",
+            "disabled": false,
+            "encp": "oGn5WPyFKUs7MmpVS67mXbncBjH7x6Dk6Y8bAqT9l4U"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.254
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        }
+      ]
+    },
+    {
+      "venue": "名古屋",
+      "live_button": {
+        "index": 6,
+        "venue": "名古屋",
+        "button_id": "hcombtnLive6",
+        "onclick": "pc0101_checkKaimeLive('6')",
+        "hidden_id": "hcomHdnTouhyouLive6",
+        "hidden_value": "u93Y_4IZiF1UgerS4eAiiib0tYhdENWfypeOKshBZA4"
+      },
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.516
+      },
+      "status": "VENUE_COMPLETE",
+      "error": null,
+      "races": [
+        {
+          "race_date": "20260710",
+          "venue": "名古屋",
+          "race_no": 1,
+          "race_key": "20260710_名古屋_1R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "text": "1R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn active",
+            "disabled": false,
+            "encp": "u93Y_4IZiF1UgerS4eAiimqh4vVm0Ak_K32k_Fuwh-E"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.297
+          },
+          "prediction_type": null,
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13
+              ],
+              "reconstructed_lines": [
+                [
+                  1
+                ],
+                [
+                  2
+                ],
+                [
+                  3
+                ],
+                [
+                  4
+                ],
+                [
+                  5
+                ],
+                [
+                  6
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "名古屋",
+          "race_no": 2,
+          "race_key": "20260710_名古屋_2R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "text": "2R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "u93Y_4IZiF1UgerS4eAiiojMWkRX2u3_k94OXwRF7-s"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.526
+          },
+          "prediction_type": null,
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              5
+            ],
+            [
+              4
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                2,
+                1,
+                3,
+                5,
+                4,
+                6,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13
+              ],
+              "reconstructed_lines": [
+                [
+                  2
+                ],
+                [
+                  1
+                ],
+                [
+                  3
+                ],
+                [
+                  5
+                ],
+                [
+                  4
+                ],
+                [
+                  6
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              2,
+              1,
+              3,
+              5,
+              4,
+              6,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "名古屋",
+          "race_no": 3,
+          "race_key": "20260710_名古屋_3R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "text": "3R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "u93Y_4IZiF1UgerS4eAiik4L7S6yZPffoc8rWN6jTWg"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.518
+          },
+          "prediction_type": "二分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              4,
+              3,
+              5,
+              6
+            ],
+            [
+              2,
+              1,
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                4,
+                3,
+                5,
+                6,
+                2,
+                1,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8
+              ],
+              "reconstructed_lines": [
+                [
+                  4,
+                  3,
+                  5,
+                  6
+                ],
+                [
+                  2,
+                  1,
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              4,
+              3,
+              5,
+              6,
+              2,
+              1,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "名古屋",
+          "race_no": 4,
+          "race_key": "20260710_名古屋_4R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "text": "4R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "u93Y_4IZiF1UgerS4eAiio8P1vz9zTQYC4tZ2l5LTnw"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              1,
+              4
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                3,
+                5,
+                2,
+                1,
+                4,
+                7,
+                6
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  3,
+                  5
+                ],
+                [
+                  2,
+                  1,
+                  4
+                ],
+                [
+                  7,
+                  6
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              3,
+              5,
+              2,
+              1,
+              4,
+              7,
+              6
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "名古屋",
+          "race_no": 5,
+          "race_key": "20260710_名古屋_5R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "text": "5R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "u93Y_4IZiF1UgerS4eAiij6Ra6sKaa5n3f9EjWecdH4"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              2,
+              1,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                2,
+                1,
+                5,
+                3,
+                4,
+                6,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  2,
+                  1,
+                  5
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              2,
+              1,
+              5,
+              3,
+              4,
+              6,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "名古屋",
+          "race_no": 6,
+          "race_key": "20260710_名古屋_6R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "text": "6R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "u93Y_4IZiF1UgerS4eAiik9RLeY57jWqcBLGYcb1Rok"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.518
+          },
+          "prediction_type": "二分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              1,
+              3,
+              2
+            ],
+            [
+              6
+            ],
+            [
+              5,
+              4,
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                3,
+                2,
+                6,
+                5,
+                4,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                7,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  3,
+                  2
+                ],
+                [
+                  6
+                ],
+                [
+                  5,
+                  4,
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              3,
+              2,
+              6,
+              5,
+              4,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "名古屋",
+          "race_no": 7,
+          "race_key": "20260710_名古屋_7R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "text": "7R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "u93Y_4IZiF1UgerS4eAiigMa-PJRgLYGIfZDWt2fQg8"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.517
+          },
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              1,
+              4,
+              6
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                1,
+                4,
+                6,
+                3,
+                2,
+                5,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  1,
+                  4,
+                  6
+                ],
+                [
+                  3,
+                  2
+                ],
+                [
+                  5,
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              1,
+              4,
+              6,
+              3,
+              2,
+              5,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "名古屋",
+          "race_no": 8,
+          "race_key": "20260710_名古屋_8R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "text": "8R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "u93Y_4IZiF1UgerS4eAiim9miJjJifTNEZhPQP1Dm38"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.518
+          },
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              2,
+              1,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                2,
+                1,
+                4,
+                3,
+                5,
+                6,
+                7
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  2,
+                  1,
+                  4
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              2,
+              1,
+              4,
+              3,
+              5,
+              6,
+              7
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        },
+        {
+          "race_date": "20260710",
+          "venue": "名古屋",
+          "race_no": 9,
+          "race_key": "20260710_名古屋_9R",
+          "status": "LINE_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "text": "9R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+            "disabled": false,
+            "encp": "u93Y_4IZiF1UgerS4eAiivt4RMYPqCernEs_MgflFPQ"
+          },
+          "race_wait": {
+            "changed": true,
+            "wait_seconds": 1.519
+          },
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              3,
+              1
+            ],
+            [
+              7,
+              2,
+              6
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [
+            {
+              "row_index": 0,
+              "car_count": 7,
+              "car_numbers": [
+                3,
+                1,
+                7,
+                2,
+                6,
+                5,
+                4
+              ],
+              "car_cell_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "reconstructed_lines": [
+                [
+                  3,
+                  1
+                ],
+                [
+                  7,
+                  2,
+                  6
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            }
+          ],
+          "validation": {
+            "rider_numbers": [
+              3,
+              1,
+              7,
+              2,
+              6,
+              5,
+              4
+            ],
+            "unique_rider_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rider_count": 7,
+            "unique_rider_count": 7,
+            "duplicate_rider_numbers": [],
+            "has_duplicate": false
+          }
+        }
+      ]
+    },
+    {
+      "venue": "広島",
+      "live_button": {
+        "index": 7,
+        "venue": "広島",
+        "button_id": "hcombtnLive7",
+        "onclick": "pc0101_checkKaimeLive('7')",
+        "hidden_id": "hcomHdnTouhyouLive7",
+        "hidden_value": "Ozpk-eumfo_0DwX9fHqEYT7qyR_ltNxTg6mAvFPgD6E"
+      },
+      "venue_wait": {
+        "changed": false,
+        "wait_seconds": 15.285
+      },
+      "status": "VENUE_COMPLETE",
+      "error": null,
+      "races": [
+        {
+          "race_date": "20260710",
+          "venue": "広島",
+          "race_no": 1,
+          "race_key": "20260710_広島_1R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "text": "1R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "Ozpk-eumfo_0DwX9fHqEYaG7zdv9vUGP_4I26WVphvI"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.287
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "広島",
+          "race_no": 2,
+          "race_key": "20260710_広島_2R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "text": "2R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "Ozpk-eumfo_0DwX9fHqEYaNHOVUua5tiC5Pnnhtc2EA"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.269
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "広島",
+          "race_no": 3,
+          "race_key": "20260710_広島_3R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "text": "3R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "Ozpk-eumfo_0DwX9fHqEYdniPfcsDWGFTLkyMZoSZ1k"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.317
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "広島",
+          "race_no": 4,
+          "race_key": "20260710_広島_4R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "text": "4R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "Ozpk-eumfo_0DwX9fHqEYSvNFrZnD1UwNYQm2ApWtW4"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.296
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "広島",
+          "race_no": 5,
+          "race_key": "20260710_広島_5R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "text": "5R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "Ozpk-eumfo_0DwX9fHqEYWg9jbcvV6yavIU3PyM-kwE"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.299
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "広島",
+          "race_no": 6,
+          "race_key": "20260710_広島_6R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "text": "6R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "Ozpk-eumfo_0DwX9fHqEYVUHRf-hkx4TdMk52WS_IUo"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.267
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "広島",
+          "race_no": 7,
+          "race_key": "20260710_広島_7R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "text": "7R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin active",
+            "disabled": false,
+            "encp": "Ozpk-eumfo_0DwX9fHqEYa-Wvr5S1twwr7IdRiUMdVI"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.303
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        }
+      ]
+    }
+  ]
+}

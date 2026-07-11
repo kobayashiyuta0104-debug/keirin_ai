@@ -1,0 +1,64 @@
+{
+  "jquery": {
+    "exists": true,
+    "dollarExists": true,
+    "version": "1.11.3",
+    "hasData": "function"
+  },
+  "button": {
+    "exists": true,
+    "tag": "BUTTON",
+    "id": "pibtnResult",
+    "text": "競走結果",
+    "className": "btn onbtn",
+    "onclickAttribute": null,
+    "onclickProperty": null,
+    "outerHTML": "<button class=\"btn onbtn\" style=\"width: 130px;\" type=\"button\" id=\"pibtnResult\">競走結果</button>"
+  },
+  "jquery_events": [],
+  "native_properties": {},
+  "script_hits": [
+    {
+      "scriptIndex": 37,
+      "src": "https://keirin.jp/pc/static/js/PJ9110_v.js",
+      "keyword": "pibtnResult",
+      "index": 1297,
+      "sample": "ui-dialog-title\"]').text('短評・展開');\nif(!jsondata || Object.keys(jsondata).length == 0) {\n$(div_Success).addClass('dispoff');\n$(div_Error).removeClass('dispoff');\nCom.makePcUpdatePage(prm_div_Error, null, setPrm, function(arg0){PJ9110Controller.reqTanpyoTenkai(arg0);});\n} else if( jsondata.resultCd == -1 ) {\n$(div_Success).addClass('dispoff');\n$(div_Error).removeClass('dispoff');\nvar message = \"\";\nif( jsondata.message != undefined ) {\nmessage = jsondata.message;\n}\nCom.makePcUpdatePage(prm_div_Error, message, setPrm, function(arg0){PJ9110Controller.reqTanpyoTenkai(arg0);});\n} else {\n$(div_Success).removeClass('dispoff');\n$(div_Error).addClass('dispoff');\nvar bold = null;\n$('div[class*=\"tanten_ari\"] span[class=\"ui-dialog-title\"]').text(jsondata.title);\n$('#piKeirinjyo').text(jsondata.jyoName); \n$('#piGrade').text(jsondata.gGrade); \n$('#piKaisaihi').text(jsondata.kaisaihi); \n$('#piRaceNo').text(jsondata.raceNo); \n$('#piSyumoku').text(jsondata.syumoku); \nif(jsondata.btnResultFlag == 0){\n$('#pibtnResult').addClass('disabled');\n}else{\n$('#pibtnResult').removeClass('disabled');\n$('#pibtnResult').attr('onclick', 'pibtnResultClick(\"' + jsondata.raceBasicURL + '\", \"' + \n                                                                         jsondata.encPrm + '\")');\n}\nif(jsondata.btnDigestFlag == 0){\n$('#pibtnDigest').addClass('disabled');\n}else{\n$('#pibtnDigest').removeClass('disabled');\n$('#pibtnDigest').attr('onclick', 'pibtnDigestClick(\"' + jsondata.btnDigestURL + '\", \"' + \n                                                 jsondata.prmJyoCd + '\", \"' + \n                                                 jsondata.prmKaisaihi + '\", \"' + \n                                                 jsondata.raceNo + '\")');\n}\nif(jsondata.dspTanpyoFlg == 0){\n$('#pidivBs').css('display', 'none');\n$('#pidivTenkai').css('display', 'none');\n$('#pidivTeikyo').css('display', 'none');\n}else{\nvar bbody = $('#pitbodyBs');\nvar tukaColor = null;\nvar bsTyakui = null;\nvar bsTuka = null;\nbbody.empty();\nif(jsondata.tanpyoList){\nfor(var i = 0; i < jsondata.tanpyoList.length; i++){\nvar tan = jsondata.tanpyoList[i];\nif(tan.bsTuka){\nbsTuka = tan.bsTuka;\n}else{\nbsTuka = '';\n}\nif(tan.bsTukaColor){\ntukaColor = tan.bsTukaColor + \" bold\";\n}else{\ntukaColor = \"\";\n}\nif(tan.boldFlg == 1){\nbold = \"bold\";\n}else{\nbold = \"\";\n}\nif(tan.tyakui){\nbsTyakui = tan.tyakui;\n}else{\nbsTyakui = '';\n}\nbbody.append('<tr><td class=\"al-c\">' + bsTyakui + '</td>' + \n '<td class=\"al-c ' + tukaColor + '\">' + bsTuka + '</td>' +\n '<td class=\"al-c\"><div class=\"lnum ' + tan.syabanColor + '\">' + tan.syaban + '</div></td>' +\n '<td class=\"al-l spacepadding4 ' + bold + '\">' + tan.sensyuName + '</td>' +\n '<td class=\"al-l spacepadding4\">' + tan.tanpyo + '</td>');\n}\n$('#pidivBs').css('display', '');\n}else{\n$('#pidivBs').css('display', 'none');\n$('#pidivTeikyo').css('display', 'none');\n}\nif(jsondata.tenkaiList){\nvar developItem = jsondata.tenkaiList;\n$('#piTableTenkaiGoing').html(piMakeTenkaiTable(\"Going\"));\n$('#piTableTenkaiBell').html("
+    },
+    {
+      "scriptIndex": 38,
+      "src": "https://keirin.jp/pc/static/js/PJ9110_c.js",
+      "keyword": "JSJ075",
+      "index": 39,
+      "sample": "var PJ9110Controller = {\nJSON_REQ_ID: \"JSJ075\",\nreqTanpyoTenkai: function(prm, thinFlg) {\nvar result = null;\nvar params = {};\nif(typeof(prm) == 'object'){\nparams = prm;\n}else{\nparams['encp'] = prm;\nif (thinFlg != undefined){\nparams['thin'] = thinFlg;\n}\n}\ncommonLoad.loadingImage(\"true\"); \nCom.getRequestGet(PJ9110Controller.JSON_REQ_ID, params)\n.done(function(result) {\nPJ9110View.piDrawJSONData(result, prm);\ncommonLoad.loadingImage(\"false\");\n$('#tanten_ari').dialog( 'open' );\n});\n},\n};\n"
+    },
+    {
+      "scriptIndex": 39,
+      "src": "https://keirin.jp/pc/static/js/PJ9110.js",
+      "keyword": "pibtnResult",
+      "index": 96,
+      "sample": "function piInitialize(prm, thinFlg){\nPJ9110Controller.reqTanpyoTenkai(prm, thinFlg);\n}\nfunction pibtnResultClick(url, prm){\ncommonSubmit.formPost(url, { \"disp\" : \"PJ0326\", 'encp' : prm }, \"_blank\");\n}\nfunction pibtnDigestClick(url, jyoCd, kaisaihi, raceNo){\npiDigestPrm(url, jyoCd, kaisaihi, raceNo);\n}\nfunction piDigestPrm(url, jyoCd, kaisaihi, raceNo){\nvar digestParams = new Array();\nvar prm = {};\nprm.bkcd = jyoCd;\nprm.kday = kaisaihi;\nprm.rnum = raceNo;\ndigestParams.push(prm);\ncommonSubmit.formPost(url, { 'prmsDigestList' : JSON.stringify(digestParams) }, \"_blank\");\n}\n"
+    },
+    {
+      "scriptIndex": 39,
+      "src": "https://keirin.jp/pc/static/js/PJ9110.js",
+      "keyword": "piInitialize",
+      "index": 9,
+      "sample": "function piInitialize(prm, thinFlg){\nPJ9110Controller.reqTanpyoTenkai(prm, thinFlg);\n}\nfunction pibtnResultClick(url, prm){\ncommonSubmit.formPost(url, { \"disp\" : \"PJ0326\", 'encp' : prm }, \"_blank\");\n}\nfunction pibtnDigestClick(url, jyoCd, kaisaihi, raceNo){\npiDigestPrm(url, jyoCd, kaisaihi, raceNo);\n}\nfunction piDigestPrm(url, jyoCd, kaisaihi, raceNo){\nvar digestParams = new Array();\nvar prm = {};\nprm.bkcd = jyoCd;\nprm.kday = kaisaihi;\nprm.rnum = raceNo;\ndigestParams.push(prm);\ncommonSubmit.formPost(url, { 'prmsDigestList' : JSON.stringify(digestParams) }, \"_blank\");\n}\n"
+    },
+    {
+      "scriptIndex": 42,
+      "src": "https://keirin.jp/pc/static/js/commonRace.js",
+      "keyword": "piInitialize",
+      "index": 1355,
+      "sample": "ze(hhGetEncSelR(), sensyuRegistNo, 1);\n}\nfunction rbBackHomeClick(sensyuRegistNo) {\npbhInitialize(hhGetEncSelR(), sensyuRegistNo, 1);\n}\nfunction rbStandingClick(sensyuRegistNo) {\npscInitialize(hhGetEncSelR(), sensyuRegistNo, 1);\n}\nfunction rbSyourituClick(sensyuRegistNo) {\nphInitialize(hhGetEncSelR(), sensyuRegistNo, 1, 1);\n}\nfunction rbRentairitu2Click(sensyuRegistNo) {\nphInitialize(hhGetEncSelR(), sensyuRegistNo, 2, 1);\n}\nfunction rbRentairitu3Click(sensyuRegistNo) {\nphInitialize(hhGetEncSelR(), sensyuRegistNo, 3, 1);\n}\nfunction rbTyoJyoGradeClick(para) {\nif (comKaime.kimIfExist() == true || comKaime.kimGetNoSetKaimeGroup() != null){\ncomDialog.confirm('編集中の買い目は破棄されますがよろしいですか。', function(){\ncomKaime.kimClear();\nrbMoveRaceProgram(para);\nreturn;\n});\n} else {\ncomKaime.kimClear();\nrbMoveRaceProgram(para);\nreturn;\n}\n}\nfunction rbMoveRaceProgram(para) {\ncommonSubmit.formPost(\n$('#rbUrlRaceProgram').val()\n, {\"disp\": \"PJ0301\", \"encp\": para}\n, \"_self\"\n);\n}\nfunction rbTyokinResultClick(para) {\npiInitialize(para);\n}\nvar rbController = {\n    JSON_REQ_ID: \"JSJ006\",\n    rbCreateList: function( params) {\n        Com.getRequestGet(rbController.JSON_REQ_ID, params)\n            .done(function(result) {\n            rbView.rbDrawJSONData(result, params);\n            });\n    }\n};\nvar rbView = {\nHDNKEY_ID: 'ppj0315',\nrbDrawJSONData: function(maindata, params) {\nif ( !maindata ) {\n$('#rbdivRaceBaseInfo').addClass('dispoff');\n$('#rbdivErrorRaceInfo').removeClass('dispoff');\nCom.makePcUpdatePage(\n\"rbdivErrorRaceInfo\"\n, \"\"\n, params\n, function(arg0){\nrbController.rbCreateList(arg0);\n}\n);\n} else if ( maindata.resultCd == -1 ) {\n$('#rbdivRaceBaseInfo').addClass('dispoff');\n$('#rbdivErrorRaceInfo').removeClass('dispoff');\nCom.makePcUpdatePage(\n\"rbdivErrorRaceInfo\"\n, rbDataChecker(maindata.message)\n, params\n, function(arg0){\nrbController.rbCreateList(arg0);\n}\n);\n} else {\n$('#rbdivErrorRaceInfo').addClass('dispoff');\nif(rbDataChecker(maindata.syusouInfoExistFlg) == \"0\" || maindata.syusouInfoExistFlg == undefined){\n$('#rbdivRaceBaseInfo').addClass('dispoff');\n}else{\n$('#rbdivRaceBaseInfo').removeClass('dispoff');\nvar leftHtml = \"\";\nvar rightHtml = \"\";\nvar yudoYosoHtml = \"\";\nvar sensyuTypeInfoList = maindata.sensyuTypeInfo;\nvar sensyuTypeInfoListCnt = sensyuTypeInfoList.length;\nvar wakuCheck = \"\"; \nvar wakuIdList = []; \nvar ht1stList = rbDataChecker(maindata.raceResult1Syaban).split(\",\");\nvar ht2ndList = rbDataChecker(maindata.raceResult2Syaban).split(\",\");\nvar bc1stList = rbDataChecker(maindata.backCnt1Syaban).split(\",\");\nvar bc2ndList = rbDataChecker(maindata.backCnt2Syaban).split(\",\");\nfor(var leftLoop = 0 ; leftLoop < sensyuTypeInfoListCnt; leftLoop++){\nvar sensyuTypeInfo = sensyuTypeInfoList[leftLoop];\nleftHtml += '<tr id=\"rbLeftItem_' + rbDataChecker(sensyuTypeInfo.syaban) + '\" class=\"' + rbDataChecker(sensyuTypeInfo.syabanBgColorInfo) + '\">';\nif(\"\" != rbDataChecker(sensyuTypeInfo.wakuban) && wakuCheck == rbDataChecker(sensyuTypeInfo.wakuban)){\nwakuIdList.push(\"rblblWakuba"
+    },
+    {
+      "scriptIndex": 42,
+      "src": "https://keirin.jp/pc/static/js/commonRace.js",
+      "keyword": "rbTyokinResultClick",
+      "index": 1327,
+      "sample": "sensyuRegistNo) {\npwInitialize(hhGetEncSelR(), sensyuRegistNo, 1);\n}\nfunction rbBackHomeClick(sensyuRegistNo) {\npbhInitialize(hhGetEncSelR(), sensyuRegistNo, 1);\n}\nfunction rbStandingClick(sensyuRegistNo) {\npscInitialize(hhGetEncSelR(), sensyuRegistNo, 1);\n}\nfunction rbSyourituClick(sensyuRegistNo) {\nphInitialize(hhGetEncSelR(), sensyuRegistNo, 1, 1);\n}\nfunction rbRentairitu2Click(sensyuRegistNo) {\nphInitialize(hhGetEncSelR(), sensyuRegistNo, 2, 1);\n}\nfunction rbRentairitu3Click(sensyuRegistNo) {\nphInitialize(hhGetEncSelR(), sensyuRegistNo, 3, 1);\n}\nfunction rbTyoJyoGradeClick(para) {\nif (comKaime.kimIfExist() == true || comKaime.kimGetNoSetKaimeGroup() != null){\ncomDialog.confirm('編集中の買い目は破棄されますがよろしいですか。', function(){\ncomKaime.kimClear();\nrbMoveRaceProgram(para);\nreturn;\n});\n} else {\ncomKaime.kimClear();\nrbMoveRaceProgram(para);\nreturn;\n}\n}\nfunction rbMoveRaceProgram(para) {\ncommonSubmit.formPost(\n$('#rbUrlRaceProgram').val()\n, {\"disp\": \"PJ0301\", \"encp\": para}\n, \"_self\"\n);\n}\nfunction rbTyokinResultClick(para) {\npiInitialize(para);\n}\nvar rbController = {\n    JSON_REQ_ID: \"JSJ006\",\n    rbCreateList: function( params) {\n        Com.getRequestGet(rbController.JSON_REQ_ID, params)\n            .done(function(result) {\n            rbView.rbDrawJSONData(result, params);\n            });\n    }\n};\nvar rbView = {\nHDNKEY_ID: 'ppj0315',\nrbDrawJSONData: function(maindata, params) {\nif ( !maindata ) {\n$('#rbdivRaceBaseInfo').addClass('dispoff');\n$('#rbdivErrorRaceInfo').removeClass('dispoff');\nCom.makePcUpdatePage(\n\"rbdivErrorRaceInfo\"\n, \"\"\n, params\n, function(arg0){\nrbController.rbCreateList(arg0);\n}\n);\n} else if ( maindata.resultCd == -1 ) {\n$('#rbdivRaceBaseInfo').addClass('dispoff');\n$('#rbdivErrorRaceInfo').removeClass('dispoff');\nCom.makePcUpdatePage(\n\"rbdivErrorRaceInfo\"\n, rbDataChecker(maindata.message)\n, params\n, function(arg0){\nrbController.rbCreateList(arg0);\n}\n);\n} else {\n$('#rbdivErrorRaceInfo').addClass('dispoff');\nif(rbDataChecker(maindata.syusouInfoExistFlg) == \"0\" || maindata.syusouInfoExistFlg == undefined){\n$('#rbdivRaceBaseInfo').addClass('dispoff');\n}else{\n$('#rbdivRaceBaseInfo').removeClass('dispoff');\nvar leftHtml = \"\";\nvar rightHtml = \"\";\nvar yudoYosoHtml = \"\";\nvar sensyuTypeInfoList = maindata.sensyuTypeInfo;\nvar sensyuTypeInfoListCnt = sensyuTypeInfoList.length;\nvar wakuCheck = \"\"; \nvar wakuIdList = []; \nvar ht1stList = rbDataChecker(maindata.raceResult1Syaban).split(\",\");\nvar ht2ndList = rbDataChecker(maindata.raceResult2Syaban).split(\",\");\nvar bc1stList = rbDataChecker(maindata.backCnt1Syaban).split(\",\");\nvar bc2ndList = rbDataChecker(maindata.backCnt2Syaban).split(\",\");\nfor(var leftLoop = 0 ; leftLoop < sensyuTypeInfoListCnt; leftLoop++){\nvar sensyuTypeInfo = sensyuTypeInfoList[leftLoop];\nleftHtml += '<tr id=\"rbLeftItem_' + rbDataChecker(sensyuTypeInfo.syaban) + '\" class=\"' + rbDataChecker(sensyuTypeInfo.syabanBgColorInfo) + '\">';\nif(\"\" != rbDataChecker(sensyuTypeInfo.wakuban) && wakuCheck == rbDataChecker(sensyuTypeInfo.wakuban)){\n"
+    }
+  ]
+}

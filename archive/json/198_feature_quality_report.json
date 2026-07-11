@@ -1,0 +1,2601 @@
+{
+  "row_count": 73,
+  "feature_count": 155,
+  "numeric_feature_count": 113,
+  "categorical_feature_count": 42,
+  "all_missing_column_count": 0,
+  "all_missing_columns": [],
+  "constant_column_count": 1,
+  "constant_columns": [
+    "player_count"
+  ],
+  "high_missing_column_count": 0,
+  "high_missing_columns": [],
+  "numeric_columns": [
+    "player_count",
+    "p1_graduation_term",
+    "p1_age",
+    "p1_race_score",
+    "p1_nige_count",
+    "p1_makuri_count",
+    "p1_sashi_count",
+    "p1_mark_count",
+    "p1_back_count",
+    "p1_home_count",
+    "p1_start_count",
+    "p1_win_rate",
+    "p1_top2_rate",
+    "p1_top3_rate",
+    "p1_recent_finish_1",
+    "p1_recent_finish_2",
+    "p1_recent_finish_3",
+    "p2_graduation_term",
+    "p2_age",
+    "p2_race_score",
+    "p2_nige_count",
+    "p2_makuri_count",
+    "p2_sashi_count",
+    "p2_mark_count",
+    "p2_back_count",
+    "p2_home_count",
+    "p2_start_count",
+    "p2_win_rate",
+    "p2_top2_rate",
+    "p2_top3_rate",
+    "p2_recent_finish_1",
+    "p2_recent_finish_2",
+    "p2_recent_finish_3",
+    "p3_graduation_term",
+    "p3_age",
+    "p3_race_score",
+    "p3_nige_count",
+    "p3_makuri_count",
+    "p3_sashi_count",
+    "p3_mark_count",
+    "p3_back_count",
+    "p3_home_count",
+    "p3_start_count",
+    "p3_win_rate",
+    "p3_top2_rate",
+    "p3_top3_rate",
+    "p3_recent_finish_1",
+    "p3_recent_finish_2",
+    "p3_recent_finish_3",
+    "p4_graduation_term",
+    "p4_age",
+    "p4_race_score",
+    "p4_nige_count",
+    "p4_makuri_count",
+    "p4_sashi_count",
+    "p4_mark_count",
+    "p4_back_count",
+    "p4_home_count",
+    "p4_start_count",
+    "p4_win_rate",
+    "p4_top2_rate",
+    "p4_top3_rate",
+    "p4_recent_finish_1",
+    "p4_recent_finish_2",
+    "p4_recent_finish_3",
+    "p5_graduation_term",
+    "p5_age",
+    "p5_race_score",
+    "p5_nige_count",
+    "p5_makuri_count",
+    "p5_sashi_count",
+    "p5_mark_count",
+    "p5_back_count",
+    "p5_home_count",
+    "p5_start_count",
+    "p5_win_rate",
+    "p5_top2_rate",
+    "p5_top3_rate",
+    "p5_recent_finish_1",
+    "p5_recent_finish_2",
+    "p5_recent_finish_3",
+    "p6_graduation_term",
+    "p6_age",
+    "p6_race_score",
+    "p6_nige_count",
+    "p6_makuri_count",
+    "p6_sashi_count",
+    "p6_mark_count",
+    "p6_back_count",
+    "p6_home_count",
+    "p6_start_count",
+    "p6_win_rate",
+    "p6_top2_rate",
+    "p6_top3_rate",
+    "p6_recent_finish_1",
+    "p6_recent_finish_2",
+    "p6_recent_finish_3",
+    "p7_graduation_term",
+    "p7_age",
+    "p7_race_score",
+    "p7_nige_count",
+    "p7_makuri_count",
+    "p7_sashi_count",
+    "p7_mark_count",
+    "p7_back_count",
+    "p7_home_count",
+    "p7_start_count",
+    "p7_win_rate",
+    "p7_top2_rate",
+    "p7_top3_rate",
+    "p7_recent_finish_1",
+    "p7_recent_finish_2",
+    "p7_recent_finish_3"
+  ],
+  "categorical_columns": [
+    "p1_prefecture",
+    "p1_previous_class",
+    "p1_class",
+    "p1_riding_style",
+    "p1_recent_venue_code",
+    "p1_recent_grade",
+    "p2_prefecture",
+    "p2_previous_class",
+    "p2_class",
+    "p2_riding_style",
+    "p2_recent_venue_code",
+    "p2_recent_grade",
+    "p3_prefecture",
+    "p3_previous_class",
+    "p3_class",
+    "p3_riding_style",
+    "p3_recent_venue_code",
+    "p3_recent_grade",
+    "p4_prefecture",
+    "p4_previous_class",
+    "p4_class",
+    "p4_riding_style",
+    "p4_recent_venue_code",
+    "p4_recent_grade",
+    "p5_prefecture",
+    "p5_previous_class",
+    "p5_class",
+    "p5_riding_style",
+    "p5_recent_venue_code",
+    "p5_recent_grade",
+    "p6_prefecture",
+    "p6_previous_class",
+    "p6_class",
+    "p6_riding_style",
+    "p6_recent_venue_code",
+    "p6_recent_grade",
+    "p7_prefecture",
+    "p7_previous_class",
+    "p7_class",
+    "p7_riding_style",
+    "p7_recent_venue_code",
+    "p7_recent_grade"
+  ],
+  "category_examples": {
+    "p1_prefecture": [
+      [
+        "福 岡",
+        9
+      ],
+      [
+        "岡 山",
+        6
+      ],
+      [
+        "神奈川",
+        4
+      ],
+      [
+        "愛 知",
+        4
+      ],
+      [
+        "栃 木",
+        3
+      ],
+      [
+        "高 知",
+        3
+      ],
+      [
+        "埼 玉",
+        3
+      ],
+      [
+        "茨 城",
+        3
+      ],
+      [
+        "千 葉",
+        3
+      ],
+      [
+        "静 岡",
+        2
+      ]
+    ],
+    "p1_previous_class": [
+      [
+        "A1",
+        20
+      ],
+      [
+        "A2",
+        17
+      ],
+      [
+        "S2",
+        11
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S1",
+        9
+      ],
+      [
+        "A3",
+        7
+      ]
+    ],
+    "p1_class": [
+      [
+        "A1",
+        22
+      ],
+      [
+        "A3",
+        13
+      ],
+      [
+        "A2",
+        10
+      ],
+      [
+        "S1",
+        10
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S2",
+        9
+      ]
+    ],
+    "p1_riding_style": [
+      [
+        "追",
+        34
+      ],
+      [
+        "両",
+        20
+      ],
+      [
+        "逃",
+        19
+      ]
+    ],
+    "p1_recent_venue_code": [
+      [
+        "84",
+        9
+      ],
+      [
+        "81",
+        7
+      ],
+      [
+        "23",
+        6
+      ],
+      [
+        "35",
+        5
+      ],
+      [
+        "74",
+        4
+      ],
+      [
+        "62",
+        4
+      ],
+      [
+        "31",
+        4
+      ],
+      [
+        "53",
+        3
+      ],
+      [
+        "21",
+        3
+      ],
+      [
+        "73",
+        3
+      ]
+    ],
+    "p1_recent_grade": [
+      [
+        "Ｆ２",
+        36
+      ],
+      [
+        "Ｆ１",
+        30
+      ],
+      [
+        "Ｇ３",
+        6
+      ],
+      [
+        "Ｇ１",
+        1
+      ]
+    ],
+    "p2_prefecture": [
+      [
+        "福 岡",
+        6
+      ],
+      [
+        "岡 山",
+        5
+      ],
+      [
+        "群 馬",
+        5
+      ],
+      [
+        "静 岡",
+        4
+      ],
+      [
+        "佐 賀",
+        4
+      ],
+      [
+        "愛 知",
+        4
+      ],
+      [
+        "埼 玉",
+        3
+      ],
+      [
+        "福 島",
+        3
+      ],
+      [
+        "大 分",
+        3
+      ],
+      [
+        "大 阪",
+        3
+      ]
+    ],
+    "p2_previous_class": [
+      [
+        "A1",
+        20
+      ],
+      [
+        "A2",
+        18
+      ],
+      [
+        "S2",
+        13
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "A3",
+        8
+      ],
+      [
+        "S1",
+        5
+      ]
+    ],
+    "p2_class": [
+      [
+        "A1",
+        18
+      ],
+      [
+        "A2",
+        14
+      ],
+      [
+        "A3",
+        13
+      ],
+      [
+        "S2",
+        13
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S1",
+        6
+      ]
+    ],
+    "p2_riding_style": [
+      [
+        "追",
+        35
+      ],
+      [
+        "両",
+        21
+      ],
+      [
+        "逃",
+        17
+      ]
+    ],
+    "p2_recent_venue_code": [
+      [
+        "43",
+        8
+      ],
+      [
+        "74",
+        7
+      ],
+      [
+        "35",
+        6
+      ],
+      [
+        "81",
+        6
+      ],
+      [
+        "23",
+        6
+      ],
+      [
+        "61",
+        5
+      ],
+      [
+        "37",
+        4
+      ],
+      [
+        "31",
+        4
+      ],
+      [
+        "62",
+        3
+      ],
+      [
+        "21",
+        3
+      ]
+    ],
+    "p2_recent_grade": [
+      [
+        "Ｆ２",
+        35
+      ],
+      [
+        "Ｆ１",
+        29
+      ],
+      [
+        "Ｇ３",
+        7
+      ],
+      [
+        "Ｇ１",
+        2
+      ]
+    ],
+    "p3_prefecture": [
+      [
+        "埼 玉",
+        5
+      ],
+      [
+        "徳 島",
+        5
+      ],
+      [
+        "神奈川",
+        4
+      ],
+      [
+        "愛 媛",
+        4
+      ],
+      [
+        "岡 山",
+        4
+      ],
+      [
+        "福 岡",
+        4
+      ],
+      [
+        "静 岡",
+        4
+      ],
+      [
+        "宮 城",
+        3
+      ],
+      [
+        "香 川",
+        3
+      ],
+      [
+        "群 馬",
+        3
+      ]
+    ],
+    "p3_previous_class": [
+      [
+        "A2",
+        20
+      ],
+      [
+        "S2",
+        19
+      ],
+      [
+        "A1",
+        12
+      ],
+      [
+        "A3",
+        9
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S1",
+        4
+      ]
+    ],
+    "p3_class": [
+      [
+        "A1",
+        18
+      ],
+      [
+        "S2",
+        15
+      ],
+      [
+        "A2",
+        14
+      ],
+      [
+        "A3",
+        13
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S1",
+        4
+      ]
+    ],
+    "p3_riding_style": [
+      [
+        "追",
+        30
+      ],
+      [
+        "逃",
+        23
+      ],
+      [
+        "両",
+        20
+      ]
+    ],
+    "p3_recent_venue_code": [
+      [
+        "84",
+        10
+      ],
+      [
+        "23",
+        7
+      ],
+      [
+        "46",
+        6
+      ],
+      [
+        "43",
+        6
+      ],
+      [
+        "31",
+        5
+      ],
+      [
+        "35",
+        4
+      ],
+      [
+        "81",
+        4
+      ],
+      [
+        "37",
+        4
+      ],
+      [
+        "74",
+        4
+      ],
+      [
+        "44",
+        3
+      ]
+    ],
+    "p3_recent_grade": [
+      [
+        "Ｆ２",
+        36
+      ],
+      [
+        "Ｆ１",
+        30
+      ],
+      [
+        "Ｇ３",
+        6
+      ],
+      [
+        "Ｇ１",
+        1
+      ]
+    ],
+    "p4_prefecture": [
+      [
+        "福 岡",
+        7
+      ],
+      [
+        "岡 山",
+        7
+      ],
+      [
+        "神奈川",
+        6
+      ],
+      [
+        "埼 玉",
+        5
+      ],
+      [
+        "佐 賀",
+        4
+      ],
+      [
+        "愛 媛",
+        4
+      ],
+      [
+        "千 葉",
+        3
+      ],
+      [
+        "香 川",
+        3
+      ],
+      [
+        "大 分",
+        3
+      ],
+      [
+        "栃 木",
+        2
+      ]
+    ],
+    "p4_previous_class": [
+      [
+        "A2",
+        20
+      ],
+      [
+        "A1",
+        16
+      ],
+      [
+        "S2",
+        13
+      ],
+      [
+        "A3",
+        11
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S1",
+        4
+      ]
+    ],
+    "p4_class": [
+      [
+        "A2",
+        17
+      ],
+      [
+        "A1",
+        15
+      ],
+      [
+        "S2",
+        14
+      ],
+      [
+        "A3",
+        13
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S1",
+        5
+      ]
+    ],
+    "p4_riding_style": [
+      [
+        "追",
+        29
+      ],
+      [
+        "逃",
+        24
+      ],
+      [
+        "両",
+        20
+      ]
+    ],
+    "p4_recent_venue_code": [
+      [
+        "74",
+        9
+      ],
+      [
+        "23",
+        7
+      ],
+      [
+        "87",
+        6
+      ],
+      [
+        "81",
+        5
+      ],
+      [
+        "11",
+        5
+      ],
+      [
+        "35",
+        5
+      ],
+      [
+        "61",
+        3
+      ],
+      [
+        "84",
+        3
+      ],
+      [
+        "46",
+        3
+      ],
+      [
+        "62",
+        3
+      ]
+    ],
+    "p4_recent_grade": [
+      [
+        "Ｆ２",
+        39
+      ],
+      [
+        "Ｆ１",
+        27
+      ],
+      [
+        "Ｇ３",
+        7
+      ]
+    ],
+    "p5_prefecture": [
+      [
+        "埼 玉",
+        8
+      ],
+      [
+        "千 葉",
+        5
+      ],
+      [
+        "広 島",
+        4
+      ],
+      [
+        "山 口",
+        3
+      ],
+      [
+        "高 知",
+        3
+      ],
+      [
+        "福 井",
+        3
+      ],
+      [
+        "神奈川",
+        3
+      ],
+      [
+        "東 京",
+        3
+      ],
+      [
+        "宮 城",
+        3
+      ],
+      [
+        "岡 山",
+        2
+      ]
+    ],
+    "p5_previous_class": [
+      [
+        "S2",
+        16
+      ],
+      [
+        "A1",
+        15
+      ],
+      [
+        "A3",
+        15
+      ],
+      [
+        "A2",
+        10
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S1",
+        8
+      ]
+    ],
+    "p5_class": [
+      [
+        "A1",
+        17
+      ],
+      [
+        "A2",
+        15
+      ],
+      [
+        "A3",
+        13
+      ],
+      [
+        "S1",
+        10
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S2",
+        9
+      ]
+    ],
+    "p5_riding_style": [
+      [
+        "追",
+        32
+      ],
+      [
+        "逃",
+        22
+      ],
+      [
+        "両",
+        19
+      ]
+    ],
+    "p5_recent_venue_code": [
+      [
+        "23",
+        9
+      ],
+      [
+        "37",
+        6
+      ],
+      [
+        "35",
+        5
+      ],
+      [
+        "27",
+        5
+      ],
+      [
+        "53",
+        4
+      ],
+      [
+        "62",
+        4
+      ],
+      [
+        "31",
+        4
+      ],
+      [
+        "84",
+        3
+      ],
+      [
+        "61",
+        3
+      ],
+      [
+        "55",
+        3
+      ]
+    ],
+    "p5_recent_grade": [
+      [
+        "Ｆ２",
+        36
+      ],
+      [
+        "Ｆ１",
+        27
+      ],
+      [
+        "Ｇ３",
+        8
+      ],
+      [
+        "Ｇ１",
+        2
+      ]
+    ],
+    "p6_prefecture": [
+      [
+        "福 島",
+        8
+      ],
+      [
+        "福 岡",
+        7
+      ],
+      [
+        "宮 城",
+        4
+      ],
+      [
+        "神奈川",
+        4
+      ],
+      [
+        "岡 山",
+        3
+      ],
+      [
+        "青 森",
+        3
+      ],
+      [
+        "静 岡",
+        3
+      ],
+      [
+        "愛 知",
+        3
+      ],
+      [
+        "熊 本",
+        3
+      ],
+      [
+        "北海道",
+        3
+      ]
+    ],
+    "p6_previous_class": [
+      [
+        "A3",
+        30
+      ],
+      [
+        "A2",
+        15
+      ],
+      [
+        "A1",
+        9
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S2",
+        8
+      ],
+      [
+        "S1",
+        2
+      ]
+    ],
+    "p6_class": [
+      [
+        "A2",
+        28
+      ],
+      [
+        "S2",
+        16
+      ],
+      [
+        "A3",
+        13
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "A1",
+        4
+      ],
+      [
+        "S1",
+        3
+      ]
+    ],
+    "p6_riding_style": [
+      [
+        "追",
+        42
+      ],
+      [
+        "逃",
+        16
+      ],
+      [
+        "両",
+        15
+      ]
+    ],
+    "p6_recent_venue_code": [
+      [
+        "37",
+        13
+      ],
+      [
+        "85",
+        7
+      ],
+      [
+        "81",
+        5
+      ],
+      [
+        "35",
+        5
+      ],
+      [
+        "46",
+        5
+      ],
+      [
+        "23",
+        4
+      ],
+      [
+        "74",
+        3
+      ],
+      [
+        "12",
+        3
+      ],
+      [
+        "43",
+        3
+      ],
+      [
+        "44",
+        3
+      ]
+    ],
+    "p6_recent_grade": [
+      [
+        "Ｆ２",
+        47
+      ],
+      [
+        "Ｆ１",
+        24
+      ],
+      [
+        "Ｇ３",
+        2
+      ]
+    ],
+    "p7_prefecture": [
+      [
+        "徳 島",
+        5
+      ],
+      [
+        "茨 城",
+        5
+      ],
+      [
+        "福 岡",
+        4
+      ],
+      [
+        "埼 玉",
+        4
+      ],
+      [
+        "熊 本",
+        4
+      ],
+      [
+        "三 重",
+        4
+      ],
+      [
+        "神奈川",
+        3
+      ],
+      [
+        "愛 知",
+        3
+      ],
+      [
+        "東 京",
+        3
+      ],
+      [
+        "岐 阜",
+        3
+      ]
+    ],
+    "p7_previous_class": [
+      [
+        "A2",
+        20
+      ],
+      [
+        "S2",
+        14
+      ],
+      [
+        "A1",
+        13
+      ],
+      [
+        "A3",
+        13
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S1",
+        4
+      ]
+    ],
+    "p7_class": [
+      [
+        "A2",
+        21
+      ],
+      [
+        "A3",
+        13
+      ],
+      [
+        "S2",
+        13
+      ],
+      [
+        "A1",
+        11
+      ],
+      [
+        "L1",
+        9
+      ],
+      [
+        "S1",
+        6
+      ]
+    ],
+    "p7_riding_style": [
+      [
+        "追",
+        37
+      ],
+      [
+        "両",
+        22
+      ],
+      [
+        "逃",
+        14
+      ]
+    ],
+    "p7_recent_venue_code": [
+      [
+        "62",
+        6
+      ],
+      [
+        "37",
+        6
+      ],
+      [
+        "46",
+        6
+      ],
+      [
+        "12",
+        5
+      ],
+      [
+        "81",
+        5
+      ],
+      [
+        "23",
+        5
+      ],
+      [
+        "84",
+        4
+      ],
+      [
+        "43",
+        4
+      ],
+      [
+        "61",
+        4
+      ],
+      [
+        "85",
+        3
+      ]
+    ],
+    "p7_recent_grade": [
+      [
+        "Ｆ２",
+        44
+      ],
+      [
+        "Ｆ１",
+        23
+      ],
+      [
+        "Ｇ３",
+        5
+      ],
+      [
+        "Ｇ１",
+        1
+      ]
+    ]
+  },
+  "target_counts": {
+    "payout_label": {
+      "UNDER_10000": 54,
+      "20000_TO_49999": 7,
+      "10000_TO_19999": 6,
+      "50000_PLUS": 6
+    },
+    "is_20000_plus": {
+      "0": 60,
+      "1": 13
+    },
+    "is_50000_plus": {
+      "0": 67,
+      "1": 6
+    }
+  },
+  "feature_report": [
+    {
+      "column": "player_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 1,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_prefecture",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 31,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p1_previous_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p1_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p1_riding_style",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 3,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p1_graduation_term",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 41,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_age",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 30,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_race_score",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 73,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_nige_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 10,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_makuri_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 11,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_sashi_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 11,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_mark_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 7,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_back_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 17,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_home_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 13,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_start_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 13,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_win_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 29,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_top2_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 44,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_top3_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 40,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_recent_finish_1",
+      "missing_count": 8,
+      "missing_rate_percent": 10.96,
+      "non_missing_count": 65,
+      "unique_count": 9,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_recent_finish_2",
+      "missing_count": 8,
+      "missing_rate_percent": 10.96,
+      "non_missing_count": 65,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_recent_finish_3",
+      "missing_count": 9,
+      "missing_rate_percent": 12.33,
+      "non_missing_count": 64,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p1_recent_venue_code",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 25,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p1_recent_grade",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 4,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p2_prefecture",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 32,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p2_previous_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p2_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p2_riding_style",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 3,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p2_graduation_term",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 40,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_age",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 34,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_race_score",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 72,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_nige_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_makuri_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_sashi_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 9,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_mark_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_back_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 11,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_home_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 12,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_start_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 12,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_win_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 28,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_top2_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 36,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_top3_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 35,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_recent_finish_1",
+      "missing_count": 8,
+      "missing_rate_percent": 10.96,
+      "non_missing_count": 65,
+      "unique_count": 9,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_recent_finish_2",
+      "missing_count": 8,
+      "missing_rate_percent": 10.96,
+      "non_missing_count": 65,
+      "unique_count": 7,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_recent_finish_3",
+      "missing_count": 10,
+      "missing_rate_percent": 13.7,
+      "non_missing_count": 63,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p2_recent_venue_code",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 23,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p2_recent_grade",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 4,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p3_prefecture",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 30,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p3_previous_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p3_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p3_riding_style",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 3,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p3_graduation_term",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 43,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_age",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 33,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_race_score",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 72,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_nige_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 11,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_makuri_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 7,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_sashi_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 11,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_mark_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_back_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 16,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_home_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 18,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_start_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 13,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_win_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 30,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_top2_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 39,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_top3_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 47,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_recent_finish_1",
+      "missing_count": 10,
+      "missing_rate_percent": 13.7,
+      "non_missing_count": 63,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_recent_finish_2",
+      "missing_count": 13,
+      "missing_rate_percent": 17.81,
+      "non_missing_count": 60,
+      "unique_count": 9,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_recent_finish_3",
+      "missing_count": 14,
+      "missing_rate_percent": 19.18,
+      "non_missing_count": 59,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p3_recent_venue_code",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 22,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p3_recent_grade",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 4,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p4_prefecture",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 30,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p4_previous_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p4_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p4_riding_style",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 3,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p4_graduation_term",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 35,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_age",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 25,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_race_score",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 72,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_nige_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 10,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_makuri_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 10,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_sashi_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_mark_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_back_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 15,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_home_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 15,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_start_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 12,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_win_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 31,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_top2_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 42,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_top3_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 36,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_recent_finish_1",
+      "missing_count": 11,
+      "missing_rate_percent": 15.07,
+      "non_missing_count": 62,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_recent_finish_2",
+      "missing_count": 11,
+      "missing_rate_percent": 15.07,
+      "non_missing_count": 62,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_recent_finish_3",
+      "missing_count": 12,
+      "missing_rate_percent": 16.44,
+      "non_missing_count": 61,
+      "unique_count": 7,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p4_recent_venue_code",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 25,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p4_recent_grade",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 3,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p5_prefecture",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 31,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p5_previous_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p5_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p5_riding_style",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 3,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p5_graduation_term",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 40,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_age",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 31,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_race_score",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 71,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_nige_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 10,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_makuri_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 9,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_sashi_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_mark_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_back_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 15,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_home_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 15,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_start_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 14,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_win_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 26,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_top2_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 39,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_top3_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 40,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_recent_finish_1",
+      "missing_count": 7,
+      "missing_rate_percent": 9.59,
+      "non_missing_count": 66,
+      "unique_count": 7,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_recent_finish_2",
+      "missing_count": 9,
+      "missing_rate_percent": 12.33,
+      "non_missing_count": 64,
+      "unique_count": 7,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_recent_finish_3",
+      "missing_count": 11,
+      "missing_rate_percent": 15.07,
+      "non_missing_count": 62,
+      "unique_count": 7,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p5_recent_venue_code",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 25,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p5_recent_grade",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 4,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p6_prefecture",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 29,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p6_previous_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p6_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p6_riding_style",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 3,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p6_graduation_term",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 46,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_age",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 30,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_race_score",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 71,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_nige_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 13,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_makuri_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_sashi_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 11,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_mark_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_back_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 14,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_home_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 15,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_start_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 14,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_win_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 29,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_top2_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 41,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_top3_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 43,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_recent_finish_1",
+      "missing_count": 9,
+      "missing_rate_percent": 12.33,
+      "non_missing_count": 64,
+      "unique_count": 7,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_recent_finish_2",
+      "missing_count": 11,
+      "missing_rate_percent": 15.07,
+      "non_missing_count": 62,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_recent_finish_3",
+      "missing_count": 11,
+      "missing_rate_percent": 15.07,
+      "non_missing_count": 62,
+      "unique_count": 7,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p6_recent_venue_code",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 24,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p6_recent_grade",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 3,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p7_prefecture",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 31,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p7_previous_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p7_class",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 6,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p7_riding_style",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 3,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p7_graduation_term",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 41,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_age",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 34,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_race_score",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 72,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_nige_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 10,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_makuri_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_sashi_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 9,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_mark_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_back_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 15,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_home_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 13,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_start_count",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 12,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_win_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 29,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_top2_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 38,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_top3_rate",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 41,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_recent_finish_1",
+      "missing_count": 8,
+      "missing_rate_percent": 10.96,
+      "non_missing_count": 65,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_recent_finish_2",
+      "missing_count": 9,
+      "missing_rate_percent": 12.33,
+      "non_missing_count": 64,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_recent_finish_3",
+      "missing_count": 9,
+      "missing_rate_percent": 12.33,
+      "non_missing_count": 64,
+      "unique_count": 8,
+      "type_guess": "numeric"
+    },
+    {
+      "column": "p7_recent_venue_code",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 24,
+      "type_guess": "categorical"
+    },
+    {
+      "column": "p7_recent_grade",
+      "missing_count": 0,
+      "missing_rate_percent": 0.0,
+      "non_missing_count": 73,
+      "unique_count": 4,
+      "type_guess": "categorical"
+    }
+  ]
+}

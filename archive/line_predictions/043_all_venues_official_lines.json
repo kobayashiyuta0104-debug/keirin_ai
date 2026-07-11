@@ -1,0 +1,288 @@
+{
+  "program": "043_capture_all_venues_official_lines.py",
+  "captured_at": "2026-07-11T00:00:44.347900",
+  "race_date": "20260710",
+  "venue_count": 1,
+  "race_count": 7,
+  "line_found_count": 0,
+  "competition_count": 0,
+  "line_not_found_count": 7,
+  "validation_error_count": 0,
+  "error_count": 0,
+  "live_venues": [
+    {
+      "index": 0,
+      "venue": "前橋",
+      "button_id": "hcombtnLive0",
+      "onclick": "pc0101_checkKaimeLive('0')",
+      "hidden_id": "hcomHdnTouhyouLive0",
+      "hidden_value": "D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM"
+    },
+    {
+      "index": 1,
+      "venue": "函館",
+      "button_id": "hcombtnLive1",
+      "onclick": "pc0101_checkKaimeLive('1')",
+      "hidden_id": "hcomHdnTouhyouLive1",
+      "hidden_value": "T9wMz-ha1TZ640Z-S5GN5Lj37nIT_hpE1pP7n8r0_zE"
+    },
+    {
+      "index": 2,
+      "venue": "伊東",
+      "button_id": "hcombtnLive2",
+      "onclick": "pc0101_checkKaimeLive('2')",
+      "hidden_id": "hcomHdnTouhyouLive2",
+      "hidden_value": "W2uRQM1igycPTuhMZ-U0HxluJbAQf-41MmWPl-1Y9aE"
+    },
+    {
+      "index": 3,
+      "venue": "大垣",
+      "button_id": "hcombtnLive3",
+      "onclick": "pc0101_checkKaimeLive('3')",
+      "hidden_id": "hcomHdnTouhyouLive3",
+      "hidden_value": "M55-TiOKRgzcmeiQ08HxlTDSC_Y4MZOULUfYGnS8eTw"
+    },
+    {
+      "index": 4,
+      "venue": "いわき平",
+      "button_id": "hcombtnLive4",
+      "onclick": "pc0101_checkKaimeLive('4')",
+      "hidden_id": "hcomHdnTouhyouLive4",
+      "hidden_value": "6nWOJ2YgWUh0vVMBoyI8CI6juP_egQtEjCYj4mlac8Y"
+    },
+    {
+      "index": 5,
+      "venue": "小田原",
+      "button_id": "hcombtnLive5",
+      "onclick": "pc0101_checkKaimeLive('5')",
+      "hidden_id": "hcomHdnTouhyouLive5",
+      "hidden_value": "oGn5WPyFKUs7MmpVS67mXcyaXcWr_MsPN1Xq4sYA1Ag"
+    },
+    {
+      "index": 6,
+      "venue": "名古屋",
+      "button_id": "hcombtnLive6",
+      "onclick": "pc0101_checkKaimeLive('6')",
+      "hidden_id": "hcomHdnTouhyouLive6",
+      "hidden_value": "u93Y_4IZiF1UgerS4eAiiib0tYhdENWfypeOKshBZA4"
+    },
+    {
+      "index": 7,
+      "venue": "広島",
+      "button_id": "hcombtnLive7",
+      "onclick": "pc0101_checkKaimeLive('7')",
+      "hidden_id": "hcomHdnTouhyouLive7",
+      "hidden_value": "Ozpk-eumfo_0DwX9fHqEYT7qyR_ltNxTg6mAvFPgD6E"
+    }
+  ],
+  "venues": [
+    {
+      "venue": "前橋",
+      "live_button": {
+        "index": 0,
+        "venue": "前橋",
+        "button_id": "hcombtnLive0",
+        "onclick": "pc0101_checkKaimeLive('0')",
+        "hidden_id": "hcomHdnTouhyouLive0",
+        "hidden_value": "D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM"
+      },
+      "venue_wait": {
+        "changed": false,
+        "wait_seconds": 15.277
+      },
+      "status": "VENUE_RUNNING",
+      "error": null,
+      "races": [
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 1,
+          "race_key": "20260710_前橋_1R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "text": "1R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg6yKHIJumn0V1D_pL0-QyZo"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.323
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 2,
+          "race_key": "20260710_前橋_2R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "text": "2R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg7YnWUEHNDveXwNz883qAmo"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.303
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 3,
+          "race_key": "20260710_前橋_3R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "text": "3R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg8ZETJHI272cmccux_n2-tM"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.299
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 4,
+          "race_key": "20260710_前橋_4R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "text": "4R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjgx_V5PzaCViSMMgd67MdmnE"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.268
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 5,
+          "race_key": "20260710_前橋_5R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "text": "5R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjgw1yGwbwqSrsgs13Go265no"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.296
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 6,
+          "race_key": "20260710_前橋_6R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "text": "6R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg8DsXR-nb3YbGx_2ykhaIlQ"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.291
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        },
+        {
+          "race_date": "20260710",
+          "venue": "前橋",
+          "race_no": 7,
+          "race_key": "20260710_前橋_7R",
+          "status": "LINE_NOT_FOUND",
+          "error": null,
+          "race_button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "text": "7R",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "disabled": false,
+            "encp": "D-fs-ibaZM4Z3cYeuKvjg4aVYN1CM9vOgRObzAFqc1s"
+          },
+          "race_wait": {
+            "changed": false,
+            "wait_seconds": 15.248
+          },
+          "prediction_type": null,
+          "provider": null,
+          "main_lines": [],
+          "has_competition": false,
+          "competition_rows": [],
+          "display_rows": [],
+          "validation": null
+        }
+      ]
+    }
+  ]
+}

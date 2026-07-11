@@ -1,0 +1,3430 @@
+{
+  "compared_players": 532,
+  "exact_players": 0,
+  "exact_rate": 0.0,
+  "missing_raw": 0,
+  "field_stats": {
+    "car_no": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "player_id": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "player_name": {
+      "match": 0,
+      "compare": 532,
+      "rate": 0.0
+    },
+    "prefecture": {
+      "match": 40,
+      "compare": 532,
+      "rate": 0.07518796992481203
+    },
+    "previous_class": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "class": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "riding_style": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "graduation_term": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "age": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "race_score": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "nige_count": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "makuri_count": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "sashi_count": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "mark_count": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "back_count": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "home_count": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "start_count": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "win_rate": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "top2_rate": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "top3_rate": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "recent_meeting_results": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    },
+    "recent_meeting": {
+      "match": 532,
+      "compare": 532,
+      "rate": 1.0
+    }
+  },
+  "mismatches": [
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "016011",
+      "player_name": "鶴 健志",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "鶴 健志",
+          "rebuilt": "鶴　健志"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "011990",
+      "player_name": "茂木 和臣",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "茂木 和臣",
+          "rebuilt": "茂木　和臣"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "011328",
+      "player_name": "川添 輝彦",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "川添 輝彦",
+          "rebuilt": "川添　輝彦"
+        },
+        {
+          "field": "prefecture",
+          "old": "沖 縄",
+          "rebuilt": "沖　縄"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "014443",
+      "player_name": "堀内 昇",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "堀内 昇",
+          "rebuilt": "堀内　昇"
+        },
+        {
+          "field": "prefecture",
+          "old": "茨 城",
+          "rebuilt": "茨　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "011367",
+      "player_name": "石川 一浩",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "石川 一浩",
+          "rebuilt": "石川　一浩"
+        },
+        {
+          "field": "prefecture",
+          "old": "静 岡",
+          "rebuilt": "静　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "012537",
+      "player_name": "取鳥 敬一",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "取鳥 敬一",
+          "rebuilt": "取鳥　敬一"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "014652",
+      "player_name": "原 清孝",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "原 清孝",
+          "rebuilt": "原　清孝"
+        },
+        {
+          "field": "prefecture",
+          "old": "沖 縄",
+          "rebuilt": "沖　縄"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014776",
+      "player_name": "川上 修平",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "川上 修平",
+          "rebuilt": "川上　修平"
+        },
+        {
+          "field": "prefecture",
+          "old": "高 知",
+          "rebuilt": "高　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014447",
+      "player_name": "三木 翔太",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "三木 翔太",
+          "rebuilt": "三木　翔太"
+        },
+        {
+          "field": "prefecture",
+          "old": "群 馬",
+          "rebuilt": "群　馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "015260",
+      "player_name": "國井 裕樹",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "國井 裕樹",
+          "rebuilt": "國井　裕樹"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "016006",
+      "player_name": "高橋 聖太",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "高橋 聖太",
+          "rebuilt": "高橋　聖太"
+        },
+        {
+          "field": "prefecture",
+          "old": "愛 媛",
+          "rebuilt": "愛　媛"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014555",
+      "player_name": "水木 裕聡",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "水木 裕聡",
+          "rebuilt": "水木　裕聡"
+        },
+        {
+          "field": "prefecture",
+          "old": "高 知",
+          "rebuilt": "高　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014429",
+      "player_name": "千澤 大輔",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "千澤 大輔",
+          "rebuilt": "千澤　大輔"
+        },
+        {
+          "field": "prefecture",
+          "old": "青 森",
+          "rebuilt": "青　森"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014301",
+      "player_name": "齋藤 輝彦",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "齋藤 輝彦",
+          "rebuilt": "齋藤　輝彦"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "014265",
+      "player_name": "松永 真太",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "松永 真太",
+          "rebuilt": "松永　真太"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "014802",
+      "player_name": "渡邉 正人",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "渡邉 正人",
+          "rebuilt": "渡邉　正人"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 島",
+          "rebuilt": "福　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "012618",
+      "player_name": "武智 尚之",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "武智 尚之",
+          "rebuilt": "武智　尚之"
+        },
+        {
+          "field": "prefecture",
+          "old": "愛 媛",
+          "rebuilt": "愛　媛"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "014287",
+      "player_name": "齋藤 昌太",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "齋藤 昌太",
+          "rebuilt": "齋藤　昌太"
+        },
+        {
+          "field": "prefecture",
+          "old": "栃 木",
+          "rebuilt": "栃　木"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "016015",
+      "player_name": "横溝 貫太",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "横溝 貫太",
+          "rebuilt": "横溝　貫太"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "013713",
+      "player_name": "丸山 勝也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "丸山 勝也",
+          "rebuilt": "丸山　勝也"
+        },
+        {
+          "field": "prefecture",
+          "old": "静 岡",
+          "rebuilt": "静　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "012832",
+      "player_name": "仙石 淳",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "仙石 淳",
+          "rebuilt": "仙石　淳"
+        },
+        {
+          "field": "prefecture",
+          "old": "沖 縄",
+          "rebuilt": "沖　縄"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015774",
+      "player_name": "金田 舞夏",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "金田 舞夏",
+          "rebuilt": "金田　舞夏"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015221",
+      "player_name": "吉村 早耶香",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "吉村 早耶香",
+          "rebuilt": "吉村　早耶香"
+        },
+        {
+          "field": "prefecture",
+          "old": "静 岡",
+          "rebuilt": "静　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015764",
+      "player_name": "宇野 紅音",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "宇野 紅音",
+          "rebuilt": "宇野　紅音"
+        },
+        {
+          "field": "prefecture",
+          "old": "岐 阜",
+          "rebuilt": "岐　阜"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015942",
+      "player_name": "齊藤 由莉",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "齊藤 由莉",
+          "rebuilt": "齊藤　由莉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015314",
+      "player_name": "向井 円",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "向井 円",
+          "rebuilt": "向井　円"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 阪",
+          "rebuilt": "大　阪"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "016039",
+      "player_name": "林 香穂",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "林 香穂",
+          "rebuilt": "林　香穂"
+        },
+        {
+          "field": "prefecture",
+          "old": "岐 阜",
+          "rebuilt": "岐　阜"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015853",
+      "player_name": "中島 瞳",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "中島 瞳",
+          "rebuilt": "中島　瞳"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "player_id": "015018",
+      "player_name": "高橋 梨香",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "高橋 梨香",
+          "rebuilt": "高橋　梨香"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "player_id": "015858",
+      "player_name": "平子 結菜",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "平子 結菜",
+          "rebuilt": "平子　結菜"
+        },
+        {
+          "field": "prefecture",
+          "old": "三 重",
+          "rebuilt": "三　重"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "player_id": "014897",
+      "player_name": "岡村 育子",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "岡村 育子",
+          "rebuilt": "岡村　育子"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "player_id": "016043",
+      "player_name": "緒方 詩央里",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "緒方 詩央里",
+          "rebuilt": "緒方　詩央里"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "player_id": "015860",
+      "player_name": "濱田 芽生",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "濱田 芽生",
+          "rebuilt": "濱田　芽生"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 井",
+          "rebuilt": "福　井"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "player_id": "015576",
+      "player_name": "菅原 ななこ",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "菅原 ななこ",
+          "rebuilt": "菅原　ななこ"
+        },
+        {
+          "field": "prefecture",
+          "old": "宮 城",
+          "rebuilt": "宮　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "player_id": "014974",
+      "player_name": "山原 さくら",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山原 さくら",
+          "rebuilt": "山原　さくら"
+        },
+        {
+          "field": "prefecture",
+          "old": "山 口",
+          "rebuilt": "山　口"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_7R",
+      "player_id": "014024",
+      "player_name": "櫻井 丈",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "櫻井 丈",
+          "rebuilt": "櫻井　丈"
+        },
+        {
+          "field": "prefecture",
+          "old": "静 岡",
+          "rebuilt": "静　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_7R",
+      "player_id": "014782",
+      "player_name": "山口 幸太郎",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山口 幸太郎",
+          "rebuilt": "山口　幸太郎"
+        },
+        {
+          "field": "prefecture",
+          "old": "長 崎",
+          "rebuilt": "長　崎"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_7R",
+      "player_id": "013506",
+      "player_name": "田村 浩章",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "田村 浩章",
+          "rebuilt": "田村　浩章"
+        },
+        {
+          "field": "prefecture",
+          "old": "徳 島",
+          "rebuilt": "徳　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_7R",
+      "player_id": "013811",
+      "player_name": "池田 浩士",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "池田 浩士",
+          "rebuilt": "池田　浩士"
+        },
+        {
+          "field": "prefecture",
+          "old": "佐 賀",
+          "rebuilt": "佐　賀"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_7R",
+      "player_id": "014226",
+      "player_name": "大畑 裕貴",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "大畑 裕貴",
+          "rebuilt": "大畑　裕貴"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_7R",
+      "player_id": "013738",
+      "player_name": "眞鍋 伸也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "眞鍋 伸也",
+          "rebuilt": "眞鍋　伸也"
+        },
+        {
+          "field": "prefecture",
+          "old": "香 川",
+          "rebuilt": "香　川"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_7R",
+      "player_id": "014340",
+      "player_name": "古川 貴之",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "古川 貴之",
+          "rebuilt": "古川　貴之"
+        },
+        {
+          "field": "prefecture",
+          "old": "佐 賀",
+          "rebuilt": "佐　賀"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_8R",
+      "player_id": "013491",
+      "player_name": "近藤 範昌",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "近藤 範昌",
+          "rebuilt": "近藤　範昌"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_8R",
+      "player_id": "014270",
+      "player_name": "小原 将通",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "小原 将通",
+          "rebuilt": "小原　将通"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 分",
+          "rebuilt": "大　分"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_8R",
+      "player_id": "015599",
+      "player_name": "堀 航輝",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "堀 航輝",
+          "rebuilt": "堀　航輝"
+        },
+        {
+          "field": "prefecture",
+          "old": "青 森",
+          "rebuilt": "青　森"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_8R",
+      "player_id": "015642",
+      "player_name": "眞砂 英作",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "眞砂 英作",
+          "rebuilt": "眞砂　英作"
+        },
+        {
+          "field": "prefecture",
+          "old": "香 川",
+          "rebuilt": "香　川"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_8R",
+      "player_id": "012838",
+      "player_name": "三木 健治",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "三木 健治",
+          "rebuilt": "三木　健治"
+        },
+        {
+          "field": "prefecture",
+          "old": "沖 縄",
+          "rebuilt": "沖　縄"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_8R",
+      "player_id": "015931",
+      "player_name": "山口 留稀哉",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山口 留稀哉",
+          "rebuilt": "山口　留稀哉"
+        },
+        {
+          "field": "prefecture",
+          "old": "長 崎",
+          "rebuilt": "長　崎"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_8R",
+      "player_id": "014240",
+      "player_name": "須藤 誠",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "須藤 誠",
+          "rebuilt": "須藤　誠"
+        },
+        {
+          "field": "prefecture",
+          "old": "千 葉",
+          "rebuilt": "千　葉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_9R",
+      "player_id": "013660",
+      "player_name": "徳吉 広紀",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "徳吉 広紀",
+          "rebuilt": "徳吉　広紀"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_9R",
+      "player_id": "013192",
+      "player_name": "平田 徹",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "平田 徹",
+          "rebuilt": "平田　徹"
+        },
+        {
+          "field": "prefecture",
+          "old": "静 岡",
+          "rebuilt": "静　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_9R",
+      "player_id": "012953",
+      "player_name": "矢内 良和",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "矢内 良和",
+          "rebuilt": "矢内　良和"
+        },
+        {
+          "field": "prefecture",
+          "old": "群 馬",
+          "rebuilt": "群　馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_9R",
+      "player_id": "014688",
+      "player_name": "西田 大志",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "西田 大志",
+          "rebuilt": "西田　大志"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_9R",
+      "player_id": "014422",
+      "player_name": "前田 義和",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "前田 義和",
+          "rebuilt": "前田　義和"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_9R",
+      "player_id": "012128",
+      "player_name": "山根 泰道",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山根 泰道",
+          "rebuilt": "山根　泰道"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_9R",
+      "player_id": "013908",
+      "player_name": "菅田 和宏",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "菅田 和宏",
+          "rebuilt": "菅田　和宏"
+        },
+        {
+          "field": "prefecture",
+          "old": "宮 城",
+          "rebuilt": "宮　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_10R",
+      "player_id": "015557",
+      "player_name": "梶原 大地",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "梶原 大地",
+          "rebuilt": "梶原　大地"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_10R",
+      "player_id": "014615",
+      "player_name": "藤原 亮太",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "藤原 亮太",
+          "rebuilt": "藤原　亮太"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_10R",
+      "player_id": "014281",
+      "player_name": "寺林 正秋",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "寺林 正秋",
+          "rebuilt": "寺林　正秋"
+        },
+        {
+          "field": "prefecture",
+          "old": "宮 城",
+          "rebuilt": "宮　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_10R",
+      "player_id": "013370",
+      "player_name": "三槻 智清",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "三槻 智清",
+          "rebuilt": "三槻　智清"
+        },
+        {
+          "field": "prefecture",
+          "old": "佐 賀",
+          "rebuilt": "佐　賀"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_10R",
+      "player_id": "013652",
+      "player_name": "隅 直幸",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "隅 直幸",
+          "rebuilt": "隅　直幸"
+        },
+        {
+          "field": "prefecture",
+          "old": "山 口",
+          "rebuilt": "山　口"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_10R",
+      "player_id": "014989",
+      "player_name": "鈴木 豪",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "鈴木 豪",
+          "rebuilt": "鈴木　豪"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 島",
+          "rebuilt": "福　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_10R",
+      "player_id": "015559",
+      "player_name": "神開 一輝",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "神開 一輝",
+          "rebuilt": "神開　一輝"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_11R",
+      "player_id": "015423",
+      "player_name": "上川 直紀",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "上川 直紀",
+          "rebuilt": "上川　直紀"
+        },
+        {
+          "field": "prefecture",
+          "old": "栃 木",
+          "rebuilt": "栃　木"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_11R",
+      "player_id": "015751",
+      "player_name": "半田 誠",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "半田 誠",
+          "rebuilt": "半田　誠"
+        },
+        {
+          "field": "prefecture",
+          "old": "熊 本",
+          "rebuilt": "熊　本"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_11R",
+      "player_id": "014326",
+      "player_name": "福島 栄一",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "福島 栄一",
+          "rebuilt": "福島　栄一"
+        },
+        {
+          "field": "prefecture",
+          "old": "香 川",
+          "rebuilt": "香　川"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_11R",
+      "player_id": "014590",
+      "player_name": "近藤 夏樹",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "近藤 夏樹",
+          "rebuilt": "近藤　夏樹"
+        },
+        {
+          "field": "prefecture",
+          "old": "千 葉",
+          "rebuilt": "千　葉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_11R",
+      "player_id": "015545",
+      "player_name": "橋本 凌汰",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "橋本 凌汰",
+          "rebuilt": "橋本　凌汰"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_11R",
+      "player_id": "013439",
+      "player_name": "青井 賢治",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "青井 賢治",
+          "rebuilt": "青井　賢治"
+        },
+        {
+          "field": "prefecture",
+          "old": "徳 島",
+          "rebuilt": "徳　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_久留米_11R",
+      "player_id": "014139",
+      "player_name": "小田倉 勇二",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "小田倉 勇二",
+          "rebuilt": "小田倉　勇二"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_3R",
+      "player_id": "012986",
+      "player_name": "近藤 直幹",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "近藤 直幹",
+          "rebuilt": "近藤　直幹"
+        },
+        {
+          "field": "prefecture",
+          "old": "徳 島",
+          "rebuilt": "徳　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_3R",
+      "player_id": "014365",
+      "player_name": "薮田 貴幸",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "薮田 貴幸",
+          "rebuilt": "薮田　貴幸"
+        },
+        {
+          "field": "prefecture",
+          "old": "茨 城",
+          "rebuilt": "茨　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_3R",
+      "player_id": "011622",
+      "player_name": "杉山 正和",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "杉山 正和",
+          "rebuilt": "杉山　正和"
+        },
+        {
+          "field": "prefecture",
+          "old": "三 重",
+          "rebuilt": "三　重"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_3R",
+      "player_id": "013788",
+      "player_name": "白崎 芳典",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "白崎 芳典",
+          "rebuilt": "白崎　芳典"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 井",
+          "rebuilt": "福　井"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_3R",
+      "player_id": "013378",
+      "player_name": "小田桐 義継",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "小田桐 義継",
+          "rebuilt": "小田桐　義継"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_3R",
+      "player_id": "014382",
+      "player_name": "伊藤 翼",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "伊藤 翼",
+          "rebuilt": "伊藤　翼"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_3R",
+      "player_id": "015988",
+      "player_name": "鴨下 佳朋",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "鴨下 佳朋",
+          "rebuilt": "鴨下　佳朋"
+        },
+        {
+          "field": "prefecture",
+          "old": "愛 知",
+          "rebuilt": "愛　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_4R",
+      "player_id": "014254",
+      "player_name": "武田 和也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "武田 和也",
+          "rebuilt": "武田　和也"
+        },
+        {
+          "field": "prefecture",
+          "old": "奈 良",
+          "rebuilt": "奈　良"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_4R",
+      "player_id": "011417",
+      "player_name": "小川 巧",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "小川 巧",
+          "rebuilt": "小川　巧"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_4R",
+      "player_id": "014360",
+      "player_name": "関根 崇人",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "関根 崇人",
+          "rebuilt": "関根　崇人"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 島",
+          "rebuilt": "福　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_4R",
+      "player_id": "016024",
+      "player_name": "宮本 寛大",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "宮本 寛大",
+          "rebuilt": "宮本　寛大"
+        },
+        {
+          "field": "prefecture",
+          "old": "熊 本",
+          "rebuilt": "熊　本"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_4R",
+      "player_id": "013206",
+      "player_name": "岡崎 和久",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "岡崎 和久",
+          "rebuilt": "岡崎　和久"
+        },
+        {
+          "field": "prefecture",
+          "old": "奈 良",
+          "rebuilt": "奈　良"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_4R",
+      "player_id": "013531",
+      "player_name": "伊藤 司",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "伊藤 司",
+          "rebuilt": "伊藤　司"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 島",
+          "rebuilt": "福　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_4R",
+      "player_id": "013451",
+      "player_name": "松本 大地",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "松本 大地",
+          "rebuilt": "松本　大地"
+        },
+        {
+          "field": "prefecture",
+          "old": "熊 本",
+          "rebuilt": "熊　本"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_5R",
+      "player_id": "015846",
+      "player_name": "入田 龍馬",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "入田 龍馬",
+          "rebuilt": "入田　龍馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_5R",
+      "player_id": "014948",
+      "player_name": "斎藤 敦",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "斎藤 敦",
+          "rebuilt": "斎藤　敦"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 阪",
+          "rebuilt": "大　阪"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_5R",
+      "player_id": "013359",
+      "player_name": "吉田 彰久",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "吉田 彰久",
+          "rebuilt": "吉田　彰久"
+        },
+        {
+          "field": "prefecture",
+          "old": "香 川",
+          "rebuilt": "香　川"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_5R",
+      "player_id": "014272",
+      "player_name": "松田 直也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "松田 直也",
+          "rebuilt": "松田　直也"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 分",
+          "rebuilt": "大　分"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_5R",
+      "player_id": "014559",
+      "player_name": "田山 誠",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "田山 誠",
+          "rebuilt": "田山　誠"
+        },
+        {
+          "field": "prefecture",
+          "old": "長 崎",
+          "rebuilt": "長　崎"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_5R",
+      "player_id": "012827",
+      "player_name": "光岡 義洋",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "光岡 義洋",
+          "rebuilt": "光岡　義洋"
+        },
+        {
+          "field": "prefecture",
+          "old": "愛 知",
+          "rebuilt": "愛　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_5R",
+      "player_id": "015190",
+      "player_name": "大中 拓磨",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "大中 拓磨",
+          "rebuilt": "大中　拓磨"
+        },
+        {
+          "field": "prefecture",
+          "old": "兵 庫",
+          "rebuilt": "兵　庫"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_6R",
+      "player_id": "015032",
+      "player_name": "小林 優香",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "小林 優香",
+          "rebuilt": "小林　優香"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_6R",
+      "player_id": "015938",
+      "player_name": "牧田 咲子",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "牧田 咲子",
+          "rebuilt": "牧田　咲子"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_6R",
+      "player_id": "015135",
+      "player_name": "荒川 ひかり",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "荒川 ひかり",
+          "rebuilt": "荒川　ひかり"
+        },
+        {
+          "field": "prefecture",
+          "old": "茨 城",
+          "rebuilt": "茨　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_6R",
+      "player_id": "015763",
+      "player_name": "山口 優依",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山口 優依",
+          "rebuilt": "山口　優依"
+        },
+        {
+          "field": "prefecture",
+          "old": "愛 知",
+          "rebuilt": "愛　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_6R",
+      "player_id": "015671",
+      "player_name": "小泉 夢菜",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "小泉 夢菜",
+          "rebuilt": "小泉　夢菜"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_6R",
+      "player_id": "015410",
+      "player_name": "村田 奈穂",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "村田 奈穂",
+          "rebuilt": "村田　奈穂"
+        },
+        {
+          "field": "prefecture",
+          "old": "熊 本",
+          "rebuilt": "熊　本"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_6R",
+      "player_id": "015765",
+      "player_name": "竹野 百香",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "竹野 百香",
+          "rebuilt": "竹野　百香"
+        },
+        {
+          "field": "prefecture",
+          "old": "三 重",
+          "rebuilt": "三　重"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_7R",
+      "player_id": "016016",
+      "player_name": "西原 裕太郎",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "西原 裕太郎",
+          "rebuilt": "西原　裕太郎"
+        },
+        {
+          "field": "prefecture",
+          "old": "佐 賀",
+          "rebuilt": "佐　賀"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_7R",
+      "player_id": "014666",
+      "player_name": "等々力 久就",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "等々力 久就",
+          "rebuilt": "等々力　久就"
+        },
+        {
+          "field": "prefecture",
+          "old": "長 野",
+          "rebuilt": "長　野"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_7R",
+      "player_id": "014885",
+      "player_name": "戸田 康平",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "戸田 康平",
+          "rebuilt": "戸田　康平"
+        },
+        {
+          "field": "prefecture",
+          "old": "香 川",
+          "rebuilt": "香　川"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_7R",
+      "player_id": "014418",
+      "player_name": "安部 龍文",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "安部 龍文",
+          "rebuilt": "安部　龍文"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 分",
+          "rebuilt": "大　分"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_7R",
+      "player_id": "015995",
+      "player_name": "伊藤 京介",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "伊藤 京介",
+          "rebuilt": "伊藤　京介"
+        },
+        {
+          "field": "prefecture",
+          "old": "三 重",
+          "rebuilt": "三　重"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_7R",
+      "player_id": "016017",
+      "player_name": "白濱 蓮",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "白濱 蓮",
+          "rebuilt": "白濱　蓮"
+        },
+        {
+          "field": "prefecture",
+          "old": "長 崎",
+          "rebuilt": "長　崎"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_佐世保_7R",
+      "player_id": "012248",
+      "player_name": "中井 大介",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "中井 大介",
+          "rebuilt": "中井　大介"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_2R",
+      "player_id": "014777",
+      "player_name": "竹村 達也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "竹村 達也",
+          "rebuilt": "竹村　達也"
+        },
+        {
+          "field": "prefecture",
+          "old": "高 知",
+          "rebuilt": "高　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_2R",
+      "player_id": "014931",
+      "player_name": "横田 政直",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "横田 政直",
+          "rebuilt": "横田　政直"
+        },
+        {
+          "field": "prefecture",
+          "old": "群 馬",
+          "rebuilt": "群　馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_2R",
+      "player_id": "014842",
+      "player_name": "川本 琢也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "川本 琢也",
+          "rebuilt": "川本　琢也"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_2R",
+      "player_id": "014774",
+      "player_name": "阿部 弘",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "阿部 弘",
+          "rebuilt": "阿部　弘"
+        },
+        {
+          "field": "prefecture",
+          "old": "高 知",
+          "rebuilt": "高　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_2R",
+      "player_id": "013543",
+      "player_name": "内海 雅夫",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "内海 雅夫",
+          "rebuilt": "内海　雅夫"
+        },
+        {
+          "field": "prefecture",
+          "old": "群 馬",
+          "rebuilt": "群　馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_2R",
+      "player_id": "013454",
+      "player_name": "関戸 努",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "関戸 努",
+          "rebuilt": "関戸　努"
+        },
+        {
+          "field": "prefecture",
+          "old": "宮 城",
+          "rebuilt": "宮　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_2R",
+      "player_id": "011790",
+      "player_name": "廣川 貞治",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "廣川 貞治",
+          "rebuilt": "廣川　貞治"
+        },
+        {
+          "field": "prefecture",
+          "old": "東 京",
+          "rebuilt": "東　京"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_3R",
+      "player_id": "012876",
+      "player_name": "湯浅 弘光",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "湯浅 弘光",
+          "rebuilt": "湯浅　弘光"
+        },
+        {
+          "field": "prefecture",
+          "old": "千 葉",
+          "rebuilt": "千　葉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_3R",
+      "player_id": "015967",
+      "player_name": "田崎 隼翔",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "田崎 隼翔",
+          "rebuilt": "田崎　隼翔"
+        },
+        {
+          "field": "prefecture",
+          "old": "栃 木",
+          "rebuilt": "栃　木"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_3R",
+      "player_id": "013214",
+      "player_name": "水本 博行",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "水本 博行",
+          "rebuilt": "水本　博行"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_3R",
+      "player_id": "014434",
+      "player_name": "山崎 功也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山崎 功也",
+          "rebuilt": "山崎　功也"
+        },
+        {
+          "field": "prefecture",
+          "old": "宮 城",
+          "rebuilt": "宮　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_3R",
+      "player_id": "013176",
+      "player_name": "早川 成矢",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "早川 成矢",
+          "rebuilt": "早川　成矢"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_3R",
+      "player_id": "015739",
+      "player_name": "楠本 政明",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "楠本 政明",
+          "rebuilt": "楠本　政明"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_3R",
+      "player_id": "011427",
+      "player_name": "川口 秀人",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "川口 秀人",
+          "rebuilt": "川口　秀人"
+        },
+        {
+          "field": "prefecture",
+          "old": "徳 島",
+          "rebuilt": "徳　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_4R",
+      "player_id": "011935",
+      "player_name": "高嶋 一朗",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "高嶋 一朗",
+          "rebuilt": "高嶋　一朗"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_4R",
+      "player_id": "014385",
+      "player_name": "山本 淳",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山本 淳",
+          "rebuilt": "山本　淳"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_4R",
+      "player_id": "015980",
+      "player_name": "吉川 敬介",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "吉川 敬介",
+          "rebuilt": "吉川　敬介"
+        },
+        {
+          "field": "prefecture",
+          "old": "東 京",
+          "rebuilt": "東　京"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_4R",
+      "player_id": "012321",
+      "player_name": "檀 雄二",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "檀 雄二",
+          "rebuilt": "檀　雄二"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_4R",
+      "player_id": "015984",
+      "player_name": "藤岡 祐馬",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "藤岡 祐馬",
+          "rebuilt": "藤岡　祐馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_4R",
+      "player_id": "012329",
+      "player_name": "松尾 正人",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "松尾 正人",
+          "rebuilt": "松尾　正人"
+        },
+        {
+          "field": "prefecture",
+          "old": "熊 本",
+          "rebuilt": "熊　本"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_4R",
+      "player_id": "014578",
+      "player_name": "大越 啓介",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "大越 啓介",
+          "rebuilt": "大越　啓介"
+        },
+        {
+          "field": "prefecture",
+          "old": "栃 木",
+          "rebuilt": "栃　木"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_5R",
+      "player_id": "014909",
+      "player_name": "浦部 郁里",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "浦部 郁里",
+          "rebuilt": "浦部　郁里"
+        },
+        {
+          "field": "prefecture",
+          "old": "千 葉",
+          "rebuilt": "千　葉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_5R",
+      "player_id": "015867",
+      "player_name": "是永 ゆうき",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "是永 ゆうき",
+          "rebuilt": "是永　ゆうき"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 分",
+          "rebuilt": "大　分"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_5R",
+      "player_id": "015320",
+      "player_name": "那須 萌美",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "那須 萌美",
+          "rebuilt": "那須　萌美"
+        },
+        {
+          "field": "prefecture",
+          "old": "宮 崎",
+          "rebuilt": "宮　崎"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_5R",
+      "player_id": "015948",
+      "player_name": "西田 美菜",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "西田 美菜",
+          "rebuilt": "西田　美菜"
+        },
+        {
+          "field": "prefecture",
+          "old": "奈 良",
+          "rebuilt": "奈　良"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_5R",
+      "player_id": "015023",
+      "player_name": "石井 貴子",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "石井 貴子",
+          "rebuilt": "石井　貴子"
+        },
+        {
+          "field": "prefecture",
+          "old": "千 葉",
+          "rebuilt": "千　葉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_5R",
+      "player_id": "016027",
+      "player_name": "松下 彩也香",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "松下 彩也香",
+          "rebuilt": "松下　彩也香"
+        },
+        {
+          "field": "prefecture",
+          "old": "青 森",
+          "rebuilt": "青　森"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_5R",
+      "player_id": "015216",
+      "player_name": "加藤 恵",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "加藤 恵",
+          "rebuilt": "加藤　恵"
+        },
+        {
+          "field": "prefecture",
+          "old": "青 森",
+          "rebuilt": "青　森"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_6R",
+      "player_id": "015226",
+      "player_name": "成田 可菜絵",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "成田 可菜絵",
+          "rebuilt": "成田　可菜絵"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 阪",
+          "rebuilt": "大　阪"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_6R",
+      "player_id": "015321",
+      "player_name": "比嘉 真梨代",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "比嘉 真梨代",
+          "rebuilt": "比嘉　真梨代"
+        },
+        {
+          "field": "prefecture",
+          "old": "沖 縄",
+          "rebuilt": "沖　縄"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_6R",
+      "player_id": "015851",
+      "player_name": "片岡 美奈",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "片岡 美奈",
+          "rebuilt": "片岡　美奈"
+        },
+        {
+          "field": "prefecture",
+          "old": "栃 木",
+          "rebuilt": "栃　木"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_6R",
+      "player_id": "016030",
+      "player_name": "川上 いちご",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "川上 いちご",
+          "rebuilt": "川上　いちご"
+        },
+        {
+          "field": "prefecture",
+          "old": "千 葉",
+          "rebuilt": "千　葉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_6R",
+      "player_id": "015020",
+      "player_name": "奥井 迪",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "奥井 迪",
+          "rebuilt": "奥井　迪"
+        },
+        {
+          "field": "prefecture",
+          "old": "東 京",
+          "rebuilt": "東　京"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_6R",
+      "player_id": "015946",
+      "player_name": "伊藤 木々音",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "伊藤 木々音",
+          "rebuilt": "伊藤　木々音"
+        },
+        {
+          "field": "prefecture",
+          "old": "岐 阜",
+          "rebuilt": "岐　阜"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_6R",
+      "player_id": "015224",
+      "player_name": "太田 美穂",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "太田 美穂",
+          "rebuilt": "太田　美穂"
+        },
+        {
+          "field": "prefecture",
+          "old": "三 重",
+          "rebuilt": "三　重"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_7R",
+      "player_id": "014438",
+      "player_name": "緑川 修平",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "緑川 修平",
+          "rebuilt": "緑川　修平"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 島",
+          "rebuilt": "福　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_7R",
+      "player_id": "013896",
+      "player_name": "安東 英博",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "安東 英博",
+          "rebuilt": "安東　英博"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 分",
+          "rebuilt": "大　分"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_7R",
+      "player_id": "014021",
+      "player_name": "森川 剛",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "森川 剛",
+          "rebuilt": "森川　剛"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_7R",
+      "player_id": "014181",
+      "player_name": "藤原 悠斗",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "藤原 悠斗",
+          "rebuilt": "藤原　悠斗"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_7R",
+      "player_id": "014282",
+      "player_name": "石川 恭規",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "石川 恭規",
+          "rebuilt": "石川　恭規"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 島",
+          "rebuilt": "福　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_7R",
+      "player_id": "012914",
+      "player_name": "武市 和人",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "武市 和人",
+          "rebuilt": "武市　和人"
+        },
+        {
+          "field": "prefecture",
+          "old": "高 知",
+          "rebuilt": "高　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_7R",
+      "player_id": "015659",
+      "player_name": "池田 伍功羽",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "池田 伍功羽",
+          "rebuilt": "池田　伍功羽"
+        },
+        {
+          "field": "prefecture",
+          "old": "熊 本",
+          "rebuilt": "熊　本"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_9R",
+      "player_id": "013589",
+      "player_name": "佐竹 和也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "佐竹 和也",
+          "rebuilt": "佐竹　和也"
+        },
+        {
+          "field": "prefecture",
+          "old": "徳 島",
+          "rebuilt": "徳　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_9R",
+      "player_id": "015427",
+      "player_name": "戸邉 捺希",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "戸邉 捺希",
+          "rebuilt": "戸邉　捺希"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_9R",
+      "player_id": "014522",
+      "player_name": "高橋 佑輔",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "高橋 佑輔",
+          "rebuilt": "高橋　佑輔"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_9R",
+      "player_id": "015726",
+      "player_name": "龍野 琳太郎",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "龍野 琳太郎",
+          "rebuilt": "龍野　琳太郎"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_9R",
+      "player_id": "014082",
+      "player_name": "高橋 雅之",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "高橋 雅之",
+          "rebuilt": "高橋　雅之"
+        },
+        {
+          "field": "prefecture",
+          "old": "千 葉",
+          "rebuilt": "千　葉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_9R",
+      "player_id": "015897",
+      "player_name": "森 飛龍",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "森 飛龍",
+          "rebuilt": "森　飛龍"
+        },
+        {
+          "field": "prefecture",
+          "old": "静 岡",
+          "rebuilt": "静　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_9R",
+      "player_id": "014003",
+      "player_name": "須賀 和彦",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "須賀 和彦",
+          "rebuilt": "須賀　和彦"
+        },
+        {
+          "field": "prefecture",
+          "old": "茨 城",
+          "rebuilt": "茨　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_10R",
+      "player_id": "013885",
+      "player_name": "柳谷 崇",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "柳谷 崇",
+          "rebuilt": "柳谷　崇"
+        },
+        {
+          "field": "prefecture",
+          "old": "岡 山",
+          "rebuilt": "岡　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_10R",
+      "player_id": "014223",
+      "player_name": "瀧野 勝太",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "瀧野 勝太",
+          "rebuilt": "瀧野　勝太"
+        },
+        {
+          "field": "prefecture",
+          "old": "群 馬",
+          "rebuilt": "群　馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_10R",
+      "player_id": "015569",
+      "player_name": "谷口 力也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "谷口 力也",
+          "rebuilt": "谷口　力也"
+        },
+        {
+          "field": "prefecture",
+          "old": "熊 本",
+          "rebuilt": "熊　本"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_10R",
+      "player_id": "015700",
+      "player_name": "吉田 晏生",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "吉田 晏生",
+          "rebuilt": "吉田　晏生"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_10R",
+      "player_id": "013888",
+      "player_name": "細川 貴史",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "細川 貴史",
+          "rebuilt": "細川　貴史"
+        },
+        {
+          "field": "prefecture",
+          "old": "広 島",
+          "rebuilt": "広　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_10R",
+      "player_id": "013110",
+      "player_name": "法月 成祐",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "法月 成祐",
+          "rebuilt": "法月　成祐"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_10R",
+      "player_id": "014144",
+      "player_name": "石川 雅望",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "石川 雅望",
+          "rebuilt": "石川　雅望"
+        },
+        {
+          "field": "prefecture",
+          "old": "群 馬",
+          "rebuilt": "群　馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_11R",
+      "player_id": "013307",
+      "player_name": "浦川 尊明",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "浦川 尊明",
+          "rebuilt": "浦川　尊明"
+        },
+        {
+          "field": "prefecture",
+          "old": "茨 城",
+          "rebuilt": "茨　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_11R",
+      "player_id": "013971",
+      "player_name": "内山 拓",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "内山 拓",
+          "rebuilt": "内山　拓"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_11R",
+      "player_id": "014354",
+      "player_name": "大島 将人",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "大島 将人",
+          "rebuilt": "大島　将人"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 島",
+          "rebuilt": "福　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_11R",
+      "player_id": "015346",
+      "player_name": "鈴木 薫",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "鈴木 薫",
+          "rebuilt": "鈴木　薫"
+        },
+        {
+          "field": "prefecture",
+          "old": "東 京",
+          "rebuilt": "東　京"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_11R",
+      "player_id": "015600",
+      "player_name": "照井 力斗",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "照井 力斗",
+          "rebuilt": "照井　力斗"
+        },
+        {
+          "field": "prefecture",
+          "old": "岩 手",
+          "rebuilt": "岩　手"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_11R",
+      "player_id": "012717",
+      "player_name": "伊藤 一貴",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "伊藤 一貴",
+          "rebuilt": "伊藤　一貴"
+        },
+        {
+          "field": "prefecture",
+          "old": "栃 木",
+          "rebuilt": "栃　木"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_取手_11R",
+      "player_id": "015665",
+      "player_name": "福田 要",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "福田 要",
+          "rebuilt": "福田　要"
+        },
+        {
+          "field": "prefecture",
+          "old": "宮 崎",
+          "rebuilt": "宮　崎"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_1R",
+      "player_id": "015796",
+      "player_name": "川田 真也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "川田 真也",
+          "rebuilt": "川田　真也"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_1R",
+      "player_id": "013121",
+      "player_name": "山田 晃久",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山田 晃久",
+          "rebuilt": "山田　晃久"
+        },
+        {
+          "field": "prefecture",
+          "old": "石 川",
+          "rebuilt": "石　川"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_1R",
+      "player_id": "013594",
+      "player_name": "高田 真幸",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "高田 真幸",
+          "rebuilt": "高田　真幸"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_1R",
+      "player_id": "014520",
+      "player_name": "伊藤 彰規",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "伊藤 彰規",
+          "rebuilt": "伊藤　彰規"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_1R",
+      "player_id": "014457",
+      "player_name": "北野 良栄",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "北野 良栄",
+          "rebuilt": "北野　良栄"
+        },
+        {
+          "field": "prefecture",
+          "old": "茨 城",
+          "rebuilt": "茨　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_1R",
+      "player_id": "014324",
+      "player_name": "内村 竜也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "内村 竜也",
+          "rebuilt": "内村　竜也"
+        },
+        {
+          "field": "prefecture",
+          "old": "山 口",
+          "rebuilt": "山　口"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_1R",
+      "player_id": "014062",
+      "player_name": "齋藤 昌弘",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "齋藤 昌弘",
+          "rebuilt": "齋藤　昌弘"
+        },
+        {
+          "field": "prefecture",
+          "old": "群 馬",
+          "rebuilt": "群　馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_2R",
+      "player_id": "015357",
+      "player_name": "藤井 稜也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "藤井 稜也",
+          "rebuilt": "藤井　稜也"
+        },
+        {
+          "field": "prefecture",
+          "old": "岐 阜",
+          "rebuilt": "岐　阜"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_2R",
+      "player_id": "014133",
+      "player_name": "高橋 紀史",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "高橋 紀史",
+          "rebuilt": "高橋　紀史"
+        },
+        {
+          "field": "prefecture",
+          "old": "佐 賀",
+          "rebuilt": "佐　賀"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_2R",
+      "player_id": "015507",
+      "player_name": "上遠野 拓馬",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "上遠野 拓馬",
+          "rebuilt": "上遠野　拓馬"
+        },
+        {
+          "field": "prefecture",
+          "old": "宮 城",
+          "rebuilt": "宮　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_2R",
+      "player_id": "014758",
+      "player_name": "中野 智公",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "中野 智公",
+          "rebuilt": "中野　智公"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_2R",
+      "player_id": "012042",
+      "player_name": "山原 利秀",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山原 利秀",
+          "rebuilt": "山原　利秀"
+        },
+        {
+          "field": "prefecture",
+          "old": "高 知",
+          "rebuilt": "高　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_2R",
+      "player_id": "015085",
+      "player_name": "奈良 基",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "奈良 基",
+          "rebuilt": "奈良　基"
+        },
+        {
+          "field": "prefecture",
+          "old": "宮 城",
+          "rebuilt": "宮　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_2R",
+      "player_id": "014220",
+      "player_name": "山崎 悟",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "山崎 悟",
+          "rebuilt": "山崎　悟"
+        },
+        {
+          "field": "prefecture",
+          "old": "茨 城",
+          "rebuilt": "茨　城"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_3R",
+      "player_id": "014402",
+      "player_name": "泉谷 直哉",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "泉谷 直哉",
+          "rebuilt": "泉谷　直哉"
+        },
+        {
+          "field": "prefecture",
+          "old": "兵 庫",
+          "rebuilt": "兵　庫"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_3R",
+      "player_id": "013863",
+      "player_name": "吉田 健市",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "吉田 健市",
+          "rebuilt": "吉田　健市"
+        },
+        {
+          "field": "prefecture",
+          "old": "愛 知",
+          "rebuilt": "愛　知"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_3R",
+      "player_id": "014532",
+      "player_name": "柴田 竜史",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "柴田 竜史",
+          "rebuilt": "柴田　竜史"
+        },
+        {
+          "field": "prefecture",
+          "old": "静 岡",
+          "rebuilt": "静　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_3R",
+      "player_id": "015558",
+      "player_name": "川野 深",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "川野 深",
+          "rebuilt": "川野　深"
+        },
+        {
+          "field": "prefecture",
+          "old": "福 岡",
+          "rebuilt": "福　岡"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_3R",
+      "player_id": "013471",
+      "player_name": "松坂 英司",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "松坂 英司",
+          "rebuilt": "松坂　英司"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_3R",
+      "player_id": "015906",
+      "player_name": "林 佳宗依",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "林 佳宗依",
+          "rebuilt": "林　佳宗依"
+        },
+        {
+          "field": "prefecture",
+          "old": "富 山",
+          "rebuilt": "富　山"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_3R",
+      "player_id": "015187",
+      "player_name": "鮫島 康治",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "鮫島 康治",
+          "rebuilt": "鮫島　康治"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 阪",
+          "rebuilt": "大　阪"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_4R",
+      "player_id": "015526",
+      "player_name": "梅田 加津也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "梅田 加津也",
+          "rebuilt": "梅田　加津也"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_4R",
+      "player_id": "013435",
+      "player_name": "中石 昌芳",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "中石 昌芳",
+          "rebuilt": "中石　昌芳"
+        },
+        {
+          "field": "prefecture",
+          "old": "広 島",
+          "rebuilt": "広　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_4R",
+      "player_id": "014951",
+      "player_name": "後藤 祐貴",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "後藤 祐貴",
+          "rebuilt": "後藤　祐貴"
+        },
+        {
+          "field": "prefecture",
+          "old": "兵 庫",
+          "rebuilt": "兵　庫"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_4R",
+      "player_id": "014674",
+      "player_name": "丹波 孝佑",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "丹波 孝佑",
+          "rebuilt": "丹波　孝佑"
+        },
+        {
+          "field": "prefecture",
+          "old": "大 阪",
+          "rebuilt": "大　阪"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_4R",
+      "player_id": "014066",
+      "player_name": "池田 勇人",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "池田 勇人",
+          "rebuilt": "池田　勇人"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_4R",
+      "player_id": "012708",
+      "player_name": "野木 義規",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "野木 義規",
+          "rebuilt": "野木　義規"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_4R",
+      "player_id": "014684",
+      "player_name": "松本 卓也",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "松本 卓也",
+          "rebuilt": "松本　卓也"
+        },
+        {
+          "field": "prefecture",
+          "old": "徳 島",
+          "rebuilt": "徳　島"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_5R",
+      "player_id": "015555",
+      "player_name": "林 昌幸",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "林 昌幸",
+          "rebuilt": "林　昌幸"
+        },
+        {
+          "field": "prefecture",
+          "old": "愛 媛",
+          "rebuilt": "愛　媛"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_5R",
+      "player_id": "015612",
+      "player_name": "小榑 佑弥",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "小榑 佑弥",
+          "rebuilt": "小榑　佑弥"
+        },
+        {
+          "field": "prefecture",
+          "old": "群 馬",
+          "rebuilt": "群　馬"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_5R",
+      "player_id": "015653",
+      "player_name": "坂田 康季",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "坂田 康季",
+          "rebuilt": "坂田　康季"
+        },
+        {
+          "field": "prefecture",
+          "old": "佐 賀",
+          "rebuilt": "佐　賀"
+        }
+      ]
+    },
+    {
+      "race_key": "20260707_和歌山_5R",
+      "player_id": "014068",
+      "player_name": "吉田 裕全",
+      "diff": [
+        {
+          "field": "player_name",
+          "old": "吉田 裕全",
+          "rebuilt": "吉田　裕全"
+        },
+        {
+          "field": "prefecture",
+          "old": "埼 玉",
+          "rebuilt": "埼　玉"
+        }
+      ]
+    }
+  ]
+}

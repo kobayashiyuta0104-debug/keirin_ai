@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head id="j_idt2"> 
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+		<meta http-equiv="content-script-type" content="text/javascript" />
+		<meta http-equiv="content-style-type" content="text/css" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="author" content="JKA" />
+		<meta name="copyright" content="COPYRIGHT(C) JKA. ALL RIGHTS RESERVED." />
+		<meta name="robots" content="NOINDEX,NOFOLLOW" />
+		<title>エラーページ｜KEIRIN.JP</title>
+		<link rel="icon" href="/pc/static/img/common/favicon.ico" />
+		<link rel="stylesheet" href="/pc/static/css/common/bootstrap.min.css" />
+		<link rel="stylesheet" href="/pc/static/css/common/bootstrap-theme.min.css" />
+		<link rel="stylesheet" media="all" href="/pc/static/css/P_base.css" />
+		<link rel="stylesheet" media="all" href="/pc/static/css/pc0501.css" />
+	</head>
+	<body>
+		<div class="basewindows clear-fix"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+				<nav id="menu" class="navbar header_bg navipos" role="navigation">
+					<div class="container" id="nav_menus">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="/pc/top" style="height: 70px;">
+								<img src="/pc/static/img/topbtn.png" alt="KEIRIN.JP TOP" class="top_logo" />
+							</a>
+						</div>
+						<div id="navbar" class="collapse navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="dropdown">
+									<a class="topmenu_txt" href="/pc/static/beginner/miscellaneous/membership.html">初心者コンテンツ</a>
+								</li>
+								<li class="dropdown">
+									<a class="topmenu_txt" href="/pc/raceschedule">開催日程</a>
+								</li>
+								<li class="dropdown">
+									<a class="topmenu_txt" href="/pc/search">検索/資料室</a>
+								</li>
+								<li class="dropdown">
+									<a class="topmenu_txt" href="/pc/jyolist">競輪場/場外売場</a>
+								</li>
+								<li class="dropdown">
+									<a class="topmenu_txt" href="/pc/dfw/portal/guest/nkg/index.html">日本競輪学校</a>
+								</li>
+								<li class="dropdown">
+									<a class="topmenu_txt" href="/pc/dfw/portal/guest/link/index.html">リンク</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div id="topfix">
+						<div id="colorbar" class="menu_colorbar"></div>
+					</div>
+					<div id="breads" class="bread_area clear-fix">
+						<div class="bread_crab fl-l" id="hcomBlDiv">
+							<div class="list-inline" id="bread_area_id" jname="パンくずリスト" name="lnkBreadcrumb">
+								<span>エラーページ</span>
+							</div>
+						</div>
+						<div class="searchbox fl-r">
+							<form name="find" id="siteSearch" action="https://www.google.co.jp/search" method="get">
+								<input name="ie" type="hidden" value="UTF-8" />
+								<input name="oe" type="hidden" value="UTF-8" />
+								<input name="hl" type="hidden" value="ja" />
+								<input name="domains" type="hidden" value="https://keirin.jp/" />
+								<input name="sitesearch" type="hidden" checked="checked" value="https://keirin.jp/" />
+								<button class="fl-r google_search_btn" onclick="document.find.submit();return false;"></button>
+								<input name="q" class="fl-r google_search" style="width: 148px; font-size: 12px;" type="text" maxlength="255" placeholder="Google™ 検索" value="" />
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="col1_layB">
+				<br /><br />
+				<div class="err_msg">
+					<span class="error_msg_fsz">
+						<span id="UNQ_orlabel_1">ただいまこのページへはアクセスできません。</span>
+						<br />
+						<span id="UNQ_orlabel_1">他のページをご利用ください。</span>
+						<br />
+						<span id="UNQ_orlabel_3">(EC0404E)</span>
+					</span>
+				</div>
+				<div class="btn_tbl">
+					<table calss="btn_tbl_tbl">
+						<tr>
+							<td class="al-c">
+								<button class="btn onbtn err_btn_style" onclick="location.href='/pc/top'">
+									<span>トップページ</span>
+								</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+				<div class="al-r clear-fix toppageto" id="shbtnTopoff" style="height: 20px;"></div>
+				<footer class="footer">
+					<div class="container clear-fix">
+						<a href="/pc/static/help/PX0201.html" target="_blank">操作ガイド/ヘルプ</a> |
+						<a href="/pc/dfw/portal/guest/site/otoiawase.html">お問い合わせ</a> |
+						<a href="/pc/userenvironment">お客様利用環境表示</a> |
+						<a href="/pc/dfw/portal/guest/sitemap/index.html">サイトマップ</a> |
+						<a href="/pc/dfw/portal/guest/policy/index.html">サイトポリシー</a> |
+						<a href="/sp/top">スマホサイト</a>
+						<span class="fl-r copyright">COPYRIGHT JKA. ALL RIGHTS  RESERVED.</span>
+					</div>
+				</footer>
+			</div>
+</div>

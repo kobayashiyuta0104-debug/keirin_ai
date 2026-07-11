@@ -1,0 +1,2087 @@
+{
+  "comparisons": 532,
+  "target_nonempty": {
+    "venue_code": 532,
+    "venue_name": 532,
+    "meeting_start_date": 532,
+    "grade": 532
+  },
+  "tyo4_keys": {
+    "kaisaiKbn": 532,
+    "bKeirinjyoCd": 532,
+    "kerinjyoName": 532,
+    "kaisaiFirst": 532,
+    "gaiTeiGrade": 532,
+    "kkParameter": 532,
+    "resultInfoSubData": 532,
+    "msg": 53
+  },
+  "result_row_keys": {
+    "imgTyakuiPath": 1472,
+    "imgTyakuiName": 1472,
+    "backTori": 1472,
+    "kkrParameter": 1472
+  },
+  "exact_path_hits": {
+    "venue_code": [
+      {
+        "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+        "count": 532
+      },
+      {
+        "path": "$.age",
+        "count": 9
+      },
+      {
+        "path": "$.rentairitu2",
+        "count": 6
+      },
+      {
+        "path": "$.rentairitu3",
+        "count": 4
+      },
+      {
+        "path": "$.sotugyouki",
+        "count": 4
+      },
+      {
+        "path": "$.homeTori",
+        "count": 2
+      },
+      {
+        "path": "$.syouritu",
+        "count": 1
+      },
+      {
+        "path": "$.stTori",
+        "count": 1
+      },
+      {
+        "path": "$.backCnt",
+        "count": 1
+      }
+    ],
+    "venue_name": [
+      {
+        "path": "$.tyo4InfoSubData.kerinjyoName",
+        "count": 532
+      }
+    ],
+    "meeting_start_date": [
+      {
+        "path": "$.tyo4InfoSubData.kaisaiFirst",
+        "count": 532
+      }
+    ],
+    "grade": [
+      {
+        "path": "$.tyo4InfoSubData.gaiTeiGrade",
+        "count": 532
+      },
+      {
+        "path": "$.konResultInfoSubData.gaiTeiGrade",
+        "count": 316
+      }
+    ]
+  },
+  "samples": [
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "016011",
+      "player_name": "鶴 健志",
+      "old_recent_meeting": {
+        "venue_code": "53",
+        "venue_name": "奈",
+        "meeting_start_date": "20260606",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "53",
+        "kerinjyoName": "奈",
+        "kaisaiFirst": "20260606",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "hXAFouF_EW8oCnSpPo40hq-25bDhMETgO9ownfRLmRM",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+            "imgTyakuiName": "3",
+            "backTori": "0",
+            "kkrParameter": "hXAFouF_EW8oCnSpPo40htRhWaFRKDRsZrd9BNepXH2sJv5Bjj69qF4EA61bRhGT"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+            "imgTyakuiName": "4",
+            "backTori": "0",
+            "kkrParameter": "hXAFouF_EW8oCnSpPo40hvkGvcW4hxghme-ZpoGmTAdhtoHvgTCcwGVCn-meSL1D"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "hXAFouF_EW8oCnSpPo40hrA4llINSSkHu5i3hNia82NM9aNyBcd_MqjwIEwln-cz"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "53"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "奈"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260606"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "011990",
+      "player_name": "茂木 和臣",
+      "old_recent_meeting": {
+        "venue_code": "47",
+        "venue_name": "阪",
+        "meeting_start_date": "20260701",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "47",
+        "kerinjyoName": "阪",
+        "kaisaiFirst": "20260701",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "eNuNUsNFo4CVHMeFfGSwJ4tYy-ZlHskiNTEBORvurrM",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+            "imgTyakuiName": "7",
+            "backTori": "0",
+            "kkrParameter": "eNuNUsNFo4CVHMeFfGSwJyPmqLzU411R3Y-0sqyuU5l0_XyyBuL5LepimFb5WHao"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+            "imgTyakuiName": "4",
+            "backTori": "0",
+            "kkrParameter": "eNuNUsNFo4CVHMeFfGSwJ3hvr_XNzRWcm6nXupgJbxWmuFycG9fIW_m_sBS_01Kr"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "0",
+            "kkrParameter": "eNuNUsNFo4CVHMeFfGSwJ5LRHY8mABniz1kCzeM977gf8uqzSkU8UPaI6vRgFjx6"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "47"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "阪"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260701"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "011328",
+      "player_name": "川添 輝彦",
+      "old_recent_meeting": {
+        "venue_code": "85",
+        "venue_name": "佐",
+        "meeting_start_date": "20260628",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "85",
+        "kerinjyoName": "佐",
+        "kaisaiFirst": "20260628",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "pwzdqoQWyXU0o-0Slea_Gc10xKtIsjs8y0Ui7aVnl34",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "pwzdqoQWyXU0o-0Slea_GQ1tIBcT9JTJlNtHJycFSasyH6A2fGqI0zRMMfpnQtPz"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "pwzdqoQWyXU0o-0Slea_GaoUTA-cwvgQEfiCqBJQVVm1tkiLVldSE1frmJmRXLUN"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "pwzdqoQWyXU0o-0Slea_GaeLOpTn3dGak8GrfMIBX13PpRrHLeVHlUNsGuPKuXqa"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "85"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "佐"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260628"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "014443",
+      "player_name": "堀内 昇",
+      "old_recent_meeting": {
+        "venue_code": "12",
+        "venue_name": "青",
+        "meeting_start_date": "20260625",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "12",
+        "kerinjyoName": "青",
+        "kaisaiFirst": "20260625",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "YyUMwJFqH_os4DNhTHKO8x8xTZdHbI4wPOLWh9pWdSw",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "1",
+            "kkrParameter": "YyUMwJFqH_os4DNhTHKO84EoIMfYXLep6_e3l5XRxU8JxHwcWrT29hS7kz2EjF8o"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+            "imgTyakuiName": "4",
+            "backTori": "0",
+            "kkrParameter": "YyUMwJFqH_os4DNhTHKO81wmupNIFkwZLnJVL1hysnz7liyvMRWUWoYV7WNxBbEl"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "YyUMwJFqH_os4DNhTHKO856Xun5NyQoiwTFbhDMUmwF_bVi1pyFYo2mPHBeRHbWM"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "12"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "青"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260625"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "011367",
+      "player_name": "石川 一浩",
+      "old_recent_meeting": {
+        "venue_code": "12",
+        "venue_name": "青",
+        "meeting_start_date": "20260617",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "12",
+        "kerinjyoName": "青",
+        "kaisaiFirst": "20260617",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "YyUMwJFqH_os4DNhTHKO876LCD194ed7vHJqtM78R2Q",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "YyUMwJFqH_os4DNhTHKO8_uilz7j2pV_Bk90MX5Caw4bKOjNbV7bnp1b3X6mA5OH"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+            "imgTyakuiName": "3",
+            "backTori": "0",
+            "kkrParameter": "YyUMwJFqH_os4DNhTHKO895HTSDkQmnF6mAIk3eL0V5IKjQovZILJYY-g4JSwlQo"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+            "imgTyakuiName": "3",
+            "backTori": "0",
+            "kkrParameter": "YyUMwJFqH_os4DNhTHKO8yoIxxAwngZ9ONZeTEbznPj7MuWUgVKPWOadXO2_g45g"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "12"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "青"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260617"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "012537",
+      "player_name": "取鳥 敬一",
+      "old_recent_meeting": {
+        "venue_code": "73",
+        "venue_name": "小",
+        "meeting_start_date": "20260625",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "73",
+        "kerinjyoName": "小",
+        "kaisaiFirst": "20260625",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "MuuX8lCsFCCFm0JpogHUftUCr6DiEYACxqIlBlLbO88",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "MuuX8lCsFCCFm0JpogHUfhyNyYpdf93hIOItgOmHlcHNbYdJDjJivIEc2vol4pjL"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "MuuX8lCsFCCFm0JpogHUfiWXpsazy616aM7AS5swxXq6UlCLU9TBNvJK0a1Z0xHl"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+            "imgTyakuiName": "4",
+            "backTori": "0",
+            "kkrParameter": "MuuX8lCsFCCFm0JpogHUfttqh8v5j5stUABBd69H5yVZpBOk3J5GRH_AqA5GSnlc"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "73"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "小"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260625"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_2R",
+      "player_id": "014652",
+      "player_name": "原 清孝",
+      "old_recent_meeting": {
+        "venue_code": "62",
+        "venue_name": "広",
+        "meeting_start_date": "20260626",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "62",
+        "kerinjyoName": "広",
+        "kaisaiFirst": "20260626",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "Ozpk-eumfo_0DwX9fHqEYVT510wc27q-WXwyLSttPbU",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "Ozpk-eumfo_0DwX9fHqEYSwPa7TlAI9wlogp7MN2lfrUnbQn_-noHXRXjHaWkw6J"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+            "imgTyakuiName": "4",
+            "backTori": "0",
+            "kkrParameter": "Ozpk-eumfo_0DwX9fHqEYbzbJPUeLRQzNzX92JGRsbjhPZ6BqsIpoPp_Ll4sEfDS"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "1",
+            "kkrParameter": "Ozpk-eumfo_0DwX9fHqEYaICixR8N8vEJMIh00dJSPKmIxza4yHnBhDChD8oYA8S"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "62"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "広"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260626"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014776",
+      "player_name": "川上 修平",
+      "old_recent_meeting": {
+        "venue_code": "74",
+        "venue_name": "知",
+        "meeting_start_date": "20260618",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "74",
+        "kerinjyoName": "知",
+        "kaisaiFirst": "20260618",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "u3ftnY5SRux-xk3s1TGkhamFyzxjtt44H834Uflj7TY",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+            "imgTyakuiName": "7",
+            "backTori": "0",
+            "kkrParameter": "u3ftnY5SRux-xk3s1TGkhQM_n967qRuyRg_xgfniQR8vQdAyG1iGrKbWuR0ImFFG"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "u3ftnY5SRux-xk3s1TGkhXrTpvxLkB7Omxn1ISxLeCN5JdR9RB5MCSZKRwq64ZFl"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "u3ftnY5SRux-xk3s1TGkhd24RGhuS97QIgFvzhapBGEbTeODxh-_K-IPmHhzP5pG"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "74"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "知"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260618"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014447",
+      "player_name": "三木 翔太",
+      "old_recent_meeting": {
+        "venue_code": "37",
+        "venue_name": "伊",
+        "meeting_start_date": "20260628",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "37",
+        "kerinjyoName": "伊",
+        "kaisaiFirst": "20260628",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "W2uRQM1igycPTuhMZ-U0HxHON9qgFyqUsqiGtl-0DbU",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+            "imgTyakuiName": "7",
+            "backTori": "0",
+            "kkrParameter": "W2uRQM1igycPTuhMZ-U0HxU_J-0Z9lRJ2_Cil_eCfsTuBrLxht7gmzn9O9TKR5xd"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "0",
+            "kkrParameter": "W2uRQM1igycPTuhMZ-U0H1MBsWLf0G3wOBcTBY9FEpb4_ONenGQEvnonWVD6fqj_"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+            "imgTyakuiName": "7",
+            "backTori": "0",
+            "kkrParameter": "W2uRQM1igycPTuhMZ-U0H-FBUDw2XjAuvxd1twKNgm5ZlAN2pXm3CABUqT3m3Jgm"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.age",
+            "value": "37"
+          },
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "37"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "伊"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260628"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "015260",
+      "player_name": "國井 裕樹",
+      "old_recent_meeting": {
+        "venue_code": "85",
+        "venue_name": "佐",
+        "meeting_start_date": "20260628",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "msg": "不参加",
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "85",
+        "kerinjyoName": "佐",
+        "kaisaiFirst": "20260628",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "pwzdqoQWyXU0o-0Slea_Gc10xKtIsjs8y0Ui7aVnl34",
+        "resultInfoSubData": []
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "85"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "佐"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260628"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "016006",
+      "player_name": "高橋 聖太",
+      "old_recent_meeting": {
+        "venue_code": "87",
+        "venue_name": "熊",
+        "meeting_start_date": "20260529",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "87",
+        "kerinjyoName": "熊",
+        "kaisaiFirst": "20260529",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "IOS13V6oiZkyQWK3r2H3SkVSJYxVAK1DzYs7IC7Hw4A",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+            "imgTyakuiName": "7",
+            "backTori": "1",
+            "kkrParameter": "IOS13V6oiZkyQWK3r2H3SpicdUgtAjTrOCdCiohhg7WkvhaxmJvZ0c2I3wElVM9U"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "IOS13V6oiZkyQWK3r2H3Srb9fF4PMtYpEs6Al_WvZtLVq_hqCiSnKaTpp4RqXg0U"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "1",
+            "kkrParameter": "IOS13V6oiZkyQWK3r2H3SvDJbp3yVRkwktJTvKbN42235NAqVl7-ym9dSnfruKrq"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "87"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "熊"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260529"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014555",
+      "player_name": "水木 裕聡",
+      "old_recent_meeting": {
+        "venue_code": "27",
+        "venue_name": "閣",
+        "meeting_start_date": "20260623",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "27",
+        "kerinjyoName": "閣",
+        "kaisaiFirst": "20260623",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "yARyZ2RxXOeo4l7Z4BiVfs3LriNTuURcZtY4BvFMzHk",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfjocOl01XZsAP4a2f6ACfrmiGHJcLvpD_sCOpo4vvSGQ"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfmVJnIYLoOIa2oeO5JaWSFHxR481jpFLFgdCnRKi2kZ3"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfgjPqoV81GmFvY8uFV0QE8MBgj3Zr6xQk9L6-d23B5cL"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "27"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "閣"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260623"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014429",
+      "player_name": "千澤 大輔",
+      "old_recent_meeting": {
+        "venue_code": "37",
+        "venue_name": "伊",
+        "meeting_start_date": "20260628",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "37",
+        "kerinjyoName": "伊",
+        "kaisaiFirst": "20260628",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "W2uRQM1igycPTuhMZ-U0HxHON9qgFyqUsqiGtl-0DbU",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "W2uRQM1igycPTuhMZ-U0H_ir05McWhzoqKHKNJkOJSUI3grdSO9FwwWUaUkpPkf4"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "0",
+            "kkrParameter": "W2uRQM1igycPTuhMZ-U0H34nPujcVUZMeEWSFriaAFiMLGbRcC6xiKGFnFmrZWe4"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "0",
+            "kkrParameter": "W2uRQM1igycPTuhMZ-U0H7zZxC5EDJgwaJr7kKVsOkKo-Gs5P15xW0giRbDlr8yo"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "37"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "伊"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260628"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "player_id": "014301",
+      "player_name": "齋藤 輝彦",
+      "old_recent_meeting": {
+        "venue_code": "37",
+        "venue_name": "伊",
+        "meeting_start_date": "20260623",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "msg": "病気欠場",
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "37",
+        "kerinjyoName": "伊",
+        "kaisaiFirst": "20260623",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "W2uRQM1igycPTuhMZ-U0H4nyir0g9ueXEZ3IFGyT7YY",
+        "resultInfoSubData": []
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "37"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "伊"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260623"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "014265",
+      "player_name": "松永 真太",
+      "old_recent_meeting": {
+        "venue_code": "47",
+        "venue_name": "阪",
+        "meeting_start_date": "20260701",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "47",
+        "kerinjyoName": "阪",
+        "kaisaiFirst": "20260701",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "eNuNUsNFo4CVHMeFfGSwJ4tYy-ZlHskiNTEBORvurrM",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "0",
+            "kkrParameter": "eNuNUsNFo4CVHMeFfGSwJ84wjm6kxHJC9liqYTNAaiSHeC97oWnvAzRqVGVh968s"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-Wcircle-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "eNuNUsNFo4CVHMeFfGSwJzQtSEmQjZO0UGvMwJz8UihZb1PoVQ2dCeI6urHWOqev"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "0",
+            "kkrParameter": "eNuNUsNFo4CVHMeFfGSwJylGsni3P4ulyKhuWwrOZVf1xrOTdz5HIvl_CUaltkGi"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "47"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "阪"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260701"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "014802",
+      "player_name": "渡邉 正人",
+      "old_recent_meeting": {
+        "venue_code": "21",
+        "venue_name": "弥",
+        "meeting_start_date": "20260622",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "21",
+        "kerinjyoName": "弥",
+        "kaisaiFirst": "20260622",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "uT3_6zZe5WhDM6pyOeBlSEWjdCpXGExoIj3TaA79g2Q",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "uT3_6zZe5WhDM6pyOeBlSAF2nZ6BAnWErFWguE7z6jtUpu14mo9m9_TiDkRpMM2p"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "uT3_6zZe5WhDM6pyOeBlSLusC_7-3izrMJvKMktOvoe7EzojFUH53InIsOu--dr6"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/id_setp-normal-to.png",
+            "imgTyakuiName": "途中欠場",
+            "backTori": "",
+            "kkrParameter": ""
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "21"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "弥"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260622"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "012618",
+      "player_name": "武智 尚之",
+      "old_recent_meeting": {
+        "venue_code": "46",
+        "venue_name": "富",
+        "meeting_start_date": "20260616",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "46",
+        "kerinjyoName": "富",
+        "kaisaiFirst": "20260616",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "NiH2Hdt-CWhCXytnwocuVzLmk3h-T9ct7MeQo_jibYA",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "NiH2Hdt-CWhCXytnwocuVzvwZVF7jbYGQb5uYwr4T77VsDcLA_wMpFGBqxre34yA"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/id_setp-normal-to.png",
+            "imgTyakuiName": "途中欠場",
+            "backTori": "",
+            "kkrParameter": ""
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "46"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "富"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260616"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "014287",
+      "player_name": "齋藤 昌太",
+      "old_recent_meeting": {
+        "venue_code": "37",
+        "venue_name": "伊",
+        "meeting_start_date": "20260628",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "37",
+        "kerinjyoName": "伊",
+        "kaisaiFirst": "20260628",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "W2uRQM1igycPTuhMZ-U0HxHON9qgFyqUsqiGtl-0DbU",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+            "imgTyakuiName": "4",
+            "backTori": "0",
+            "kkrParameter": "W2uRQM1igycPTuhMZ-U0H_ir05McWhzoqKHKNJkOJSUI3grdSO9FwwWUaUkpPkf4"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-Wcircle-7.png",
+            "imgTyakuiName": "7",
+            "backTori": "0",
+            "kkrParameter": "W2uRQM1igycPTuhMZ-U0HwU8v9Z6hG25_OBKUkEBWmd0ynJwgaYrL7y4wA6KAdk0"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/id_setp-normal-to.png",
+            "imgTyakuiName": "途中欠場",
+            "backTori": "",
+            "kkrParameter": ""
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "37"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "伊"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260628"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "016015",
+      "player_name": "横溝 貫太",
+      "old_recent_meeting": {
+        "venue_code": "53",
+        "venue_name": "奈",
+        "meeting_start_date": "20260606",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "msg": "負傷欠場",
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "53",
+        "kerinjyoName": "奈",
+        "kaisaiFirst": "20260606",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "hXAFouF_EW8oCnSpPo40hq-25bDhMETgO9ownfRLmRM",
+        "resultInfoSubData": []
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "53"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "奈"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260606"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "013713",
+      "player_name": "丸山 勝也",
+      "old_recent_meeting": {
+        "venue_code": "81",
+        "venue_name": "倉",
+        "meeting_start_date": "20260618",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "msg": "病気欠場",
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "81",
+        "kerinjyoName": "倉",
+        "kaisaiFirst": "20260618",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "aTOkj2dFUUpQATsHeOxViNVkKRxCgUYenxZIkkNqhqo",
+        "resultInfoSubData": []
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "81"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "倉"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260618"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "player_id": "012832",
+      "player_name": "仙石 淳",
+      "old_recent_meeting": {
+        "venue_code": "85",
+        "venue_name": "佐",
+        "meeting_start_date": "20260628",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "85",
+        "kerinjyoName": "佐",
+        "kaisaiFirst": "20260628",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "pwzdqoQWyXU0o-0Slea_Gc10xKtIsjs8y0Ui7aVnl34",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "pwzdqoQWyXU0o-0Slea_GUHkO0i5vmiz5ZDuvP0F8mhr3vlrA_zqrHCpCJsaoNTh"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+            "imgTyakuiName": "3",
+            "backTori": "0",
+            "kkrParameter": "pwzdqoQWyXU0o-0Slea_GaoUTA-cwvgQEfiCqBJQVVm1tkiLVldSE1frmJmRXLUN"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "pwzdqoQWyXU0o-0Slea_GaOYoxeJDBwqoMsPGyJSNDyDL3yNe4Ajkx7bkrOgoIkF"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "85"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "佐"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260628"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015774",
+      "player_name": "金田 舞夏",
+      "old_recent_meeting": {
+        "venue_code": "61",
+        "venue_name": "玉",
+        "meeting_start_date": "20260611",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "61",
+        "kerinjyoName": "玉",
+        "kaisaiFirst": "20260611",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "v3GkGBnzcJwx-zPUFdtwmXfbU2pCRBP3p_Gl1sq0dX0",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+            "imgTyakuiName": "4",
+            "backTori": "0",
+            "kkrParameter": "v3GkGBnzcJwx-zPUFdtwmdfIgH5yBtTY6H91WqaBfWU4eyQ7lLhm0KIVlsj4HO8-"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+            "imgTyakuiName": "3",
+            "backTori": "0",
+            "kkrParameter": "v3GkGBnzcJwx-zPUFdtwmbwVpNIb4LV-PUEh6jdEl8RZ_zrRJb25LKIs9LbKrSHe"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-Wcircle-7.png",
+            "imgTyakuiName": "7",
+            "backTori": "0",
+            "kkrParameter": "v3GkGBnzcJwx-zPUFdtwmQwWcW8RoIQnym6F34r4IJftrJhwjLJDGNj3se9W13ec"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "v3GkGBnzcJwx-zPUFdtwmU7U_UbHOqSH6d5M9AxAgMHAKQl_hiCrrdnLge4PzRRn"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "61"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "玉"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260611"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015221",
+      "player_name": "吉村 早耶香",
+      "old_recent_meeting": {
+        "venue_code": "43",
+        "venue_name": "岐",
+        "meeting_start_date": "20260627",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "43",
+        "kerinjyoName": "岐",
+        "kaisaiFirst": "20260627",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "fh4VmOIOM0WWTQX4GRt_SHq-zK0R590_xOMQ_vZ5ths",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+            "imgTyakuiName": "3",
+            "backTori": "1",
+            "kkrParameter": "fh4VmOIOM0WWTQX4GRt_SLLsl1wNMwHTRKluutPt1X_ertX-TDKBxJqn6RHVkCzz"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "fh4VmOIOM0WWTQX4GRt_SLtePQ8ZCRiffa7NIyHXvKWZgmc-4qC7MVciOKH1_r3i"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-Bcircle-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "fh4VmOIOM0WWTQX4GRt_SJgRZ9FqXaZwdmelVObUVrOVy_Zngj1ymOQuRZN4LjOV"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "43"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "岐"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260627"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015764",
+      "player_name": "宇野 紅音",
+      "old_recent_meeting": {
+        "venue_code": "44",
+        "venue_name": "垣",
+        "meeting_start_date": "20260625",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "44",
+        "kerinjyoName": "垣",
+        "kaisaiFirst": "20260625",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "M55-TiOKRgzcmeiQ08Hxlbysfex4RQGdpyvvEL3c_-I",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "1",
+            "kkrParameter": "M55-TiOKRgzcmeiQ08Hxlc3jFxfN5o777OTspcUS444GxqqY7hGWEd17GEJ1bOJ_"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "M55-TiOKRgzcmeiQ08HxlTni-9nPRuRywXywHZHty1-MWPV168fDiA4u_Z10BIBe"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-Bcircle-S.png",
+            "imgTyakuiName": "失",
+            "backTori": "0",
+            "kkrParameter": "M55-TiOKRgzcmeiQ08HxlQTJLNay3mNMuIVh-N8pO-GJPg7m1UFWctxBi1A1pABT"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "44"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "垣"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260625"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015942",
+      "player_name": "齊藤 由莉",
+      "old_recent_meeting": {
+        "venue_code": "81",
+        "venue_name": "倉",
+        "meeting_start_date": "20260626",
+        "grade": "Ｆ１"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "81",
+        "kerinjyoName": "倉",
+        "kaisaiFirst": "20260626",
+        "gaiTeiGrade": "Ｆ１",
+        "kkParameter": "aTOkj2dFUUpQATsHeOxViI9bAEw-U1H_f8uG5Nep4BY",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "aTOkj2dFUUpQATsHeOxViMH8c6nsWfI5NMWa2ExJXOTlNaZXwk9o-dh9D2CmWBzB"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+            "imgTyakuiName": "4",
+            "backTori": "0",
+            "kkrParameter": "aTOkj2dFUUpQATsHeOxViA6RkMX0DcBhmEh6DrIuDyfVJxKtaOXB3JbKizpVEaK5"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+            "imgTyakuiName": "3",
+            "backTori": "0",
+            "kkrParameter": "aTOkj2dFUUpQATsHeOxViDw-ZahJK5Te5kmMo-xfkXT2ARjtY5rdpOeJIjoO2QgT"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "81"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "倉"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260626"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ１"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015314",
+      "player_name": "向井 円",
+      "old_recent_meeting": {
+        "venue_code": "61",
+        "venue_name": "玉",
+        "meeting_start_date": "20260628",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "61",
+        "kerinjyoName": "玉",
+        "kaisaiFirst": "20260628",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "v3GkGBnzcJwx-zPUFdtwmWuHG5AVWu4-emC9rGjTPNo",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "v3GkGBnzcJwx-zPUFdtwmea9M8Laab5IfmgqrtNNNjj7jyvAci01njPIiLp-kR4e"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "v3GkGBnzcJwx-zPUFdtwmfnGGACiCrYOkV6A7VyW-8r3A3VpE9vvYcPBDuK1VLsH"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "v3GkGBnzcJwx-zPUFdtwmYqIy4KhdLoC116dQ-Mre2g4XOgvYfbaoDKYp05G9ilX"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "61"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "玉"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260628"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "016039",
+      "player_name": "林 香穂",
+      "old_recent_meeting": {
+        "venue_code": "87",
+        "venue_name": "熊",
+        "meeting_start_date": "20260529",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "87",
+        "kerinjyoName": "熊",
+        "kaisaiFirst": "20260529",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "IOS13V6oiZkyQWK3r2H3SkVSJYxVAK1DzYs7IC7Hw4A",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+            "imgTyakuiName": "6",
+            "backTori": "0",
+            "kkrParameter": "IOS13V6oiZkyQWK3r2H3Sp2dVXtoLqL3JpehNPHBaQnyqjSnTg7OcNkvejNL2P_D"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "IOS13V6oiZkyQWK3r2H3SlHMCVkZoOE3Vni8vrhoJVYzGnL_u0ph64RcNgrm2Wr1"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-Bcircle-7.png",
+            "imgTyakuiName": "7",
+            "backTori": "0",
+            "kkrParameter": "IOS13V6oiZkyQWK3r2H3SsaaXaZ2KhKRH24COcLsghYXmR6O8H6iWISS9bPSOLzp"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "87"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "熊"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260529"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "player_id": "015853",
+      "player_name": "中島 瞳",
+      "old_recent_meeting": {
+        "venue_code": "87",
+        "venue_name": "熊",
+        "meeting_start_date": "20260618",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "87",
+        "kerinjyoName": "熊",
+        "kaisaiFirst": "20260618",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "IOS13V6oiZkyQWK3r2H3StgFrkT-4qQexqXiZJlZerU",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "0",
+            "kkrParameter": "IOS13V6oiZkyQWK3r2H3Sk7rrEvVxEFEz6VpZ_S-Ms72NBCkuB-_CARAWiD2gxJ8"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "1",
+            "kkrParameter": "IOS13V6oiZkyQWK3r2H3Sm71qUmHDdexZ6s2nY1YazHVUlLfihw5ZS_ndmQBZwT9"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-Bcircle-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "0",
+            "kkrParameter": "IOS13V6oiZkyQWK3r2H3Sj7yumTL7_0KVqh_OBjasrbMYrSgGb21DCHdrd8ge75C"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "87"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "熊"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260618"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "player_id": "015018",
+      "player_name": "高橋 梨香",
+      "old_recent_meeting": {
+        "venue_code": "21",
+        "venue_name": "弥",
+        "meeting_start_date": "20260622",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "21",
+        "kerinjyoName": "弥",
+        "kaisaiFirst": "20260622",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "uT3_6zZe5WhDM6pyOeBlSEWjdCpXGExoIj3TaA79g2Q",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "uT3_6zZe5WhDM6pyOeBlSLzaS54ZNOA7AKvWn1J4xhn0sGYKqOQ9WLEtB7uj5KBx"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "uT3_6zZe5WhDM6pyOeBlSBPMCOZ2CyMP4DNdqkCAxokxd0oyJMhmL4mm4LnJObCv"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-Bcircle-2.png",
+            "imgTyakuiName": "2",
+            "backTori": "0",
+            "kkrParameter": "uT3_6zZe5WhDM6pyOeBlSF9f88p5NNqRMIJpt6VSIwcm9OnvXk2TW3S7-b7Jb2TT"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "21"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "弥"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260622"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "player_id": "015858",
+      "player_name": "平子 結菜",
+      "old_recent_meeting": {
+        "venue_code": "27",
+        "venue_name": "閣",
+        "meeting_start_date": "20260623",
+        "grade": "Ｆ２"
+      },
+      "tyo4InfoSubData": {
+        "kaisaiKbn": "2",
+        "bKeirinjyoCd": "27",
+        "kerinjyoName": "閣",
+        "kaisaiFirst": "20260623",
+        "gaiTeiGrade": "Ｆ２",
+        "kkParameter": "yARyZ2RxXOeo4l7Z4BiVfs3LriNTuURcZtY4BvFMzHk",
+        "resultInfoSubData": [
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+            "imgTyakuiName": "5",
+            "backTori": "0",
+            "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfmzyWn2BlA1VFzJ8osaUxkXwozN4bv10rO-WSjrXezBk"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+            "imgTyakuiName": "7",
+            "backTori": "0",
+            "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfjSQJlBuIUEjiD1PcEEkwIJsCSsWQwCXhrgm7-8Q3SAy"
+          },
+          {
+            "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+            "imgTyakuiName": "1",
+            "backTori": "0",
+            "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfqKOKQDwc609B2cqJ11ObQKjMlfcesuCPV1qbhEyaP5V"
+          }
+        ]
+      },
+      "exact_hits": {
+        "venue_code": [
+          {
+            "path": "$.tyo4InfoSubData.bKeirinjyoCd",
+            "value": "27"
+          }
+        ],
+        "venue_name": [
+          {
+            "path": "$.tyo4InfoSubData.kerinjyoName",
+            "value": "閣"
+          }
+        ],
+        "meeting_start_date": [
+          {
+            "path": "$.tyo4InfoSubData.kaisaiFirst",
+            "value": "20260623"
+          }
+        ],
+        "grade": [
+          {
+            "path": "$.konResultInfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          },
+          {
+            "path": "$.tyo4InfoSubData.gaiTeiGrade",
+            "value": "Ｆ２"
+          }
+        ]
+      }
+    }
+  ]
+}

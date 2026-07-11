@@ -1,0 +1,37 @@
+{
+  "compared_players": 482,
+  "exact_match_players": 482,
+  "exact_match_rate": 100.0,
+  "mismatch_count": 0,
+  "none_reason_distribution": {
+    "NON_NUMERIC:途中欠場": 25,
+    "EMPTY_DICT_OR_MISSING": 8,
+    "NON_NUMERIC:3補": 8,
+    "NON_NUMERIC:落": 5,
+    "EMPTY_STRING": 2,
+    "NON_NUMERIC:2補": 7,
+    "NON_NUMERIC:欠": 3,
+    "NON_NUMERIC:失": 3
+  },
+  "raw_finish_name_distribution": {
+    "2": 191,
+    "4": 184,
+    "6": 159,
+    "5": 164,
+    "7": 138,
+    "途中欠場": 25,
+    "1": 159,
+    "3": 181,
+    "None": 8,
+    "3補": 8,
+    "落": 5,
+    "": 2,
+    "2補": 7,
+    "欠": 3,
+    "失": 3,
+    "9": 10,
+    "8": 6
+  },
+  "mismatches": [],
+  "conclusion": "recent_finish preserves tyo4InfoSubData positional slots; non-numeric statuses and empty rows normalize to None"
+}

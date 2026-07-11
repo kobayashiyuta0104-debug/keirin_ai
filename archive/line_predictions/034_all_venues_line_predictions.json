@@ -1,0 +1,2446 @@
+{
+  "program": "034_capture_all_venues_line_predictions.py",
+  "captured_at": "2026-07-10T00:04:55.905304",
+  "race_date": "20260709",
+  "venue_button_count": 7,
+  "venue_count": 7,
+  "race_count": 72,
+  "line_found_count": 0,
+  "line_not_found_count": 72,
+  "validation_error_count": 0,
+  "error_count": 0,
+  "venue_buttons": [
+    {
+      "venue": "函館",
+      "tag_name": "TD",
+      "id": "",
+      "class_name": "tdkeirin b-a nb-r nb-t ratd pj0312_nopadding_td_jo",
+      "text": "函館",
+      "href": "",
+      "onclick": "raKeirinjoClick(0)",
+      "data_encp": null,
+      "outer_html": "<td class=\"tdkeirin b-a nb-r nb-t ratd pj0312_nopadding_td_jo\" onclick=\"raKeirinjoClick(0)\">函館</td>"
+    },
+    {
+      "venue": "弥彦",
+      "tag_name": "TD",
+      "id": "",
+      "class_name": "tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo",
+      "text": "弥彦",
+      "href": "",
+      "onclick": "raKeirinjoClick(3)",
+      "data_encp": null,
+      "outer_html": "<td class=\"tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo\" onclick=\"raKeirinjoClick(3)\">弥彦</td>"
+    },
+    {
+      "venue": "大垣",
+      "tag_name": "TD",
+      "id": "",
+      "class_name": "tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo",
+      "text": "大垣",
+      "href": "",
+      "onclick": "raKeirinjoClick(1)",
+      "data_encp": null,
+      "outer_html": "<td class=\"tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo\" onclick=\"raKeirinjoClick(1)\">大垣</td>"
+    },
+    {
+      "venue": "玉野",
+      "tag_name": "TD",
+      "id": "",
+      "class_name": "tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo",
+      "text": "玉野",
+      "href": "",
+      "onclick": "raKeirinjoClick(4)",
+      "data_encp": null,
+      "outer_html": "<td class=\"tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo\" onclick=\"raKeirinjoClick(4)\">玉野</td>"
+    },
+    {
+      "venue": "広島",
+      "tag_name": "TD",
+      "id": "",
+      "class_name": "tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo",
+      "text": "広島",
+      "href": "",
+      "onclick": "raKeirinjoClick(5)",
+      "data_encp": null,
+      "outer_html": "<td class=\"tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo\" onclick=\"raKeirinjoClick(5)\">広島</td>"
+    },
+    {
+      "venue": "防府",
+      "tag_name": "TD",
+      "id": "",
+      "class_name": "tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo",
+      "text": "防府",
+      "href": "",
+      "onclick": "raKeirinjoClick(2)",
+      "data_encp": null,
+      "outer_html": "<td class=\"tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo\" onclick=\"raKeirinjoClick(2)\">防府</td>"
+    },
+    {
+      "venue": "久留米",
+      "tag_name": "TD",
+      "id": "",
+      "class_name": "tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo",
+      "text": "久留米",
+      "href": "",
+      "onclick": "raKeirinjoClick(6)",
+      "data_encp": null,
+      "outer_html": "<td class=\"tdkeirin b-a nb-r ratd pj0312_nopadding_td_jo\" onclick=\"raKeirinjoClick(6)\">久留米</td>"
+    }
+  ],
+  "venues": [
+    {
+      "requested_venue": "函館",
+      "detected_venue": "函館",
+      "status": "VENUE_COMPLETE",
+      "races": [
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 1,
+          "race_key": "20260709_函館_1R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "1R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5Ir_oEPqShijtOGjk9t4ft8",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 2,
+          "race_key": "20260709_函館_2R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "2R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5G3G-Ie2Zt3zmq7J_IsXFtg",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 3,
+          "race_key": "20260709_函館_3R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "3R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5GUGSnbpQqlRHOs8uaNjdY4",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 4,
+          "race_key": "20260709_函館_4R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "4R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5AaLmWzvU5uiAnQy3TtE0rw",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 5,
+          "race_key": "20260709_函館_5R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "5R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5HNVoiUGRxRJQdXYabND6qo",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 6,
+          "race_key": "20260709_函館_6R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "6R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5MjmUbCjVCLByovVrYfAzDg",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 7,
+          "race_key": "20260709_函館_7R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "7R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5FRQ6GZvKaNhIHO8F89CJeM",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 8,
+          "race_key": "20260709_函館_8R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "8R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5MzFEaccV85PVqGA8Ntb4MQ",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 9,
+          "race_key": "20260709_函館_9R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "9R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5B7VEtyAtA4q3YqqA6hukGg",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 10,
+          "race_key": "20260709_函館_10R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 10,
+            "id": "hhRaceBtn10",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "10R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5HXB3_GLGbfSI_NwvmERJVA",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 11,
+          "race_key": "20260709_函館_11R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 11,
+            "id": "hhRaceBtn11",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "11R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5OAlw4St5XEW2XbG0qYPw0o",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "函館",
+          "race_no": 12,
+          "race_key": "20260709_函館_12R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 12,
+            "id": "hhRaceBtn12",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin active",
+            "text": "12R",
+            "encp": "T9wMz-ha1TZ640Z-S5GN5KDAxWPC3kmG3hdlbnl3yG4",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "requested_venue": "弥彦",
+      "detected_venue": "函館",
+      "status": "VENUE_COMPLETE",
+      "races": [
+        {
+          "race_date": "20260709",
+          "venue": "弥彦",
+          "race_no": 1,
+          "race_key": "20260709_弥彦_1R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "1R",
+            "encp": "uT3_6zZe5WhDM6pyOeBlSEz7RGn74TJDHVidOtVec7Y",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "弥彦",
+          "race_no": 2,
+          "race_key": "20260709_弥彦_2R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "2R",
+            "encp": "uT3_6zZe5WhDM6pyOeBlSOXz1IwGS5yFaOtVc34T1IU",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "弥彦",
+          "race_no": 3,
+          "race_key": "20260709_弥彦_3R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "3R",
+            "encp": "uT3_6zZe5WhDM6pyOeBlSC2KJCjF15kBd5L6_tm-APY",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "弥彦",
+          "race_no": 4,
+          "race_key": "20260709_弥彦_4R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "4R",
+            "encp": "uT3_6zZe5WhDM6pyOeBlSDW5pBiD_E1t3Z0Dy_YWHPI",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "弥彦",
+          "race_no": 5,
+          "race_key": "20260709_弥彦_5R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "5R",
+            "encp": "uT3_6zZe5WhDM6pyOeBlSAnSpARN-Y8WYqIeZOGnt_8",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "弥彦",
+          "race_no": 6,
+          "race_key": "20260709_弥彦_6R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "6R",
+            "encp": "uT3_6zZe5WhDM6pyOeBlSHQye8x2g5fptS0D9G41oho",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "弥彦",
+          "race_no": 7,
+          "race_key": "20260709_弥彦_7R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "7R",
+            "encp": "uT3_6zZe5WhDM6pyOeBlSNkwtN3m512OmuHRnzd44QE",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "弥彦",
+          "race_no": 8,
+          "race_key": "20260709_弥彦_8R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "8R",
+            "encp": "uT3_6zZe5WhDM6pyOeBlSDaEU-e7FRpUhCutcMTADOI",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "弥彦",
+          "race_no": 9,
+          "race_key": "20260709_弥彦_9R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin active",
+            "text": "9R",
+            "encp": "uT3_6zZe5WhDM6pyOeBlSBxuhNb1dxNggKvH8m-jIMM",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "requested_venue": "大垣",
+      "detected_venue": "函館",
+      "status": "VENUE_COMPLETE",
+      "races": [
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 1,
+          "race_key": "20260709_大垣_1R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "1R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlYwhDtelYLGhSMEwxMVbx50",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 2,
+          "race_key": "20260709_大垣_2R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "2R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlSqhyTXAmIMsKnPt4N5FK_w",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 3,
+          "race_key": "20260709_大垣_3R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "3R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlT18pnpEVUioX1HuiFvBMAk",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 4,
+          "race_key": "20260709_大垣_4R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "4R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlSRrGi-sO9KCt7TaxjuqFng",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 5,
+          "race_key": "20260709_大垣_5R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "5R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlZwqDE-yee-sVeDPFzlXXso",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 6,
+          "race_key": "20260709_大垣_6R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "6R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlevJ6jILiYy2p4qX_ttFsv8",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 7,
+          "race_key": "20260709_大垣_7R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "7R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlUnFz16Vat4bmav1vG_F2j0",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 8,
+          "race_key": "20260709_大垣_8R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "8R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlTE8gdbF1FGH5RjNHGcDX6k",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 9,
+          "race_key": "20260709_大垣_9R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "9R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlRga5c_o6lq6ew8Bn0mSoHM",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 10,
+          "race_key": "20260709_大垣_10R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 10,
+            "id": "hhRaceBtn10",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "10R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlYcUNhRMe5Eetid-wVSYt58",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 11,
+          "race_key": "20260709_大垣_11R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 11,
+            "id": "hhRaceBtn11",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "11R",
+            "encp": "M55-TiOKRgzcmeiQ08HxlUsXwueLE8gN9U6RGjGBoe0",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "大垣",
+          "race_no": 12,
+          "race_key": "20260709_大垣_12R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 12,
+            "id": "hhRaceBtn12",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin active",
+            "text": "12R",
+            "encp": "M55-TiOKRgzcmeiQ08Hxlc8VinTXqC-1nT_344CJ1FA",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "requested_venue": "玉野",
+      "detected_venue": "函館",
+      "status": "VENUE_COMPLETE",
+      "races": [
+        {
+          "race_date": "20260709",
+          "venue": "玉野",
+          "race_no": 1,
+          "race_key": "20260709_玉野_1R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "1R",
+            "encp": "v3GkGBnzcJwx-zPUFdtwmfZXyv0xX6jnDWCv4lv711o",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "玉野",
+          "race_no": 2,
+          "race_key": "20260709_玉野_2R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "2R",
+            "encp": "v3GkGBnzcJwx-zPUFdtwmVCtZ7rtUZvnudJNVMtuPGo",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "玉野",
+          "race_no": 3,
+          "race_key": "20260709_玉野_3R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "3R",
+            "encp": "v3GkGBnzcJwx-zPUFdtwmW-8bkopFheKZwz2ysB5qkE",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "玉野",
+          "race_no": 4,
+          "race_key": "20260709_玉野_4R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "4R",
+            "encp": "v3GkGBnzcJwx-zPUFdtwmb3z2GekaGz38NADrvfyfXs",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "玉野",
+          "race_no": 5,
+          "race_key": "20260709_玉野_5R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "5R",
+            "encp": "v3GkGBnzcJwx-zPUFdtwmXJEDZIia7qxeT3slCdrQ9E",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "玉野",
+          "race_no": 6,
+          "race_key": "20260709_玉野_6R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "6R",
+            "encp": "v3GkGBnzcJwx-zPUFdtwmXFtvtPZnVKGWV3D2xxkvsc",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "玉野",
+          "race_no": 7,
+          "race_key": "20260709_玉野_7R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "7R",
+            "encp": "v3GkGBnzcJwx-zPUFdtwmXzyk_Ahf598kaVFk4bqdXE",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "玉野",
+          "race_no": 8,
+          "race_key": "20260709_玉野_8R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "8R",
+            "encp": "v3GkGBnzcJwx-zPUFdtwmbTUS7UA-sj8gC-hGcMqU70",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "玉野",
+          "race_no": 9,
+          "race_key": "20260709_玉野_9R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin active",
+            "text": "9R",
+            "encp": "v3GkGBnzcJwx-zPUFdtwmcX8umYG6eQwKx37cVJXqEw",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "requested_venue": "広島",
+      "detected_venue": "函館",
+      "status": "VENUE_COMPLETE",
+      "races": [
+        {
+          "race_date": "20260709",
+          "venue": "広島",
+          "race_no": 1,
+          "race_key": "20260709_広島_1R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "1R",
+            "encp": "Ozpk-eumfo_0DwX9fHqEYXo5uxMKJiexh4iFzfmCj_w",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "広島",
+          "race_no": 2,
+          "race_key": "20260709_広島_2R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "2R",
+            "encp": "Ozpk-eumfo_0DwX9fHqEYSFNQdkbv5tlC6bUl8kcFpk",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "広島",
+          "race_no": 3,
+          "race_key": "20260709_広島_3R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "3R",
+            "encp": "Ozpk-eumfo_0DwX9fHqEYRm55gsMeDKrmjvIunXq-pU",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "広島",
+          "race_no": 4,
+          "race_key": "20260709_広島_4R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "4R",
+            "encp": "Ozpk-eumfo_0DwX9fHqEYR0YXa9AYsOoRzsVLXiHyfM",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "広島",
+          "race_no": 5,
+          "race_key": "20260709_広島_5R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "5R",
+            "encp": "Ozpk-eumfo_0DwX9fHqEYeXz6D23Pj2S2OI2j-MfoP8",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "広島",
+          "race_no": 6,
+          "race_key": "20260709_広島_6R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "6R",
+            "encp": "Ozpk-eumfo_0DwX9fHqEYXPxlYsl2yUoSSI1A1LddnI",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "広島",
+          "race_no": 7,
+          "race_key": "20260709_広島_7R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin active",
+            "text": "7R",
+            "encp": "Ozpk-eumfo_0DwX9fHqEYb6XRPEjsC_d2u0oODdKZTs",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "requested_venue": "防府",
+      "detected_venue": "函館",
+      "status": "VENUE_COMPLETE",
+      "races": [
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 1,
+          "race_key": "20260709_防府_1R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "1R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW28TAn70fz9KJdl6nJfcl2Eo",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 2,
+          "race_key": "20260709_防府_2R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "2R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW2zB7SW5e4YFkO-iC8d_2E4k",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 3,
+          "race_key": "20260709_防府_3R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "3R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW26ZH5zr-a1IOo9dvljor04k",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 4,
+          "race_key": "20260709_防府_4R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "4R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW29tF1frj7CSQwbaF7ILQye4",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 5,
+          "race_key": "20260709_防府_5R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "5R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW2z1SYoOKly0pDC3U8MIdWXY",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 6,
+          "race_key": "20260709_防府_6R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "6R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW23tN241oIZzXyGbkgDXJyPc",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 7,
+          "race_key": "20260709_防府_7R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "7R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW23ApTJL0nDb7nP-n7XS-XIQ",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 8,
+          "race_key": "20260709_防府_8R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "8R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW29tRRMDSQRkuSpVIleeFFQU",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 9,
+          "race_key": "20260709_防府_9R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "9R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW2xD_RDPxm6vG-chckLv9Q4s",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 10,
+          "race_key": "20260709_防府_10R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 10,
+            "id": "hhRaceBtn10",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "10R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW223g8vP8cao6qZdtwIL48vs",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 11,
+          "race_key": "20260709_防府_11R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 11,
+            "id": "hhRaceBtn11",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "11R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW20B_4Gqd9fSdqCODFf9YAP4",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "防府",
+          "race_no": 12,
+          "race_key": "20260709_防府_12R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 12,
+            "id": "hhRaceBtn12",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin active",
+            "text": "12R",
+            "encp": "cT5PUT3R6DvBoJ7bLhzW26SXwcDXXoa-iMLilSSGDw4",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "requested_venue": "久留米",
+      "detected_venue": "函館",
+      "status": "VENUE_COMPLETE",
+      "races": [
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 1,
+          "race_key": "20260709_久留米_1R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 1,
+            "id": "hhRaceBtn1",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "1R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnIMzUWp82aSLZ95SZXRy8UiA",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 2,
+          "race_key": "20260709_久留米_2R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 2,
+            "id": "hhRaceBtn2",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "2R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnIP75UjQ8iHQT-Os-UvVXTJk",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 3,
+          "race_key": "20260709_久留米_3R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 3,
+            "id": "hhRaceBtn3",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "3R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnIIIR3TZZzDPlizHHO7qk1Ic",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 4,
+          "race_key": "20260709_久留米_4R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 4,
+            "id": "hhRaceBtn4",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "4R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnIHn51hQALNH-cihDc01YGzw",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 5,
+          "race_key": "20260709_久留米_5R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 5,
+            "id": "hhRaceBtn5",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "5R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnIDpNTIafCGcEErg26n1LUY8",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 6,
+          "race_key": "20260709_久留米_6R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 6,
+            "id": "hhRaceBtn6",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "6R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnIEaKiiBKTmB2lRe7KyYb2Jg",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 7,
+          "race_key": "20260709_久留米_7R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 7,
+            "id": "hhRaceBtn7",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "7R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnIKB3mes3k35n7xD4IaCmfsY",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 8,
+          "race_key": "20260709_久留米_8R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 8,
+            "id": "hhRaceBtn8",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "8R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnIHNJRcIZG1R2uvOVRQ0AYLc",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 9,
+          "race_key": "20260709_久留米_9R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 9,
+            "id": "hhRaceBtn9",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "9R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnILpGrHL3guke9ZKSYpFpHLU",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 10,
+          "race_key": "20260709_久留米_10R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 10,
+            "id": "hhRaceBtn10",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin",
+            "text": "10R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnILJPXiQWSdTzeQVtSQLjaYI",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        },
+        {
+          "race_date": "20260709",
+          "venue": "久留米",
+          "race_no": 11,
+          "race_key": "20260709_久留米_11R",
+          "status": "LINE_NOT_FOUND",
+          "button": {
+            "race_no": 11,
+            "id": "hhRaceBtn11",
+            "class_name": "btn btn_fsz onbtn race_btn hhracebtn fin active",
+            "text": "11R",
+            "encp": "1-mDn3P5FXuZU5C-JbtnIPC3HRk2sVhhQLi3esnrA8w",
+            "disabled": false
+          },
+          "line_prediction": {
+            "found": false,
+            "prediction_type": null,
+            "provider": null,
+            "updated_at": null,
+            "line_groups": [],
+            "raw_sequence": [],
+            "snum_count": 0,
+            "validation": {
+              "expected_line_count": null,
+              "actual_line_count": 0,
+              "line_count_match": null,
+              "rider_numbers": [],
+              "unique_rider_numbers": [],
+              "duplicate_rider_numbers": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "total_player_objects": 1873,
+  "shape_count": 2,
+  "shapes": [
+    {
+      "shape_no": 1,
+      "object_count": 1103,
+      "file_count": 21,
+      "keys": [
+        "BH",
+        "agari",
+        "age",
+        "huken",
+        "inLineJyuni",
+        "kimarite",
+        "kojinStateItemSubData",
+        "kyuhan",
+        "sensyuName",
+        "sensyuRegistNo",
+        "sotugyouki",
+        "syaban",
+        "syabanBgColor",
+        "syabanCharColor",
+        "tyaku",
+        "tyakusa"
+      ],
+      "files": [
+        "034_result.json",
+        "036_result.json",
+        "045_result.json",
+        "053_result.json",
+        "054_all_results.json",
+        "055_all_races.json",
+        "057_all_results.json",
+        "070_real_results.json",
+        "071_race_results.json",
+        "087_jsj012_response.json",
+        "090_jsj012_response.json",
+        "091_jsj012_response.json",
+        "097_all_races_jsj012.json",
+        "103_edge_all_races_jsj012.json",
+        "120_2venues_jsj012.json",
+        "122_all_venues_jsj012.json",
+        "142_joined_race_data.json",
+        "144_result_detail_inventory.json",
+        "147_player_structure.json",
+        "auto_result.json",
+        "result.json"
+      ],
+      "examples": [
+        {
+          "file": "034_result.json",
+          "path": "ROOT.tyakujyunItemSubData[0]",
+          "player_id": "015788",
+          "raw": {
+            "tyaku": "1",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "平根　優大",
+            "sensyuRegistNo": "015788",
+            "age": "22",
+            "huken": "福　島",
+            "sotugyouki": "125",
+            "kyuhan": "A2",
+            "tyakusa": "",
+            "agari": "10.0",
+            "kimarite": "捲り",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        },
+        {
+          "file": "034_result.json",
+          "path": "ROOT.tyakujyunItemSubData[1]",
+          "player_id": "014302",
+          "raw": {
+            "tyaku": "2",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "武田　憲祐",
+            "sensyuRegistNo": "014302",
+            "age": "43",
+            "huken": "神奈川",
+            "sotugyouki": "93",
+            "kyuhan": "A1",
+            "tyakusa": "1/2車身",
+            "agari": "9.9",
+            "kimarite": "マーク",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        },
+        {
+          "file": "034_result.json",
+          "path": "ROOT.tyakujyunItemSubData[2]",
+          "player_id": "014059",
+          "raw": {
+            "tyaku": "3",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "高塩　讓次",
+            "sensyuRegistNo": "014059",
+            "age": "42",
+            "huken": "栃　木",
+            "sotugyouki": "90",
+            "kyuhan": "A1",
+            "tyakusa": "1/2車身",
+            "agari": "10.1",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "shape_no": 2,
+      "object_count": 770,
+      "file_count": 5,
+      "keys": [
+        "carNum",
+        "cidCarNum",
+        "flgCongenial",
+        "flgPush",
+        "imgPlayerPictAlt",
+        "imgPlayerPictSrc",
+        "namePlayerSei",
+        "numPlayer"
+      ],
+      "files": [
+        "054_all_results.json",
+        "055_all_races.json",
+        "057_all_results.json",
+        "142_joined_race_data.json",
+        "148_jsj001_player_structure.json"
+      ],
+      "examples": [
+        {
+          "file": "054_all_results.json",
+          "path": "ROOT[0].race.C0201racedtl.C0201sensyu[0]",
+          "player_id": "015005",
+          "raw": {
+            "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0150/015005_00.jpg",
+            "imgPlayerPictAlt": "野口",
+            "cidCarNum": "base_color_1",
+            "carNum": 1,
+            "namePlayerSei": "野口",
+            "numPlayer": "015005",
+            "flgPush": false,
+            "flgCongenial": false
+          }
+        },
+        {
+          "file": "054_all_results.json",
+          "path": "ROOT[0].race.C0201racedtl.C0201sensyu[1]",
+          "player_id": "013550",
+          "raw": {
+            "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0135/013550_00.jpg",
+            "imgPlayerPictAlt": "安部",
+            "cidCarNum": "base_color_2",
+            "carNum": 2,
+            "namePlayerSei": "安部",
+            "numPlayer": "013550",
+            "flgPush": false,
+            "flgCongenial": false
+          }
+        },
+        {
+          "file": "054_all_results.json",
+          "path": "ROOT[0].race.C0201racedtl.C0201sensyu[2]",
+          "player_id": "015788",
+          "raw": {
+            "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0157/015788_00.jpg",
+            "imgPlayerPictAlt": "平根",
+            "cidCarNum": "base_color_3",
+            "carNum": 3,
+            "namePlayerSei": "平根",
+            "numPlayer": "015788",
+            "flgPush": false,
+            "flgCongenial": false
+          }
+        }
+      ]
+    }
+  ]
+}

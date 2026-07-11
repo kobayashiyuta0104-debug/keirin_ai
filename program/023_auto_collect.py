@@ -1,0 +1,70 @@
+import json
+from pathlib import Path
+
+BASE_DIR = Path(r"C:\競輪AI")
+RESULT_FILE = BASE_DIR / "result.json"
+
+
+def parse_race_result(data):
+
+    results = data["tyakujyunItemSubData"]
+
+    first = results[0]["syaban"]
+    second = results[1]["syaban"]
+    third = results[2]["syaban"]
+
+    sanrentan = data["haraiGakuSubData"]["RT3HaraiGakuDispItemSubData"][0]
+
+    kumi = sanrentan["kumiBan"]
+
+    harai = int(
+        sanrentan["haraiGaku"].replace(",", "")
+    )
+
+    ninki = (
+        sanrentan["ninki"]
+        .replace("(", "")
+        .replace(")", "")
+    )
+
+    if harai < 20000:
+        label = "20000未満"
+
+    elif harai < 50000:
+        label = "20000-49999"
+
+    else:
+        label = "50000以上"
+
+    return {
+        "1着": first,
+        "2着": second,
+        "3着": third,
+        "3連単": kumi,
+        "払戻": harai,
+        "人気": ninki,
+        "荒れ分類": label
+    }
+
+
+with open(
+    RESULT_FILE,
+    "r",
+    encoding="utf-8"
+) as f:
+
+    data = json.load(f)
+
+
+result = parse_race_result(data)
+
+
+print("=== レース解析結果 ===")
+
+for key, value in result.items():
+
+    if key == "払戻":
+        print(f"{key}: {value}円")
+
+    else:
+        print(f"{key}: {value}")

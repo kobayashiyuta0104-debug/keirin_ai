@@ -1,0 +1,1066 @@
+/* PJ0101_PC_�g�b�v�y�[�W(0214)_���O�C���O.html */
+
+
+@charset "UTF-8";
+
+select:hover{
+	cursor: pointer;
+}
+
+select:disabled{
+	cursor: default;
+}
+
+a.memlink2:hover div.pickupRaceText {
+  background-color: transparent;
+}
+a.memlink2:hover {
+  text-decoration: none;
+}
+
+div.reg_btn_left {
+	background-image: url("../img/icon/regist_btn/reg_btn_left.png");
+	background-repeat: repeat;
+	background-position: left top;
+	height: 56px;
+	width: 42px;
+	display: table-cell;
+	vertical-align: middle;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+div.reg_btn_right_all {
+	background-color: #40BF00;
+	height: 56px;
+	width: 200px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+div.reg_btn_right_top {
+	padding: 3px 0;
+	width: 120px;
+	text-align: center;
+	color: #FFF;
+	font-size: 11px;
+	background-color: #E62E59;
+	border-radius: 13px;
+}
+div.reg_btn_right_bottom {
+	text-align: center;
+	color: #FFF;
+	font-size: 18px;
+}
+
+table.login_btn_tbl {
+	width: 100%;
+}
+
+.login_keyicon:hover {
+	background-image: url("../img/icon/regist_btn/login_keyicon_h.png") !important;
+}
+
+.login_keyicon{
+background-image:url("../img/icon/regist_btn/login_keyicon.png") !important;
+background-repeat:no-repeat !important;
+background-position:left+10px center !important;
+background-size:15% 75% !important;
+}
+
+.contentsBox{border:1px solid #888;background:#FFFFFF;border-radius:5px}
+.contentsBox.type00{border:3px solid #FFFFFF;border-radius:0}
+.contentsBox.type01{border-color:#888}
+.contentsBox.type02{border-color:#888}
+.contentsBox.type03{border-color:#e8d3b5}
+.contentsBox.type04{border-color:#e8b5cf}
+.contentsBox.type05{border-color:#b4d4e7}
+.contentsBox.type06{border-color:#888888}
+
+.btnSPsiteMove{
+	border: 2px solid #0577b0;
+	width: 100%;
+	display: table;
+	background: #dff5f5;
+	border-radius: 4px;
+	color: #01445f;
+	height: 140px;
+	font-weight: bold;
+	font-size: 75px;
+	margin: 15px 0px 0px 0px;
+	text-align: center;
+}
+
+/* index top �y�[�W���� �L�����y�[������CSS */
+.contentsTitle{
+	margin:0;
+	font-size:16px;
+	font-weight:bold;
+	height:31px;
+	line-height:31px;
+	background:url(../img/icon/bg_title_black.png);
+	position:relative;
+	padding-left:30px;
+	border-radius: 5px;
+	white-space: nowrap;
+}
+.contentsTitle::before{
+	content:"";
+	width:37px;
+	height:37px;
+	background:url(../img/icon/ico_title_black.png) no-repeat left center;
+	position:absolute;
+	top:-4px;
+	left:-4px;
+	z-index:1
+}
+
+.type01 .contentsTitle{color:#404040;background: url(../img/icon/bg_title_black.png);}
+.type01 .contentsTitle::before{background:url(../img/icon/ico_title_black.png) no-repeat left center}
+
+.type02 .contentsTitle{color:#0670b1;background:url(../img/icon/bg_title_blue.png)}
+.type02 .contentsTitle::before{background:url(../img/icon/ico_title_blue.png) no-repeat left center}
+
+.type03 .contentsTitle{color:#40bf00;background:url(../img/icon/bg_title_green.png)}
+.type03 .contentsTitle::before{background:url(../img/icon/ico_title_green.png) no-repeat left center}
+
+.type04 .contentsTitle{color:#2E8A00;background:url(../img/icon/bg_title_green2.png)}
+.type04 .contentsTitle::before{background:url(../img/icon/ico_title_green2png) no-repeat left center}
+
+.type05 .contentsTitle{color:#ff9500;background:url(../img/icon/bg_title_orange.png)}
+.type05 .contentsTitle::before{background:url(../img/icon/ico_title_orange.png) no-repeat left center}
+
+.type06 .contentsTitle{color:#f2499d;background:url(../img/icon/bg_title_pink.png)}
+.type06 .contentsTitle::before{background:url(../img/icon/ico_title_pink.png) no-repeat left center}
+
+.type07 .contentsTitle{color:#822BD9;background:url(../img/icon/bg_title_purple.png)}
+.type07 .contentsTitle::before{background:url(../img/icon/ico_title_purple.png) no-repeat left center}
+
+.type08 .contentsTitle{color:#DF0101;background:url(../img/icon/bg_title_red.png)}
+.type08 .contentsTitle::before{background:url(../img/icon/ico_title_red.png) no-repeat left center}
+
+
+.contentsUtility{padding:10px 8px}
+.topicsList ul{
+	margin:0;
+	padding:0;
+	list-style:none
+}
+.topicsList li{border-bottom:1px dashed #CCCCCC;padding:4px 15px}
+.topicsList li:last-child{border:0}
+.topicsList li p{margin:0 0 5px 0}
+.topicsList li a{text-decoration:underline}
+.topicsList .listTitle{font-size:16px;text-align:left;word-wrap: break-word;}
+.topicsList .newIcon{
+    width: 48px;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	background:#e61717;
+	display:inline-block;
+	padding:2px 0 1px
+}
+.topicsList img.new {
+	margin: -2px 2px 0 10px;
+	height: 16px;
+}
+
+.topicsList .infoIcon{
+	padding: 2px 15px 1px;
+	height: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	line-height:1;
+	background: #0670b1;
+	display: inline-block;
+}
+.topicsList .infoIcon.type01{background:#666666}
+.topicsList .topicListFooter{padding:10px;border-top:1px dashed #cccccc}
+.topicsList .topicListFooter a{
+	display:inline-block;
+	text-decoration:underline;
+	padding-right:25px;
+	background:url(../img/icon/ico_blue_right.png) no-repeat right 6px
+}
+.raceList ul{margin:0;padding:0}
+.raceList ul li{
+	margin:10px 0 4px 10px;
+	border-bottom:1px solid #CCCCCC;
+	font-size:16px;
+	line-height:1.1;
+	display: table;
+	width: 93%;
+}
+.raceList ul li:last-child{border:0}
+.raceList ul p{line-height:1.1}
+.raceList .raceListText{
+	display: table-cell;
+	text-align: left;
+	width: 100%
+}
+.raceList .raceListText p {
+	margin: 2px 0;
+}
+
+.raceList .infoIcon{
+	width:4em;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:16px;
+	background:#0670b1;
+	display:inline-block;
+	padding:3px 0
+}
+.raceList .infoIcon.type01{background:#666666}
+.raceList .infoIcon.type02{background:#e62ec7}
+.raceList .raceListLink{
+	width:24px;
+	text-align:right;
+	vertical-align:middle;
+	margin-left:8px;
+	display:table-cell
+}
+
+
+/* �s�b�N�A�b�v��� */
+
+#pickup_today,#pickup_tomorrow,#push_today,#push_tomorrow{
+margin-top:10px;padding:0;font-size:16px
+}
+
+#pickup_today ul li.pickupRace,#pickup_tomorrow ul li.pickupRace,#push_today ul li.pickupRace,#push_tomorrow ul li.pickupRace{
+	padding:5px 0 5px 10px;
+	border-top:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD
+}
+#pickup_today ul li.nonMember,#pickup_tomorrow ul li.nonMember,#push_today ul li.nonMember,#push_tomorrow ul li.nonMember{
+	margin-top:10px;
+	padding:10px;
+	border-top:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD
+}
+#pickup_today ul li.nonMember p,#pickup_tomorrow ul li.nonMember p,#push_today ul li.nonMember p,#push_tomorrow ul li.nonMember p{
+	font-size:13px;
+	line-height:1.4
+}
+#pickup_today ul li.pushPlayer,#pickup_tomorrow ul li.pushPlayer,#push_today ul li.pushPlayer,#push_tomorrow ul li.pushPlayer{
+	padding:5px 10px 5px 10px;
+	border-top:1px solid #DDDDDD
+}
+#pickup_today ul li.pushPlayerLast,#pickup_tomorrow ul li.pushPlayerLast,#push_today ul li.pushPlayerLast,#push_tomorrow ul li.pushPlayerLast{
+	padding:5px 10px 5px 10px;
+	border-top:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD
+}
+#pickup_today .pickupRaceText,#pickup_tomorrow .pickupRaceText,#push_today .pickupRaceText,#push_tomorrow .pickupRaceText{
+	color:#333333;
+	display:table-cell;
+	width:100%
+}
+
+#pickup_today .pickupRaceText img,#pickup_tomorrow .pickupRaceText img,#push_today .pickupRaceText img,#push_tomorrow .pickupRaceText img {
+	margin-right: 1px;
+}
+
+
+#pickup_today p,#pickup_tomorrow p,#push_today p,#push_tomorrow p{
+	margin:0;
+	line-height:1.2
+}
+#pickup_today p.player_class,#pickup_tomorrow p.player_class,#push_today p.player_class,#push_tomorrow p.player_class{color:#666}
+#pickup_today p span.bet_info,#pickup_tomorrow p span.bet_info,#push_today p span.bet_info,#push_tomorrow p span.bet_info{margin-right:5px}
+#pickup_today .raceListLink,#pickup_tomorrow .raceListLink,#push_today .raceListLink,#push_tomorrow .raceListLink{
+	width:24px;
+	text-align:right;
+	vertical-align:middle;
+	margin-left:8px;
+	display:table-cell
+}
+#grade_race ul li a{color:#333333}
+
+div#link_block {
+	width: 98%;
+	height: 80px;
+	margin: 0 auto;
+	
+
+	position: absolute; 
+	z-index: 10;
+	left: 8px;
+	background-color: #FFF;
+}
+
+div#top_raceinfo,div#top_topics{
+	width:98%;
+	
+	margin:20px auto 0 auto;
+}
+
+
+
+div#top_topics{width:100%}
+div#top_ssearch{padding:0 10px 0 0}
+div#top_sbtns{
+	margin:0 auto;
+	padding:8px 0 0 0
+}
+
+table.top_racedetail{
+	margin: 10px 0;
+	width:100%;
+	border-top:1px solid #DDDDDD !important;
+	border-bottom:1px solid #DDDDDD !important
+}
+table.top_racedetail tr td {
+	text-align:left;
+	margin: 5px 0;
+	padding: 5px 0;
+	height: 54px;
+	border-top:1px solid #DDDDDD !important
+}
+table.top_racedetail tr td.col1 {
+	width: 156px;
+}
+table.top_racedetail tr td.col2 {
+	padding: 0 5px;
+/*	min-width: 272.54px; */
+	min-width: 295px;
+}
+
+table.top_racedetail tr td div.kaisaichi {
+	display: inline-block;
+	_display: inline;
+
+	margin: 0;
+	padding: 5px 2px 0 10px;
+	width: 90px;
+}
+table.top_racedetail tr td div.cyuusi {
+	display: inline-block;
+	_display: inline;
+	margin: 0;
+	padding: 5px 2px 0 0px;
+	color:#DD1616 !important;
+	font-weight: bold;
+}
+
+table.top_racedetail tr td div.icon {
+	margin: 0;
+	padding: 0px 5px 7px 7px;
+}
+table.top_racedetail tr td div.icon img.rsp,
+table.top_racedetail tr td button.rsp {
+	margin: 0 1px 0 0;
+}
+
+table.top_racedetail tr td.btd {
+	margin: 0;
+	padding: 0 2.5px;
+}
+table.top_racedetail tr td.btd.pd_l0 {
+	margin: 0;
+	padding: 0 2.5px 0 0;
+}
+table.top_racedetail tr td.btd.pd_r0 {
+	margin: 0;
+	padding: 0 0 0 2.5px;
+}
+
+
+table.top_racedetail tr td.btd button {
+	padding: 0;
+	height: 54px;
+}
+table.top_racedetail tr td.btd button.live {
+	width: 58px;
+}
+table.top_racedetail tr td.btd button.slist {
+	width: 54px;
+}
+table.top_racedetail tr td.btd button.ozu {
+	width: 44px;
+}
+table.top_racedetail tr td.btd button.klist {
+	width: 44px;
+}
+table.top_racedetail tr td.btd button.sisetu {
+	width: 46px;
+}
+
+
+table.top_racedetail tr td a{text-decoration:underline}
+table.top_raceicon1,table.top_raceicon2{
+	width:100%;
+	background-color:#f5f4f2
+}
+table.top_raceicon1{
+/*	margin-top:10px;*/
+	border-top:1px solid #DDDDDD
+}
+table.top_raceicon2{
+	border-top:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD
+}
+table.top_raceicon1 tr td {
+	width: 20%;
+	padding:5px 0 5px 3px;
+	font-size:16px;
+	text-align:left
+}
+table.top_raceicon2 tr td {
+	width: 100px;
+	padding:5px 0 5px 3px;
+	font-size:16px;
+	text-align:left
+}
+
+
+table.top_raceicon3{
+	margin-bottom:10px;
+	width:100%;
+}
+table.top_raceicon3 tr td {
+	width: 12%;
+/*	padding: 5px 0 5px 10px; */
+	padding: 5px 5px 5px 5px;
+	font-size: 12px;
+	text-align: center;
+	border: 1px solid #DDDDDD;
+}
+
+
+
+
+
+/* 3�J�������C�A�E�g(L�̈�) ------------------------------------------------------------------------------------------------ */
+/*------------------------------------------------*/
+/* ���� Dokanto���S */
+div.dokantbg_border {
+	margin: 2px;
+	width: 238px;
+	outline: 2px solid #e72222;
+	padding: 10px 0;
+}
+
+div.dokantbg_left_logo {
+	width: 238px;
+}
+
+/* ���������S�� */
+div.dokanto_hatubaicyuu {
+	margin: 0;
+	padding-bottom: 5px;
+	background: url(../img/Dokanto_hatubaicyuu2.png);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+/* ���[�`���S�� */
+div.dokanto_ri-chi {
+	margin: 0;
+	height: 23px;
+	background: url(../img/dokanto_ri-chi1.png);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* �L�����[�I�[�o�[���S�� */
+div.kyari_over {
+	margin: 0;
+	height: 23px;
+	background: url(../img/Dokanto_kyari_over_haltuseicyuu.png);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* Dokanto!�A�C�R�� ���؂� */
+div.simekiri {
+	display: inline-block;
+	_display: inline;
+	
+	margin-right: 5px;
+    width: 80px;
+    height: 15px;
+	background: url(../img/dokanto_simekiri.png);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: left;
+	vertical-align: middle;
+}
+
+/* Dokanto!�A�C�R�� ���[�`�� */
+div.ri-chi-s {
+	display: inline-block;
+	_display: inline;
+	
+	margin-right: 5px;
+    width: 80px;
+    height: 15px;
+	background: url(../img/dokanto_ri-chi2.png);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+
+/* ���֏� */
+div.keirinjou {
+	margin: 0;
+	padding: 2px 10px;
+
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: middle;
+	
+
+}
+
+/* �����J�n���� */
+div.hatubai_kaisi_date {
+	margin: 0;
+	padding: 2px 10px;
+
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: middle;
+
+}
+
+
+div.wsp10 {
+	display: inline-block;
+	_display: inline;
+	width: 10px;
+}
+/*-----------------------------------------------------------------------*/
+/* Dokanto!7�g */
+div.dokanto7 {
+	margin: 5px 10px;
+	padding: 5px;
+	/*�p��*/
+	border-radius: 5px; /* CSS3 */
+	-webkit-border-radius: 5px; /* Safari,Google Chrome�p */
+	-moz-border-radius: 5px; /* Firefox�p */
+	behavior: url(../js/PIE.htc); /* IE�p */
+	/*���C�A�E�g*/
+	width: 220px;
+	text-align: left;
+	background-color: #FF9000;
+}
+
+/* Dokanto!7�A�C�R�� */
+div.dokanto7 div.logo {
+	display: inline-block;
+	_display: inline;
+	text-align: left;
+	vertical-align: middle;
+}
+/* Dokanto!7�A�C�R�� ������ */
+div.dokanto7 div.hatubaicyuu7 {
+	display: inline-block;
+	_display: inline;
+	
+	margin-right: 5px;
+	background: url(../img/Dokanto_hatubaicyuu2s.png);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: left;
+	vertical-align: middle;
+}
+/* Dokanto!7���\�� */
+div.dokanto7_t1 {
+	padding: 5px;
+	color: #FFF;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: middle;
+	overflow: hidden;
+}
+/* Dokanto!7���\���i���z�j */
+div.dokanto7_t2 {
+	padding: 0 5px;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: middle;
+}
+
+/*-----------------------------------------------------------------------*/
+/* Dokanto!4�g */
+div.dokanto4 {
+	margin: 5px 10px;
+	padding: 5px;
+	/*�p��*/
+	border-radius: 5px; /* CSS3 */
+	-webkit-border-radius: 5px; /* Safari,Google Chrome�p */
+	-moz-border-radius: 5px; /* Firefox�p */
+	behavior: url(../js/PIE.htc); /* IE�p */
+	/*���C�A�E�g*/
+	width: 220px;
+	text-align: left;
+	background-color: #44BCF9;
+}
+
+/* Dokanto!4�A�C�R�� */
+div.dokanto4 div.logo {
+	display: inline-block;
+	_display: inline;
+	text-align: left;
+	vertical-align: middle;
+}
+/* Dokanto!4�A�C�R�� ������ */
+div.dokanto4 div.hatubaicyuu4 {
+	display: inline-block;
+	_display: inline;
+	
+	margin-right: 5px;
+	background: url(../img/Dokanto_hatubaicyuu2s.png);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: left;
+	vertical-align: middle;
+}
+/* Dokanto!4���\�� */
+div.dokanto4_t1 {
+	padding: 5px;
+	color: #FFF;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: middle;
+	overflow: hidden;
+}
+/* Dokanto!4���\���i���z�j */
+div.dokanto4_t2 {
+	padding: 0 5px;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: middle;
+}
+
+/* Dokanto!���\���@���[�`���̎Ԕԕ\���p */
+span.snum16 {
+	width: 16px;
+	padding:1px 4px;
+	font-size:16px;
+	text-align:center;
+	color:white;
+	border:1px solid #666666;
+	border-collapse:collapse;
+	border-radius:3px;
+	margin:0;
+}
+
+/* �d����~���̃��b�Z�[�W�\���p */
+.denStop-msg{
+	text-align: center;
+	vertical-align: middle;
+	height:34px;
+}
+
+/* 3�J�������C�A�E�g(C�̈�) ------------------------------------------------------------------------------------------------ */
+
+
+/* index top �y�[�W�����S�̘g */
+#slides{
+	width: 100%;
+	height:304px;
+	margin:0 auto;
+}
+
+/* index top �y�[�W�������S����CSS */
+#slide1{
+	padding-left: 10px;
+	width:540px;
+	height:240px;
+	background-color:#FFFFFF;
+}
+
+#slide3{
+	width:535px;
+	height: 0px;
+	position: relative;
+	top: -58px;
+	left: 5px;
+	z-index: 3;
+}
+#slide3 .slick-slide{
+	padding: 3px;
+}
+#slide3 .current-frame img{
+	border: 2px solid #DD2525;
+	padding: 1px;
+	margin-left: -3px;
+	margin-top: -3px;
+}
+#slide3 .slide-items3{
+	margin-left: 5px;
+	padding-top: 5px;
+	border: 1px solid #FFF;
+	border-bottom: 1px solid #000;
+	background-color:#000;
+	height: 48px;
+}
+#slide3 .slide-items3 img{
+	box-sizing: content-box;
+	width: 65px;
+	height: 30px;
+	cursor: pointer;
+}
+#slide3 .draggable{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#slide3 .slick-track{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slide2{width:206px;height:240px;}
+#slide2 .slide-items2{background-color:#FFFFFF;padding:0px; border:0;}
+/* index top �y�[�W�������S����CSS */
+
+
+/* index top �y�[�W�����o�i�[���� */
+#top_c_banner div {
+	position: absolute;
+	top: 205px;
+	left: 5px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#top_c_banner table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 540px;
+}
+#top_c_banner table tr td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 12.5%;
+}
+#top_c_banner img {
+	width: 12.5%;
+}
+
+
+.slick-next:before {
+    content: '' !important;
+}
+.slick-prev:before {
+    content: '' !important;
+}
+
+/* index top �y�[�W�����o�i�[�E�� */
+/* ��{�^���g */
+#top_r_banner1 {
+	width: 206px;
+	height: 32px;
+	position: relative;
+	top: 0;
+	left: 0px;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* ���{�^���g */
+#top_r_banner2 {
+	width: 206px;
+	height: 32px;
+	top: 272px;
+	left: 0px;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* 3�J�������C�A�E�g(R�̈�) ------------------------------------------------------------------------------------------------ */
+
+
+div#loginbox1,div#loginbox2,div#collection{
+	margin-top:20px;
+	border:1px solid #888;
+	border-radius:5px;
+	padding:5px 0 0 0;
+	background-color:#FFFFFF;
+	font-size:16px;
+	line-height:1.0
+}
+div#loginbox1 .now_login,div#loginbox2 .now_login,div#collection .now_login{
+	font-size:16px;
+	font-weight:bold;
+	color:#005999;
+	margin:5px 0 8px;
+}
+div#loginbox1 .sidebox4_title,div#loginbox2 .sidebox4_title, div#collection .sidebox4_title{
+	width:100%;
+	background-color:#F0F0F0;
+	font-size:16px;
+	color:#404040;
+	padding:5px 0;
+	text-align:left;
+	padding-left:10px
+}
+
+div#loginbox1 .sidebox4_head,div#loginbox2 .sidebox4_head,div#collection .sidebox4_head{padding-left:10px}
+div#loginbox1 .sidebox4_body,div#loginbox2 .sidebox4_body,div#collection .sidebox4_body{padding-left:36px}
+div#loginbox1 .sidebox4_body .number,div#loginbox2 .sidebox4_body .number,div#collection .sidebox4_body .number{
+	font-size:18px;
+	font-weight:bold;
+	color:#005999
+}
+div#loginbox1 .sidebox4_link,div#loginbox2 .sidebox4_link,div#collection .sidebox4_link{
+	text-align:right;
+	padding-right:10px
+}
+
+
+input[type="checkbox"]{
+	font-family: Verdana, sans-serif;
+	width: 18px;
+	height: 18px;
+	vertical-align: text-bottom;
+}
+
+
+/* �����N�|�C���g */
+div#rank_point {
+	margin-top: 20px;
+	border: 1px solid #888;
+	border-radius: 5px;
+	padding: 5px 0 0 0;
+	background-color: #FFFFFF;
+	font-size: 16px
+}
+.rank_point_title {
+	width: 100%;
+	background-color: #0670B1;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 5px 0;
+	text-align: left;
+	padding-left: 10px;
+	margin-top: 10px
+}
+
+/* ------------------------------------------------------------------------------ */
+/* �����N�A�b�v�g */
+#rank_up {
+	padding: 10px;
+	text-align: center;
+	background-color: #FF9000;
+/*
+	animation: bg-color 10s infinite;
+	-webkit-animation: bg-color 10s infinite;
+*/
+}
+/*
+@-webkit-keyframes bg-color {
+  0% { background-color: #FFFFFF; }
+  10% { background-color: #FF9000; }
+  20% { background-color: #FFFFFF; }
+  30% { background-color: #FD3838; }
+  40% { background-color: #FFFFFF; }
+  50% { background-color: #FF9000; }
+  60% { background-color: #FFFFFF; }
+  70% { background-color: #FD3838; }
+  80% { background-color: #FFFFFF; }
+  90% { background-color: #FF9000; }
+  100% { background-color: #FFFFFF; }
+}
+@keyframes bg-color {
+  50% { background-color: #FD3838; }
+  100% { background-color: #FF9000; }
+}
+*/
+/* �����N�A�b�v����蕶�� */
+#rank_up_text {
+	display: inline-block;
+	_display: inline;
+	color: #FFF;
+	width: 112px;
+/*
+	text-shadow:
+		-1px -1px #404040,
+		1px -1px #404040,
+		-1px 1px #404040,
+		1px 1px #404040;
+*/
+	text-shadow: 1px 1px #333;
+}
+span.rank_up_red {
+	color: #F00;
+	font-style: oblique;
+	text-shadow:
+		-1px -1px #FFF,
+		1px -1px #FFF,
+		-1px 1px #FFF,
+		1px 1px #FFF;
+}
+
+table.ichiosi_tbl {
+	width: 100%;
+}
+
+table.ichiosi_left_tbl {
+}
+
+table.ichiosi_left_tbl tr td {
+	line-height: 1.6;
+}
+table.ichiosi_left_tbl tr td.pict {
+	vertical-align: middle;
+}
+table.ichiosi_left_tbl tr td.icon {
+	line-height: 2;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* �F��ID */
+input[type="text"]{
+	width: 13em;
+	height: 27px;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* �p�X���[�h�@�\���T�C�Y�W���� */
+input[type="password"]{
+	font-family: Verdana, sans-serif;
+	padding: 0 5px;
+	width: 13em;
+	height: 27px;
+	text-align: left;
+	font-size: 16px;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* �J�e�S���A�C�R���A�n��A�C�R���@�ʒu������ */
+.icon-color{
+	margin: 4.5px 0px 0px 5px;
+}
+
+
+.none-msg{
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px 0px 10px 0px;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* �J�Ï���v�o��I�� */
+.kaisaiInfo-syuyo{
+	width: 94px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* �O���[�h���[�X��v�o��I�� */
+.grade-syuyo{
+	width: 98px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+
+/* ���t�^�O���I���� */
+.nav-tabs > li > a,.nav-tabs > li > a:focus,.nav-tabs > li > a:hover {
+  text-decoration: underline;
+}
+
+.keirin_guide_banner img{
+	margin-top: 6px;
+}
+
+#trlblchkPerSec{
+	padding: 1px 3px 3px 3px;
+}
+
+.contentsBox.type01 > h2 > span{
+	margin-right: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.slick-vertical .slick-slide{
+	border: none;
+}
+
+
+/* �����p���\�� ------------------------------------------------------------------------------------------------ */
+/*------------------------------------------------*/
+/* ���b�Z�[�W�G���A */
+div.usr_env_msg_area {
+	margin: 8px 4px -11px 4px;
+}
+/* ���b�Z�[�W�g */
+div.usr_env_msg_border {
+	border: 2px solid #DD1616;
+	width: 100%;
+	display: table;
+	padding: 10px 0 10px;
+}
+/* ���b�Z�[�W���� */
+div.usr_env_msg {
+	color: #DD1616;
+	font-weight: bold;
+	vertical-align: middle;
+	display: table-row;
+	text-align: center;
+}
+
+/* �_�� */
+.blink {
+	-webkit-animation: blink 0.1s ease infinite;
+	animation: blink 0.1s ease infinite;
+}
+
+/* �_�� */
+@-webkit-keyframes blink {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+/* �_�� */
+@keyframes blink {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+/* ���Ӄe�B�b�J�[ */
+.warnticker{
+	margin: 3px 10px 3px 10px;
+	background: #CCFFFF;
+	height: 22px;
+	font-weight: bold;
+	line-height: normal;
+}

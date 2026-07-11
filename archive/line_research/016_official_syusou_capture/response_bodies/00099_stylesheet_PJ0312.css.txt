@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* 領域の中央寄せ */
+.m-al-c{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+/* タブの部分のサイズ */
+#lbdivHeldRaceList .nav-tabs{
+	width:100%
+}
+
+/* タブの最初だけ右に少しずらす */
+.nav > li:first-child{
+	margin-left:-5px
+}
+
+
+#raRaceData {
+	width:100%
+}
+
+
+td.ratd{
+	height:32px;
+	border:1px solid #888888
+}
+
+#raRaceData>thead td {padding:4px 2px}
+
+.tdkeirin{
+	width:16%
+}
+
+.tdstop{
+	width:9%
+}
+
+.tdgicon{
+	width:6%;
+	padding:4px 1px;
+}
+
+.tdnicon{
+	width:9%;
+	padding:4px 1px;
+}
+
+.tbkicon{
+	width:4%;
+	padding:4px 1px;	
+}
+.tbhicon{
+	width:4%;
+	padding:4px 1px;	
+}
+
+.tdrace{
+	width:8%
+}
+
+.tdden{
+	width:20%
+}
+.tdst{
+	width:20%
+}
+td.tbltitle_race{
+	width:60%
+}
+td.tbltitle_time{
+	width:20%
+}
+
+.pj0312_race_no{
+	padding-right: 5px;
+}
+
+td.pj0312_race_no_td{
+	width: 45px;
+}
+td.pj0312_nopadding_td{
+	padding:0px;
+}
+td.pj0312_nopadding_td_jo{
+	padding-left:2px;
+}

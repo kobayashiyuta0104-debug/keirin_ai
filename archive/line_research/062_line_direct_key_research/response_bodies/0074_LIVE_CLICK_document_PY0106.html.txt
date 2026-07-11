@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<link href="./css/help_base.css" rel="stylesheet" media="all">
+	</head>
+	<body style="font-size: 18px;background-color: transparent;background-image: none;">
+		<div>
+			<p>
+				直近4ヶ月の平均競走得点の伸び率を、<br>
+				各トーナメント内の選手同士で比較して、上位下位の選手それぞれ、<br>
+				上がり調子<img src = "./img/icon/member_up.png"  alt="" height="18"/>、下がり調子<img src = "./img/icon/member_dwn.png"  alt="" height="18"/>を表示しています。<br>
+				直近4ヶ月以内に級班が変わった選手は算出の対象外としています。
+			</p>
+    	</div>
+		<script type="text/javascript">
+			// サイズの指定は親画面の"subdialog.css #PY0106"
+		</script>
+	</body>
+</html>

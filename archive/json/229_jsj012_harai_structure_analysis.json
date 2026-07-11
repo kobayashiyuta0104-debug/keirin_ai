@@ -1,0 +1,887 @@
+{
+  "harai_raw": {
+    "WH2HaraiGakuDispItemSubData": [
+      {
+        "haraiGaku": "【未発売】",
+        "ninkiDispFlg": false,
+        "kumiDispFlg": false
+      }
+    ],
+    "WT2HaraiGakuDispItemSubData": [
+      {
+        "haraiGaku": "【未発売】",
+        "ninkiDispFlg": false,
+        "kumiDispFlg": false
+      }
+    ],
+    "SH2HaraiGakuDispItemSubData": [
+      {
+        "kumiBan": "1=3",
+        "haraiGaku": "1,590",
+        "ninki": "(7)",
+        "ninkiDispFlg": true,
+        "kumiDispFlg": true
+      }
+    ],
+    "ST2HaraiGakuDispItemSubData": [
+      {
+        "kumiBan": "1-3",
+        "haraiGaku": "3,260",
+        "ninki": "(10)",
+        "ninkiDispFlg": true,
+        "kumiDispFlg": true
+      }
+    ],
+    "RH3HaraiGakuDispItemSubData": [
+      {
+        "kumiBan": "1=2=3",
+        "haraiGaku": "5,280",
+        "ninki": "(15)",
+        "ninkiDispFlg": true,
+        "kumiDispFlg": true
+      }
+    ],
+    "RT3HaraiGakuDispItemSubData": [
+      {
+        "kumiBan": "1-3-2",
+        "haraiGaku": "30,520",
+        "ninki": "(91)",
+        "ninkiDispFlg": true,
+        "kumiDispFlg": true
+      }
+    ],
+    "WHaraiGakuDispItemSubData": [
+      {
+        "kumiBan": "1=3",
+        "haraiGaku": "590",
+        "ninki": "(5)",
+        "ninkiDispFlg": true,
+        "kumiDispFlg": true
+      },
+      {
+        "kumiBan": "1=2",
+        "haraiGaku": "420",
+        "ninki": "(4)",
+        "ninkiDispFlg": true,
+        "kumiDispFlg": true
+      },
+      {
+        "kumiBan": "2=3",
+        "haraiGaku": "1,300",
+        "ninki": "(18)",
+        "ninkiDispFlg": true,
+        "kumiDispFlg": true
+      }
+    ],
+    "APartReturnDispFlg": false
+  },
+  "all_paths": [
+    {
+      "path": "$",
+      "type": "dict",
+      "keys": [
+        "WH2HaraiGakuDispItemSubData",
+        "WT2HaraiGakuDispItemSubData",
+        "SH2HaraiGakuDispItemSubData",
+        "ST2HaraiGakuDispItemSubData",
+        "RH3HaraiGakuDispItemSubData",
+        "RT3HaraiGakuDispItemSubData",
+        "WHaraiGakuDispItemSubData",
+        "APartReturnDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "haraiGaku",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "【未発売】"
+    },
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": false
+    },
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": false
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "haraiGaku",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "【未発売】"
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": false
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": false
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1=3"
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "1,590"
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(7)"
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1-3"
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "3,260"
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(10)"
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1=2=3"
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "5,280"
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(15)"
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1-3-2"
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "30,520"
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(91)"
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=3"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1=3"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "590"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(5)"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1=2"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "420"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(4)"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "2=3"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "1,300"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(18)"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.APartReturnDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": false
+    }
+  ],
+  "candidate_hits": [
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "haraiGaku",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "【未発売】"
+    },
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": false
+    },
+    {
+      "path": "$.WH2HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": false
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "haraiGaku",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "【未発売】"
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": false
+    },
+    {
+      "path": "$.WT2HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": false
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1=3"
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "1,590"
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(7)"
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.SH2HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1-3"
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "3,260"
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(10)"
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.ST2HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1=2=3"
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "5,280"
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(15)"
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.RH3HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=1"
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1-3-2"
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "30,520"
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(91)"
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.RT3HaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData",
+      "type": "list",
+      "keys": null,
+      "value": "件数=3"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1=3"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "590"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(5)"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[0].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "1=2"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "420"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(4)"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[1].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2]",
+      "type": "dict",
+      "keys": [
+        "kumiBan",
+        "haraiGaku",
+        "ninki",
+        "ninkiDispFlg",
+        "kumiDispFlg"
+      ],
+      "value": null
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].kumiBan",
+      "type": "str",
+      "keys": null,
+      "value": "2=3"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].haraiGaku",
+      "type": "str",
+      "keys": null,
+      "value": "1,300"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].ninki",
+      "type": "str",
+      "keys": null,
+      "value": "(18)"
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].ninkiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    },
+    {
+      "path": "$.WHaraiGakuDispItemSubData[2].kumiDispFlg",
+      "type": "bool",
+      "keys": null,
+      "value": true
+    }
+  ]
+}

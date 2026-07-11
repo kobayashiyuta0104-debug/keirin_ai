@@ -1,0 +1,825 @@
+<!DOCTYPE html><html lang="ja" xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2">
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta name="author" content="JKA">
+	<meta name="copyright" content="COPYRIGHT(C) JKA. ALL RIGHTS RESERVED.">
+	<meta name="robots" content="INDEX,FOLLOW">
+
+	<title>トップページ｜KEIRIN.JP</title>
+
+	<meta name="description" content="競輪の公式サイト。初心者向けガイドが充実！予想に役立つ情報収集、ネットで投票、レース映像視聴が全て可能！安心・安全なオフィシャルサイトをご利用ください！">
+
+	<link rel="icon" href="/pc/static/img/common/favicon.ico">
+	<link rel="stylesheet" href="/pc/static/css/common/bootstrap.min.css"> 
+	<link rel="stylesheet" href="/pc/static/css/common/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="/pc/static/css/common/font-awesome.min.css"> 
+	<link rel="stylesheet" type="text/css" href="/pc/static/css/common/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="/pc/static/css/subdialog.css">
+	<link rel="stylesheet" type="text/css" href="/pc/static/js/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="/pc/static/js/slick/slick-theme.css">
+	<link rel="stylesheet" media="all" href="/pc/static/css/P_base.css">
+	<link rel="stylesheet" media="all" href="/pc/static/css/PJ0101.css">
+	<script type="text/javascript" src="/pc/static/js/common/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="/pc/static/js/common/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/pc/static/js/ie10-viewport-bug-workaround.js"></script>
+	<script type="text/javascript" src="/pc/static/js/common/jquery.cookie.js"></script>
+	<script type="text/javascript" src="/pc/static/js/common/jquery.json.min.js"></script>
+	<script type="text/javascript" src="/pc/static/js/common/jquery-ui.js"></script>
+	<script type="text/javascript" src="/pc/static/js/common/jquery.carouFredSel-6.2.1-packed.js"></script>
+	<script type="text/javascript" src="/pc/static/js/commonJSON.js"></script>
+	<script type="text/javascript" src="/pc/static/js/commonLoad.js"></script>
+	<script type="text/javascript" src="/pc/static/js/commonLink.js"></script>
+	<script type="text/javascript" src="/pc/static/js/commonSubmit.js"></script>
+	<script type="text/javascript" src="/pc/static/js/subdialog.js"></script>
+	<script type="text/javascript" src="/pc/static/js/slick/slick.min.js"></script>
+
+	<script type="text/javascript" src="/pc/static/js/P_ticker.js"></script>
+	<script type="text/javascript" src="/pc/static/js/PC0101_c.js"></script>
+	<script type="text/javascript" src="/pc/static/js/PC0101_v.js"></script>
+	<script type="text/javascript" src="/pc/static/js/PC0101.js"></script>
+	<script type="text/javascript" src="/pc/static/js/PC0102.js"></script>
+	<script type="text/javascript" src="/pc/static/js/com_kaime.js"></script>
+	<script type="text/javascript" src="/pc/static/js/PJ0101.js"></script>
+	<script type="text/javascript" src="/pc/static/js/PJ0101_v.js"></script>
+	<script type="text/javascript" src="/pc/static/js/PJ0101_c.js"></script></head><body style="background-color: rgb(245, 244, 242);">
+
+   <div class="basewindows clear-fix"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<nav id="menu" class="navbar header_bg navipos" role="navigation">
+  <div class="container" id="nav_menus">
+    <div class="navbar-header">
+	  <a class="navbar-brand" id="btnKeirinjp" onclick="shLinkClick(0)"><img src="/pc/static/img/topbtn.png" alt="KEIRIN.JP TOP" class="top_logo" style="cursor:pointer"></a><input id="shHdnLink_0" type="hidden" name="shHdnLink_0" value="/pc/top">
+	</div>
+    <div id="navbar" class="collapse navbar-collapse">
+	  <ul class="nav navbar-nav">
+           <li class="dropdown"><a role="button" id="btnSyoshinsya" class="topmenu_txt" onclick="shLinkClick(1)">初心者コンテンツ</a><input id="shHdnLink_1" type="hidden" name="shHdnLink_1" value="/pc/static/beginner/select-language/index.html">
+           </li>
+           <li class="dropdown"><a role="button" id="btnKaisainittei" class="topmenu_txt" onclick="shLinkClick(2)">開催日程</a><input id="shHdnLink_2" type="hidden" name="shHdnLink_2" value="/pc/raceschedule">
+           </li>
+           <li class="dropdown"><a role="button" id="btnKensakuShiryou" class="topmenu_txt" onclick="shLinkClick(3)">検索/資料室</a><input id="shHdnLink_3" type="hidden" name="shHdnLink_3" value="/pc/search">
+           </li>
+           <li class="dropdown"><a role="button" id="btnRanking" class="topmenu_txt" onclick="shLinkClick(7)">ランキング</a><input id="shHdnLink_7" type="hidden" name="shHdnLink_7" value="/pc/prizeranking">
+           </li>
+           <li class="dropdown"><a role="button" id="btnKeirinJyougai" class="topmenu_txt" onclick="shLinkClick(4)">競輪場/場外売場</a><input id="shHdnLink_4" type="hidden" name="shHdnLink_4" value="/pc/jyolist">
+           </li>
+           <li class="dropdown"><a role="button" id="btnKeirinSchool" class="topmenu_txt" onclick="shLinkClick(5)">日本競輪選手養成所</a><input id="shHdnLink_5" type="hidden" name="shHdnLink_5" value="/pc/dfw/portal/guest/jik/index.html">
+           </li>
+           <li class="dropdown"><a role="button" id="btnLink" class="topmenu_txt" onclick="shLinkClick(6)">リンク</a><input id="shHdnLink_6" type="hidden" name="shHdnLink_6" value="/pc/dfw/portal/guest/link/index.html">
+           </li>
+           <li class="dropdown　btn_drop"></li>
+           <li class="dropdown　btn_drop"></li>
+           <li class="dropdown　btn_drop"></li>
+           <li class="dropdown　btn_drop">&nbsp;</li>
+	  </ul>
+	</div>
+  </div>
+  <div id="topfix">
+    <div id="colorbar" class="menu_colorbar"></div>
+       <div id="ticker_area" class="ticker_area clear-fix dispon" style="height: 32px;">
+     <table class="w100pc">
+       <tbody>
+       <tr>
+       <td style="border-style: none">       
+         <div id="ticker" class="fl-l comHeadTicker"><div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; inset: auto; z-index: auto; width: 1272px; height: 32px; margin: 0px; overflow: hidden;"><div id="ticker_inner" data-v-ptn="0" style="text-align: left; float: none; position: absolute; inset: 0px auto auto -281.65px; margin: 0px; width: 9252px; height: 32px; z-index: auto;"><div id="shTickerHsep" class="dispib" style="width: 1272px;"><span class="ticker" style="height: 32px;">&nbsp;</span></div><span class="ticker color_red">【お知らせ】Androidスマートフォンにてライブ映像の再生不具合が発生しております。詳しくは競輪トピックスをご覧ください。　　</span><span class="ticker body_base_color">KEIRIN.JPインターネット・電話投票会員（CTC会員）募集中！詳しくは競輪トピックスをご覧ください。　　</span><span class="ticker body_base_color">ミッドナイト競輪は1番車から競走得点上位順に選手を並べ、より分かりやすく、よりシンプルに！　　</span></div></div></div>
+       </td>
+       </tr>
+       </tbody>
+     </table>
+       </div>
+  </div>
+     <div id="breads" class="bread_area clear-fix">
+       <div class="bread_crab fl-l" id="hcomBlDiv"><div id="bread_area_id" jname="パンくずリスト" name="lnkBreadcrumb" class="list-inline"><span>トップページ</span></div></div>
+       <div id="shGSearch" class="searchbox fl-r"><form method="get" action="https://www.google.co.jp/search" id="siteSearch" name="find"><input type="hidden" name="ie" value="UTF-8"><input type="hidden" name="oe" value="UTF-8"><input type="hidden" name="hl" value="ja"><input type="hidden" name="domains" value="https://keirin.jp/"><input type="hidden" name="sitesearch" value="https://keirin.jp/" checked="checked"><button class="fl-r google_search_btn" onclick="document.find.submit();return false;"></button><input type="text" name="q" maxlength="255" value="" class="fl-r google_search" style="width: 148px; font-size: 12px;" placeholder="Google™ カスタム検索"></form></div>
+     </div>
+</nav><input id="sh_hidden1" type="hidden" name="sh_hidden1" value="false">
+       <div id="main" style="MARGIN-TOP: 0px">
+         <div id="topbtns" class="raceinfo bbottom">
+	       <div id="sh_suc_div" class="dispon">     
+             <div class="topbtns_inner">
+               <div id="hcomBtngroup" role="group" class="btn-group">
+                 <button id="shTodayRace" class="btn btn_fsz onbtn active btn_today_tomo" name="btnRaceToday" onclick="shChgRaceListBtn(0)" jname="今日の開催" value="ボタン">今日の開催</button>
+                 <button id="shTomorrowRace" class="btn btn_fsz onbtn btn_today_tomo" name="btnRaceTomorrow" onclick="shChgRaceListBtn(1)" jname="明日の開催" value="ボタン">明日の開催</button> 
+               </div>
+               <div id="hcomnoRaceMsg" class="dispoff" jname="レースなしメッセージ" name="divNoRaceMsg"><span id="UNQ_orlabel_18" class="no_race_msg"></span></div>
+               <div calss="dispon" id="hcomRaceDiv" class="dispon"><ul class="list-inline"> <h:inputhidden id="sh_hidden2" value="0"></h:inputhidden> <h:inputhidden id="shTouhyouLnkPath" value="/pc/racevote"></h:inputhidden> <h:inputhidden id="shLiveLinkPath" value="/pc/racelive"></h:inputhidden> <h:inputhidden id="shParentDisp" value="PPJ0101"></h:inputhidden> <h:inputhidden id="shCurrentDisp" value="PJ0101"></h:inputhidden> <h:inputhidden id="shCcp" value="0"></h:inputhidden> <li class="kyotuHeader white_bg_color"><div class="fl-l"><p class="place">函館</p><p id="denRaceInfo" class="place" style="width: 145px;">4R <span style="font-size: 12px;">発売締切</span> 16:56</p><img alt="F1" class="gradeIconSize" src="/pc/static/img/icon/grade/ico_f1.png"><img alt="2日目" src="/pc/static/img/icon/Himoku/ico_day2.png"><img alt="3" class="HoldingIconSize" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png"></div><div class="fl-r" style="margin-bottom: 1px;"><input type="hidden" id="hcomHdnTouhyouLive0" value="T9wMz-ha1TZ640Z-S5GN5KxFOjX-EOhCNCg7xt3w4_U"><button id="hcombtnLive0" class="btn onbtn btn_fsz top" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeLive('0')">LIVE</button></div><div class="fl-r" style="margin-top: 1px;"><input type="hidden" id="hcomHdnTouhyouLive0" value="T9wMz-ha1TZ640Z-S5GN5KxFOjX-EOhCNCg7xt3w4_U"><button id="hcombtnTouhyou0" class="btn onbtn btn_fsz top orange" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeTouhyou('0','0')">投票</button></div></li> <li class="kyotuHeader white_bg_color"><div class="fl-l"><p class="place">大垣</p><p id="denRaceInfo" class="place" style="width: 145px;">12R <span style="font-size: 12px;">発売締切</span> </p><img alt="F1" class="gradeIconSize" src="/pc/static/img/icon/grade/ico_f1.png"><img alt="2日目" src="/pc/static/img/icon/Himoku/ico_day2.png"><img alt="1" class="HoldingIconSize" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png"></div><div class="fl-r" style="margin-bottom: 1px;"><input type="hidden" id="hcomHdnTouhyouLive1" value="M55-TiOKRgzcmeiQ08HxleUViqDMBgju7Wb7Rs57L8M"><button id="hcombtnLive1" class="btn onbtn btn_fsz top" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeLive('1')">LIVE</button></div><div class="fl-r" style="margin-top: 1px;"><input type="hidden" id="hcomHdnTouhyouLive1" value="M55-TiOKRgzcmeiQ08HxleUViqDMBgju7Wb7Rs57L8M"><button id="hcombtnTouhyou1" class="btn onbtn btn_fsz top orange" style="width: 80px; height: 35px;" disabled="">投票</button></div></li> <li class="kyotuHeader white_bg_color"><div class="fl-l"><p class="place">防府</p><p id="denRaceInfo" class="place" style="width: 145px;">12R <span style="font-size: 12px;">発売締切</span> </p><img alt="F1" class="gradeIconSize" src="/pc/static/img/icon/grade/ico_f1.png"><img alt="最終日" src="/pc/static/img/icon/Himoku/ico_fday.png"><img alt="1" class="HoldingIconSize" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png"></div><div class="fl-r" style="margin-bottom: 1px;"><input type="hidden" id="hcomHdnTouhyouLive2" value="cT5PUT3R6DvBoJ7bLhzW2y-hre_R8aRhw0sxmhhkZUo"><button id="hcombtnLive2" class="btn onbtn btn_fsz top" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeLive('2')">LIVE</button></div><div class="fl-r" style="margin-top: 1px;"><input type="hidden" id="hcomHdnTouhyouLive2" value="cT5PUT3R6DvBoJ7bLhzW2y-hre_R8aRhw0sxmhhkZUo"><button id="hcombtnTouhyou2" class="btn onbtn btn_fsz top orange" style="width: 80px; height: 35px;" disabled="">投票</button></div></li> <li class="kyotuHeader white_bg_color"><div class="fl-l"><p class="place">弥彦</p><p id="denRaceInfo" class="place" style="width: 145px;">1R <span style="font-size: 12px;">発売締切</span> 20:37</p><img alt="F2" class="gradeIconSize" src="/pc/static/img/icon/grade/ico_f2.png"><img alt="最終日" src="/pc/static/img/icon/Himoku/ico_fday.png"><img alt="5" class="HoldingIconSize" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png"></div><div class="fl-r" style="margin-bottom: 1px;"><input type="hidden" id="hcomHdnTouhyouLive3" value="uT3_6zZe5WhDM6pyOeBlSF2H9e87f7ko8ni_SfIAm1k"><button id="hcombtnLive3" class="btn onbtn btn_fsz top" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeLive('3')">LIVE</button></div><div class="fl-r" style="margin-top: 1px;"><input type="hidden" id="hcomHdnTouhyouLive3" value="uT3_6zZe5WhDM6pyOeBlSF2H9e87f7ko8ni_SfIAm1k"><button id="hcombtnTouhyou3" class="btn onbtn btn_fsz top orange" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeTouhyou('0','3')">投票</button></div></li> <li class="kyotuHeader white_bg_color"><div class="fl-l"><p class="place">玉野</p><p id="denRaceInfo" class="place" style="width: 145px;">1R <span style="font-size: 12px;">発売締切</span> 20:47</p><img alt="F2" class="gradeIconSize" src="/pc/static/img/icon/grade/ico_f2.png"><img alt="最終日" src="/pc/static/img/icon/Himoku/ico_fday.png"><img alt="5" class="HoldingIconSize" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png"></div><div class="fl-r" style="margin-bottom: 1px;"><input type="hidden" id="hcomHdnTouhyouLive4" value="v3GkGBnzcJwx-zPUFdtwmaj1fXMnzpNdDN_AFU1TJww"><button id="hcombtnLive4" class="btn onbtn btn_fsz top" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeLive('4')">LIVE</button></div><div class="fl-r" style="margin-top: 1px;"><input type="hidden" id="hcomHdnTouhyouLive4" value="v3GkGBnzcJwx-zPUFdtwmaj1fXMnzpNdDN_AFU1TJww"><button id="hcombtnTouhyou4" class="btn onbtn btn_fsz top orange" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeTouhyou('0','4')">投票</button></div></li> <li class="kyotuHeader white_bg_color"><div class="fl-l"><p class="place">広島</p><p id="denRaceInfo" class="place" style="width: 145px;">7R <span style="font-size: 12px;">発売締切</span> </p><img alt="F2" class="gradeIconSize" src="/pc/static/img/icon/grade/ico_f2.png"><img alt="2日目" src="/pc/static/img/icon/Himoku/ico_day2.png"><img alt="8" class="HoldingIconSize" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png"></div><div class="fl-r" style="margin-bottom: 1px;"><input type="hidden" id="hcomHdnTouhyouLive5" value="Ozpk-eumfo_0DwX9fHqEYQ4m0aibXwlXvLPB0VbsNE8"><button id="hcombtnLive5" class="btn onbtn btn_fsz top" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeLive('5')">LIVE</button></div><div class="fl-r" style="margin-top: 1px;"><input type="hidden" id="hcomHdnTouhyouLive5" value="Ozpk-eumfo_0DwX9fHqEYQ4m0aibXwlXvLPB0VbsNE8"><button id="hcombtnTouhyou5" class="btn onbtn btn_fsz top orange" style="width: 80px; height: 35px;" disabled="">投票</button></div></li> <li class="kyotuHeader white_bg_color"><div class="fl-l"><p class="place">久留米</p><p id="denRaceInfo" class="place" style="width: 145px;">4R <span style="font-size: 12px;">発売締切</span> 17:09</p><img alt="F2" class="gradeIconSize" src="/pc/static/img/icon/grade/ico_f2.png"><img alt="最終日" src="/pc/static/img/icon/Himoku/ico_fday.png"><img alt="3" class="HoldingIconSize" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png"></div><div class="fl-r" style="margin-bottom: 1px;"><input type="hidden" id="hcomHdnTouhyouLive6" value="1-mDn3P5FXuZU5C-JbtnIPaMz_Wm-wlHgc6eedH3A5M"><button id="hcombtnLive6" class="btn onbtn btn_fsz top" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeLive('6')">LIVE</button></div><div class="fl-r" style="margin-top: 1px;"><input type="hidden" id="hcomHdnTouhyouLive6" value="1-mDn3P5FXuZU5C-JbtnIPaMz_Wm-wlHgc6eedH3A5M"><button id="hcombtnTouhyou6" class="btn onbtn btn_fsz top orange" style="width: 80px; height: 35px;" onclick="pc0101_checkKaimeTouhyou('0','6')">投票</button></div></li> </ul></div>
+             </div>
+           </div>
+  	     </div>
+       </div>
+   <script type="text/javascript">
+	var pc0101_json = {"kaisaiDateKbn":"0","loginState":false,"RaceList":[{"gradeBackColor":"white_bg_color","kaisaiDate":"20260709","naibuKeirinCd":"11","keirinjoName":"函館","gradeKbn":"2","gradeIconPath":"/pc/static/img/icon/grade/ico_f1.png","gradeIconName":"F1","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_day2.png","nichijiIconName":"2日目","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png","kubunIconName":"3","touhyouFlg":"1","liveFlg":"1","touhyouLivePara":"T9wMz-ha1TZ640Z-S5GN5KxFOjX-EOhCNCg7xt3w4_U","tyusiKbn":"0","denColorFlg":"0","raceNum":"4R","denTime":"16:56","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260709","naibuKeirinCd":"44","keirinjoName":"大垣","gradeKbn":"2","gradeIconPath":"/pc/static/img/icon/grade/ico_f1.png","gradeIconName":"F1","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_day2.png","nichijiIconName":"2日目","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","kubunIconName":"1","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"M55-TiOKRgzcmeiQ08HxleUViqDMBgju7Wb7Rs57L8M","tyusiKbn":"0","denColorFlg":"0","raceNum":"12R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260709","naibuKeirinCd":"63","keirinjoName":"防府","gradeKbn":"2","gradeIconPath":"/pc/static/img/icon/grade/ico_f1.png","gradeIconName":"F1","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_fday.png","nichijiIconName":"最終日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","kubunIconName":"1","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"cT5PUT3R6DvBoJ7bLhzW2y-hre_R8aRhw0sxmhhkZUo","tyusiKbn":"0","denColorFlg":"0","raceNum":"12R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260709","naibuKeirinCd":"21","keirinjoName":"弥彦","gradeKbn":"1","gradeIconPath":"/pc/static/img/icon/grade/ico_f2.png","gradeIconName":"F2","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_fday.png","nichijiIconName":"最終日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png","kubunIconName":"5","touhyouFlg":"1","liveFlg":"1","touhyouLivePara":"uT3_6zZe5WhDM6pyOeBlSF2H9e87f7ko8ni_SfIAm1k","tyusiKbn":"0","denColorFlg":"0","raceNum":"1R","denTime":"20:37","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260709","naibuKeirinCd":"61","keirinjoName":"玉野","gradeKbn":"1","gradeIconPath":"/pc/static/img/icon/grade/ico_f2.png","gradeIconName":"F2","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_fday.png","nichijiIconName":"最終日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png","kubunIconName":"5","touhyouFlg":"1","liveFlg":"1","touhyouLivePara":"v3GkGBnzcJwx-zPUFdtwmaj1fXMnzpNdDN_AFU1TJww","tyusiKbn":"0","denColorFlg":"0","raceNum":"1R","denTime":"20:47","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260709","naibuKeirinCd":"62","keirinjoName":"広島","gradeKbn":"1","gradeIconPath":"/pc/static/img/icon/grade/ico_f2.png","gradeIconName":"F2","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_day2.png","nichijiIconName":"2日目","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png","kubunIconName":"8","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"Ozpk-eumfo_0DwX9fHqEYQ4m0aibXwlXvLPB0VbsNE8","tyusiKbn":"0","denColorFlg":"0","raceNum":"7R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260709","naibuKeirinCd":"83","keirinjoName":"久留米","gradeKbn":"1","gradeIconPath":"/pc/static/img/icon/grade/ico_f2.png","gradeIconName":"F2","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_fday.png","nichijiIconName":"最終日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png","kubunIconName":"3","touhyouFlg":"1","liveFlg":"1","touhyouLivePara":"1-mDn3P5FXuZU5C-JbtnIPaMz_Wm-wlHgc6eedH3A5M","tyusiKbn":"0","denColorFlg":"0","raceNum":"4R","denTime":"17:09","denTitle":"発売締切","loginState":false}],"tickerFlg":true,"tickerFlashFlg":"0","kanyusyaFlgJSON":false,"parentDspId":"PPJ0101","currentDspId":"PJ0101","touhyouLnkPath":"/pc/racevote","liveLinkPath":"/pc/racelive","tickerData":[{"tickerColorData":"color_red","tickerTextData":"【お知らせ】Androidスマートフォンにてライブ映像の再生不具合が発生しております。詳しくは競輪トピックスをご覧ください。　　"},{"tickerColorData":"body_base_color","tickerTextData":"KEIRIN.JPインターネット・電話投票会員（CTC会員）募集中！詳しくは競輪トピックスをご覧ください。　　"},{"tickerColorData":"body_base_color","tickerTextData":"ミッドナイト競輪は1番車から競走得点上位順に選手を並べ、より分かりやすく、よりシンプルに！　　"}],"breadCrumbData":[{"postgetFlg":"2","breadCrumbPath":"","breadCrumbName":"トップページ","breadCrumbDspID":""}],"forceProtcolParam":"0","resultCd":0,"writeANA":false};
+	PC0101View.shDrawJSONData(pc0101_json,0);
+   </script><input id="sfHdnLink_0" type="hidden" name="sfHdnLink_0" value="https://keirin.jp/pc/static/help/PU0101.html">   
+</div> 
+
+   <div id="ttUsrEnvMsg" class="usr_env_msg_area dispoff">
+	<div class="usr_env_msg_border">
+		<div class="usr_env_msg">現在お使いの環境では当ページを正常に表示することができません。<br>詳しくはご利用環境表示をご覧ください。</div>
+		<div class="usr_env_msg"><button class="btn onbtn" style="margin: 5px 0px; width: 150px; height: 42px;" onclick="sfLinkClick(2);" type="button">ご利用環境表示</button></div>
+	</div>
+   </div>
+
+   <div class="fl-r col3_lay_R clear-fix" style="margin-top: 20px; vertical-align: top;">
+		<div class="sidebox4" id="loginbox1" style="margin-top: 0px;">
+		<p class="now_login" style="padding-left: 10px;">ログイン</p>
+        <form action="https://keirin.jp/pc/LoginServlet" method="post">     
+		<div class="sidebox4_title" style="margin: 0px auto; padding: 10px;">
+			<p class="al-c" style="margin: 10px 0px;">インターネット投票認証ID</p>
+			<div style="margin: 0px auto 5px;" class="al-c"><input id="trtxtBallotID" type="text" name="trtxtBallotID" value="" class="login_input" maxlength="16" style="ime-mode:disabled;">
+			</div>
+			<p class="al-c" style="margin: 10px 0px;">インターネット投票パスワード</p>
+			<div style="margin: 0px auto 10px;" class="al-c"><input id="trtxtBallotPW" type="password" name="trtxtBallotPW" value="" maxlength="8" autocomplete="off">
+			</div>
+			<div style="margin: 0px auto 10px; width: 188px;">
+				<span id="trlblchkPerSec" class="input_bkColor"><input id="trchkPerSec" type="checkbox" name="trchkPerSec"><label for="trchkPerSec" style="font-weight:normal;">秒速ログインを有効にする</label>
+				</span>
+			</div>
+		</div>
+           <input type="submit" value="ログイン" class="btn onbtn al-c login_keyicon" style="margin: 15px 10px 5px; width: 92%;" onclick="return btnLoginClick();">
+	     </form>
+	     <p class="al-l" style="padding-top: 10px; padding-bottom: 0px; margin-left: 10px;">
+	     <a href="https://keirin.jp/pc/idpassinquiry"><i class="fa fa-shield"></i> ID・パスワードをお忘れの方</a></p>
+           <div id="warnticker" class="al-l warnticker">
+           <div class="caroufredsel_wrapper" style="display: block; text-align: left; float: none; position: relative; inset: auto; z-index: auto; width: 220.667px; height: 32px; margin: 0px; overflow: hidden;"><div id="warnticker_inner" style="text-align: left; float: none; position: absolute; inset: 0px auto auto -232.05px; margin: 0px; width: 1088.67px; height: 32px; z-index: auto;">
+           <span>↓車券は 20 歳になってから↓ ↓のめり込みが不安な方はこちら（購入限度額の設定）↓</span><div class="dispib" style="width: 220.667px;"><span class="ticker" style="height: 32px;">&nbsp;</span></div></div></div>
+         </div>
+		<p class="al-l" style="margin: 5px 0px 10px 10px;"><a href="/pc/topicsdetail?&amp;nnum=157" target="_blank" class="uline">車券は 20 歳になってから</a></p>
+		<p class="al-l" style="margin: 10px 0px 10px 10px;"><a href="/pc/topicsdetail?&amp;nnum=10643" target="_blank" class="uline">購入限度額の設定</a></p>
+
+		</div>
+
+       <div id="rank_point">
+         <!--
+         &lt;p class="rank_point_title"&gt;&#12521;&#12531;&#12463;&lt;/p&gt;
+         &lt;p style="padding: 0px 10px;"&gt;&#36554;&#21048;&#12398;&#36092;&#20837;&#12395;&#12424;&#12426;&#12521;&#12531;&#12463;&#12364;&#19978;&#12364;&#12427;&#12392;&#12289;&#12509;&#12452;&#12531;&#12488;&#12398;&#20184;&#19982;&#29575;&#12420;&#20132;&#25563;&#12539;&#25277;&#36984;&#24540;&#21215;&#21487;&#33021;&#12394;&#26223;&#21697;&#12539;&#29305;&#20856;&#12364;&#22679;&#12360;&#12414;&#12377;&#12290;&lt;/p&gt;
+         &lt;p class="al-c" style="font-size: 14px;"&gt;&#65288;&#12452;&#12531;&#12479;&#12540;&#12493;&#12483;&#12488;&#25237;&#31080;&#20250;&#21729;&#12398;&#12415;&#21033;&#29992;&#21487;&#33021;&#65289;&lt;/p&gt;
+         &lt;p class="al-c"&gt;&#26032;&#35215;&#21152;&#20837;&#30003;&#12375;&#36796;&#12415;&#12399;&lt;a href="/pc/static/beginner/miscellaneous/membership.html" class="txt_underline" target="_self"&gt;&#12371;&#12385;&#12425;&lt;/a&gt;&lt;/p&gt;
+         &lt;p class="al-c"&gt;&#65288;&#20837;&#20250;&#37329;&#12539;&#24180;&#20250;&#36027;&#28961;&#26009;&#65289;&lt;/p&gt;
+         &lt;p class="al-r" style="padding: 0px 10px;"&gt;&#12521;&#12531;&#12463;&#12395;&#12388;&#12356;&#12390;&#12399;&lt;a href="/pc/static/help/PU0101.html#rank" class="txt_underline" target="_blank"&gt;&#12371;&#12385;&#12425;&lt;/a&gt;&lt;/p&gt;
+         -->
+         <p class="rank_point_title">KEIRINオフィシャルポイント</p>
+         <p style="padding: 0px 10px;">利用登録を行い、ポイントを貯めると様々な景品・特典との交換・抽選応募に参加できます。</p>
+         <p class="al-c" style="font-size: 14px;">（インターネット投票会員のみ利用可能）</p>
+         <p class="al-c">新規加入申し込みは<a href="/pc/static/beginner/miscellaneous/membership.html" class="txt_underline" target="_self">こちら</a></p>
+         <p class="al-c">（入会金・年会費無料）</p>
+         <!--
+         &lt;p class="al-c" style="padding-bottom: 10px;"&gt;&lt;a href=""&gt;&lt;img alt="&#12509;&#12452;&#12531;&#12488;&#12450;&#12483;&#12503;&#12466;&#12540;&#12512;" src="/pc/static/img/banner/game.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+         -->
+         <p class="al-c" style="padding-bottom: 5px;"><a href="/pc/pointtraderequestlist"><img alt="ポイント交換" src="/pc/static/img/banner/point_exchange.png"></a></p>
+         <p class="al-r" style="padding: 0px 10px;">ポイントについては<a href="/pc/static/help/PU0101.html#point" class="txt_underline" target="_blank">こちら</a></p>
+       </div>
+       <div id="history" style="margin-top: 20px;"><button class="btn onbtn" style="padding: 15px 0px; width: 100%; margin-bottom: 0px;" type="button" onclick="location.href='/pc/votehistorydigest'">投票履歴＆ダイジェスト</button>
+       </div>
+	
+       
+	   
+       <div class="col-md-12" style="padding-right: 0px; padding-left: 0px; margin-top: 20px; margin-bottom: 20px;" id="push_div">
+         <div class="contentsBox type08">
+           <h2 class="contentsTitle clear-fix al-l">一押し選手が出場するレース</h2>
+
+		   <div style="height:28px;">
+           <p id="brpIchioshiListLink" class="al-r dispoff" style="margin: 0px; padding: 5px 10px 0px;">一押し選手一覧は<a href="/pc/recommendracerlist" class="txt_underline">こちら</a></p>
+		   </div>
+           <div class="contentsUtility clear-fix" style="padding: 4px 0px 0px;">
+             <div class="clear-fix" style="margin-bottom: 0px;">
+               <ul class="nav nav-tabs" style="margin-top: 5px;">
+                 <li><img width="5" height="16" alt="" src="/pc/static/img/spacer.png"></li>
+                 <li class="al-c active" role="race_date" id="brtabToday"><a href="#login_view" style="height: 48px; line-height: 1;" data-toggle="tab">今日<br>(07/09)</a></li> 
+                 <li class="al-c" role="race_date" id="brtabTomorrow"><a href="#login_view" style="height: 48px; line-height: 1;" data-toggle="tab">明日<br>(07/10)</a></li>
+               </ul>               <div class="tab-content" id="my-tab-content">
+                 <div class="tab-pane active" id="login_view">
+                   <ul class="al-l" style="padding-left: 0px;">
+                     <li class="dispon nonMember no_bbottom">
+                       <p style="padding: 10px;">一押し選手を登録すると、その選手が出場する今日、明日のレースが表示されます。</p>
+                       <p class="al-c" style="font-size: 14px;">(インターネット投票会員のみ利用可能)</p>
+                       <p class="al-c" style="padding: 10px;">新規加入申し込みは<a href="/pc/static/beginner/miscellaneous/membership.html" class="txt_underline" target="_self">こちら</a></p>
+                       <p class="al-c">(入会金・年会費無料)</p></li>
+                   </ul>
+                 </div>
+
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+    </div>
+
+	
+	<div class="fl-l col3_lay_L clear-fix" style="margin-top: 20px; vertical-align: top;">
+	
+		
+       <div class="dokantbg">
+         <div class="dokantbg_border" style="outline: rgb(231, 34, 34) solid 2px;">
+         
+	       <div class="dokantbg_left_logo" style="margin-bottom: 10px;">
+	            <div id="tldenStopMsg" class="denStop-msg bold dispoff">発売停止</div>
+				<div align="center" class="dokanto_hatubaicyuu" id="divimgHatubaiIcon" style="display: none;"><img id="tlimgHatubaiIcon" style="vertical-align: baseline; opacity: 1;" alt="" src="/pc/static/img/Dokanto_hatubaicyuu1.png"></div>
+				<div align="center" class="dokanto_logo"><img id="dokanto_logo" style="opacity: 1;" alt="" src="/pc/static/img/Dokanto_Logo.png"></div>
+	
+               <div id="DokantoInfo_div">
+				<div class="keirinjou" id="jyoName">
+	               <span id="tlDokantoKaisaihi">次回開催 07/10</span>
+	               <span id="tlDokantoKaisaijyo" class="bold">前橋</span>
+	               <img id="tlimgKaisaiGrade" src="/pc/static/img/icon/grade/ico_g3.png" alt="G3" style="vertical-align: initial;">
+	               <div class="hatubai_kaisi_date" id="divlblHatubaiKaisi"><span id="tllblHatubaiKaisi">07/09 18:30 発売開始</span></div>
+				</div>
+				<div id="tlimgCoverReach" class="kyari_over"></div>
+	             <div class="dokanto7">
+	               <div style="background-color: rgb(255, 255, 255);">
+	                 <div class="logo"><img src="/pc/static/img/dokanto7_logo.png"></div>
+	                 <div class="fl-r clear-fix">
+						<div id="tlimgD7Icon" class="" style="display: none;"></div>
+						<div id="tlimgD7IconHatubaicyuu" class="hatubaicyuu7" style="display: none;"><img id="hatubaicyuu7" src="/pc/static/img/Dokanto_hatubaicyuu1s.png" style="vertical-align: baseline; opacity: 1;"></div>
+	                 </div>
+	               </div>
+	               <div id="tldivD7Info" style="background-color: rgb(0, 0, 0); display: none;"><div id="tllblD7Info" class="dokanto7_t1"></div></div>
+	               <div style="background-color: rgb(255, 144, 0);">
+	                 <div id="tllblD7Carry" class="dokanto7_t2">1310万7750円</div>
+	               </div>
+	             </div>
+	             <div class="dokanto4">
+	               <div style="background-color: rgb(255, 255, 255);">
+	                 <div class="logo"><img src="/pc/static/img/dokanto4_logo.png">
+	                 </div>
+	                 <div class="fl-r clear-fix">
+						<div id="tlimgD4Icon" class="" style="display: none;"></div>
+						<div id="tlimgD4IconHatubaicyuu" class="hatubaicyuu4" style="display: none;"><img id="hatubaicyuu4" src="/pc/static/img/Dokanto_hatubaicyuu1s.png" style="vertical-align: baseline; opacity: 1;"></div>
+	                 </div>
+	               </div>
+	               <div id="tldivD4Info" style="background-color: rgb(0, 0, 0); display: none;"><div id="tllblD4Info" class="dokanto4_t1"></div></div>
+	               <div style="background-color: rgb(68, 188, 249);">
+	                 <div id="tllblD4Carry" class="dokanto4_t2">68万8650円</div>
+	               </div>
+	             </div>
+		      </div>
+	          </div>
+	           <div id="tldivDokantobtn" class="al-l" style="padding: 0px 8px 0px 10px; width: 100%;">
+				<button class="btn onbtn orange" style="margin: 0px; width: 32%;" onclick="btnDokantoVoteClick();" id="btnDokantoVote" disabled="disabled">投　票</button>
+				<button class="btn onbtn" style="margin: 0px; width: 31%;" onclick="btnDokantoResultClick();">結　果</button>
+				<button class="btn onbtn" style="margin: 0px; width: 32%;" onclick="location.href='/pc/dokantoschedule'">日　程</button>
+	           </div>
+           <div id="DokantoInfo_err_div" class="dispoff">
+	       </div>
+           <a href="/pc/static/beginner/ways-to-bet/dokanto.html" target="_self"><img id="dokanto_guide" style="margin: 10px 10px 0px;" alt="" src="/pc/static/img/Dokanto_guide.png"></a>				  
+         </div>
+	    </div>
+		
+
+
+		
+        <div class="col-md-12" style="padding-right: 0px; padding-left: 0px; margin-top: 20px; margin-bottom: 20px;" id="pickup_div">
+         <div class="contentsBox type08">
+           <h2 class="contentsTitle clear-fix al-l">ピックアップレース</h2>
+           <div class="contentsUtility clear-fix" style="padding: 4px 0px 0px;">
+             <div class="clear-fix" style="margin-bottom: 0px;">
+               <ul class="nav nav-tabs" style="margin-top: 5px;">
+                 <li><img width="5" height="16" alt="" src="/pc/static/img/spacer.png"></li>
+                 <li class="al-c active" role="race_date" id="cltabToday"><a href="#login_view" style="height: 48px; line-height: 1;" data-toggle="tab">今日<br>(07/09)</a></li>
+                 <li class="al-c" role="race_date" id="cltabTomorrow"><a href="#login_view" style="height: 48px; line-height: 1;" data-toggle="tab">明日<br>(07/10)</a></li>
+               </ul>
+               <div class="tab-content" id="my-tab-content">
+                 <div class="tab-pane active" id="login_view">
+                   <ul class="al-l" style="padding-left: 0px;">
+                     <li class="dispon nonMember no_bbottom">
+                       <p style="padding: 10px;">ピックアップレースでは、今日、明日のレースに出場する選手の内、一押し登録数が急増している選手や連勝中の選手などがスライド表示されます。</p>
+                       <p class="al-c" style="font-size: 14px;">(インターネット投票会員のみ利用可能)</p>
+                       <p class="al-c" style="padding: 10px;">新規加入申し込みは<a href="/pc/static/beginner/miscellaneous/membership.html" class="txt_underline" target="_self">こちら</a></p>
+                       <p class="al-c">(入会金・年会費無料)</p></li>
+                   </ul>
+                   
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
+         <div class="col-md-12">
+           <div class="contentsBox type02">
+             <h2 class="contentsTitle clear-fix al-l">グレードレース
+               <div class="fl-r clear-fix"><span class="at-r" style="margin-right: 10px;"><a href="/pc/graderaceschedule" class="uline">一覧 <img class="iblock" alt="リンク" src="/pc/static/img/icon/ico_blue_right.png"></a>
+                 </span>
+               </div>
+             </h2>
+             
+			
+			<div class="raceList" id="grade_race">
+				<ul>
+					  <li>
+						<a onclick="gradeRaceClick('D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM'); return false;" class="memlink" href="">
+						 <div class="raceListText">
+								<div class="clear-fix">
+									<p class="fl-l"><span class="date">07/10～07/12</span></p>
+									<p class="fl-r"><img src="/pc/static/img/icon/grade/ico_g3.png" alt="G3"></p>
+								</div>
+								<div>まえばし七夕賞・ＣＴＣ杯</div>
+								<div class="dispib" style="margin: 5px 5px 5px 0;width:55px;">前橋</div>
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png" alt="1">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png" alt="01">
+							<img>
+							<img>
+							
+							<div style="width: 100%; margin-bottom: 10px;">
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">阿部　拓真</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">佐々木悠葵</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">佐藤慎太郎</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">簗田　一輝</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">脇本　雄太</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">渡邉　晴智</span>
+							</div>
+						</div>
+						<p class="raceListLink"><img src="/pc/static/img/icon/ico_arrow03.png"></p>
+						</a>
+
+					  </li>
+					  <li>
+						<a onclick="gradeRaceClick('u3ftnY5SRux-xk3s1TGkhUyrMVuTX-ESj1pnR1B1Vzg'); return false;" class="memlink" href="">
+						 <div class="raceListText">
+								<div class="clear-fix">
+									<p class="fl-l"><span class="date">07/17～07/20</span></p>
+									<p class="fl-r"><img src="/pc/static/img/icon/grade/ico_g2.png" alt="G2"></p>
+								</div>
+								<div>第２２回サマーナイトフェスティバル</div>
+								<div class="dispib" style="margin: 5px 5px 5px 0;width:55px;">高知</div>
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png" alt="3">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png" alt="01">
+							<img>
+							<img>
+							
+							<div style="width: 100%; margin-bottom: 10px;">
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">古性　優作</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">吉田　拓矢</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">太田　海也</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">寺崎　浩平</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">眞杉　匠</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">荒井　崇博</span>
+							</div>
+						</div>
+						<p class="raceListLink"><img src="/pc/static/img/icon/ico_arrow03.png"></p>
+						</a>
+
+					  </li>
+					  <li>
+						<a onclick="gradeRaceClick('D-fs-ibaZM4Z3cYeuKvjg5PsU7CDF6doatXhRMazhRM'); return false;" class="memlink" href="">
+						 <div class="raceListText">
+								<div class="clear-fix">
+									<p class="fl-l"><span class="date">07/22～07/24</span></p>
+									<p class="fl-r"><img src="/pc/static/img/icon/grade/ico_g3.png" alt="G3"></p>
+								</div>
+								<div>ドームスーパーナイトレース</div>
+								<div class="dispib" style="margin: 5px 5px 5px 0;width:55px;">前橋</div>
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png" alt="3">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png" alt="01">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png" alt="02">
+							<img>
+							
+							<div style="width: 100%; margin-bottom: 10px;">
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">諸橋　愛</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">大川　龍二</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">佐々木　豪</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">谷口　遼平</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_girls_top.png" alt="ガールズ">尾方　真生</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_girls_top.png" alt="ガールズ">太田　りゆ</span>
+							</div>
+						</div>
+						<p class="raceListLink"><img src="/pc/static/img/icon/ico_arrow03.png"></p>
+						</a>
+
+					  </li>
+					  <li>
+						<a onclick="gradeRaceClick('-rgLOUDZaX8RQ73rPRpBXvjid90VCrxwxMWiVmW1Nv8'); return false;" class="memlink" href="">
+						 <div class="raceListText">
+								<div class="clear-fix">
+									<p class="fl-l"><span class="date">07/25～07/28</span></p>
+									<p class="fl-r"><img src="/pc/static/img/icon/grade/ico_g3.png" alt="G3"></p>
+								</div>
+								<div>開設７７周年記念ちぎり賞争奪戦</div>
+								<div class="dispib" style="margin: 5px 5px 5px 0;width:55px;">豊橋</div>
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png" alt="1">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png" alt="01">
+							<img>
+							<img>
+							
+							<div style="width: 100%; margin-bottom: 10px;">
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">寺崎　浩平</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">眞杉　匠</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">深谷　知広</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">新山　響平</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">成田　和也</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">南　修二</span>
+							</div>
+						</div>
+						<p class="raceListLink"><img src="/pc/static/img/icon/ico_arrow03.png"></p>
+						</a>
+
+					  </li>
+					  <li>
+						<a onclick="gradeRaceClick('oGn5WPyFKUs7MmpVS67mXVNL5UFuqlCGo9oARZNmhKs'); return false;" class="memlink" href="">
+						 <div class="raceListText">
+								<div class="clear-fix">
+									<p class="fl-l"><span class="date">08/01～08/04</span></p>
+									<p class="fl-r"><img src="/pc/static/img/icon/grade/ico_g3.png" alt="G3"></p>
+								</div>
+								<div>第７７周年記念北条早雲杯争奪戦</div>
+								<div class="dispib" style="margin: 5px 5px 5px 0;width:55px;">小田原</div>
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png" alt="1">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png" alt="01">
+							<img>
+							<img>
+							
+							<div style="width: 100%; margin-bottom: 10px;">
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">荒井　崇博</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">郡司　浩平</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">鈴木　竜士</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">清水　裕友</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">三谷　将太</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">松谷　秀幸</span>
+							</div>
+						</div>
+						<p class="raceListLink"><img src="/pc/static/img/icon/ico_arrow03.png"></p>
+						</a>
+
+					  </li>
+					  <li>
+						<a onclick="gradeRaceClick('D4DOyhWP8yD6jQkjiiZ35OoRe3eYoxYfj-2K5g24_p0'); return false;" class="memlink" href="">
+						 <div class="raceListText">
+								<div class="clear-fix">
+									<p class="fl-l"><span class="date">08/06～08/09</span></p>
+									<p class="fl-r"><img src="/pc/static/img/icon/grade/ico_g3.png" alt="G3"></p>
+								</div>
+								<div>ワールドサイクリスト支援競輪</div>
+								<div class="dispib" style="margin: 5px 5px 5px 0;width:55px;">和歌山</div>
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png" alt="1">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png" alt="01">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png" alt="02">
+							<img>
+							
+							<div style="width: 100%; margin-bottom: 10px;">
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">ラブレイセ</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">佐藤　礼文</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">石塚輪太郎</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">五日市　誠</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">大森　慶一</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_tanpatsu_top.png" alt="単発">ファンデル</span>
+							</div>
+						</div>
+						<p class="raceListLink"><img src="/pc/static/img/icon/ico_arrow03.png"></p>
+						</a>
+
+					  </li>
+					  <li>
+						<a onclick="gradeRaceClick('pwzdqoQWyXU0o-0Slea_GdrOqXg3PIkQ6tlOEqVIB0c'); return false;" class="memlink" href="">
+						 <div class="raceListText">
+								<div class="clear-fix">
+									<p class="fl-l"><span class="date">08/07～08/09</span></p>
+									<p class="fl-r"><img src="/pc/static/img/icon/grade/ico_g1.png" alt="G1"></p>
+								</div>
+								<div>第２回毎日新聞社杯女子オールスター競輪</div>
+								<div class="dispib" style="margin: 5px 5px 5px 0;width:55px;">佐世保</div>
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png" alt="3">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png" alt="02">
+							<img src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_04.png" alt="04">
+							<img>
+							
+							<div style="width: 100%; margin-bottom: 10px;">
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_girls_top.png" alt="ガールズ">佐藤　水菜</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_girls_top.png" alt="ガールズ">仲澤　春香</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_girls_top.png" alt="ガールズ">児玉　碧衣</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_girls_top.png" alt="ガールズ">岩元　杏奈</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png" alt="チャレンジ">中村　嶺央</span>
+									<span class="grade-syuyo"><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_tanpatsu_top.png" alt="単発">川上いちご</span>
+							</div>
+						</div>
+						<p class="raceListLink"><img src="/pc/static/img/icon/ico_arrow03.png"></p>
+						</a>
+
+					  </li>
+				</ul>
+           </div>
+           </div>
+
+         </div>
+       </div>
+     </div>
+
+
+	
+	<div class="col3_lay_C" style="vertical-align: top; position: relative;">
+       <div class="clear-fix" id="slides">
+         <div class="fl-l" id="slide1">
+           <div class="slide-items slick-initialized slick-slider">
+					<div aria-live="polite" class="slick-list draggable" tabindex="0"><div class="slick-track" style="opacity: 1; width: 4770px; transform: translate3d(-1590px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 530px;"><a href="https://midnightcampaign.ctcspecial.com/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260420090433678_midthumb.jpg"></a></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" style="width: 530px;"><a href="http://keirin.jp/pc/topicsdetail?nnum=157" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/1/20210618114528545_main_gambling.jpg"></a></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 530px;"><a href="https://keirin.jp/pc/dfw/portal/guest/report/graderace/summer/2026/winner_data/what.html" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260703091020106_kaisaimei_main.jpg"></a></div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 530px;"><a href="https://www.jka-cycle.jp/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260701100500606_CYCLE_main.jpg"></a></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" style="width: 530px;"><a href="https://ctc.gr.jp/campaign/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260622084557342_ctc_main.jpg"></a></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" style="width: 530px;"><a href="https://keirin-web.com/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/1/20230701092401055_gekkankeirin.jpg"></a></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" style="width: 530px;"><a href="https://keirin-jik.jp/application/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260601113801091_main_jik.jpg"></a></div><div class="slick-slide" data-slick-index="6" aria-hidden="true" style="width: 530px;"><a href="https://midnightcampaign.ctcspecial.com/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260420090433678_midthumb.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 530px;"><a href="http://keirin.jp/pc/topicsdetail?nnum=157" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/1/20210618114528545_main_gambling.jpg"></a></div></div></div>
+					
+					
+					
+					
+					
+					
+           </div>
+         </div>
+         
+		 <div class="fl-r" style="margin-right: 8px;">
+	           <div style="position: relative;">
+             	<button class="slick-next btn onbtn btn_fsz top blue2" id="top_r_banner1" type="button">∧</button>
+	             <div id="slide2">
+					<div class="slide-items2 slick-initialized slick-slider slick-vertical">
+								<div aria-live="polite" class="slick-list draggable" tabindex="0" style="height: 240px;"><div class="slick-track" style="opacity: 1; height: 1440px; transform: translate3d(0px, -240px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 206px;"><a href="https://graderace.com/outlook/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/2/20240303114229638_GIIItenbo.jpg"></a></div><div class="slick-slide slick-active" data-slick-index="0" aria-hidden="false" style="width: 206px;"><a href="https://www.maebashi-keirin.jp/g3_2026/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/2/20260615091047006_g3_2_maebashi.jpg"></a></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 206px;"><a href="https://www.toyohashikeirin.com/special/202607kinen/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/2/20260701091044752_g3toyohashi.jpg"></a></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 206px;"><a href="https://www.odawarakeirin.com/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/2/20260706090917599_g3odawara.jpg"></a></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" style="width: 206px;"><a href="https://graderace.com/outlook/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/2/20240303114229638_GIIItenbo.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" style="width: 206px;"><a href="https://www.maebashi-keirin.jp/g3_2026/" target="_blank"><img alt="" src="/pc/dfw/portal/picture/banner/2/20260615091047006_g3_2_maebashi.jpg"></a></div></div></div>
+								
+								
+								
+					</div>
+				</div>
+			 	<button class="slick-prev btn onbtn btn_fsz top blue2" id="top_r_banner2" type="button">∨</button>
+	         </div>
+       </div>
+       </div>
+	       <div class="dispon" id="slide3">
+	         <div class="slide-items3 slick-initialized slick-slider">
+					<div aria-live="polite" class="slick-list draggable" tabindex="0"><div class="slick-track" style="opacity: 1; width: 511px; transform: translate3d(0px, 0px, 0px);"><div onclick="slide3_click(0);" class="slick-slide slick-active" data-slick-index="0" aria-hidden="false" style="width: 73px;"><img alt="" src="/pc/dfw/portal/picture/banner/1/20200225105113876_thumb_gambling.jpg"></div><div onclick="slide3_click(1);" class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 73px;"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260703091020106_thumb.jpg"></div><div onclick="slide3_click(2);" class="slick-slide slick-active current-frame" data-slick-index="2" aria-hidden="false" style="width: 73px;"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260701100500606_CYCLE_thum.jpg"></div><div onclick="slide3_click(3);" class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 73px;"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260622084557342_ctc_thum.jpg"></div><div onclick="slide3_click(4);" class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" style="width: 73px;"><img alt="" src="/pc/dfw/portal/picture/banner/1/20220407150710823_gekkan_keirin_65-30_url.png"></div><div onclick="slide3_click(5);" class="slick-slide slick-active" data-slick-index="5" aria-hidden="false" style="width: 73px;"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260601113801091_thum_jik.jpg"></div><div onclick="slide3_click(6);" class="slick-slide slick-active" data-slick-index="6" aria-hidden="false" style="width: 73px;"><img alt="" src="/pc/dfw/portal/picture/banner/1/20260420090433678_midmain.jpg"></div></div></div>
+					
+					
+					
+					
+					
+					
+	
+	         </div>
+	       </div>
+			<button class="btn onbtn" style="padding: 0px; margin-left: 10px; margin-top: 6px;" type="button" onclick="location.href='/pc/static/beginner/miscellaneous/membership.html'">
+				<div class="reg_btn_left">
+					<img src="/pc/static/img/icon/regist_btn/reg_btn_icon.png">
+				</div>
+				<div class="reg_btn_right_all" style="width: 317px; height: 79px;">
+					<div style="margin: 0px auto; display: inline-block;">
+						<div class="reg_btn_right_top">入会金・年会費無料！</div>
+					</div>
+					<div class="reg_btn_right_bottom">新規加入申し込み</div>
+				</div>
+			</button>
+			<div class="fl-r keirin_guide_banner" id="top_sbanner" style="margin-right: 8px;">
+				<a href="/pc/static/beginner/select-language/index.html" target="_self"><img src="/pc/static/img/banner/keirin_guide_L.png" style="width: 371px; height: 83px; border-radius: 5px;"></a>
+			</div>
+
+         
+       <div id="top_raceinfo" style="margin-top: 8px;">
+         <div class="contentsBox type02">
+           <h2 class="contentsTitle al-l clear-fix">開催情報
+            <span class="fl-r" style="margin-right: 15px;">
+             <a href="/pc/votinglist" class="uline">発売情報 <img class="iblock" alt="リンク" src="/pc/static/img/icon/ico_blue_right.png"></a>　&nbsp;
+			 <a href="/pc/raceschedule" class="uline">開催日程 <img class="iblock" alt="リンク" src="/pc/static/img/icon/ico_blue_right.png"></a>
+			</span>
+		   </h2>
+
+			<div class="tab-pane active dispoff" id="kaisaiInfo_err_div"></div>
+
+           <div class="contentsUtility clear-fix" style="padding-top: 4px; padding-bottom: 6px;" id="kaisaiInfo_div">
+             <div class="clear-fix">
+               <ul class="nav nav-tabs" style="margin-top: 5px;" id="ctabKaisai">
+                 <li><img width="5" height="16" alt="" src="/pc/static/img/spacer.png"></li>
+                 <li class="al-c " role="race_date" id="ctabYesterday"><a href="#yesterday" style="width: 120px; height: 48px; line-height: 1;" data-toggle="tab" onclick="tabKaisaiClick(1)">昨日<br>(07/08)</a></li>
+                 <li class="al-c active" role="race_date" id="ctabToday"><a href="#today" style="width: 120px; height: 48px; line-height: 1;" data-toggle="tab" onclick="tabKaisaiClick(2)">今日<br>(07/09)</a></li>
+                 <li class="al-c " role="race_date" id="ctabTomorrow"><a href="#tomorrow" style="width: 120px; height: 48px; line-height: 1;" data-toggle="tab" onclick="tabKaisaiClick(3)">明日<br>(07/10)</a></li>
+               </ul>
+               <div class="fl-r" style="width: 323px; margin-top: -48px;">
+                 <button id="cbtnHardVote" class="btn onbtn fl-l " style="width: 120px; height: 42px;" type="button" onclick="location.href='/pc/targettingvote'">決目打ち投票</button>
+                 <button class="btn onbtn fl-r" style="width: 192px; height: 42px;" type="button" onclick="btnDokantoVoteClick();" id="cbtnDokanto" disabled="disabled">
+                   <img id="cimgDokantoOnSale" class="iblock" src="/pc/static/img/icon/ico_onsale.png" style="display: none;">
+				 Dokanto! 投票</button>
+               </div>
+               <div class="tab-content" id="my-tab-content">
+
+				 <div class="tab-pane active">
+				 	<table class="top_racedetail" id="kaisaiInfoTable"><tbody><tr class="white_bg_color"><td class="col1 white_bg_color"><div><div class="kaisaichi bold" style="font-size:18px;">函館</div><div class="cyuusi"></div></div><div class="icon"><img class="rsp" src="/pc/static/img/icon/grade/ico_f1.png" alt="F1"><img src="/pc/static/img/icon/Himoku/ico_day2.png" alt="2日目">
+<img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png" alt="3"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img src="/pc/static/img/icon/ico_white.png"></div></td><td class="col2 white_bg_color"><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014417'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">山田　庸平</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014794'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">阿部　力也</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014054'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">新田　祐大</a></span><br><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015464'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">町田　太我</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015090'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">高橋　築</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('013901'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">山田　敦也</a></span></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn live " onclick="btnLiveVoteClick('T9wMz-ha1TZ640Z-S5GN5KxFOjX-EOhCNCg7xt3w4_U')">LIVE&amp;<br>投票</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn slist rsp " onclick="btnSyusouListClick('T9wMz-ha1TZ640Z-S5GN5KxFOjX-EOhCNCg7xt3w4_U')">出走表<br>一覧</button></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn ozu rsp " onclick="btnOddsClick('T9wMz-ha1TZ640Z-S5GN5KxFOjX-EOhCNCg7xt3w4_U')">オッズ</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn klist " onclick="btnResultClick('T9wMz-ha1TZ640Z-S5GN5KxFOjX-EOhCNCg7xt3w4_U')">結果<br>一覧</button></td><td class="btd pd_r0 white_bg_color"><button type="button" class="btn onbtn sisetu " onclick="btnSisetuClick('11')">施設<br>案内</button></td></tr><tr class="white_bg_color"><td class="col1 white_bg_color"><div><div class="kaisaichi bold" style="font-size:18px;">大垣</div><div class="cyuusi"></div></div><div class="icon"><img class="rsp" src="/pc/static/img/icon/grade/ico_f1.png" alt="F1"><img src="/pc/static/img/icon/Himoku/ico_day2.png" alt="2日目">
+<img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png" alt="1"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img src="/pc/static/img/icon/ico_white.png"></div></td><td class="col2 white_bg_color"><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015213'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">山崎　賢人</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014564'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">塚本　大樹</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('013894'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">園田　匠</a></span><br><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015451'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">山口　拳矢</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015248'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">森田　優弥</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015116'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">池野　健太</a></span></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn live " onclick="btnLiveVoteClick('M55-TiOKRgzcmeiQ08HxleUViqDMBgju7Wb7Rs57L8M')">LIVE&amp;<br>投票</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn slist rsp " onclick="btnSyusouListClick('M55-TiOKRgzcmeiQ08HxleUViqDMBgju7Wb7Rs57L8M')">出走表<br>一覧</button></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn ozu rsp " onclick="btnOddsClick('M55-TiOKRgzcmeiQ08HxleUViqDMBgju7Wb7Rs57L8M')">オッズ</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn klist " onclick="btnResultClick('M55-TiOKRgzcmeiQ08HxleUViqDMBgju7Wb7Rs57L8M')">結果<br>一覧</button></td><td class="btd pd_r0 white_bg_color"><button type="button" class="btn onbtn sisetu " onclick="btnSisetuClick('44')">施設<br>案内</button></td></tr><tr class="dokanto_color"><td class="col1 dokanto_color"><div><div class="kaisaichi bold" style="font-size:18px;">防府</div><div class="cyuusi"></div></div><div class="icon"><img class="rsp" src="/pc/static/img/icon/grade/ico_f1.png" alt="F1"><img src="/pc/static/img/icon/Himoku/ico_fday.png" alt="最終日">
+<img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png" alt="1"><img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png" alt="01"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img src="/pc/static/img/icon/ico_white.png"></div></td><td class="col2 dokanto_color"><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014524'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">松谷　秀幸</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015356'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">杉浦　侑吾</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014097'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">稲川　翔</a></span><br><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('013355'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">桑原　大志</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015815'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png" alt="S級">栗山　和樹</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015202'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">今野　大輔</a></span></td><td class="btd pd_l0 dokanto_color"><button type="button" class="btn onbtn live " onclick="btnLiveVoteClick('cT5PUT3R6DvBoJ7bLhzW2y-hre_R8aRhw0sxmhhkZUo')">LIVE&amp;<br>投票</button></td><td class="btd dokanto_color"><button type="button" class="btn onbtn slist rsp " onclick="btnSyusouListClick('cT5PUT3R6DvBoJ7bLhzW2y-hre_R8aRhw0sxmhhkZUo')">出走表<br>一覧</button></td><td class="btd pd_l0 dokanto_color"><button type="button" class="btn onbtn ozu rsp " onclick="btnOddsClick('cT5PUT3R6DvBoJ7bLhzW2y-hre_R8aRhw0sxmhhkZUo')">オッズ</button></td><td class="btd dokanto_color"><button type="button" class="btn onbtn klist " onclick="btnResultClick('cT5PUT3R6DvBoJ7bLhzW2y-hre_R8aRhw0sxmhhkZUo')">結果<br>一覧</button></td><td class="btd pd_r0 dokanto_color"><button type="button" class="btn onbtn sisetu " onclick="btnSisetuClick('63')">施設<br>案内</button></td></tr><tr class="white_bg_color"><td class="col1 white_bg_color"><div><div class="kaisaichi bold" style="font-size:18px;">弥彦</div><div class="cyuusi"></div></div><div class="icon"><img class="rsp" src="/pc/static/img/icon/grade/ico_f2.png" alt="F2"><img src="/pc/static/img/icon/Himoku/ico_fday.png" alt="最終日">
+<img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png" alt="5"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img src="/pc/static/img/icon/ico_white.png"></div></td><td class="col2 white_bg_color"><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015120'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">竹内　翼</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('013242'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">尾崎　剛</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('012705'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">那須　久幸</a></span><br><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014084'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">小菅　誠</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015791'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">岡部　陸斗</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015637'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png" alt="チャレンジ">近藤　雄太</a></span></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn live " onclick="btnLiveVoteClick('uT3_6zZe5WhDM6pyOeBlSF2H9e87f7ko8ni_SfIAm1k')">LIVE&amp;<br>投票</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn slist rsp " onclick="btnSyusouListClick('uT3_6zZe5WhDM6pyOeBlSF2H9e87f7ko8ni_SfIAm1k')">出走表<br>一覧</button></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn ozu rsp " onclick="btnOddsClick('uT3_6zZe5WhDM6pyOeBlSF2H9e87f7ko8ni_SfIAm1k')">オッズ</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn klist disabled" onclick="btnResultClick('uT3_6zZe5WhDM6pyOeBlSF2H9e87f7ko8ni_SfIAm1k')">結果<br>一覧</button></td><td class="btd pd_r0 white_bg_color"><button type="button" class="btn onbtn sisetu " onclick="btnSisetuClick('21')">施設<br>案内</button></td></tr><tr class="white_bg_color"><td class="col1 white_bg_color"><div><div class="kaisaichi bold" style="font-size:18px;">玉野</div><div class="cyuusi"></div></div><div class="icon"><img class="rsp" src="/pc/static/img/icon/grade/ico_f2.png" alt="F2"><img src="/pc/static/img/icon/Himoku/ico_fday.png" alt="最終日">
+<img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png" alt="5"><img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png" alt="02"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img src="/pc/static/img/icon/ico_white.png"></div></td><td class="col2 white_bg_color"><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014263'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">樫山　恭柄</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015276'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">佐伯　亮輔</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015625'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">真鍋　顕汰</a></span><br><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015010'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">吉川　嘉斗</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015734'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">岡崎　陸登</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015070'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_girls_top.png" alt="ガールズ">尾崎　睦</a></span></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn live " onclick="btnLiveVoteClick('v3GkGBnzcJwx-zPUFdtwmaj1fXMnzpNdDN_AFU1TJww')">LIVE&amp;<br>投票</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn slist rsp " onclick="btnSyusouListClick('v3GkGBnzcJwx-zPUFdtwmaj1fXMnzpNdDN_AFU1TJww')">出走表<br>一覧</button></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn ozu rsp " onclick="btnOddsClick('v3GkGBnzcJwx-zPUFdtwmaj1fXMnzpNdDN_AFU1TJww')">オッズ</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn klist disabled" onclick="btnResultClick('v3GkGBnzcJwx-zPUFdtwmaj1fXMnzpNdDN_AFU1TJww')">結果<br>一覧</button></td><td class="btd pd_r0 white_bg_color"><button type="button" class="btn onbtn sisetu " onclick="btnSisetuClick('61')">施設<br>案内</button></td></tr><tr class="white_bg_color"><td class="col1 white_bg_color"><div><div class="kaisaichi bold" style="font-size:18px;">広島</div><div class="cyuusi"></div></div><div class="icon"><img class="rsp" src="/pc/static/img/icon/grade/ico_f2.png" alt="F2"><img src="/pc/static/img/icon/Himoku/ico_day2.png" alt="2日目">
+<img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png" alt="8"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img src="/pc/static/img/icon/ico_white.png"></div></td><td class="col2 white_bg_color"><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015000'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png" alt="チャレンジ">藤井　準也</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('013131'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png" alt="チャレンジ">藤野　一良</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014046'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png" alt="チャレンジ">秋山　貴宏</a></span><br><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('012946'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png" alt="チャレンジ">亀井　雅斗</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('013551'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png" alt="チャレンジ">女屋　文伸</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015110'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png" alt="チャレンジ">小出　慎也</a></span></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn live " onclick="btnLiveVoteClick('Ozpk-eumfo_0DwX9fHqEYQ4m0aibXwlXvLPB0VbsNE8')">LIVE&amp;<br>投票</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn slist rsp " onclick="btnSyusouListClick('Ozpk-eumfo_0DwX9fHqEYQ4m0aibXwlXvLPB0VbsNE8')">出走表<br>一覧</button></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn ozu rsp " onclick="btnOddsClick('Ozpk-eumfo_0DwX9fHqEYQ4m0aibXwlXvLPB0VbsNE8')">オッズ</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn klist " onclick="btnResultClick('Ozpk-eumfo_0DwX9fHqEYQ4m0aibXwlXvLPB0VbsNE8')">結果<br>一覧</button></td><td class="btd pd_r0 white_bg_color"><button type="button" class="btn onbtn sisetu " onclick="btnSisetuClick('62')">施設<br>案内</button></td></tr><tr class="white_bg_color"><td class="col1 white_bg_color"><div><div class="kaisaichi bold" style="font-size:18px;">久留米</div><div class="cyuusi"></div></div><div class="icon"><img class="rsp" src="/pc/static/img/icon/grade/ico_f2.png" alt="F2"><img src="/pc/static/img/icon/Himoku/ico_fday.png" alt="最終日">
+<img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png" alt="3"><img class="rsp" src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png" alt="02"><img class="rsp" src="/pc/static/img/icon/ico_white.png"><img src="/pc/static/img/icon/ico_white.png"></div></td><td class="col2 white_bg_color"><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014590'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">近藤　夏樹</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015545'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">橋本　凌汰</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014326'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">福島　栄一</a></span><br><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('015751'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png" alt="A級">半田　誠</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014265'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png" alt="チャレンジ">松永　真太</a></span><span class="kaisaiInfo-syuyo"><a onclick="syuyoSensyuClick('014974'); return false;" href=""><img class="classTeamIconSize" src="/pc/static/img/icon/ClassTeam/ico_girls_top.png" alt="ガールズ">山原さくら</a></span></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn live " onclick="btnLiveVoteClick('1-mDn3P5FXuZU5C-JbtnIPaMz_Wm-wlHgc6eedH3A5M')">LIVE&amp;<br>投票</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn slist rsp " onclick="btnSyusouListClick('1-mDn3P5FXuZU5C-JbtnIPaMz_Wm-wlHgc6eedH3A5M')">出走表<br>一覧</button></td><td class="btd pd_l0 white_bg_color"><button type="button" class="btn onbtn ozu rsp " onclick="btnOddsClick('1-mDn3P5FXuZU5C-JbtnIPaMz_Wm-wlHgc6eedH3A5M')">オッズ</button></td><td class="btd white_bg_color"><button type="button" class="btn onbtn klist " onclick="btnResultClick('1-mDn3P5FXuZU5C-JbtnIPaMz_Wm-wlHgc6eedH3A5M')">結果<br>一覧</button></td><td class="btd pd_r0 white_bg_color"><button type="button" class="btn onbtn sisetu " onclick="btnSisetuClick('83')">施設<br>案内</button></td></tr></tbody></table>
+				 </div>
+
+                   
+                   <table class="top_raceicon1">
+                     <tbody>
+                       <tr id="trLegend">
+                         <td><img alt="モーニング" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png"> モーニング</td>
+                         <td><img alt="サマータイム" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_2.png"> サマータイム</td>
+                         <td><img alt="ナイター" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png"> ナイター</td>
+                         <td><img alt="ミッドナイト" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png"> ミッドナイト</td>
+                         <td></td>
+                         <td></td>
+                       </tr>
+                       <tr id="trLegendNextDay" class="dispoff">
+                         <td><img alt="前日発売" src="/pc/static/img/icon/Himoku/ico_yday.png"> 前日発売</td>
+                         <td><img alt="モーニング" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png"> モーニング</td>
+                         <td><img alt="サマータイム" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_2.png"> サマータイム</td>
+                         <td><img alt="ナイター" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png"> ナイター</td>
+                         <td><img alt="ミッドナイト" src="/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png"> ミッドナイト</td>
+                         <td></td>
+                       </tr>
+                       <tr>
+                         <td><img alt="Dokanto!発売" src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png"> Dokanto!発売</td>
+                         <td><img alt="ガールズ" src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png"> ガールズ</td>
+                         <td><img alt="短期登録" src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_03.png"> 短期登録</td>
+                         <td><img alt="単発レース" src="/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_04.png"> 単発レース</td>
+                         <td><img alt="一押し・好相性" src="/pc/static/img/icon/AdditionalInformationIcon/ico_push.png"> 一押し・好相性</td>
+                       </tr>
+                     </tbody>
+                   </table>
+                   <table class="top_raceicon2">
+                   <tbody>
+                     <tr>
+                       <td><img class="classTeamIconSize" alt="S級" src="/pc/static/img/icon/ClassTeam/ico_sq_top.png"> S級</td>
+                       <td><img class="classTeamIconSize" alt="A級" src="/pc/static/img/icon/ClassTeam/ico_aq_top.png"> A級</td>
+                       <td><img class="classTeamIconSize" alt="チャレンジ" src="/pc/static/img/icon/ClassTeam/ico_challenge_top.png"> チャレンジ</td>
+                       <td><img class="classTeamIconSize" alt="ガールズ" src="/pc/static/img/icon/ClassTeam/ico_girls_top.png"> ガールズ</td>
+                       <td><img class="classTeamIconSize" alt="単発" src="/pc/static/img/icon/ClassTeam/ico_tanpatsu_top.png"> 単発</td>
+                       <td style="width: auto;"></td>
+                     </tr>
+                   </tbody>
+                 </table>
+
+                 <table class="top_raceicon3 dispon">
+                   <tbody>
+                     <tr>
+                       <td style="background-color: rgb(240, 240, 240);">開催背景色</td>
+                       <td class="grade_gp_bg_color">GP</td>
+                       <td class="grade_g1_bg_color">G1</td>
+                       <td class="grade_g2_bg_color">G2</td>
+                       <td class="grade_g3_bg_color">G3</td>
+                       <td class="dokanto_color">Dokanto!</td>
+                     </tr>
+                   </tbody>
+                 </table>
+               </div>
+             </div>
+           </div>
+         </div>
+
+         
+         <div id="top_topics" class="row">
+           <div class="col-md-6" style="padding-right: 10px; padding-left: 0px;">
+             <div class="contentsBox type01" id="ktopic_list" style="height: 1363px;">
+               <h2 class="contentsTitle al-l clear-fix">競輪トピックス
+                <span class="fl-r" style="margin-right: 10px;">
+                  <a href="/pc/topicslist" class="uline">一覧 <img class="iblock" alt="リンク" src="/pc/static/img/icon/ico_blue_right.png"></a></span>							 
+               </h2>
+               
+	           <div class="dispoff" id="topics_err_div"></div>
+               <div id="topics_div">
+	               <div class="contentsUtility clear-fix"><select id="bccmbCategory" name="bccmbCategory" class="fl-r" size="1">	<option value="" selected="selected">カテゴリで絞り込む</option>
+	<option value="01">お知らせ</option>
+	<option value="11">レース情報</option>
+	<option value="12">制度</option>
+	<option value="14">選手</option>
+	<option value="15">選手養成所</option>
+	<option value="16">投票関係</option>
+	<option value="17">自転車競技</option>
+	<option value="18">メディア</option>
+	<option value="19">特集ページ</option>
+	<option value="20">月刊競輪</option>
+	<option value="21">250競走</option>
+</select>
+	               </div>
+	
+	               <div class="topicsList" id="bcdivTopicsList"><ul><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/06/10</span></p><div class="icon-color fl-r icon-color info">お知らせ</div></div><p class="listTitle"><a href="https://keirin.jp/pc/dfw/portal/guest/news/2026khn/06/pdf/20260610.pdf" target="_blank">ファンの皆様に対するお願いについて</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/01/22</span></p><div class="icon-color fl-r icon-color info">お知らせ</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=18134" target="_self">【お知らせ】ライブ映像の再生不具合（Android）について</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/01</span></p><div class="icon-color fl-r icon-color tohyo">投票関係</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=5724" target="_self">KEIRIN.JPインターネット・電話投票会員（CTC会員）募集中!!</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color tohyo">投票関係</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=18982" target="_self">競輪ネットバンクサービス（KNB）からのお知らせ　令和8年7月一括精算日</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/08</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color info">月刊競輪</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=18981" target="_self">【月刊競輪WEB】サマーナイトフェスティバル注目選手など新着記事配信中！</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/07</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color tohyo">投票関係</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=18979" target="_self">「Dokanto！4two」に的中者が出ました！！ </a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/06</span></p><div class="icon-color fl-r icon-color race">レース情報</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=18978" target="_self">サマーナイトフェスティバル（GII）テレビ放送予定及びイベント・ファンサービス</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/05</span></p><div class="icon-color fl-r icon-color race">レース情報</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=18973" target="_self">【プロスポーツ号外版】前橋競輪「まえばし七夕賞」GIIIの主力・注目選手</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2025/10/02</span></p><div class="icon-color fl-r icon-color info">お知らせ</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=17563" target="_self">インターネットによる競輪の投票は、正規のサイトをご利用ください。</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2025/07/03</span></p><div class="icon-color fl-r icon-color info">お知らせ</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=17148" target="_self">会員本人様以外による車券購入の禁止について</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2024/08/27</span></p><div class="icon-color fl-r icon-color info">お知らせ</div></div><p class="listTitle"><a href="/pc/dfw/portal/guest/news/2024khn/08/pdf/20240827.pdf" target="_blank">特定商取引法に基づく表示</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/03/11</span></p><div class="icon-color fl-r icon-color info">お知らせ</div></div><p class="listTitle"><a href="/pc/topicsdetail?&amp;nnum=157" target="_self">車券の購入は20歳になってから。競輪は適度に楽しみましょう。</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2019/06/07</span></p><div class="icon-color fl-r icon-color info">お知らせ</div></div><p class="listTitle"><a href="http://www.nta.go.jp/publication/pamph/shotoku/kakuteishinkokukankei/koueikyougi/index.htm" target="_blank">公営競技の払戻金の支払を受けた方へ</a></p></li></ul></div>
+	           </div>
+             </div>
+			</div>
+
+           <div class="col-md-6" style="padding-right: 0px; padding-left: 5px;">
+             <div class="contentsBox type01" id="kosirase_list" style="height: 1363px;">
+               <h2 class="contentsTitle al-l clear-fix">競輪場・場外車券売場からのお知らせ
+				<span class="fl-r" style="margin-right: 10px;">
+				  <a href="/pc/rmationlist" class="uline">一覧 <img class="iblock" alt="リンク" src="/pc/static/img/icon/ico_blue_right.png"></a>
+                 </span></h2>
+                 
+           			<div class="dispoff" id="oshirase_err_div"></div>
+               		<div id="oshirase_div">
+                 
+		               <div class="contentsUtility clear-fix"><select id="bccmbTiku" name="bccmbTiku" class="fl-r" size="1">	<option value="" selected="selected">地区で絞り込む</option>
+	<option value="1">北日本</option>
+	<option value="2">関　東</option>
+	<option value="3">南関東</option>
+	<option value="4">中　部</option>
+	<option value="5">近　畿</option>
+	<option value="6">中　国</option>
+	<option value="7">四　国</option>
+	<option value="8">九　州</option>
+</select>
+		               </div>
+		               <div class="topicsList" id="bcdivNoticeList"><ul><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color kanto">関　東</div><div class="icon-color fl-r icon-color kanto">前　橋</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=18977" target="_self">【前橋競輪】まえばし七夕賞・CTC杯　GIII　キャンペーンのお知らせ！</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color kanto">関　東</div><div class="icon-color fl-r icon-color kanto">前　橋</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=17570" target="_self">『前橋競輪場　まえばし七夕賞・ＣＴＣ杯』イー新聞特設サイト 前検日情報更新中！</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color chubu">中　部</div><div class="icon-color fl-r icon-color chubu">名古屋</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=18944" target="_self">【名古屋競輪】豊臣秀長ミッドナイト　開催情報＆視聴者プレゼント</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color chubu">中　部</div><div class="icon-color fl-r icon-color chubu">名古屋</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=18945" target="_self">【名古屋競輪】金シャチ５　ｉｎ　Ｍｉｄｎｉｇｈｔやります！！★金シャチ５★</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color chubu">中　部</div><div class="icon-color fl-r icon-color chubu">松　阪</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=18984" target="_self">【松阪けいりん】1=2いい肉キャンペーン</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color minamikanto">南関東</div><div class="icon-color fl-r icon-color minamikanto">小田原</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=18942" target="_self">【小田原競輪】M・おトクにPLAY！OP杯(FII)7/10(金)～12(日)</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color kitanihon">北日本</div><div class="icon-color fl-r icon-color kitanihon">　平　</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=18933" target="_self">【いわき平競輪】電話・インターネット投票会員様ご愛顧キャンペーン！</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color kitanihon">北日本</div><div class="icon-color fl-r icon-color kitanihon">　平　</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=18934" target="_self">【いわき平競輪】インターネット番組「モギたて！いわき平けいりん」のお知らせ</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color kanto">関　東</div><div class="icon-color fl-r icon-color kanto">取　手</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=18983" target="_self">【取手競輪】「チャリロト杯」F2モーニング(7/15～17)視聴者プレゼント！！</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color chugoku">中　国</div><div class="icon-color fl-r icon-color chugoku">防　府</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=7868" target="_self">【防府競輪】最終日☆競輪専門紙リズム【全レース】をホームページで配信中！</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color chugoku">中　国</div><div class="icon-color fl-r icon-color chugoku">防　府</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=7869" target="_self">【防府競輪】最終日☆優勝者当てクイズ☆～豪華景品が当たるチャンス！！～</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/09</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color chugoku">中　国</div><div class="icon-color fl-r icon-color chugoku">広　島</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=18975" target="_self">【広島競輪】『ヴィクトワール広島杯/前検日コメならウィンチケット杯』開催2日目！</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/08</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color chugoku">中　国</div><div class="icon-color fl-r icon-color chugoku">玉　野</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=7655" target="_self">『玉野競輪 前検日コメならウィンチケット杯』イー新聞特設サイト二日目情報更新中！</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/08</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color kanto">関　東</div><div class="icon-color fl-r icon-color kanto">弥　彦</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=14056" target="_self">【弥彦競輪】競輪投票サービスBetimo杯（7/７~９）ネットLIVE配信</a></p></li><li><div class="clear-fix"><p class="fl-l"><span class="date">2026/07/08</span><span style="vertical-align:top;margin-top:4px" class="icon-color new">New</span></p><div class="icon-color fl-r icon-color kanto">関　東</div><div class="icon-color fl-r icon-color kanto">弥　彦</div></div><p class="listTitle"><a href="/pc/rmationdetail?&amp;nnum=13900" target="_self">【弥彦競輪】競輪投票サービスBetimo杯（７/７~９）イー新聞特設サイト開設</a></p></li></ul></div>
+             		</div>
+             </div>
+			</div>
+         </div>
+         </div>
+     </div>
+	
+	
+
+     <div class="col3_lay_B">
+         <div class="contentsBox type06">
+           <h2 class="contentsTitle clear-fix al-l">キャンペーンバナー</h2>
+           <div class="bannerSlider" style="margin-top: 15px; margin-bottom: 10px; height:55px;">
+
+			<ul class="flex-direction-nav">
+				<li class="flex-nav-prev" id="slick-prev" style="display: list-item;">
+					<a href="#">＜</a>
+				</li>
+				<li class="flex-nav-next" id="slick-next" style="display: list-item;">
+					<a href="#">＞</a>
+				</li>
+			</ul>
+
+			<div class="slide-items4 slick-initialized slick-slider">
+			   	<div aria-live="polite" class="slick-list draggable" tabindex="0"><div class="slick-track" style="opacity: 1; width: 5673px; transform: translate3d(-2013px, 0px, 0px); transition: transform 450ms;"><div class="slick-slide slick-cloned" data-slick-index="-6" aria-hidden="true" style="width: 183px;"><a href="http://keirin.jp/pc/dfw/portal/guest/campaign/navi/k_navi.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20210805144646573_nabi.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="-5" aria-hidden="true" style="width: 183px;"><a href="https://keirin-marche.jp/keirinadvance/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20250401092314582_advance_campaign.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" style="width: 183px;"><a href="https://ctc.gr.jp/enjoy10/#target/page_no=1" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20210409175054692_c_enjoy.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 183px;"><a href="https://keirin-web.com/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20220407150840581_gekkan_keirin_175-45_url.png"></a></div><div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 183px;"><a href="https://ctc.gr.jp/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20231218125401467_ctc_banner.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 183px;"><a href="https://keirincyclist-fc.jp/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20190712113612576_sensyukai_FC_175_45.jpg"></a></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" style="width: 183px;"><a href="https://graderace.com/outlook/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20230512182437964_keirin_175_45px-001.jpg"></a></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 183px;"><a href="https://www.jka-cycle.jp" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20200116152515247_20200116_hojo.png"></a></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 183px;"><a href="http://keirin.jp/pc/dfw/portal/guest/ml/index.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/merumaga.jpg"></a></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" style="width: 183px;"><a href="https://www.speedchannel.co.jp/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/SPEEDchanel.jpg"></a></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" style="width: 183px;"><a href="http://keirin.jp/pc/dfw/portal/guest/link/senmonshi.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/senmonnshi.jpg"></a></div><div class="slick-slide slick-active" data-slick-index="5" aria-hidden="false" style="width: 183px;"><a href="http://keirin.jp/pc/dfw/portal/guest/campaign/morning/index.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/monig.jpg"></a></div><div class="slick-slide slick-active" data-slick-index="6" aria-hidden="false" style="width: 183px;"><a href="http://keirin.jp/pc/dfw/portal/guest/campaign/midnight_keirin/index.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/midnight_baner.png"></a></div><div class="slick-slide slick-active" data-slick-index="7" aria-hidden="false" style="width: 183px;"><a href="https://keirin.jp/pc/dfw/portal/guest/campaign/g3planningrace/index.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20200123172140145_bunner_cmp.gif"></a></div><div class="slick-slide slick-active" data-slick-index="8" aria-hidden="false" style="width: 183px;"><a href="https://www.keirin-recruit.jp/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20260305175012889_saiyou_campaign.jpg"></a></div><div class="slick-slide slick-active" data-slick-index="9" aria-hidden="false" style="width: 183px;"><a href="http://keirin-marche.jp/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20180713124101305_bnr_marche2.jpg"></a></div><div class="slick-slide slick-active" data-slick-index="10" aria-hidden="false" style="width: 183px;"><a href="https://keirin-rookies.jp" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20200509094223854_rookies_camp.jpg"></a></div><div class="slick-slide" data-slick-index="11" aria-hidden="true" style="width: 183px;"><a href="http://morecadence.jp" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/banner-morecadence.jpg"></a></div><div class="slick-slide" data-slick-index="12" aria-hidden="true" style="width: 183px;"><a href="http://keirin.jp/pc/static/help/PX0426.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/KNB.jpg"></a></div><div class="slick-slide" data-slick-index="13" aria-hidden="true" style="width: 183px;"><a href="http://keirin.jp/pc/dfw/portal/guest/campaign/navi/k_navi.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20210805144646573_nabi.jpg"></a></div><div class="slick-slide" data-slick-index="14" aria-hidden="true" style="width: 183px;"><a href="https://keirin-marche.jp/keirinadvance/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20250401092314582_advance_campaign.jpg"></a></div><div class="slick-slide" data-slick-index="15" aria-hidden="true" style="width: 183px;"><a href="https://ctc.gr.jp/enjoy10/#target/page_no=1" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20210409175054692_c_enjoy.jpg"></a></div><div class="slick-slide" data-slick-index="16" aria-hidden="true" style="width: 183px;"><a href="https://keirin-web.com/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20220407150840581_gekkan_keirin_175-45_url.png"></a></div><div class="slick-slide" data-slick-index="17" aria-hidden="true" style="width: 183px;"><a href="https://ctc.gr.jp/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20231218125401467_ctc_banner.jpg"></a></div><div class="slick-slide" data-slick-index="18" aria-hidden="true" style="width: 183px;"><a href="https://keirincyclist-fc.jp/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20190712113612576_sensyukai_FC_175_45.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="19" aria-hidden="true" style="width: 183px;"><a href="https://graderace.com/outlook/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20230512182437964_keirin_175_45px-001.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="20" aria-hidden="true" style="width: 183px;"><a href="https://www.jka-cycle.jp" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/20200116152515247_20200116_hojo.png"></a></div><div class="slick-slide slick-cloned" data-slick-index="21" aria-hidden="true" style="width: 183px;"><a href="http://keirin.jp/pc/dfw/portal/guest/ml/index.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/merumaga.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="22" aria-hidden="true" style="width: 183px;"><a href="https://www.speedchannel.co.jp/" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/SPEEDchanel.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="23" aria-hidden="true" style="width: 183px;"><a href="http://keirin.jp/pc/dfw/portal/guest/link/senmonshi.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/senmonnshi.jpg"></a></div><div class="slick-slide slick-cloned" data-slick-index="24" aria-hidden="true" style="width: 183px;"><a href="http://keirin.jp/pc/dfw/portal/guest/campaign/morning/index.html" target="_blank"><img src="/pc/dfw/portal/picture/banner/0/monig.jpg"></a></div></div></div>
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			   	
+			</div>
+           </div>
+         </div>
+     </div><div lang="ja" xmlns="http://www.w3.org/1999/xhtml"> 
+   <div class="al-r clear-fix toppageto" id="shbtnTop"><img id="shLinkTopOfPage" onclick="window.location.href=&quot;#top&quot;" alt="ページトップへ" src="/pc/static/img/icon/totop.png" style="cursor:pointer">
+   </div>
+   <div class="al-r clear-fix toppageto" id="shbtnTopoff" style="height: 20px;"></div>
+
+   <footer class="footer">
+     <div class="container clear-fix">
+     <a target="_blank" role="button" id="sfLinkGuideandHelp" jname="操作ガイド/ヘルプ" onclick="sfLinkClick(0)">操作ガイド/ヘルプ</a> |
+     <a role="button" id="sfLinkinquiry" jname="お問い合わせ" onclick="sfLinkClick(1)">お問い合わせ</a><input id="sfHdnLink_1" type="hidden" name="sfHdnLink_1" value="/pc/dfw/portal/guest/site/otoiawase.html"> |
+<noscript>
+     <a role="button" id="sfLinkUseenvironment" jname="お客様利用環境表示" href="/pc/userenvironment">お客様利用環境表示</a>
+</noscript>
+<script>
+//<![CDATA[
+	var htmltxt = '<a role="button" id="sfLinkUseenvironment"  jname="お客様利用環境表示" onclick="sfLinkClick(2)" >お客様利用環境表示</a>';
+     document.write(htmltxt);
+//]]>
+</script><a role="button" id="sfLinkUseenvironment" jname="お客様利用環境表示" onclick="sfLinkClick(2)">お客様利用環境表示</a><input id="sfHdnLink_2" type="hidden" name="sfHdnLink_2" value="/pc/userenvironment"> |      
+     <a role="button" id="sfLinkSiteMap" jname="サイトマップ" onclick="sfLinkClick(3)">サイトマップ</a><input id="sfHdnLink_3" type="hidden" name="sfHdnLink_3" value="/pc/dfw/portal/guest/sitemap/index.html"> |
+     <a role="button" id="sfLinkSitePolicy" jname="サイトポリシー" onclick="sfLinkClick(4)">サイトポリシー</a><input id="sfHdnLink_4" type="hidden" name="sfHdnLink_4" value="/pc/dfw/portal/guest/policy/index.html"> |
+     <a role="button" id="sfLinkSumahoSite" jname="スマホサイト" onclick="sfLinkClick(5)">スマホサイト</a><input id="sfHdnLink_5" type="hidden" name="sfHdnLink_5" value="https://keirin.jp/sp/top">    
+       <div class="fl-r copyright">COPYRIGHT JKA. ALL RIGHTS  RESERVED.</div>
+     </div><input id="sfHelpLink" type="hidden" name="sfHelpLink" value="https://keirin.jp/pc/static/help/PU0101.html">   
+   </footer>
+<script>
+	sfLoadingFinalize();
+//<![CDATA[
+    var anaxhr = new XMLHttpRequest();
+    var anaURL = location.protocol + '//' + location.host + '/pc' + '/ana';
+    anaxhr.open("GET", anaURL);
+    anaxhr.setRequestHeader("X-KEIRINJP-ANA-SCREEN", screen.width+"x"+screen.height);
+    anaxhr.setRequestHeader("X-KEIRINJP-ANA-URI", window.location.href);
+    if("anaJsonType" in window){
+      anaxhr.setRequestHeader("X-KEIRINJP-ANA-JSONTYPE", anaJsonType);
+    }
+    anaxhr.send();
+   
+//]]>
+</script>
+</div>
+	
+   </div>
+
+    <input id="todayDate" type="hidden" name="todayDate" value="20260709"><input id="nextDate" type="hidden" name="nextDate" value="20260710"><input id="prevDate" type="hidden" name="prevDate" value="20260708"><input id="profileURL" type="hidden" name="profileURL" value="/pc/racerprofile"><input id="raceBasicInfoURL" type="hidden" name="raceBasicInfoURL" value="/pc/racelive"><input id="syusoListURL" type="hidden" name="syusoListURL" value="/pc/racelist"><input id="sisetuURL" type="hidden" name="sisetuURL" value="/pc/jyoguide"><input id="sensyuserchURL" type="hidden" name="sensyuserchURL" value="/pc/search#pointSensyuSearch"><input id="dokantoVoteURL" type="hidden" name="dokantoVoteURL" value="/pc/dokantovoteinput"><input id="dspBtnG3BannerFlag" type="hidden" name="dspBtnG3BannerFlag" value="true">
+
+	<script type="text/javascript">
+		var CONTEXT_PATH = '/pc';
+		var CMS_PATH = '/pc/dfw/portal/picture/';
+		var jsonData = {};
+		jsonData['JSJ057'] = {"kInfo":[{"jyoName":"函館","zenjituFlg":0,"gradeIcon":"/pc/static/img/icon/grade/ico_f1.png","gradeIconChar":"F1","nitijiIcon":"/pc/static/img/icon/Himoku/ico_day2.png","nitijiIconChar":"2日目","kaisaiIcon":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png","kaisaiIconChar":"3","bgColor":"white_bg_color","encPrm":"T9wMz-ha1TZ640Z-S5GN5KxFOjX-EOhCNCg7xt3w4_U","bKeirinCd":"11","KeirinCd":"11","btnFlgLive":1,"btnFlgOdds":1,"btnFlgResult":1,"btnFlgDokanto":0,"btnFlgLiveDelivery":1,"sensyuList":[{"sensyuName":"山田　庸平","sensyuNo":"014417","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"阿部　力也","sensyuNo":"014794","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"新田　祐大","sensyuNo":"014054","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"町田　太我","sensyuNo":"015464","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"高橋　築","sensyuNo":"015090","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"山田　敦也","sensyuNo":"013901","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"}]},{"jyoName":"大垣","zenjituFlg":0,"gradeIcon":"/pc/static/img/icon/grade/ico_f1.png","gradeIconChar":"F1","nitijiIcon":"/pc/static/img/icon/Himoku/ico_day2.png","nitijiIconChar":"2日目","kaisaiIcon":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","kaisaiIconChar":"1","bgColor":"white_bg_color","encPrm":"M55-TiOKRgzcmeiQ08HxleUViqDMBgju7Wb7Rs57L8M","bKeirinCd":"44","KeirinCd":"44","btnFlgLive":1,"btnFlgOdds":1,"btnFlgResult":1,"btnFlgDokanto":0,"btnFlgLiveDelivery":1,"sensyuList":[{"sensyuName":"山崎　賢人","sensyuNo":"015213","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"塚本　大樹","sensyuNo":"014564","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"園田　匠","sensyuNo":"013894","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"山口　拳矢","sensyuNo":"015451","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"森田　優弥","sensyuNo":"015248","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"池野　健太","sensyuNo":"015116","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"}]},{"jyoName":"防府","zenjituFlg":0,"gradeIcon":"/pc/static/img/icon/grade/ico_f1.png","gradeIconChar":"F1","nitijiIcon":"/pc/static/img/icon/Himoku/ico_fday.png","nitijiIconChar":"最終日","kaisaiIcon":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","kaisaiIconChar":"1","huka1Icon":"/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png","huka1IconChar":"01","bgColor":"dokanto_color","encPrm":"cT5PUT3R6DvBoJ7bLhzW2y-hre_R8aRhw0sxmhhkZUo","bKeirinCd":"63","KeirinCd":"63","btnFlgLive":1,"btnFlgOdds":1,"btnFlgResult":1,"btnFlgDokanto":0,"btnFlgLiveDelivery":1,"sensyuList":[{"sensyuName":"松谷　秀幸","sensyuNo":"014524","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"杉浦　侑吾","sensyuNo":"015356","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"稲川　翔","sensyuNo":"014097","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"桑原　大志","sensyuNo":"013355","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"栗山　和樹","sensyuNo":"015815","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_sq_top.png","sensyuIconChar":"S級"},{"sensyuName":"今野　大輔","sensyuNo":"015202","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"}]},{"jyoName":"弥彦","zenjituFlg":0,"gradeIcon":"/pc/static/img/icon/grade/ico_f2.png","gradeIconChar":"F2","nitijiIcon":"/pc/static/img/icon/Himoku/ico_fday.png","nitijiIconChar":"最終日","kaisaiIcon":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png","kaisaiIconChar":"5","bgColor":"white_bg_color","encPrm":"uT3_6zZe5WhDM6pyOeBlSF2H9e87f7ko8ni_SfIAm1k","bKeirinCd":"21","KeirinCd":"21","btnFlgLive":1,"btnFlgOdds":1,"btnFlgResult":0,"btnFlgDokanto":0,"btnFlgLiveDelivery":0,"sensyuList":[{"sensyuName":"竹内　翼","sensyuNo":"015120","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"尾崎　剛","sensyuNo":"013242","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"那須　久幸","sensyuNo":"012705","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"小菅　誠","sensyuNo":"014084","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"岡部　陸斗","sensyuNo":"015791","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"近藤　雄太","sensyuNo":"015637","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_challenge_top.png","sensyuIconChar":"チャレンジ"}]},{"jyoName":"玉野","zenjituFlg":0,"gradeIcon":"/pc/static/img/icon/grade/ico_f2.png","gradeIconChar":"F2","nitijiIcon":"/pc/static/img/icon/Himoku/ico_fday.png","nitijiIconChar":"最終日","kaisaiIcon":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png","kaisaiIconChar":"5","huka1Icon":"/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png","huka1IconChar":"02","bgColor":"white_bg_color","encPrm":"v3GkGBnzcJwx-zPUFdtwmaj1fXMnzpNdDN_AFU1TJww","bKeirinCd":"61","KeirinCd":"61","btnFlgLive":1,"btnFlgOdds":1,"btnFlgResult":0,"btnFlgDokanto":0,"btnFlgLiveDelivery":0,"sensyuList":[{"sensyuName":"樫山　恭柄","sensyuNo":"014263","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"佐伯　亮輔","sensyuNo":"015276","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"真鍋　顕汰","sensyuNo":"015625","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"吉川　嘉斗","sensyuNo":"015010","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"岡崎　陸登","sensyuNo":"015734","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"尾崎　睦","sensyuNo":"015070","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_girls_top.png","sensyuIconChar":"ガールズ"}]},{"jyoName":"広島","zenjituFlg":0,"gradeIcon":"/pc/static/img/icon/grade/ico_f2.png","gradeIconChar":"F2","nitijiIcon":"/pc/static/img/icon/Himoku/ico_day2.png","nitijiIconChar":"2日目","kaisaiIcon":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png","kaisaiIconChar":"8","bgColor":"white_bg_color","encPrm":"Ozpk-eumfo_0DwX9fHqEYQ4m0aibXwlXvLPB0VbsNE8","bKeirinCd":"62","KeirinCd":"62","btnFlgLive":1,"btnFlgOdds":1,"btnFlgResult":1,"btnFlgDokanto":0,"btnFlgLiveDelivery":0,"sensyuList":[{"sensyuName":"藤井　準也","sensyuNo":"015000","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_challenge_top.png","sensyuIconChar":"チャレンジ"},{"sensyuName":"藤野　一良","sensyuNo":"013131","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_challenge_top.png","sensyuIconChar":"チャレンジ"},{"sensyuName":"秋山　貴宏","sensyuNo":"014046","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_challenge_top.png","sensyuIconChar":"チャレンジ"},{"sensyuName":"亀井　雅斗","sensyuNo":"012946","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_challenge_top.png","sensyuIconChar":"チャレンジ"},{"sensyuName":"女屋　文伸","sensyuNo":"013551","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_challenge_top.png","sensyuIconChar":"チャレンジ"},{"sensyuName":"小出　慎也","sensyuNo":"015110","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_challenge_top.png","sensyuIconChar":"チャレンジ"}]},{"jyoName":"久留米","zenjituFlg":0,"gradeIcon":"/pc/static/img/icon/grade/ico_f2.png","gradeIconChar":"F2","nitijiIcon":"/pc/static/img/icon/Himoku/ico_fday.png","nitijiIconChar":"最終日","kaisaiIcon":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png","kaisaiIconChar":"3","huka1Icon":"/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png","huka1IconChar":"02","bgColor":"white_bg_color","encPrm":"1-mDn3P5FXuZU5C-JbtnIPaMz_Wm-wlHgc6eedH3A5M","bKeirinCd":"83","KeirinCd":"83","btnFlgLive":1,"btnFlgOdds":1,"btnFlgResult":1,"btnFlgDokanto":0,"btnFlgLiveDelivery":1,"sensyuList":[{"sensyuName":"近藤　夏樹","sensyuNo":"014590","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"橋本　凌汰","sensyuNo":"015545","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"福島　栄一","sensyuNo":"014326","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"半田　誠","sensyuNo":"015751","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_aq_top.png","sensyuIconChar":"A級"},{"sensyuName":"松永　真太","sensyuNo":"014265","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_challenge_top.png","sensyuIconChar":"チャレンジ"},{"sensyuName":"山原さくら","sensyuNo":"014974","sensyuIcon":"/pc/static/img/icon/ClassTeam/ico_girls_top.png","sensyuIconChar":"ガールズ"}]}],"kResultCd":1,"resultCd":0,"reqprm":{"kday":"20260709"},"writeANA":false};
+		jsonData['JSJ078'] = {"tList":[{"sDate":"2026/06/10","newFlg":0,"ctgyName":"お知らせ","ctgyCls":"icon-color info","title":"ファンの皆様に対するお願いについて","lnkURL":"https://keirin.jp/pc/dfw/portal/guest/news/2026khn/06/pdf/20260610.pdf","winKbn":"1"},{"sDate":"2026/01/22","newFlg":0,"ctgyName":"お知らせ","ctgyCls":"icon-color info","title":"【お知らせ】ライブ映像の再生不具合（Android）について","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d18134","winKbn":"0"},{"sDate":"2026/07/01","newFlg":0,"ctgyName":"投票関係","ctgyCls":"icon-color tohyo","title":"KEIRIN.JPインターネット・電話投票会員（CTC会員）募集中!!","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d5724","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"ctgyName":"投票関係","ctgyCls":"icon-color tohyo","title":"競輪ネットバンクサービス（KNB）からのお知らせ　令和8年7月一括精算日","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d18982","winKbn":"0"},{"sDate":"2026/07/08","newFlg":1,"ctgyName":"月刊競輪","ctgyCls":"icon-color info","title":"【月刊競輪WEB】サマーナイトフェスティバル注目選手など新着記事配信中！","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d18981","winKbn":"0"},{"sDate":"2026/07/07","newFlg":1,"ctgyName":"投票関係","ctgyCls":"icon-color tohyo","title":"「Dokanto！4two」に的中者が出ました！！ ","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d18979","winKbn":"0"},{"sDate":"2026/07/06","newFlg":0,"ctgyName":"レース情報","ctgyCls":"icon-color race","title":"サマーナイトフェスティバル（GII）テレビ放送予定及びイベント・ファンサービス","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d18978","winKbn":"0"},{"sDate":"2026/07/05","newFlg":0,"ctgyName":"レース情報","ctgyCls":"icon-color race","title":"【プロスポーツ号外版】前橋競輪「まえばし七夕賞」GIIIの主力・注目選手","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d18973","winKbn":"0"},{"sDate":"2025/10/02","newFlg":0,"ctgyName":"お知らせ","ctgyCls":"icon-color info","title":"インターネットによる競輪の投票は、正規のサイトをご利用ください。","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d17563","winKbn":"0"},{"sDate":"2025/07/03","newFlg":0,"ctgyName":"お知らせ","ctgyCls":"icon-color info","title":"会員本人様以外による車券購入の禁止について","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d17148","winKbn":"0"},{"sDate":"2024/08/27","newFlg":0,"ctgyName":"お知らせ","ctgyCls":"icon-color info","title":"特定商取引法に基づく表示","lnkURL":"/pc/dfw/portal/guest/news/2024khn/08/pdf/20240827.pdf","winKbn":"1"},{"sDate":"2026/03/11","newFlg":0,"ctgyName":"お知らせ","ctgyCls":"icon-color info","title":"車券の購入は20歳になってから。競輪は適度に楽しみましょう。","lnkURL":"/pc/topicsdetail?\u0026amp;nnum\u003d157","winKbn":"0"},{"sDate":"2019/06/07","newFlg":0,"ctgyName":"お知らせ","ctgyCls":"icon-color info","title":"公営競技の払戻金の支払を受けた方へ","lnkURL":"http://www.nta.go.jp/publication/pamph/shotoku/kakuteishinkokukankei/koueikyougi/index.htm","winKbn":"1"}],"resultCd":0,"reqprm":{},"writeANA":false};
+		jsonData['JSJ079'] = {"oList":[{"sDate":"2026/07/09","newFlg":1,"shisetuName":"前　橋","shisetuCls":"icon-color kanto","tikuName":"関　東","tikuCls":"icon-color kanto","title":"【前橋競輪】まえばし七夕賞・CTC杯　GIII　キャンペーンのお知らせ！","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d18977","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"前　橋","shisetuCls":"icon-color kanto","tikuName":"関　東","tikuCls":"icon-color kanto","title":"『前橋競輪場　まえばし七夕賞・ＣＴＣ杯』イー新聞特設サイト 前検日情報更新中！","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d17570","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"名古屋","shisetuCls":"icon-color chubu","tikuName":"中　部","tikuCls":"icon-color chubu","title":"【名古屋競輪】豊臣秀長ミッドナイト　開催情報＆視聴者プレゼント","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d18944","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"名古屋","shisetuCls":"icon-color chubu","tikuName":"中　部","tikuCls":"icon-color chubu","title":"【名古屋競輪】金シャチ５　ｉｎ　Ｍｉｄｎｉｇｈｔやります！！★金シャチ５★","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d18945","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"松　阪","shisetuCls":"icon-color chubu","tikuName":"中　部","tikuCls":"icon-color chubu","title":"【松阪けいりん】1\u003d2いい肉キャンペーン","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d18984","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"小田原","shisetuCls":"icon-color minamikanto","tikuName":"南関東","tikuCls":"icon-color minamikanto","title":"【小田原競輪】M・おトクにPLAY！OP杯(FII)7/10(金)～12(日)","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d18942","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"　平　","shisetuCls":"icon-color kitanihon","tikuName":"北日本","tikuCls":"icon-color kitanihon","title":"【いわき平競輪】電話・インターネット投票会員様ご愛顧キャンペーン！","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d18933","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"　平　","shisetuCls":"icon-color kitanihon","tikuName":"北日本","tikuCls":"icon-color kitanihon","title":"【いわき平競輪】インターネット番組「モギたて！いわき平けいりん」のお知らせ","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d18934","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"取　手","shisetuCls":"icon-color kanto","tikuName":"関　東","tikuCls":"icon-color kanto","title":"【取手競輪】「チャリロト杯」F2モーニング(7/15～17)視聴者プレゼント！！","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d18983","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"防　府","shisetuCls":"icon-color chugoku","tikuName":"中　国","tikuCls":"icon-color chugoku","title":"【防府競輪】最終日☆競輪専門紙リズム【全レース】をホームページで配信中！","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d7868","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"防　府","shisetuCls":"icon-color chugoku","tikuName":"中　国","tikuCls":"icon-color chugoku","title":"【防府競輪】最終日☆優勝者当てクイズ☆～豪華景品が当たるチャンス！！～","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d7869","winKbn":"0"},{"sDate":"2026/07/09","newFlg":1,"shisetuName":"広　島","shisetuCls":"icon-color chugoku","tikuName":"中　国","tikuCls":"icon-color chugoku","title":"【広島競輪】『ヴィクトワール広島杯/前検日コメならウィンチケット杯』開催2日目！","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d18975","winKbn":"0"},{"sDate":"2026/07/08","newFlg":1,"shisetuName":"玉　野","shisetuCls":"icon-color chugoku","tikuName":"中　国","tikuCls":"icon-color chugoku","title":"『玉野競輪 前検日コメならウィンチケット杯』イー新聞特設サイト二日目情報更新中！","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d7655","winKbn":"0"},{"sDate":"2026/07/08","newFlg":1,"shisetuName":"弥　彦","shisetuCls":"icon-color kanto","tikuName":"関　東","tikuCls":"icon-color kanto","title":"【弥彦競輪】競輪投票サービスBetimo杯（7/７~９）ネットLIVE配信","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d14056","winKbn":"0"},{"sDate":"2026/07/08","newFlg":1,"shisetuName":"弥　彦","shisetuCls":"icon-color kanto","tikuName":"関　東","tikuCls":"icon-color kanto","title":"【弥彦競輪】競輪投票サービスBetimo杯（７/７~９）イー新聞特設サイト開設","lnkURL":"/pc/rmationdetail?\u0026amp;nnum\u003d13900","winKbn":"0"}],"resultCd":0,"reqprm":{},"writeANA":false};
+		jsonData['JSJ080'] = {};
+		jsonData['JSJ081'] = {};
+		jsonData['JSJ082'] = {"dInfo":{"nextDspFlg":1,"hatubaicyuFlg":0,"prmEnc":"cT5PUT3R6DvBoJ7bLhzW2y-hre_R8aRhw0sxmhhkZUo","kaisai":"07/10","jyoName":"前橋","gradeIcon":"/pc/static/img/icon/grade/ico_g3.png","gradeIconChar":"G3","saleTime":"07/09 18:30 発売開始","carryOverFlg":1,"reachFlg":0,"d7iconKbn":0,"d7carryOver":"1310万7750円","d7info":"","d4iconKbn":0,"d4carryOver":"68万8650円","d4info":"","btnVoteFlg":0},"dResultCd":1,"resultCd":0,"reqprm":{"kday":"20260709"},"writeANA":false};
+	</script><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front alert_dialog" tabindex="-1" role="dialog" aria-describedby="alert_dialog" aria-labelledby="ui-id-1" style="display: none;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">&nbsp;</span><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" title="Close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">Close</span></button></div><div id="alert_dialog" class="alert_dialog ui-dialog-content ui-widget-content">
+    	<div class="">
+    		<div style="margin:10px 10px 10px 10px; width:260px;">
+    			<p class="al-c">IDまたはパスワードに誤りがあります。</p>
+    			<div class="al-c" style="padding-top:10px">
+    				<button type="button" class="btn onbtn" style="width:100px;" onclick="$('#alert_dialog').dialog( 'close' );">OK</button>
+    			</div>
+    		</div>
+    	</div>
+    </div></div></body></html>

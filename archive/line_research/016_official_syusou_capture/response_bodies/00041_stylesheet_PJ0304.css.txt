@@ -1,0 +1,80 @@
+/* PJ0304_PC_�J�Ô����ē�(0220) */
+
+@charset "UTF-8";
+
+
+.tbl_header{
+	text-align:center; 
+	border: 1px solid #888888;
+}
+.td_body{
+	text-align:center; 
+	border: 1px solid #888888;
+}
+.ordinary{background-color:#FFFFFF;}
+.saturday{background-color:#D3F2FF;}
+.holiday{background-color:#FFEAFB;}
+.noplan{background-color:#FFECFF;}
+
+.soldtime{
+	color:#BB0000;
+	font-weight:bold;
+}
+
+.allday{
+	color:#18A180;
+	font-weight:bold;
+}
+
+.partday{
+	color:#FF9E0F;
+	font-weight:bold;
+}
+
+.tr_h{
+	height:32px;
+}
+
+.kht1-1 {
+	width: 430px;
+	margin-left: 20px;
+	vertical-align: top;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.kht1-2 {
+	width: 200px;
+	vertical-align: bottom;
+}
+.khtx-l {
+	text-align: left;
+}
+.khtx-r {
+	text-align: right;
+}
+.khtx-c {
+	text-align: center;
+}
+.khtbl_01{
+	padding-bottom: 10px;
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-top: 0px solid #888888;
+	border-left: 0px solid #888888;
+	font-size:16px;
+}
+
+.khtbl_01 th{
+	text-align: left;
+	vertical-align: top;
+	border-top: 0px solid #888888;
+	border-left: 0px solid #888888;
+	border-right: 0px solid #888888;
+	border-bottom: 0px solid #888888;
+}
+.khtbl_01 td{
+	border-right: 0px solid #888888;
+	border-bottom: 0px solid #888888;
+}
+

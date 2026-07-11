@@ -1,0 +1,4426 @@
+{
+  "program": "044_audit_line_predictions.py",
+  "audited_at": "2026-07-10T14:38:27.671739",
+  "source_file": "C:\\競輪AI\\data_official\\line_predictions\\043_all_venues_official_lines.json",
+  "source_race_date": "20260710",
+  "source_race_count": 80,
+  "audit_target_count": 50,
+  "ok_count": 46,
+  "warning_count": 4,
+  "issue_count": 0,
+  "competition_count": 2,
+  "summary": {
+    "prediction_types": {
+      "コマ切れ": 6,
+      "四分戦": 7,
+      "三分戦": 26,
+      "二分戦": 7,
+      "null": 4
+    },
+    "providers": {
+      "アオケイ": 13,
+      "北競新聞社": 12,
+      "ひかり": 12,
+      "中部競輪記者クラブ": 13
+    },
+    "line_counts": {
+      "2": 2,
+      "3": 28,
+      "4": 14,
+      "5": 2,
+      "7": 4
+    },
+    "line_length_patterns": {
+      "[3, 2, 2]": 14,
+      "[2, 3, 2]": 5,
+      "[2, 2, 3]": 4,
+      "[1, 1, 1, 1, 1, 1, 1]": 4,
+      "[3, 2, 2, 2]": 3,
+      "[2, 2, 2, 1]": 3,
+      "[2, 1, 2, 2]": 2,
+      "[2, 3, 1, 1]": 2,
+      "[2, 3, 2, 1, 1]": 1,
+      "[3, 1, 1, 1, 1]": 1,
+      "[3, 4]": 1,
+      "[2, 1, 1, 3]": 1,
+      "[2, 1, 3, 1]": 1,
+      "[3, 1, 2]": 1,
+      "[3, 2, 1]": 1,
+      "[4, 1, 2]": 1,
+      "[3, 1, 1, 2]": 1,
+      "[3, 2, 1, 1]": 1,
+      "[3, 3, 1]": 1,
+      "[4, 3]": 1,
+      "[3, 1, 3]": 1
+    },
+    "type_by_line_count": {
+      "コマ切れ": {
+        "5": 2,
+        "4": 4
+      },
+      "四分戦": {
+        "4": 7
+      },
+      "三分戦": {
+        "3": 23,
+        "4": 3
+      },
+      "二分戦": {
+        "2": 2,
+        "3": 5
+      },
+      "None": {
+        "7": 4
+      }
+    }
+  },
+  "issue_races": [],
+  "warning_races": [
+    {
+      "race_key": "20260710_伊東_6R",
+      "venue": "伊東",
+      "race_no": 6,
+      "prediction_type": null,
+      "provider": "ひかり",
+      "audit_status": "WARNING",
+      "issues": [],
+      "warnings": [
+        "PREDICTION_TYPE_NONE"
+      ],
+      "main_lines": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 7,
+      "line_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solo_count": 7,
+      "solo_riders": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_7R",
+      "venue": "伊東",
+      "race_no": 7,
+      "prediction_type": null,
+      "provider": "ひかり",
+      "audit_status": "WARNING",
+      "issues": [],
+      "warnings": [
+        "PREDICTION_TYPE_NONE"
+      ],
+      "main_lines": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 7,
+      "line_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solo_count": 7,
+      "solo_riders": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_1R",
+      "venue": "名古屋",
+      "race_no": 1,
+      "prediction_type": null,
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "WARNING",
+      "issues": [],
+      "warnings": [
+        "PREDICTION_TYPE_NONE"
+      ],
+      "main_lines": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 7,
+      "line_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solo_count": 7,
+      "solo_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_2R",
+      "venue": "名古屋",
+      "race_no": 2,
+      "prediction_type": null,
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "WARNING",
+      "issues": [],
+      "warnings": [
+        "PREDICTION_TYPE_NONE"
+      ],
+      "main_lines": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 7,
+      "line_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solo_count": 7,
+      "solo_riders": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        6,
+        7
+      ],
+      "competition_row_count": 0
+    }
+  ],
+  "competition_races": [
+    {
+      "race_key": "20260710_いわき平_1R",
+      "venue": "いわき平",
+      "race_no": 1,
+      "prediction_type": "二分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "has_competition": true,
+      "competition_rows": [
+        {
+          "row_index": 1,
+          "car_numbers": [
+            1
+          ],
+          "car_cell_indexes": [
+            2
+          ],
+          "reconstructed_lines": [
+            [
+              1
+            ]
+          ]
+        }
+      ],
+      "main_riders": [
+        3,
+        2,
+        4,
+        5,
+        7,
+        6
+      ],
+      "competition_riders": [
+        1
+      ],
+      "all_riders": [
+        3,
+        2,
+        4,
+        5,
+        7,
+        6,
+        1
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        1,
+        2
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        5
+      ],
+      "competition_row_count": 1
+    },
+    {
+      "race_key": "20260710_いわき平_2R",
+      "venue": "いわき平",
+      "race_no": 2,
+      "prediction_type": "二分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6
+        ]
+      ],
+      "has_competition": true,
+      "competition_rows": [
+        {
+          "row_index": 1,
+          "car_numbers": [
+            3
+          ],
+          "car_cell_indexes": [
+            2
+          ],
+          "reconstructed_lines": [
+            [
+              3
+            ]
+          ]
+        }
+      ],
+      "main_riders": [
+        4,
+        1,
+        2,
+        5,
+        7,
+        6
+      ],
+      "competition_riders": [
+        3
+      ],
+      "all_riders": [
+        4,
+        1,
+        2,
+        5,
+        7,
+        6,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        1
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        6
+      ],
+      "competition_row_count": 1
+    }
+  ],
+  "all_audit_results": [
+    {
+      "race_key": "20260710_前橋_9R",
+      "venue": "前橋",
+      "race_no": 9,
+      "prediction_type": "コマ切れ",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          7,
+          3
+        ],
+        [
+          1,
+          5,
+          9
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        7,
+        3,
+        1,
+        5,
+        9,
+        8,
+        2,
+        4,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        7,
+        3,
+        1,
+        5,
+        9,
+        8,
+        2,
+        4,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rider_count": 9,
+      "estimated_field_size": 9,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 5,
+      "line_lengths": [
+        2,
+        3,
+        2,
+        1,
+        1
+      ],
+      "solo_count": 2,
+      "solo_riders": [
+        4,
+        6
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_前橋_10R",
+      "venue": "前橋",
+      "race_no": 10,
+      "prediction_type": "四分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          7,
+          1,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        7,
+        1,
+        4,
+        5,
+        2,
+        8,
+        3,
+        6,
+        9
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        7,
+        1,
+        4,
+        5,
+        2,
+        8,
+        3,
+        6,
+        9
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rider_count": 9,
+      "estimated_field_size": 9,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_前橋_11R",
+      "venue": "前橋",
+      "race_no": 11,
+      "prediction_type": "四分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          2,
+          5,
+          8
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        2,
+        5,
+        8,
+        9,
+        1,
+        7,
+        3,
+        6,
+        4
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        2,
+        5,
+        8,
+        9,
+        1,
+        7,
+        3,
+        6,
+        4
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rider_count": 9,
+      "estimated_field_size": 9,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_前橋_12R",
+      "venue": "前橋",
+      "race_no": 12,
+      "prediction_type": "四分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          3,
+          1,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        3,
+        1,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        3,
+        1,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rider_count": 9,
+      "estimated_field_size": 9,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_1R",
+      "venue": "函館",
+      "race_no": 1,
+      "prediction_type": "四分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          5
+        ],
+        [
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        5,
+        4,
+        3,
+        6,
+        2,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        5,
+        4,
+        3,
+        6,
+        2,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        4
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_2R",
+      "venue": "函館",
+      "race_no": 2,
+      "prediction_type": "四分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        7,
+        5,
+        3,
+        6,
+        2,
+        4
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        7,
+        5,
+        3,
+        6,
+        2,
+        4
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        4
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_3R",
+      "venue": "函館",
+      "race_no": 3,
+      "prediction_type": "コマ切れ",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          6,
+          5,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        6,
+        5,
+        3,
+        4,
+        2,
+        1,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        6,
+        5,
+        3,
+        4,
+        2,
+        1,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 5,
+      "line_lengths": [
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solo_count": 4,
+      "solo_riders": [
+        4,
+        2,
+        1,
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_4R",
+      "venue": "函館",
+      "race_no": 4,
+      "prediction_type": "三分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          7,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        4,
+        7,
+        1,
+        2,
+        5,
+        3,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        4,
+        7,
+        1,
+        2,
+        5,
+        3,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_5R",
+      "venue": "函館",
+      "race_no": 5,
+      "prediction_type": "二分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          7,
+          4
+        ],
+        [
+          5,
+          2,
+          3,
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        7,
+        4,
+        5,
+        2,
+        3,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        7,
+        4,
+        5,
+        2,
+        3,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 2,
+      "line_lengths": [
+        3,
+        4
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_6R",
+      "venue": "函館",
+      "race_no": 6,
+      "prediction_type": "三分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          5,
+          1,
+          7
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        5,
+        1,
+        7,
+        4,
+        2,
+        6,
+        3
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        5,
+        1,
+        7,
+        4,
+        2,
+        6,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_7R",
+      "venue": "函館",
+      "race_no": 7,
+      "prediction_type": "三分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          7,
+          2,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        7,
+        2,
+        4,
+        5,
+        1,
+        6,
+        3
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        7,
+        2,
+        4,
+        5,
+        1,
+        6,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_8R",
+      "venue": "函館",
+      "race_no": 8,
+      "prediction_type": "三分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          7,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          1,
+          4,
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        7,
+        3,
+        5,
+        2,
+        1,
+        4,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        7,
+        3,
+        5,
+        2,
+        1,
+        4,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        2,
+        2,
+        3
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_9R",
+      "venue": "函館",
+      "race_no": 9,
+      "prediction_type": "三分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          3,
+          6
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          2,
+          4
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        3,
+        6,
+        7,
+        1,
+        5,
+        2,
+        4
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        3,
+        6,
+        7,
+        1,
+        5,
+        2,
+        4
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        2,
+        2,
+        3
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_10R",
+      "venue": "函館",
+      "race_no": 10,
+      "prediction_type": "四分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          5,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ],
+        [
+          4,
+          1,
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        5,
+        2,
+        3,
+        6,
+        4,
+        1,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        5,
+        2,
+        3,
+        6,
+        4,
+        1,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        2,
+        1,
+        1,
+        3
+      ],
+      "solo_count": 2,
+      "solo_riders": [
+        3,
+        6
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_11R",
+      "venue": "函館",
+      "race_no": 11,
+      "prediction_type": "四分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          7,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        4,
+        6,
+        1,
+        7,
+        5,
+        2,
+        3
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        4,
+        6,
+        1,
+        7,
+        5,
+        2,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        2,
+        3,
+        1,
+        1
+      ],
+      "solo_count": 2,
+      "solo_riders": [
+        2,
+        3
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_函館_12R",
+      "venue": "函館",
+      "race_no": 12,
+      "prediction_type": "三分戦",
+      "provider": "北競新聞社",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          1,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        4,
+        1,
+        7,
+        3,
+        5,
+        6,
+        2
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        4,
+        1,
+        7,
+        3,
+        5,
+        6,
+        2
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_1R",
+      "venue": "伊東",
+      "race_no": 1,
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        2,
+        6,
+        5,
+        1,
+        4,
+        3,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        2,
+        6,
+        5,
+        1,
+        4,
+        3,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        2,
+        3,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_2R",
+      "venue": "伊東",
+      "race_no": 2,
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          5,
+          2,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        5,
+        2,
+        7,
+        1,
+        6,
+        4,
+        3
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        5,
+        2,
+        7,
+        1,
+        6,
+        4,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_3R",
+      "venue": "伊東",
+      "race_no": 3,
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        5,
+        1,
+        4,
+        6,
+        2,
+        7,
+        3
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        5,
+        1,
+        4,
+        6,
+        2,
+        7,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_4R",
+      "venue": "伊東",
+      "race_no": 4,
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          4
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          5,
+          3,
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        4,
+        7,
+        2,
+        5,
+        3,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        4,
+        7,
+        2,
+        5,
+        3,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        2,
+        2,
+        3
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_5R",
+      "venue": "伊東",
+      "race_no": 5,
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          3,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        3,
+        7,
+        1,
+        4,
+        2,
+        5,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        3,
+        7,
+        1,
+        4,
+        2,
+        5,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        6
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_6R",
+      "venue": "伊東",
+      "race_no": 6,
+      "prediction_type": null,
+      "provider": "ひかり",
+      "audit_status": "WARNING",
+      "issues": [],
+      "warnings": [
+        "PREDICTION_TYPE_NONE"
+      ],
+      "main_lines": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 7,
+      "line_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solo_count": 7,
+      "solo_riders": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_7R",
+      "venue": "伊東",
+      "race_no": 7,
+      "prediction_type": null,
+      "provider": "ひかり",
+      "audit_status": "WARNING",
+      "issues": [],
+      "warnings": [
+        "PREDICTION_TYPE_NONE"
+      ],
+      "main_lines": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 7,
+      "line_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solo_count": 7,
+      "solo_riders": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_8R",
+      "venue": "伊東",
+      "race_no": 8,
+      "prediction_type": "コマ切れ",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          6
+        ],
+        [
+          5
+        ],
+        [
+          4,
+          7,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        6,
+        5,
+        4,
+        7,
+        2,
+        3
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        6,
+        5,
+        4,
+        7,
+        2,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        2,
+        1,
+        3,
+        1
+      ],
+      "solo_count": 2,
+      "solo_riders": [
+        5,
+        3
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_9R",
+      "venue": "伊東",
+      "race_no": 9,
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        4,
+        1,
+        6,
+        2,
+        5,
+        7,
+        3
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        4,
+        1,
+        6,
+        2,
+        5,
+        7,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_10R",
+      "venue": "伊東",
+      "race_no": 10,
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        7,
+        2,
+        4,
+        6,
+        5,
+        3
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        7,
+        2,
+        4,
+        6,
+        5,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        2,
+        3,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_11R",
+      "venue": "伊東",
+      "race_no": 11,
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          3,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        4,
+        3,
+        1,
+        2,
+        7,
+        6,
+        5
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        4,
+        3,
+        1,
+        2,
+        7,
+        6,
+        5
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_伊東_12R",
+      "venue": "伊東",
+      "race_no": 12,
+      "prediction_type": "コマ切れ",
+      "provider": "ひかり",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3,
+          7
+        ],
+        [
+          1
+        ],
+        [
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        4,
+        2,
+        5,
+        3,
+        7,
+        1,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        4,
+        2,
+        5,
+        3,
+        7,
+        1,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        2,
+        3,
+        1,
+        1
+      ],
+      "solo_count": 2,
+      "solo_riders": [
+        1,
+        6
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_大垣_9R",
+      "venue": "大垣",
+      "race_no": 9,
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        5,
+        3,
+        7,
+        1,
+        6,
+        2,
+        4
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        5,
+        3,
+        7,
+        1,
+        6,
+        2,
+        4
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        2,
+        3,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_大垣_10R",
+      "venue": "大垣",
+      "race_no": 10,
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7,
+          5
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        4,
+        1,
+        2,
+        6,
+        3,
+        7,
+        5
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        4,
+        1,
+        2,
+        6,
+        3,
+        7,
+        5
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        2,
+        2,
+        3
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_大垣_11R",
+      "venue": "大垣",
+      "race_no": 11,
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        5,
+        1,
+        3,
+        6,
+        7,
+        2,
+        4
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        5,
+        1,
+        3,
+        6,
+        7,
+        2,
+        4
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        4
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_大垣_12R",
+      "venue": "大垣",
+      "race_no": 12,
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        6,
+        4,
+        7,
+        3,
+        2,
+        5
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        6,
+        4,
+        7,
+        3,
+        2,
+        5
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        4
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_いわき平_1R",
+      "venue": "いわき平",
+      "race_no": 1,
+      "prediction_type": "二分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "has_competition": true,
+      "competition_rows": [
+        {
+          "row_index": 1,
+          "car_numbers": [
+            1
+          ],
+          "car_cell_indexes": [
+            2
+          ],
+          "reconstructed_lines": [
+            [
+              1
+            ]
+          ]
+        }
+      ],
+      "main_riders": [
+        3,
+        2,
+        4,
+        5,
+        7,
+        6
+      ],
+      "competition_riders": [
+        1
+      ],
+      "all_riders": [
+        3,
+        2,
+        4,
+        5,
+        7,
+        6,
+        1
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        1,
+        2
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        5
+      ],
+      "competition_row_count": 1
+    },
+    {
+      "race_key": "20260710_いわき平_2R",
+      "venue": "いわき平",
+      "race_no": 2,
+      "prediction_type": "二分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6
+        ]
+      ],
+      "has_competition": true,
+      "competition_rows": [
+        {
+          "row_index": 1,
+          "car_numbers": [
+            3
+          ],
+          "car_cell_indexes": [
+            2
+          ],
+          "reconstructed_lines": [
+            [
+              3
+            ]
+          ]
+        }
+      ],
+      "main_riders": [
+        4,
+        1,
+        2,
+        5,
+        7,
+        6
+      ],
+      "competition_riders": [
+        3
+      ],
+      "all_riders": [
+        4,
+        1,
+        2,
+        5,
+        7,
+        6,
+        3
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        1
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        6
+      ],
+      "competition_row_count": 1
+    },
+    {
+      "race_key": "20260710_いわき平_3R",
+      "venue": "いわき平",
+      "race_no": 3,
+      "prediction_type": "二分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          2,
+          6,
+          7
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        2,
+        6,
+        7,
+        3,
+        4,
+        5
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        2,
+        6,
+        7,
+        3,
+        4,
+        5
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        4,
+        1,
+        2
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        3
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_いわき平_4R",
+      "venue": "いわき平",
+      "race_no": 4,
+      "prediction_type": "コマ切れ",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          1
+        ],
+        [
+          6
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        3,
+        4,
+        7,
+        1,
+        6,
+        5,
+        2
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        3,
+        4,
+        7,
+        1,
+        6,
+        5,
+        2
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        3,
+        1,
+        1,
+        2
+      ],
+      "solo_count": 2,
+      "solo_riders": [
+        1,
+        6
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_いわき平_5R",
+      "venue": "いわき平",
+      "race_no": 5,
+      "prediction_type": "コマ切れ",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        4,
+        5,
+        3,
+        2,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        4,
+        5,
+        3,
+        2,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 4,
+      "line_lengths": [
+        3,
+        2,
+        1,
+        1
+      ],
+      "solo_count": 2,
+      "solo_riders": [
+        6,
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_いわき平_6R",
+      "venue": "いわき平",
+      "race_no": 6,
+      "prediction_type": "二分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          6,
+          3,
+          4
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        5,
+        2,
+        6,
+        3,
+        4,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        5,
+        2,
+        6,
+        3,
+        4,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        3,
+        1
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_いわき平_7R",
+      "venue": "いわき平",
+      "race_no": 7,
+      "prediction_type": "三分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        7,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        7,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_いわき平_8R",
+      "venue": "いわき平",
+      "race_no": 8,
+      "prediction_type": "三分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        2,
+        6,
+        3,
+        7,
+        5,
+        4
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        2,
+        6,
+        3,
+        7,
+        5,
+        4
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_いわき平_9R",
+      "venue": "いわき平",
+      "race_no": 9,
+      "prediction_type": "三分戦",
+      "provider": "アオケイ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          6,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          7,
+          4
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        6,
+        1,
+        2,
+        3,
+        5,
+        7,
+        4
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        6,
+        1,
+        2,
+        3,
+        5,
+        7,
+        4
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_1R",
+      "venue": "名古屋",
+      "race_no": 1,
+      "prediction_type": null,
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "WARNING",
+      "issues": [],
+      "warnings": [
+        "PREDICTION_TYPE_NONE"
+      ],
+      "main_lines": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 7,
+      "line_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solo_count": 7,
+      "solo_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_2R",
+      "venue": "名古屋",
+      "race_no": 2,
+      "prediction_type": null,
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "WARNING",
+      "issues": [],
+      "warnings": [
+        "PREDICTION_TYPE_NONE"
+      ],
+      "main_lines": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 7,
+      "line_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solo_count": 7,
+      "solo_riders": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        6,
+        7
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_3R",
+      "venue": "名古屋",
+      "race_no": 3,
+      "prediction_type": "二分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          4,
+          3,
+          5,
+          6
+        ],
+        [
+          2,
+          1,
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        4,
+        3,
+        5,
+        6,
+        2,
+        1,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        4,
+        3,
+        5,
+        6,
+        2,
+        1,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 2,
+      "line_lengths": [
+        4,
+        3
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_4R",
+      "venue": "名古屋",
+      "race_no": 4,
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        3,
+        5,
+        2,
+        1,
+        4,
+        7,
+        6
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        3,
+        5,
+        2,
+        1,
+        4,
+        7,
+        6
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        2,
+        3,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_5R",
+      "venue": "名古屋",
+      "race_no": 5,
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        2,
+        1,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        2,
+        1,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_6R",
+      "venue": "名古屋",
+      "race_no": 6,
+      "prediction_type": "二分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          6
+        ],
+        [
+          5,
+          4,
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        3,
+        2,
+        6,
+        5,
+        4,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        3,
+        2,
+        6,
+        5,
+        4,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        1,
+        3
+      ],
+      "solo_count": 1,
+      "solo_riders": [
+        6
+      ],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_7R",
+      "venue": "名古屋",
+      "race_no": 7,
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          1,
+          4,
+          6
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        1,
+        4,
+        6,
+        3,
+        2,
+        5,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        1,
+        4,
+        6,
+        3,
+        2,
+        5,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_8R",
+      "venue": "名古屋",
+      "race_no": 8,
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        3,
+        2,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    },
+    {
+      "race_key": "20260710_名古屋_9R",
+      "venue": "名古屋",
+      "race_no": 9,
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "audit_status": "OK",
+      "issues": [],
+      "warnings": [],
+      "main_lines": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "has_competition": false,
+      "competition_rows": [],
+      "main_riders": [
+        3,
+        1,
+        7,
+        2,
+        6,
+        5,
+        4
+      ],
+      "competition_riders": [],
+      "all_riders": [
+        3,
+        1,
+        7,
+        2,
+        6,
+        5,
+        4
+      ],
+      "unique_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rider_count": 7,
+      "estimated_field_size": 7,
+      "missing_riders": [],
+      "duplicate_riders": [],
+      "invalid_riders": [],
+      "empty_line_indexes": [],
+      "line_internal_duplicates": [],
+      "line_count": 3,
+      "line_lengths": [
+        2,
+        3,
+        2
+      ],
+      "solo_count": 0,
+      "solo_riders": [],
+      "competition_row_count": 0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<link href="./css/help_base.css" rel="stylesheet" media="all">
+		<style>
+			.kimariImg {
+				width: 55%;
+				float: left;
+				text-align: center;
+			}
+			
+			.example {
+				width: 40%;
+				float: left;
+				padding-top: 30px;
+				padding-left: 20px;
+				text-align: left;
+			}
+			
+			.pl {
+				padding-left: 20px;
+			}
+		</style>
+	</head>
+	<body style="font-size: 18px;background-color: transparent;background-image: none;">
+		<div>
+			<p>
+				数字部分をクリックすると、直近4ヶ月の決まり手別、1着回数、<br>
+				2着回数、合計回数が一覧形式で表示されます。<br>
+				「捲ったら1着が多い」等、傾向が分かります。
+			</p>
+			<div style="width:100%">
+				<div class="kimariImg">
+					<img src = "./img/PY0102_0.png" alt="" style="border: 1px solid;margin-top: 10px;" />
+				</div>
+				<div class="example">
+					<p>
+						<span>＜決まり手凡例＞</span><br/>
+						<span class="pl">逃･･･逃げ</span><br/>
+						<span class="pl">捲･･･捲り</span><br/>
+						<span class="pl">差･･･差し</span><br/>
+						<span class="pl">マ･･･マーク</span>
+					</p>
+				</div>
+			</div>
+    	</div>
+		<script type="text/javascript">
+			// サイズの指定は親画面の"subdialog.css #PY0102"
+		</script>
+	</body>
+</html>

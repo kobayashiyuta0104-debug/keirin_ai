@@ -1,0 +1,1912 @@
+{
+  "source_file": "C:\\競輪AI\\231_20260706_model_ready_154_features.json",
+  "race_count": 70,
+  "feature_count": 154,
+  "player_count_distribution": {
+    "7": 64,
+    "5": 2,
+    "6": 4
+  },
+  "missing_column_counts": {
+    "p4_recent_finish_3": 14,
+    "p5_recent_finish_1": 6,
+    "p5_recent_finish_2": 10,
+    "p5_recent_finish_3": 10,
+    "p1_recent_finish_1": 10,
+    "p1_recent_finish_2": 11,
+    "p1_recent_finish_3": 10,
+    "p4_recent_finish_1": 9,
+    "p4_recent_finish_2": 13,
+    "p6_recent_finish_1": 18,
+    "p6_recent_finish_2": 19,
+    "p6_recent_finish_3": 18,
+    "p3_recent_finish_1": 11,
+    "p3_recent_finish_2": 11,
+    "p3_recent_finish_3": 11,
+    "p7_recent_finish_3": 24,
+    "p2_recent_finish_1": 10,
+    "p2_recent_finish_2": 9,
+    "p7_recent_finish_1": 22,
+    "p7_recent_finish_2": 22,
+    "p2_recent_finish_3": 10,
+    "p6_prefecture": 2,
+    "p6_previous_class": 2,
+    "p6_class": 2,
+    "p6_riding_style": 2,
+    "p6_graduation_term": 2,
+    "p6_age": 2,
+    "p6_race_score": 2,
+    "p6_nige_count": 2,
+    "p6_makuri_count": 2,
+    "p6_sashi_count": 2,
+    "p6_mark_count": 2,
+    "p6_back_count": 2,
+    "p6_home_count": 2,
+    "p6_start_count": 2,
+    "p6_win_rate": 2,
+    "p6_top2_rate": 2,
+    "p6_top3_rate": 2,
+    "p6_recent_venue_code": 2,
+    "p6_recent_grade": 2,
+    "p7_prefecture": 6,
+    "p7_previous_class": 6,
+    "p7_class": 6,
+    "p7_riding_style": 6,
+    "p7_graduation_term": 6,
+    "p7_age": 6,
+    "p7_race_score": 6,
+    "p7_nige_count": 6,
+    "p7_makuri_count": 6,
+    "p7_sashi_count": 6,
+    "p7_mark_count": 6,
+    "p7_back_count": 6,
+    "p7_home_count": 6,
+    "p7_start_count": 6,
+    "p7_win_rate": 6,
+    "p7_top2_rate": 6,
+    "p7_top3_rate": 6,
+    "p7_recent_venue_code": 6,
+    "p7_recent_grade": 6
+  },
+  "missing_by_player_count": {
+    "7": {
+      "p4_recent_finish_3": 12,
+      "p5_recent_finish_1": 5,
+      "p5_recent_finish_2": 9,
+      "p5_recent_finish_3": 9,
+      "p1_recent_finish_1": 10,
+      "p1_recent_finish_2": 11,
+      "p1_recent_finish_3": 10,
+      "p4_recent_finish_1": 7,
+      "p4_recent_finish_2": 11,
+      "p6_recent_finish_1": 15,
+      "p6_recent_finish_2": 15,
+      "p6_recent_finish_3": 14,
+      "p3_recent_finish_1": 11,
+      "p3_recent_finish_2": 11,
+      "p3_recent_finish_3": 11,
+      "p7_recent_finish_3": 18,
+      "p2_recent_finish_1": 8,
+      "p2_recent_finish_2": 7,
+      "p7_recent_finish_1": 16,
+      "p7_recent_finish_2": 16,
+      "p2_recent_finish_3": 8
+    },
+    "5": {
+      "p4_recent_finish_1": 1,
+      "p4_recent_finish_2": 1,
+      "p4_recent_finish_3": 1,
+      "p6_prefecture": 2,
+      "p6_previous_class": 2,
+      "p6_class": 2,
+      "p6_riding_style": 2,
+      "p6_graduation_term": 2,
+      "p6_age": 2,
+      "p6_race_score": 2,
+      "p6_nige_count": 2,
+      "p6_makuri_count": 2,
+      "p6_sashi_count": 2,
+      "p6_mark_count": 2,
+      "p6_back_count": 2,
+      "p6_home_count": 2,
+      "p6_start_count": 2,
+      "p6_win_rate": 2,
+      "p6_top2_rate": 2,
+      "p6_top3_rate": 2,
+      "p6_recent_finish_1": 2,
+      "p6_recent_finish_2": 2,
+      "p6_recent_finish_3": 2,
+      "p6_recent_venue_code": 2,
+      "p6_recent_grade": 2,
+      "p7_prefecture": 2,
+      "p7_previous_class": 2,
+      "p7_class": 2,
+      "p7_riding_style": 2,
+      "p7_graduation_term": 2,
+      "p7_age": 2,
+      "p7_race_score": 2,
+      "p7_nige_count": 2,
+      "p7_makuri_count": 2,
+      "p7_sashi_count": 2,
+      "p7_mark_count": 2,
+      "p7_back_count": 2,
+      "p7_home_count": 2,
+      "p7_start_count": 2,
+      "p7_win_rate": 2,
+      "p7_top2_rate": 2,
+      "p7_top3_rate": 2,
+      "p7_recent_finish_1": 2,
+      "p7_recent_finish_2": 2,
+      "p7_recent_finish_3": 2,
+      "p7_recent_venue_code": 2,
+      "p7_recent_grade": 2
+    },
+    "6": {
+      "p2_recent_finish_1": 2,
+      "p2_recent_finish_2": 2,
+      "p2_recent_finish_3": 2,
+      "p6_recent_finish_2": 2,
+      "p6_recent_finish_3": 2,
+      "p7_prefecture": 4,
+      "p7_previous_class": 4,
+      "p7_class": 4,
+      "p7_riding_style": 4,
+      "p7_graduation_term": 4,
+      "p7_age": 4,
+      "p7_race_score": 4,
+      "p7_nige_count": 4,
+      "p7_makuri_count": 4,
+      "p7_sashi_count": 4,
+      "p7_mark_count": 4,
+      "p7_back_count": 4,
+      "p7_home_count": 4,
+      "p7_start_count": 4,
+      "p7_win_rate": 4,
+      "p7_top2_rate": 4,
+      "p7_top3_rate": 4,
+      "p7_recent_finish_1": 4,
+      "p7_recent_finish_2": 4,
+      "p7_recent_finish_3": 4,
+      "p7_recent_venue_code": 4,
+      "p7_recent_grade": 4,
+      "p5_recent_finish_1": 1,
+      "p5_recent_finish_2": 1,
+      "p5_recent_finish_3": 1,
+      "p4_recent_finish_3": 1,
+      "p4_recent_finish_1": 1,
+      "p4_recent_finish_2": 1,
+      "p6_recent_finish_1": 1
+    }
+  },
+  "race_missing_analysis": [
+    {
+      "race_key": "20260706_京王閣_1R",
+      "player_count": 7,
+      "missing_count": 4,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 4,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p4_recent_finish_3",
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_2R",
+      "player_count": 7,
+      "missing_count": 9,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 9,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_3R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_4R",
+      "player_count": 7,
+      "missing_count": 7,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 7,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_5R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_6R",
+      "player_count": 7,
+      "missing_count": 5,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 5,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_7R",
+      "player_count": 7,
+      "missing_count": 2,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 2,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p6_recent_finish_1",
+        "p6_recent_finish_2"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_1R",
+      "player_count": 7,
+      "missing_count": 4,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 4,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p5_recent_finish_2",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_2R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_3R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_4R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_5R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_6R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_7R",
+      "player_count": 7,
+      "missing_count": 1,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 1,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_1"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_1R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_2R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_3R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_4R",
+      "player_count": 7,
+      "missing_count": 5,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 5,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_5R",
+      "player_count": 7,
+      "missing_count": 8,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 8,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_6R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_7R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_1R",
+      "player_count": 5,
+      "missing_count": 47,
+      "structural_missing_count": 44,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [
+        "p6_prefecture",
+        "p6_previous_class",
+        "p6_class",
+        "p6_riding_style",
+        "p6_graduation_term",
+        "p6_age",
+        "p6_race_score",
+        "p6_nige_count",
+        "p6_makuri_count",
+        "p6_sashi_count",
+        "p6_mark_count",
+        "p6_back_count",
+        "p6_home_count",
+        "p6_start_count",
+        "p6_win_rate",
+        "p6_top2_rate",
+        "p6_top3_rate",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3",
+        "p6_recent_venue_code",
+        "p6_recent_grade",
+        "p7_prefecture",
+        "p7_previous_class",
+        "p7_class",
+        "p7_riding_style",
+        "p7_graduation_term",
+        "p7_age",
+        "p7_race_score",
+        "p7_nige_count",
+        "p7_makuri_count",
+        "p7_sashi_count",
+        "p7_mark_count",
+        "p7_back_count",
+        "p7_home_count",
+        "p7_start_count",
+        "p7_win_rate",
+        "p7_top2_rate",
+        "p7_top3_rate",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3",
+        "p7_recent_venue_code",
+        "p7_recent_grade"
+      ],
+      "non_structural_missing_columns": [
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_2R",
+      "player_count": 5,
+      "missing_count": 44,
+      "structural_missing_count": 44,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [
+        "p6_prefecture",
+        "p6_previous_class",
+        "p6_class",
+        "p6_riding_style",
+        "p6_graduation_term",
+        "p6_age",
+        "p6_race_score",
+        "p6_nige_count",
+        "p6_makuri_count",
+        "p6_sashi_count",
+        "p6_mark_count",
+        "p6_back_count",
+        "p6_home_count",
+        "p6_start_count",
+        "p6_win_rate",
+        "p6_top2_rate",
+        "p6_top3_rate",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3",
+        "p6_recent_venue_code",
+        "p6_recent_grade",
+        "p7_prefecture",
+        "p7_previous_class",
+        "p7_class",
+        "p7_riding_style",
+        "p7_graduation_term",
+        "p7_age",
+        "p7_race_score",
+        "p7_nige_count",
+        "p7_makuri_count",
+        "p7_sashi_count",
+        "p7_mark_count",
+        "p7_back_count",
+        "p7_home_count",
+        "p7_start_count",
+        "p7_win_rate",
+        "p7_top2_rate",
+        "p7_top3_rate",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3",
+        "p7_recent_venue_code",
+        "p7_recent_grade"
+      ],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_別府_3R",
+      "player_count": 6,
+      "missing_count": 27,
+      "structural_missing_count": 22,
+      "non_structural_missing_count": 5,
+      "structural_missing_columns": [
+        "p7_prefecture",
+        "p7_previous_class",
+        "p7_class",
+        "p7_riding_style",
+        "p7_graduation_term",
+        "p7_age",
+        "p7_race_score",
+        "p7_nige_count",
+        "p7_makuri_count",
+        "p7_sashi_count",
+        "p7_mark_count",
+        "p7_back_count",
+        "p7_home_count",
+        "p7_start_count",
+        "p7_win_rate",
+        "p7_top2_rate",
+        "p7_top3_rate",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3",
+        "p7_recent_venue_code",
+        "p7_recent_grade"
+      ],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_4R",
+      "player_count": 7,
+      "missing_count": 2,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 2,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_5R",
+      "player_count": 7,
+      "missing_count": 10,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 10,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_6R",
+      "player_count": 7,
+      "missing_count": 7,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 7,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_7R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_取手_1R",
+      "player_count": 7,
+      "missing_count": 2,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 2,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_2",
+        "p3_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_2R",
+      "player_count": 7,
+      "missing_count": 9,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 9,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_3R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_取手_4R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_5R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_6R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_取手_7R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_取手_8R",
+      "player_count": 7,
+      "missing_count": 4,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 4,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3",
+        "p6_recent_finish_1"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_9R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3",
+        "p6_recent_finish_1"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_10R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_取手_11R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_1R",
+      "player_count": 7,
+      "missing_count": 5,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 5,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_2R",
+      "player_count": 7,
+      "missing_count": 2,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 2,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_3R",
+      "player_count": 7,
+      "missing_count": 2,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 2,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_4R",
+      "player_count": 7,
+      "missing_count": 2,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 2,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_5R",
+      "player_count": 7,
+      "missing_count": 4,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 4,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_1",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_6R",
+      "player_count": 7,
+      "missing_count": 4,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 4,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_7R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_和歌山_8R",
+      "player_count": 7,
+      "missing_count": 1,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 1,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_9R",
+      "player_count": 7,
+      "missing_count": 2,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 2,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_10R",
+      "player_count": 7,
+      "missing_count": 7,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 7,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p6_recent_finish_1",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_11R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_和歌山_12R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_岸和田_1R",
+      "player_count": 6,
+      "missing_count": 25,
+      "structural_missing_count": 22,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [
+        "p7_prefecture",
+        "p7_previous_class",
+        "p7_class",
+        "p7_riding_style",
+        "p7_graduation_term",
+        "p7_age",
+        "p7_race_score",
+        "p7_nige_count",
+        "p7_makuri_count",
+        "p7_sashi_count",
+        "p7_mark_count",
+        "p7_back_count",
+        "p7_home_count",
+        "p7_start_count",
+        "p7_win_rate",
+        "p7_top2_rate",
+        "p7_top3_rate",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3",
+        "p7_recent_venue_code",
+        "p7_recent_grade"
+      ],
+      "non_structural_missing_columns": [
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_2R",
+      "player_count": 6,
+      "missing_count": 23,
+      "structural_missing_count": 22,
+      "non_structural_missing_count": 1,
+      "structural_missing_columns": [
+        "p7_prefecture",
+        "p7_previous_class",
+        "p7_class",
+        "p7_riding_style",
+        "p7_graduation_term",
+        "p7_age",
+        "p7_race_score",
+        "p7_nige_count",
+        "p7_makuri_count",
+        "p7_sashi_count",
+        "p7_mark_count",
+        "p7_back_count",
+        "p7_home_count",
+        "p7_start_count",
+        "p7_win_rate",
+        "p7_top2_rate",
+        "p7_top3_rate",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3",
+        "p7_recent_venue_code",
+        "p7_recent_grade"
+      ],
+      "non_structural_missing_columns": [
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_3R",
+      "player_count": 6,
+      "missing_count": 30,
+      "structural_missing_count": 22,
+      "non_structural_missing_count": 8,
+      "structural_missing_columns": [
+        "p7_prefecture",
+        "p7_previous_class",
+        "p7_class",
+        "p7_riding_style",
+        "p7_graduation_term",
+        "p7_age",
+        "p7_race_score",
+        "p7_nige_count",
+        "p7_makuri_count",
+        "p7_sashi_count",
+        "p7_mark_count",
+        "p7_back_count",
+        "p7_home_count",
+        "p7_start_count",
+        "p7_win_rate",
+        "p7_top2_rate",
+        "p7_top3_rate",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3",
+        "p7_recent_venue_code",
+        "p7_recent_grade"
+      ],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_4R",
+      "player_count": 7,
+      "missing_count": 8,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 8,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_3",
+        "p3_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_5R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_6R",
+      "player_count": 7,
+      "missing_count": 5,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 5,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_7R",
+      "player_count": 7,
+      "missing_count": 1,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 1,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_1R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_2R",
+      "player_count": 7,
+      "missing_count": 5,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 5,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_3R",
+      "player_count": 7,
+      "missing_count": 2,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 2,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p1_recent_finish_2",
+        "p1_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_4R",
+      "player_count": 7,
+      "missing_count": 3,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 3,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_5R",
+      "player_count": 7,
+      "missing_count": 2,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 2,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_6R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_7R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_豊橋_8R",
+      "player_count": 7,
+      "missing_count": 9,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 9,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_9R",
+      "player_count": 7,
+      "missing_count": 6,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 6,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_10R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_豊橋_11R",
+      "player_count": 7,
+      "missing_count": 0,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 0,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": []
+    },
+    {
+      "race_key": "20260706_豊橋_12R",
+      "player_count": 7,
+      "missing_count": 1,
+      "structural_missing_count": 0,
+      "non_structural_missing_count": 1,
+      "structural_missing_columns": [],
+      "non_structural_missing_columns": [
+        "p3_recent_finish_3"
+      ]
+    }
+  ],
+  "non_structural_missing_race_count": 58,
+  "non_structural_missing": [
+    {
+      "race_key": "20260706_京王閣_1R",
+      "player_count": 7,
+      "columns": [
+        "p4_recent_finish_3",
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_2R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_3R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_4R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_5R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_6R",
+      "player_count": 7,
+      "columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_7R",
+      "player_count": 7,
+      "columns": [
+        "p6_recent_finish_1",
+        "p6_recent_finish_2"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_1R",
+      "player_count": 7,
+      "columns": [
+        "p5_recent_finish_2",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_2R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_3R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_4R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_5R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_6R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_7R",
+      "player_count": 7,
+      "columns": [
+        "p2_recent_finish_1"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_1R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_2R",
+      "player_count": 7,
+      "columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_3R",
+      "player_count": 7,
+      "columns": [
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_4R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_5R",
+      "player_count": 7,
+      "columns": [
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_6R",
+      "player_count": 7,
+      "columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_7R",
+      "player_count": 7,
+      "columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_1R",
+      "player_count": 5,
+      "columns": [
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_3R",
+      "player_count": 6,
+      "columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_4R",
+      "player_count": 7,
+      "columns": [
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_5R",
+      "player_count": 7,
+      "columns": [
+        "p2_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_別府_6R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_1R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_2",
+        "p3_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_2R",
+      "player_count": 7,
+      "columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_4R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_5R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_8R",
+      "player_count": 7,
+      "columns": [
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3",
+        "p6_recent_finish_1"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_9R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3",
+        "p6_recent_finish_1"
+      ]
+    },
+    {
+      "race_key": "20260706_取手_11R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_1R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_2R",
+      "player_count": 7,
+      "columns": [
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_3R",
+      "player_count": 7,
+      "columns": [
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_4R",
+      "player_count": 7,
+      "columns": [
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_5R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_1",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_6R",
+      "player_count": 7,
+      "columns": [
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_8R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_9R",
+      "player_count": 7,
+      "columns": [
+        "p4_recent_finish_2",
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_10R",
+      "player_count": 7,
+      "columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p6_recent_finish_1",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_1R",
+      "player_count": 6,
+      "columns": [
+        "p5_recent_finish_1",
+        "p5_recent_finish_2",
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_2R",
+      "player_count": 6,
+      "columns": [
+        "p4_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_3R",
+      "player_count": 6,
+      "columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_4R",
+      "player_count": 7,
+      "columns": [
+        "p2_recent_finish_3",
+        "p3_recent_finish_3",
+        "p4_recent_finish_1",
+        "p4_recent_finish_2",
+        "p4_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_5R",
+      "player_count": 7,
+      "columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_6R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_7R",
+      "player_count": 7,
+      "columns": [
+        "p5_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_1R",
+      "player_count": 7,
+      "columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_2R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_1",
+        "p1_recent_finish_2",
+        "p1_recent_finish_3",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_3R",
+      "player_count": 7,
+      "columns": [
+        "p1_recent_finish_2",
+        "p1_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_4R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_5R",
+      "player_count": 7,
+      "columns": [
+        "p7_recent_finish_1",
+        "p7_recent_finish_2"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_6R",
+      "player_count": 7,
+      "columns": [
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_8R",
+      "player_count": 7,
+      "columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p3_recent_finish_1",
+        "p3_recent_finish_2",
+        "p3_recent_finish_3",
+        "p7_recent_finish_1",
+        "p7_recent_finish_2",
+        "p7_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_9R",
+      "player_count": 7,
+      "columns": [
+        "p2_recent_finish_1",
+        "p2_recent_finish_2",
+        "p2_recent_finish_3",
+        "p6_recent_finish_1",
+        "p6_recent_finish_2",
+        "p6_recent_finish_3"
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_12R",
+      "player_count": 7,
+      "columns": [
+        "p3_recent_finish_3"
+      ]
+    }
+  ]
+}

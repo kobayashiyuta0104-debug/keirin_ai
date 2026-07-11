@@ -1,0 +1,423 @@
+/* PJ0305_PC_出走表一覧 */
+
+@charset "UTF-8";
+
+/* 一押しアイコン */
+div.slichi_icon {
+	display: inline-block;
+	_display: inline;
+	margin: 4px 3px 0 8px;
+	padding: 0;
+
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+}
+
+/* 好相性アイコン */
+div.slkou_icon {
+	display: inline-block;
+	_display: inline;
+	margin: 4px 3px 0 8px;
+	padding: 0;
+
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+}
+
+
+.slt1-1 {
+	width: 430px;
+	margin-left: 20px;
+	vertical-align: top;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.slt1-2 {
+	width: 200px;
+	vertical-align: bottom;
+}
+.sltx-l {
+	text-align: left;
+}
+.sltx-r {
+	text-align: right;
+}
+.sltx-c {
+	text-align: center;
+}
+
+
+.slva-top {
+	vertical-align: top;
+}
+
+.slva-mid {
+	vertical-align: middle;
+}
+
+.slva-btm {
+	vertical-align: bottom;
+}
+
+table.slma-0 {
+	margin: 0;
+	text-align: left;
+	vertical-align: top;
+	font-size:16px;
+}
+
+.sltxr-va-mid {
+	text-align: right;
+	vertical-align: middle;
+}
+
+.sltxr-va-top {
+	text-align: right;
+	vertical-align: top;
+}
+
+div.slinline {
+	display: inline-block;
+	_display: inline;
+}
+
+
+.slmgn-l-5 {
+	margin-left: 5px;
+}
+
+.slmgn-l-10 {
+	margin-left: 10px;
+}
+
+.slmgn-r-5 {
+	margin-right: 5px;
+}
+
+.slmgn-r-10 {
+	margin-right: 10px;
+}
+
+
+span.slsnum16 {
+	width: 16px;
+	padding:1px 4px;
+	font-size:16px;
+	text-align:center;
+	color:white;
+	border:1px solid #666666;
+	border-collapse:collapse;
+	border-radius:3px;
+	margin:0;
+}
+
+.sltb-mark {
+	width: 26px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	font-family:"ＭＳ Ｐゴシック","MS PGothic";
+	border-left: 0;
+}
+
+.sltb-no1 {
+	color:#404040;
+	max-width: 17px;
+	text-align: center;
+	font-size:16px;
+}
+
+.sltb-no2 {
+	color:#FFFFFF;
+	width: 16px;
+	text-align: center;
+}
+
+.sltb-no3 {
+	color:#FFFFFF;
+	width: 16px;
+	text-align: center;
+}
+
+.sltb-no4 {
+	color:#FFFFFF;
+	width: 16px;
+	text-align: center;
+}
+.sltb-no5 {
+	color:#404040;
+	width: 16px;
+	text-align: center;
+}
+.sltb-no6 {
+	color:#FFFFFF;
+	width: 16px;
+	text-align: center;
+}
+.sltb-no7 {
+	color:#FFFFFF;
+	width: 16px;
+	text-align: center;
+}
+.sltb-no8 {
+	color:#FFFFFF;
+	width: 16px;
+	text-align: center;
+}
+.sltb-no9 {
+	color:#FFFFFF;
+	width: 16px;
+	text-align: center;
+}
+
+
+.sltbl_01{
+	padding-bottom: 10px;
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-top: 0px solid #888888;
+	border-left: 0px solid #888888;
+	font-size:16px;
+}
+.sltbl_01 th{
+	text-align: left;
+	vertical-align: top;
+	border-top: 0px solid #888888;
+	border-left: 0px solid #888888;
+	border-right: 0px solid #888888;
+	border-bottom: 0px solid #888888;
+}
+.sltbl_01 td{
+	border-right: 0px solid #888888;
+	border-bottom: 0px solid #888888;
+}
+
+.sltbl_02{
+	padding: 20px 0 15px;
+	width: 100%;
+
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-top: 1px solid #888888;
+	border-left: 1px solid #888888;
+	border-right: 1px solid #888888;
+	border-bottom: 1px solid #888888;
+	font-size:16px;
+}
+.sltbl_02-2{
+	padding: 20px 0;
+	width: 100%;
+	
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-top: 0 !important;
+	border-left: 1px solid #888888;
+	border-right: 1px solid #888888;
+	border-bottom: 1px solid #888888;
+}
+
+.sltb_03{
+	border-collapse: separate;
+	border-spacing: 0px;
+	border: 0;
+	font-size:16px;
+}
+.sltb_03 th{
+	padding: 4px;
+	text-align: left;
+	vertical-align: top;
+}
+.sltb_03 td{
+	border-bottom: 1px solid #888888;
+	border-right: 1px solid #888888;
+}
+.sltb_03 tr{
+	height: 38px;
+}
+
+.sltb_04{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	vertical-align: middle;
+	font-size:16px;
+}
+
+.sltb_04-1{
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-top: 1px solid #888888;
+	border-left: 1px solid #888888;
+	border-bottom: 1px solid #888888;
+}
+
+.sltb_04-2{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border-top: 1px solid #888888;
+	border-left: 1px solid #888888;
+	border-right: 1px solid #888888;
+	border-bottom: 1px solid #888888;
+}
+
+.sllink_name {
+	text-decoration: underline;
+	text-underline-position: below;
+}
+
+.slyajirusi_left:before {
+	background-color: #FFFF99;
+	color: #000000;
+	font-size:16px;
+}
+
+
+div.slinlineBtnBox {
+	display: inline-block;
+	_display: inline;
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.sltbl_claer {
+	padding: 0;
+	margin: 0;
+	border-collapse: separate;
+	border-spacing: 0;
+    border: 0;
+}
+
+td.sltbl_no11_6B {
+	border-right: 0;
+	padding: 0px 0px 0px 5px;
+	
+	width: 106px;
+	font-size:16px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+td.sltbl_no11_3B {
+	border-right: 0;
+	padding: 0px;
+
+	width: 50px;
+	font-size:16px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+td.slbd_r {
+	border-right: 1px solid #888888 !important;
+}
+td.slbd_b {
+	border-bottom: 1px solid #888888 !important;
+}
+td.slbd_l {
+	border-left: 1px solid #888888 !important;
+}
+td.slbd_t {
+	border-top: 1px solid #888888 !important;
+}
+
+td.sltbl_no11_1B {
+	border-right: 0;
+	padding: 0px;
+
+	width: 16px;
+	font-size:16px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.sltbl_no11B_sp {
+
+	border-right: 0;
+	width: 2px;
+	line-height: 1;
+}
+
+td.sltbl_col_end {
+	border-right: 1px solid #888888 !important;
+	width: 60px;
+}
+
+table.slnara_all_tbl {
+	padding: 0;
+	width: 640px;
+	border: 1px solid #888888;
+	background-color:#F5F4F2 !important;
+}
+
+table.slnara_all_tbl td.sltitle {
+	width: 88px;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #D9D7CE;
+	border: 1px solid #888888;
+}
+
+table.slnara_all_tbl td.slbtype {
+	width: 290px;
+	padding: 2px;
+}
+
+table.slnara_all_tbl td.slsno_all {
+	width: 280px;
+	padding: 2px 5px;
+}
+
+input[type=checkbox].slchk {
+	margin-right: 6px;
+	margin-top: 1px\9;
+	line-height: normal;
+}
+
+/* 通常ボタン */
+.slbtn.onbtn {
+  padding: 5px 0px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #0577b0;
+  color: #01445f;
+  background: #dff5f5;
+}
+.slbtn.onbtn:hover {
+  background: #01445f;
+  color: #dff5f5;
+}
+/* 選択済みボタン */
+.slbtn.onbtn.active {
+  color: #FFFFFF;
+  background: linear-gradient(#1989c1, #0577b0);
+  border: 2px solid #0086bf;
+  border-collapse: collapse;
+  cursor: default;
+}
+.slbtn.onbtn[disabled]:hover,.slbtn.onbtn.disabled:hover {
+  border: 2px solid #0577b0;
+  color: #01445f;
+  background: #dff5f5;
+}
+:disabled.slbtn, [disabled].slbtn, fieldset[disabled] .slbtn, .disabled.slbtn{
+	color: #01445f !important;
+	background: #dff5f5 ;
+}
+.slbtn:disabled,
+.slbtn[disabled],
+fieldset[disabled] .slbtn,
+.slbtn.disabled {
+  opacity: 0.25;
+  cursor: default;
+  pointer-events: none;
+}
+
+#sllblDigestGuide{
+	white-space: nowrap;
+}

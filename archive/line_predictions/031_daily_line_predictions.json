@@ -1,0 +1,972 @@
+{
+  "program": "031_capture_daily_line_predictions.py",
+  "captured_at": "2026-07-09T23:28:45.616415",
+  "race_date": "20260709",
+  "venue": "函館",
+  "race_count": 9,
+  "line_found_count": 9,
+  "line_not_found_count": 0,
+  "finished_skip_count": 0,
+  "error_count": 0,
+  "races": [
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 1,
+      "race_key": "20260709_函館_1R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 1,
+        "id": "hhRaceBtn1",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn active",
+        "text": "1R",
+        "encp": "6nWOJ2YgWUh0vVMBoyI8CGUBSFfqtZ4mnlLTLIImIhY",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "二分戦",
+        "provider": "アオケイ",
+        "updated_at": null,
+        "line_groups": [
+          [
+            3,
+            2,
+            4,
+            5,
+            7,
+            6
+          ]
+        ],
+        "target_text": "並び予想\t\t\n\n二分戦\n\n\t\t\n\n競\n\n\t \n\n\t3\t2\t4\t\t5\t\t7\t6\t\t\t\t\t\t\n \t\t1\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<div><table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"nibusen\">二分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"><p class=\"seri\">競</p></td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr><tr><td>&nbsp;</td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table></div>",
+        "number_debug": [
+          {
+            "number": 3,
+            "x": 506.66668701171875,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_3",
+            "parentClass": ""
+          },
+          {
+            "number": 2,
+            "x": 521.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_2",
+            "parentClass": ""
+          },
+          {
+            "number": 4,
+            "x": 536.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_4",
+            "parentClass": ""
+          },
+          {
+            "number": 5,
+            "x": 566.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_5",
+            "parentClass": ""
+          },
+          {
+            "number": 7,
+            "x": 596.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_7",
+            "parentClass": ""
+          },
+          {
+            "number": 6,
+            "x": 611.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_6",
+            "parentClass": ""
+          }
+        ],
+        "gaps_debug": [
+          0,
+          0,
+          15,
+          15,
+          0
+        ],
+        "base_gap_debug": 0,
+        "split_threshold_debug": 18
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 2,
+      "race_key": "20260709_函館_2R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 2,
+        "id": "hhRaceBtn2",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "2R",
+        "encp": "6nWOJ2YgWUh0vVMBoyI8CK4_EaVXuP7p8UifiORFTTM",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "二分戦",
+        "provider": "アオケイ",
+        "updated_at": null,
+        "line_groups": [
+          [
+            4,
+            1,
+            2,
+            5,
+            7,
+            6
+          ]
+        ],
+        "target_text": "並び予想\t\t\n\n二分戦\n\n\t\t\n\n競\n\n\t \n\n\t4\t1\t2\t\t5\t7\t\t6\t\t\t\t\t\t\n \t\t3\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<div><table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"nibusen\">二分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"><p class=\"seri\">競</p></td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr><tr><td>&nbsp;</td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table></div>",
+        "number_debug": [
+          {
+            "number": 4,
+            "x": 506.66668701171875,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_4",
+            "parentClass": ""
+          },
+          {
+            "number": 1,
+            "x": 521.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_1",
+            "parentClass": ""
+          },
+          {
+            "number": 2,
+            "x": 536.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_2",
+            "parentClass": ""
+          },
+          {
+            "number": 5,
+            "x": 566.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_5",
+            "parentClass": ""
+          },
+          {
+            "number": 7,
+            "x": 581.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_7",
+            "parentClass": ""
+          },
+          {
+            "number": 6,
+            "x": 611.6666870117188,
+            "y": 1443.7396240234375,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_6",
+            "parentClass": ""
+          }
+        ],
+        "gaps_debug": [
+          0,
+          0,
+          15,
+          0,
+          15
+        ],
+        "base_gap_debug": 0,
+        "split_threshold_debug": 18
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 3,
+      "race_key": "20260709_函館_3R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 3,
+        "id": "hhRaceBtn3",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "3R",
+        "encp": "6nWOJ2YgWUh0vVMBoyI8CGdv8OGkTdxnHEldBh_Oxx4",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "二分戦",
+        "provider": "アオケイ",
+        "updated_at": null,
+        "line_groups": [
+          [
+            1,
+            2,
+            6,
+            7,
+            3,
+            4,
+            5
+          ]
+        ],
+        "target_text": "並び予想\t\t\n\n二分戦\n\n\t\t\t \n\n\t1\t2\t6\t7\t\t3\t\t4\t5\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<div><table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"nibusen\">二分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table></div>",
+        "number_debug": [
+          {
+            "number": 1,
+            "x": 506.66668701171875,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_1",
+            "parentClass": ""
+          },
+          {
+            "number": 2,
+            "x": 521.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_2",
+            "parentClass": ""
+          },
+          {
+            "number": 6,
+            "x": 536.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_6",
+            "parentClass": ""
+          },
+          {
+            "number": 7,
+            "x": 551.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_7",
+            "parentClass": ""
+          },
+          {
+            "number": 3,
+            "x": 581.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_3",
+            "parentClass": ""
+          },
+          {
+            "number": 4,
+            "x": 611.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_4",
+            "parentClass": ""
+          },
+          {
+            "number": 5,
+            "x": 626.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_5",
+            "parentClass": ""
+          }
+        ],
+        "gaps_debug": [
+          0,
+          0,
+          0,
+          15,
+          15,
+          0
+        ],
+        "base_gap_debug": 0,
+        "split_threshold_debug": 18
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 4,
+      "race_key": "20260709_函館_4R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 4,
+        "id": "hhRaceBtn4",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "4R",
+        "encp": "6nWOJ2YgWUh0vVMBoyI8CM9bxkErDDfIdDe6Hikzlyo",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": null,
+        "provider": "アオケイ",
+        "updated_at": null,
+        "line_groups": [
+          [
+            3,
+            4,
+            7,
+            1,
+            6,
+            5,
+            2
+          ]
+        ],
+        "target_text": "並び予想\t\t\n\nコマ切れ\n\n\t\t\t \n\n\t3\t4\t7\t\t1\t\t6\t\t5\t2\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<div><table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"komagire\">コマ切れ</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table></div>",
+        "number_debug": [
+          {
+            "number": 3,
+            "x": 506.66668701171875,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_3",
+            "parentClass": ""
+          },
+          {
+            "number": 4,
+            "x": 521.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_4",
+            "parentClass": ""
+          },
+          {
+            "number": 7,
+            "x": 536.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_7",
+            "parentClass": ""
+          },
+          {
+            "number": 1,
+            "x": 566.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_1",
+            "parentClass": ""
+          },
+          {
+            "number": 6,
+            "x": 596.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_6",
+            "parentClass": ""
+          },
+          {
+            "number": 5,
+            "x": 626.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_5",
+            "parentClass": ""
+          },
+          {
+            "number": 2,
+            "x": 641.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_2",
+            "parentClass": ""
+          }
+        ],
+        "gaps_debug": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          0
+        ],
+        "base_gap_debug": 15,
+        "split_threshold_debug": 33
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 5,
+      "race_key": "20260709_函館_5R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 5,
+        "id": "hhRaceBtn5",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "5R",
+        "encp": "6nWOJ2YgWUh0vVMBoyI8CFjcdCVRYeURNfWq9lGVxhA",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": null,
+        "provider": "アオケイ",
+        "updated_at": null,
+        "line_groups": [
+          [
+            1,
+            4,
+            5,
+            3,
+            2,
+            6,
+            7
+          ]
+        ],
+        "target_text": "並び予想\t\t\n\nコマ切れ\n\n\t\t\t \n\n\t1\t4\t5\t\t3\t2\t\t6\t\t7\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<div><table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"komagire\">コマ切れ</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table></div>",
+        "number_debug": [
+          {
+            "number": 1,
+            "x": 506.66668701171875,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_1",
+            "parentClass": ""
+          },
+          {
+            "number": 4,
+            "x": 521.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_4",
+            "parentClass": ""
+          },
+          {
+            "number": 5,
+            "x": 536.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_5",
+            "parentClass": ""
+          },
+          {
+            "number": 3,
+            "x": 566.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_3",
+            "parentClass": ""
+          },
+          {
+            "number": 2,
+            "x": 581.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_2",
+            "parentClass": ""
+          },
+          {
+            "number": 6,
+            "x": 611.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_6",
+            "parentClass": ""
+          },
+          {
+            "number": 7,
+            "x": 641.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_7",
+            "parentClass": ""
+          }
+        ],
+        "gaps_debug": [
+          0,
+          0,
+          15,
+          0,
+          15,
+          15
+        ],
+        "base_gap_debug": 15,
+        "split_threshold_debug": 33
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 6,
+      "race_key": "20260709_函館_6R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 6,
+        "id": "hhRaceBtn6",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "6R",
+        "encp": "6nWOJ2YgWUh0vVMBoyI8CAIqhrJXVn8HQ7XwrPpaE1c",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "二分戦",
+        "provider": "アオケイ",
+        "updated_at": null,
+        "line_groups": [
+          [
+            1,
+            5,
+            2,
+            6,
+            3,
+            4,
+            7
+          ]
+        ],
+        "target_text": "並び予想\t\t\n\n二分戦\n\n\t\t\t \n\n\t1\t5\t2\t\t6\t3\t4\t\t7\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<div><table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"nibusen\">二分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table></div>",
+        "number_debug": [
+          {
+            "number": 1,
+            "x": 506.66668701171875,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_1",
+            "parentClass": ""
+          },
+          {
+            "number": 5,
+            "x": 521.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_5",
+            "parentClass": ""
+          },
+          {
+            "number": 2,
+            "x": 536.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_2",
+            "parentClass": ""
+          },
+          {
+            "number": 6,
+            "x": 566.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_6",
+            "parentClass": ""
+          },
+          {
+            "number": 3,
+            "x": 581.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_3",
+            "parentClass": ""
+          },
+          {
+            "number": 4,
+            "x": 596.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_4",
+            "parentClass": ""
+          },
+          {
+            "number": 7,
+            "x": 626.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_7",
+            "parentClass": ""
+          }
+        ],
+        "gaps_debug": [
+          0,
+          0,
+          15,
+          0,
+          0,
+          15
+        ],
+        "base_gap_debug": 0,
+        "split_threshold_debug": 18
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 7,
+      "race_key": "20260709_函館_7R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 7,
+        "id": "hhRaceBtn7",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "7R",
+        "encp": "6nWOJ2YgWUh0vVMBoyI8CMyS08bGZic9emhvhKX8org",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "三分戦",
+        "provider": "アオケイ",
+        "updated_at": null,
+        "line_groups": [
+          [
+            2,
+            1,
+            3,
+            4,
+            5,
+            7,
+            6
+          ]
+        ],
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t2\t1\t3\t\t4\t5\t\t7\t6\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<div><table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table></div>",
+        "number_debug": [
+          {
+            "number": 2,
+            "x": 506.66668701171875,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_2",
+            "parentClass": ""
+          },
+          {
+            "number": 1,
+            "x": 521.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_1",
+            "parentClass": ""
+          },
+          {
+            "number": 3,
+            "x": 536.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_3",
+            "parentClass": ""
+          },
+          {
+            "number": 4,
+            "x": 566.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_4",
+            "parentClass": ""
+          },
+          {
+            "number": 5,
+            "x": 581.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_5",
+            "parentClass": ""
+          },
+          {
+            "number": 7,
+            "x": 611.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_7",
+            "parentClass": ""
+          },
+          {
+            "number": 6,
+            "x": 626.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_6",
+            "parentClass": ""
+          }
+        ],
+        "gaps_debug": [
+          0,
+          0,
+          15,
+          0,
+          15,
+          0
+        ],
+        "base_gap_debug": 0,
+        "split_threshold_debug": 18
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 8,
+      "race_key": "20260709_函館_8R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 8,
+        "id": "hhRaceBtn8",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "8R",
+        "encp": "6nWOJ2YgWUh0vVMBoyI8CHjIq36nX2eJrOw_NzRVBnk",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "三分戦",
+        "provider": "アオケイ",
+        "updated_at": null,
+        "line_groups": [
+          [
+            1,
+            2,
+            6,
+            3,
+            7,
+            5,
+            4
+          ]
+        ],
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t1\t2\t6\t\t3\t7\t\t5\t4\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<div><table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table></div>",
+        "number_debug": [
+          {
+            "number": 1,
+            "x": 506.66668701171875,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_1",
+            "parentClass": ""
+          },
+          {
+            "number": 2,
+            "x": 521.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_2",
+            "parentClass": ""
+          },
+          {
+            "number": 6,
+            "x": 536.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_6",
+            "parentClass": ""
+          },
+          {
+            "number": 3,
+            "x": 566.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_3",
+            "parentClass": ""
+          },
+          {
+            "number": 7,
+            "x": 581.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_7",
+            "parentClass": ""
+          },
+          {
+            "number": 5,
+            "x": 611.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_5",
+            "parentClass": ""
+          },
+          {
+            "number": 4,
+            "x": 626.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_4",
+            "parentClass": ""
+          }
+        ],
+        "gaps_debug": [
+          0,
+          0,
+          15,
+          0,
+          15,
+          0
+        ],
+        "base_gap_debug": 0,
+        "split_threshold_debug": 18
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 9,
+      "race_key": "20260709_函館_9R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 9,
+        "id": "hhRaceBtn9",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "9R",
+        "encp": "6nWOJ2YgWUh0vVMBoyI8CAXey9v3GvW2IlnNsfcGr3o",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "三分戦",
+        "provider": "アオケイ",
+        "updated_at": null,
+        "line_groups": [
+          [
+            6,
+            1,
+            2,
+            3,
+            5,
+            7,
+            4
+          ]
+        ],
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t6\t1\t2\t\t3\t5\t\t7\t4\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<div><table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table></div>",
+        "number_debug": [
+          {
+            "number": 6,
+            "x": 506.66668701171875,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_6",
+            "parentClass": ""
+          },
+          {
+            "number": 1,
+            "x": 521.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_1",
+            "parentClass": ""
+          },
+          {
+            "number": 2,
+            "x": 536.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_2",
+            "parentClass": ""
+          },
+          {
+            "number": 3,
+            "x": 566.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_3",
+            "parentClass": ""
+          },
+          {
+            "number": 5,
+            "x": 581.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_5",
+            "parentClass": ""
+          },
+          {
+            "number": 7,
+            "x": 611.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_7",
+            "parentClass": ""
+          },
+          {
+            "number": 4,
+            "x": 626.6666870117188,
+            "y": 1454.8125,
+            "width": 15,
+            "height": 22,
+            "className": "snum base_color_4",
+            "parentClass": ""
+          }
+        ],
+        "gaps_debug": [
+          0,
+          0,
+          15,
+          0,
+          15,
+          0
+        ],
+        "base_gap_debug": 0,
+        "split_threshold_debug": 18
+      }
+    }
+  ]
+}

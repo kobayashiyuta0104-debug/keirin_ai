@@ -1,0 +1,6942 @@
+{
+  "program": "057_test.py",
+  "created_at": "2026-07-10T22:17:07.489549",
+  "purpose": "ABILITY_LINE_CONFIRMED_RESULT_RACE_KEY_MERGE",
+  "input_files": {
+    "ability": "C:\\競輪AI\\data_official\\pre_race\\046_jsj006_by_race_key\\046_jsj006_by_race_key.json",
+    "line": "C:\\競輪AI\\data_official\\line_predictions\\043_all_venues_official_lines.json",
+    "result": "C:\\競輪AI\\data_official\\confirmed_results\\056_jsj012_confirmed_results\\056_jsj012_confirmed_results.json"
+  },
+  "ability_race_key_count": 80,
+  "line_race_key_count": 80,
+  "result_race_key_count": 80,
+  "all_race_key_count": 80,
+  "ready_for_ai_count": 36,
+  "status_summary": {
+    "READY_FOR_AI": 36,
+    "EXCLUDED": 44
+  },
+  "label_summary": {
+    "UNDER_10000": 26,
+    "20000_49999": 4,
+    "10000_19999": 6
+  },
+  "races": [
+    {
+      "race_key": "20260710_いわき平_1R",
+      "race_date": "20260710",
+      "venue": "いわき平",
+      "race_no": 1,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "014261",
+            "name": "作田　悦章",
+            "average_score": 89.24,
+            "win_rate": 11.0,
+            "quinella_rate": 30.0,
+            "trio_rate": 53.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "012878",
+            "name": "安藤　宜明",
+            "average_score": 79.33,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 12.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015987",
+            "name": "松田　祥位",
+            "average_score": 74.0,
+            "win_rate": 0.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 4,
+            "player_id": "013768",
+            "name": "旭　啓介",
+            "average_score": 71.92,
+            "win_rate": 21.0,
+            "quinella_rate": 28.0,
+            "trio_rate": 35.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014413",
+            "name": "松本　充生",
+            "average_score": 69.54,
+            "win_rate": 20.0,
+            "quinella_rate": 29.0,
+            "trio_rate": 41.0,
+            "nige_count": 3,
+            "makuri_count": 1,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 6,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 6,
+            "player_id": "011382",
+            "name": "清水　広幸",
+            "average_score": 62.6,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 0.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014395",
+            "name": "竹田　慎一",
+            "average_score": 62.0,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 0.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          }
+        ],
+        "line": {
+          "prediction_type": "二分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              3,
+              2,
+              4
+            ],
+            [
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "competition_rows": [
+            {
+              "row_index": 1,
+              "car_numbers": [
+                1
+              ],
+              "car_cell_indexes": [
+                2
+              ],
+              "reconstructed_lines": [
+                [
+                  1
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "result": {
+        "first": 3,
+        "second": 5,
+        "third": 4,
+        "finish_order": [
+          3,
+          5,
+          4,
+          1,
+          2,
+          7,
+          6
+        ],
+        "trifecta_combination": "3-5-4",
+        "trifecta_payout": 1620,
+        "trifecta_popularity": 6
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_いわき平_2R",
+      "race_date": "20260710",
+      "venue": "いわき平",
+      "race_no": 2,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "013456",
+            "name": "小林　和彦",
+            "average_score": 82.0,
+            "win_rate": 0.0,
+            "quinella_rate": 14.0,
+            "trio_rate": 33.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "012634",
+            "name": "大薗　宏",
+            "average_score": 74.66,
+            "win_rate": 11.0,
+            "quinella_rate": 22.0,
+            "trio_rate": 66.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 3,
+            "player_id": "012913",
+            "name": "増田　鉄男",
+            "average_score": 74.33,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 66.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015972",
+            "name": "佐藤　凱王",
+            "average_score": 72.0,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 0.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014644",
+            "name": "高橋　明久",
+            "average_score": 68.66,
+            "win_rate": 7.0,
+            "quinella_rate": 15.0,
+            "trio_rate": 30.0,
+            "nige_count": 2,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 5,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014844",
+            "name": "三登　誉哲",
+            "average_score": 67.5,
+            "win_rate": 7.0,
+            "quinella_rate": 14.0,
+            "trio_rate": 21.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "012938",
+            "name": "鈴木　規純",
+            "average_score": 67.2,
+            "win_rate": 4.0,
+            "quinella_rate": 8.0,
+            "trio_rate": 20.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          }
+        ],
+        "line": {
+          "prediction_type": "二分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              4,
+              1,
+              2
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6
+            ]
+          ],
+          "competition_rows": [
+            {
+              "row_index": 1,
+              "car_numbers": [
+                3
+              ],
+              "car_cell_indexes": [
+                2
+              ],
+              "reconstructed_lines": [
+                [
+                  3
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "result": {
+        "first": 5,
+        "second": 4,
+        "third": 7,
+        "finish_order": [
+          5,
+          4,
+          7,
+          2,
+          6,
+          1,
+          3
+        ],
+        "trifecta_combination": "5-4-7",
+        "trifecta_payout": 29330,
+        "trifecta_popularity": 67
+      },
+      "label": {
+        "payout_20000_plus": 1,
+        "payout_50000_plus": 0,
+        "payout_class": "20000_49999"
+      }
+    },
+    {
+      "race_key": "20260710_いわき平_3R",
+      "race_date": "20260710",
+      "venue": "いわき平",
+      "race_no": 3,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "014487",
+            "name": "才迫　勇馬",
+            "average_score": 85.59,
+            "win_rate": 29.0,
+            "quinella_rate": 55.0,
+            "trio_rate": 59.0,
+            "nige_count": 8,
+            "makuri_count": 3,
+            "sashi_count": 2,
+            "mark_count": 2,
+            "back_count": 14,
+            "class": "A3",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "013735",
+            "name": "井上　剛",
+            "average_score": 81.5,
+            "win_rate": 0.0,
+            "quinella_rate": 20.0,
+            "trio_rate": 40.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014389",
+            "name": "村本　慎吾",
+            "average_score": 72.81,
+            "win_rate": 18.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 48.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015905",
+            "name": "上野　幸星",
+            "average_score": 72.4,
+            "win_rate": 9.0,
+            "quinella_rate": 31.0,
+            "trio_rate": 54.0,
+            "nige_count": 4,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 6,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 5,
+            "player_id": "013266",
+            "name": "伊藤　嘉浩",
+            "average_score": 69.55,
+            "win_rate": 14.0,
+            "quinella_rate": 22.0,
+            "trio_rate": 40.0,
+            "nige_count": 1,
+            "makuri_count": 1,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 2,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014686",
+            "name": "秋永　昂人",
+            "average_score": 69.37,
+            "win_rate": 10.0,
+            "quinella_rate": 25.0,
+            "trio_rate": 42.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 2,
+            "mark_count": 4,
+            "back_count": 1,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "013972",
+            "name": "富永　昌久",
+            "average_score": 68.66,
+            "win_rate": 0.0,
+            "quinella_rate": 7.0,
+            "trio_rate": 35.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          }
+        ],
+        "line": {
+          "prediction_type": "二分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              1,
+              2,
+              6,
+              7
+            ],
+            [
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 6,
+        "second": 1,
+        "third": 2,
+        "finish_order": [
+          6,
+          1,
+          2,
+          7,
+          3,
+          5,
+          4
+        ],
+        "trifecta_combination": "6-1-2",
+        "trifecta_payout": 9520,
+        "trifecta_popularity": 21
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_いわき平_4R",
+      "race_date": "20260710",
+      "venue": "いわき平",
+      "race_no": 4,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "014316",
+            "name": "山崎　光展",
+            "average_score": 80.27,
+            "win_rate": 4.0,
+            "quinella_rate": 9.0,
+            "trio_rate": 40.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "012997",
+            "name": "後田　康成",
+            "average_score": 71.9,
+            "win_rate": 31.0,
+            "quinella_rate": 40.0,
+            "trio_rate": 45.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 7,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015961",
+            "name": "榊枝　天旺",
+            "average_score": 71.88,
+            "win_rate": 0.0,
+            "quinella_rate": 22.0,
+            "trio_rate": 44.0,
+            "nige_count": 1,
+            "makuri_count": 1,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 2,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014432",
+            "name": "相澤　恵一",
+            "average_score": 69.46,
+            "win_rate": 7.0,
+            "quinella_rate": 7.0,
+            "trio_rate": 35.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 5,
+            "player_id": "013375",
+            "name": "五反田　豊和",
+            "average_score": 68.29,
+            "win_rate": 8.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 37.0,
+            "nige_count": 4,
+            "makuri_count": 1,
+            "sashi_count": 3,
+            "mark_count": 0,
+            "back_count": 6,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014482",
+            "name": "松本　琢也",
+            "average_score": 67.27,
+            "win_rate": 18.0,
+            "quinella_rate": 18.0,
+            "trio_rate": 27.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 2,
+            "class": "A3",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014433",
+            "name": "長田　彰人",
+            "average_score": 66.41,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 25.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A3",
+            "previous_class": "A3"
+          }
+        ],
+        "line": {
+          "prediction_type": "コマ切れ",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              3,
+              4,
+              7
+            ],
+            [
+              1
+            ],
+            [
+              6
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 4,
+        "second": 3,
+        "third": 7,
+        "finish_order": [
+          4,
+          3,
+          7,
+          2,
+          1,
+          5,
+          6
+        ],
+        "trifecta_combination": "4-3-7",
+        "trifecta_payout": 1860,
+        "trifecta_popularity": 4
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_10R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 10,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "014977",
+            "name": "川口　聖二",
+            "average_score": 103.76,
+            "win_rate": 9.0,
+            "quinella_rate": 28.0,
+            "trio_rate": 43.0,
+            "nige_count": 2,
+            "makuri_count": 3,
+            "sashi_count": 1,
+            "mark_count": 3,
+            "back_count": 10,
+            "class": "S1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015206",
+            "name": "鶴　良生",
+            "average_score": 93.27,
+            "win_rate": 27.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 54.0,
+            "nige_count": 3,
+            "makuri_count": 4,
+            "sashi_count": 4,
+            "mark_count": 0,
+            "back_count": 4,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015236",
+            "name": "藤根　俊貴",
+            "average_score": 97.33,
+            "win_rate": 9.0,
+            "quinella_rate": 19.0,
+            "trio_rate": 33.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 3,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015389",
+            "name": "宮崎　大空",
+            "average_score": 101.43,
+            "win_rate": 13.0,
+            "quinella_rate": 26.0,
+            "trio_rate": 46.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 6,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "130133",
+            "name": "リチャードソ",
+            "average_score": 102.83,
+            "win_rate": 16.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 66.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 2,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013593",
+            "name": "大野　悟郎",
+            "average_score": 92.81,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 6.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "013118",
+            "name": "山内　卓也",
+            "average_score": 97.33,
+            "win_rate": 9.0,
+            "quinella_rate": 18.0,
+            "trio_rate": 24.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 5,
+        "second": 7,
+        "third": 1,
+        "finish_order": [
+          5,
+          7,
+          1,
+          4,
+          3,
+          6,
+          2
+        ],
+        "trifecta_combination": "5-7-1",
+        "trifecta_payout": 5810,
+        "trifecta_popularity": 19
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_11R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 11,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "013883",
+            "name": "高津　晃治",
+            "average_score": 98.42,
+            "win_rate": 10.0,
+            "quinella_rate": 17.0,
+            "trio_rate": 31.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "130127",
+            "name": "トゥルーマン",
+            "average_score": 106.22,
+            "win_rate": 33.0,
+            "quinella_rate": 55.0,
+            "trio_rate": 77.0,
+            "nige_count": 5,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 6,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "013808",
+            "name": "坂本　健太郎",
+            "average_score": 103.89,
+            "win_rate": 10.0,
+            "quinella_rate": 24.0,
+            "trio_rate": 44.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015663",
+            "name": "松本　秀之慎",
+            "average_score": 102.71,
+            "win_rate": 10.0,
+            "quinella_rate": 28.0,
+            "trio_rate": 57.0,
+            "nige_count": 0,
+            "makuri_count": 6,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 5,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "012881",
+            "name": "白戸　淳太郎",
+            "average_score": 91.06,
+            "win_rate": 13.0,
+            "quinella_rate": 20.0,
+            "trio_rate": 33.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "015818",
+            "name": "佐藤　大地",
+            "average_score": 87.5,
+            "win_rate": 31.0,
+            "quinella_rate": 37.0,
+            "trio_rate": 43.0,
+            "nige_count": 3,
+            "makuri_count": 3,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 13,
+            "class": "S2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "013628",
+            "name": "石毛　克幸",
+            "average_score": 102.48,
+            "win_rate": 20.0,
+            "quinella_rate": 36.0,
+            "trio_rate": 48.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 5,
+            "mark_count": 2,
+            "back_count": 1,
+            "class": "S1",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              4,
+              3,
+              1
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 2,
+        "second": 7,
+        "third": 4,
+        "finish_order": [
+          2,
+          7,
+          4,
+          3,
+          1,
+          6,
+          5
+        ],
+        "trifecta_combination": "2-7-4",
+        "trifecta_payout": 550,
+        "trifecta_popularity": 1
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_12R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 12,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015417",
+            "name": "櫻井　祐太郎",
+            "average_score": 106.28,
+            "win_rate": 20.0,
+            "quinella_rate": 40.0,
+            "trio_rate": 44.0,
+            "nige_count": 6,
+            "makuri_count": 2,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 9,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "013772",
+            "name": "岡村　潤",
+            "average_score": 105.03,
+            "win_rate": 14.0,
+            "quinella_rate": 35.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 6,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014681",
+            "name": "松浦　悠士",
+            "average_score": 116.32,
+            "win_rate": 41.0,
+            "quinella_rate": 55.0,
+            "trio_rate": 62.0,
+            "nige_count": 0,
+            "makuri_count": 6,
+            "sashi_count": 9,
+            "mark_count": 1,
+            "back_count": 2,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014534",
+            "name": "深谷　知広",
+            "average_score": 115.25,
+            "win_rate": 50.0,
+            "quinella_rate": 62.0,
+            "trio_rate": 62.0,
+            "nige_count": 3,
+            "makuri_count": 9,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 8,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015597",
+            "name": "太田　海也",
+            "average_score": 118.33,
+            "win_rate": 28.0,
+            "quinella_rate": 28.0,
+            "trio_rate": 28.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 3,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014122",
+            "name": "松岡　貴久",
+            "average_score": 104.31,
+            "win_rate": 4.0,
+            "quinella_rate": 20.0,
+            "trio_rate": 45.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014553",
+            "name": "久米　良",
+            "average_score": 107.15,
+            "win_rate": 0.0,
+            "quinella_rate": 7.0,
+            "trio_rate": 15.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          }
+        ],
+        "line": {
+          "prediction_type": "コマ切れ",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              3,
+              7
+            ],
+            [
+              1
+            ],
+            [
+              6
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 3,
+        "second": 4,
+        "third": 5,
+        "finish_order": [
+          3,
+          4,
+          5,
+          7,
+          6,
+          2,
+          1
+        ],
+        "trifecta_combination": "3-4-5",
+        "trifecta_payout": 1460,
+        "trifecta_popularity": 4
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_1R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 1,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015212",
+            "name": "山口　龍也",
+            "average_score": 87.9,
+            "win_rate": 19.0,
+            "quinella_rate": 38.0,
+            "trio_rate": 52.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 7,
+            "mark_count": 0,
+            "back_count": 1,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015084",
+            "name": "菅田　謙仁",
+            "average_score": 81.14,
+            "win_rate": 0.0,
+            "quinella_rate": 11.0,
+            "trio_rate": 25.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 9,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015351",
+            "name": "宮下　一歩",
+            "average_score": 86.79,
+            "win_rate": 16.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 58.0,
+            "nige_count": 10,
+            "makuri_count": 1,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 18,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014037",
+            "name": "橋本　勝弘",
+            "average_score": 85.8,
+            "win_rate": 14.0,
+            "quinella_rate": 19.0,
+            "trio_rate": 52.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015652",
+            "name": "橋本　陸",
+            "average_score": 84.85,
+            "win_rate": 18.0,
+            "quinella_rate": 29.0,
+            "trio_rate": 44.0,
+            "nige_count": 6,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 12,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013581",
+            "name": "薮　謙治",
+            "average_score": 74.52,
+            "win_rate": 14.0,
+            "quinella_rate": 42.0,
+            "trio_rate": 61.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 6,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014056",
+            "name": "橋本　紀彰",
+            "average_score": 83.41,
+            "win_rate": 4.0,
+            "quinella_rate": 12.0,
+            "trio_rate": 36.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              2,
+              6
+            ],
+            [
+              5,
+              1,
+              4
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 3,
+        "second": 2,
+        "third": 7,
+        "finish_order": [
+          3,
+          2,
+          7,
+          6,
+          4,
+          1,
+          5
+        ],
+        "trifecta_combination": "3-2-7",
+        "trifecta_payout": 30160,
+        "trifecta_popularity": 74
+      },
+      "label": {
+        "payout_20000_plus": 1,
+        "payout_50000_plus": 0,
+        "payout_class": "20000_49999"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_2R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 2,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015903",
+            "name": "谷澤　優貴",
+            "average_score": 83.58,
+            "win_rate": 54.0,
+            "quinella_rate": 58.0,
+            "trio_rate": 62.0,
+            "nige_count": 6,
+            "makuri_count": 8,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 9,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014821",
+            "name": "原岡　泰志郎",
+            "average_score": 87.74,
+            "win_rate": 14.0,
+            "quinella_rate": 25.0,
+            "trio_rate": 51.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "012640",
+            "name": "北村　貴幸",
+            "average_score": 84.5,
+            "win_rate": 0.0,
+            "quinella_rate": 8.0,
+            "trio_rate": 16.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014728",
+            "name": "三好　恵一郎",
+            "average_score": 88.8,
+            "win_rate": 12.0,
+            "quinella_rate": 31.0,
+            "trio_rate": 37.0,
+            "nige_count": 2,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 4,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014938",
+            "name": "夏目　新吾",
+            "average_score": 83.47,
+            "win_rate": 14.0,
+            "quinella_rate": 14.0,
+            "trio_rate": 23.0,
+            "nige_count": 3,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 12,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014393",
+            "name": "柴田　祐也",
+            "average_score": 80.45,
+            "win_rate": 18.0,
+            "quinella_rate": 18.0,
+            "trio_rate": 22.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014934",
+            "name": "渋谷　錬",
+            "average_score": 85.59,
+            "win_rate": 18.0,
+            "quinella_rate": 25.0,
+            "trio_rate": 48.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 6,
+            "mark_count": 1,
+            "back_count": 1,
+            "class": "A1",
+            "previous_class": "A2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              5,
+              2,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 4,
+        "second": 5,
+        "third": 7,
+        "finish_order": [
+          4,
+          5,
+          7,
+          2,
+          1,
+          3,
+          6
+        ],
+        "trifecta_combination": "4-5-7",
+        "trifecta_payout": 17420,
+        "trifecta_popularity": 58
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "10000_19999"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_3R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 3,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015095",
+            "name": "遠藤　勝弥",
+            "average_score": 84.8,
+            "win_rate": 13.0,
+            "quinella_rate": 18.0,
+            "trio_rate": 31.0,
+            "nige_count": 1,
+            "makuri_count": 2,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 3,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "013817",
+            "name": "吉川　裕二",
+            "average_score": 84.0,
+            "win_rate": 0.0,
+            "quinella_rate": 18.0,
+            "trio_rate": 31.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014950",
+            "name": "市村　昌樹",
+            "average_score": 81.7,
+            "win_rate": 9.0,
+            "quinella_rate": 14.0,
+            "trio_rate": 23.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 1,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "012882",
+            "name": "鈴木　愼二",
+            "average_score": 80.25,
+            "win_rate": 0.0,
+            "quinella_rate": 4.0,
+            "trio_rate": 12.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014591",
+            "name": "本多　哲也",
+            "average_score": 88.59,
+            "win_rate": 22.0,
+            "quinella_rate": 40.0,
+            "trio_rate": 66.0,
+            "nige_count": 1,
+            "makuri_count": 6,
+            "sashi_count": 2,
+            "mark_count": 2,
+            "back_count": 5,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "015210",
+            "name": "白濱　一平",
+            "average_score": 76.34,
+            "win_rate": 56.0,
+            "quinella_rate": 73.0,
+            "trio_rate": 78.0,
+            "nige_count": 3,
+            "makuri_count": 6,
+            "sashi_count": 8,
+            "mark_count": 0,
+            "back_count": 8,
+            "class": "A2",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015057",
+            "name": "小林　史也",
+            "average_score": 82.36,
+            "win_rate": 4.0,
+            "quinella_rate": 17.0,
+            "trio_rate": 30.0,
+            "nige_count": 4,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 11,
+            "class": "A2",
+            "previous_class": "A1"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              5,
+              1,
+              4
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 6,
+        "second": 1,
+        "third": 5,
+        "finish_order": [
+          6,
+          1,
+          5,
+          4,
+          2,
+          3,
+          7
+        ],
+        "trifecta_combination": "6-1-5",
+        "trifecta_payout": 3000,
+        "trifecta_popularity": 11
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_4R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 4,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "013845",
+            "name": "加賀美　智史",
+            "average_score": 82.26,
+            "win_rate": 7.0,
+            "quinella_rate": 23.0,
+            "trio_rate": 26.0,
+            "nige_count": 1,
+            "makuri_count": 2,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 2,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014439",
+            "name": "山崎　司",
+            "average_score": 87.18,
+            "win_rate": 7.0,
+            "quinella_rate": 22.0,
+            "trio_rate": 48.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "011619",
+            "name": "疋田　敏",
+            "average_score": 84.54,
+            "win_rate": 4.0,
+            "quinella_rate": 16.0,
+            "trio_rate": 41.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 3,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "013839",
+            "name": "若林　耕司",
+            "average_score": 81.65,
+            "win_rate": 4.0,
+            "quinella_rate": 13.0,
+            "trio_rate": 21.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014820",
+            "name": "中井　勇介",
+            "average_score": 88.63,
+            "win_rate": 25.0,
+            "quinella_rate": 45.0,
+            "trio_rate": 60.0,
+            "nige_count": 4,
+            "makuri_count": 2,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 5,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013069",
+            "name": "白川　有司",
+            "average_score": 73.96,
+            "win_rate": 6.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 5,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015872",
+            "name": "池田　充槻",
+            "average_score": 78.72,
+            "win_rate": 76.0,
+            "quinella_rate": 84.0,
+            "trio_rate": 84.0,
+            "nige_count": 15,
+            "makuri_count": 6,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 19,
+            "class": "A2",
+            "previous_class": "A3"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              1,
+              4
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              5,
+              3,
+              6
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 7,
+        "second": 5,
+        "third": 3,
+        "finish_order": [
+          7,
+          5,
+          3,
+          6,
+          1,
+          2,
+          4
+        ],
+        "trifecta_combination": "7-5-3",
+        "trifecta_payout": 1480,
+        "trifecta_popularity": 4
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_5R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 5,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015240",
+            "name": "前川　大輔",
+            "average_score": 91.8,
+            "win_rate": 18.0,
+            "quinella_rate": 43.0,
+            "trio_rate": 56.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 4,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015445",
+            "name": "内藤　久文",
+            "average_score": 93.34,
+            "win_rate": 0.0,
+            "quinella_rate": 6.0,
+            "trio_rate": 13.0,
+            "nige_count": 2,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 14,
+            "class": "A1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015059",
+            "name": "畝木　努",
+            "average_score": 93.76,
+            "win_rate": 38.0,
+            "quinella_rate": 61.0,
+            "trio_rate": 71.0,
+            "nige_count": 8,
+            "makuri_count": 2,
+            "sashi_count": 3,
+            "mark_count": 0,
+            "back_count": 13,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014059",
+            "name": "高塩　讓次",
+            "average_score": 98.76,
+            "win_rate": 3.0,
+            "quinella_rate": 23.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015267",
+            "name": "橋本　英也",
+            "average_score": 90.0,
+            "win_rate": 16.0,
+            "quinella_rate": 66.0,
+            "trio_rate": 66.0,
+            "nige_count": 1,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 2,
+            "class": "A1",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013188",
+            "name": "山田　幸司",
+            "average_score": 89.16,
+            "win_rate": 8.0,
+            "quinella_rate": 16.0,
+            "trio_rate": 58.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015375",
+            "name": "村上　竜馬",
+            "average_score": 97.77,
+            "win_rate": 9.0,
+            "quinella_rate": 18.0,
+            "trio_rate": 31.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 1,
+            "class": "A1",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              3,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 7,
+        "second": 4,
+        "third": 3,
+        "finish_order": [
+          7,
+          4,
+          3,
+          5,
+          1,
+          2,
+          6
+        ],
+        "trifecta_combination": "7-4-3",
+        "trifecta_payout": 3260,
+        "trifecta_popularity": 8
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_8R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 8,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015694",
+            "name": "浮島　知稀",
+            "average_score": 96.25,
+            "win_rate": 14.0,
+            "quinella_rate": 17.0,
+            "trio_rate": 28.0,
+            "nige_count": 5,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 11,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014558",
+            "name": "松尾　透",
+            "average_score": 97.77,
+            "win_rate": 3.0,
+            "quinella_rate": 16.0,
+            "trio_rate": 40.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 2,
+            "back_count": 1,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014253",
+            "name": "伊藤　信",
+            "average_score": 103.07,
+            "win_rate": 23.0,
+            "quinella_rate": 38.0,
+            "trio_rate": 42.0,
+            "nige_count": 1,
+            "makuri_count": 9,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 4,
+            "class": "S1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015466",
+            "name": "久田　裕也",
+            "average_score": 104.08,
+            "win_rate": 16.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 62.0,
+            "nige_count": 3,
+            "makuri_count": 7,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 7,
+            "class": "S2",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014313",
+            "name": "小谷　実",
+            "average_score": 94.62,
+            "win_rate": 0.0,
+            "quinella_rate": 3.0,
+            "trio_rate": 11.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013394",
+            "name": "飯嶋　則之",
+            "average_score": 89.69,
+            "win_rate": 8.0,
+            "quinella_rate": 21.0,
+            "trio_rate": 34.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014041",
+            "name": "田中　誠",
+            "average_score": 104.16,
+            "win_rate": 8.0,
+            "quinella_rate": 40.0,
+            "trio_rate": 52.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 5,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "コマ切れ",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              1,
+              6
+            ],
+            [
+              5
+            ],
+            [
+              4,
+              7,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 7,
+        "second": 3,
+        "third": 2,
+        "finish_order": [
+          7,
+          3,
+          2,
+          4,
+          1,
+          5,
+          6
+        ],
+        "trifecta_combination": "7-3-2",
+        "trifecta_payout": 4890,
+        "trifecta_popularity": 11
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_伊東_9R",
+      "race_date": "20260710",
+      "venue": "伊東",
+      "race_no": 9,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "012889",
+            "name": "丸山　啓一",
+            "average_score": 100.67,
+            "win_rate": 10.0,
+            "quinella_rate": 25.0,
+            "trio_rate": 35.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 3,
+            "back_count": 1,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015269",
+            "name": "佐山　寛明",
+            "average_score": 97.78,
+            "win_rate": 10.0,
+            "quinella_rate": 15.0,
+            "trio_rate": 21.0,
+            "nige_count": 1,
+            "makuri_count": 1,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 2,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014138",
+            "name": "山下　渡",
+            "average_score": 103.65,
+            "win_rate": 8.0,
+            "quinella_rate": 26.0,
+            "trio_rate": 52.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014791",
+            "name": "木村　弘",
+            "average_score": 102.47,
+            "win_rate": 13.0,
+            "quinella_rate": 34.0,
+            "trio_rate": 39.0,
+            "nige_count": 4,
+            "makuri_count": 4,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 12,
+            "class": "S2",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014478",
+            "name": "内山　貴裕",
+            "average_score": 90.65,
+            "win_rate": 15.0,
+            "quinella_rate": 35.0,
+            "trio_rate": 50.0,
+            "nige_count": 1,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 3,
+            "back_count": 2,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014825",
+            "name": "稲葉　一真",
+            "average_score": 89.2,
+            "win_rate": 12.0,
+            "quinella_rate": 16.0,
+            "trio_rate": 40.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015289",
+            "name": "橋本　瑠偉",
+            "average_score": 98.46,
+            "win_rate": 23.0,
+            "quinella_rate": 26.0,
+            "trio_rate": 30.0,
+            "nige_count": 2,
+            "makuri_count": 4,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 9,
+            "class": "S1",
+            "previous_class": "S1"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "ひかり",
+          "main_lines": [
+            [
+              4,
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 2,
+        "second": 5,
+        "third": 3,
+        "finish_order": [
+          2,
+          5,
+          3,
+          4,
+          1,
+          6,
+          7
+        ],
+        "trifecta_combination": "2-5-3",
+        "trifecta_payout": 37330,
+        "trifecta_popularity": 75
+      },
+      "label": {
+        "payout_20000_plus": 1,
+        "payout_50000_plus": 0,
+        "payout_class": "20000_49999"
+      }
+    },
+    {
+      "race_key": "20260710_函館_10R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 10,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "013855",
+            "name": "近藤　俊明",
+            "average_score": 100.8,
+            "win_rate": 6.0,
+            "quinella_rate": 23.0,
+            "trio_rate": 36.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "012939",
+            "name": "伏見　俊昭",
+            "average_score": 106.8,
+            "win_rate": 19.0,
+            "quinella_rate": 28.0,
+            "trio_rate": 38.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 3,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014682",
+            "name": "原田　研太朗",
+            "average_score": 103.08,
+            "win_rate": 29.0,
+            "quinella_rate": 41.0,
+            "trio_rate": 47.0,
+            "nige_count": 5,
+            "makuri_count": 8,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 9,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015807",
+            "name": "塩島　嵩一朗",
+            "average_score": 100.94,
+            "win_rate": 22.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 55.0,
+            "nige_count": 3,
+            "makuri_count": 3,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 9,
+            "class": "S1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014348",
+            "name": "坂本　貴史",
+            "average_score": 99.36,
+            "win_rate": 4.0,
+            "quinella_rate": 36.0,
+            "trio_rate": 52.0,
+            "nige_count": 2,
+            "makuri_count": 4,
+            "sashi_count": 3,
+            "mark_count": 0,
+            "back_count": 2,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014222",
+            "name": "木暮　安由",
+            "average_score": 90.87,
+            "win_rate": 12.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "013945",
+            "name": "福田　知也",
+            "average_score": 98.31,
+            "win_rate": 6.0,
+            "quinella_rate": 20.0,
+            "trio_rate": 36.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 5,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          }
+        ],
+        "line": {
+          "prediction_type": "四分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              5,
+              2
+            ],
+            [
+              3
+            ],
+            [
+              6
+            ],
+            [
+              4,
+              1,
+              7
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 2,
+        "second": 5,
+        "third": 3,
+        "finish_order": [
+          2,
+          5,
+          3,
+          7,
+          6,
+          4,
+          1
+        ],
+        "trifecta_combination": "2-5-3",
+        "trifecta_payout": 11320,
+        "trifecta_popularity": 46
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "10000_19999"
+      }
+    },
+    {
+      "race_key": "20260710_函館_11R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 11,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015415",
+            "name": "坂本　紘規",
+            "average_score": 94.93,
+            "win_rate": 12.0,
+            "quinella_rate": 12.0,
+            "trio_rate": 12.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 3,
+            "class": "A1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015262",
+            "name": "内山　雅貴",
+            "average_score": 98.6,
+            "win_rate": 16.0,
+            "quinella_rate": 20.0,
+            "trio_rate": 44.0,
+            "nige_count": 2,
+            "makuri_count": 1,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 7,
+            "class": "A1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015194",
+            "name": "船瀬　惇平",
+            "average_score": 91.55,
+            "win_rate": 29.0,
+            "quinella_rate": 48.0,
+            "trio_rate": 62.0,
+            "nige_count": 6,
+            "makuri_count": 3,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 13,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015795",
+            "name": "今井　希",
+            "average_score": 88.95,
+            "win_rate": 12.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 58.0,
+            "nige_count": 11,
+            "makuri_count": 1,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 19,
+            "class": "A1",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "013901",
+            "name": "山田　敦也",
+            "average_score": 99.0,
+            "win_rate": 5.0,
+            "quinella_rate": 16.0,
+            "trio_rate": 44.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014654",
+            "name": "舘　真成",
+            "average_score": 79.84,
+            "win_rate": 7.0,
+            "quinella_rate": 15.0,
+            "trio_rate": 15.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014797",
+            "name": "佐々木　吉徳",
+            "average_score": 86.12,
+            "win_rate": 12.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 37.0,
+            "nige_count": 5,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 8,
+            "class": "A1",
+            "previous_class": "A1"
+          }
+        ],
+        "line": {
+          "prediction_type": "四分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              4,
+              6
+            ],
+            [
+              1,
+              7,
+              5
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 2,
+        "second": 7,
+        "third": 5,
+        "finish_order": [
+          2,
+          7,
+          5,
+          3,
+          4,
+          1,
+          6
+        ],
+        "trifecta_combination": "2-7-5",
+        "trifecta_payout": 1660,
+        "trifecta_popularity": 2
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_函館_12R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 12,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "014054",
+            "name": "新田　祐大",
+            "average_score": 112.58,
+            "win_rate": 16.0,
+            "quinella_rate": 37.0,
+            "trio_rate": 58.0,
+            "nige_count": 1,
+            "makuri_count": 5,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 5,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014140",
+            "name": "神山　拓弥",
+            "average_score": 109.04,
+            "win_rate": 7.0,
+            "quinella_rate": 23.0,
+            "trio_rate": 42.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015464",
+            "name": "町田　太我",
+            "average_score": 112.25,
+            "win_rate": 20.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 62.0,
+            "nige_count": 9,
+            "makuri_count": 3,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 12,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015789",
+            "name": "山崎　歩夢",
+            "average_score": 109.06,
+            "win_rate": 50.0,
+            "quinella_rate": 62.0,
+            "trio_rate": 62.0,
+            "nige_count": 7,
+            "makuri_count": 2,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 10,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014417",
+            "name": "山田　庸平",
+            "average_score": 115.57,
+            "win_rate": 30.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 61.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 9,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "015692",
+            "name": "松崎　広太",
+            "average_score": 106.69,
+            "win_rate": 30.0,
+            "quinella_rate": 60.0,
+            "trio_rate": 69.0,
+            "nige_count": 8,
+            "makuri_count": 5,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 11,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014794",
+            "name": "阿部　力也",
+            "average_score": 114.31,
+            "win_rate": 27.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 63.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 9,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              4,
+              1,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 1,
+        "second": 7,
+        "third": 5,
+        "finish_order": [
+          1,
+          7,
+          5,
+          3,
+          6,
+          4,
+          2
+        ],
+        "trifecta_combination": "1-7-5",
+        "trifecta_payout": 640,
+        "trifecta_popularity": 1
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_函館_1R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 1,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015379",
+            "name": "下野　義城",
+            "average_score": 80.63,
+            "win_rate": 5.0,
+            "quinella_rate": 10.0,
+            "trio_rate": 30.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 6,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015882",
+            "name": "木村　優駿",
+            "average_score": 78.66,
+            "win_rate": 63.0,
+            "quinella_rate": 77.0,
+            "trio_rate": 81.0,
+            "nige_count": 16,
+            "makuri_count": 1,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 19,
+            "class": "A2",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015175",
+            "name": "桜井　大地",
+            "average_score": 81.5,
+            "win_rate": 9.0,
+            "quinella_rate": 18.0,
+            "trio_rate": 31.0,
+            "nige_count": 1,
+            "makuri_count": 1,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 3,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015185",
+            "name": "布居　大地",
+            "average_score": 85.04,
+            "win_rate": 4.0,
+            "quinella_rate": 19.0,
+            "trio_rate": 52.0,
+            "nige_count": 1,
+            "makuri_count": 2,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 8,
+            "class": "A2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014549",
+            "name": "戸伏　康夫",
+            "average_score": 86.12,
+            "win_rate": 25.0,
+            "quinella_rate": 37.0,
+            "trio_rate": 43.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014079",
+            "name": "江本　博明",
+            "average_score": 69.14,
+            "win_rate": 14.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 47.0,
+            "nige_count": 0,
+            "makuri_count": 3,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 1,
+            "class": "A2",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "013690",
+            "name": "伊藤　大理",
+            "average_score": 83.69,
+            "win_rate": 0.0,
+            "quinella_rate": 30.0,
+            "trio_rate": 38.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          }
+        ],
+        "line": {
+          "prediction_type": "四分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              1,
+              5
+            ],
+            [
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 4,
+        "second": 7,
+        "third": 6,
+        "finish_order": [
+          4,
+          7,
+          6,
+          1,
+          5,
+          3,
+          2
+        ],
+        "trifecta_combination": "4-7-6",
+        "trifecta_payout": 32770,
+        "trifecta_popularity": 79
+      },
+      "label": {
+        "payout_20000_plus": 1,
+        "payout_50000_plus": 0,
+        "payout_class": "20000_49999"
+      }
+    },
+    {
+      "race_key": "20260710_函館_2R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 2,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015535",
+            "name": "佐藤　竜太",
+            "average_score": 94.26,
+            "win_rate": 3.0,
+            "quinella_rate": 3.0,
+            "trio_rate": 14.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 3,
+            "class": "A1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014344",
+            "name": "園田　鉄兵",
+            "average_score": 80.04,
+            "win_rate": 4.0,
+            "quinella_rate": 14.0,
+            "trio_rate": 23.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "011800",
+            "name": "三住　博昭",
+            "average_score": 83.0,
+            "win_rate": 4.0,
+            "quinella_rate": 22.0,
+            "trio_rate": 36.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015506",
+            "name": "佐藤　啓斗",
+            "average_score": 79.86,
+            "win_rate": 4.0,
+            "quinella_rate": 13.0,
+            "trio_rate": 22.0,
+            "nige_count": 1,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 8,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015531",
+            "name": "深瀬　泰我",
+            "average_score": 85.33,
+            "win_rate": 19.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 47.0,
+            "nige_count": 2,
+            "makuri_count": 5,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 2,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "015284",
+            "name": "田村　裕也",
+            "average_score": 66.65,
+            "win_rate": 13.0,
+            "quinella_rate": 21.0,
+            "trio_rate": 34.0,
+            "nige_count": 5,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 7,
+            "class": "A2",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "012891",
+            "name": "朝日　勇",
+            "average_score": 81.08,
+            "win_rate": 8.0,
+            "quinella_rate": 16.0,
+            "trio_rate": 20.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          }
+        ],
+        "line": {
+          "prediction_type": "四分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              1,
+              7
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              4
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 1,
+        "second": 5,
+        "third": 4,
+        "finish_order": [
+          1,
+          5,
+          4,
+          3,
+          7,
+          2,
+          6
+        ],
+        "trifecta_combination": "1-5-4",
+        "trifecta_payout": 4010,
+        "trifecta_popularity": 12
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_函館_3R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 3,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "013550",
+            "name": "安部　達也",
+            "average_score": 90.66,
+            "win_rate": 11.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 55.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "012811",
+            "name": "江守　昇",
+            "average_score": 92.66,
+            "win_rate": 16.0,
+            "quinella_rate": 41.0,
+            "trio_rate": 58.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014180",
+            "name": "坂本　匡洋",
+            "average_score": 87.4,
+            "win_rate": 25.0,
+            "quinella_rate": 44.0,
+            "trio_rate": 51.0,
+            "nige_count": 1,
+            "makuri_count": 0,
+            "sashi_count": 8,
+            "mark_count": 3,
+            "back_count": 1,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014850",
+            "name": "岡田　啓渡",
+            "average_score": 88.04,
+            "win_rate": 13.0,
+            "quinella_rate": 31.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014031",
+            "name": "筒井　裕哉",
+            "average_score": 90.16,
+            "win_rate": 30.0,
+            "quinella_rate": 40.0,
+            "trio_rate": 53.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 9,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "015538",
+            "name": "村瀬　大和",
+            "average_score": 80.47,
+            "win_rate": 4.0,
+            "quinella_rate": 9.0,
+            "trio_rate": 19.0,
+            "nige_count": 2,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 8,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014070",
+            "name": "秋葉　大輔",
+            "average_score": 85.7,
+            "win_rate": 3.0,
+            "quinella_rate": 18.0,
+            "trio_rate": 44.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          }
+        ],
+        "line": {
+          "prediction_type": "コマ切れ",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              6,
+              5,
+              3
+            ],
+            [
+              4
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              7
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 3,
+        "second": 5,
+        "third": 6,
+        "finish_order": [
+          3,
+          5,
+          6,
+          2,
+          7,
+          1,
+          4
+        ],
+        "trifecta_combination": "3-5-6",
+        "trifecta_payout": 4210,
+        "trifecta_popularity": 11
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_函館_4R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 4,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "014690",
+            "name": "好永　晃",
+            "average_score": 88.33,
+            "win_rate": 12.0,
+            "quinella_rate": 29.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015429",
+            "name": "山田　雄大",
+            "average_score": 91.55,
+            "win_rate": 22.0,
+            "quinella_rate": 61.0,
+            "trio_rate": 77.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 5,
+            "mark_count": 4,
+            "back_count": 1,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014428",
+            "name": "鹿内　翔",
+            "average_score": 87.85,
+            "win_rate": 9.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 57.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015845",
+            "name": "稲留　敦貴",
+            "average_score": 85.33,
+            "win_rate": 22.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 55.0,
+            "nige_count": 5,
+            "makuri_count": 1,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 11,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "013014",
+            "name": "江連　和洋",
+            "average_score": 92.66,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 0.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "011454",
+            "name": "杉浦　康一",
+            "average_score": 67.75,
+            "win_rate": 12.0,
+            "quinella_rate": 16.0,
+            "trio_rate": 41.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A3"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014788",
+            "name": "上吹越　俊一",
+            "average_score": 85.2,
+            "win_rate": 33.0,
+            "quinella_rate": 40.0,
+            "trio_rate": 60.0,
+            "nige_count": 3,
+            "makuri_count": 3,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 6,
+            "class": "A1",
+            "previous_class": "A1"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              4,
+              7,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 4,
+        "second": 2,
+        "third": 5,
+        "finish_order": [
+          4,
+          2,
+          5,
+          3,
+          6,
+          1,
+          7
+        ],
+        "trifecta_combination": "4-2-5",
+        "trifecta_payout": 4240,
+        "trifecta_popularity": 13
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_函館_5R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 5,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015040",
+            "name": "隅田　洋介",
+            "average_score": 98.61,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 0.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014208",
+            "name": "安部　貴之",
+            "average_score": 92.0,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 0.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014806",
+            "name": "岡田　泰地",
+            "average_score": 97.09,
+            "win_rate": 0.0,
+            "quinella_rate": 23.0,
+            "trio_rate": 38.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014622",
+            "name": "高市　訓但",
+            "average_score": 93.75,
+            "win_rate": 16.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 75.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015786",
+            "name": "角田　光",
+            "average_score": 93.33,
+            "win_rate": 61.0,
+            "quinella_rate": 66.0,
+            "trio_rate": 77.0,
+            "nige_count": 7,
+            "makuri_count": 4,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 10,
+            "class": "S2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014233",
+            "name": "西村　行貴",
+            "average_score": 91.04,
+            "win_rate": 28.0,
+            "quinella_rate": 47.0,
+            "trio_rate": 71.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 5,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014108",
+            "name": "山中　貴雄",
+            "average_score": 98.94,
+            "win_rate": 0.0,
+            "quinella_rate": 10.0,
+            "trio_rate": 35.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "二分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              1,
+              7,
+              4
+            ],
+            [
+              5,
+              2,
+              3,
+              6
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 5,
+        "second": 3,
+        "third": 2,
+        "finish_order": [
+          5,
+          3,
+          2,
+          4,
+          7,
+          6,
+          1
+        ],
+        "trifecta_combination": "5-3-2",
+        "trifecta_payout": 1320,
+        "trifecta_popularity": 3
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_函館_6R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 6,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "013368",
+            "name": "牧　剛央",
+            "average_score": 99.27,
+            "win_rate": 13.0,
+            "quinella_rate": 22.0,
+            "trio_rate": 31.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014292",
+            "name": "丸山　直樹",
+            "average_score": 92.08,
+            "win_rate": 33.0,
+            "quinella_rate": 58.0,
+            "trio_rate": 58.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 5,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "012688",
+            "name": "佐藤　成人",
+            "average_score": 91.4,
+            "win_rate": 9.0,
+            "quinella_rate": 36.0,
+            "trio_rate": 45.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "013618",
+            "name": "櫻井　学",
+            "average_score": 97.64,
+            "win_rate": 9.0,
+            "quinella_rate": 25.0,
+            "trio_rate": 35.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 6,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015656",
+            "name": "甲斐　俊祐",
+            "average_score": 100.43,
+            "win_rate": 12.0,
+            "quinella_rate": 37.0,
+            "trio_rate": 50.0,
+            "nige_count": 2,
+            "makuri_count": 3,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 10,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014947",
+            "name": "北川　大五郎",
+            "average_score": 87.95,
+            "win_rate": 14.0,
+            "quinella_rate": 19.0,
+            "trio_rate": 23.0,
+            "nige_count": 2,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 3,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014633",
+            "name": "田中　陽平",
+            "average_score": 97.63,
+            "win_rate": 10.0,
+            "quinella_rate": 15.0,
+            "trio_rate": 40.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              5,
+              1,
+              7
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 1,
+        "second": 5,
+        "third": 2,
+        "finish_order": [
+          1,
+          5,
+          2,
+          7,
+          4,
+          6,
+          3
+        ],
+        "trifecta_combination": "1-5-2",
+        "trifecta_payout": 3100,
+        "trifecta_popularity": 7
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_函館_7R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 7,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "014946",
+            "name": "元砂　勇雪",
+            "average_score": 99.66,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 14.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014184",
+            "name": "池田　良",
+            "average_score": 102.35,
+            "win_rate": 14.0,
+            "quinella_rate": 35.0,
+            "trio_rate": 60.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 7,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014017",
+            "name": "大塚　玲",
+            "average_score": 97.26,
+            "win_rate": 0.0,
+            "quinella_rate": 12.0,
+            "trio_rate": 18.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014881",
+            "name": "山崎　泰己",
+            "average_score": 97.57,
+            "win_rate": 6.0,
+            "quinella_rate": 13.0,
+            "trio_rate": 26.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015816",
+            "name": "伊東　佑晟",
+            "average_score": 93.0,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 0.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "015616",
+            "name": "齋藤　雄行",
+            "average_score": 91.45,
+            "win_rate": 15.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 70.0,
+            "nige_count": 4,
+            "makuri_count": 5,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 10,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015198",
+            "name": "今村　麟太郎",
+            "average_score": 103.36,
+            "win_rate": 21.0,
+            "quinella_rate": 36.0,
+            "trio_rate": 57.0,
+            "nige_count": 0,
+            "makuri_count": 3,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 2,
+            "class": "S2",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              7,
+              2,
+              4
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 2,
+        "second": 7,
+        "third": 4,
+        "finish_order": [
+          2,
+          7,
+          4,
+          6,
+          3,
+          5,
+          1
+        ],
+        "trifecta_combination": "2-7-4",
+        "trifecta_payout": 510,
+        "trifecta_popularity": 1
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_函館_8R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 8,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015702",
+            "name": "依田　翔大",
+            "average_score": 99.94,
+            "win_rate": 27.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 50.0,
+            "nige_count": 2,
+            "makuri_count": 5,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 3,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014199",
+            "name": "松岡　孔明",
+            "average_score": 100.21,
+            "win_rate": 12.0,
+            "quinella_rate": 27.0,
+            "trio_rate": 45.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 7,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014398",
+            "name": "藤田　勝也",
+            "average_score": 102.25,
+            "win_rate": 8.0,
+            "quinella_rate": 29.0,
+            "trio_rate": 37.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 6,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014151",
+            "name": "宿口　潤平",
+            "average_score": 103.08,
+            "win_rate": 16.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015479",
+            "name": "松岡　辰泰",
+            "average_score": 102.65,
+            "win_rate": 8.0,
+            "quinella_rate": 20.0,
+            "trio_rate": 25.0,
+            "nige_count": 0,
+            "makuri_count": 4,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 4,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013306",
+            "name": "齋藤　登志信",
+            "average_score": 92.45,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 5.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015268",
+            "name": "山田　諒",
+            "average_score": 106.69,
+            "win_rate": 17.0,
+            "quinella_rate": 34.0,
+            "trio_rate": 34.0,
+            "nige_count": 1,
+            "makuri_count": 5,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              7,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              1,
+              4,
+              6
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 7,
+        "second": 3,
+        "third": 1,
+        "finish_order": [
+          7,
+          3,
+          1,
+          4,
+          5,
+          6,
+          2
+        ],
+        "trifecta_combination": "7-3-1",
+        "trifecta_payout": 3360,
+        "trifecta_popularity": 8
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_函館_9R",
+      "race_date": "20260710",
+      "venue": "函館",
+      "race_no": 9,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015106",
+            "name": "大石　崇晴",
+            "average_score": 100.72,
+            "win_rate": 6.0,
+            "quinella_rate": 17.0,
+            "trio_rate": 31.0,
+            "nige_count": 0,
+            "makuri_count": 3,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 2,
+            "class": "S1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014018",
+            "name": "内藤　秀久",
+            "average_score": 104.32,
+            "win_rate": 11.0,
+            "quinella_rate": 23.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 4,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015090",
+            "name": "高橋　築",
+            "average_score": 110.28,
+            "win_rate": 20.0,
+            "quinella_rate": 26.0,
+            "trio_rate": 40.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014641",
+            "name": "箱田　優樹",
+            "average_score": 102.47,
+            "win_rate": 4.0,
+            "quinella_rate": 9.0,
+            "trio_rate": 31.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015050",
+            "name": "堀内　俊介",
+            "average_score": 103.89,
+            "win_rate": 31.0,
+            "quinella_rate": 52.0,
+            "trio_rate": 57.0,
+            "nige_count": 1,
+            "makuri_count": 5,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 5,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014370",
+            "name": "阿部　大樹",
+            "average_score": 97.6,
+            "win_rate": 9.0,
+            "quinella_rate": 22.0,
+            "trio_rate": 36.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 1,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015630",
+            "name": "原田　翔真",
+            "average_score": 101.11,
+            "win_rate": 5.0,
+            "quinella_rate": 35.0,
+            "trio_rate": 64.0,
+            "nige_count": 1,
+            "makuri_count": 1,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 2,
+            "class": "S2",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "北競新聞社",
+          "main_lines": [
+            [
+              3,
+              6
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              5,
+              2,
+              4
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 2,
+        "second": 4,
+        "third": 3,
+        "finish_order": [
+          2,
+          4,
+          3,
+          5,
+          1,
+          6,
+          7
+        ],
+        "trifecta_combination": "2-4-3",
+        "trifecta_payout": 6370,
+        "trifecta_popularity": 21
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_前橋_10R",
+      "race_date": "20260710",
+      "venue": "前橋",
+      "race_no": 10,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "014506",
+            "name": "磯田　旭",
+            "average_score": 107.18,
+            "win_rate": 12.0,
+            "quinella_rate": 25.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "013765",
+            "name": "海老根　恵太",
+            "average_score": 104.79,
+            "win_rate": 25.0,
+            "quinella_rate": 41.0,
+            "trio_rate": 58.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 7,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014551",
+            "name": "山下　一輝",
+            "average_score": 97.38,
+            "win_rate": 7.0,
+            "quinella_rate": 26.0,
+            "trio_rate": 34.0,
+            "nige_count": 0,
+            "makuri_count": 2,
+            "sashi_count": 3,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "012948",
+            "name": "小林　潤二",
+            "average_score": 94.0,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 18.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015261",
+            "name": "松井　宏佑",
+            "average_score": 107.28,
+            "win_rate": 19.0,
+            "quinella_rate": 23.0,
+            "trio_rate": 23.0,
+            "nige_count": 1,
+            "makuri_count": 3,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 7,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "015001",
+            "name": "堀　兼壽",
+            "average_score": 89.51,
+            "win_rate": 44.0,
+            "quinella_rate": 66.0,
+            "trio_rate": 74.0,
+            "nige_count": 5,
+            "makuri_count": 8,
+            "sashi_count": 3,
+            "mark_count": 2,
+            "back_count": 10,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015794",
+            "name": "福田　稔希",
+            "average_score": 103.55,
+            "win_rate": 25.0,
+            "quinella_rate": 45.0,
+            "trio_rate": 55.0,
+            "nige_count": 5,
+            "makuri_count": 2,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 11,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 8,
+            "player_id": "015646",
+            "name": "塩崎　隼秀",
+            "average_score": 92.78,
+            "win_rate": 15.0,
+            "quinella_rate": 40.0,
+            "trio_rate": 50.0,
+            "nige_count": 2,
+            "makuri_count": 3,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 2,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 9,
+            "player_id": "013783",
+            "name": "上田　裕和",
+            "average_score": 98.26,
+            "win_rate": 0.0,
+            "quinella_rate": 15.0,
+            "trio_rate": 40.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "四分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              7,
+              1,
+              4
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              6,
+              9
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 7,
+        "second": 2,
+        "third": 5,
+        "finish_order": [
+          7,
+          2,
+          5,
+          9,
+          8,
+          3,
+          1,
+          4,
+          6
+        ],
+        "trifecta_combination": "7-2-5",
+        "trifecta_payout": 12420,
+        "trifecta_popularity": 34
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "10000_19999"
+      }
+    },
+    {
+      "race_key": "20260710_前橋_11R",
+      "race_date": "20260710",
+      "venue": "前橋",
+      "race_no": 11,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "013656",
+            "name": "渡部　哲男",
+            "average_score": 105.7,
+            "win_rate": 25.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 55.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 7,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015868",
+            "name": "市田　龍生都",
+            "average_score": 106.38,
+            "win_rate": 46.0,
+            "quinella_rate": 53.0,
+            "trio_rate": 69.0,
+            "nige_count": 5,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 9,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015323",
+            "name": "小原　丈一郎",
+            "average_score": 101.86,
+            "win_rate": 25.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 37.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 8,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014384",
+            "name": "佐藤　龍二",
+            "average_score": 99.08,
+            "win_rate": 0.0,
+            "quinella_rate": 17.0,
+            "trio_rate": 47.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014606",
+            "name": "稲毛　健太",
+            "average_score": 101.39,
+            "win_rate": 17.0,
+            "quinella_rate": 26.0,
+            "trio_rate": 47.0,
+            "nige_count": 1,
+            "makuri_count": 2,
+            "sashi_count": 3,
+            "mark_count": 0,
+            "back_count": 8,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "015529",
+            "name": "塚本　瑠羽",
+            "average_score": 92.77,
+            "win_rate": 38.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 72.0,
+            "nige_count": 2,
+            "makuri_count": 6,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 4,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015239",
+            "name": "佐々木　堅次",
+            "average_score": 101.21,
+            "win_rate": 25.0,
+            "quinella_rate": 37.0,
+            "trio_rate": 37.0,
+            "nige_count": 0,
+            "makuri_count": 3,
+            "sashi_count": 4,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 8,
+            "player_id": "013274",
+            "name": "八日市屋浩之",
+            "average_score": 94.0,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 0.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 9,
+            "player_id": "015122",
+            "name": "島川　将貴",
+            "average_score": 100.36,
+            "win_rate": 19.0,
+            "quinella_rate": 26.0,
+            "trio_rate": 30.0,
+            "nige_count": 0,
+            "makuri_count": 3,
+            "sashi_count": 4,
+            "mark_count": 0,
+            "back_count": 2,
+            "class": "S1",
+            "previous_class": "S1"
+          }
+        ],
+        "line": {
+          "prediction_type": "四分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              2,
+              5,
+              8
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 2,
+        "second": 6,
+        "third": 5,
+        "finish_order": [
+          2,
+          6,
+          5,
+          4,
+          9,
+          3,
+          8,
+          7,
+          1
+        ],
+        "trifecta_combination": "2-6-5",
+        "trifecta_payout": 19570,
+        "trifecta_popularity": 44
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "10000_19999"
+      }
+    },
+    {
+      "race_key": "20260710_前橋_12R",
+      "race_date": "20260710",
+      "venue": "前橋",
+      "race_no": 12,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015035",
+            "name": "阿部　拓真",
+            "average_score": 115.5,
+            "win_rate": 8.0,
+            "quinella_rate": 39.0,
+            "trio_rate": 56.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 5,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "SS",
+            "previous_class": "SS"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014396",
+            "name": "脇本　雄太",
+            "average_score": 111.85,
+            "win_rate": 14.0,
+            "quinella_rate": 14.0,
+            "trio_rate": 42.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "SS",
+            "previous_class": "SS"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015343",
+            "name": "佐々木　悠葵",
+            "average_score": 115.05,
+            "win_rate": 38.0,
+            "quinella_rate": 55.0,
+            "trio_rate": 61.0,
+            "nige_count": 2,
+            "makuri_count": 3,
+            "sashi_count": 5,
+            "mark_count": 0,
+            "back_count": 3,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "013963",
+            "name": "柏野　智典",
+            "average_score": 110.21,
+            "win_rate": 15.0,
+            "quinella_rate": 28.0,
+            "trio_rate": 53.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 7,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015051",
+            "name": "簗田　一輝",
+            "average_score": 112.04,
+            "win_rate": 8.0,
+            "quinella_rate": 33.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 3,
+            "back_count": 1,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013791",
+            "name": "村上　博幸",
+            "average_score": 109.57,
+            "win_rate": 10.0,
+            "quinella_rate": 20.0,
+            "trio_rate": 40.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "013162",
+            "name": "佐藤　慎太郎",
+            "average_score": 113.33,
+            "win_rate": 4.0,
+            "quinella_rate": 47.0,
+            "trio_rate": 47.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 5,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 8,
+            "player_id": "015094",
+            "name": "佐々木　龍",
+            "average_score": 109.87,
+            "win_rate": 8.0,
+            "quinella_rate": 29.0,
+            "trio_rate": 41.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 9,
+            "player_id": "014484",
+            "name": "河端　朋之",
+            "average_score": 110.61,
+            "win_rate": 29.0,
+            "quinella_rate": 48.0,
+            "trio_rate": 58.0,
+            "nige_count": 3,
+            "makuri_count": 7,
+            "sashi_count": 4,
+            "mark_count": 1,
+            "back_count": 8,
+            "class": "S1",
+            "previous_class": "S1"
+          }
+        ],
+        "line": {
+          "prediction_type": "四分戦",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              3,
+              1,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 2,
+        "second": 1,
+        "third": 7,
+        "finish_order": [
+          2,
+          1,
+          7,
+          3,
+          5,
+          8,
+          4,
+          6,
+          9
+        ],
+        "trifecta_combination": "2-1-7",
+        "trifecta_payout": 3000,
+        "trifecta_popularity": 4
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_前橋_9R",
+      "race_date": "20260710",
+      "venue": "前橋",
+      "race_no": 9,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015480",
+            "name": "松本　秀之介",
+            "average_score": 107.66,
+            "win_rate": 37.0,
+            "quinella_rate": 54.0,
+            "trio_rate": 54.0,
+            "nige_count": 0,
+            "makuri_count": 10,
+            "sashi_count": 3,
+            "mark_count": 0,
+            "back_count": 3,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "013878",
+            "name": "松岡　健介",
+            "average_score": 99.36,
+            "win_rate": 16.0,
+            "quinella_rate": 25.0,
+            "trio_rate": 33.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "014071",
+            "name": "朝倉　佳弘",
+            "average_score": 103.28,
+            "win_rate": 9.0,
+            "quinella_rate": 27.0,
+            "trio_rate": 45.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014680",
+            "name": "増原　正人",
+            "average_score": 98.21,
+            "win_rate": 13.0,
+            "quinella_rate": 31.0,
+            "trio_rate": 44.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 6,
+            "mark_count": 2,
+            "back_count": 2,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "013821",
+            "name": "中村　圭志",
+            "average_score": 108.16,
+            "win_rate": 8.0,
+            "quinella_rate": 32.0,
+            "trio_rate": 52.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013497",
+            "name": "藤田　昌宏",
+            "average_score": 93.51,
+            "win_rate": 40.0,
+            "quinella_rate": 55.0,
+            "trio_rate": 66.0,
+            "nige_count": 5,
+            "makuri_count": 4,
+            "sashi_count": 4,
+            "mark_count": 2,
+            "back_count": 7,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015334",
+            "name": "朝倉　智仁",
+            "average_score": 102.52,
+            "win_rate": 17.0,
+            "quinella_rate": 30.0,
+            "trio_rate": 47.0,
+            "nige_count": 2,
+            "makuri_count": 4,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 9,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 8,
+            "player_id": "014604",
+            "name": "菱田　浩二",
+            "average_score": 96.1,
+            "win_rate": 3.0,
+            "quinella_rate": 25.0,
+            "trio_rate": 28.0,
+            "nige_count": 1,
+            "makuri_count": 2,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 11,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 9,
+            "player_id": "014268",
+            "name": "山口　貴弘",
+            "average_score": 101.37,
+            "win_rate": 0.0,
+            "quinella_rate": 10.0,
+            "trio_rate": 42.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "コマ切れ",
+          "provider": "アオケイ",
+          "main_lines": [
+            [
+              7,
+              3
+            ],
+            [
+              1,
+              5,
+              9
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              4
+            ],
+            [
+              6
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 7,
+        "second": 3,
+        "third": 4,
+        "finish_order": [
+          7,
+          3,
+          4,
+          6,
+          1,
+          5,
+          9,
+          2,
+          8
+        ],
+        "trifecta_combination": "7-3-4",
+        "trifecta_payout": 11270,
+        "trifecta_popularity": 27
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "10000_19999"
+      }
+    },
+    {
+      "race_key": "20260710_名古屋_3R",
+      "race_date": "20260710",
+      "venue": "名古屋",
+      "race_no": 3,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015003",
+            "name": "小笹　隼人",
+            "average_score": 90.66,
+            "win_rate": 11.0,
+            "quinella_rate": 22.0,
+            "trio_rate": 44.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015114",
+            "name": "谷口　友真",
+            "average_score": 90.16,
+            "win_rate": 25.0,
+            "quinella_rate": 37.0,
+            "trio_rate": 50.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 7,
+            "mark_count": 1,
+            "back_count": 1,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "013924",
+            "name": "阿久津　修",
+            "average_score": 87.83,
+            "win_rate": 8.0,
+            "quinella_rate": 41.0,
+            "trio_rate": 58.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 3,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014988",
+            "name": "伊早坂　駿一",
+            "average_score": 85.0,
+            "win_rate": 31.0,
+            "quinella_rate": 37.0,
+            "trio_rate": 44.0,
+            "nige_count": 6,
+            "makuri_count": 5,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 8,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "012957",
+            "name": "宮澤　晃",
+            "average_score": 82.1,
+            "win_rate": 5.0,
+            "quinella_rate": 10.0,
+            "trio_rate": 26.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013932",
+            "name": "井上　雄三",
+            "average_score": 81.65,
+            "win_rate": 11.0,
+            "quinella_rate": 23.0,
+            "trio_rate": 26.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "013127",
+            "name": "北浦　弘幹",
+            "average_score": 76.33,
+            "win_rate": 0.0,
+            "quinella_rate": 0.0,
+            "trio_rate": 0.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          }
+        ],
+        "line": {
+          "prediction_type": "二分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              4,
+              3,
+              5,
+              6
+            ],
+            [
+              2,
+              1,
+              7
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 4,
+        "second": 2,
+        "third": 1,
+        "finish_order": [
+          4,
+          2,
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        "trifecta_combination": "4-2-1",
+        "trifecta_payout": 1830,
+        "trifecta_popularity": 6
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_名古屋_4R",
+      "race_date": "20260710",
+      "venue": "名古屋",
+      "race_no": 4,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "013929",
+            "name": "宮内　善光",
+            "average_score": 88.12,
+            "win_rate": 29.0,
+            "quinella_rate": 41.0,
+            "trio_rate": 58.0,
+            "nige_count": 1,
+            "makuri_count": 0,
+            "sashi_count": 7,
+            "mark_count": 2,
+            "back_count": 1,
+            "class": "A2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014077",
+            "name": "古屋　琢晶",
+            "average_score": 88.0,
+            "win_rate": 4.0,
+            "quinella_rate": 30.0,
+            "trio_rate": 47.0,
+            "nige_count": 3,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 2,
+            "back_count": 5,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015099",
+            "name": "吉竹　尚城",
+            "average_score": 85.96,
+            "win_rate": 37.0,
+            "quinella_rate": 44.0,
+            "trio_rate": 51.0,
+            "nige_count": 6,
+            "makuri_count": 5,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 13,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "013546",
+            "name": "田村　真広",
+            "average_score": 85.77,
+            "win_rate": 7.0,
+            "quinella_rate": 22.0,
+            "trio_rate": 55.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 4,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014086",
+            "name": "齋藤　友幸",
+            "average_score": 85.26,
+            "win_rate": 20.0,
+            "quinella_rate": 26.0,
+            "trio_rate": 46.0,
+            "nige_count": 1,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 3,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014470",
+            "name": "板橋　慎治",
+            "average_score": 81.91,
+            "win_rate": 0.0,
+            "quinella_rate": 8.0,
+            "trio_rate": 30.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014172",
+            "name": "山田　隼司",
+            "average_score": 81.9,
+            "win_rate": 14.0,
+            "quinella_rate": 19.0,
+            "trio_rate": 33.0,
+            "nige_count": 2,
+            "makuri_count": 0,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 4,
+            "class": "A2",
+            "previous_class": "A2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              1,
+              4
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 3,
+        "second": 5,
+        "third": 2,
+        "finish_order": [
+          3,
+          5,
+          2,
+          1,
+          4,
+          6,
+          7
+        ],
+        "trifecta_combination": "3-5-2",
+        "trifecta_payout": 2560,
+        "trifecta_popularity": 8
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_大垣_10R",
+      "race_date": "20260710",
+      "venue": "大垣",
+      "race_no": 10,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "014239",
+            "name": "鈴木　裕",
+            "average_score": 98.57,
+            "win_rate": 14.0,
+            "quinella_rate": 21.0,
+            "trio_rate": 39.0,
+            "nige_count": 1,
+            "makuri_count": 2,
+            "sashi_count": 3,
+            "mark_count": 0,
+            "back_count": 5,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015349",
+            "name": "寺沼　拓摩",
+            "average_score": 101.42,
+            "win_rate": 5.0,
+            "quinella_rate": 21.0,
+            "trio_rate": 42.0,
+            "nige_count": 2,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 6,
+            "class": "S1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015836",
+            "name": "遠藤　拓巳",
+            "average_score": 102.3,
+            "win_rate": 11.0,
+            "quinella_rate": 30.0,
+            "trio_rate": 42.0,
+            "nige_count": 5,
+            "makuri_count": 3,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 10,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015527",
+            "name": "北井　佑季",
+            "average_score": 105.88,
+            "win_rate": 55.0,
+            "quinella_rate": 59.0,
+            "trio_rate": 70.0,
+            "nige_count": 4,
+            "makuri_count": 11,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 11,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014852",
+            "name": "徳永　哲人",
+            "average_score": 103.74,
+            "win_rate": 10.0,
+            "quinella_rate": 21.0,
+            "trio_rate": 28.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014134",
+            "name": "小野　大介",
+            "average_score": 96.23,
+            "win_rate": 5.0,
+            "quinella_rate": 11.0,
+            "trio_rate": 41.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 7,
+            "player_id": "014564",
+            "name": "塚本　大樹",
+            "average_score": 111.2,
+            "win_rate": 0.0,
+            "quinella_rate": 12.0,
+            "trio_rate": 31.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 1,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              4,
+              1
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7,
+              5
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 2,
+        "second": 4,
+        "third": 7,
+        "finish_order": [
+          2,
+          4,
+          7,
+          1,
+          6,
+          5,
+          3
+        ],
+        "trifecta_combination": "2-4-7",
+        "trifecta_payout": 6240,
+        "trifecta_popularity": 23
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_大垣_11R",
+      "race_date": "20260710",
+      "venue": "大垣",
+      "race_no": 11,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "012519",
+            "name": "藤原　誠",
+            "average_score": 95.65,
+            "win_rate": 13.0,
+            "quinella_rate": 20.0,
+            "trio_rate": 31.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 5,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 2,
+            "player_id": "014466",
+            "name": "二藤　元太",
+            "average_score": 93.58,
+            "win_rate": 8.0,
+            "quinella_rate": 41.0,
+            "trio_rate": 75.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 3,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015116",
+            "name": "池野　健太",
+            "average_score": 102.43,
+            "win_rate": 26.0,
+            "quinella_rate": 30.0,
+            "trio_rate": 40.0,
+            "nige_count": 2,
+            "makuri_count": 2,
+            "sashi_count": 4,
+            "mark_count": 1,
+            "back_count": 4,
+            "class": "A1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "014658",
+            "name": "馬場　和広",
+            "average_score": 93.0,
+            "win_rate": 22.0,
+            "quinella_rate": 50.0,
+            "trio_rate": 63.0,
+            "nige_count": 2,
+            "makuri_count": 2,
+            "sashi_count": 6,
+            "mark_count": 1,
+            "back_count": 5,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015902",
+            "name": "安達　光伸",
+            "average_score": 92.3,
+            "win_rate": 57.0,
+            "quinella_rate": 66.0,
+            "trio_rate": 66.0,
+            "nige_count": 8,
+            "makuri_count": 5,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 16,
+            "class": "A2",
+            "previous_class": "A2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "013493",
+            "name": "立花　成泰",
+            "average_score": 82.72,
+            "win_rate": 0.0,
+            "quinella_rate": 27.0,
+            "trio_rate": 31.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 0,
+            "mark_count": 6,
+            "back_count": 0,
+            "class": "A1",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015781",
+            "name": "齊藤　英伊須",
+            "average_score": 93.43,
+            "win_rate": 43.0,
+            "quinella_rate": 73.0,
+            "trio_rate": 83.0,
+            "nige_count": 15,
+            "makuri_count": 6,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 21,
+            "class": "A1",
+            "previous_class": "A2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              5,
+              1
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              4
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 3,
+        "second": 5,
+        "third": 1,
+        "finish_order": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          2,
+          6
+        ],
+        "trifecta_combination": "3-5-1",
+        "trifecta_payout": 4660,
+        "trifecta_popularity": 12
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    },
+    {
+      "race_key": "20260710_大垣_12R",
+      "race_date": "20260710",
+      "venue": "大垣",
+      "race_no": 12,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "015451",
+            "name": "山口　拳矢",
+            "average_score": 110.78,
+            "win_rate": 36.0,
+            "quinella_rate": 36.0,
+            "trio_rate": 52.0,
+            "nige_count": 0,
+            "makuri_count": 7,
+            "sashi_count": 2,
+            "mark_count": 0,
+            "back_count": 2,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015213",
+            "name": "山崎　賢人",
+            "average_score": 114.54,
+            "win_rate": 44.0,
+            "quinella_rate": 68.0,
+            "trio_rate": 72.0,
+            "nige_count": 7,
+            "makuri_count": 9,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 12,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 3,
+            "player_id": "015337",
+            "name": "佐藤　礼文",
+            "average_score": 109.22,
+            "win_rate": 31.0,
+            "quinella_rate": 36.0,
+            "trio_rate": 36.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 6,
+            "mark_count": 1,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "015274",
+            "name": "福永　大智",
+            "average_score": 108.68,
+            "win_rate": 16.0,
+            "quinella_rate": 44.0,
+            "trio_rate": 64.0,
+            "nige_count": 1,
+            "makuri_count": 5,
+            "sashi_count": 4,
+            "mark_count": 1,
+            "back_count": 7,
+            "class": "S2",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 5,
+            "player_id": "014182",
+            "name": "大川　龍二",
+            "average_score": 109.28,
+            "win_rate": 13.0,
+            "quinella_rate": 30.0,
+            "trio_rate": 39.0,
+            "nige_count": 0,
+            "makuri_count": 3,
+            "sashi_count": 3,
+            "mark_count": 1,
+            "back_count": 2,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014174",
+            "name": "柴崎　淳",
+            "average_score": 105.66,
+            "win_rate": 20.0,
+            "quinella_rate": 40.0,
+            "trio_rate": 46.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 3,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015248",
+            "name": "森田　優弥",
+            "average_score": 109.83,
+            "win_rate": 30.0,
+            "quinella_rate": 40.0,
+            "trio_rate": 60.0,
+            "nige_count": 2,
+            "makuri_count": 6,
+            "sashi_count": 0,
+            "mark_count": 0,
+            "back_count": 10,
+            "class": "S2",
+            "previous_class": "S1"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              1,
+              6
+            ],
+            [
+              4
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 1,
+        "second": 5,
+        "third": 7,
+        "finish_order": [
+          1,
+          5,
+          7,
+          6,
+          4,
+          2,
+          3
+        ],
+        "trifecta_combination": "1-5-7",
+        "trifecta_payout": 16900,
+        "trifecta_popularity": 74
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "10000_19999"
+      }
+    },
+    {
+      "race_key": "20260710_大垣_9R",
+      "race_date": "20260710",
+      "venue": "大垣",
+      "race_no": 9,
+      "pre_race": {
+        "riders": [
+          {
+            "car_no": 1,
+            "player_id": "013532",
+            "name": "佐々木　雄一",
+            "average_score": 105.0,
+            "win_rate": 19.0,
+            "quinella_rate": 19.0,
+            "trio_rate": 46.0,
+            "nige_count": 0,
+            "makuri_count": 1,
+            "sashi_count": 4,
+            "mark_count": 0,
+            "back_count": 1,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 2,
+            "player_id": "015716",
+            "name": "尾方　祐仁",
+            "average_score": 102.31,
+            "win_rate": 11.0,
+            "quinella_rate": 27.0,
+            "trio_rate": 50.0,
+            "nige_count": 2,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 6,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 3,
+            "player_id": "013894",
+            "name": "園田　匠",
+            "average_score": 110.81,
+            "win_rate": 18.0,
+            "quinella_rate": 39.0,
+            "trio_rate": 54.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 9,
+            "mark_count": 4,
+            "back_count": 0,
+            "class": "S1",
+            "previous_class": "S1"
+          },
+          {
+            "car_no": 4,
+            "player_id": "013719",
+            "name": "吉田　敏洋",
+            "average_score": 102.22,
+            "win_rate": 21.0,
+            "quinella_rate": 34.0,
+            "trio_rate": 47.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 6,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 5,
+            "player_id": "015638",
+            "name": "昼田　達哉",
+            "average_score": 99.5,
+            "win_rate": 18.0,
+            "quinella_rate": 31.0,
+            "trio_rate": 54.0,
+            "nige_count": 4,
+            "makuri_count": 2,
+            "sashi_count": 0,
+            "mark_count": 1,
+            "back_count": 7,
+            "class": "S2",
+            "previous_class": "S2"
+          },
+          {
+            "car_no": 6,
+            "player_id": "014983",
+            "name": "高木　翔",
+            "average_score": 92.86,
+            "win_rate": 33.0,
+            "quinella_rate": 60.0,
+            "trio_rate": 66.0,
+            "nige_count": 0,
+            "makuri_count": 0,
+            "sashi_count": 7,
+            "mark_count": 2,
+            "back_count": 0,
+            "class": "S2",
+            "previous_class": "A1"
+          },
+          {
+            "car_no": 7,
+            "player_id": "015096",
+            "name": "大石　剣士",
+            "average_score": 106.78,
+            "win_rate": 26.0,
+            "quinella_rate": 60.0,
+            "trio_rate": 73.0,
+            "nige_count": 5,
+            "makuri_count": 8,
+            "sashi_count": 1,
+            "mark_count": 0,
+            "back_count": 11,
+            "class": "S2",
+            "previous_class": "S2"
+          }
+        ],
+        "line": {
+          "prediction_type": "三分戦",
+          "provider": "中部競輪記者クラブ",
+          "main_lines": [
+            [
+              5,
+              3
+            ],
+            [
+              7,
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "competition_rows": []
+        }
+      },
+      "result": {
+        "first": 7,
+        "second": 1,
+        "third": 3,
+        "finish_order": [
+          7,
+          1,
+          3,
+          6,
+          2,
+          4,
+          5
+        ],
+        "trifecta_combination": "7-1-3",
+        "trifecta_payout": 1810,
+        "trifecta_popularity": 3
+      },
+      "label": {
+        "payout_20000_plus": 0,
+        "payout_50000_plus": 0,
+        "payout_class": "UNDER_10000"
+      }
+    }
+  ],
+  "audit": [
+    {
+      "race_key": "20260710_いわき平_1R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1620
+    },
+    {
+      "race_key": "20260710_いわき平_2R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 29330
+    },
+    {
+      "race_key": "20260710_いわき平_3R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 9520
+    },
+    {
+      "race_key": "20260710_いわき平_4R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1860
+    },
+    {
+      "race_key": "20260710_いわき平_5R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_いわき平_6R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_いわき平_7R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_いわき平_8R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_いわき平_9R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_伊東_10R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 5810
+    },
+    {
+      "race_key": "20260710_伊東_11R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 550
+    },
+    {
+      "race_key": "20260710_伊東_12R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1460
+    },
+    {
+      "race_key": "20260710_伊東_1R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 30160
+    },
+    {
+      "race_key": "20260710_伊東_2R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 17420
+    },
+    {
+      "race_key": "20260710_伊東_3R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 3000
+    },
+    {
+      "race_key": "20260710_伊東_4R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1480
+    },
+    {
+      "race_key": "20260710_伊東_5R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 3260
+    },
+    {
+      "race_key": "20260710_伊東_6R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "NON_LINE_RACE_EXCLUDED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 250
+    },
+    {
+      "race_key": "20260710_伊東_7R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "NON_LINE_RACE_EXCLUDED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 2100
+    },
+    {
+      "race_key": "20260710_伊東_8R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 4890
+    },
+    {
+      "race_key": "20260710_伊東_9R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 37330
+    },
+    {
+      "race_key": "20260710_函館_10R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 11320
+    },
+    {
+      "race_key": "20260710_函館_11R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1660
+    },
+    {
+      "race_key": "20260710_函館_12R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 640
+    },
+    {
+      "race_key": "20260710_函館_1R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 32770
+    },
+    {
+      "race_key": "20260710_函館_2R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 4010
+    },
+    {
+      "race_key": "20260710_函館_3R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 4210
+    },
+    {
+      "race_key": "20260710_函館_4R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 4240
+    },
+    {
+      "race_key": "20260710_函館_5R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1320
+    },
+    {
+      "race_key": "20260710_函館_6R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 3100
+    },
+    {
+      "race_key": "20260710_函館_7R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 510
+    },
+    {
+      "race_key": "20260710_函館_8R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 3360
+    },
+    {
+      "race_key": "20260710_函館_9R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 6370
+    },
+    {
+      "race_key": "20260710_前橋_10R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 9,
+      "line_found": true,
+      "result_found": true,
+      "payout": 12420
+    },
+    {
+      "race_key": "20260710_前橋_11R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 9,
+      "line_found": true,
+      "result_found": true,
+      "payout": 19570
+    },
+    {
+      "race_key": "20260710_前橋_12R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 9,
+      "line_found": true,
+      "result_found": true,
+      "payout": 3000
+    },
+    {
+      "race_key": "20260710_前橋_1R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 690
+    },
+    {
+      "race_key": "20260710_前橋_2R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1660
+    },
+    {
+      "race_key": "20260710_前橋_3R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 770
+    },
+    {
+      "race_key": "20260710_前橋_4R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 16600
+    },
+    {
+      "race_key": "20260710_前橋_5R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 740
+    },
+    {
+      "race_key": "20260710_前橋_6R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 9,
+      "line_found": true,
+      "result_found": true,
+      "payout": 2960
+    },
+    {
+      "race_key": "20260710_前橋_7R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 9,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1170
+    },
+    {
+      "race_key": "20260710_前橋_8R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 9,
+      "line_found": true,
+      "result_found": true,
+      "payout": 12620
+    },
+    {
+      "race_key": "20260710_前橋_9R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 9,
+      "line_found": true,
+      "result_found": true,
+      "payout": 11270
+    },
+    {
+      "race_key": "20260710_名古屋_1R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "NON_LINE_RACE_EXCLUDED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 820
+    },
+    {
+      "race_key": "20260710_名古屋_2R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "NON_LINE_RACE_EXCLUDED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 3860
+    },
+    {
+      "race_key": "20260710_名古屋_3R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1830
+    },
+    {
+      "race_key": "20260710_名古屋_4R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 2560
+    },
+    {
+      "race_key": "20260710_名古屋_5R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_名古屋_6R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_名古屋_7R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_名古屋_8R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_名古屋_9R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "RESULT_NOT_CONFIRMED"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": false,
+      "payout": null
+    },
+    {
+      "race_key": "20260710_大垣_10R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 6240
+    },
+    {
+      "race_key": "20260710_大垣_11R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 4660
+    },
+    {
+      "race_key": "20260710_大垣_12R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 16900
+    },
+    {
+      "race_key": "20260710_大垣_1R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 5,
+      "line_found": true,
+      "result_found": true,
+      "payout": 2160
+    },
+    {
+      "race_key": "20260710_大垣_2R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 6,
+      "line_found": true,
+      "result_found": true,
+      "payout": 410
+    },
+    {
+      "race_key": "20260710_大垣_3R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 30040
+    },
+    {
+      "race_key": "20260710_大垣_4R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 7600
+    },
+    {
+      "race_key": "20260710_大垣_5R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 19940
+    },
+    {
+      "race_key": "20260710_大垣_6R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 11220
+    },
+    {
+      "race_key": "20260710_大垣_7R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 14150
+    },
+    {
+      "race_key": "20260710_大垣_8R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 4130
+    },
+    {
+      "race_key": "20260710_大垣_9R",
+      "merge_status": "READY_FOR_AI",
+      "reasons": [],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1810
+    },
+    {
+      "race_key": "20260710_小田原_1R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 4280
+    },
+    {
+      "race_key": "20260710_小田原_2R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 2050
+    },
+    {
+      "race_key": "20260710_小田原_3R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1730
+    },
+    {
+      "race_key": "20260710_小田原_4R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 670
+    },
+    {
+      "race_key": "20260710_小田原_5R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 2950
+    },
+    {
+      "race_key": "20260710_小田原_6R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 870
+    },
+    {
+      "race_key": "20260710_小田原_7R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 450
+    },
+    {
+      "race_key": "20260710_広島_1R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1170
+    },
+    {
+      "race_key": "20260710_広島_2R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 1420
+    },
+    {
+      "race_key": "20260710_広島_3R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 860
+    },
+    {
+      "race_key": "20260710_広島_4R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 3990
+    },
+    {
+      "race_key": "20260710_広島_5R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 760
+    },
+    {
+      "race_key": "20260710_広島_6R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 4860
+    },
+    {
+      "race_key": "20260710_広島_7R",
+      "merge_status": "EXCLUDED",
+      "reasons": [
+        "MAIN_LINES_EMPTY"
+      ],
+      "rider_count": 7,
+      "line_found": true,
+      "result_found": true,
+      "payout": 12110
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "file_a": "054_all_results.json",
+  "file_b": "055_all_races.json",
+  "a_venue_items": [
+    {
+      "path": "ROOT[0].race.joName",
+      "key": "joName",
+      "value": "奈良競輪場",
+      "venue": "奈良"
+    }
+  ],
+  "b_venue_items": [
+    {
+      "path": "ROOT[0].race_name",
+      "key": "race_name",
+      "value": "函館",
+      "venue": "函館"
+    },
+    {
+      "path": "ROOT[0].jsj001.C0201data.joName",
+      "key": "joName",
+      "value": "函館競輪場",
+      "venue": "函館"
+    },
+    {
+      "path": "ROOT[1].race_name",
+      "key": "race_name",
+      "value": "弥彦",
+      "venue": "弥彦"
+    },
+    {
+      "path": "ROOT[1].jsj001.C0201data.joName",
+      "key": "joName",
+      "value": "弥彦競輪場",
+      "venue": "弥彦"
+    },
+    {
+      "path": "ROOT[1].jsj001.C0201data.C0201ticker[0].tickText",
+      "key": "tickText",
+      "value": "7月2日～4日の開催期間中、視聴者プレゼントを実施。賞品…Ａ賞＝上越酒造「越後美人」純米吟醸 720ml 20名様※20歳未満不可、Ｂ賞＝弥彦競輪スポーツタオル 10名様。詳細は弥彦競輪公式ＨＰにて。",
+      "venue": "弥彦"
+    },
+    {
+      "path": "ROOT[2].race_name",
+      "key": "race_name",
+      "value": "松戸",
+      "venue": "松戸"
+    },
+    {
+      "path": "ROOT[2].jsj001.C0201data.joName",
+      "key": "joName",
+      "value": "松戸競輪場",
+      "venue": "松戸"
+    },
+    {
+      "path": "ROOT[3].race_name",
+      "key": "race_name",
+      "value": "松阪",
+      "venue": "松阪"
+    },
+    {
+      "path": "ROOT[3].jsj001.C0201data.raceName",
+      "key": "raceName",
+      "value": "松阪焼肉かどや賞オッズパーク杯",
+      "venue": "松阪"
+    },
+    {
+      "path": "ROOT[3].jsj001.C0201data.joName",
+      "key": "joName",
+      "value": "松阪競輪場",
+      "venue": "松阪"
+    },
+    {
+      "path": "ROOT[3].jsj001.C0201data.C0201ticker[0].tickText",
+      "key": "tickText",
+      "value": "開催期間中、競輪公式投票CTCで5,000円以上投票された方の中から抽選で松阪肉10,000円相当を3名様にプレゼント！ご応募は松阪競輪公式HPから！",
+      "venue": "松阪"
+    },
+    {
+      "path": "ROOT[4].race_name",
+      "key": "race_name",
+      "value": "奈良",
+      "venue": "奈良"
+    },
+    {
+      "path": "ROOT[4].jsj001.C0201data.joName",
+      "key": "joName",
+      "value": "奈良競輪場",
+      "venue": "奈良"
+    },
+    {
+      "path": "ROOT[5].race_name",
+      "key": "race_name",
+      "value": "青森",
+      "venue": "青森"
+    },
+    {
+      "path": "ROOT[5].jsj001.C0201data.joName",
+      "key": "joName",
+      "value": "青森競輪場",
+      "venue": "青森"
+    },
+    {
+      "path": "ROOT[5].jsj001.C0201data.C0201ticker[0].tickText",
+      "key": "tickText",
+      "value": "青森競輪ＷＥＢショップでもりんちゃんグッズを販売中♪詳しくは「AKJグッズショップ」で検索！",
+      "venue": "青森"
+    },
+    {
+      "path": "ROOT[6].race_name",
+      "key": "race_name",
+      "value": "大宮",
+      "venue": "大宮"
+    },
+    {
+      "path": "ROOT[6].jsj001.C0201data.joName",
+      "key": "joName",
+      "value": "大宮競輪場",
+      "venue": "大宮"
+    },
+    {
+      "path": "ROOT[7].race_name",
+      "key": "race_name",
+      "value": "小松島",
+      "venue": "小松島"
+    },
+    {
+      "path": "ROOT[7].jsj001.C0201data.joName",
+      "key": "joName",
+      "value": "小松島競輪場",
+      "venue": "小松島"
+    },
+    {
+      "path": "ROOT[7].jsj001.C0201data.C0201ticker[0].tickText",
+      "key": "tickText",
+      "value": "【阿波おどり杯争覇戦】キャンペーン及びイベントの詳細は小松島競輪公式HPまで！",
+      "venue": "小松島"
+    }
+  ],
+  "common_key_results": [
+    {
+      "key": "joName",
+      "score": 600,
+      "common_values": [
+        "奈良競輪場"
+      ],
+      "venue_like_values": [
+        "奈良競輪場"
+      ],
+      "a_examples": [
+        {
+          "path": "ROOT[0].race.joName",
+          "value": "奈良競輪場"
+        }
+      ],
+      "b_examples": [
+        {
+          "path": "ROOT[0].jsj001.C0201data.joName",
+          "value": "函館競輪場"
+        },
+        {
+          "path": "ROOT[1].jsj001.C0201data.joName",
+          "value": "弥彦競輪場"
+        },
+        {
+          "path": "ROOT[2].jsj001.C0201data.joName",
+          "value": "松戸競輪場"
+        },
+        {
+          "path": "ROOT[3].jsj001.C0201data.joName",
+          "value": "松阪競輪場"
+        },
+        {
+          "path": "ROOT[4].jsj001.C0201data.joName",
+          "value": "奈良競輪場"
+        },
+        {
+          "path": "ROOT[5].jsj001.C0201data.joName",
+          "value": "青森競輪場"
+        },
+        {
+          "path": "ROOT[6].jsj001.C0201data.joName",
+          "value": "大宮競輪場"
+        },
+        {
+          "path": "ROOT[7].jsj001.C0201data.joName",
+          "value": "小松島競輪場"
+        }
+      ]
+    },
+    {
+      "key": "flgActvSyutujyo",
+      "score": 100,
+      "common_values": [
+        "True"
+      ],
+      "venue_like_values": [],
+      "a_examples": [
+        {
+          "path": "ROOT[0].race.flgActvSyutujyo",
+          "value": "True"
+        }
+      ],
+      "b_examples": [
+        {
+          "path": "ROOT[0].jsj001.C0201data.flgActvSyutujyo",
+          "value": "True"
+        },
+        {
+          "path": "ROOT[1].jsj001.C0201data.flgActvSyutujyo",
+          "value": "True"
+        },
+        {
+          "path": "ROOT[2].jsj001.C0201data.flgActvSyutujyo",
+          "value": "True"
+        },
+        {
+          "path": "ROOT[3].jsj001.C0201data.flgActvSyutujyo",
+          "value": "True"
+        },
+        {
+          "path": "ROOT[4].jsj001.C0201data.flgActvSyutujyo",
+          "value": "True"
+        },
+        {
+          "path": "ROOT[5].jsj001.C0201data.flgActvSyutujyo",
+          "value": "True"
+        },
+        {
+          "path": "ROOT[6].jsj001.C0201data.flgActvSyutujyo",
+          "value": "True"
+        },
+        {
+          "path": "ROOT[7].jsj001.C0201data.flgActvSyutujyo",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "key": "selKaisai",
+      "score": 100,
+      "common_values": [
+        "20260703"
+      ],
+      "venue_like_values": [],
+      "a_examples": [
+        {
+          "path": "ROOT[0].race.selKaisai",
+          "value": "20260703"
+        }
+      ],
+      "b_examples": [
+        {
+          "path": "ROOT[0].jsj001.C0201data.selKaisai",
+          "value": "20260703"
+        },
+        {
+          "path": "ROOT[1].jsj001.C0201data.selKaisai",
+          "value": "20260703"
+        },
+        {
+          "path": "ROOT[2].jsj001.C0201data.selKaisai",
+          "value": "20260703"
+        },
+        {
+          "path": "ROOT[3].jsj001.C0201data.selKaisai",
+          "value": "20260703"
+        },
+        {
+          "path": "ROOT[4].jsj001.C0201data.selKaisai",
+          "value": "20260703"
+        },
+        {
+          "path": "ROOT[5].jsj001.C0201data.selKaisai",
+          "value": "20260703"
+        },
+        {
+          "path": "ROOT[6].jsj001.C0201data.selKaisai",
+          "value": "20260703"
+        },
+        {
+          "path": "ROOT[7].jsj001.C0201data.selKaisai",
+          "value": "20260703"
+        }
+      ]
+    },
+    {
+      "key": "selKjyoCd",
+      "score": 100,
+      "common_values": [
+        "53"
+      ],
+      "venue_like_values": [],
+      "a_examples": [
+        {
+          "path": "ROOT[0].race.selKjyoCd",
+          "value": "53"
+        }
+      ],
+      "b_examples": [
+        {
+          "path": "ROOT[0].jsj001.C0201data.selKjyoCd",
+          "value": "11"
+        },
+        {
+          "path": "ROOT[1].jsj001.C0201data.selKjyoCd",
+          "value": "21"
+        },
+        {
+          "path": "ROOT[2].jsj001.C0201data.selKjyoCd",
+          "value": "31"
+        },
+        {
+          "path": "ROOT[3].jsj001.C0201data.selKjyoCd",
+          "value": "47"
+        },
+        {
+          "path": "ROOT[4].jsj001.C0201data.selKjyoCd",
+          "value": "53"
+        },
+        {
+          "path": "ROOT[5].jsj001.C0201data.selKjyoCd",
+          "value": "12"
+        },
+        {
+          "path": "ROOT[6].jsj001.C0201data.selKjyoCd",
+          "value": "25"
+        },
+        {
+          "path": "ROOT[7].jsj001.C0201data.selKjyoCd",
+          "value": "73"
+        }
+      ]
+    }
+  ],
+  "same_value_different_key": [
+    {
+      "value": "奈良競輪場",
+      "venue": "奈良",
+      "a_items": [
+        {
+          "path": "ROOT[0].race.joName",
+          "key": "joName",
+          "value": "奈良競輪場"
+        }
+      ],
+      "b_items": [
+        {
+          "path": "ROOT[4].jsj001.C0201data.joName",
+          "key": "joName",
+          "value": "奈良競輪場"
+        }
+      ]
+    }
+  ]
+}

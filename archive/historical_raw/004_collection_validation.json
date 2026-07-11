@@ -1,0 +1,311 @@
+{
+  "script": "004_collect_historical_raw.py",
+  "start_date": "20260601",
+  "end_date": "20260704",
+  "target_date_count": 34,
+  "completed_date_count": 30,
+  "failed_date_count": 4,
+  "missing_date_count": 0,
+  "completed_dates": [
+    "20260601",
+    "20260603",
+    "20260604",
+    "20260605",
+    "20260606",
+    "20260607",
+    "20260608",
+    "20260609",
+    "20260610",
+    "20260611",
+    "20260612",
+    "20260613",
+    "20260614",
+    "20260615",
+    "20260616",
+    "20260618",
+    "20260619",
+    "20260620",
+    "20260621",
+    "20260622",
+    "20260624",
+    "20260625",
+    "20260626",
+    "20260627",
+    "20260628",
+    "20260629",
+    "20260630",
+    "20260701",
+    "20260703",
+    "20260704"
+  ],
+  "failed_dates": [
+    "20260602",
+    "20260617",
+    "20260623",
+    "20260702"
+  ],
+  "missing_dates": [],
+  "total_venue_count": 267,
+  "total_race_count": 2577,
+  "total_complete_race_count": 2565,
+  "date_venue_distribution": {
+    "20260601": 10,
+    "20260602": 10,
+    "20260603": 9,
+    "20260604": 8,
+    "20260605": 9,
+    "20260606": 7,
+    "20260607": 7,
+    "20260608": 7,
+    "20260609": 8,
+    "20260610": 9,
+    "20260611": 8,
+    "20260612": 7,
+    "20260613": 7,
+    "20260614": 9,
+    "20260615": 8,
+    "20260616": 7,
+    "20260617": 7,
+    "20260618": 7,
+    "20260619": 8,
+    "20260620": 7,
+    "20260621": 6,
+    "20260622": 7,
+    "20260623": 9,
+    "20260624": 7,
+    "20260625": 8,
+    "20260626": 7,
+    "20260627": 9,
+    "20260628": 7,
+    "20260629": 7,
+    "20260630": 8,
+    "20260701": 9,
+    "20260702": 9,
+    "20260703": 8,
+    "20260704": 7
+  },
+  "date_race_distribution": {
+    "20260601": 92,
+    "20260602": 92,
+    "20260603": 81,
+    "20260604": 75,
+    "20260605": 81,
+    "20260606": 67,
+    "20260607": 72,
+    "20260608": 69,
+    "20260609": 81,
+    "20260610": 89,
+    "20260611": 83,
+    "20260612": 71,
+    "20260613": 72,
+    "20260614": 90,
+    "20260615": 78,
+    "20260616": 71,
+    "20260617": 72,
+    "20260618": 71,
+    "20260619": 79,
+    "20260620": 72,
+    "20260621": 61,
+    "20260622": 72,
+    "20260623": 90,
+    "20260624": 72,
+    "20260625": 75,
+    "20260626": 64,
+    "20260627": 83,
+    "20260628": 59,
+    "20260629": 64,
+    "20260630": 76,
+    "20260701": 83,
+    "20260702": 82,
+    "20260703": 75,
+    "20260704": 63
+  },
+  "player_count_distribution": {
+    "7": 2092,
+    "9": 272,
+    "6": 149,
+    "5": 45,
+    "0": 7,
+    "8": 12
+  },
+  "result_count_distribution": {
+    "7": 2088,
+    "9": 272,
+    "6": 148,
+    "5": 45,
+    "1": 4,
+    "0": 7,
+    "8": 12,
+    "2": 1
+  },
+  "unique_race_key_count": 2577,
+  "duplicate_race_keys": {},
+  "problem_count": 31,
+  "problems": [
+    {
+      "date": "20260602",
+      "race_key": "20260602_松戸_6R",
+      "problem": "PLAYER_RESULT_COUNT_MISMATCH",
+      "player_count": 7,
+      "result_count": 1
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_松戸_6R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_1R",
+      "problem": "JSJ006_PLAYER_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_1R",
+      "problem": "JSJ012_RESULT_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_1R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_2R",
+      "problem": "JSJ006_PLAYER_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_2R",
+      "problem": "JSJ012_RESULT_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_2R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_3R",
+      "problem": "JSJ006_PLAYER_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_3R",
+      "problem": "JSJ012_RESULT_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_3R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_4R",
+      "problem": "JSJ006_PLAYER_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_4R",
+      "problem": "JSJ012_RESULT_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_4R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_5R",
+      "problem": "JSJ006_PLAYER_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_5R",
+      "problem": "JSJ012_RESULT_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_5R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_6R",
+      "problem": "JSJ006_PLAYER_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_6R",
+      "problem": "JSJ012_RESULT_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_6R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_7R",
+      "problem": "JSJ006_PLAYER_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_7R",
+      "problem": "JSJ012_RESULT_STRUCTURE_MISSING"
+    },
+    {
+      "date": "20260602",
+      "race_key": "20260602_高知_7R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260617",
+      "race_key": "20260617_京王閣_1R",
+      "problem": "PLAYER_RESULT_COUNT_MISMATCH",
+      "player_count": 7,
+      "result_count": 1
+    },
+    {
+      "date": "20260617",
+      "race_key": "20260617_京王閣_1R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260623",
+      "race_key": "20260623_弥彦_8R",
+      "problem": "PLAYER_RESULT_COUNT_MISMATCH",
+      "player_count": 7,
+      "result_count": 1
+    },
+    {
+      "date": "20260623",
+      "race_key": "20260623_弥彦_8R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260623",
+      "race_key": "20260623_武雄_5R",
+      "problem": "PLAYER_RESULT_COUNT_MISMATCH",
+      "player_count": 7,
+      "result_count": 1
+    },
+    {
+      "date": "20260623",
+      "race_key": "20260623_武雄_5R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    },
+    {
+      "date": "20260702",
+      "race_key": "20260702_大宮_6R",
+      "problem": "PLAYER_RESULT_COUNT_MISMATCH",
+      "player_count": 6,
+      "result_count": 2
+    },
+    {
+      "date": "20260702",
+      "race_key": "20260702_大宮_6R",
+      "problem": "TRIFECTA_RESULT_MISSING"
+    }
+  ]
+}

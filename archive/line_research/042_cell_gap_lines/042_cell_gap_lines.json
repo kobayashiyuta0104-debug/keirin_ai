@@ -1,0 +1,2095 @@
+{
+  "program": "042_reconstruct_lines_by_cell_gap.py",
+  "captured_at": "2026-07-10T14:14:37.573137",
+  "target_count": 6,
+  "known_special": {
+    "大垣_8R": "ジカ競り",
+    "いわき平_1R": "ジカ競り"
+  },
+  "results": [
+    {
+      "venue": "伊東",
+      "race_no": 5,
+      "race_key": "伊東_5R",
+      "known_special": null,
+      "status": "LINES_RECONSTRUCTED",
+      "error": null,
+      "venue_wait": {
+        "changed": false,
+        "wait_seconds": 15.337
+      },
+      "race_wait": {
+        "changed": true,
+        "wait_seconds": 1.529
+      },
+      "dom": {
+        "pj0314_exists": true,
+        "line_target_exists": true,
+        "prediction_type": "三分戦",
+        "provider": "ひかり",
+        "has_competition_text": false,
+        "competition_texts": [],
+        "rows": [
+          {
+            "row_index": 0,
+            "row_text": "\t3\t7\t\t1\t4\t\t2\t5\t\t6\t\t\t\t",
+            "car_count": 7,
+            "car_numbers": [
+              3,
+              7,
+              1,
+              4,
+              2,
+              5,
+              6
+            ],
+            "car_cells": [
+              {
+                "car_number": 3,
+                "cell_index": 1,
+                "snum_index": 0,
+                "x": 506.66668701171875,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_3",
+                "outer_html": "<div class=\"snum base_color_3\">3</div>"
+              },
+              {
+                "car_number": 7,
+                "cell_index": 2,
+                "snum_index": 0,
+                "x": 521.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_7",
+                "outer_html": "<div class=\"snum base_color_7\">7</div>"
+              },
+              {
+                "car_number": 1,
+                "cell_index": 4,
+                "snum_index": 0,
+                "x": 551.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_1",
+                "outer_html": "<div class=\"snum base_color_1\">1</div>"
+              },
+              {
+                "car_number": 4,
+                "cell_index": 5,
+                "snum_index": 0,
+                "x": 566.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_4",
+                "outer_html": "<div class=\"snum base_color_4\">4</div>"
+              },
+              {
+                "car_number": 2,
+                "cell_index": 7,
+                "snum_index": 0,
+                "x": 596.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_2",
+                "outer_html": "<div class=\"snum base_color_2\">2</div>"
+              },
+              {
+                "car_number": 5,
+                "cell_index": 8,
+                "snum_index": 0,
+                "x": 611.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_5",
+                "outer_html": "<div class=\"snum base_color_5\">5</div>"
+              },
+              {
+                "car_number": 6,
+                "cell_index": 10,
+                "snum_index": 0,
+                "x": 641.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_6",
+                "outer_html": "<div class=\"snum base_color_6\">6</div>"
+              }
+            ],
+            "all_tokens": [
+              {
+                "cell_index": 1,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 3,
+                "text": "3",
+                "class_name": "snum base_color_3",
+                "x": 506.66668701171875,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 2,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 7,
+                "text": "7",
+                "class_name": "snum base_color_7",
+                "x": 521.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 3,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 536.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 4,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 1,
+                "text": "1",
+                "class_name": "snum base_color_1",
+                "x": 551.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 5,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 4,
+                "text": "4",
+                "class_name": "snum base_color_4",
+                "x": 566.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 6,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 581.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 7,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 2,
+                "text": "2",
+                "class_name": "snum base_color_2",
+                "x": 596.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 8,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 5,
+                "text": "5",
+                "class_name": "snum base_color_5",
+                "x": 611.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 9,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 626.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 10,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 6,
+                "text": "6",
+                "class_name": "snum base_color_6",
+                "x": 641.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 11,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 656.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 12,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 671.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 13,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 686.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 14,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 701.6666870117188,
+                "y": 1451.71875
+              }
+            ],
+            "rect": {
+              "x": 480.66668701171875,
+              "y": 1451.71875,
+              "width": 236,
+              "height": 26.854167938232422
+            },
+            "outer_html": "<tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr>"
+          }
+        ],
+        "row_count": 1,
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t3\t7\t\t1\t4\t\t2\t5\t\t6\t\t\t\t\n\n\n情報提供：ひかり",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：ひかり</td></tr></tbody></table></td></tr></tbody></table>",
+        "line_table_html": "<table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table>"
+      },
+      "analysis": {
+        "main_row_index": 0,
+        "main_lines": [
+          [
+            3,
+            7
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "competition_rows": [],
+        "all_rows": [
+          {
+            "row_index": 0,
+            "car_count": 7,
+            "car_numbers": [
+              3,
+              7,
+              1,
+              4,
+              2,
+              5,
+              6
+            ],
+            "car_cell_indexes": [
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              10
+            ],
+            "reconstructed_lines": [
+              [
+                3,
+                7
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                6
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "venue": "大垣",
+      "race_no": 8,
+      "race_key": "大垣_8R",
+      "known_special": "ジカ競り",
+      "status": "LINE_TARGET_NOT_FOUND",
+      "error": null,
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.517
+      },
+      "race_wait": {
+        "changed": false,
+        "wait_seconds": 15.313
+      },
+      "dom": {
+        "pj0314_exists": true,
+        "line_target_exists": false,
+        "prediction_type": null,
+        "provider": null,
+        "has_competition_text": false,
+        "competition_texts": [],
+        "rows": [],
+        "row_count": 0,
+        "target_text": null,
+        "target_html": null,
+        "line_table_html": null
+      },
+      "analysis": null
+    },
+    {
+      "venue": "いわき平",
+      "race_no": 1,
+      "race_key": "いわき平_1R",
+      "known_special": "ジカ競り",
+      "status": "LINES_RECONSTRUCTED",
+      "error": null,
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.516
+      },
+      "race_wait": {
+        "changed": false,
+        "wait_seconds": 15.301
+      },
+      "dom": {
+        "pj0314_exists": true,
+        "line_target_exists": true,
+        "prediction_type": "二分戦",
+        "provider": "アオケイ",
+        "has_competition_text": true,
+        "competition_texts": [
+          {
+            "tag": "TD",
+            "id": "",
+            "class_name": "al-c",
+            "text": "競",
+            "outer_html": "<td class=\"al-c\" style=\"width: 5%;\"><p class=\"seri\">競</p></td>"
+          },
+          {
+            "tag": "P",
+            "id": "",
+            "class_name": "seri",
+            "text": "競",
+            "outer_html": "<p class=\"seri\">競</p>"
+          }
+        ],
+        "rows": [
+          {
+            "row_index": 0,
+            "row_text": "\t3\t2\t4\t\t5\t\t7\t6\t\t\t\t\t\t",
+            "car_count": 6,
+            "car_numbers": [
+              3,
+              2,
+              4,
+              5,
+              7,
+              6
+            ],
+            "car_cells": [
+              {
+                "car_number": 3,
+                "cell_index": 1,
+                "snum_index": 0,
+                "x": 506.66668701171875,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_3",
+                "outer_html": "<div class=\"snum base_color_3\">3</div>"
+              },
+              {
+                "car_number": 2,
+                "cell_index": 2,
+                "snum_index": 0,
+                "x": 521.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_2",
+                "outer_html": "<div class=\"snum base_color_2\">2</div>"
+              },
+              {
+                "car_number": 4,
+                "cell_index": 3,
+                "snum_index": 0,
+                "x": 536.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_4",
+                "outer_html": "<div class=\"snum base_color_4\">4</div>"
+              },
+              {
+                "car_number": 5,
+                "cell_index": 5,
+                "snum_index": 0,
+                "x": 566.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_5",
+                "outer_html": "<div class=\"snum base_color_5\">5</div>"
+              },
+              {
+                "car_number": 7,
+                "cell_index": 7,
+                "snum_index": 0,
+                "x": 596.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_7",
+                "outer_html": "<div class=\"snum base_color_7\">7</div>"
+              },
+              {
+                "car_number": 6,
+                "cell_index": 8,
+                "snum_index": 0,
+                "x": 611.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_6",
+                "outer_html": "<div class=\"snum base_color_6\">6</div>"
+              }
+            ],
+            "all_tokens": [
+              {
+                "cell_index": 1,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 3,
+                "text": "3",
+                "class_name": "snum base_color_3",
+                "x": 506.66668701171875,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 2,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 2,
+                "text": "2",
+                "class_name": "snum base_color_2",
+                "x": 521.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 3,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 4,
+                "text": "4",
+                "class_name": "snum base_color_4",
+                "x": 536.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 4,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 551.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 5,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 5,
+                "text": "5",
+                "class_name": "snum base_color_5",
+                "x": 566.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 6,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 581.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 7,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 7,
+                "text": "7",
+                "class_name": "snum base_color_7",
+                "x": 596.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 8,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 6,
+                "text": "6",
+                "class_name": "snum base_color_6",
+                "x": 611.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 9,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 626.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 10,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 641.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 11,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 656.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 12,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 671.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 13,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 686.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 14,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 701.6666870117188,
+                "y": 1440.6458740234375
+              }
+            ],
+            "rect": {
+              "x": 480.66668701171875,
+              "y": 1440.6458740234375,
+              "width": 236,
+              "height": 26.854167938232422
+            },
+            "outer_html": "<tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr>"
+          },
+          {
+            "row_index": 1,
+            "row_text": " \t\t1\t\t\t\t\t\t\t\t\t\t\t\t",
+            "car_count": 1,
+            "car_numbers": [
+              1
+            ],
+            "car_cells": [
+              {
+                "car_number": 1,
+                "cell_index": 2,
+                "snum_index": 0,
+                "x": 521.6666870117188,
+                "y": 1470.59375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_1",
+                "outer_html": "<div class=\"snum base_color_1\">1</div>"
+              }
+            ],
+            "all_tokens": [
+              {
+                "cell_index": 1,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 506.66668701171875,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 2,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 1,
+                "text": "1",
+                "class_name": "snum base_color_1",
+                "x": 521.6666870117188,
+                "y": 1470.59375
+              },
+              {
+                "cell_index": 3,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 536.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 4,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 551.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 5,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 566.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 6,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 581.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 7,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 596.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 8,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 611.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 9,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 626.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 10,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 641.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 11,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 656.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 12,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 671.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 13,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 686.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 14,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 701.6666870117188,
+                "y": 1467.5
+              }
+            ],
+            "rect": {
+              "x": 480.66668701171875,
+              "y": 1467.5,
+              "width": 236,
+              "height": 26.854167938232422
+            },
+            "outer_html": "<tr><td>&nbsp;</td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr>"
+          }
+        ],
+        "row_count": 2,
+        "target_text": "並び予想\t\t\n\n二分戦\n\n\t\t\n\n競\n\n\t \n\n\t3\t2\t4\t\t5\t\t7\t6\t\t\t\t\t\t\n \t\t1\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"nibusen\">二分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"><p class=\"seri\">競</p></td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr><tr><td>&nbsp;</td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table>",
+        "line_table_html": "<table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr><tr><td>&nbsp;</td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table>"
+      },
+      "analysis": {
+        "main_row_index": 0,
+        "main_lines": [
+          [
+            3,
+            2,
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "competition_rows": [
+          {
+            "row_index": 1,
+            "car_count": 1,
+            "car_numbers": [
+              1
+            ],
+            "car_cell_indexes": [
+              2
+            ],
+            "reconstructed_lines": [
+              [
+                1
+              ]
+            ]
+          }
+        ],
+        "all_rows": [
+          {
+            "row_index": 0,
+            "car_count": 6,
+            "car_numbers": [
+              3,
+              2,
+              4,
+              5,
+              7,
+              6
+            ],
+            "car_cell_indexes": [
+              1,
+              2,
+              3,
+              5,
+              7,
+              8
+            ],
+            "reconstructed_lines": [
+              [
+                3,
+                2,
+                4
+              ],
+              [
+                5
+              ],
+              [
+                7,
+                6
+              ]
+            ]
+          },
+          {
+            "row_index": 1,
+            "car_count": 1,
+            "car_numbers": [
+              1
+            ],
+            "car_cell_indexes": [
+              2
+            ],
+            "reconstructed_lines": [
+              [
+                1
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "venue": "いわき平",
+      "race_no": 2,
+      "race_key": "いわき平_2R",
+      "known_special": null,
+      "status": "LINES_RECONSTRUCTED",
+      "error": null,
+      "venue_wait": {
+        "changed": false,
+        "wait_seconds": 15.289
+      },
+      "race_wait": {
+        "changed": true,
+        "wait_seconds": 1.522
+      },
+      "dom": {
+        "pj0314_exists": true,
+        "line_target_exists": true,
+        "prediction_type": "二分戦",
+        "provider": "アオケイ",
+        "has_competition_text": true,
+        "competition_texts": [
+          {
+            "tag": "TD",
+            "id": "",
+            "class_name": "al-c",
+            "text": "競",
+            "outer_html": "<td class=\"al-c\" style=\"width: 5%;\"><p class=\"seri\">競</p></td>"
+          },
+          {
+            "tag": "P",
+            "id": "",
+            "class_name": "seri",
+            "text": "競",
+            "outer_html": "<p class=\"seri\">競</p>"
+          }
+        ],
+        "rows": [
+          {
+            "row_index": 0,
+            "row_text": "\t4\t1\t2\t\t5\t7\t\t6\t\t\t\t\t\t",
+            "car_count": 6,
+            "car_numbers": [
+              4,
+              1,
+              2,
+              5,
+              7,
+              6
+            ],
+            "car_cells": [
+              {
+                "car_number": 4,
+                "cell_index": 1,
+                "snum_index": 0,
+                "x": 506.66668701171875,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_4",
+                "outer_html": "<div class=\"snum base_color_4\">4</div>"
+              },
+              {
+                "car_number": 1,
+                "cell_index": 2,
+                "snum_index": 0,
+                "x": 521.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_1",
+                "outer_html": "<div class=\"snum base_color_1\">1</div>"
+              },
+              {
+                "car_number": 2,
+                "cell_index": 3,
+                "snum_index": 0,
+                "x": 536.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_2",
+                "outer_html": "<div class=\"snum base_color_2\">2</div>"
+              },
+              {
+                "car_number": 5,
+                "cell_index": 5,
+                "snum_index": 0,
+                "x": 566.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_5",
+                "outer_html": "<div class=\"snum base_color_5\">5</div>"
+              },
+              {
+                "car_number": 7,
+                "cell_index": 6,
+                "snum_index": 0,
+                "x": 581.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_7",
+                "outer_html": "<div class=\"snum base_color_7\">7</div>"
+              },
+              {
+                "car_number": 6,
+                "cell_index": 8,
+                "snum_index": 0,
+                "x": 611.6666870117188,
+                "y": 1443.7396240234375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_6",
+                "outer_html": "<div class=\"snum base_color_6\">6</div>"
+              }
+            ],
+            "all_tokens": [
+              {
+                "cell_index": 1,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 4,
+                "text": "4",
+                "class_name": "snum base_color_4",
+                "x": 506.66668701171875,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 2,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 1,
+                "text": "1",
+                "class_name": "snum base_color_1",
+                "x": 521.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 3,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 2,
+                "text": "2",
+                "class_name": "snum base_color_2",
+                "x": 536.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 4,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 551.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 5,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 5,
+                "text": "5",
+                "class_name": "snum base_color_5",
+                "x": 566.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 6,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 7,
+                "text": "7",
+                "class_name": "snum base_color_7",
+                "x": 581.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 7,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 596.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 8,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 6,
+                "text": "6",
+                "class_name": "snum base_color_6",
+                "x": 611.6666870117188,
+                "y": 1443.7396240234375
+              },
+              {
+                "cell_index": 9,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 626.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 10,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 641.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 11,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 656.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 12,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 671.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 13,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 686.6666870117188,
+                "y": 1440.6458740234375
+              },
+              {
+                "cell_index": 14,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 701.6666870117188,
+                "y": 1440.6458740234375
+              }
+            ],
+            "rect": {
+              "x": 480.66668701171875,
+              "y": 1440.6458740234375,
+              "width": 236,
+              "height": 26.854167938232422
+            },
+            "outer_html": "<tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr>"
+          },
+          {
+            "row_index": 1,
+            "row_text": " \t\t3\t\t\t\t\t\t\t\t\t\t\t\t",
+            "car_count": 1,
+            "car_numbers": [
+              3
+            ],
+            "car_cells": [
+              {
+                "car_number": 3,
+                "cell_index": 2,
+                "snum_index": 0,
+                "x": 521.6666870117188,
+                "y": 1470.59375,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_3",
+                "outer_html": "<div class=\"snum base_color_3\">3</div>"
+              }
+            ],
+            "all_tokens": [
+              {
+                "cell_index": 1,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 506.66668701171875,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 2,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 3,
+                "text": "3",
+                "class_name": "snum base_color_3",
+                "x": 521.6666870117188,
+                "y": 1470.59375
+              },
+              {
+                "cell_index": 3,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 536.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 4,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 551.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 5,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 566.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 6,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 581.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 7,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 596.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 8,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 611.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 9,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 626.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 10,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 641.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 11,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 656.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 12,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 671.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 13,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 686.6666870117188,
+                "y": 1467.5
+              },
+              {
+                "cell_index": 14,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 701.6666870117188,
+                "y": 1467.5
+              }
+            ],
+            "rect": {
+              "x": 480.66668701171875,
+              "y": 1467.5,
+              "width": 236,
+              "height": 26.854167938232422
+            },
+            "outer_html": "<tr><td>&nbsp;</td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr>"
+          }
+        ],
+        "row_count": 2,
+        "target_text": "並び予想\t\t\n\n二分戦\n\n\t\t\n\n競\n\n\t \n\n\t4\t1\t2\t\t5\t7\t\t6\t\t\t\t\t\t\n \t\t3\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"nibusen\">二分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"><p class=\"seri\">競</p></td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr><tr><td>&nbsp;</td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table>",
+        "line_table_html": "<table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr><tr><td>&nbsp;</td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table>"
+      },
+      "analysis": {
+        "main_row_index": 0,
+        "main_lines": [
+          [
+            4,
+            1,
+            2
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6
+          ]
+        ],
+        "competition_rows": [
+          {
+            "row_index": 1,
+            "car_count": 1,
+            "car_numbers": [
+              3
+            ],
+            "car_cell_indexes": [
+              2
+            ],
+            "reconstructed_lines": [
+              [
+                3
+              ]
+            ]
+          }
+        ],
+        "all_rows": [
+          {
+            "row_index": 0,
+            "car_count": 6,
+            "car_numbers": [
+              4,
+              1,
+              2,
+              5,
+              7,
+              6
+            ],
+            "car_cell_indexes": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              8
+            ],
+            "reconstructed_lines": [
+              [
+                4,
+                1,
+                2
+              ],
+              [
+                5,
+                7
+              ],
+              [
+                6
+              ]
+            ]
+          },
+          {
+            "row_index": 1,
+            "car_count": 1,
+            "car_numbers": [
+              3
+            ],
+            "car_cell_indexes": [
+              2
+            ],
+            "reconstructed_lines": [
+              [
+                3
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "venue": "いわき平",
+      "race_no": 3,
+      "race_key": "いわき平_3R",
+      "known_special": null,
+      "status": "LINES_RECONSTRUCTED",
+      "error": null,
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.519
+      },
+      "race_wait": {
+        "changed": true,
+        "wait_seconds": 1.519
+      },
+      "dom": {
+        "pj0314_exists": true,
+        "line_target_exists": true,
+        "prediction_type": "二分戦",
+        "provider": "アオケイ",
+        "has_competition_text": false,
+        "competition_texts": [],
+        "rows": [
+          {
+            "row_index": 0,
+            "row_text": "\t1\t2\t6\t7\t\t3\t\t4\t5\t\t\t\t\t",
+            "car_count": 7,
+            "car_numbers": [
+              1,
+              2,
+              6,
+              7,
+              3,
+              4,
+              5
+            ],
+            "car_cells": [
+              {
+                "car_number": 1,
+                "cell_index": 1,
+                "snum_index": 0,
+                "x": 506.66668701171875,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_1",
+                "outer_html": "<div class=\"snum base_color_1\">1</div>"
+              },
+              {
+                "car_number": 2,
+                "cell_index": 2,
+                "snum_index": 0,
+                "x": 521.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_2",
+                "outer_html": "<div class=\"snum base_color_2\">2</div>"
+              },
+              {
+                "car_number": 6,
+                "cell_index": 3,
+                "snum_index": 0,
+                "x": 536.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_6",
+                "outer_html": "<div class=\"snum base_color_6\">6</div>"
+              },
+              {
+                "car_number": 7,
+                "cell_index": 4,
+                "snum_index": 0,
+                "x": 551.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_7",
+                "outer_html": "<div class=\"snum base_color_7\">7</div>"
+              },
+              {
+                "car_number": 3,
+                "cell_index": 6,
+                "snum_index": 0,
+                "x": 581.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_3",
+                "outer_html": "<div class=\"snum base_color_3\">3</div>"
+              },
+              {
+                "car_number": 4,
+                "cell_index": 8,
+                "snum_index": 0,
+                "x": 611.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_4",
+                "outer_html": "<div class=\"snum base_color_4\">4</div>"
+              },
+              {
+                "car_number": 5,
+                "cell_index": 9,
+                "snum_index": 0,
+                "x": 626.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_5",
+                "outer_html": "<div class=\"snum base_color_5\">5</div>"
+              }
+            ],
+            "all_tokens": [
+              {
+                "cell_index": 1,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 1,
+                "text": "1",
+                "class_name": "snum base_color_1",
+                "x": 506.66668701171875,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 2,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 2,
+                "text": "2",
+                "class_name": "snum base_color_2",
+                "x": 521.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 3,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 6,
+                "text": "6",
+                "class_name": "snum base_color_6",
+                "x": 536.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 4,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 7,
+                "text": "7",
+                "class_name": "snum base_color_7",
+                "x": 551.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 5,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 566.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 6,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 3,
+                "text": "3",
+                "class_name": "snum base_color_3",
+                "x": 581.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 7,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 596.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 8,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 4,
+                "text": "4",
+                "class_name": "snum base_color_4",
+                "x": 611.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 9,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 5,
+                "text": "5",
+                "class_name": "snum base_color_5",
+                "x": 626.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 10,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 641.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 11,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 656.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 12,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 671.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 13,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 686.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 14,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 701.6666870117188,
+                "y": 1451.71875
+              }
+            ],
+            "rect": {
+              "x": 480.66668701171875,
+              "y": 1451.71875,
+              "width": 236,
+              "height": 26.854167938232422
+            },
+            "outer_html": "<tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr>"
+          }
+        ],
+        "row_count": 1,
+        "target_text": "並び予想\t\t\n\n二分戦\n\n\t\t\t \n\n\t1\t2\t6\t7\t\t3\t\t4\t5\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"nibusen\">二分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table>",
+        "line_table_html": "<table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table>"
+      },
+      "analysis": {
+        "main_row_index": 0,
+        "main_lines": [
+          [
+            1,
+            2,
+            6,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "competition_rows": [],
+        "all_rows": [
+          {
+            "row_index": 0,
+            "car_count": 7,
+            "car_numbers": [
+              1,
+              2,
+              6,
+              7,
+              3,
+              4,
+              5
+            ],
+            "car_cell_indexes": [
+              1,
+              2,
+              3,
+              4,
+              6,
+              8,
+              9
+            ],
+            "reconstructed_lines": [
+              [
+                1,
+                2,
+                6,
+                7
+              ],
+              [
+                3
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "venue": "いわき平",
+      "race_no": 6,
+      "race_key": "いわき平_6R",
+      "known_special": null,
+      "status": "LINES_RECONSTRUCTED",
+      "error": null,
+      "venue_wait": {
+        "changed": true,
+        "wait_seconds": 1.518
+      },
+      "race_wait": {
+        "changed": true,
+        "wait_seconds": 1.525
+      },
+      "dom": {
+        "pj0314_exists": true,
+        "line_target_exists": true,
+        "prediction_type": "二分戦",
+        "provider": "アオケイ",
+        "has_competition_text": false,
+        "competition_texts": [],
+        "rows": [
+          {
+            "row_index": 0,
+            "row_text": "\t1\t5\t2\t\t6\t3\t4\t\t7\t\t\t\t\t",
+            "car_count": 7,
+            "car_numbers": [
+              1,
+              5,
+              2,
+              6,
+              3,
+              4,
+              7
+            ],
+            "car_cells": [
+              {
+                "car_number": 1,
+                "cell_index": 1,
+                "snum_index": 0,
+                "x": 506.66668701171875,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_1",
+                "outer_html": "<div class=\"snum base_color_1\">1</div>"
+              },
+              {
+                "car_number": 5,
+                "cell_index": 2,
+                "snum_index": 0,
+                "x": 521.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_5",
+                "outer_html": "<div class=\"snum base_color_5\">5</div>"
+              },
+              {
+                "car_number": 2,
+                "cell_index": 3,
+                "snum_index": 0,
+                "x": 536.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_2",
+                "outer_html": "<div class=\"snum base_color_2\">2</div>"
+              },
+              {
+                "car_number": 6,
+                "cell_index": 5,
+                "snum_index": 0,
+                "x": 566.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_6",
+                "outer_html": "<div class=\"snum base_color_6\">6</div>"
+              },
+              {
+                "car_number": 3,
+                "cell_index": 6,
+                "snum_index": 0,
+                "x": 581.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_3",
+                "outer_html": "<div class=\"snum base_color_3\">3</div>"
+              },
+              {
+                "car_number": 4,
+                "cell_index": 7,
+                "snum_index": 0,
+                "x": 596.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_4",
+                "outer_html": "<div class=\"snum base_color_4\">4</div>"
+              },
+              {
+                "car_number": 7,
+                "cell_index": 9,
+                "snum_index": 0,
+                "x": 626.6666870117188,
+                "y": 1454.8125,
+                "width": 15,
+                "height": 22,
+                "class_name": "snum base_color_7",
+                "outer_html": "<div class=\"snum base_color_7\">7</div>"
+              }
+            ],
+            "all_tokens": [
+              {
+                "cell_index": 1,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 1,
+                "text": "1",
+                "class_name": "snum base_color_1",
+                "x": 506.66668701171875,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 2,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 5,
+                "text": "5",
+                "class_name": "snum base_color_5",
+                "x": 521.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 3,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 2,
+                "text": "2",
+                "class_name": "snum base_color_2",
+                "x": 536.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 4,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 551.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 5,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 6,
+                "text": "6",
+                "class_name": "snum base_color_6",
+                "x": 566.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 6,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 3,
+                "text": "3",
+                "class_name": "snum base_color_3",
+                "x": 581.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 7,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 4,
+                "text": "4",
+                "class_name": "snum base_color_4",
+                "x": 596.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 8,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 611.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 9,
+                "snum_index": 0,
+                "token_type": "car",
+                "value": 7,
+                "text": "7",
+                "class_name": "snum base_color_7",
+                "x": 626.6666870117188,
+                "y": 1454.8125
+              },
+              {
+                "cell_index": 10,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 641.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 11,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 656.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 12,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 671.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 13,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 686.6666870117188,
+                "y": 1451.71875
+              },
+              {
+                "cell_index": 14,
+                "snum_index": 0,
+                "token_type": "base_color_0",
+                "value": null,
+                "text": "",
+                "class_name": "snum base_color_0",
+                "x": 701.6666870117188,
+                "y": 1451.71875
+              }
+            ],
+            "rect": {
+              "x": 480.66668701171875,
+              "y": 1451.71875,
+              "width": 236,
+              "height": 26.854167938232422
+            },
+            "outer_html": "<tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr>"
+          }
+        ],
+        "row_count": 1,
+        "target_text": "並び予想\t\t\n\n二分戦\n\n\t\t\t \n\n\t1\t5\t2\t\t6\t3\t4\t\t7\t\t\t\t\t\n\n\n情報提供：アオケイ",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"nibusen\">二分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table>",
+        "line_table_html": "<table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table>"
+      },
+      "analysis": {
+        "main_row_index": 0,
+        "main_lines": [
+          [
+            1,
+            5,
+            2
+          ],
+          [
+            6,
+            3,
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "competition_rows": [],
+        "all_rows": [
+          {
+            "row_index": 0,
+            "car_count": 7,
+            "car_numbers": [
+              1,
+              5,
+              2,
+              6,
+              3,
+              4,
+              7
+            ],
+            "car_cell_indexes": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              9
+            ],
+            "reconstructed_lines": [
+              [
+                1,
+                5,
+                2
+              ],
+              [
+                6,
+                3,
+                4
+              ],
+              [
+                7
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

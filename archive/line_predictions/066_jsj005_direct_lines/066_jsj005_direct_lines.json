@@ -1,0 +1,5694 @@
+{
+  "program": "066_test.py",
+  "purpose": "JSJ057から当日開催を探索し、JSJ001から全レースencParaRを取得。同じencParaRをJSJ005のencpとして使用し、Edge・Playwrightなしでライン予想を直接自動取得する。",
+  "target_date": "20260711",
+  "edge_used": false,
+  "playwright_used": false,
+  "venue_count": 7,
+  "total_race_count": 72,
+  "result_count": 72,
+  "line_found_count": 54,
+  "line_empty_count": 18,
+  "fetch_error_count": 0,
+  "status_summary": {
+    "LINE_FOUND": 54,
+    "LINE_EMPTY": 18
+  },
+  "problems": [],
+  "results": [
+    {
+      "race_key": "20260711_前橋_1R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 1,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "status": "LINE_FOUND",
+      "prediction_type": "コマ切れ",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          1,
+          5
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 4
+        },
+        {
+          "ichi": 11,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "7",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "9",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "11",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "4",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1276,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_2R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 2,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg38r3Jb_-5LKXCKboDICeSc",
+      "status": "LINE_FOUND",
+      "prediction_type": "四分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          4,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 6
+        },
+        {
+          "ichi": 9,
+          "shaban": 7
+        },
+        {
+          "ichi": 10,
+          "shaban": 5
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "4",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "6",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "1",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "10",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "7",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "9",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1271,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_3R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 3,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg6rD__MlCtz4mugrMDGThdM",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          5,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "5",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "1",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "7",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "2",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "8",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "4",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1272,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_4R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 4,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg2_LAMwld10gRSkS6dVxpAg",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          7,
+          1
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "6",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "1",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "4",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "8",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1268,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_5R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 5,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg3ZfLLqdXUYqiMSDn3oMI1w",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          7,
+          3
+        ],
+        [
+          4,
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 2,
+          "shaban": 3
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 6,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "5",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "8",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "2",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "4",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "9",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "6",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "1",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1272,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_6R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 6,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg6XQQXYKVaDBxDZnTl5EQ3Q",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7,
+          1
+        ],
+        [
+          2,
+          8,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 3
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 8
+        },
+        {
+          "ichi": 10,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "6",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "8",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "1",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "4",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "10",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        },
+        {
+          "ichi": "9",
+          "shaban": "8",
+          "classname": "base_color_8"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1383,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_7R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 7,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg92NklqxJAy3IWaj0kw5Zu8",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          2,
+          4,
+          7
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 6
+        },
+        {
+          "ichi": 9,
+          "shaban": 8
+        },
+        {
+          "ichi": 10,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "6",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "1",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "10",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "2",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "5",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "7",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "3",
+          "shaban": "7",
+          "classname": "base_color_7"
+        },
+        {
+          "ichi": "9",
+          "shaban": "8",
+          "classname": "base_color_8"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1379,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_8R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 8,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg8zUiJQzNyigiVjpxRemuDg",
+      "status": "LINE_FOUND",
+      "prediction_type": "四分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          6,
+          1,
+          4
+        ],
+        [
+          8,
+          2,
+          7
+        ],
+        [
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 8
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        },
+        {
+          "ichi": 11,
+          "shaban": 9
+        },
+        {
+          "ichi": 12,
+          "shaban": 5
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "3",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "12",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "1",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "7",
+          "shaban": "7",
+          "classname": "base_color_7"
+        },
+        {
+          "ichi": "5",
+          "shaban": "8",
+          "classname": "base_color_8"
+        },
+        {
+          "ichi": "11",
+          "shaban": "9",
+          "classname": "base_color_9"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1488,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_9R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 9,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg03PxvqO76WRkPpNWvbyJOQ",
+      "status": "LINE_FOUND",
+      "prediction_type": "コマ切れ",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          4,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          9,
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          8
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 9
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 5
+        },
+        {
+          "ichi": 11,
+          "shaban": 7
+        },
+        {
+          "ichi": 13,
+          "shaban": 8
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "4",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "7",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "1",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "10",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "8",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "11",
+          "shaban": "7",
+          "classname": "base_color_7"
+        },
+        {
+          "ichi": "13",
+          "shaban": "8",
+          "classname": "base_color_8"
+        },
+        {
+          "ichi": "6",
+          "shaban": "9",
+          "classname": "base_color_9"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1490,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_10R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 10,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg3LzHb0GpAmZ6dydUK9rdwM",
+      "status": "LINE_FOUND",
+      "prediction_type": "四分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          3,
+          9
+        ],
+        [
+          2,
+          7,
+          4
+        ],
+        [
+          8
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 6,
+          "shaban": 9
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 7
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        },
+        {
+          "ichi": 12,
+          "shaban": 8
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "8",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "5",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "10",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "4",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "9",
+          "shaban": "7",
+          "classname": "base_color_7"
+        },
+        {
+          "ichi": "12",
+          "shaban": "8",
+          "classname": "base_color_8"
+        },
+        {
+          "ichi": "6",
+          "shaban": "9",
+          "classname": "base_color_9"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1489,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_11R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 11,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg2CIGuJAZm4i9s_cNuBE4hk",
+      "status": "LINE_FOUND",
+      "prediction_type": "四分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          1,
+          9
+        ],
+        [
+          5,
+          7,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 9
+        },
+        {
+          "ichi": 4,
+          "shaban": 5
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 4
+        },
+        {
+          "ichi": 11,
+          "shaban": 6
+        },
+        {
+          "ichi": 12,
+          "shaban": 8
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "8",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "6",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "9",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "4",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "11",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        },
+        {
+          "ichi": "12",
+          "shaban": "8",
+          "classname": "base_color_8"
+        },
+        {
+          "ichi": "2",
+          "shaban": "9",
+          "classname": "base_color_9"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1491,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_前橋_12R",
+      "target_date": "20260711",
+      "venue": "前橋",
+      "venue_code": "22",
+      "race_no": 12,
+      "encParaR": "D-fs-ibaZM4Z3cYeuKvjg2AqzKxPf6cLa6BBi34nlho",
+      "status": "LINE_FOUND",
+      "prediction_type": "四分戦",
+      "provider": "アオケイ",
+      "main_lines": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          7,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 9
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        },
+        {
+          "ichi": 11,
+          "shaban": 8
+        },
+        {
+          "ichi": 12,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "4",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "1",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "12",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        },
+        {
+          "ichi": "11",
+          "shaban": "8",
+          "classname": "base_color_8"
+        },
+        {
+          "ichi": "8",
+          "shaban": "9",
+          "classname": "base_color_9"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 1486,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_1R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 1,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0H1GyjxmXow3lQ3lLASyrgfw",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          7,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 3
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "4",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "8",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "1",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 872,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_2R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 2,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0H2_YsM2Zis0xyOvnsxCHjY8",
+      "status": "LINE_FOUND",
+      "prediction_type": "二分戦",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 6
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "7",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "8",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "9",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "2",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "3",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 871,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_3R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 3,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0HxB7pSxYRGdtDjGZHiqA0PA",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          7,
+          4,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "3",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "2",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "6",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "8",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "1",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 872,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_4R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 4,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0H3RfHXrGZuB8kxJv_YuQkx0",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          7,
+          6
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "4",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "8",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "1",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "6",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 872,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_5R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 5,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0H1boQgB359f6w5X2bNMWLhA",
+      "status": "LINE_FOUND",
+      "prediction_type": "コマ切れ",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          7,
+          1,
+          5
+        ],
+        [
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 5
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 4
+        },
+        {
+          "ichi": 10,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "7",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "5",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "8",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "3",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "10",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "1",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 874,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_6R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 6,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0Hz27gh_AY2YhpGB8IOTGrW4",
+      "status": "LINE_FOUND",
+      "prediction_type": "ライン無し",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          7
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          5
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 4
+        },
+        {
+          "ichi": 11,
+          "shaban": 6
+        },
+        {
+          "ichi": 13,
+          "shaban": 5
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "3",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "7",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "9",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "13",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "11",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "1",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 874,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_7R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 7,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0H9YvhZ-SZnWapGYTN17XsH8",
+      "status": "LINE_FOUND",
+      "prediction_type": "ライン無し",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        },
+        {
+          "ichi": 11,
+          "shaban": 5
+        },
+        {
+          "ichi": 13,
+          "shaban": 7
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "3",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "5",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "7",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "11",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "13",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 874,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_8R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 8,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0HxJqlTT-P7cNJFPbbpdLq5c",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 4
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "6",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "8",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "1",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "3",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 872,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_9R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 9,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0H-NVWiU5QeFKg1hnK0qe2ts",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "5",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "3",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "8",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 872,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_10R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 10,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0HyERVANbqLj71haWKCV0_V8",
+      "status": "LINE_FOUND",
+      "prediction_type": "コマ切れ",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          5,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 2
+        },
+        {
+          "ichi": 4,
+          "shaban": 1
+        },
+        {
+          "ichi": 6,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "4",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "2",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "6",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "10",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "1",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "7",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 875,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_11R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 11,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0H-T0tvkLHEu_p9Hbhmg1dVE",
+      "status": "LINE_FOUND",
+      "prediction_type": "二分戦",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          1,
+          5,
+          4,
+          7
+        ],
+        [
+          3,
+          2,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "7",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "6",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "3",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "8",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "4",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 872,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_伊東_12R",
+      "target_date": "20260711",
+      "venue": "伊東",
+      "venue_code": "37",
+      "race_no": 12,
+      "encParaR": "W2uRQM1igycPTuhMZ-U0H0nU1cwPqB5Aoqtt7qgus1I",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "ひかり",
+      "main_lines": [
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "3",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "1",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 873,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_1R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 1,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SIaOJBtMIyptS7aaASTt1Oc",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          3,
+          7,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 3
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "6",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "8",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "1",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "3",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "5",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "2",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 862,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_2R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 2,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SN2UiQ-KNVPAZtv1HVmKykY",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          2,
+          4
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 4
+        },
+        {
+          "ichi": 8,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "6",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "4",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "8",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 862,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_3R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 3,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SJhHW8VlEaLnMkJZAKOIAHM",
+      "status": "LINE_FOUND",
+      "prediction_type": "二分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          1,
+          5,
+          4,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 6,
+          "shaban": 7
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 2
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "9",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "7",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "3",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "4",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "6",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 859,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_4R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 4,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SN92r71zEZBOQNt_SRR5RZE",
+      "status": "LINE_FOUND",
+      "prediction_type": "二分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          7,
+          2,
+          4
+        ],
+        [
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 3
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "3",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "1",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "7",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 861,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_5R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 5,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SKOyoEmom8ATZBC26ipqwFs",
+      "status": "LINE_FOUND",
+      "prediction_type": "コマ切れ",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 7
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "4",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "7",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "5",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "1",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "8",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "10",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 869,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_6R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 6,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SHvcSHLFeyAhe-1DLkOJnkY",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          4,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "6",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "1",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "5",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "9",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "4",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "2",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 867,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_7R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 7,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SGPXP6oDvp01n2VOzzjO11o",
+      "status": "LINE_FOUND",
+      "prediction_type": "二分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          7,
+          1,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "10",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "3",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "5",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "8",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "1",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 867,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_8R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 8,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SJ56AT2-8Yj7Q-0fwWaYNME",
+      "status": "LINE_FOUND",
+      "prediction_type": "二分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          7
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 3,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 7
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "6",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "1",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "2",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "5",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "3",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "10",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 867,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_9R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 9,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SCXd_7Wt1mjeE7whLyMSKqI",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          4,
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "1",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "6",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "3",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "8",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 872,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_10R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 10,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SL1YlYAsoPRulWkmfIW7vEs",
+      "status": "LINE_FOUND",
+      "prediction_type": "二分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          4,
+          1,
+          7
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "1",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "5",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "10",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "3",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 873,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_11R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 11,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SGMho2QCd0-1fPbRVPMSZCE",
+      "status": "LINE_FOUND",
+      "prediction_type": "コマ切れ",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          2,
+          7,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 3,
+          "shaban": 5
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "5",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "1",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "10",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "3",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "7",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "2",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 870,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_岐阜_12R",
+      "target_date": "20260711",
+      "venue": "岐阜",
+      "venue_code": "43",
+      "race_no": 12,
+      "encParaR": "fh4VmOIOM0WWTQX4GRt_SAgKUs5At202cZFq3fFwSZ8",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "中部競輪記者クラブ",
+      "main_lines": [
+        [
+          6,
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 5
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 4
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 7
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "6",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "3",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "1",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "9",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 873,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_いわき平_1R",
+      "target_date": "20260711",
+      "venue": "いわき平",
+      "venue_code": "13",
+      "race_no": 1,
+      "encParaR": "6nWOJ2YgWUh0vVMBoyI8CE3h-54V5whigoH3-TB47m0",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_いわき平_2R",
+      "target_date": "20260711",
+      "venue": "いわき平",
+      "venue_code": "13",
+      "race_no": 2,
+      "encParaR": "6nWOJ2YgWUh0vVMBoyI8CBAXYkhILswNw5u37AkbeU8",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_いわき平_3R",
+      "target_date": "20260711",
+      "venue": "いわき平",
+      "venue_code": "13",
+      "race_no": 3,
+      "encParaR": "6nWOJ2YgWUh0vVMBoyI8CGEqJZ1Ya2MN9wxwN1yLuTk",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_いわき平_4R",
+      "target_date": "20260711",
+      "venue": "いわき平",
+      "venue_code": "13",
+      "race_no": 4,
+      "encParaR": "6nWOJ2YgWUh0vVMBoyI8CGX87ABd2OR-xC-Eq3rRTaw",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_いわき平_5R",
+      "target_date": "20260711",
+      "venue": "いわき平",
+      "venue_code": "13",
+      "race_no": 5,
+      "encParaR": "6nWOJ2YgWUh0vVMBoyI8CLnXVss-h-nNNHiGxj2Ff3w",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_いわき平_6R",
+      "target_date": "20260711",
+      "venue": "いわき平",
+      "venue_code": "13",
+      "race_no": 6,
+      "encParaR": "6nWOJ2YgWUh0vVMBoyI8CDehtmPOkdhrNYKRmVHvdmw",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_いわき平_7R",
+      "target_date": "20260711",
+      "venue": "いわき平",
+      "venue_code": "13",
+      "race_no": 7,
+      "encParaR": "6nWOJ2YgWUh0vVMBoyI8CEV6-6qX1E9BcmkYzyrokUY",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_いわき平_8R",
+      "target_date": "20260711",
+      "venue": "いわき平",
+      "venue_code": "13",
+      "race_no": 8,
+      "encParaR": "6nWOJ2YgWUh0vVMBoyI8COF6Ns8FvZqXPrFmdFiQ7bM",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_いわき平_9R",
+      "target_date": "20260711",
+      "venue": "いわき平",
+      "venue_code": "13",
+      "race_no": 9,
+      "encParaR": "6nWOJ2YgWUh0vVMBoyI8CGvf6eT49ATSdzMEN6I-pJY",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_小田原_1R",
+      "target_date": "20260711",
+      "venue": "小田原",
+      "venue_code": "36",
+      "race_no": 1,
+      "encParaR": "oGn5WPyFKUs7MmpVS67mXVGGri2r6oT4kbcS_KSklx4",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "小田競",
+      "main_lines": [
+        [
+          1,
+          5,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "5",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "3",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "2",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "8",
+          "shaban": "6",
+          "classname": "base_color_6"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 821,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_小田原_2R",
+      "target_date": "20260711",
+      "venue": "小田原",
+      "venue_code": "36",
+      "race_no": 2,
+      "encParaR": "oGn5WPyFKUs7MmpVS67mXbdxttWxNeakp9KG6T-9GHY",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "小田競",
+      "main_lines": [
+        [
+          6,
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          1,
+          7
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 2
+        },
+        {
+          "ichi": 3,
+          "shaban": 3
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 7,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 1
+        },
+        {
+          "ichi": 9,
+          "shaban": 7
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "8",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "2",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "3",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "5",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "7",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "1",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "9",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 876,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_小田原_3R",
+      "target_date": "20260711",
+      "venue": "小田原",
+      "venue_code": "36",
+      "race_no": 3,
+      "encParaR": "oGn5WPyFKUs7MmpVS67mXYp7yZbVxxnt5Z0og_rLWwg",
+      "status": "LINE_FOUND",
+      "prediction_type": "四分戦",
+      "provider": "小田競",
+      "main_lines": [
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 2
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 7
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "5",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "2",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "4",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "1",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "10",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "7",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 870,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_小田原_4R",
+      "target_date": "20260711",
+      "venue": "小田原",
+      "venue_code": "36",
+      "race_no": 4,
+      "encParaR": "oGn5WPyFKUs7MmpVS67mXdzaSr85pLY1QDOzWeUKZLI",
+      "status": "LINE_FOUND",
+      "prediction_type": "四分戦",
+      "provider": "小田競",
+      "main_lines": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "10",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "7",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "4",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "2",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 875,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_小田原_5R",
+      "target_date": "20260711",
+      "venue": "小田原",
+      "venue_code": "36",
+      "race_no": 5,
+      "encParaR": "oGn5WPyFKUs7MmpVS67mXesgKoaeJsZHeKbxfkl7v6A",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "小田競",
+      "main_lines": [
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "1",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "8",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "6",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "4",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 874,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_小田原_6R",
+      "target_date": "20260711",
+      "venue": "小田原",
+      "venue_code": "36",
+      "race_no": 6,
+      "encParaR": "oGn5WPyFKUs7MmpVS67mXTSW-yhKE70VIOB9BohSkJM",
+      "status": "LINE_FOUND",
+      "prediction_type": "ライン無し",
+      "provider": "小田競",
+      "main_lines": [
+        [
+          6
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 2
+        },
+        {
+          "ichi": 11,
+          "shaban": 5
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "3",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "9",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "7",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "5",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "11",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "1",
+          "shaban": "6",
+          "classname": "base_color_6"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 810,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_小田原_7R",
+      "target_date": "20260711",
+      "venue": "小田原",
+      "venue_code": "36",
+      "race_no": 7,
+      "encParaR": "oGn5WPyFKUs7MmpVS67mXe_eFMC3dtSYYsfMCp7301I",
+      "status": "LINE_FOUND",
+      "prediction_type": "ライン無し",
+      "provider": "小田競",
+      "main_lines": [
+        [
+          6
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 7,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        },
+        {
+          "ichi": 11,
+          "shaban": 5
+        },
+        {
+          "ichi": 13,
+          "shaban": 7
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "3",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "7",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "5",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "11",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "1",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "13",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 864,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_名古屋_1R",
+      "target_date": "20260711",
+      "venue": "名古屋",
+      "venue_code": "42",
+      "race_no": 1,
+      "encParaR": "u93Y_4IZiF1UgerS4eAiio6Murx0tCu2EbscEtXqlIM",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_名古屋_2R",
+      "target_date": "20260711",
+      "venue": "名古屋",
+      "venue_code": "42",
+      "race_no": 2,
+      "encParaR": "u93Y_4IZiF1UgerS4eAiihgH4EcczjxWU_PHQdu9nOc",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_名古屋_3R",
+      "target_date": "20260711",
+      "venue": "名古屋",
+      "venue_code": "42",
+      "race_no": 3,
+      "encParaR": "u93Y_4IZiF1UgerS4eAiim9LgWuTHC4No_mrigOwVzM",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_名古屋_4R",
+      "target_date": "20260711",
+      "venue": "名古屋",
+      "venue_code": "42",
+      "race_no": 4,
+      "encParaR": "u93Y_4IZiF1UgerS4eAiirhVrYknji-2PKCdPwyRCpw",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_名古屋_5R",
+      "target_date": "20260711",
+      "venue": "名古屋",
+      "venue_code": "42",
+      "race_no": 5,
+      "encParaR": "u93Y_4IZiF1UgerS4eAiinTVFZFoC6OsnT4OABNfaXQ",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_名古屋_6R",
+      "target_date": "20260711",
+      "venue": "名古屋",
+      "venue_code": "42",
+      "race_no": 6,
+      "encParaR": "u93Y_4IZiF1UgerS4eAiiht3kNtlXmAnNwin_GRYnfc",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_名古屋_7R",
+      "target_date": "20260711",
+      "venue": "名古屋",
+      "venue_code": "42",
+      "race_no": 7,
+      "encParaR": "u93Y_4IZiF1UgerS4eAiitzWYC2ItCSeiBWx3MF-WhM",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_名古屋_8R",
+      "target_date": "20260711",
+      "venue": "名古屋",
+      "venue_code": "42",
+      "race_no": 8,
+      "encParaR": "u93Y_4IZiF1UgerS4eAiijFcl7Cl0JQh9TKuagkXjAM",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_名古屋_9R",
+      "target_date": "20260711",
+      "venue": "名古屋",
+      "venue_code": "42",
+      "race_no": 9,
+      "encParaR": "u93Y_4IZiF1UgerS4eAiij4KIwcKekwVy-ES-foJxAQ",
+      "status": "LINE_EMPTY",
+      "prediction_type": null,
+      "provider": null,
+      "main_lines": [],
+      "positions": [],
+      "shaban": [],
+      "http_status": 200,
+      "raw_length": 375,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_1R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 1,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdRhzL4zk28NLMXr3cHmJ758",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "金星",
+      "main_lines": [
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          7,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 3
+        },
+        {
+          "ichi": 4,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "4",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "8",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "2",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "1",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "9",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "6",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 865,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_2R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 2,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdf90Ndwun96Vrz3WBRTD5gU",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "金星",
+      "main_lines": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          3,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 7,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "4",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "2",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "7",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 865,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_3R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 3,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdXqZRqweAPS3EAklW3lk6Z4",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "金星",
+      "main_lines": [
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 3
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "5",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "7",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "2",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "10",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "1",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "8",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "4",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 866,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_4R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 4,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdeh5466Z4FEZ-MJgxyYhS7U",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "金星",
+      "main_lines": [
+        [
+          4,
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "1",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "6",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "3",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 865,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_5R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 5,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdfrsQYnAnrSasYZ-JqAmWZM",
+      "status": "LINE_FOUND",
+      "prediction_type": "ライン無し",
+      "provider": "金星",
+      "main_lines": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        },
+        {
+          "ichi": 11,
+          "shaban": 6
+        },
+        {
+          "ichi": 13,
+          "shaban": 7
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "3",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "5",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "7",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "9",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "11",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "13",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 867,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_6R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 6,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdacWPH3_LZJ9QlmDpjB6AmM",
+      "status": "LINE_FOUND",
+      "prediction_type": "ライン無し",
+      "provider": "金星",
+      "main_lines": [
+        [
+          7
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 4
+        },
+        {
+          "ichi": 11,
+          "shaban": 5
+        },
+        {
+          "ichi": 13,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "3",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "7",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "9",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "11",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "13",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "1",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 867,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_7R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 7,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdQREs2i24jtKjdLig7DB4j8",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "金星",
+      "main_lines": [
+        [
+          6,
+          1
+        ],
+        [
+          4,
+          2,
+          7
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 7
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "4",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "8",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "1",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "6",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 865,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_8R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 8,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdSadQbrsXmy5WArrz-Ja4q4",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "金星",
+      "main_lines": [
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3,
+          6
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "5",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "8",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "4",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "7",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "9",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "2",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 865,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_9R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 9,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdYKW0v0VOKXfhykPtBgbaXk",
+      "status": "LINE_FOUND",
+      "prediction_type": "二分戦",
+      "provider": "金星",
+      "main_lines": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          5,
+          2,
+          7
+        ],
+        [
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "6",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "1",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "5",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "4",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "7",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 864,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_10R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 10,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdU8VEgAWCP3jTgwR1rwUNmk",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "金星",
+      "main_lines": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          5,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 7,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "2",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "4",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "9",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "1",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "8",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "7",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "5",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 866,
+      "fetch_error": null
+    },
+    {
+      "race_key": "20260711_松山_11R",
+      "target_date": "20260711",
+      "venue": "松山",
+      "venue_code": "75",
+      "race_no": 11,
+      "encParaR": "4QhapE1YS9GkaZAPKYUWdaxUGN4qLeoaniMiuid6Pi0",
+      "status": "LINE_FOUND",
+      "prediction_type": "三分戦",
+      "provider": "金星",
+      "main_lines": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "positions": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 6
+        },
+        {
+          "ichi": 7,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        },
+        {
+          "ichi": 10,
+          "shaban": 3
+        }
+      ],
+      "shaban": [
+        {
+          "ichi": "1",
+          "shaban": "1",
+          "classname": "base_color_1"
+        },
+        {
+          "ichi": "4",
+          "shaban": "2",
+          "classname": "base_color_2"
+        },
+        {
+          "ichi": "10",
+          "shaban": "3",
+          "classname": "base_color_3"
+        },
+        {
+          "ichi": "7",
+          "shaban": "4",
+          "classname": "base_color_4"
+        },
+        {
+          "ichi": "9",
+          "shaban": "5",
+          "classname": "base_color_5"
+        },
+        {
+          "ichi": "5",
+          "shaban": "6",
+          "classname": "base_color_6"
+        },
+        {
+          "ichi": "2",
+          "shaban": "7",
+          "classname": "base_color_7"
+        }
+      ],
+      "http_status": 200,
+      "raw_length": 867,
+      "fetch_error": null
+    }
+  ]
+}

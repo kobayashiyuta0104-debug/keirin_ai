@@ -1,0 +1,35 @@
+{
+  "target": {
+    "date": "20260703",
+    "jo_code": "53",
+    "race_no": "7"
+  },
+  "response_count": 1,
+  "unique_url_count": 1,
+  "responses": [
+    {
+      "no": 1,
+      "status": 200,
+      "url": "https://keirin.jp/pc/static/js/common/jquery.json.min.js",
+      "content_type": "application/javascript",
+      "method": "GET",
+      "post_data": null,
+      "json_ok": false,
+      "root_type": null,
+      "root_keys": [],
+      "list_length": null,
+      "sample": "/*! jQuery JSON plugin v2.5.1 | github.com/Krinkle/jquery-json */\n!function($){\"use strict\";var escape=/[\"\\\\\\x00-\\x1f\\x7f-\\x9f]/g,meta={\"\\b\":\"\\\\b\",\"\t\":\"\\\\t\",\"\\n\":\"\\\\n\",\"\\f\":\"\\\\f\",\"\\r\":\"\\\\r\",'\"':'\\\\\"',\"\\\\\":\"\\\\\\\\\"},hasOwn=Object.prototype.hasOwnProperty;$.toJSON=\"object\"==typeof JSON&&JSON.stringify?JSON.stringify:function(a){if(null===a)return\"null\";var b,c,d,e,f=$.type(a);if(\"undefined\"===f)return void 0;if(\"number\"===f||\"boolean\"===f)return String(a);if(\"string\"===f)return $.quoteString(a);if(\"function\"==typeof a.toJSON)return $.toJSON(a.toJSON());if(\"date\"===f){var g=a.getUTCMonth()+1,h=a.getUTCDate(),i=a.getUTCFullYear(),j=a.getUTCHours(),k=a.getUTCMinutes(),l=a.getUTCSeconds(),m=a.getUTCMilliseconds();return 10>g&&(g=\"0\"+g),10>h&&(h=\"0\"+h),10>j&&(j=\"0\"+j),10>k&&(k=\"0\"+k),10>l&&(l=\"0\"+l),100>m&&(m=\"0\"+m),10>m&&(m=\"0\"+m),'\"'+i+\"-\"+g+\"-\"+h+\"T\"+j+\":\"+k+\":\"+l+\".\"+m+'Z\"'}if(b=[],$.isArray(a)){for(c=0;c<a.length;c++)b.push($.toJSON(a[c])||\"null\");return\"[\"+b.join(\",\")+\"]\"}if(\"object\"==typ",
+      "body_length": 1925
+    }
+  ],
+  "url_summary": {
+    "https://keirin.jp/pc/static/js/common/jquery.json.min.js": {
+      "count": 1,
+      "status": 200,
+      "content_type": "application/javascript",
+      "body_length": 1925,
+      "root_type": null,
+      "root_keys": []
+    }
+  }
+}

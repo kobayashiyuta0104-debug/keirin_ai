@@ -1,0 +1,957 @@
+{
+  "race_count": 70,
+  "player_sample_count": 482,
+  "jsj006_top_key_counts": {
+    "syusouInfoExistFlg": 70,
+    "bKeirinjyoCd": 70,
+    "charColor1": 70,
+    "charColor2": 70,
+    "lastUpdateTime": 70,
+    "yudoSensyuName": 70,
+    "raceResult1Syaban": 70,
+    "raceResult2Syaban": 70,
+    "backCnt1Syaban": 70,
+    "backCnt2Syaban": 70,
+    "sensyuTypeInfo": 70,
+    "resultCd": 70,
+    "writeANA": 70
+  },
+  "player_key_counts": {
+    "syabanBgColorInfo": 482,
+    "syabanCharColorInfo": 482,
+    "syaban": 482,
+    "sensyuRegistNo": 482,
+    "sensyuName": 482,
+    "huKen": 482,
+    "prevKyuhan": 482,
+    "kyuhan": 482,
+    "kyakusitu": 482,
+    "sotugyouki": 482,
+    "age": 482,
+    "heikinTokuten": 482,
+    "nigeCnt": 482,
+    "makuriCnt": 482,
+    "sasiCnt": 482,
+    "markCnt": 482,
+    "backCnt": 482,
+    "homeTori": 482,
+    "stTori": 482,
+    "syouritu": 482,
+    "rentairitu2": 482,
+    "rentairitu3": 482,
+    "konResultInfoSubData": 482,
+    "tyo4InfoSubData": 482,
+    "ketujyouTuikaHojyuColorInfo": 58,
+    "ketujyouTuikaHojyu": 58,
+    "imgTyosiPath": 3,
+    "imgTyosiName": 3
+  },
+  "konResultInfoSubData_length_distribution": {},
+  "konResultInfoSubData_key_counts": {},
+  "tyo4InfoSubData_length_distribution": {},
+  "tyo4InfoSubData_key_counts": {},
+  "mapping_candidates": {
+    "car_no": {
+      "source_field": "syaban",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "player_id": {
+      "source_field": "sensyuRegistNo",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "player_name": {
+      "source_field": "sensyuName",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "prefecture": {
+      "source_field": "huKen",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "previous_class": {
+      "source_field": "prevKyuhan",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "class": {
+      "source_field": "kyuhan",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "riding_style": {
+      "source_field": "kyakusitu",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "graduation_term": {
+      "source_field": "sotugyouki",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "age": {
+      "source_field": "age",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "race_score": {
+      "source_field": "heikinTokuten",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "nige_count": {
+      "source_field": "nigeCnt",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "makuri_count": {
+      "source_field": "makuriCnt",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "sashi_count": {
+      "source_field": "sasiCnt",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "mark_count": {
+      "source_field": "markCnt",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "back_count": {
+      "source_field": "backCnt",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "home_count": {
+      "source_field": "homeTori",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "start_count": {
+      "source_field": "stTori",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "win_rate": {
+      "source_field": "syouritu",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "top2_rate": {
+      "source_field": "rentairitu2",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "top3_rate": {
+      "source_field": "rentairitu3",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "recent_meeting_results": {
+      "source_field": "konResultInfoSubData",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    },
+    "recent_meeting": {
+      "source_field": "tyo4InfoSubData",
+      "present_count": 482,
+      "nonempty_count": 482,
+      "total_players": 482
+    }
+  },
+  "samples": [
+    {
+      "race_key": "20260706_豊橋_1R",
+      "player": {
+        "syabanBgColorInfo": "base_color_1_bk",
+        "syabanCharColorInfo": "base_color_1",
+        "syaban": "1",
+        "sensyuRegistNo": "013827",
+        "sensyuName": "佐藤　雅彦",
+        "huKen": "宮　城",
+        "prevKyuhan": "A1",
+        "kyuhan": "A1",
+        "kyakusitu": "追",
+        "sotugyouki": "87",
+        "age": "44",
+        "heikinTokuten": "84.85",
+        "nigeCnt": "0",
+        "makuriCnt": "0",
+        "sasiCnt": "2",
+        "markCnt": "2",
+        "backCnt": "0",
+        "homeTori": "0",
+        "stTori": "0",
+        "syouritu": "9",
+        "rentairitu2": "19",
+        "rentairitu3": "42",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+              "imgTyakuiName": "5",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXlQQQNwdi9db46_fA2BgwUrG9o80c3zGInVYq98Paj14"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "27",
+          "kerinjyoName": "閣",
+          "kaisaiFirst": "20260623",
+          "gaiTeiGrade": "Ｆ２",
+          "kkParameter": "yARyZ2RxXOeo4l7Z4BiVfs3LriNTuURcZtY4BvFMzHk",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+              "imgTyakuiName": "5",
+              "backTori": "0",
+              "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfoXRGp7woEUdvdLc8q5tho1qKENwSSu3IFBfskjX843q"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+              "imgTyakuiName": "1",
+              "backTori": "0",
+              "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfubPBOw5dIFOVwEwC2MhwEJ3BNeDe29wCbZbYtCIOAx1"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+              "imgTyakuiName": "3",
+              "backTori": "0",
+              "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVftRYbbdGesWnsgoTPNt94X50OPWND32cJcuWj_zb95hM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_1R",
+      "player": {
+        "syabanBgColorInfo": "base_color_2_bk",
+        "syabanCharColorInfo": "base_color_2",
+        "syaban": "2",
+        "sensyuRegistNo": "014891",
+        "sensyuName": "小岩　哲也",
+        "huKen": "大　分",
+        "prevKyuhan": "A2",
+        "kyuhan": "A2",
+        "kyakusitu": "両",
+        "sotugyouki": "101",
+        "age": "40",
+        "heikinTokuten": "80.42",
+        "nigeCnt": "0",
+        "makuriCnt": "0",
+        "sasiCnt": "2",
+        "markCnt": "0",
+        "backCnt": "0",
+        "homeTori": "0",
+        "stTori": "0",
+        "syouritu": "0",
+        "rentairitu2": "10",
+        "rentairitu3": "25",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+              "imgTyakuiName": "7",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXlQQQNwdi9db46_fA2BgwUrG9o80c3zGInVYq98Paj14"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "81",
+          "kerinjyoName": "倉",
+          "kaisaiFirst": "20260626",
+          "gaiTeiGrade": "Ｆ１",
+          "kkParameter": "aTOkj2dFUUpQATsHeOxViI9bAEw-U1H_f8uG5Nep4BY",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+              "imgTyakuiName": "7",
+              "backTori": "0",
+              "kkrParameter": "aTOkj2dFUUpQATsHeOxViNIYAuN5VWRSAbC_tOQ1lUpzIn_LHheCBu_nnaKVWjWD"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+              "imgTyakuiName": "5",
+              "backTori": "0",
+              "kkrParameter": "aTOkj2dFUUpQATsHeOxViJs-cmpsy-IusvOJwdpkETjKlJJvADd7UV3zUjOUCl0N"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+              "imgTyakuiName": "2",
+              "backTori": "0",
+              "kkrParameter": "aTOkj2dFUUpQATsHeOxViLcDLWRhKL2QnPSNmHirwPIYpt0HZslAaHvKK5kDKRMi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_1R",
+      "player": {
+        "syabanBgColorInfo": "base_color_3_bk",
+        "syabanCharColorInfo": "base_color_3",
+        "syaban": "3",
+        "sensyuRegistNo": "013742",
+        "sensyuName": "葛西　雄太郎",
+        "huKen": "愛　媛",
+        "prevKyuhan": "A2",
+        "kyuhan": "A2",
+        "kyakusitu": "両",
+        "sotugyouki": "85",
+        "age": "47",
+        "heikinTokuten": "81.88",
+        "nigeCnt": "2",
+        "makuriCnt": "0",
+        "sasiCnt": "2",
+        "markCnt": "2",
+        "backCnt": "5",
+        "homeTori": "8",
+        "stTori": "4",
+        "syouritu": "0",
+        "rentairitu2": "22",
+        "rentairitu3": "33",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+              "imgTyakuiName": "7",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXpIQOV40LbPv5QbCBkjA5o_yaDRf22YNUPiRkrKriKFq"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "36",
+          "kerinjyoName": "原",
+          "kaisaiFirst": "20260622",
+          "gaiTeiGrade": "Ｆ１",
+          "kkParameter": "oGn5WPyFKUs7MmpVS67mXT-p8UifVY211GvOGf3NpKU",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+              "imgTyakuiName": "5",
+              "backTori": "0",
+              "kkrParameter": "oGn5WPyFKUs7MmpVS67mXYqI9554Y8MlYdgxisGufIUOrX4_FGUkJg09hopSrsWV"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+              "imgTyakuiName": "2",
+              "backTori": "0",
+              "kkrParameter": "oGn5WPyFKUs7MmpVS67mXRSdEB_p6YnLvsZGTDU2eY1JfKu-bgEC0_pYhyNXmcxe"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+              "imgTyakuiName": "3",
+              "backTori": "1",
+              "kkrParameter": "oGn5WPyFKUs7MmpVS67mXS4XxU-BGxIB6Um-UXIhtjwUj8ogKPPx6pxMitGYzcSk"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_1R",
+      "player": {
+        "syabanBgColorInfo": "base_color_4_bk",
+        "syabanCharColorInfo": "base_color_4",
+        "syaban": "4",
+        "sensyuRegistNo": "012861",
+        "sensyuName": "小坂　敏之",
+        "huKen": "栃　木",
+        "prevKyuhan": "A2",
+        "kyuhan": "A2",
+        "kyakusitu": "追",
+        "sotugyouki": "74",
+        "age": "53",
+        "heikinTokuten": "81.58",
+        "nigeCnt": "0",
+        "makuriCnt": "0",
+        "sasiCnt": "0",
+        "markCnt": "2",
+        "backCnt": "0",
+        "homeTori": "0",
+        "stTori": "1",
+        "syouritu": "0",
+        "rentairitu2": "8",
+        "rentairitu3": "16",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+              "imgTyakuiName": "6",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXtr5JXN2CTgRzh4zStpQzISASmwzj-CJ-W6s2Se67pWP"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "27",
+          "kerinjyoName": "閣",
+          "kaisaiFirst": "20260623",
+          "gaiTeiGrade": "Ｆ２",
+          "kkParameter": "yARyZ2RxXOeo4l7Z4BiVfs3LriNTuURcZtY4BvFMzHk",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+              "imgTyakuiName": "6",
+              "backTori": "0",
+              "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfk40yruii-wmWXGdS989L-KzHmrNgaGO_6yzrbsXSUSA"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+              "imgTyakuiName": "2",
+              "backTori": "0",
+              "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVfubPBOw5dIFOVwEwC2MhwEJ3BNeDe29wCbZbYtCIOAx1"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+              "imgTyakuiName": "6",
+              "backTori": "0",
+              "kkrParameter": "yARyZ2RxXOeo4l7Z4BiVftRYbbdGesWnsgoTPNt94X50OPWND32cJcuWj_zb95hM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_1R",
+      "player": {
+        "syabanBgColorInfo": "base_color_5_bk",
+        "syabanCharColorInfo": "base_color_5",
+        "syaban": "5",
+        "sensyuRegistNo": "014887",
+        "sensyuName": "板崎　佑矢",
+        "huKen": "愛　媛",
+        "prevKyuhan": "A1",
+        "kyuhan": "A2",
+        "kyakusitu": "両",
+        "sotugyouki": "101",
+        "age": "38",
+        "heikinTokuten": "80.08",
+        "nigeCnt": "0",
+        "makuriCnt": "0",
+        "sasiCnt": "0",
+        "markCnt": "2",
+        "backCnt": "0",
+        "homeTori": "1",
+        "stTori": "2",
+        "syouritu": "0",
+        "rentairitu2": "8",
+        "rentairitu3": "8",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+              "imgTyakuiName": "4",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXvf_CG6RVIZpqVszH6gM5LMmGNjoF5YAsRRXB_-BaiEy"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "84",
+          "kerinjyoName": "武",
+          "kaisaiFirst": "20260621",
+          "gaiTeiGrade": "Ｆ２",
+          "kkParameter": "uXOPvbsfbpEeQ909fsorM08w6pVevB9HAENGpM7t_X0",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+              "imgTyakuiName": "7",
+              "backTori": "0",
+              "kkrParameter": "uXOPvbsfbpEeQ909fsorM4vF-XyBbe3eXLICa1r7VeCKbo6pmMEzwMt9S7x-7FPK"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+              "imgTyakuiName": "6",
+              "backTori": "0",
+              "kkrParameter": "uXOPvbsfbpEeQ909fsorM0dVa58FiJgd_AhBCSqMnsl8XGUqnG1TBXHuaoKRJoYY"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+              "imgTyakuiName": "4",
+              "backTori": "0",
+              "kkrParameter": "uXOPvbsfbpEeQ909fsorMwBtFWNxq_aMB_he952fiVz0Kt34WlhiP7GBHrCcrpx1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_1R",
+      "player": {
+        "syabanBgColorInfo": "base_color_6_bk",
+        "syabanCharColorInfo": "base_color_6",
+        "syaban": "6",
+        "sensyuRegistNo": "015883",
+        "sensyuName": "吉田　夢希斗",
+        "huKen": "埼　玉",
+        "prevKyuhan": "A3",
+        "kyuhan": "A2",
+        "kyakusitu": "逃",
+        "sotugyouki": "127",
+        "age": "21",
+        "heikinTokuten": "76.00",
+        "nigeCnt": "9",
+        "makuriCnt": "5",
+        "sasiCnt": "0",
+        "markCnt": "1",
+        "backCnt": "16",
+        "homeTori": "15",
+        "stTori": "11",
+        "syouritu": "14",
+        "rentairitu2": "55",
+        "rentairitu3": "77",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+              "imgTyakuiName": "5",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXpIQOV40LbPv5QbCBkjA5o_yaDRf22YNUPiRkrKriKFq"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "85",
+          "kerinjyoName": "佐",
+          "kaisaiFirst": "20260628",
+          "gaiTeiGrade": "Ｆ２",
+          "kkParameter": "pwzdqoQWyXU0o-0Slea_Gc10xKtIsjs8y0Ui7aVnl34",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+              "imgTyakuiName": "4",
+              "backTori": "1",
+              "kkrParameter": "pwzdqoQWyXU0o-0Slea_GVXdPwsxUciZOPsiY2EusZpfqY2oC-95R8WCfjT6SgWT"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+              "imgTyakuiName": "2",
+              "backTori": "1",
+              "kkrParameter": "pwzdqoQWyXU0o-0Slea_GZikOAosWE9g3baiQLwJRqiEUCyWq6fLzKtvSG-tEZvt"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-3.png",
+              "imgTyakuiName": "3",
+              "backTori": "1",
+              "kkrParameter": "pwzdqoQWyXU0o-0Slea_GZErQkISfLPs4coFFJMoRNvB-r_DtDlWjQ2UQcq_naDq"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_1R",
+      "player": {
+        "syabanBgColorInfo": "base_color_7_bk",
+        "syabanCharColorInfo": "base_color_7",
+        "syaban": "7",
+        "sensyuRegistNo": "013298",
+        "sensyuName": "井手　健",
+        "huKen": "長　崎",
+        "prevKyuhan": "A2",
+        "kyuhan": "A2",
+        "kyakusitu": "追",
+        "sotugyouki": "79",
+        "age": "52",
+        "heikinTokuten": "81.05",
+        "nigeCnt": "0",
+        "makuriCnt": "0",
+        "sasiCnt": "1",
+        "markCnt": "1",
+        "backCnt": "0",
+        "homeTori": "0",
+        "stTori": "0",
+        "syouritu": "0",
+        "rentairitu2": "11",
+        "rentairitu3": "22",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+              "imgTyakuiName": "6",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXpIQOV40LbPv5QbCBkjA5o_yaDRf22YNUPiRkrKriKFq"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "msg": "病気欠場",
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "83",
+          "kerinjyoName": "久",
+          "kaisaiFirst": "20260622",
+          "gaiTeiGrade": "Ｆ１",
+          "kkParameter": "1-mDn3P5FXuZU5C-JbtnIMLIGy5RX-Zj_rbjh0JIWPs",
+          "resultInfoSubData": []
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_2R",
+      "player": {
+        "syabanBgColorInfo": "base_color_1_bk",
+        "syabanCharColorInfo": "base_color_1",
+        "syaban": "1",
+        "sensyuRegistNo": "012800",
+        "sensyuName": "豊田　一馬",
+        "huKen": "群　馬",
+        "prevKyuhan": "A2",
+        "kyuhan": "A2",
+        "kyakusitu": "追",
+        "sotugyouki": "73",
+        "age": "51",
+        "heikinTokuten": "81.61",
+        "nigeCnt": "0",
+        "makuriCnt": "0",
+        "sasiCnt": "2",
+        "markCnt": "1",
+        "backCnt": "0",
+        "homeTori": "0",
+        "stTori": "0",
+        "syouritu": "5",
+        "rentairitu2": "16",
+        "rentairitu3": "22",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+              "imgTyakuiName": "4",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXpIQOV40LbPv5QbCBkjA5o_yaDRf22YNUPiRkrKriKFq"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "msg": "病気欠場",
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "11",
+          "kerinjyoName": "函",
+          "kaisaiFirst": "20260620",
+          "gaiTeiGrade": "Ｆ１",
+          "kkParameter": "T9wMz-ha1TZ640Z-S5GN5HEacbOU2PIeN9j5f1RxldQ",
+          "resultInfoSubData": []
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_2R",
+      "player": {
+        "syabanBgColorInfo": "base_color_2_bk",
+        "syabanCharColorInfo": "base_color_2",
+        "syaban": "2",
+        "sensyuRegistNo": "011817",
+        "sensyuName": "有賀　高士",
+        "huKen": "石　川",
+        "prevKyuhan": "A3",
+        "kyuhan": "A2",
+        "kyakusitu": "追",
+        "sotugyouki": "61",
+        "age": "57",
+        "heikinTokuten": "74.33",
+        "nigeCnt": "0",
+        "makuriCnt": "0",
+        "sasiCnt": "8",
+        "markCnt": "4",
+        "backCnt": "0",
+        "homeTori": "0",
+        "stTori": "2",
+        "syouritu": "14",
+        "rentairitu2": "42",
+        "rentairitu3": "60",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-7.png",
+              "imgTyakuiName": "7",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXtr5JXN2CTgRzh4zStpQzISASmwzj-CJ-W6s2Se67pWP"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "37",
+          "kerinjyoName": "伊",
+          "kaisaiFirst": "20260628",
+          "gaiTeiGrade": "Ｆ２",
+          "kkParameter": "W2uRQM1igycPTuhMZ-U0HxHON9qgFyqUsqiGtl-0DbU",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+              "imgTyakuiName": "1",
+              "backTori": "0",
+              "kkrParameter": "W2uRQM1igycPTuhMZ-U0H-p3MFzXBa8dOvHhF--Hq39I_nK0zUY8WyPRV5BkfWHi"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-Wcircle-2.png",
+              "imgTyakuiName": "2",
+              "backTori": "0",
+              "kkrParameter": "W2uRQM1igycPTuhMZ-U0H0B5fP7kqx8s03QyYwb8DqMXWE0Wwq2vA0A4GJgL5Ux1"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-Bcircle-3.png",
+              "imgTyakuiName": "3",
+              "backTori": "0",
+              "kkrParameter": "W2uRQM1igycPTuhMZ-U0Hz00ZEPiQSOR8QronX2GehP9yqicOBFT3WScdGdQCoNC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_2R",
+      "player": {
+        "syabanBgColorInfo": "base_color_3_bk",
+        "syabanCharColorInfo": "base_color_3",
+        "syaban": "3",
+        "sensyuRegistNo": "014269",
+        "sensyuName": "梶原　恵介",
+        "huKen": "大　分",
+        "prevKyuhan": "A1",
+        "kyuhan": "A1",
+        "kyakusitu": "追",
+        "sotugyouki": "92",
+        "age": "44",
+        "heikinTokuten": "84.90",
+        "nigeCnt": "0",
+        "makuriCnt": "0",
+        "sasiCnt": "1",
+        "markCnt": "3",
+        "backCnt": "0",
+        "homeTori": "0",
+        "stTori": "1",
+        "syouritu": "4",
+        "rentairitu2": "19",
+        "rentairitu3": "42",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+              "imgTyakuiName": "5",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXtr5JXN2CTgRzh4zStpQzISASmwzj-CJ-W6s2Se67pWP"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "81",
+          "kerinjyoName": "倉",
+          "kaisaiFirst": "20260626",
+          "gaiTeiGrade": "Ｆ１",
+          "kkParameter": "aTOkj2dFUUpQATsHeOxViI9bAEw-U1H_f8uG5Nep4BY",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-5.png",
+              "imgTyakuiName": "5",
+              "backTori": "0",
+              "kkrParameter": "aTOkj2dFUUpQATsHeOxViAkVFvWYGTbHfd-nynoKDJAuW2CFk8ChakK9an44Kkfx"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-2.png",
+              "imgTyakuiName": "2",
+              "backTori": "0",
+              "kkrParameter": "aTOkj2dFUUpQATsHeOxViP6Rwajz_NxtJgFBa7TVClc2DTUZPGNBPQFJIGBR4P-1"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+              "imgTyakuiName": "6",
+              "backTori": "0",
+              "kkrParameter": "aTOkj2dFUUpQATsHeOxViAiuxxjacQcWGYhkm2CT4SjWu6_aK_lY8BJqm5qT9ZDL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_2R",
+      "player": {
+        "syabanBgColorInfo": "base_color_4_bk",
+        "syabanCharColorInfo": "base_color_4",
+        "syaban": "4",
+        "sensyuRegistNo": "015746",
+        "sensyuName": "峯口　司",
+        "huKen": "長　崎",
+        "prevKyuhan": "A1",
+        "kyuhan": "A2",
+        "kyakusitu": "逃",
+        "sotugyouki": "123",
+        "age": "23",
+        "heikinTokuten": "88.28",
+        "nigeCnt": "4",
+        "makuriCnt": "3",
+        "sasiCnt": "2",
+        "markCnt": "0",
+        "backCnt": "5",
+        "homeTori": "4",
+        "stTori": "1",
+        "syouritu": "28",
+        "rentairitu2": "42",
+        "rentairitu3": "52",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+              "imgTyakuiName": "6",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXlQQQNwdi9db46_fA2BgwUrG9o80c3zGInVYq98Paj14"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "81",
+          "kerinjyoName": "倉",
+          "kaisaiFirst": "20260618",
+          "gaiTeiGrade": "Ｆ２",
+          "kkParameter": "aTOkj2dFUUpQATsHeOxViNVkKRxCgUYenxZIkkNqhqo",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-1.png",
+              "imgTyakuiName": "1",
+              "backTori": "0",
+              "kkrParameter": "aTOkj2dFUUpQATsHeOxViCXaGN1ny3QdkRMiyLdtbS0oqnN90fk1vu7kb1H22Kxn"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-Wcircle-4.png",
+              "imgTyakuiName": "4",
+              "backTori": "0",
+              "kkrParameter": "aTOkj2dFUUpQATsHeOxViI0lNPNU-ILF5aUKngC8vIUa9XPNQvEUmjecAT7LuTfN"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+              "imgTyakuiName": "4",
+              "backTori": "1",
+              "kkrParameter": "aTOkj2dFUUpQATsHeOxViM8UoaxBGxa9Ov6jLa-OMRYB74jooaUW-jVA6z-m_ouC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "race_key": "20260706_豊橋_2R",
+      "player": {
+        "syabanBgColorInfo": "base_color_5_bk",
+        "syabanCharColorInfo": "base_color_5",
+        "syaban": "5",
+        "sensyuRegistNo": "014476",
+        "sensyuName": "乾　庄平",
+        "huKen": "滋　賀",
+        "prevKyuhan": "A2",
+        "kyuhan": "A2",
+        "kyakusitu": "追",
+        "sotugyouki": "95",
+        "age": "39",
+        "heikinTokuten": "83.91",
+        "nigeCnt": "0",
+        "makuriCnt": "0",
+        "sasiCnt": "2",
+        "markCnt": "1",
+        "backCnt": "0",
+        "homeTori": "0",
+        "stTori": "2",
+        "syouritu": "4",
+        "rentairitu2": "12",
+        "rentairitu3": "29",
+        "konResultInfoSubData": {
+          "kaisaiKbn": "1",
+          "gaiTeiGrade": "Ｆ１",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-6.png",
+              "imgTyakuiName": "6",
+              "backTori": "0",
+              "kkrParameter": "-rgLOUDZaX8RQ73rPRpBXvf_CG6RVIZpqVszH6gM5LMmGNjoF5YAsRRXB_-BaiEy"
+            }
+          ]
+        },
+        "tyo4InfoSubData": {
+          "kaisaiKbn": "2",
+          "bKeirinjyoCd": "37",
+          "kerinjyoName": "伊",
+          "kaisaiFirst": "20260623",
+          "gaiTeiGrade": "Ｆ２",
+          "kkParameter": "W2uRQM1igycPTuhMZ-U0H4nyir0g9ueXEZ3IFGyT7YY",
+          "resultInfoSubData": [
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+              "imgTyakuiName": "4",
+              "backTori": "0",
+              "kkrParameter": "W2uRQM1igycPTuhMZ-U0H72zGAnjnHGlGKkLuk7GT0rTsJUWjJETLZsW31JhtbUP"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-Wcircle-4.png",
+              "imgTyakuiName": "4",
+              "backTori": "0",
+              "kkrParameter": "W2uRQM1igycPTuhMZ-U0H4qwjdgfoF6h-YEtmtfiB4Jq_z2zyZFHil11BoJknzRF"
+            },
+            {
+              "imgTyakuiPath": "/pc/static/img/icon/print/setP-normal-4.png",
+              "imgTyakuiName": "4",
+              "backTori": "0",
+              "kkrParameter": "W2uRQM1igycPTuhMZ-U0H96rb9TGFPDaHgWgGIlp_d4QwbMT3u8WeWASuhfEFXe2"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

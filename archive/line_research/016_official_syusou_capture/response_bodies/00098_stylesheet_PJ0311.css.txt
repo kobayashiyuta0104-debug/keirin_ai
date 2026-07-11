@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.m-al-c{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.streamtbl{
+    width:400px;
+    table-layout: fixed;
+    margin-top:10px;
+}
+
+.msgstream{
+    background-color:#404040;
+    color:#FFFFFF;
+    width:460px;
+    height:290px;
+    position: relative;
+}
+.msgstream div {
+    position:absolute;
+    text-align:center;
+    width:100%;
+    top:50%;
+    margin-top:-0.5em
+}
+
+/* スペーサー(上) */
+.spacer-t{
+	padding-top:10px
+}
+/* スペーサー(下) */
+.spacer-b{
+	padding-bottom:10px
+}
+
+/* テーブルFixed */
+.tblfix{
+	table-layout:fixed;
+}
+
+.w20{
+    width:20px
+}
+
+.w210{
+    width:210px
+}
+
+#flashdiv{
+    width: 460px; 
+    height: 290px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#000000;
+}
+
+#videoPlayer{
+    width: 460px; 
+    height: 290px;
+}
+
+#flashContent{
+    background-color:#FFFFFF;
+}

@@ -1,0 +1,75 @@
+{
+  "program": "060_daily_morning_collect.py",
+  "created_at": "2026-07-10T22:43:52.828773",
+  "target_date": "20260710",
+  "morning_status": "MORNING_COLLECTION_FAILED",
+  "source_programs": {
+    "ability": "C:\\競輪AI\\ai_program\\046_test.py",
+    "line": "C:\\競輪AI\\ai_program\\043_capture_all_venues_official_lines.py"
+  },
+  "temporary_programs": {
+    "ability": "C:\\競輪AI\\temp_daily_program\\20260710\\046_daily_temp.py",
+    "line": "C:\\競輪AI\\temp_daily_program\\20260710\\043_daily_temp.py"
+  },
+  "replaced_dates": {
+    "ability": [
+      "20260710"
+    ],
+    "line": []
+  },
+  "runs": {
+    "ability": {
+      "name": "046 選手能力取得",
+      "return_code": 1,
+      "started_at": "2026-07-10T22:43:51.325639",
+      "finished_at": "2026-07-10T22:43:52.084989",
+      "elapsed_seconds": 0.75935
+    },
+    "line": {
+      "name": "043 ライン取得",
+      "return_code": 1,
+      "started_at": "2026-07-10T22:43:52.128229",
+      "finished_at": "2026-07-10T22:43:52.786717",
+      "elapsed_seconds": 0.658488
+    }
+  },
+  "output_checks": {
+    "ability": {
+      "name": "pre_race",
+      "path": "C:\\競輪AI\\data_official\\pre_race\\046_jsj006_by_race_key\\046_jsj006_by_race_key.json",
+      "exists": true,
+      "race_key_count": 80,
+      "today_race_key_count": 80,
+      "date_ok": true
+    },
+    "line": {
+      "name": "line_prediction",
+      "path": "C:\\競輪AI\\data_official\\line_predictions\\043_all_venues_official_lines.json",
+      "exists": true,
+      "race_key_count": 80,
+      "today_race_key_count": 80,
+      "date_ok": true
+    }
+  },
+  "daily_files": {
+    "pre_race": {
+      "path": "C:\\競輪AI\\data_daily\\20260710\\pre_race.json",
+      "saved": false,
+      "race_key_count": 80
+    },
+    "line_prediction": {
+      "path": "C:\\競輪AI\\data_daily\\20260710\\line_prediction.json",
+      "saved": false,
+      "race_key_count": 80
+    }
+  },
+  "race_key_summary": {
+    "pre_race": 80,
+    "line_prediction": 80,
+    "matched": 80,
+    "ability_only": 0,
+    "line_only": 0
+  },
+  "ability_only_race_keys": [],
+  "line_only_race_keys": []
+}

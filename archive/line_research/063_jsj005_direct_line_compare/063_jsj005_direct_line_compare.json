@@ -1,0 +1,374 @@
+{
+  "program": "063_test.py",
+  "purpose": "完成済み046のencpをそのままJSJ005へ使用し、Edgeなしでラインを直接取得。ichi連続位置からラインを復元し、043正式ラインと全レース自動照合する。",
+  "target_date": "20260710",
+  "ability_source": "C:\\競輪AI\\data_official\\pre_race\\046_jsj006_by_race_key\\046_jsj006_by_race_key.json",
+  "official_line_source": "C:\\競輪AI\\data_official\\line_predictions\\043_all_venues_official_lines.json",
+  "race_encp_count": 80,
+  "official_line_count": 7,
+  "compare_target_count": 7,
+  "direct_success_count": 0,
+  "exact_match_count": 0,
+  "line_mismatch_count": 0,
+  "status_summary": {
+    "DIRECT_LINE_EMPTY": 7
+  },
+  "type_match_summary": {
+    "True": 7
+  },
+  "provider_match_summary": {
+    "True": 7
+  },
+  "results": [
+    {
+      "race_key": "20260710_前橋_1R",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg6yKHIJumn0V1D_pL0-QyZo",
+      "status": "DIRECT_LINE_EMPTY",
+      "jsj005_url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg6yKHIJumn0V1D_pL0-QyZo&type=JSJ005",
+      "http_status": 200,
+      "raw_length": 270,
+      "fetch_error": null,
+      "direct": {
+        "prediction_type": null,
+        "provider": null,
+        "positions": [],
+        "main_lines": []
+      },
+      "official_043": {
+        "status": "LINE_NOT_FOUND",
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "has_competition": false,
+        "competition_rows": []
+      },
+      "comparison": {
+        "line_exact_match": true,
+        "type_match": true,
+        "provider_match": true
+      },
+      "jsj005": {
+        "narabiyoso": {
+          "chushiFlg": "2",
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
+        },
+        "sanrentan": {
+          "ryoikiFlg": "false"
+        },
+        "kaime": {
+          "ryoikiFlg": "false"
+        },
+        "sensyuShokaiFlg": "0",
+        "interViewFlg": "0",
+        "biko": {
+          "hyojiFlg": "false"
+        },
+        "streamURL": "/pc/racestream",
+        "raceNo": "1",
+        "resultCd": 0,
+        "writeANA": false
+      }
+    },
+    {
+      "race_key": "20260710_前橋_2R",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg7YnWUEHNDveXwNz883qAmo",
+      "status": "DIRECT_LINE_EMPTY",
+      "jsj005_url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg7YnWUEHNDveXwNz883qAmo&type=JSJ005",
+      "http_status": 200,
+      "raw_length": 270,
+      "fetch_error": null,
+      "direct": {
+        "prediction_type": null,
+        "provider": null,
+        "positions": [],
+        "main_lines": []
+      },
+      "official_043": {
+        "status": "LINE_NOT_FOUND",
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "has_competition": false,
+        "competition_rows": []
+      },
+      "comparison": {
+        "line_exact_match": true,
+        "type_match": true,
+        "provider_match": true
+      },
+      "jsj005": {
+        "narabiyoso": {
+          "chushiFlg": "2",
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
+        },
+        "sanrentan": {
+          "ryoikiFlg": "false"
+        },
+        "kaime": {
+          "ryoikiFlg": "false"
+        },
+        "sensyuShokaiFlg": "0",
+        "interViewFlg": "0",
+        "biko": {
+          "hyojiFlg": "false"
+        },
+        "streamURL": "/pc/racestream",
+        "raceNo": "2",
+        "resultCd": 0,
+        "writeANA": false
+      }
+    },
+    {
+      "race_key": "20260710_前橋_3R",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8ZETJHI272cmccux_n2-tM",
+      "status": "DIRECT_LINE_EMPTY",
+      "jsj005_url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8ZETJHI272cmccux_n2-tM&type=JSJ005",
+      "http_status": 200,
+      "raw_length": 270,
+      "fetch_error": null,
+      "direct": {
+        "prediction_type": null,
+        "provider": null,
+        "positions": [],
+        "main_lines": []
+      },
+      "official_043": {
+        "status": "LINE_NOT_FOUND",
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "has_competition": false,
+        "competition_rows": []
+      },
+      "comparison": {
+        "line_exact_match": true,
+        "type_match": true,
+        "provider_match": true
+      },
+      "jsj005": {
+        "narabiyoso": {
+          "chushiFlg": "2",
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
+        },
+        "sanrentan": {
+          "ryoikiFlg": "false"
+        },
+        "kaime": {
+          "ryoikiFlg": "false"
+        },
+        "sensyuShokaiFlg": "0",
+        "interViewFlg": "0",
+        "biko": {
+          "hyojiFlg": "false"
+        },
+        "streamURL": "/pc/racestream",
+        "raceNo": "3",
+        "resultCd": 0,
+        "writeANA": false
+      }
+    },
+    {
+      "race_key": "20260710_前橋_4R",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjgx_V5PzaCViSMMgd67MdmnE",
+      "status": "DIRECT_LINE_EMPTY",
+      "jsj005_url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjgx_V5PzaCViSMMgd67MdmnE&type=JSJ005",
+      "http_status": 200,
+      "raw_length": 270,
+      "fetch_error": null,
+      "direct": {
+        "prediction_type": null,
+        "provider": null,
+        "positions": [],
+        "main_lines": []
+      },
+      "official_043": {
+        "status": "LINE_NOT_FOUND",
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "has_competition": false,
+        "competition_rows": []
+      },
+      "comparison": {
+        "line_exact_match": true,
+        "type_match": true,
+        "provider_match": true
+      },
+      "jsj005": {
+        "narabiyoso": {
+          "chushiFlg": "2",
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
+        },
+        "sanrentan": {
+          "ryoikiFlg": "false"
+        },
+        "kaime": {
+          "ryoikiFlg": "false"
+        },
+        "sensyuShokaiFlg": "0",
+        "interViewFlg": "0",
+        "biko": {
+          "hyojiFlg": "false"
+        },
+        "streamURL": "/pc/racestream",
+        "raceNo": "4",
+        "resultCd": 0,
+        "writeANA": false
+      }
+    },
+    {
+      "race_key": "20260710_前橋_5R",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjgw1yGwbwqSrsgs13Go265no",
+      "status": "DIRECT_LINE_EMPTY",
+      "jsj005_url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjgw1yGwbwqSrsgs13Go265no&type=JSJ005",
+      "http_status": 200,
+      "raw_length": 270,
+      "fetch_error": null,
+      "direct": {
+        "prediction_type": null,
+        "provider": null,
+        "positions": [],
+        "main_lines": []
+      },
+      "official_043": {
+        "status": "LINE_NOT_FOUND",
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "has_competition": false,
+        "competition_rows": []
+      },
+      "comparison": {
+        "line_exact_match": true,
+        "type_match": true,
+        "provider_match": true
+      },
+      "jsj005": {
+        "narabiyoso": {
+          "chushiFlg": "2",
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
+        },
+        "sanrentan": {
+          "ryoikiFlg": "false"
+        },
+        "kaime": {
+          "ryoikiFlg": "false"
+        },
+        "sensyuShokaiFlg": "0",
+        "interViewFlg": "0",
+        "biko": {
+          "hyojiFlg": "false"
+        },
+        "streamURL": "/pc/racestream",
+        "raceNo": "5",
+        "resultCd": 0,
+        "writeANA": false
+      }
+    },
+    {
+      "race_key": "20260710_前橋_6R",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8DsXR-nb3YbGx_2ykhaIlQ",
+      "status": "DIRECT_LINE_EMPTY",
+      "jsj005_url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8DsXR-nb3YbGx_2ykhaIlQ&type=JSJ005",
+      "http_status": 200,
+      "raw_length": 270,
+      "fetch_error": null,
+      "direct": {
+        "prediction_type": null,
+        "provider": null,
+        "positions": [],
+        "main_lines": []
+      },
+      "official_043": {
+        "status": "LINE_NOT_FOUND",
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "has_competition": false,
+        "competition_rows": []
+      },
+      "comparison": {
+        "line_exact_match": true,
+        "type_match": true,
+        "provider_match": true
+      },
+      "jsj005": {
+        "narabiyoso": {
+          "chushiFlg": "2",
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
+        },
+        "sanrentan": {
+          "ryoikiFlg": "false"
+        },
+        "kaime": {
+          "ryoikiFlg": "false"
+        },
+        "sensyuShokaiFlg": "0",
+        "interViewFlg": "0",
+        "biko": {
+          "hyojiFlg": "false"
+        },
+        "streamURL": "/pc/racestream",
+        "raceNo": "6",
+        "resultCd": 0,
+        "writeANA": false
+      }
+    },
+    {
+      "race_key": "20260710_前橋_7R",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg4aVYN1CM9vOgRObzAFqc1s",
+      "status": "DIRECT_LINE_EMPTY",
+      "jsj005_url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg4aVYN1CM9vOgRObzAFqc1s&type=JSJ005",
+      "http_status": 200,
+      "raw_length": 270,
+      "fetch_error": null,
+      "direct": {
+        "prediction_type": null,
+        "provider": null,
+        "positions": [],
+        "main_lines": []
+      },
+      "official_043": {
+        "status": "LINE_NOT_FOUND",
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "has_competition": false,
+        "competition_rows": []
+      },
+      "comparison": {
+        "line_exact_match": true,
+        "type_match": true,
+        "provider_match": true
+      },
+      "jsj005": {
+        "narabiyoso": {
+          "chushiFlg": "2",
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
+        },
+        "sanrentan": {
+          "ryoikiFlg": "false"
+        },
+        "kaime": {
+          "ryoikiFlg": "false"
+        },
+        "sensyuShokaiFlg": "0",
+        "interViewFlg": "0",
+        "biko": {
+          "hyojiFlg": "false"
+        },
+        "streamURL": "/pc/racestream",
+        "raceNo": "7",
+        "resultCd": 0,
+        "writeANA": false
+      }
+    }
+  ]
+}

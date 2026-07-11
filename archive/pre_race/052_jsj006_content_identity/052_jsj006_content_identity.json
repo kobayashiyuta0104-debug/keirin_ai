@@ -1,0 +1,4424 @@
+{
+  "program": "052_test.py",
+  "created_at": "2026-07-10T21:13:07.474781",
+  "source_file": "C:\\競輪AI\\data_official\\pre_race\\050_jsj006_race_click_only\\050_jsj006_race_click_only.json",
+  "target_date": "20260710",
+  "found_race_count": 45,
+  "response_total": 45,
+  "response_json_found": 45,
+  "response_json_not_found": 0,
+  "race_category_counts": {
+    "result_key_races": 45,
+    "rider_key_races": 45,
+    "ability_key_races": 45,
+    "identity_key_races": 45
+  },
+  "rough_judgement": "RESULT_AND_PRE_RACE_LIKE_DATA_MIXED",
+  "key_top_300": [
+    [
+      "imgTyakuiPath",
+      1165
+    ],
+    [
+      "imgTyakuiName",
+      1165
+    ],
+    [
+      "backTori",
+      1165
+    ],
+    [
+      "kkrParameter",
+      1165
+    ],
+    [
+      "kaisaiKbn",
+      652
+    ],
+    [
+      "gaiTeiGrade",
+      652
+    ],
+    [
+      "resultInfoSubData",
+      652
+    ],
+    [
+      "bKeirinjyoCd",
+      371
+    ],
+    [
+      "syabanBgColorInfo",
+      326
+    ],
+    [
+      "syabanCharColorInfo",
+      326
+    ],
+    [
+      "syaban",
+      326
+    ],
+    [
+      "sensyuRegistNo",
+      326
+    ],
+    [
+      "sensyuName",
+      326
+    ],
+    [
+      "huKen",
+      326
+    ],
+    [
+      "prevKyuhan",
+      326
+    ],
+    [
+      "kyuhan",
+      326
+    ],
+    [
+      "kyakusitu",
+      326
+    ],
+    [
+      "sotugyouki",
+      326
+    ],
+    [
+      "age",
+      326
+    ],
+    [
+      "heikinTokuten",
+      326
+    ],
+    [
+      "nigeCnt",
+      326
+    ],
+    [
+      "makuriCnt",
+      326
+    ],
+    [
+      "sasiCnt",
+      326
+    ],
+    [
+      "markCnt",
+      326
+    ],
+    [
+      "backCnt",
+      326
+    ],
+    [
+      "homeTori",
+      326
+    ],
+    [
+      "stTori",
+      326
+    ],
+    [
+      "syouritu",
+      326
+    ],
+    [
+      "rentairitu2",
+      326
+    ],
+    [
+      "rentairitu3",
+      326
+    ],
+    [
+      "konResultInfoSubData",
+      326
+    ],
+    [
+      "tyo4InfoSubData",
+      326
+    ],
+    [
+      "kerinjyoName",
+      326
+    ],
+    [
+      "kaisaiFirst",
+      326
+    ],
+    [
+      "kkParameter",
+      326
+    ],
+    [
+      "msg",
+      222
+    ],
+    [
+      "wakuban",
+      63
+    ],
+    [
+      "ketujyouTuikaHojyuColorInfo",
+      51
+    ],
+    [
+      "ketujyouTuikaHojyu",
+      51
+    ],
+    [
+      "syusouInfoExistFlg",
+      45
+    ],
+    [
+      "charColor1",
+      45
+    ],
+    [
+      "charColor2",
+      45
+    ],
+    [
+      "lastUpdateTime",
+      45
+    ],
+    [
+      "yudoSensyuName",
+      45
+    ],
+    [
+      "raceResult1Syaban",
+      45
+    ],
+    [
+      "raceResult2Syaban",
+      45
+    ],
+    [
+      "backCnt1Syaban",
+      45
+    ],
+    [
+      "backCnt2Syaban",
+      45
+    ],
+    [
+      "sensyuTypeInfo",
+      45
+    ],
+    [
+      "resultCd",
+      45
+    ],
+    [
+      "writeANA",
+      45
+    ],
+    [
+      "yosoin",
+      11
+    ],
+    [
+      "yosoinMei",
+      2
+    ]
+  ],
+  "result_key_summary": [
+    [
+      "imgTyakuiPath",
+      1165
+    ],
+    [
+      "imgTyakuiName",
+      1165
+    ],
+    [
+      "resultInfoSubData",
+      652
+    ],
+    [
+      "konResultInfoSubData",
+      326
+    ],
+    [
+      "raceResult1Syaban",
+      45
+    ],
+    [
+      "raceResult2Syaban",
+      45
+    ],
+    [
+      "resultCd",
+      45
+    ]
+  ],
+  "rider_key_summary": [
+    [
+      "sensyuRegistNo",
+      326
+    ],
+    [
+      "sensyuName",
+      326
+    ],
+    [
+      "yudoSensyuName",
+      45
+    ],
+    [
+      "sensyuTypeInfo",
+      45
+    ]
+  ],
+  "ability_key_summary": [
+    [
+      "backTori",
+      1165
+    ],
+    [
+      "prevKyuhan",
+      326
+    ],
+    [
+      "kyuhan",
+      326
+    ],
+    [
+      "age",
+      326
+    ],
+    [
+      "heikinTokuten",
+      326
+    ],
+    [
+      "backCnt",
+      326
+    ],
+    [
+      "backCnt1Syaban",
+      45
+    ],
+    [
+      "backCnt2Syaban",
+      45
+    ]
+  ],
+  "identity_key_summary": [
+    [
+      "kaisaiKbn",
+      652
+    ],
+    [
+      "syabanBgColorInfo",
+      326
+    ],
+    [
+      "syabanCharColorInfo",
+      326
+    ],
+    [
+      "syaban",
+      326
+    ],
+    [
+      "kaisaiFirst",
+      326
+    ],
+    [
+      "lastUpdateTime",
+      45
+    ],
+    [
+      "raceResult1Syaban",
+      45
+    ],
+    [
+      "raceResult2Syaban",
+      45
+    ],
+    [
+      "backCnt1Syaban",
+      45
+    ],
+    [
+      "backCnt2Syaban",
+      45
+    ]
+  ],
+  "result_paths": [
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.resultInfoSubData[].imgTyakuiPath",
+      "count": 879,
+      "value_types": {
+        "str": 879
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "/pc/static/img/icon/print/setP-normal-4.png"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "/pc/static/img/icon/print/setP-Wcircle-6.png"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "/pc/static/img/icon/print/setP-normal-3.png"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "/pc/static/img/icon/print/setP-normal-2.png"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "/pc/static/img/icon/print/setP-Wcircle-5.png"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.resultInfoSubData[].imgTyakuiName",
+      "count": 879,
+      "value_types": {
+        "str": 879
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "4"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "6"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "3"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData",
+      "count": 326,
+      "value_types": {
+        "dict": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "dict",
+            "key_count": 4,
+            "keys": [
+              "msg",
+              "kaisaiKbn",
+              "gaiTeiGrade",
+              "resultInfoSubData"
+            ]
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "dict",
+            "key_count": 4,
+            "keys": [
+              "msg",
+              "kaisaiKbn",
+              "gaiTeiGrade",
+              "resultInfoSubData"
+            ]
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "dict",
+            "key_count": 4,
+            "keys": [
+              "msg",
+              "kaisaiKbn",
+              "gaiTeiGrade",
+              "resultInfoSubData"
+            ]
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "dict",
+            "key_count": 4,
+            "keys": [
+              "msg",
+              "kaisaiKbn",
+              "gaiTeiGrade",
+              "resultInfoSubData"
+            ]
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "dict",
+            "key_count": 4,
+            "keys": [
+              "msg",
+              "kaisaiKbn",
+              "gaiTeiGrade",
+              "resultInfoSubData"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.resultInfoSubData",
+      "count": 326,
+      "value_types": {
+        "list": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 0
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 0
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 0
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 0
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.resultInfoSubData",
+      "count": 326,
+      "value_types": {
+        "list": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 3
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 3
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 3
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 3
+          }
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 3
+          }
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.resultInfoSubData[].imgTyakuiPath",
+      "count": 286,
+      "value_types": {
+        "str": 286
+      },
+      "samples": [
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "/pc/static/img/icon/print/setP-normal-3.png"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "/pc/static/img/icon/print/setP-Wcircle-7.png"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "/pc/static/img/icon/print/setP-normal-1.png"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "/pc/static/img/icon/print/setP-Wcircle-7.png"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "/pc/static/img/icon/print/setP-normal-5.png"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.resultInfoSubData[].imgTyakuiName",
+      "count": 286,
+      "value_types": {
+        "str": 286
+      },
+      "samples": [
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "3"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "7"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "7"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "path": "root.raceResult1Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "3"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "path": "root.raceResult2Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "4"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "5"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "path": "root.resultCd",
+      "count": 45,
+      "value_types": {
+        "int": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "rider_paths": [
+    {
+      "path": "root.sensyuTypeInfo[].sensyuRegistNo",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "013933"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "013054"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "013423"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "014851"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "015045"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].sensyuName",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "藤田　竜矢"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "石丸　寛之"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "増田　利明"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "横内　裕人"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "大関　祐也"
+        }
+      ]
+    },
+    {
+      "path": "root.yudoSensyuName",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "長岡　豪"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "中川　拓也"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "長岡　豪"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "中川　拓也"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "長岡　豪"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo",
+      "count": 45,
+      "value_types": {
+        "list": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": {
+            "type": "list",
+            "length": 7
+          }
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": {
+            "type": "list",
+            "length": 7
+          }
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": {
+            "type": "list",
+            "length": 7
+          }
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": {
+            "type": "list",
+            "length": 7
+          }
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": {
+            "type": "list",
+            "length": 7
+          }
+        }
+      ]
+    }
+  ],
+  "ability_paths": [
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.resultInfoSubData[].backTori",
+      "count": 879,
+      "value_types": {
+        "str": 879
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].prevKyuhan",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A2"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].kyuhan",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "A2"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].age",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "46"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "52"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "47"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "34"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "31"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].heikinTokuten",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "87.48"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "87.79"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "82.25"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "86.50"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "80.53"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].backCnt",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "8"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.resultInfoSubData[].backTori",
+      "count": 286,
+      "value_types": {
+        "str": 286
+      },
+      "samples": [
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "0"
+        },
+        {
+          "race_key": "20260710_函館_1R",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "path": "root.backCnt1Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "6"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "4"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "path": "root.backCnt2Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "4"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "5"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "3"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "4,5,6"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "identity_paths": [
+    {
+      "path": "root.sensyuTypeInfo[].syabanBgColorInfo",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_1_bk"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_2_bk"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_3_bk"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_4_bk"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_5_bk"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].syabanCharColorInfo",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_3"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_4"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "base_color_5"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].syaban",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "3"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "4"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.kaisaiKbn",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.kaisaiKbn",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.kaisaiFirst",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "20260701"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "20260626"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "20260622"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "20260626"
+        },
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "20260703"
+        }
+      ]
+    },
+    {
+      "path": "root.lastUpdateTime",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2026/07/10 07:01&nbsp;更新"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "2026/07/10 07:01&nbsp;更新"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "2026/07/10 07:01&nbsp;更新"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "2026/07/10 07:01&nbsp;更新"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "2026/07/10 07:01&nbsp;更新"
+        }
+      ]
+    },
+    {
+      "path": "root.raceResult1Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "3"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "path": "root.raceResult2Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "4"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "5"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "path": "root.backCnt1Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "6"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "4"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "2"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "1"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "path": "root.backCnt2Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      },
+      "samples": [
+        {
+          "race_key": "20260710_前橋_1R",
+          "value": "4"
+        },
+        {
+          "race_key": "20260710_前橋_2R",
+          "value": "5"
+        },
+        {
+          "race_key": "20260710_前橋_3R",
+          "value": "3"
+        },
+        {
+          "race_key": "20260710_前橋_4R",
+          "value": "4,5,6"
+        },
+        {
+          "race_key": "20260710_前橋_5R",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "all_path_top_500": [
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.resultInfoSubData[].imgTyakuiPath",
+      "count": 879,
+      "value_types": {
+        "str": 879
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.resultInfoSubData[].imgTyakuiName",
+      "count": 879,
+      "value_types": {
+        "str": 879
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.resultInfoSubData[].backTori",
+      "count": 879,
+      "value_types": {
+        "str": 879
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.resultInfoSubData[].kkrParameter",
+      "count": 879,
+      "value_types": {
+        "str": 879
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].syabanBgColorInfo",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].syabanCharColorInfo",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].syaban",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].sensyuRegistNo",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].sensyuName",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].huKen",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].prevKyuhan",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].kyuhan",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].kyakusitu",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].sotugyouki",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].age",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].heikinTokuten",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].nigeCnt",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].makuriCnt",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].sasiCnt",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].markCnt",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].backCnt",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].homeTori",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].stTori",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].syouritu",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].rentairitu2",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].rentairitu3",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData",
+      "count": 326,
+      "value_types": {
+        "dict": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.kaisaiKbn",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.gaiTeiGrade",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.resultInfoSubData",
+      "count": 326,
+      "value_types": {
+        "list": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData",
+      "count": 326,
+      "value_types": {
+        "dict": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.kaisaiKbn",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.bKeirinjyoCd",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.kerinjyoName",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.kaisaiFirst",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.gaiTeiGrade",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.kkParameter",
+      "count": 326,
+      "value_types": {
+        "str": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.resultInfoSubData",
+      "count": 326,
+      "value_types": {
+        "list": 326
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.resultInfoSubData[].imgTyakuiPath",
+      "count": 286,
+      "value_types": {
+        "str": 286
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.resultInfoSubData[].imgTyakuiName",
+      "count": 286,
+      "value_types": {
+        "str": 286
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.resultInfoSubData[].backTori",
+      "count": 286,
+      "value_types": {
+        "str": 286
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.resultInfoSubData[].kkrParameter",
+      "count": 286,
+      "value_types": {
+        "str": 286
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].konResultInfoSubData.msg",
+      "count": 184,
+      "value_types": {
+        "str": 184
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].wakuban",
+      "count": 63,
+      "value_types": {
+        "str": 63
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].ketujyouTuikaHojyuColorInfo",
+      "count": 51,
+      "value_types": {
+        "str": 51
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].ketujyouTuikaHojyu",
+      "count": 51,
+      "value_types": {
+        "str": 51
+      }
+    },
+    {
+      "path": "root.syusouInfoExistFlg",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.bKeirinjyoCd",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.charColor1",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.charColor2",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.lastUpdateTime",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.yudoSensyuName",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.raceResult1Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.raceResult2Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.backCnt1Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.backCnt2Syaban",
+      "count": 45,
+      "value_types": {
+        "str": 45
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo",
+      "count": 45,
+      "value_types": {
+        "list": 45
+      }
+    },
+    {
+      "path": "root.resultCd",
+      "count": 45,
+      "value_types": {
+        "int": 45
+      }
+    },
+    {
+      "path": "root.writeANA",
+      "count": 45,
+      "value_types": {
+        "bool": 45
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].tyo4InfoSubData.msg",
+      "count": 38,
+      "value_types": {
+        "str": 38
+      }
+    },
+    {
+      "path": "root.sensyuTypeInfo[].yosoin",
+      "count": 11,
+      "value_types": {
+        "str": 11
+      }
+    },
+    {
+      "path": "root.yosoinMei",
+      "count": 2,
+      "value_types": {
+        "str": 2
+      }
+    }
+  ],
+  "date_value_summary": [
+    [
+      "20260701",
+      49
+    ],
+    [
+      "20260629",
+      43
+    ],
+    [
+      "20260625",
+      33
+    ],
+    [
+      "20260622",
+      27
+    ],
+    [
+      "20260627",
+      26
+    ],
+    [
+      "20260626",
+      24
+    ],
+    [
+      "20260628",
+      23
+    ],
+    [
+      "20260630",
+      17
+    ],
+    [
+      "20260702",
+      13
+    ],
+    [
+      "20260703",
+      10
+    ],
+    [
+      "20260623",
+      10
+    ],
+    [
+      "20260704",
+      10
+    ],
+    [
+      "20260616",
+      7
+    ],
+    [
+      "20260620",
+      6
+    ],
+    [
+      "20260618",
+      6
+    ],
+    [
+      "20260621",
+      4
+    ],
+    [
+      "20260619",
+      4
+    ],
+    [
+      "20260613",
+      2
+    ],
+    [
+      "20260529",
+      2
+    ],
+    [
+      "20260706",
+      2
+    ],
+    [
+      "20260522",
+      2
+    ],
+    [
+      "20260606",
+      2
+    ],
+    [
+      "20260617",
+      1
+    ],
+    [
+      "20260615",
+      1
+    ],
+    [
+      "20260705",
+      1
+    ],
+    [
+      "20260614",
+      1
+    ]
+  ],
+  "small_number_value_summary": [
+    [
+      "1",
+      1147
+    ],
+    [
+      "2",
+      800
+    ],
+    [
+      "3",
+      419
+    ],
+    [
+      "4",
+      359
+    ],
+    [
+      "5",
+      357
+    ],
+    [
+      "6",
+      305
+    ],
+    [
+      "7",
+      293
+    ],
+    [
+      "8",
+      81
+    ],
+    [
+      "11",
+      59
+    ],
+    [
+      "9",
+      52
+    ],
+    [
+      "12",
+      48
+    ],
+    [
+      "10",
+      36
+    ]
+  ],
+  "race_with_result_key": [
+    "20260710_いわき平_1R",
+    "20260710_伊東_1R",
+    "20260710_伊東_2R",
+    "20260710_伊東_3R",
+    "20260710_函館_1R",
+    "20260710_函館_2R",
+    "20260710_前橋_10R",
+    "20260710_前橋_11R",
+    "20260710_前橋_12R",
+    "20260710_前橋_1R",
+    "20260710_前橋_2R",
+    "20260710_前橋_3R",
+    "20260710_前橋_4R",
+    "20260710_前橋_5R",
+    "20260710_前橋_6R",
+    "20260710_前橋_7R",
+    "20260710_前橋_8R",
+    "20260710_前橋_9R",
+    "20260710_名古屋_1R",
+    "20260710_大垣_10R",
+    "20260710_大垣_11R",
+    "20260710_大垣_12R",
+    "20260710_大垣_1R",
+    "20260710_大垣_2R",
+    "20260710_大垣_3R",
+    "20260710_大垣_4R",
+    "20260710_大垣_5R",
+    "20260710_大垣_6R",
+    "20260710_大垣_7R",
+    "20260710_大垣_8R",
+    "20260710_大垣_9R",
+    "20260710_小田原_1R",
+    "20260710_小田原_2R",
+    "20260710_小田原_3R",
+    "20260710_小田原_4R",
+    "20260710_小田原_5R",
+    "20260710_小田原_6R",
+    "20260710_小田原_7R",
+    "20260710_広島_1R",
+    "20260710_広島_2R",
+    "20260710_広島_3R",
+    "20260710_広島_4R",
+    "20260710_広島_5R",
+    "20260710_広島_6R",
+    "20260710_広島_7R"
+  ],
+  "race_with_rider_key": [
+    "20260710_いわき平_1R",
+    "20260710_伊東_1R",
+    "20260710_伊東_2R",
+    "20260710_伊東_3R",
+    "20260710_函館_1R",
+    "20260710_函館_2R",
+    "20260710_前橋_10R",
+    "20260710_前橋_11R",
+    "20260710_前橋_12R",
+    "20260710_前橋_1R",
+    "20260710_前橋_2R",
+    "20260710_前橋_3R",
+    "20260710_前橋_4R",
+    "20260710_前橋_5R",
+    "20260710_前橋_6R",
+    "20260710_前橋_7R",
+    "20260710_前橋_8R",
+    "20260710_前橋_9R",
+    "20260710_名古屋_1R",
+    "20260710_大垣_10R",
+    "20260710_大垣_11R",
+    "20260710_大垣_12R",
+    "20260710_大垣_1R",
+    "20260710_大垣_2R",
+    "20260710_大垣_3R",
+    "20260710_大垣_4R",
+    "20260710_大垣_5R",
+    "20260710_大垣_6R",
+    "20260710_大垣_7R",
+    "20260710_大垣_8R",
+    "20260710_大垣_9R",
+    "20260710_小田原_1R",
+    "20260710_小田原_2R",
+    "20260710_小田原_3R",
+    "20260710_小田原_4R",
+    "20260710_小田原_5R",
+    "20260710_小田原_6R",
+    "20260710_小田原_7R",
+    "20260710_広島_1R",
+    "20260710_広島_2R",
+    "20260710_広島_3R",
+    "20260710_広島_4R",
+    "20260710_広島_5R",
+    "20260710_広島_6R",
+    "20260710_広島_7R"
+  ],
+  "race_with_ability_key": [
+    "20260710_いわき平_1R",
+    "20260710_伊東_1R",
+    "20260710_伊東_2R",
+    "20260710_伊東_3R",
+    "20260710_函館_1R",
+    "20260710_函館_2R",
+    "20260710_前橋_10R",
+    "20260710_前橋_11R",
+    "20260710_前橋_12R",
+    "20260710_前橋_1R",
+    "20260710_前橋_2R",
+    "20260710_前橋_3R",
+    "20260710_前橋_4R",
+    "20260710_前橋_5R",
+    "20260710_前橋_6R",
+    "20260710_前橋_7R",
+    "20260710_前橋_8R",
+    "20260710_前橋_9R",
+    "20260710_名古屋_1R",
+    "20260710_大垣_10R",
+    "20260710_大垣_11R",
+    "20260710_大垣_12R",
+    "20260710_大垣_1R",
+    "20260710_大垣_2R",
+    "20260710_大垣_3R",
+    "20260710_大垣_4R",
+    "20260710_大垣_5R",
+    "20260710_大垣_6R",
+    "20260710_大垣_7R",
+    "20260710_大垣_8R",
+    "20260710_大垣_9R",
+    "20260710_小田原_1R",
+    "20260710_小田原_2R",
+    "20260710_小田原_3R",
+    "20260710_小田原_4R",
+    "20260710_小田原_5R",
+    "20260710_小田原_6R",
+    "20260710_小田原_7R",
+    "20260710_広島_1R",
+    "20260710_広島_2R",
+    "20260710_広島_3R",
+    "20260710_広島_4R",
+    "20260710_広島_5R",
+    "20260710_広島_6R",
+    "20260710_広島_7R"
+  ],
+  "races": [
+    {
+      "race_key": "20260710_前橋_1R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 346,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_2R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 346,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_3R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 346,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_4R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 342,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_5R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 322,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_6R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 425,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_7R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 451,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_8R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 430,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_9R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 444,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_10R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 430,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_11R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 445,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_前橋_12R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 476,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_函館_1R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 370,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_函館_2R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 393,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_伊東_1R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 342,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_伊東_2R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 344,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_伊東_3R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 346,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_1R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 283,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_2R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 331,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_3R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 371,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_4R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 397,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_5R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 391,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_6R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 358,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_7R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 391,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_8R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 377,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_9R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 373,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_10R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 390,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_11R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 389,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_大垣_12R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 398,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_いわき平_1R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 320,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_小田原_1R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 331,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_小田原_2R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 344,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_小田原_3R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 346,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_小田原_4R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 344,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_小田原_5R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 322,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_小田原_6R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 333,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_小田原_7R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 344,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_名古屋_1R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 341,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_広島_1R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 386,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_広島_2R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 362,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_広島_3R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 383,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_広島_4R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 391,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_広島_5R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 380,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_広島_6R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 384,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "race_key": "20260710_広島_7R",
+      "response_count": 1,
+      "responses": [
+        {
+          "response_index": 0,
+          "status": "RESEARCHED",
+          "json_source_path": "response.json",
+          "json_candidate_count": 1,
+          "walked_path_count": 371,
+          "result_keys": [
+            "imgTyakuiName",
+            "imgTyakuiPath",
+            "konResultInfoSubData",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "resultCd",
+            "resultInfoSubData"
+          ],
+          "rider_keys": [
+            "sensyuName",
+            "sensyuRegistNo",
+            "sensyuTypeInfo",
+            "yudoSensyuName"
+          ],
+          "ability_keys": [
+            "age",
+            "backCnt",
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "backTori",
+            "heikinTokuten",
+            "kyuhan",
+            "prevKyuhan"
+          ],
+          "identity_keys": [
+            "backCnt1Syaban",
+            "backCnt2Syaban",
+            "kaisaiFirst",
+            "kaisaiKbn",
+            "lastUpdateTime",
+            "raceResult1Syaban",
+            "raceResult2Syaban",
+            "syaban",
+            "syabanBgColorInfo",
+            "syabanCharColorInfo"
+          ]
+        }
+      ]
+    }
+  ]
+}

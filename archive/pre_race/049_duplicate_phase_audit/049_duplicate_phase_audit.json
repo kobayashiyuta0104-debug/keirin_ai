@@ -1,0 +1,144 @@
+{
+  "program": "049_test.py",
+  "created_at": "2026-07-10T16:37:59.986163",
+  "source_file": "C:\\競輪AI\\data_official\\pre_race\\048_jsj006_timing_fixed\\048_jsj006_timing_fixed.json",
+  "source_target_date": "20260710",
+  "source_race_count": 80,
+  "source_duplicate_count": 5,
+  "recalculated_cross_duplicate_count": 3,
+  "judgement_summary": {
+    "VENUE_AUTO_MISASSIGN_CONFIRMED": 3
+  },
+  "phase_pair_summary": {
+    "RACE_CLICK + VENUE_CLICK_AUTO_FIRST_RACE": 3
+  },
+  "final_conclusion": "IGNORE_ALL_VENUE_CLICK_AUTO_JSJ006",
+  "audits": [
+    {
+      "url": "https://www.keirin.jp/pc/json?encp=W2uRQM1igycPTuhMZ-U0H1ckeGFVEhpuVqRpv-w0D0Y&type=JSJ006",
+      "entry_count": 2,
+      "race_keys": [
+        "20260710_伊東_1R",
+        "20260710_伊東_2R"
+      ],
+      "capture_phases": [
+        "RACE_CLICK",
+        "VENUE_CLICK_AUTO_FIRST_RACE"
+      ],
+      "timeline": [
+        {
+          "race_key": "20260710_伊東_1R",
+          "race_status": "JSJ006_FOUND",
+          "capture_phase": "VENUE_CLICK_AUTO_FIRST_RACE",
+          "assigned_race_key": "20260710_伊東_1R",
+          "captured_at": "2026-07-10T16:04:22.907753",
+          "status": 200,
+          "body_type": "JSON"
+        },
+        {
+          "race_key": "20260710_伊東_2R",
+          "race_status": "JSJ006_FOUND",
+          "capture_phase": "RACE_CLICK",
+          "assigned_race_key": "20260710_伊東_2R",
+          "captured_at": "2026-07-10T16:04:37.323814",
+          "status": 200,
+          "body_type": "JSON"
+        }
+      ],
+      "judgement": "VENUE_AUTO_MISASSIGN_CONFIRMED",
+      "venue_auto_race_keys": [
+        "20260710_伊東_1R"
+      ],
+      "race_click_race_keys": [
+        "20260710_伊東_2R"
+      ],
+      "recommended_true_race_keys": [
+        "20260710_伊東_2R"
+      ]
+    },
+    {
+      "url": "https://www.keirin.jp/pc/json?encp=oGn5WPyFKUs7MmpVS67mXbncBjH7x6Dk6Y8bAqT9l4U&type=JSJ006",
+      "entry_count": 2,
+      "race_keys": [
+        "20260710_小田原_1R",
+        "20260710_小田原_7R"
+      ],
+      "capture_phases": [
+        "RACE_CLICK",
+        "VENUE_CLICK_AUTO_FIRST_RACE"
+      ],
+      "timeline": [
+        {
+          "race_key": "20260710_小田原_1R",
+          "race_status": "JSJ006_FOUND",
+          "capture_phase": "VENUE_CLICK_AUTO_FIRST_RACE",
+          "assigned_race_key": "20260710_小田原_1R",
+          "captured_at": "2026-07-10T16:09:04.784733",
+          "status": 200,
+          "body_type": "JSON"
+        },
+        {
+          "race_key": "20260710_小田原_7R",
+          "race_status": "JSJ006_FOUND",
+          "capture_phase": "RACE_CLICK",
+          "assigned_race_key": "20260710_小田原_7R",
+          "captured_at": "2026-07-10T16:10:43.606922",
+          "status": 200,
+          "body_type": "JSON"
+        }
+      ],
+      "judgement": "VENUE_AUTO_MISASSIGN_CONFIRMED",
+      "venue_auto_race_keys": [
+        "20260710_小田原_1R"
+      ],
+      "race_click_race_keys": [
+        "20260710_小田原_7R"
+      ],
+      "recommended_true_race_keys": [
+        "20260710_小田原_7R"
+      ]
+    },
+    {
+      "url": "https://www.keirin.jp/pc/json?encp=Ozpk-eumfo_0DwX9fHqEYa-Wvr5S1twwr7IdRiUMdVI&type=JSJ006",
+      "entry_count": 2,
+      "race_keys": [
+        "20260710_広島_1R",
+        "20260710_広島_7R"
+      ],
+      "capture_phases": [
+        "RACE_CLICK",
+        "VENUE_CLICK_AUTO_FIRST_RACE"
+      ],
+      "timeline": [
+        {
+          "race_key": "20260710_広島_1R",
+          "race_status": "JSJ006_FOUND",
+          "capture_phase": "VENUE_CLICK_AUTO_FIRST_RACE",
+          "assigned_race_key": "20260710_広島_1R",
+          "captured_at": "2026-07-10T16:11:51.233326",
+          "status": 200,
+          "body_type": "JSON"
+        },
+        {
+          "race_key": "20260710_広島_7R",
+          "race_status": "JSJ006_FOUND",
+          "capture_phase": "RACE_CLICK",
+          "assigned_race_key": "20260710_広島_7R",
+          "captured_at": "2026-07-10T16:13:30.421078",
+          "status": 200,
+          "body_type": "JSON"
+        }
+      ],
+      "judgement": "VENUE_AUTO_MISASSIGN_CONFIRMED",
+      "venue_auto_race_keys": [
+        "20260710_広島_1R"
+      ],
+      "race_click_race_keys": [
+        "20260710_広島_7R"
+      ],
+      "recommended_true_race_keys": [
+        "20260710_広島_7R"
+      ]
+    }
+  ]
+}

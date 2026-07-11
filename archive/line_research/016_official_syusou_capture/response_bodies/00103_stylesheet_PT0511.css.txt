@@ -1,0 +1,589 @@
+/* PT0511_PC_驛｢�ｽｧ�ｿｽ�ｽｽ�ｽｪ驛｢譎｢�ｽｿ�ｽｽ驛｢�ｽｧ�ｿｽ�ｽｽ�ｽｺ(3鬯ｨ�ｽｾ�ｿｽ�ｽｽ�ｽ｣髯ｷ螂��ｽｿ�ｽｽ)(0233) */
+
+@charset "UTF-8";
+
+
+td.kksk {
+	width:100%;
+}
+
+table.kksk_tbl{
+	border-spacing:0;
+}
+
+table.kksk_tbl tr td.kake{
+	padding-right:0px;
+}
+
+table.hyoji_tbl {
+	width:100%;
+}
+
+table.kksk_tbl tr td button.kkbtn {
+	width:56px;
+	padding: 1px;
+}
+
+table.hyoji_tbl tr td button.hjbtn {
+	width:78px;
+	padding: 1px;
+}
+
+table.kksk_tbl tr td.kklbl {
+	padding: 0px 2px;
+	white-space: nowrap;
+}
+
+table.hyoji_tbl tr td.hjlbl {
+	padding: 0px 2px 0px 2px;
+	white-space: nowrap;
+}
+
+table.syusou_list_tbl {
+	padding: 2px;
+	border: 1px solid #888;
+	font-size: 14px;
+	width:505px;
+}
+
+table.syusou_list_tbl tr td {
+	border-left: 1px solid #888;
+	padding: 1px 2px;
+}
+
+table.syusou_list_tbl tr td.title {
+	width: 16%;
+	background-color: #F5F4F2;
+}
+
+table.ozu_tbl {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: #404040;
+	text-align: center;
+	border: 0;
+}
+
+table.wd_tbl {
+	width: 100%;
+}
+
+table.ozu_tbl tr td {
+	padding: 3px 1px;
+	width: 25px !important;
+/*	width: 28px !important;*/
+	border: 1px solid  #888;
+	height: 32px;
+/*	height: 35px;*/
+}
+
+table.ozu_tbl tr td.btn {
+	padding: 0;
+	width: 80px !important;
+}
+
+table.ozu_tbl tr td.ozzwd {
+	width: 100% !important;
+}
+
+table.ozu_tbl tr td.ozzwd2 {
+	width: 69px !important;
+}
+
+table.ozu_tbl tr td.o3twd {
+	width: 58px !important;
+}
+
+table.ozu_tbl tr td.owtwd {
+	width: 100% !important;
+}
+
+table.ozu_tbl tr td.o2fheadwd {
+	width: 90px !important;
+}
+
+table.ozu_tbl tr td div.o2fnob {
+	width: 70px !important;
+}
+
+table.ozu_tbl tr td.o3fheadwd {
+	width: 116px !important;
+}
+
+table.ozu_tbl tr td.owtheadwd {
+	width: 276px !important;
+}
+
+table.ozu_tbl tr td.o2fsya2wd {
+	width: 20px !important;
+}
+
+table.ozu_tbl tr td.owozz {
+	height: 63px !important;
+	display: inline-flex !important;
+}
+
+table.ozu_tbl tr td.owozz_nin {
+	height: 80px !important;
+	display: inline-flex !important;
+	width: 80px !important;
+}
+
+table.ozu_tbl tr td.pad {
+	padding: 0;
+}
+
+table.ozu_tbl tr td.second {
+	min-width: 25px !important;
+}
+
+table.ozu_tbl tr td.btn button.btnbold {
+	font-weight: normal;
+}
+
+table.ozu_tbl tr td.btn button.nonb {
+	padding: 5px 4px;
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+}
+
+table.ozu_tbl tr td.btn button.nonb_nin {
+	padding: 5.5px 4px;
+	width: 100%;
+	text-align: right;
+	font-size: 16px  !important;
+}
+
+table.ozu_tbl tr td div {
+	padding: 5px 4px;
+	width: 100%;
+/*		font-weight: normal;*/
+	text-align: right;
+}
+
+table.ozu_tbl tr td.btn button.red {
+	color: #DF0101;
+}
+
+table.ozu_tbl tr td div.red {
+	color: #DF0101;
+}
+
+table.ozu_tbl div.nonb {
+	padding: 5px 3px;
+	width: 100%;
+	font-weight: normal;
+	text-align: right;
+	font-size: 12px;
+}
+
+table.ozu_tbl div.nonb_nin {
+	padding: 5px 3px;
+	width: 100%;
+	font-weight: normal;
+	text-align: right;
+	font-size: 16px  !important;
+}
+
+table.ozu_tbl tr td.carno {
+	width: 19px !important;
+	border: 1px solid  #888;
+	height: 32px;
+}
+
+
+.ozu_kumi {
+	padding: 5px 0px;
+	min-width: 50px;
+	max-width: 70px;
+	border: 1px solid #888;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ozu_num {
+	padding: 5px 2px;
+	min-width: 60px;
+	max-width: 70px;
+	border: 1px solid #888;
+	font-size: 16px;
+	text-align: right;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.ozu_num_btn {
+	padding: 0;
+	min-width: 60px;
+	max-width: 70px;
+	border: 1px solid #888;
+	font-size: 16px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.ozu_num_btn .btn.onbtn.nonb.pd_tr {
+	padding: 5px;
+	text-align: right;
+}
+
+.ozu_ninki {
+	padding: 5px 2px;
+	min-width: 26px;
+	max-width: 36px;
+	border: 1px solid #888;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.op_ninki {
+	width:35px !important;
+	font-weight: normal;
+	font-size: 16px !important;
+}
+
+.op_kumiban {
+	white-space:nowrap !important;
+	font-weight:normal !important;
+	text-align:center !important;
+	width:100% !important;
+	font-size: 16px !important;
+	padding: 3px 2px !important;
+}
+
+.op_ozz {
+	width:70px !important;
+	font-size: 16px !important;
+}
+
+.op_pulldown {
+	margin-top: 10px;
+	width: 600px;
+}
+
+.pad_width_120 {
+	width:120px !important;
+	padding: 1px !important;
+}
+
+.width_2 {
+	width: 2% !important;
+}
+
+.width_31 {
+	width: 32% !important;
+}
+
+.width_63 {
+	width: 63% !important;
+}
+
+.width_75 {
+	width: 75% !important;
+}
+
+.width_96 {
+	width:96px !important;
+}
+
+.os_osbtn {
+	width:90px !important;
+	height:50px !important;
+}
+
+.width_140 {
+	width:160px !important;
+}
+
+.os_dis {
+	margin-top: 200px;
+	text-align: center;
+}
+
+.os_all_btn {
+	padding:0.5px 2px !important;
+	width:23.5px !important;
+}
+.margin_t15 {
+	margin-top: 10px !important;
+	width:100%;
+}
+
+.h52 {
+	height:52px !important;
+}
+
+.margin_l2 {
+	margin-left:1.5% !important;
+}
+
+.margin_t2 {
+	margin-top:2px !important;
+}
+
+.wd_height {
+	height:45px;
+}
+
+.msg_tbl1 {
+	width: 100%;
+	margin-top: 10px;
+}
+
+table.msg_tbl1 tr td.msgArea {
+	width: 37%;
+	vertical-align: bottom;
+}
+
+.msg_tbl2 {
+	width: 100%;
+	font-size: 16px;
+}
+
+table.msg_tbl2 tr td.gdmsg {
+	height: 50%;
+	padding-left: 8px;
+}
+
+table.msg_tbl2 tr td.usmsg {
+	padding-left: 8px;
+}
+
+table.msg_tbl2 tr.timeArea {
+	vertical-align: bottom;
+}
+
+table.msg_tbl2 tr td button.upbtn {
+	width:96%;
+	padding: 1px;
+}
+
+div.ozz_tbl {
+	margin-top: 5px;
+	height: 453px;
+	display: block;
+	border:1px;
+	white-space: nowrap;
+}
+
+div.ozz_tbl_srl {
+	overflow-y: scroll;
+}
+
+div.ozz_tbl_line {
+	border:1px solid #888888;
+}
+
+div.htbArea {
+	font-size: 16px;
+}
+
+div.htbArea div.htbArea2  {
+	margin-top: 10px;
+}
+
+div.htbArea2 table.htb_tbl  {
+	width:100%;
+}
+
+/* オッズ検索 */
+div.osArea  {
+	width:24%
+}
+
+div.osArea table.syuso_tbl  {
+	margin-top: 3px;
+}
+
+div.osArea2  {
+	min-width: 1px;
+}
+
+div.osSelArea  {
+	width:12%;
+}
+
+table.ossel_tbl  {
+	padding: 10px;
+	width:100%;
+	font-size:16px;
+}
+
+table.ossel_tbl tr.odArea  {
+	height:30px;
+}
+
+table.ossel_tbl tr td.hjjun  {
+	padding-left: 10px;
+	width:70px;
+	height: 36px;
+	font-size:16px;
+}
+
+table.ossel_tbl tr td.hjbtn  {
+	width:108px;"
+}
+
+table.ossel_tbl tr td button.hjbtn  {
+	width:104px;
+	padding:1px
+}
+
+table.ossel_tbl tr td.osusmsg  {
+	padding: 10px;
+}
+
+table.ossel_tbl tr td.osgdmsg  {
+	width:220px;
+	padding-left:10px;
+}
+
+table.ossel_tbl tr td button.upbtn  {
+	width:115px;
+	padding: 1px;
+}
+
+table.ossel_tbl tr td.oserrmsg  {
+	padding-left:10px;
+}
+
+table.osdis_tbl  {
+	width:100%;
+	height: 525px
+}
+
+table.osdis_tbl tr td.nonb  {
+	min-width: 1px;
+}
+
+table.osdis_tbl tr td.osdisArea  {
+	vertical-align: top;
+}
+
+table.osdis_tbl tr td.osdisArea div.osdisArea  {
+	margin-top: 10px;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	height: 500px;
+}
+
+table.osdis_tbl tr td.osdisArea div.htb  {
+	margin-top: 7px;
+}
+
+table.osdis_tbl tr td.osdisArea div.htb table.htb  {
+	width: 100%;
+}
+
+table.osdis_tbl tr td.osdisArea div.htb table.htb tr td.clrbtn  {
+	padding-left: 4px;
+}
+
+table.osdis_tbl tr td.osdisArea div.htb table.htb tr td.clrbtn button.clrbtn {
+	width:105px; padding: 1px;
+}
+
+table.osdis_tbl tr td.osdisArea div.htb table.htb tr td.memo  {
+	padding:0;
+}
+
+table.osdis_tbl tr td.osdisArea div.htb table.htb tr td.htb  {
+	width: 27%;
+}
+
+/* 関連オッズ */
+table.tbl_odds {
+	margin: 5px 0px;
+	padding: 0;
+	/*width: 100%;*/
+}
+
+table.tbl_odds tr td {
+	padding: 0px 4px 0px 0px;
+	border: 1px solid #888888;
+	/**border: none;*/
+
+	text-align: center;
+	vertical-align:middle !important;
+}
+
+table.tbl_odds tr{
+	height:25px;
+}
+
+table.tbl_odds.tbl_header{background-color:#D9D7CE !important;}
+
+
+table.tbl_odds td.sakaime{
+	border-right: 3px solid #888888;
+
+	text-align: center;
+	vertical-align:middle !important;
+}
+
+table.tbl_odds tr td.okr_red {
+	color: #DF0101;
+}
+
+#kannren_ozu div.okr_auto{
+	overflow:auto !important;
+}
+
+#kannren_ozu div.okr_h{
+	margin:10px 10px 10px 10px; width:853px;
+}
+
+#kannren_ozu div.okr_h div.okr_h {
+	margin-top:10px;
+}
+
+#kannren_ozu div.okr_h div.okr_h table colgroup col.gpcol1 {
+	width:80px;
+}
+
+#kannren_ozu div.okr_h div.okr_h table colgroup col.gpcol2 {
+	width:40px;
+}
+
+#kannren_ozu button.upbtn {
+	font-size:16px !important; width:115px; height:28px; padding:0;
+}
+
+/* ダイアログ */
+div.dg {
+	margin:10px 10px 10px 10px; width:260px;
+} 
+
+div.dg div.dgbtn {
+	padding-top:10px;
+} 
+
+div.dg button.dgbtn {
+	width:100px;
+} 
+
+.ork_kum {
+	width:70px !important;
+} 
+
+.ork_ozz {
+	width:60px !important;
+} 
+
+.margin_r30 {
+	margin-right:30px !important;
+} 
+
+#PT0511 {
+	min-height: 640px !important;
+} 
+
+.ninki_order_color {
+  background-color: #404040 !important;
+  color: #FFFFFF !important;
+}

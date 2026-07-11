@@ -1,0 +1,349 @@
+{
+  "source": "C:\\競輪AI\\205_manual_historical_navigation_capture.json",
+  "post_transitions": [
+    {
+      "path": "$.captures[5]",
+      "method": "POST",
+      "url": "https://www.keirin.jp/pc/racelive",
+      "post": "encp=-rgLOUDZaX8RQ73rPRpBXvrRlKTwf_wks0bCvF7iWEY&disp=PJ0315",
+      "post_encp": "-rgLOUDZaX8RQ73rPRpBXvrRlKTwf_wks0bCvF7iWEY",
+      "disp": "PJ0315"
+    }
+  ],
+  "json_requests": [
+    {
+      "path": "$.captures[3]",
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?kday=20260706&type=JSJ057",
+      "type": "JSJ057",
+      "encp": null,
+      "kday": "20260706"
+    },
+    {
+      "path": "$.captures[4]",
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?kday=20260706&type=JSJ082",
+      "type": "JSJ082",
+      "encp": null,
+      "kday": "20260706"
+    },
+    {
+      "path": "$.captures[18]",
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ001",
+      "type": "JSJ001",
+      "encp": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+      "kday": null
+    },
+    {
+      "path": "$.captures[19]",
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ003",
+      "type": "JSJ003",
+      "encp": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+      "kday": null
+    },
+    {
+      "path": "$.captures[20]",
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ004",
+      "type": "JSJ004",
+      "encp": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+      "kday": null
+    },
+    {
+      "path": "$.captures[21]",
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ012",
+      "type": "JSJ012",
+      "encp": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+      "kday": null
+    },
+    {
+      "path": "$.captures[22]",
+      "method": "",
+      "url": "https://www.keirin.jp/pc/json?kday=20260706&type=JSJ057",
+      "type": "JSJ057",
+      "encp": null,
+      "kday": "20260706"
+    },
+    {
+      "path": "$.captures[23]",
+      "method": "",
+      "url": "https://www.keirin.jp/pc/json?kday=20260706&type=JSJ082",
+      "type": "JSJ082",
+      "encp": null,
+      "kday": "20260706"
+    },
+    {
+      "path": "$.captures[24]",
+      "method": "",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ004",
+      "type": "JSJ004",
+      "encp": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+      "kday": null
+    },
+    {
+      "path": "$.captures[25]",
+      "method": "",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ003",
+      "type": "JSJ003",
+      "encp": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+      "kday": null
+    },
+    {
+      "path": "$.captures[26]",
+      "method": "",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ012",
+      "type": "JSJ012",
+      "encp": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+      "kday": null
+    },
+    {
+      "path": "$.captures[27]",
+      "method": "",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ001",
+      "type": "JSJ001",
+      "encp": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+      "kday": null
+    }
+  ],
+  "post_unique_encps": [
+    "-rgLOUDZaX8RQ73rPRpBXvrRlKTwf_wks0bCvF7iWEY"
+  ],
+  "json_unique_encps": [
+    "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+  ],
+  "encp_comparisons": [
+    {
+      "post_encp": "-rgLOUDZaX8RQ73rPRpBXvrRlKTwf_wks0bCvF7iWEY",
+      "json_encp": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+      "same": false,
+      "common_prefix_length": 21,
+      "post_length": 43,
+      "json_length": 43
+    }
+  ],
+  "all_encp_key_hits": [
+    {
+      "path": "$.captures[0].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[1].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[2].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[3].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[4].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[5].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[6].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[7].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[8].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[9].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[10].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[11].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[12].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[13].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[14].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[15].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[16].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[17].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[18].encp",
+      "key": "encp",
+      "value": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+    },
+    {
+      "path": "$.captures[19].encp",
+      "key": "encp",
+      "value": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+    },
+    {
+      "path": "$.captures[20].encp",
+      "key": "encp",
+      "value": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+    },
+    {
+      "path": "$.captures[21].encp",
+      "key": "encp",
+      "value": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+    },
+    {
+      "path": "$.captures[22].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[23].encp",
+      "key": "encp",
+      "value": null
+    },
+    {
+      "path": "$.captures[24].encp",
+      "key": "encp",
+      "value": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+    },
+    {
+      "path": "$.captures[25].encp",
+      "key": "encp",
+      "value": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+    },
+    {
+      "path": "$.captures[26].encp",
+      "key": "encp",
+      "value": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+    },
+    {
+      "path": "$.captures[27].encp",
+      "key": "encp",
+      "value": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.encParaS",
+      "key": "encParaS",
+      "value": "-rgLOUDZaX8RQ73rPRpBXsBi43Ep-Cfi5JRiiEmDQ6A"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201kaisai[0].encParaK",
+      "key": "encParaK",
+      "value": "-rgLOUDZaX8RQ73rPRpBXsBi43Ep-Cfi5JRiiEmDQ6A"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201kaisai[1].encParaK",
+      "key": "encParaK",
+      "value": "-rgLOUDZaX8RQ73rPRpBXvrRlKTwf_wks0bCvF7iWEY"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201kaisai[2].encParaK",
+      "key": "encParaK",
+      "value": "-rgLOUDZaX8RQ73rPRpBXpl_pTfnadJcTNcCNiJIsSo"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[0].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXkboo1M0XnBKNQiJITQxTww"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[1].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXsJmMto0MMP9Wywu2WMp0HI"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[2].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXj1ISI2eXFRYaQPXOWxb3nY"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[3].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXsS0Q3Dx6_OAnUztyLj0lIk"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[4].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXtQ-lMWrAZTgbrgogfYwywc"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[5].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXtLtz8BxNfKzGAj_qu86iEw"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[6].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXjuQvn3q7MFSWR2hOP1Q8-s"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[7].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXuscaw9Ati-CxmVTlKHNNNs"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[8].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXtznA1Lom9keBa6H9feWAxg"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[9].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXi5e86ofUujCB5nZHxZ9IxE"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[10].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXuQtsJZnrI3gb6TdpBk5pJM"
+    },
+    {
+      "path": "$.captures[27].data.C0201data.C0201race[11].encParaR",
+      "key": "encParaR",
+      "value": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0"
+    }
+  ]
+}

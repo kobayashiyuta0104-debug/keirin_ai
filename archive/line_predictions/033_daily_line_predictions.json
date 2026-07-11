@@ -1,0 +1,1643 @@
+{
+  "program": "033_capture_line_predictions_by_dom_separator.py",
+  "captured_at": "2026-07-09T23:51:28.396005",
+  "race_date": "20260709",
+  "venue": "函館",
+  "race_count": 12,
+  "line_found_count": 12,
+  "line_not_found_count": 0,
+  "validation_error_count": 0,
+  "error_count": 0,
+  "races": [
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 1,
+      "race_key": "20260709_函館_1R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 1,
+        "id": "hhRaceBtn1",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn active",
+        "text": "1R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5JyLIbhZ9FZgrqAqdyafs1k",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "四分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            1,
+            5
+          ],
+          [
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 4,
+          "actual_line_count": 4,
+          "line_count_match": true,
+          "rider_numbers": [
+            1,
+            5,
+            4,
+            3,
+            6,
+            2,
+            7
+          ],
+          "unique_rider_numbers": [
+            1,
+            5,
+            4,
+            3,
+            6,
+            2,
+            7
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n四分戦\n\n\t\t\t \n\n\t1\t5\t\t4\t\t3\t6\t\t2\t7\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"yonbusen\">四分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 2,
+      "race_key": "20260709_函館_2R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 2,
+        "id": "hhRaceBtn2",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "2R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5LP9kcC518gHU3vbqW8uRks",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "四分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            1,
+            7
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 4,
+          "actual_line_count": 4,
+          "line_count_match": true,
+          "rider_numbers": [
+            1,
+            7,
+            5,
+            3,
+            6,
+            2,
+            4
+          ],
+          "unique_rider_numbers": [
+            1,
+            7,
+            5,
+            3,
+            6,
+            2,
+            4
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n四分戦\n\n\t\t\t \n\n\t1\t7\t\t5\t3\t\t6\t2\t\t4\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"yonbusen\">四分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 3,
+      "race_key": "20260709_函館_3R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 3,
+        "id": "hhRaceBtn3",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "3R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5GHvfsoElRPZZcNMvgxS0y4",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": null,
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            6,
+            5,
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            7
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": null,
+          "actual_line_count": 5,
+          "line_count_match": null,
+          "rider_numbers": [
+            6,
+            5,
+            3,
+            4,
+            2,
+            1,
+            7
+          ],
+          "unique_rider_numbers": [
+            6,
+            5,
+            3,
+            4,
+            2,
+            1,
+            7
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\nコマ切れ\n\n\t\t\t \n\n\t6\t5\t3\t\t4\t\t2\t\t1\t\t7\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"komagire\">コマ切れ</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 4,
+      "race_key": "20260709_函館_4R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 4,
+        "id": "hhRaceBtn4",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "4R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5MPKN4273vHMZ-l9K9mVbbY",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "三分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            4,
+            7,
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 3,
+          "actual_line_count": 3,
+          "line_count_match": true,
+          "rider_numbers": [
+            4,
+            7,
+            1,
+            2,
+            5,
+            3,
+            6
+          ],
+          "unique_rider_numbers": [
+            4,
+            7,
+            1,
+            2,
+            5,
+            3,
+            6
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t4\t7\t1\t\t2\t5\t\t3\t6\t\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 5,
+      "race_key": "20260709_函館_5R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 5,
+        "id": "hhRaceBtn5",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "5R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5Ijxbp95JOyVSg02dhsl-nU",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "二分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            1,
+            7,
+            4
+          ],
+          [
+            5,
+            2,
+            3,
+            6
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 2,
+          "actual_line_count": 2,
+          "line_count_match": true,
+          "rider_numbers": [
+            1,
+            7,
+            4,
+            5,
+            2,
+            3,
+            6
+          ],
+          "unique_rider_numbers": [
+            1,
+            7,
+            4,
+            5,
+            2,
+            3,
+            6
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n二分戦\n\n\t\t\t \n\n\t1\t7\t4\t\t5\t2\t3\t6\t\t\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"nibusen\">二分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 6,
+      "race_key": "20260709_函館_6R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 6,
+        "id": "hhRaceBtn6",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "6R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5CuOc12wF9RksCG14Rco5uI",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "三分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            5,
+            1,
+            7
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 3,
+          "actual_line_count": 3,
+          "line_count_match": true,
+          "rider_numbers": [
+            5,
+            1,
+            7,
+            4,
+            2,
+            6,
+            3
+          ],
+          "unique_rider_numbers": [
+            5,
+            1,
+            7,
+            4,
+            2,
+            6,
+            3
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t5\t1\t7\t\t4\t2\t\t6\t3\t\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 7,
+      "race_key": "20260709_函館_7R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 7,
+        "id": "hhRaceBtn7",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "7R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5BYH4thmGK-4xbMkDZx7WbM",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "三分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            7,
+            2,
+            4
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 3,
+          "actual_line_count": 3,
+          "line_count_match": true,
+          "rider_numbers": [
+            7,
+            2,
+            4,
+            5,
+            1,
+            6,
+            3
+          ],
+          "unique_rider_numbers": [
+            7,
+            2,
+            4,
+            5,
+            1,
+            6,
+            3
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t7\t2\t4\t\t5\t1\t\t6\t3\t\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 8,
+      "race_key": "20260709_函館_8R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 8,
+        "id": "hhRaceBtn8",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "8R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5N674mVGG-t8ANFC8YsUPgM",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "三分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            7,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            1,
+            4,
+            6
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 3,
+          "actual_line_count": 3,
+          "line_count_match": true,
+          "rider_numbers": [
+            7,
+            3,
+            5,
+            2,
+            1,
+            4,
+            6
+          ],
+          "unique_rider_numbers": [
+            7,
+            3,
+            5,
+            2,
+            1,
+            4,
+            6
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t7\t3\t\t5\t2\t\t1\t4\t6\t\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 9,
+      "race_key": "20260709_函館_9R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 9,
+        "id": "hhRaceBtn9",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "9R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5AMfrC6snXsXQf5kkWw7OP8",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "三分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            3,
+            6
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            5,
+            2,
+            4
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 3,
+          "actual_line_count": 3,
+          "line_count_match": true,
+          "rider_numbers": [
+            3,
+            6,
+            7,
+            1,
+            5,
+            2,
+            4
+          ],
+          "unique_rider_numbers": [
+            3,
+            6,
+            7,
+            1,
+            5,
+            2,
+            4
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t3\t6\t\t7\t1\t\t5\t2\t4\t\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 10,
+      "race_key": "20260709_函館_10R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 10,
+        "id": "hhRaceBtn10",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "10R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5GG4toZsZxf6lglwNNFyS1M",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "四分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:23 更新",
+        "line_groups": [
+          [
+            5,
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ],
+          [
+            4,
+            1,
+            7
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 4,
+          "actual_line_count": 4,
+          "line_count_match": true,
+          "rider_numbers": [
+            5,
+            2,
+            3,
+            6,
+            4,
+            1,
+            7
+          ],
+          "unique_rider_numbers": [
+            5,
+            2,
+            3,
+            6,
+            4,
+            1,
+            7
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n四分戦\n\n\t\t\t \n\n\t5\t2\t\t3\t\t6\t\t4\t1\t7\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"yonbusen\">四分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 11,
+      "race_key": "20260709_函館_11R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 11,
+        "id": "hhRaceBtn11",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "11R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5HL9q39K7cdPg7RZfXkKrRo",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "四分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            4,
+            6
+          ],
+          [
+            1,
+            7,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 4,
+          "actual_line_count": 4,
+          "line_count_match": true,
+          "rider_numbers": [
+            4,
+            6,
+            1,
+            7,
+            5,
+            2,
+            3
+          ],
+          "unique_rider_numbers": [
+            4,
+            6,
+            1,
+            7,
+            5,
+            2,
+            3
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n四分戦\n\n\t\t\t \n\n\t4\t6\t\t1\t7\t5\t\t2\t\t3\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"yonbusen\">四分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    },
+    {
+      "race_date": "20260709",
+      "venue": "函館",
+      "race_no": 12,
+      "race_key": "20260709_函館_12R",
+      "status": "LINE_FOUND",
+      "button": {
+        "race_no": 12,
+        "id": "hhRaceBtn12",
+        "class_name": "btn btn_fsz onbtn race_btn hhracebtn",
+        "text": "12R",
+        "encp": "T9wMz-ha1TZ640Z-S5GN5AIG1IFc4LqI1ZrLHYWchlk",
+        "disabled": false
+      },
+      "line_prediction": {
+        "found": true,
+        "prediction_type": "三分戦",
+        "provider": "北競新聞社",
+        "updated_at": "2026/07/09 23:13 更新",
+        "line_groups": [
+          [
+            4,
+            1,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "raw_sequence": [
+          {
+            "type": "rider",
+            "value": 4,
+            "class_name": "snum base_color_4"
+          },
+          {
+            "type": "rider",
+            "value": 1,
+            "class_name": "snum base_color_1"
+          },
+          {
+            "type": "rider",
+            "value": 7,
+            "class_name": "snum base_color_7"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 3,
+            "class_name": "snum base_color_3"
+          },
+          {
+            "type": "rider",
+            "value": 5,
+            "class_name": "snum base_color_5"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "rider",
+            "value": 6,
+            "class_name": "snum base_color_6"
+          },
+          {
+            "type": "rider",
+            "value": 2,
+            "class_name": "snum base_color_2"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          },
+          {
+            "type": "separator",
+            "value": null,
+            "class_name": "snum base_color_0"
+          }
+        ],
+        "snum_count": 14,
+        "validation": {
+          "expected_line_count": 3,
+          "actual_line_count": 3,
+          "line_count_match": true,
+          "rider_numbers": [
+            4,
+            1,
+            7,
+            3,
+            5,
+            6,
+            2
+          ],
+          "unique_rider_numbers": [
+            4,
+            1,
+            7,
+            3,
+            5,
+            6,
+            2
+          ],
+          "duplicate_rider_numbers": []
+        },
+        "target_text": "並び予想\t\t\n\n三分戦\n\n\t\t\t \n\n\t4\t1\t7\t\t3\t5\t\t6\t2\t\t\t\t\t\n\n\n情報提供：北競新聞社",
+        "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"sanbusen\">三分戦</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：北競新聞社</td></tr></tbody></table></td></tr></tbody></table>"
+      }
+    }
+  ]
+}

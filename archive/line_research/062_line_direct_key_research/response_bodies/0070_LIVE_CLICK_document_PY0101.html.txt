@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<link href="./css/help_base.css" rel="stylesheet" media="all">
+	</head>
+	<body style="font-size: 18px;background-color: transparent;background-image: none;">
+		<div>
+			<p>
+				数字部分をクリックすると、平均競走得点グラフが表示されます。<br>
+				直近4ヶ月は赤線、直近4ヶ月（今期のみ）は青線で表示されます。<br>
+				期が変わる1月・7月直後は、今期の競走得点が予想の参考になります。
+			</p>
+    		<div class="text-center"><img src = "./img/PY0101_0.png" alt="" style="border: 1px solid;margin-top: 10px;" width="650" /></div>
+    	</div>
+		<script type="text/javascript">
+			// サイズの指定は親画面の"subdialog.css #PY0101"
+		</script>
+	</body>
+</html>

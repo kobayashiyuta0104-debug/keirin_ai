@@ -1,0 +1,3911 @@
+{
+  "program": "065_test.py",
+  "purpose": "064でJSJ005直接取得に成功した全レースについて、ichi連続位置から復元したグループのうち2車以上を正式ラインとして数え、lineKeitaiの二分戦・三分戦・四分戦等とライン本数が一致するか全件監査する。",
+  "source_file": "C:\\競輪AI\\data_official\\line_research\\064_jsj005_direct_live\\064_jsj005_direct_live.json",
+  "source_total_count": 72,
+  "direct_found_count": 54,
+  "status_summary": {
+    "UNKNOWN_LINE_KEITAI": 6,
+    "MISMATCH": 7,
+    "MATCH": 41
+  },
+  "line_keitai_summary": {
+    "コマ切れ": 6,
+    "四分戦": 7,
+    "三分戦": 27,
+    "二分戦": 8,
+    "ライン無し": 6
+  },
+  "mismatch_count": 7,
+  "unknown_count": 6,
+  "audit_results": [
+    {
+      "race_key": "20260711_前橋_1R",
+      "lineKeitai": "コマ切れ",
+      "groups": [
+        [
+          1,
+          5
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          5
+        ],
+        [
+          7,
+          2
+        ]
+      ],
+      "solo_riders": [
+        3,
+        4,
+        6
+      ],
+      "expected_line_count": null,
+      "actual_line_count": 2,
+      "status": "UNKNOWN_LINE_KEITAI",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 4
+        },
+        {
+          "ichi": 11,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+    },
+    {
+      "race_key": "20260711_前橋_2R",
+      "lineKeitai": "四分戦",
+      "groups": [
+        [
+          4,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "lines": [
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "solo_riders": [
+        2
+      ],
+      "expected_line_count": 4,
+      "actual_line_count": 3,
+      "status": "MISMATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 6
+        },
+        {
+          "ichi": 9,
+          "shaban": 7
+        },
+        {
+          "ichi": 10,
+          "shaban": 5
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg38r3Jb_-5LKXCKboDICeSc"
+    },
+    {
+      "race_key": "20260711_前橋_3R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          5,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          5,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg6rD__MlCtz4mugrMDGThdM"
+    },
+    {
+      "race_key": "20260711_前橋_4R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          7,
+          1
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          7,
+          1
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg2_LAMwld10gRSkS6dVxpAg"
+    },
+    {
+      "race_key": "20260711_前橋_5R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          7,
+          3
+        ],
+        [
+          4,
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "lines": [
+        [
+          7,
+          3
+        ],
+        [
+          4,
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 2,
+          "shaban": 3
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 6,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg3ZfLLqdXUYqiMSDn3oMI1w"
+    },
+    {
+      "race_key": "20260711_前橋_6R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7,
+          1
+        ],
+        [
+          2,
+          8,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7,
+          1
+        ],
+        [
+          2,
+          8,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 3
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 8
+        },
+        {
+          "ichi": 10,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg6XQQXYKVaDBxDZnTl5EQ3Q"
+    },
+    {
+      "race_key": "20260711_前橋_7R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          2,
+          4,
+          7
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          4,
+          7
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 6
+        },
+        {
+          "ichi": 9,
+          "shaban": 8
+        },
+        {
+          "ichi": 10,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg92NklqxJAy3IWaj0kw5Zu8"
+    },
+    {
+      "race_key": "20260711_前橋_8R",
+      "lineKeitai": "四分戦",
+      "groups": [
+        [
+          6,
+          1,
+          4
+        ],
+        [
+          8,
+          2,
+          7
+        ],
+        [
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ],
+      "lines": [
+        [
+          6,
+          1,
+          4
+        ],
+        [
+          8,
+          2,
+          7
+        ],
+        [
+          9,
+          5
+        ]
+      ],
+      "solo_riders": [
+        3
+      ],
+      "expected_line_count": 4,
+      "actual_line_count": 3,
+      "status": "MISMATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 8
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        },
+        {
+          "ichi": 11,
+          "shaban": 9
+        },
+        {
+          "ichi": 12,
+          "shaban": 5
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8zUiJQzNyigiVjpxRemuDg"
+    },
+    {
+      "race_key": "20260711_前橋_9R",
+      "lineKeitai": "コマ切れ",
+      "groups": [
+        [
+          4,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          9,
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          8
+        ]
+      ],
+      "lines": [
+        [
+          4,
+          1
+        ],
+        [
+          9,
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "solo_riders": [
+        2,
+        8
+      ],
+      "expected_line_count": null,
+      "actual_line_count": 3,
+      "status": "UNKNOWN_LINE_KEITAI",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 9
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 5
+        },
+        {
+          "ichi": 11,
+          "shaban": 7
+        },
+        {
+          "ichi": 13,
+          "shaban": 8
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg03PxvqO76WRkPpNWvbyJOQ"
+    },
+    {
+      "race_key": "20260711_前橋_10R",
+      "lineKeitai": "四分戦",
+      "groups": [
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          3,
+          9
+        ],
+        [
+          2,
+          7,
+          4
+        ],
+        [
+          8
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          3,
+          9
+        ],
+        [
+          2,
+          7,
+          4
+        ]
+      ],
+      "solo_riders": [
+        8
+      ],
+      "expected_line_count": 4,
+      "actual_line_count": 3,
+      "status": "MISMATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 6,
+          "shaban": 9
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 7
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        },
+        {
+          "ichi": 12,
+          "shaban": 8
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg3LzHb0GpAmZ6dydUK9rdwM"
+    },
+    {
+      "race_key": "20260711_前橋_11R",
+      "lineKeitai": "四分戦",
+      "groups": [
+        [
+          1,
+          9
+        ],
+        [
+          5,
+          7,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          9
+        ],
+        [
+          5,
+          7,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 4,
+      "actual_line_count": 4,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 9
+        },
+        {
+          "ichi": 4,
+          "shaban": 5
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 4
+        },
+        {
+          "ichi": 11,
+          "shaban": 6
+        },
+        {
+          "ichi": 12,
+          "shaban": 8
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg2CIGuJAZm4i9s_cNuBE4hk"
+    },
+    {
+      "race_key": "20260711_前橋_12R",
+      "lineKeitai": "四分戦",
+      "groups": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          7,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          7,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 4,
+      "actual_line_count": 4,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 9
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        },
+        {
+          "ichi": 11,
+          "shaban": 8
+        },
+        {
+          "ichi": 12,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "アオケイ",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg2AqzKxPf6cLa6BBi34nlho"
+    },
+    {
+      "race_key": "20260711_伊東_1R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          7,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          7,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 3
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0H1GyjxmXow3lQ3lLASyrgfw"
+    },
+    {
+      "race_key": "20260711_伊東_2R",
+      "lineKeitai": "二分戦",
+      "groups": [
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "solo_riders": [
+        2
+      ],
+      "expected_line_count": 2,
+      "actual_line_count": 2,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 6
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0H2_YsM2Zis0xyOvnsxCHjY8"
+    },
+    {
+      "race_key": "20260711_伊東_3R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          7,
+          4,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          7,
+          4,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0HxB7pSxYRGdtDjGZHiqA0PA"
+    },
+    {
+      "race_key": "20260711_伊東_4R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          7,
+          6
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          7,
+          6
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0H3RfHXrGZuB8kxJv_YuQkx0"
+    },
+    {
+      "race_key": "20260711_伊東_5R",
+      "lineKeitai": "コマ切れ",
+      "groups": [
+        [
+          7,
+          1,
+          5
+        ],
+        [
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6
+        ]
+      ],
+      "lines": [
+        [
+          7,
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "solo_riders": [
+        3,
+        6
+      ],
+      "expected_line_count": null,
+      "actual_line_count": 2,
+      "status": "UNKNOWN_LINE_KEITAI",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 5
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 4
+        },
+        {
+          "ichi": 10,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0H1boQgB359f6w5X2bNMWLhA"
+    },
+    {
+      "race_key": "20260711_伊東_6R",
+      "lineKeitai": "ライン無し",
+      "groups": [
+        [
+          7
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          5
+        ]
+      ],
+      "lines": [],
+      "solo_riders": [
+        7,
+        1,
+        2,
+        3,
+        4,
+        6,
+        5
+      ],
+      "expected_line_count": 0,
+      "actual_line_count": 0,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 4
+        },
+        {
+          "ichi": 11,
+          "shaban": 6
+        },
+        {
+          "ichi": 13,
+          "shaban": 5
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0Hz27gh_AY2YhpGB8IOTGrW4"
+    },
+    {
+      "race_key": "20260711_伊東_7R",
+      "lineKeitai": "ライン無し",
+      "groups": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ]
+      ],
+      "lines": [],
+      "solo_riders": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        7
+      ],
+      "expected_line_count": 0,
+      "actual_line_count": 0,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        },
+        {
+          "ichi": 11,
+          "shaban": 5
+        },
+        {
+          "ichi": 13,
+          "shaban": 7
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0H9YvhZ-SZnWapGYTN17XsH8"
+    },
+    {
+      "race_key": "20260711_伊東_8R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 4
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0HxJqlTT-P7cNJFPbbpdLq5c"
+    },
+    {
+      "race_key": "20260711_伊東_9R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0H-NVWiU5QeFKg1hnK0qe2ts"
+    },
+    {
+      "race_key": "20260711_伊東_10R",
+      "lineKeitai": "コマ切れ",
+      "groups": [
+        [
+          5,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "lines": [
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "solo_riders": [
+        1
+      ],
+      "expected_line_count": null,
+      "actual_line_count": 3,
+      "status": "UNKNOWN_LINE_KEITAI",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 2
+        },
+        {
+          "ichi": 4,
+          "shaban": 1
+        },
+        {
+          "ichi": 6,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0HyERVANbqLj71haWKCV0_V8"
+    },
+    {
+      "race_key": "20260711_伊東_11R",
+      "lineKeitai": "二分戦",
+      "groups": [
+        [
+          1,
+          5,
+          4,
+          7
+        ],
+        [
+          3,
+          2,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          5,
+          4,
+          7
+        ],
+        [
+          3,
+          2,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 2,
+      "actual_line_count": 2,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0H-T0tvkLHEu_p9Hbhmg1dVE"
+    },
+    {
+      "race_key": "20260711_伊東_12R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "ひかり",
+      "encp": "W2uRQM1igycPTuhMZ-U0H0nU1cwPqB5Aoqtt7qgus1I"
+    },
+    {
+      "race_key": "20260711_岐阜_1R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          3,
+          7,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          3,
+          7,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 3
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SIaOJBtMIyptS7aaASTt1Oc"
+    },
+    {
+      "race_key": "20260711_岐阜_2R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          2,
+          4
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          2,
+          4
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 4
+        },
+        {
+          "ichi": 8,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SN2UiQ-KNVPAZtv1HVmKykY"
+    },
+    {
+      "race_key": "20260711_岐阜_3R",
+      "lineKeitai": "二分戦",
+      "groups": [
+        [
+          1,
+          5,
+          4,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          5,
+          4,
+          6
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "solo_riders": [
+        2
+      ],
+      "expected_line_count": 2,
+      "actual_line_count": 2,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 6,
+          "shaban": 7
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 2
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SJhHW8VlEaLnMkJZAKOIAHM"
+    },
+    {
+      "race_key": "20260711_岐阜_4R",
+      "lineKeitai": "二分戦",
+      "groups": [
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          7,
+          2,
+          4
+        ],
+        [
+          6
+        ]
+      ],
+      "lines": [
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          7,
+          2,
+          4
+        ]
+      ],
+      "solo_riders": [
+        6
+      ],
+      "expected_line_count": 2,
+      "actual_line_count": 2,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 3
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SN92r71zEZBOQNt_SRR5RZE"
+    },
+    {
+      "race_key": "20260711_岐阜_5R",
+      "lineKeitai": "コマ切れ",
+      "groups": [
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "lines": [
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "solo_riders": [
+        7
+      ],
+      "expected_line_count": null,
+      "actual_line_count": 3,
+      "status": "UNKNOWN_LINE_KEITAI",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 7
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SKOyoEmom8ATZBC26ipqwFs"
+    },
+    {
+      "race_key": "20260711_岐阜_6R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          4,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          4,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SHvcSHLFeyAhe-1DLkOJnkY"
+    },
+    {
+      "race_key": "20260711_岐阜_7R",
+      "lineKeitai": "二分戦",
+      "groups": [
+        [
+          7,
+          1,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "lines": [
+        [
+          7,
+          1,
+          4
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "solo_riders": [
+        6,
+        3
+      ],
+      "expected_line_count": 2,
+      "actual_line_count": 2,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SGPXP6oDvp01n2VOzzjO11o"
+    },
+    {
+      "race_key": "20260711_岐阜_8R",
+      "lineKeitai": "二分戦",
+      "groups": [
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          7
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "solo_riders": [
+        3,
+        7
+      ],
+      "expected_line_count": 2,
+      "actual_line_count": 2,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 3,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 1
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 7
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SJ56AT2-8Yj7Q-0fwWaYNME"
+    },
+    {
+      "race_key": "20260711_岐阜_9R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          4,
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          4,
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SCXd_7Wt1mjeE7whLyMSKqI"
+    },
+    {
+      "race_key": "20260711_岐阜_10R",
+      "lineKeitai": "二分戦",
+      "groups": [
+        [
+          4,
+          1,
+          7
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ]
+      ],
+      "lines": [
+        [
+          4,
+          1,
+          7
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "solo_riders": [
+        3,
+        6
+      ],
+      "expected_line_count": 2,
+      "actual_line_count": 2,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SL1YlYAsoPRulWkmfIW7vEs"
+    },
+    {
+      "race_key": "20260711_岐阜_11R",
+      "lineKeitai": "コマ切れ",
+      "groups": [
+        [
+          2,
+          7,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          7,
+          5
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "solo_riders": [
+        1,
+        4
+      ],
+      "expected_line_count": null,
+      "actual_line_count": 2,
+      "status": "UNKNOWN_LINE_KEITAI",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 2
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 3,
+          "shaban": 5
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SGMho2QCd0-1fPbRVPMSZCE"
+    },
+    {
+      "race_key": "20260711_岐阜_12R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          6,
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "lines": [
+        [
+          6,
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 5
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 4
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 7
+        }
+      ],
+      "teikyo": "中部競輪記者クラブ",
+      "encp": "fh4VmOIOM0WWTQX4GRt_SAgKUs5At202cZFq3fFwSZ8"
+    },
+    {
+      "race_key": "20260711_小田原_1R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          1,
+          5,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          6
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          5,
+          4
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "solo_riders": [
+        6
+      ],
+      "expected_line_count": 3,
+      "actual_line_count": 2,
+      "status": "MISMATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 5
+        },
+        {
+          "ichi": 3,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "小田競",
+      "encp": "oGn5WPyFKUs7MmpVS67mXVGGri2r6oT4kbcS_KSklx4"
+    },
+    {
+      "race_key": "20260711_小田原_2R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          6,
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          1,
+          7
+        ]
+      ],
+      "lines": [
+        [
+          6,
+          2,
+          3
+        ],
+        [
+          5,
+          1,
+          7
+        ]
+      ],
+      "solo_riders": [
+        4
+      ],
+      "expected_line_count": 3,
+      "actual_line_count": 2,
+      "status": "MISMATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 2
+        },
+        {
+          "ichi": 3,
+          "shaban": 3
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 7,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 1
+        },
+        {
+          "ichi": 9,
+          "shaban": 7
+        }
+      ],
+      "teikyo": "小田競",
+      "encp": "oGn5WPyFKUs7MmpVS67mXbdxttWxNeakp9KG6T-9GHY"
+    },
+    {
+      "race_key": "20260711_小田原_3R",
+      "lineKeitai": "四分戦",
+      "groups": [
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6
+        ]
+      ],
+      "lines": [
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "solo_riders": [
+        6
+      ],
+      "expected_line_count": 4,
+      "actual_line_count": 3,
+      "status": "MISMATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 2
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 7
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "小田競",
+      "encp": "oGn5WPyFKUs7MmpVS67mXYp7yZbVxxnt5Z0og_rLWwg"
+    },
+    {
+      "race_key": "20260711_小田原_4R",
+      "lineKeitai": "四分戦",
+      "groups": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "solo_riders": [
+        4
+      ],
+      "expected_line_count": 4,
+      "actual_line_count": 3,
+      "status": "MISMATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        }
+      ],
+      "teikyo": "小田競",
+      "encp": "oGn5WPyFKUs7MmpVS67mXdzaSr85pLY1QDOzWeUKZLI"
+    },
+    {
+      "race_key": "20260711_小田原_5R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "小田競",
+      "encp": "oGn5WPyFKUs7MmpVS67mXesgKoaeJsZHeKbxfkl7v6A"
+    },
+    {
+      "race_key": "20260711_小田原_6R",
+      "lineKeitai": "ライン無し",
+      "groups": [
+        [
+          6
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "lines": [],
+      "solo_riders": [
+        6,
+        1,
+        4,
+        3,
+        2,
+        5
+      ],
+      "expected_line_count": 0,
+      "actual_line_count": 0,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 2
+        },
+        {
+          "ichi": 11,
+          "shaban": 5
+        }
+      ],
+      "teikyo": "小田競",
+      "encp": "oGn5WPyFKUs7MmpVS67mXTSW-yhKE70VIOB9BohSkJM"
+    },
+    {
+      "race_key": "20260711_小田原_7R",
+      "lineKeitai": "ライン無し",
+      "groups": [
+        [
+          6
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ]
+      ],
+      "lines": [],
+      "solo_riders": [
+        6,
+        1,
+        4,
+        2,
+        3,
+        5,
+        7
+      ],
+      "expected_line_count": 0,
+      "actual_line_count": 0,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 4
+        },
+        {
+          "ichi": 7,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        },
+        {
+          "ichi": 11,
+          "shaban": 5
+        },
+        {
+          "ichi": 13,
+          "shaban": 7
+        }
+      ],
+      "teikyo": "小田競",
+      "encp": "oGn5WPyFKUs7MmpVS67mXe_eFMC3dtSYYsfMCp7301I"
+    },
+    {
+      "race_key": "20260711_松山_1R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          7,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "lines": [
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          7,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 3
+        },
+        {
+          "ichi": 4,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 6,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 2
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdRhzL4zk28NLMXr3cHmJ758"
+    },
+    {
+      "race_key": "20260711_松山_2R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          3,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          3,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 4
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 7,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdf90Ndwun96Vrz3WBRTD5gU"
+    },
+    {
+      "race_key": "20260711_松山_3R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "lines": [
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "solo_riders": [
+        4
+      ],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 5
+        },
+        {
+          "ichi": 2,
+          "shaban": 3
+        },
+        {
+          "ichi": 4,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 1
+        },
+        {
+          "ichi": 7,
+          "shaban": 2
+        },
+        {
+          "ichi": 8,
+          "shaban": 6
+        },
+        {
+          "ichi": 10,
+          "shaban": 4
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdXqZRqweAPS3EAklW3lk6Z4"
+    },
+    {
+      "race_key": "20260711_松山_4R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          4,
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          4,
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 7
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdeh5466Z4FEZ-MJgxyYhS7U"
+    },
+    {
+      "race_key": "20260711_松山_5R",
+      "lineKeitai": "ライン無し",
+      "groups": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "lines": [],
+      "solo_riders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "expected_line_count": 0,
+      "actual_line_count": 0,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 3,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 3
+        },
+        {
+          "ichi": 7,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        },
+        {
+          "ichi": 11,
+          "shaban": 6
+        },
+        {
+          "ichi": 13,
+          "shaban": 7
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdfrsQYnAnrSasYZ-JqAmWZM"
+    },
+    {
+      "race_key": "20260711_松山_6R",
+      "lineKeitai": "ライン無し",
+      "groups": [
+        [
+          7
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "lines": [],
+      "solo_riders": [
+        7,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "expected_line_count": 0,
+      "actual_line_count": 0,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 7
+        },
+        {
+          "ichi": 3,
+          "shaban": 1
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 4
+        },
+        {
+          "ichi": 11,
+          "shaban": 5
+        },
+        {
+          "ichi": 13,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdacWPH3_LZJ9QlmDpjB6AmM"
+    },
+    {
+      "race_key": "20260711_松山_7R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          6,
+          1
+        ],
+        [
+          4,
+          2,
+          7
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          6,
+          1
+        ],
+        [
+          4,
+          2,
+          7
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 6
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 6,
+          "shaban": 7
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdQREs2i24jtKjdLig7DB4j8"
+    },
+    {
+      "race_key": "20260711_松山_8R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3,
+          6
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3,
+          6
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 4,
+          "shaban": 4
+        },
+        {
+          "ichi": 5,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 5
+        },
+        {
+          "ichi": 8,
+          "shaban": 3
+        },
+        {
+          "ichi": 9,
+          "shaban": 6
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdSadQbrsXmy5WArrz-Ja4q4"
+    },
+    {
+      "race_key": "20260711_松山_9R",
+      "lineKeitai": "二分戦",
+      "groups": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          5,
+          2,
+          7
+        ],
+        [
+          3
+        ]
+      ],
+      "lines": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          5,
+          2,
+          7
+        ]
+      ],
+      "solo_riders": [
+        3
+      ],
+      "expected_line_count": 2,
+      "actual_line_count": 2,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 6
+        },
+        {
+          "ichi": 5,
+          "shaban": 5
+        },
+        {
+          "ichi": 6,
+          "shaban": 2
+        },
+        {
+          "ichi": 7,
+          "shaban": 7
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdYKW0v0VOKXfhykPtBgbaXk"
+    },
+    {
+      "race_key": "20260711_松山_10R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          5,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          5,
+          3
+        ]
+      ],
+      "solo_riders": [],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 4
+        },
+        {
+          "ichi": 2,
+          "shaban": 1
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 7
+        },
+        {
+          "ichi": 7,
+          "shaban": 6
+        },
+        {
+          "ichi": 8,
+          "shaban": 5
+        },
+        {
+          "ichi": 9,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdU8VEgAWCP3jTgwR1rwUNmk"
+    },
+    {
+      "race_key": "20260711_松山_11R",
+      "lineKeitai": "三分戦",
+      "groups": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "solo_riders": [
+        4
+      ],
+      "expected_line_count": 3,
+      "actual_line_count": 3,
+      "status": "MATCH",
+      "ichi": [
+        {
+          "ichi": 1,
+          "shaban": 1
+        },
+        {
+          "ichi": 2,
+          "shaban": 7
+        },
+        {
+          "ichi": 4,
+          "shaban": 2
+        },
+        {
+          "ichi": 5,
+          "shaban": 6
+        },
+        {
+          "ichi": 7,
+          "shaban": 4
+        },
+        {
+          "ichi": 9,
+          "shaban": 5
+        },
+        {
+          "ichi": 10,
+          "shaban": 3
+        }
+      ],
+      "teikyo": "金星",
+      "encp": "4QhapE1YS9GkaZAPKYUWdaxUGN4qLeoaniMiuid6Pi0"
+    }
+  ]
+}

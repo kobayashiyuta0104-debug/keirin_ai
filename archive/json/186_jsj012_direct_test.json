@@ -1,0 +1,2764 @@
+{
+  "test_name": "JSJ006 encp reused with type=JSJ012",
+  "input_capture_count": 76,
+  "tested_count": 10,
+  "http_200_count": 10,
+  "json_count": 10,
+  "result_structure_count": 10,
+  "results": [
+    {
+      "race_key": "20260707_久留米_2R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnINLIGePnPFM_8iKDwlQNLBc&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnINLIGePnPFM_8iKDwlQNLBc",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnINLIGePnPFM_8iKDwlQNLBc&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3661,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"1.0\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"1\",\"syabanCharColor\":\"base_color_1\",\"syabanBgColor\":\"base_color_1_bk\",\"sensyuName\":\"鶴　健志\",\"sensyuRegistNo\":\"016011\",\"age\":\"27\",\"huken\":\"福　岡\",\"sotugyouki\":\"129\",\"kyuhan\":\"A3\",\"tyakusa\":\"\",\"agari\":\"12.6\"",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "1.0",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "鶴　健志",
+            "sensyuRegistNo": "016011",
+            "age": "27",
+            "huken": "福　岡",
+            "sotugyouki": "129",
+            "kyuhan": "A3",
+            "tyakusa": "",
+            "agari": "12.6",
+            "kimarite": "逃げ",
+            "BH": "HB",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "2",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "堀内　昇",
+            "sensyuRegistNo": "014443",
+            "age": "38",
+            "huken": "茨　城",
+            "sotugyouki": "95",
+            "kyuhan": "A3",
+            "tyakusa": "3/4車身",
+            "agari": "12.6",
+            "kimarite": "マーク",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              },
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "3",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "取鳥　敬一",
+            "sensyuRegistNo": "012537",
+            "age": "54",
+            "huken": "岡　山",
+            "sotugyouki": "69",
+            "kyuhan": "A3",
+            "tyakusa": "1  車身",
+            "agari": "12.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "石川　一浩",
+            "sensyuRegistNo": "011367",
+            "age": "59",
+            "huken": "静　岡",
+            "sotugyouki": "57",
+            "kyuhan": "A3",
+            "tyakusa": "1車身1/2",
+            "agari": "12.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "5",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "原　清孝",
+            "sensyuRegistNo": "014652",
+            "age": "49",
+            "huken": "沖　縄",
+            "sotugyouki": "98",
+            "kyuhan": "A3",
+            "tyakusa": "4  車身",
+            "agari": "12.8",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "川添　輝彦",
+            "sensyuRegistNo": "011328",
+            "age": "61",
+            "huken": "沖　縄",
+            "sotugyouki": "56",
+            "kyuhan": "A3",
+            "tyakusa": "",
+            "agari": "",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "落車棄権",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "茂木　和臣",
+            "sensyuRegistNo": "011990",
+            "age": "57",
+            "huken": "埼　玉",
+            "sotugyouki": "63",
+            "kyuhan": "A3",
+            "tyakusa": "",
+            "agari": "",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "3",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "失格",
+                "kojinStateClass": "color_red",
+                "tyakuNote": "押圧"
+              }
+            ]
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=4",
+              "haraiGaku": "510",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1-4",
+              "haraiGaku": "620",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=4=6",
+              "haraiGaku": "12,030",
+              "ninki": "(22)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1-4-6",
+              "haraiGaku": "28,160",
+              "ninki": "(55)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=4",
+              "haraiGaku": "340",
+              "ninki": "(4)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "1=6",
+              "haraiGaku": "510",
+              "ninki": "(8)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "4=6",
+              "haraiGaku": "8,250",
+              "ninki": "(20)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    },
+    {
+      "race_key": "20260707_久留米_3R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIO5DuPcF0t6JguPFJOGBtdk&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnIO5DuPcF0t6JguPFJOGBtdk",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIO5DuPcF0t6JguPFJOGBtdk&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3603,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"1.0\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"3\",\"syabanCharColor\":\"base_color_3\",\"syabanBgColor\":\"base_color_3_bk\",\"sensyuName\":\"國井　裕樹\",\"sensyuRegistNo\":\"015260\",\"age\":\"42\",\"huken\":\"神奈川\",\"sotugyouki\":\"113\",\"kyuhan\":\"A3\",\"tyakusa\":\"\",\"agari\":\"12.2",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "1.0",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "國井　裕樹",
+            "sensyuRegistNo": "015260",
+            "age": "42",
+            "huken": "神奈川",
+            "sotugyouki": "113",
+            "kyuhan": "A3",
+            "tyakusa": "",
+            "agari": "12.2",
+            "kimarite": "差し",
+            "BH": "H",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "2",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "高橋　聖太",
+            "sensyuRegistNo": "016006",
+            "age": "25",
+            "huken": "愛　媛",
+            "sotugyouki": "129",
+            "kyuhan": "A3",
+            "tyakusa": "1  車輪",
+            "agari": "12.2",
+            "kimarite": "捲り",
+            "BH": "B",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "3",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "川上　修平",
+            "sensyuRegistNo": "014776",
+            "age": "48",
+            "huken": "高　知",
+            "sotugyouki": "99",
+            "kyuhan": "A3",
+            "tyakusa": "1車身1/2",
+            "agari": "12.1",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "齋藤　輝彦",
+            "sensyuRegistNo": "014301",
+            "age": "43",
+            "huken": "神奈川",
+            "sotugyouki": "93",
+            "kyuhan": "A3",
+            "tyakusa": "3/4車輪",
+            "agari": "12.2",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "5",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "水木　裕聡",
+            "sensyuRegistNo": "014555",
+            "age": "43",
+            "huken": "高　知",
+            "sotugyouki": "96",
+            "kyuhan": "A3",
+            "tyakusa": "1/2車身",
+            "agari": "12.0",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "6",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "三木　翔太",
+            "sensyuRegistNo": "014447",
+            "age": "37",
+            "huken": "群　馬",
+            "sotugyouki": "95",
+            "kyuhan": "A3",
+            "tyakusa": "2  車身",
+            "agari": "12.1",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "7",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "千澤　大輔",
+            "sensyuRegistNo": "014429",
+            "age": "38",
+            "huken": "青　森",
+            "sotugyouki": "95",
+            "kyuhan": "A3",
+            "tyakusa": "大差",
+            "agari": "15.5",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "3=4",
+              "haraiGaku": "590",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "3-4",
+              "haraiGaku": "1,400",
+              "ninki": "(6)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=3=4",
+              "haraiGaku": "670",
+              "ninki": "(4)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "3-4-1",
+              "haraiGaku": "3,780",
+              "ninki": "(13)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "3=4",
+              "haraiGaku": "180",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "1=3",
+              "haraiGaku": "230",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "1=4",
+              "haraiGaku": "270",
+              "ninki": "(4)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    },
+    {
+      "race_key": "20260707_久留米_4R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnINHW3E3uuqAQ8h1by7Py9i0&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnINHW3E3uuqAQ8h1by7Py9i0",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnINHW3E3uuqAQ8h1by7Py9i0&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3546,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"1.0\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"1\",\"syabanCharColor\":\"base_color_1\",\"syabanBgColor\":\"base_color_1_bk\",\"sensyuName\":\"松永　真太\",\"sensyuRegistNo\":\"014265\",\"age\":\"44\",\"huken\":\"福　岡\",\"sotugyouki\":\"92\",\"kyuhan\":\"A3\",\"tyakusa\":\"\",\"agari\":\"11.6\"",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "1.0",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "松永　真太",
+            "sensyuRegistNo": "014265",
+            "age": "44",
+            "huken": "福　岡",
+            "sotugyouki": "92",
+            "kyuhan": "A3",
+            "tyakusa": "",
+            "agari": "11.6",
+            "kimarite": "差し",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "2",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "横溝　貫太",
+            "sensyuRegistNo": "016015",
+            "age": "23",
+            "huken": "福　岡",
+            "sotugyouki": "129",
+            "kyuhan": "A3",
+            "tyakusa": "1/2車輪",
+            "agari": "11.8",
+            "kimarite": "逃げ",
+            "BH": "HB",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "3",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "仙石　淳",
+            "sensyuRegistNo": "012832",
+            "age": "53",
+            "huken": "沖　縄",
+            "sotugyouki": "73",
+            "kyuhan": "A3",
+            "tyakusa": "6  車身",
+            "agari": "12.0",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "丸山　勝也",
+            "sensyuRegistNo": "013713",
+            "age": "47",
+            "huken": "静　岡",
+            "sotugyouki": "85",
+            "kyuhan": "A3",
+            "tyakusa": "3  車身",
+            "agari": "11.7",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "5",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "齋藤　昌太",
+            "sensyuRegistNo": "014287",
+            "age": "39",
+            "huken": "栃　木",
+            "sotugyouki": "93",
+            "kyuhan": "A3",
+            "tyakusa": "1/2車身",
+            "agari": "11.9",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "6",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "渡邉　正人",
+            "sensyuRegistNo": "014802",
+            "age": "35",
+            "huken": "福　島",
+            "sotugyouki": "100",
+            "kyuhan": "A3",
+            "tyakusa": "1  車輪",
+            "agari": "12.1",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "7",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "武智　尚之",
+            "sensyuRegistNo": "012618",
+            "age": "55",
+            "huken": "愛　媛",
+            "sotugyouki": "70",
+            "kyuhan": "A3",
+            "tyakusa": "3  車身",
+            "agari": "12.0",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=5",
+              "haraiGaku": "110",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1-5",
+              "haraiGaku": "370",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=5=7",
+              "haraiGaku": "120",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1-5-7",
+              "haraiGaku": "450",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=5",
+              "haraiGaku": "100",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "1=7",
+              "haraiGaku": "110",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "5=7",
+              "haraiGaku": "140",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    },
+    {
+      "race_key": "20260707_久留米_5R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnILr5oOpOpJvhCwewNpmKlBA&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnILr5oOpOpJvhCwewNpmKlBA",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnILr5oOpOpJvhCwewNpmKlBA&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3446,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"1.0\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"7\",\"syabanCharColor\":\"base_color_7\",\"syabanBgColor\":\"base_color_7_bk\",\"sensyuName\":\"中島　瞳\",\"sensyuRegistNo\":\"015853\",\"age\":\"21\",\"huken\":\"埼　玉\",\"sotugyouki\":\"126\",\"kyuhan\":\"L1\",\"tyakusa\":\"\",\"agari\":\"12.5\"",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "1.0",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "中島　瞳",
+            "sensyuRegistNo": "015853",
+            "age": "21",
+            "huken": "埼　玉",
+            "sotugyouki": "126",
+            "kyuhan": "L1",
+            "tyakusa": "",
+            "agari": "12.5",
+            "kimarite": "捲り",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "2",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "宇野　紅音",
+            "sensyuRegistNo": "015764",
+            "age": "22",
+            "huken": "岐　阜",
+            "sotugyouki": "124",
+            "kyuhan": "L1",
+            "tyakusa": "1車身1/2",
+            "agari": "12.5",
+            "kimarite": "マーク",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "3",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "吉村　早耶香",
+            "sensyuRegistNo": "015221",
+            "age": "28",
+            "huken": "静　岡",
+            "sotugyouki": "112",
+            "kyuhan": "L1",
+            "tyakusa": "3/4車身",
+            "agari": "12.5",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "金田　舞夏",
+            "sensyuRegistNo": "015774",
+            "age": "23",
+            "huken": "福　岡",
+            "sotugyouki": "124",
+            "kyuhan": "L1",
+            "tyakusa": "1  車輪",
+            "agari": "12.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "5",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "向井　円",
+            "sensyuRegistNo": "015314",
+            "age": "32",
+            "huken": "大　阪",
+            "sotugyouki": "114",
+            "kyuhan": "L1",
+            "tyakusa": "3/4車身",
+            "agari": "12.7",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "6",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "齊藤　由莉",
+            "sensyuRegistNo": "015942",
+            "age": "28",
+            "huken": "神奈川",
+            "sotugyouki": "128",
+            "kyuhan": "L1",
+            "tyakusa": "1  車輪",
+            "agari": "13.0",
+            "kimarite": "",
+            "BH": "HB",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "7",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "林　香穂",
+            "sensyuRegistNo": "016039",
+            "age": "21",
+            "huken": "岐　阜",
+            "sotugyouki": "130",
+            "kyuhan": "L1",
+            "tyakusa": "1/4車輪",
+            "agari": "12.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "3=7",
+              "haraiGaku": "480",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "7-3",
+              "haraiGaku": "690",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2=3=7",
+              "haraiGaku": "170",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "7-3-2",
+              "haraiGaku": "870",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "3=7",
+              "haraiGaku": "140",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "2=7",
+              "haraiGaku": "100",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "2=3",
+              "haraiGaku": "120",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    },
+    {
+      "race_key": "20260707_久留米_6R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIA4htDuGhL_P4H9gI9OoZvs&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnIA4htDuGhL_P4H9gI9OoZvs",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIA4htDuGhL_P4H9gI9OoZvs&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3517,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"1.0\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"7\",\"syabanCharColor\":\"base_color_7\",\"syabanBgColor\":\"base_color_7_bk\",\"sensyuName\":\"山原　さくら\",\"sensyuRegistNo\":\"014974\",\"age\":\"33\",\"huken\":\"山　口\",\"sotugyouki\":\"104\",\"kyuhan\":\"L1\",\"tyakusa\":\"\",\"agari\":\"12.",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "1.0",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "山原　さくら",
+            "sensyuRegistNo": "014974",
+            "age": "33",
+            "huken": "山　口",
+            "sotugyouki": "104",
+            "kyuhan": "L1",
+            "tyakusa": "",
+            "agari": "12.2",
+            "kimarite": "逃げ",
+            "BH": "HB",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "2",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "菅原　ななこ",
+            "sensyuRegistNo": "015576",
+            "age": "25",
+            "huken": "宮　城",
+            "sotugyouki": "120",
+            "kyuhan": "L1",
+            "tyakusa": "1  車身",
+            "agari": "12.3",
+            "kimarite": "マーク",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "3",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "緒方　詩央里",
+            "sensyuRegistNo": "016043",
+            "age": "27",
+            "huken": "福　岡",
+            "sotugyouki": "130",
+            "kyuhan": "L1",
+            "tyakusa": "3/4車身",
+            "agari": "12.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "平子　結菜",
+            "sensyuRegistNo": "015858",
+            "age": "22",
+            "huken": "三　重",
+            "sotugyouki": "126",
+            "kyuhan": "L1",
+            "tyakusa": "1/2車身",
+            "agari": "12.2",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "5",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "高橋　梨香",
+            "sensyuRegistNo": "015018",
+            "age": "46",
+            "huken": "埼　玉",
+            "sotugyouki": "106",
+            "kyuhan": "L1",
+            "tyakusa": "1車身1/2",
+            "agari": "12.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "6",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "濱田　芽生",
+            "sensyuRegistNo": "015860",
+            "age": "23",
+            "huken": "福　井",
+            "sotugyouki": "126",
+            "kyuhan": "L1",
+            "tyakusa": "1  車輪",
+            "agari": "12.3",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "7",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "岡村　育子",
+            "sensyuRegistNo": "014897",
+            "age": "49",
+            "huken": "埼　玉",
+            "sotugyouki": "102",
+            "kyuhan": "L1",
+            "tyakusa": "3  車身",
+            "agari": "12.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "6=7",
+              "haraiGaku": "2,480",
+              "ninki": "(4)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "7-6",
+              "haraiGaku": "4,400",
+              "ninki": "(6)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "4=6=7",
+              "haraiGaku": "4,050",
+              "ninki": "(7)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "7-6-4",
+              "haraiGaku": "11,720",
+              "ninki": "(18)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "6=7",
+              "haraiGaku": "640",
+              "ninki": "(7)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "4=7",
+              "haraiGaku": "160",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "4=6",
+              "haraiGaku": "2,890",
+              "ninki": "(11)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    },
+    {
+      "race_key": "20260707_久留米_7R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIPWZH1Z7IuB01p7djKzbTJ8&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnIPWZH1Z7IuB01p7djKzbTJ8",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIPWZH1Z7IuB01p7djKzbTJ8&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3555,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"1.0\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"7\",\"syabanCharColor\":\"base_color_7\",\"syabanBgColor\":\"base_color_7_bk\",\"sensyuName\":\"古川　貴之\",\"sensyuRegistNo\":\"014340\",\"age\":\"42\",\"huken\":\"佐　賀\",\"sotugyouki\":\"93\",\"kyuhan\":\"A1\",\"tyakusa\":\"\",\"agari\":\"11.8\"",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "1.0",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "古川　貴之",
+            "sensyuRegistNo": "014340",
+            "age": "42",
+            "huken": "佐　賀",
+            "sotugyouki": "93",
+            "kyuhan": "A1",
+            "tyakusa": "",
+            "agari": "11.8",
+            "kimarite": "逃げ",
+            "BH": "HB",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "2",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "池田　浩士",
+            "sensyuRegistNo": "013811",
+            "age": "47",
+            "huken": "佐　賀",
+            "sotugyouki": "86",
+            "kyuhan": "A2",
+            "tyakusa": "1/2車身",
+            "agari": "11.8",
+            "kimarite": "マーク",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "3",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "山口　幸太郎",
+            "sensyuRegistNo": "014782",
+            "age": "47",
+            "huken": "長　崎",
+            "sotugyouki": "99",
+            "kyuhan": "A2",
+            "tyakusa": "1/2車身",
+            "agari": "11.6",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "大畑　裕貴",
+            "sensyuRegistNo": "014226",
+            "age": "41",
+            "huken": "埼　玉",
+            "sotugyouki": "92",
+            "kyuhan": "A2",
+            "tyakusa": "1/2車身",
+            "agari": "11.6",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "5",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "櫻井　丈",
+            "sensyuRegistNo": "014024",
+            "age": "43",
+            "huken": "静　岡",
+            "sotugyouki": "89",
+            "kyuhan": "A1",
+            "tyakusa": "3/4車身",
+            "agari": "11.7",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "6",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "眞鍋　伸也",
+            "sensyuRegistNo": "013738",
+            "age": "45",
+            "huken": "香　川",
+            "sotugyouki": "85",
+            "kyuhan": "A2",
+            "tyakusa": "1車身1/2",
+            "agari": "11.6",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "7",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "田村　浩章",
+            "sensyuRegistNo": "013506",
+            "age": "49",
+            "huken": "徳　島",
+            "sotugyouki": "82",
+            "kyuhan": "A2",
+            "tyakusa": "7  車身",
+            "agari": "12.5",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "4=7",
+              "haraiGaku": "490",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "7-4",
+              "haraiGaku": "740",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2=4=7",
+              "haraiGaku": "1,180",
+              "ninki": "(6)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "7-4-2",
+              "haraiGaku": "2,660",
+              "ninki": "(6)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "4=7",
+              "haraiGaku": "260",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "2=7",
+              "haraiGaku": "1,190",
+              "ninki": "(16)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "2=4",
+              "haraiGaku": "940",
+              "ninki": "(10)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    },
+    {
+      "race_key": "20260707_久留米_8R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIFTL6HlevPRF0GNNmB9Kdj8&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnIFTL6HlevPRF0GNNmB9Kdj8",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIFTL6HlevPRF0GNNmB9Kdj8&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3553,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"1.0\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"6\",\"syabanCharColor\":\"base_color_6\",\"syabanBgColor\":\"base_color_6_bk\",\"sensyuName\":\"山口　留稀哉\",\"sensyuRegistNo\":\"015931\",\"age\":\"23\",\"huken\":\"長　崎\",\"sotugyouki\":\"127\",\"kyuhan\":\"A2\",\"tyakusa\":\"\",\"agari\":\"11.",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "1.0",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "山口　留稀哉",
+            "sensyuRegistNo": "015931",
+            "age": "23",
+            "huken": "長　崎",
+            "sotugyouki": "127",
+            "kyuhan": "A2",
+            "tyakusa": "",
+            "agari": "11.8",
+            "kimarite": "逃げ",
+            "BH": "HB",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "2",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "小原　将通",
+            "sensyuRegistNo": "014270",
+            "age": "38",
+            "huken": "大　分",
+            "sotugyouki": "92",
+            "kyuhan": "A1",
+            "tyakusa": "3/4車輪",
+            "agari": "11.8",
+            "kimarite": "マーク",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              },
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "3",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "堀　航輝",
+            "sensyuRegistNo": "015599",
+            "age": "31",
+            "huken": "青　森",
+            "sotugyouki": "121",
+            "kyuhan": "A1",
+            "tyakusa": "1車身1/2",
+            "agari": "11.9",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "近藤　範昌",
+            "sensyuRegistNo": "013491",
+            "age": "48",
+            "huken": "岡　山",
+            "sotugyouki": "82",
+            "kyuhan": "A1",
+            "tyakusa": "1/4車輪",
+            "agari": "11.5",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "5",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "眞砂　英作",
+            "sensyuRegistNo": "015642",
+            "age": "31",
+            "huken": "香　川",
+            "sotugyouki": "121",
+            "kyuhan": "A2",
+            "tyakusa": "3/4車身",
+            "agari": "11.7",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "6",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "須藤　誠",
+            "sensyuRegistNo": "014240",
+            "age": "41",
+            "huken": "千　葉",
+            "sotugyouki": "92",
+            "kyuhan": "A2",
+            "tyakusa": "1/2車輪",
+            "agari": "11.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "7",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "三木　健治",
+            "sensyuRegistNo": "012838",
+            "age": "51",
+            "huken": "沖　縄",
+            "sotugyouki": "73",
+            "kyuhan": "A2",
+            "tyakusa": "1/2車身",
+            "agari": "11.9",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2=6",
+              "haraiGaku": "160",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "6-2",
+              "haraiGaku": "230",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2=3=6",
+              "haraiGaku": "580",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "6-2-3",
+              "haraiGaku": "1,360",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2=6",
+              "haraiGaku": "130",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "3=6",
+              "haraiGaku": "330",
+              "ninki": "(5)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "2=3",
+              "haraiGaku": "510",
+              "ninki": "(11)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    },
+    {
+      "race_key": "20260707_久留米_9R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIOw8PTbY6-6INZQ2HT4Ir60&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnIOw8PTbY6-6INZQ2HT4Ir60",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIOw8PTbY6-6INZQ2HT4Ir60&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3440,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"0.5\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"5\",\"syabanCharColor\":\"base_color_5\",\"syabanBgColor\":\"base_color_5_bk\",\"sensyuName\":\"前田　義和\",\"sensyuRegistNo\":\"014422\",\"age\":\"42\",\"huken\":\"鹿児島\",\"sotugyouki\":\"94\",\"kyuhan\":\"A1\",\"tyakusa\":\"\",\"agari\":\"11.6\"",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "0.5",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "前田　義和",
+            "sensyuRegistNo": "014422",
+            "age": "42",
+            "huken": "鹿児島",
+            "sotugyouki": "94",
+            "kyuhan": "A1",
+            "tyakusa": "",
+            "agari": "11.6",
+            "kimarite": "逃げ",
+            "BH": "HB",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "2",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "西田　大志",
+            "sensyuRegistNo": "014688",
+            "age": "35",
+            "huken": "福　岡",
+            "sotugyouki": "98",
+            "kyuhan": "A1",
+            "tyakusa": "1/4車輪",
+            "agari": "11.4",
+            "kimarite": "マーク",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "3",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "徳吉　広紀",
+            "sensyuRegistNo": "013660",
+            "age": "49",
+            "huken": "福　岡",
+            "sotugyouki": "84",
+            "kyuhan": "A2",
+            "tyakusa": "3/4車身",
+            "agari": "11.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "山根　泰道",
+            "sensyuRegistNo": "012128",
+            "age": "56",
+            "huken": "岡　山",
+            "sotugyouki": "64",
+            "kyuhan": "A2",
+            "tyakusa": "1  車身",
+            "agari": "11.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "5",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "矢内　良和",
+            "sensyuRegistNo": "012953",
+            "age": "50",
+            "huken": "群　馬",
+            "sotugyouki": "75",
+            "kyuhan": "A2",
+            "tyakusa": "1車身1/2",
+            "agari": "11.3",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "6",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "平田　徹",
+            "sensyuRegistNo": "013192",
+            "age": "50",
+            "huken": "静　岡",
+            "sotugyouki": "78",
+            "kyuhan": "A2",
+            "tyakusa": "1  車身",
+            "agari": "11.6",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "7",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "菅田　和宏",
+            "sensyuRegistNo": "013908",
+            "age": "44",
+            "huken": "宮　城",
+            "sotugyouki": "88",
+            "kyuhan": "A2",
+            "tyakusa": "3  車身",
+            "agari": "11.9",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "4=5",
+              "haraiGaku": "130",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "5-4",
+              "haraiGaku": "250",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=4=5",
+              "haraiGaku": "130",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "5-4-1",
+              "haraiGaku": "370",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "4=5",
+              "haraiGaku": "100",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "1=5",
+              "haraiGaku": "130",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "1=4",
+              "haraiGaku": "120",
+              "ninki": "(2)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    },
+    {
+      "race_key": "20260707_久留米_10R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIOdE0UOMBuYciUEK2LbBXRo&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnIOdE0UOMBuYciUEK2LbBXRo",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIOdE0UOMBuYciUEK2LbBXRo&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3442,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"0.5\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"7\",\"syabanCharColor\":\"base_color_7\",\"syabanBgColor\":\"base_color_7_bk\",\"sensyuName\":\"神開　一輝\",\"sensyuRegistNo\":\"015559\",\"age\":\"32\",\"huken\":\"福　岡\",\"sotugyouki\":\"119\",\"kyuhan\":\"A1\",\"tyakusa\":\"\",\"agari\":\"11.6",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "0.5",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "神開　一輝",
+            "sensyuRegistNo": "015559",
+            "age": "32",
+            "huken": "福　岡",
+            "sotugyouki": "119",
+            "kyuhan": "A1",
+            "tyakusa": "",
+            "agari": "11.6",
+            "kimarite": "差し",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "2",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "梶原　大地",
+            "sensyuRegistNo": "015557",
+            "age": "29",
+            "huken": "福　岡",
+            "sotugyouki": "119",
+            "kyuhan": "A1",
+            "tyakusa": "1/2車輪",
+            "agari": "11.7",
+            "kimarite": "逃げ",
+            "BH": "B",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "3",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "寺林　正秋",
+            "sensyuRegistNo": "014281",
+            "age": "41",
+            "huken": "宮　城",
+            "sotugyouki": "93",
+            "kyuhan": "A1",
+            "tyakusa": "3  車身",
+            "agari": "11.6",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "三槻　智清",
+            "sensyuRegistNo": "013370",
+            "age": "49",
+            "huken": "佐　賀",
+            "sotugyouki": "80",
+            "kyuhan": "A2",
+            "tyakusa": "1車身1/2",
+            "agari": "11.6",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "5",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "鈴木　豪",
+            "sensyuRegistNo": "014989",
+            "age": "39",
+            "huken": "福　島",
+            "sotugyouki": "105",
+            "kyuhan": "A2",
+            "tyakusa": "ﾀｲﾔ差",
+            "agari": "11.8",
+            "kimarite": "",
+            "BH": "H",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "6",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "藤原　亮太",
+            "sensyuRegistNo": "014615",
+            "age": "38",
+            "huken": "岡　山",
+            "sotugyouki": "97",
+            "kyuhan": "A2",
+            "tyakusa": "1/2車輪",
+            "agari": "11.4",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "7",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "隅　直幸",
+            "sensyuRegistNo": "013652",
+            "age": "47",
+            "huken": "山　口",
+            "sotugyouki": "84",
+            "kyuhan": "A1",
+            "tyakusa": "1  車輪",
+            "agari": "11.3",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=7",
+              "haraiGaku": "110",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "7-1",
+              "haraiGaku": "150",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=3=7",
+              "haraiGaku": "890",
+              "ninki": "(4)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "7-1-3",
+              "haraiGaku": "2,260",
+              "ninki": "(7)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "1=7",
+              "haraiGaku": "100",
+              "ninki": "(1)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "3=7",
+              "haraiGaku": "840",
+              "ninki": "(9)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "1=3",
+              "haraiGaku": "840",
+              "ninki": "(9)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    },
+    {
+      "race_key": "20260707_久留米_11R",
+      "source_jsj006_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIIMFQYIitYZsYeRvppbBaew&type=JSJ006",
+      "encp": "1-mDn3P5FXuZU5C-JbtnIIMFQYIitYZsYeRvppbBaew",
+      "requested_url": "https://www.keirin.jp/pc/json?encp=1-mDn3P5FXuZU5C-JbtnIIMFQYIitYZsYeRvppbBaew&type=JSJ012",
+      "status_code": 200,
+      "content_type": "application/json;charset=utf-8",
+      "text_length": 3552,
+      "text_head": "{\"shortCriticismDispFlg\":false,\"haraiGakuDispFlg\":true,\"tyakujyunDispFlg\":true,\"syabanItemDispFlg\":false,\"digestBtnActiveFlg\":true,\"bikouDispFlg\":false,\"tenkiAreaDispFlg\":true,\"lastUpdateTime\":\"2026/07/07 20:44\\u0026nbsp;更新\",\"tenki\":\"曇\",\"husoku\":\"1.0\",\"tyakujyunItemSubData\":[{\"tyaku\":\"1\",\"syaban\":\"2\",\"syabanCharColor\":\"base_color_2\",\"syabanBgColor\":\"base_color_2_bk\",\"sensyuName\":\"半田　誠\",\"sensyuRegistNo\":\"015751\",\"age\":\"22\",\"huken\":\"熊　本\",\"sotugyouki\":\"123\",\"kyuhan\":\"A1\",\"tyakusa\":\"\",\"agari\":\"11.9\"",
+      "json_ok": true,
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/07 20:44&nbsp;更新",
+        "tenki": "曇",
+        "husoku": "1.0",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "半田　誠",
+            "sensyuRegistNo": "015751",
+            "age": "22",
+            "huken": "熊　本",
+            "sotugyouki": "123",
+            "kyuhan": "A1",
+            "tyakusa": "",
+            "agari": "11.9",
+            "kimarite": "捲り",
+            "BH": "B",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "2",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "青井　賢治",
+            "sensyuRegistNo": "013439",
+            "age": "50",
+            "huken": "徳　島",
+            "sotugyouki": "81",
+            "kyuhan": "A1",
+            "tyakusa": "1/4車輪",
+            "agari": "11.7",
+            "kimarite": "差し",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "3",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "橋本　凌汰",
+            "sensyuRegistNo": "015545",
+            "age": "25",
+            "huken": "岡　山",
+            "sotugyouki": "119",
+            "kyuhan": "A1",
+            "tyakusa": "3/4車身",
+            "agari": "11.9",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "4",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "福島　栄一",
+            "sensyuRegistNo": "014326",
+            "age": "42",
+            "huken": "香　川",
+            "sotugyouki": "93",
+            "kyuhan": "A1",
+            "tyakusa": "微差",
+            "agari": "11.8",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "5",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "近藤　夏樹",
+            "sensyuRegistNo": "014590",
+            "age": "38",
+            "huken": "千　葉",
+            "sotugyouki": "97",
+            "kyuhan": "A1",
+            "tyakusa": "1/2車輪",
+            "agari": "11.5",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "6",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "小田倉　勇二",
+            "sensyuRegistNo": "014139",
+            "age": "42",
+            "huken": "埼　玉",
+            "sotugyouki": "91",
+            "kyuhan": "A1",
+            "tyakusa": "8  車身",
+            "agari": "12.2",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "7",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "上川　直紀",
+            "sensyuRegistNo": "015423",
+            "age": "30",
+            "huken": "栃　木",
+            "sotugyouki": "117",
+            "kyuhan": "A1",
+            "tyakusa": "大差",
+            "agari": "14.0",
+            "kimarite": "",
+            "BH": "H",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2=6",
+              "haraiGaku": "1,930",
+              "ninki": "(8)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2-6",
+              "haraiGaku": "1,750",
+              "ninki": "(8)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2=5=6",
+              "haraiGaku": "2,070",
+              "ninki": "(10)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2-6-5",
+              "haraiGaku": "6,760",
+              "ninki": "(24)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "2=6",
+              "haraiGaku": "460",
+              "ninki": "(5)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "2=5",
+              "haraiGaku": "270",
+              "ninki": "(3)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "5=6",
+              "haraiGaku": "640",
+              "ninki": "(9)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      },
+      "top_level_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "result_structure_hits": [
+        {
+          "path": "$.tyakujyunItemSubData",
+          "key": "tyakujyunItemSubData",
+          "value_type": "list",
+          "item_count": 7
+        },
+        {
+          "path": "$.haraiGakuSubData",
+          "key": "haraiGakuSubData",
+          "value_type": "dict",
+          "item_count": 8
+        },
+        {
+          "path": "$.haraiGakuSubData.RT3HaraiGakuDispItemSubData",
+          "key": "RT3HaraiGakuDispItemSubData",
+          "value_type": "list",
+          "item_count": 1
+        }
+      ],
+      "status": "RESULT_STRUCTURE_FOUND"
+    }
+  ]
+}

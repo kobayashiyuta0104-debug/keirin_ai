@@ -1,0 +1,826 @@
+{
+  "capture_count": 6,
+  "captures": [
+    {
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?kday=20260706&type=JSJ057",
+      "type": "JSJ057",
+      "post_data": null,
+      "status": 200,
+      "json_top_keys": null,
+      "data": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?kday=20260706&type=JSJ082",
+      "type": "JSJ082",
+      "post_data": null,
+      "status": 200,
+      "json_top_keys": null,
+      "data": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ003",
+      "type": "JSJ003",
+      "post_data": null,
+      "status": 200,
+      "json_top_keys": [
+        "kaimeFlg",
+        "streamFlg",
+        "subWinFlg",
+        "jyoIntroUrl",
+        "kaimeUrl",
+        "divMsg",
+        "bannerList",
+        "liveUrl",
+        "kjcd",
+        "bkcd",
+        "kday",
+        "resultCd",
+        "writeANA"
+      ],
+      "data": {
+        "kaimeFlg": 0,
+        "streamFlg": 0,
+        "subWinFlg": 0,
+        "jyoIntroUrl": "/pc/racestream",
+        "kaimeUrl": "/pc/racelive",
+        "divMsg": "ライブ映像配信時間外です。",
+        "bannerList": [
+          {
+            "bannerType": "0",
+            "bannerUrl": "http://www.chubunet.co.jp/keirin/toyohashi/",
+            "bannerImgPath": "/pc/dfw/portal/picture/banner/45/45-1.jpg",
+            "winKbn": "1",
+            "resultCd": 0,
+            "writeANA": false
+          },
+          {
+            "bannerType": "0",
+            "bannerUrl": "https://www.nikkansports.com/public_race/keirin/pdf/toyohashi.pdf",
+            "bannerImgPath": "/pc/dfw/portal/picture/banner/45/jpst_179-30.jpg",
+            "winKbn": "1",
+            "resultCd": 0,
+            "writeANA": false
+          }
+        ],
+        "liveUrl": "https://cfl.st.keirin.jp/45/dash/45.mpd",
+        "kjcd": "45",
+        "bkcd": "45",
+        "kday": "20260706",
+        "resultCd": 0,
+        "writeANA": false
+      }
+    },
+    {
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ004",
+      "type": "JSJ004",
+      "post_data": null,
+      "status": 200,
+      "json_top_keys": [
+        "divMsg",
+        "today",
+        "tomorrow",
+        "dateKBN",
+        "currentTime",
+        "raceUrl",
+        "kaisaiData",
+        "resultCd",
+        "writeANA"
+      ],
+      "data": {
+        "divMsg": "",
+        "today": "今日(07/07)",
+        "tomorrow": "明日(07/08)",
+        "dateKBN": "1",
+        "currentTime": "2349",
+        "raceUrl": "/pc/racelive",
+        "kaisaiData": [
+          {
+            "bkname": "弥彦",
+            "bkCode": "21",
+            "kCode": "21",
+            "tyushiKbn": 0,
+            "greadCd": "1",
+            "greadColor": "",
+            "greadPath": "/pc/static/img/icon/grade/ico_f2.png",
+            "greadName": "F2",
+            "nitijiPath": "/pc/static/img/icon/Himoku/ico_day1.png",
+            "nitijiName": "初日",
+            "kaisaiKbnPath": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png",
+            "kaisaiKbnName": "5",
+            "huka1Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka1Name": "",
+            "huka2Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka2Name": "",
+            "raceNum": "9R",
+            "denTime": "",
+            "denBoldFlg": "",
+            "denColorFlg": "",
+            "stColorFlg": "0",
+            "stTime": "23:20",
+            "raceUrlPrm": "uT3_6zZe5WhDM6pyOeBlSNBmeqf_kNrolPb0Qt12aE0",
+            "resultCd": 0,
+            "writeANA": false
+          },
+          {
+            "bkname": "取手",
+            "bkCode": "23",
+            "kCode": "23",
+            "tyushiKbn": 0,
+            "greadCd": "1",
+            "greadColor": "",
+            "greadPath": "/pc/static/img/icon/grade/ico_f2.png",
+            "greadName": "F2",
+            "nitijiPath": "/pc/static/img/icon/Himoku/ico_day2.png",
+            "nitijiName": "2日目",
+            "kaisaiKbnPath": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "kaisaiKbnName": "",
+            "huka1Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+            "huka1Name": "02",
+            "huka2Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka2Name": "",
+            "raceNum": "11R",
+            "denTime": "",
+            "denBoldFlg": "",
+            "denColorFlg": "",
+            "stColorFlg": "0",
+            "stTime": "15:46",
+            "raceUrlPrm": "fnI91TdVAK41Vyxrjvt6vVaL-7SFynBbF_nFOdgAUMc",
+            "resultCd": 0,
+            "writeANA": false
+          },
+          {
+            "bkname": "玉野",
+            "bkCode": "61",
+            "kCode": "61",
+            "tyushiKbn": 0,
+            "greadCd": "1",
+            "greadColor": "",
+            "greadPath": "/pc/static/img/icon/grade/ico_f2.png",
+            "greadName": "F2",
+            "nitijiPath": "/pc/static/img/icon/Himoku/ico_day1.png",
+            "nitijiName": "初日",
+            "kaisaiKbnPath": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png",
+            "kaisaiKbnName": "5",
+            "huka1Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+            "huka1Name": "02",
+            "huka2Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka2Name": "",
+            "raceNum": "9R",
+            "denTime": "",
+            "denBoldFlg": "",
+            "denColorFlg": "",
+            "stColorFlg": "0",
+            "stTime": "23:30",
+            "raceUrlPrm": "v3GkGBnzcJwx-zPUFdtwmbqrxj4PLK-loSp1DWobqK4",
+            "resultCd": 0,
+            "writeANA": false
+          },
+          {
+            "bkname": "久留米",
+            "bkCode": "83",
+            "kCode": "83",
+            "tyushiKbn": 0,
+            "greadCd": "1",
+            "greadColor": "",
+            "greadPath": "/pc/static/img/icon/grade/ico_f2.png",
+            "greadName": "F2",
+            "nitijiPath": "/pc/static/img/icon/Himoku/ico_day1.png",
+            "nitijiName": "初日",
+            "kaisaiKbnPath": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png",
+            "kaisaiKbnName": "3",
+            "huka1Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+            "huka1Name": "02",
+            "huka2Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka2Name": "",
+            "raceNum": "11R",
+            "denTime": "",
+            "denBoldFlg": "",
+            "denColorFlg": "",
+            "stColorFlg": "0",
+            "stTime": "20:15",
+            "raceUrlPrm": "1-mDn3P5FXuZU5C-JbtnIAISe5_t_AB1AiwdPnNLOyY",
+            "resultCd": 0,
+            "writeANA": false
+          },
+          {
+            "bkname": "佐世保",
+            "bkCode": "85",
+            "kCode": "85",
+            "tyushiKbn": 0,
+            "greadCd": "1",
+            "greadColor": "",
+            "greadPath": "/pc/static/img/icon/grade/ico_f2.png",
+            "greadName": "F2",
+            "nitijiPath": "/pc/static/img/icon/Himoku/ico_fday.png",
+            "nitijiName": "最終日",
+            "kaisaiKbnPath": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png",
+            "kaisaiKbnName": "8",
+            "huka1Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+            "huka1Name": "02",
+            "huka2Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka2Name": "",
+            "raceNum": "7R",
+            "denTime": "",
+            "denBoldFlg": "",
+            "denColorFlg": "",
+            "stColorFlg": "0",
+            "stTime": "10:35",
+            "raceUrlPrm": "pwzdqoQWyXU0o-0Slea_Gazg8KiULN8k0E0O7RTBrc0",
+            "resultCd": 0,
+            "writeANA": false
+          },
+          {
+            "bkname": "豊橋",
+            "bkCode": "45",
+            "kCode": "45",
+            "tyushiKbn": 0,
+            "greadCd": "2",
+            "greadColor": "",
+            "greadPath": "/pc/static/img/icon/grade/ico_f1.png",
+            "greadName": "F1",
+            "nitijiPath": "/pc/static/img/icon/Himoku/ico_fday.png",
+            "nitijiName": "最終日",
+            "kaisaiKbnPath": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png",
+            "kaisaiKbnName": "3",
+            "huka1Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+            "huka1Name": "02",
+            "huka2Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka2Name": "",
+            "raceNum": "12R",
+            "denTime": "",
+            "denBoldFlg": "",
+            "denColorFlg": "",
+            "stColorFlg": "0",
+            "stTime": "20:30",
+            "raceUrlPrm": "-rgLOUDZaX8RQ73rPRpBXpl_pTfnadJcTNcCNiJIsSo",
+            "resultCd": 0,
+            "writeANA": false
+          },
+          {
+            "bkname": "和歌山",
+            "bkCode": "55",
+            "kCode": "55",
+            "tyushiKbn": 0,
+            "greadCd": "2",
+            "greadColor": "",
+            "greadPath": "/pc/static/img/icon/grade/ico_f1.png",
+            "greadName": "F1",
+            "nitijiPath": "/pc/static/img/icon/Himoku/ico_fday.png",
+            "nitijiName": "最終日",
+            "kaisaiKbnPath": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "kaisaiKbnName": "",
+            "huka1Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka1Name": "",
+            "huka2Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka2Name": "",
+            "raceNum": "12R",
+            "denTime": "",
+            "denBoldFlg": "",
+            "denColorFlg": "",
+            "stColorFlg": "0",
+            "stTime": "16:24",
+            "raceUrlPrm": "D4DOyhWP8yD6jQkjiiZ35ArsfjnMSUFxxcmrWWYLYLo",
+            "resultCd": 0,
+            "writeANA": false
+          },
+          {
+            "bkname": "防府",
+            "bkCode": "63",
+            "kCode": "63",
+            "tyushiKbn": 0,
+            "greadCd": "2",
+            "greadColor": "dokanto_color",
+            "greadPath": "/pc/static/img/icon/grade/ico_f1.png",
+            "greadName": "F1",
+            "nitijiPath": "/pc/static/img/icon/Himoku/ico_day1.png",
+            "nitijiName": "初日",
+            "kaisaiKbnPath": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "kaisaiKbnName": "",
+            "huka1Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png",
+            "huka1Name": "01",
+            "huka2Path": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+            "huka2Name": "",
+            "raceNum": "12R",
+            "denTime": "",
+            "denBoldFlg": "",
+            "denColorFlg": "",
+            "stColorFlg": "0",
+            "stTime": "16:01",
+            "raceUrlPrm": "cT5PUT3R6DvBoJ7bLhzW292TuM8tgvgXOIDR0QUZPnU",
+            "resultCd": 0,
+            "writeANA": false
+          }
+        ],
+        "resultCd": 0,
+        "writeANA": false
+      }
+    },
+    {
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ012",
+      "type": "JSJ012",
+      "post_data": null,
+      "status": 200,
+      "json_top_keys": [
+        "shortCriticismDispFlg",
+        "haraiGakuDispFlg",
+        "tyakujyunDispFlg",
+        "syabanItemDispFlg",
+        "digestBtnActiveFlg",
+        "bikouDispFlg",
+        "tenkiAreaDispFlg",
+        "lastUpdateTime",
+        "tenki",
+        "husoku",
+        "tyakujyunItemSubData",
+        "haraiGakuSubData",
+        "resultCd",
+        "writeANA"
+      ],
+      "data": {
+        "shortCriticismDispFlg": false,
+        "haraiGakuDispFlg": true,
+        "tyakujyunDispFlg": true,
+        "syabanItemDispFlg": false,
+        "digestBtnActiveFlg": true,
+        "bikouDispFlg": false,
+        "tenkiAreaDispFlg": true,
+        "lastUpdateTime": "2026/07/06 21:08&nbsp;更新",
+        "tenki": "雨",
+        "husoku": "1.5",
+        "tyakujyunItemSubData": [
+          {
+            "tyaku": "1",
+            "syaban": "6",
+            "syabanCharColor": "base_color_6",
+            "syabanBgColor": "base_color_6_bk",
+            "sensyuName": "中村　龍吉",
+            "sensyuRegistNo": "015787",
+            "age": "25",
+            "huken": "福　島",
+            "sotugyouki": "125",
+            "kyuhan": "S2",
+            "tyakusa": "",
+            "agari": "12.1",
+            "kimarite": "捲り",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "2",
+            "syaban": "3",
+            "syabanCharColor": "base_color_3",
+            "syabanBgColor": "base_color_3_bk",
+            "sensyuName": "内藤　宣彦",
+            "sensyuRegistNo": "012339",
+            "age": "55",
+            "huken": "秋　田",
+            "sotugyouki": "67",
+            "kyuhan": "S1",
+            "tyakusa": "1  車輪",
+            "agari": "12.0",
+            "kimarite": "マーク",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "3",
+            "syaban": "4",
+            "syabanCharColor": "base_color_4",
+            "syabanBgColor": "base_color_4_bk",
+            "sensyuName": "笠松　信幸",
+            "sensyuRegistNo": "013637",
+            "age": "47",
+            "huken": "愛　知",
+            "sotugyouki": "84",
+            "kyuhan": "S1",
+            "tyakusa": "3/4車輪",
+            "agari": "11.8",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "4",
+            "syaban": "1",
+            "syabanCharColor": "base_color_1",
+            "syabanBgColor": "base_color_1_bk",
+            "sensyuName": "浅井　康太",
+            "sensyuRegistNo": "014089",
+            "age": "42",
+            "huken": "三　重",
+            "sotugyouki": "90",
+            "kyuhan": "S1",
+            "tyakusa": "1  車輪",
+            "agari": "11.9",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "5",
+            "syaban": "7",
+            "syabanCharColor": "base_color_7",
+            "syabanBgColor": "base_color_7_bk",
+            "sensyuName": "清水　一幸",
+            "sensyuRegistNo": "015123",
+            "age": "39",
+            "huken": "大　阪",
+            "sotugyouki": "109",
+            "kyuhan": "S2",
+            "tyakusa": "3/4車輪",
+            "agari": "11.8",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          },
+          {
+            "tyaku": "6",
+            "syaban": "5",
+            "syabanCharColor": "base_color_5",
+            "syabanBgColor": "base_color_5_bk",
+            "sensyuName": "井上　昌己",
+            "sensyuRegistNo": "013815",
+            "age": "46",
+            "huken": "長　崎",
+            "sotugyouki": "86",
+            "kyuhan": "S1",
+            "tyakusa": "1/4車輪",
+            "agari": "12.2",
+            "kimarite": "",
+            "BH": "",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": [
+              {
+                "kojinState": "",
+                "kojinStateClass": "",
+                "tyakuNote": ""
+              }
+            ]
+          },
+          {
+            "tyaku": "7",
+            "syaban": "2",
+            "syabanCharColor": "base_color_2",
+            "syabanBgColor": "base_color_2_bk",
+            "sensyuName": "立部　楓真",
+            "sensyuRegistNo": "015385",
+            "age": "27",
+            "huken": "佐　賀",
+            "sotugyouki": "115",
+            "kyuhan": "S1",
+            "tyakusa": "3/4車身",
+            "agari": "12.5",
+            "kimarite": "",
+            "BH": "HB",
+            "inLineJyuni": "",
+            "kojinStateItemSubData": []
+          }
+        ],
+        "haraiGakuSubData": {
+          "WH2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "WT2HaraiGakuDispItemSubData": [
+            {
+              "haraiGaku": "【未発売】",
+              "ninkiDispFlg": false,
+              "kumiDispFlg": false
+            }
+          ],
+          "SH2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "3=6",
+              "haraiGaku": "3,110",
+              "ninki": "(8)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "ST2HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "6-3",
+              "haraiGaku": "5,820",
+              "ninki": "(14)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RH3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "3=4=6",
+              "haraiGaku": "8,500",
+              "ninki": "(22)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "RT3HaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "6-3-4",
+              "haraiGaku": "34,640",
+              "ninki": "(71)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "WHaraiGakuDispItemSubData": [
+            {
+              "kumiBan": "3=6",
+              "haraiGaku": "960",
+              "ninki": "(14)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "4=6",
+              "haraiGaku": "790",
+              "ninki": "(11)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            },
+            {
+              "kumiBan": "3=4",
+              "haraiGaku": "650",
+              "ninki": "(10)",
+              "ninkiDispFlg": true,
+              "kumiDispFlg": true
+            }
+          ],
+          "APartReturnDispFlg": false
+        },
+        "resultCd": 0,
+        "writeANA": true
+      }
+    },
+    {
+      "method": "GET",
+      "url": "https://www.keirin.jp/pc/json?encp=-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0&type=JSJ001",
+      "type": "JSJ001",
+      "post_data": null,
+      "status": 200,
+      "json_top_keys": [
+        "C0201data",
+        "resultCd",
+        "writeANA"
+      ],
+      "data": {
+        "C0201data": {
+          "encSelParaK": "-rgLOUDZaX8RQ73rPRpBXvrRlKTwf_wks0bCvF7iWEY",
+          "encSelParaR": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+          "selKaisai": "20260706",
+          "selKjyoCd": "45",
+          "selRaceNo": 12,
+          "encParaS": "-rgLOUDZaX8RQ73rPRpBXsBi43Ep-Cfi5JRiiEmDQ6A",
+          "imgGradeSrc": "/pc/static/img/icon/grade/ico_f1.png",
+          "imgGradeAlt": "F1",
+          "raceName": "カントリーモーニング杯",
+          "joName": "豊橋競輪場",
+          "imgKkbnSrc": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png",
+          "imgKkbnAlt": "3",
+          "imgFuka1Src": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+          "imgFuka1Alt": "02",
+          "imgFuka2Src": "",
+          "imgFuka2Alt": "",
+          "joInfo": "",
+          "hhMessage": "",
+          "flgRaceCancel": false,
+          "flgSectionCancel": false,
+          "cntRace": 0,
+          "flgPrevBet": false,
+          "cidPrevBetBgcolor": "zenjitu_hatubai_bg_color",
+          "imgPushSrc": "",
+          "imgPushAlt": "",
+          "imgCongenialSrc": "",
+          "imgCongenialAlt": "",
+          "imgInterviewSrc": "/pc/static/img/icon/ico_film.png",
+          "imgInterviewAlt": "ダイジェストボタン",
+          "flgActvKekkaList": true,
+          "flgRecodes": true,
+          "flgActvSyumoku": true,
+          "flgActvDugest": true,
+          "flgActvSyutujyo": true,
+          "flgLogin": false,
+          "C0201ticker": [],
+          "C0201kaisai": [
+            {
+              "txtEventDate": "07/05",
+              "txtDaily": "(初日)",
+              "encParaK": "-rgLOUDZaX8RQ73rPRpBXsBi43Ep-Cfi5JRiiEmDQ6A",
+              "flgSelect": true
+            },
+            {
+              "txtEventDate": "07/06",
+              "txtDaily": "(2日目)",
+              "encParaK": "-rgLOUDZaX8RQ73rPRpBXvrRlKTwf_wks0bCvF7iWEY",
+              "flgSelect": true
+            },
+            {
+              "txtEventDate": "07/07",
+              "txtDaily": "(最終日)",
+              "encParaK": "-rgLOUDZaX8RQ73rPRpBXpl_pTfnadJcTNcCNiJIsSo",
+              "flgSelect": true
+            }
+          ],
+          "C0201race": [
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXkboo1M0XnBKNQiJITQxTww",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXsJmMto0MMP9Wywu2WMp0HI",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXj1ISI2eXFRYaQPXOWxb3nY",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXsS0Q3Dx6_OAnUztyLj0lIk",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXtQ-lMWrAZTgbrgogfYwywc",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXtLtz8BxNfKzGAj_qu86iEw",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXjuQvn3q7MFSWR2hOP1Q8-s",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXuscaw9Ati-CxmVTlKHNNNs",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXtznA1Lom9keBa6H9feWAxg",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXi5e86ofUujCB5nZHxZ9IxE",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXuQtsJZnrI3gb6TdpBk5pJM",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            },
+            {
+              "flgRaceEnd": true,
+              "flgActvRaceBtn": true,
+              "encParaR": "-rgLOUDZaX8RQ73rPRpBXu8TglNsydDiL5QvSD7KWn0",
+              "rcvKekka": "1",
+              "rcvRefund": "1",
+              "rcvOdds": "2"
+            }
+          ],
+          "C0201interview": [],
+          "C0201racedtl": {
+            "syumoku": "Ｓ級準決勝",
+            "kyori": 2025,
+            "syukai": 5,
+            "nameKyosou": "先固",
+            "aftStartTime": "20:30",
+            "aftBetTime": "20:27",
+            "bfrStartTime": "20:30",
+            "bfrBetTime": "20:27",
+            "flgViewPut": false,
+            "C0201sensyu": [
+              {
+                "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0140/014089_00.jpg",
+                "imgPlayerPictAlt": "浅井",
+                "cidCarNum": "base_color_1",
+                "carNum": 1,
+                "namePlayerSei": "浅井",
+                "numPlayer": "014089",
+                "flgPush": false,
+                "flgCongenial": false
+              },
+              {
+                "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0153/015385_00.jpg",
+                "imgPlayerPictAlt": "立部",
+                "cidCarNum": "base_color_2",
+                "carNum": 2,
+                "namePlayerSei": "立部",
+                "numPlayer": "015385",
+                "flgPush": false,
+                "flgCongenial": false
+              },
+              {
+                "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0123/012339_00.jpg",
+                "imgPlayerPictAlt": "内藤",
+                "cidCarNum": "base_color_3",
+                "carNum": 3,
+                "namePlayerSei": "内藤",
+                "numPlayer": "012339",
+                "flgPush": false,
+                "flgCongenial": false
+              },
+              {
+                "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0136/013637_00.jpg",
+                "imgPlayerPictAlt": "笠松",
+                "cidCarNum": "base_color_4",
+                "carNum": 4,
+                "namePlayerSei": "笠松",
+                "numPlayer": "013637",
+                "flgPush": false,
+                "flgCongenial": false
+              },
+              {
+                "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0138/013815_00.jpg",
+                "imgPlayerPictAlt": "井上",
+                "cidCarNum": "base_color_5",
+                "carNum": 5,
+                "namePlayerSei": "井上",
+                "numPlayer": "013815",
+                "flgPush": false,
+                "flgCongenial": false
+              },
+              {
+                "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0157/015787_00.jpg",
+                "imgPlayerPictAlt": "中村",
+                "cidCarNum": "base_color_6",
+                "carNum": 6,
+                "namePlayerSei": "中村",
+                "numPlayer": "015787",
+                "flgPush": false,
+                "flgCongenial": false
+              },
+              {
+                "imgPlayerPictSrc": "/pc/dfw/portal/picture/sen01/sen0151/015123_00.jpg",
+                "imgPlayerPictAlt": "清水",
+                "cidCarNum": "base_color_7",
+                "carNum": 7,
+                "namePlayerSei": "清水",
+                "numPlayer": "015123",
+                "flgPush": false,
+                "flgCongenial": false
+              }
+            ]
+          }
+        },
+        "resultCd": 0,
+        "writeANA": false
+      }
+    }
+  ]
+}

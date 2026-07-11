@@ -1,0 +1,4005 @@
+@charset "UTF-8";
+/* PC base */
+/*---------------------------------------------------*/
+/* 画面全体の設定 */
+/*---------------------------------------------------*/
+/* IE (10, 11) で、他の主要なブラウザと同じようにビューポートを設定 */
+@-ms-viewport {
+  width: auto !important;
+  initial-scale: 1 !important;
+}
+@viewport {
+  width: device-width !important;
+  initial-scale: 1 !important;
+}
+html {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+}
+
+/* Windows10のスクロール定義(Chrome) */
+body::-webkit-scrollbar{
+    width:15px;
+    background-color:#EEEEEE;
+}
+body::-webkit-scrollbar-thumb{
+    background:#BBBBBB;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background:#AAAAAA;
+}
+body::-webkit-scrollbar-button:vertical:start{
+    background: url("./img/ui-icons_666666_256x240.png");
+    background-position: 0 -16px;
+}
+body::-webkit-scrollbar-button:vertical:start:hover{
+    background-color:#DDDDDD
+}
+body::-webkit-scrollbar-button:vertical:end{
+    background: url("./img/ui-icons_666666_256x240.png");
+    background-position: -64px -16px;
+}
+body::-webkit-scrollbar-button:vertical:end:hover{
+    background-color:#DDDDDD
+}
+body::-webkit-scrollbar-button:horizontal:start{
+    background: url("./img/ui-icons_666666_256x240.png");
+    background-position: -96px -16px;
+}
+body::-webkit-scrollbar-button:horizontal:start:hover{
+    background-color:#DDDDDD
+}
+body::-webkit-scrollbar-button:horizontal:end{
+    background: url("./img/ui-icons_666666_256x240.png");
+    background-position: -32px -16px;
+}
+body::-webkit-scrollbar-button:horizontal:end:hover{
+    background-color:#DDDDDD
+}
+
+/* Windows10のスクロール定義(IE) */
+@media (-ms-high-contrast:none){
+	body{
+		-ms-overflow-style:-ms-autohiding-scrollbar;
+	}
+	body *{
+		-ms-overflow-style:auto;
+	}
+}
+
+/*---------------------------------------------------*/
+/* 共通変数読み込み */
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/* 共通Class・関数読み込み */
+/*---------------------------------------------------*/
+/* 回り込み */
+/*---------------------------------------------------*/
+/* 左に回りこみ */
+.fl-l {
+  float: left;
+}
+/* 右に回りこみ */
+.fl-r {
+  float: right;
+}
+/* 回りこみ解除 */
+.clear-fix {
+  display: block;
+  min-height: 1%;
+  overflow: hidden;
+}
+.clear-fix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clear-fix2 {
+  display: block;
+  min-height: 1%;
+}
+.clear-fix2:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+/*---------------------------------------------------*/
+/* 配置指定(インライン要素) */
+/*---------------------------------------------------*/
+/*左右中央揃え*/
+.al-c {
+  text-align: center !important;
+}
+/*左揃え*/
+.al-l {
+  text-align: left !important;
+}
+/*右揃え*/
+.al-r {
+  text-align: right !important;
+}
+/*上揃え*/
+.v-al-t {
+  vertical-align: top !important;
+}
+/*上下中央揃え*/
+.v-al-m {
+  vertical-align: middle !important;
+}
+/*下揃え*/
+.v-al-b {
+  vertical-align: bottom !important;
+}
+/*---------------------------------------------------*/
+/* 表示設定 */
+/*---------------------------------------------------*/
+/* 非表示 */
+.dispoff {
+  display: none;
+}
+/* 表示 */
+.dispon {
+  display: block;
+}
+/* pやdiv等を改行させないようにインラインブロック(改行なし)に変更 */
+.dispib {
+  display: inline-block;
+  _display: inline;
+}
+/* nobr要素はHTML5では廃止されているため、下記クラスを使用すること*/
+.nobr {
+  white-space: nowrap;
+   display: inline-block;
+  _display: inline;
+}
+.nowrap {
+  white-space: nowrap;
+}
+/* 太字のフォント設定 */
+.bold {
+  font-weight: bold !important;
+}
+/* 下線のフォント設定 */
+.uline {
+  text-decoration: underline;
+}
+/* 取り消し線 */
+.lineth {
+  text-decoration: line-through;
+}
+/* 非表示（領域残し） */
+.disphidden {
+  visibility: hidden;
+}
+/*---------------------------------------------------*/
+body {
+  font-family: "Meiryo UI", "Osaka", "Osaka-等幅", "MS PGothic","ＭＳ Ｐゴシック", sans-serif;
+  background-image: url("../img/bg.gif") !important;
+  background-repeat: repeat;
+  font-size: 16px;
+  color: #404040;
+}
+/*---------------------------------------------------*/
+/* 画面サイズ */
+/*---------------------------------------------------*/
+/* 画面サイズ */
+.basewindows {
+  min-width: 1263px;
+  max-width: 1349px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+/*---------------------------------------------------*/
+/* 3カラムレイアウト(L領域) */
+.col3_lay_L {
+  width: 242px;
+  margin: 20px 0px 20px 4px;
+}
+/*---------------------------------------------------*/
+/* 3カラムレイアウト(C領域) */
+.col3_lay_C {
+  width: 761px;
+  margin: 20px auto;
+}
+/*---------------------------------------------------*/
+/* 3カラムレイアウト(R領域) */
+.col3_lay_R {
+  width: 242px;
+  margin: 20px 4px 20px 0px;
+}
+/*---------------------------------------------------*/
+/* 3カラムレイアウト(B領域) */
+.col3_lay_B {
+  min-width: 1255px;
+  max-width: 1289px;
+  margin: 20px auto;
+  padding: 0 4px;
+}
+/*---------------------------------------------------*/
+/* 2カラムレイアウトA-1(T領域) */
+.col2_layA1_T {
+  max-width: 1349px;
+  margin: 15px 6px 0px 6px;
+}
+/*---------------------------------------------------*/
+/* 2カラムレイアウトA-1(L領域) */
+.col2_layA1_L {
+  width: 461px;
+  margin: 6px 15px 20px 5px;
+}
+/*---------------------------------------------------*/
+/* 2カラムレイアウトA-1(R領域) */
+.col2_layA1_R {
+  min-width: 772px;
+  max-width: 828px;
+  margin: 6px 5px 20px 486px;
+}
+/*---------------------------------------------------*/
+/* 2カラムレイアウトA-2(T領域) */
+.col2_layA2_T {
+  max-width: 1349px;
+  margin: 15px 6px 0px 6px;
+}
+/*---------------------------------------------------*/
+/* 2カラムレイアウトA-2(L領域) */
+.col2_layA2_L {
+  min-width: 757px;
+  max-width: 828px;
+  margin: 6px 501px 20px 5px;
+}
+/*---------------------------------------------------*/
+/* 2カラムレイアウトA-2(R領域) */
+.col2_layA2_R {
+  width: 476px;
+  margin: 6px 10px 20px 5px;
+}
+/*---------------------------------------------------*/
+/* 2カラムレイアウトB(L領域) */
+/* 削除予定 */
+.col2_layB_L {
+  width: 288px;
+  margin: 30px 5px 20px 0px;
+}
+/* 左枠５目盛り用 */
+.col2_layB_L_5 {
+  width: 288px;
+  margin: 30px 5px 20px 25px;
+}
+/* 左枠７目盛り用 */
+.col2_layB_L_7 {
+  width: 288px;
+  margin: 30px 5px 20px 35px;
+}
+/* 2カラムレイアウトB(R領域) */
+.col2_layB_R {
+  max-width: 977px;
+  min-width: 960px;
+  margin: 30px 5px 20px 5px;
+}
+/*---------------------------------------------------*/
+/* 1カラムレイアウトA(T領域) */
+.col1_layA_T {
+  max-width: 1349px;
+  margin: 15px 0px 20px 6px;
+}
+/* 1カラムレイアウトA(C領域) */
+/* 削除予定 */
+.col1_layA_C {
+  max-width: 1289px;
+  margin: 0px 30px 20px 30px;
+}
+/* 左枠５目盛り用 */
+.col1_layA_C_5 {
+  max-width: 1289px;
+  margin: 0px 20px 20px 20px;
+}
+/* 左枠７目盛り用 */
+.col1_layA_C_7 {
+  max-width: 1289px;
+  margin: 0px 30px 20px 30px;
+}
+/*---------------------------------------------------*/
+/* 1カラムレイアウトB(C領域) */
+/* 削除予定 */
+.col1_layB {
+  max-width: 1349px;
+  margin: 0px 5px 20px 5px;
+}
+/* 左枠５目盛り用 */
+.col1_layB_5 {
+  max-width: 1349px;
+  margin: 0px 25px 20px 25px;
+}
+/* 左枠７目盛り用 */
+.col1_layB_7 {
+  max-width: 1349px;
+  margin: 0px 35px 20px 35px;
+}
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/* スペース等 */
+/*---------------------------------------------------*/
+/*-----------------------------*/
+/* タイトル位置と、左余白設定 */
+div.title {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+div.title2 {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+/*-----------------------------*/
+/* タイトル位置用　上余白 */
+div.title_T5 {
+  padding-top: 5px;
+}
+div.title_T10 {
+  padding-top: 10px;
+}
+div.title_T15 {
+  padding-top: 15px;
+}
+div.title_T20 {
+  padding-top: 20px;
+}
+div.title_T30 {
+  padding-top: 30px;
+}
+div.title_T37 {
+  padding-top: 37px;
+}
+div.title_T40 {
+  padding-top: 40px;
+}
+div.title_T46 {
+  padding-top: 46px;
+}
+/*---------------------------------------------------*/
+/* ヘッダ・フッタ設定 */
+/*---------------------------------------------------*/
+body > .container {
+  padding: 20px 40px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.collapse.navbar-collapse{
+    display:block !important;
+    height:auto !important;
+    padding-bottom:0px !important;
+    overflow:visible !important;
+}
+
+.navbar-collapse{
+    width:auto !important;
+    border-top:0 !important;
+    -webkit-box-shadow:none !important;
+    box-shadow:none !important;
+}
+
+.navbar{
+    border-radius:4px !important;
+}
+
+.navbar-header{
+    float:left!important;
+}
+
+.navbar-nav{
+    float:left !important;
+    margin:0 !important;
+}
+
+.navbar-nav > li{
+    float:left!important;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+    margin-left:-15px
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100% !important;
+    height: auto;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1280px) {
+  .container {
+    width: 100% !important;
+    height: auto;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+}
+.container-fluid > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container > .navbar-header {
+  margin-right: 0;
+  margin-left: 0;
+}
+.header_bg {
+  width: 100%;
+  background-color: #0670b1 !important;
+  background-image: url("../img/header_bg.png") !important;
+  background-repeat: repeat-x !important;
+  min-width: 1263px;
+}
+img.top_logo {
+  background-color: #FFFFFF  !important;
+  padding: 12px 12px 5px 12px;
+  border-radius: 4px 4px 0 0;
+}
+img#bascket {
+  height: 48px;
+}
+.navbar-brand {
+  float: left;
+  padding: 15px 10px 0px 20px !important;
+  line-height: 20px;
+}
+.menu_colorbar {
+  background-image: url("../img/colorbar.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: right bottom  !important;
+  background-color: #0670b1 !important;
+  height: 6px;
+  min-width: 1263px;
+  max-width: 1349px;
+  margin: 0px auto;
+}
+/* トップメニュー */
+a.topmenu_txt,
+a.topmenu_txt:hover {
+  color: #FFFFFF !important;
+  font-weight: bold;
+  text-decoration: underline !important;
+  text-underline-position: below !important;
+}
+.navbar {
+  min-width: 1263px;
+  max-width: 1349px;
+  width: 100%;
+  min-height: 50px;
+  margin: 0px auto;
+  border: 0px solid transparent;
+}
+/* IE (10, 11) で、ヘッダ部分の動作が違うため下記記述を設定 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ticker_area.navbar-fixed-top {
+    right: auto;
+    left: auto;
+    width: 100%;
+  }
+}
+.navbar-nav > li > a,
+.navbar-nav > li > a:hover,
+.nav > li > a:focus,
+.nav > li > a:hover,
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+  background: none;
+  margin-top: 10px;
+  padding: 15px 25px 25px 25px;
+}
+/* フッタ設定 */
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #0670b1 !important;
+  background-image: url("../img/colorbar.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: right top !important;
+  font-size: 12px;
+  color: #FFFFFF !important;
+  min-width: 1263px;
+  max-width: 1349px;
+}
+.footer .container {
+  padding: 14px 10px 7px 10px;
+  width: 100%;
+}
+.footer .container a {
+  color: #FFFFFF !important;
+  margin: 0 10px;
+  text-decoration: underline;
+}
+.copyright {
+  margin: -3px 0px 4px 0px;
+  padding-top: 3px;
+}
+
+.ancor{
+  FONT-SIZE: 10pt;
+  HEIGHT: 18px;
+  WIDTH: 88px;
+  PADDING-TOP: 3px;
+  PADDING-LEFT: 3px
+}
+/*---------------------------------------------------*/
+/* パンくずリストとgoogle */
+/*---------------------------------------------------*/
+/*
+.bread{
+	height:32px;
+	background-color:#FFFFFF !important;
+	font-size:12px;
+	padding-top:8px;
+	padding-left:15px;
+	border-bottom:1px solid #b4d4e7 !important;
+}
+.bread span{margin:0 5px;}
+*/
+.google_search {
+  margin-right: 4px;
+  margin-top: 2px;
+  height: 22px !important;
+  
+}
+.google_search_btn {
+  margin-right: 20px ;
+  margin-top: 4px;  
+  border: 0px;
+  width: 40px;
+  height: 18px;
+  background-image: url("../img/searchbtn.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: left top !important;
+}
+.bread_area {
+  width: 100%;
+  height: 35px;
+  min-width: 400px;
+  background-color: #FFFFFF !important;
+  font-size: 14px;
+  border-bottom: 1px solid #b4d4e7 !important;
+}
+.bread_crab {
+  padding: 7px 20px 7px 20px;
+  margin: auto 0;
+}
+.searchbox {
+  padding: 4px 20px 6px 20px;
+  margin: auto 0;
+}
+.bread_area_style{
+  FONT-SIZE: 10pt;
+  HEIGHT: 18px;
+  WIDTH: 88px;
+  PADDING-TOP: 3px;
+  PADDING-LEFT: 3px
+}
+.google_input{
+ WIDTH: 146px;
+}
+/* パンクズリスト用 */
+a.pankuzu_link {
+  text-decoration: underline;
+  text-underline-position: below;
+}
+/*---------------------------------------------------*/
+/* ティッカー */
+/*---------------------------------------------------*/
+/* 緊急ティッカー */
+.ccTickerArea, .hhTickerArea {
+  height: 32px;
+  background-color: #FFFFFF !important;
+  font-size: 16px;
+  padding: 5px 0;
+  border-bottom: 1px solid #b4d4e7 !important;
+  min-width: 1263px;
+  max-width: 1349px;
+  margin: 0 auto;
+}
+.ticker_area{
+  background-color: #FFFFFF !important;
+  font-size: 16px;
+  padding: 5px 0;
+  border-bottom: 1px solid #b4d4e7 !important;
+  min-width: 1263px;
+  max-width: 1349px;
+  margin: 0 auto;
+}
+
+.bread_area #ticker,
+.ccTickerArea #ccTicker,
+.ccBreadArea #ccTicker,
+.hhTickerArea #hhTicker,
+.hhBreadArea #hhTicker {
+  width: 98%;
+  height: 22px;
+  overflow: hidden;
+}
+
+.ticker_area #ticker {
+  width: 98%;
+  overflow: hidden;
+}
+
+.ticker_area #ticker span.ticker:hover,
+.bread_area #ticker span.ticker:hover,
+.ccTickerArea #ccTicker span.ccTicker:hover,
+.ccBreadArea #ccTicker span.ccTicker:hover,
+.hhTickerArea #hhTicker span.hhTicker:hover,
+.hhBreadArea #hhTicker span.hhTicker:hover {
+  cursor: default;
+}
+.ticker.black, .ccTicker.black, .hhTicker.black {
+  color: #404040 !important;
+}
+.ticker.red, .ccTicker.red, .hhTicker.red {
+  color: #dd1616 !important;
+}
+.ticker img.timg, .ccTicker img.timg, .hhTicker img.timg {
+  vertical-align: middle;
+}
+.ticker, .ccTicker {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+.hhTicker {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+.comHeadTicker {
+  padding-left: 15px;
+}
+/* 施行者ティッカー */
+.ticker_area3 #ticker span.ticker,
+.ccTicker_area3 #ccTicker span.ccTicker,
+.hhTicker_area3 #hhTicker span.hhTicker {
+  color: #FFFFFF !important;
+  font-size: 18px;
+}
+.ticker3 {
+  font-size: 18px;
+  padding: 0 20px;
+}
+.race_detail {
+  position: relative;
+  background-image: url("../img/race_detail_bg.png");
+  background-repeat: repeat;
+  width: 100%;
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.race_detail_height {
+  height: 35px;
+}
+.race_days,
+.race_btns,
+.race_detail {
+  min-width: 1263px;
+}
+div.race_detail .changtime {
+  color: #ff0000;
+  background-color: #FFFFFF;
+  font-size: 16px;
+}
+/*---------------------------------------------------*/
+/* hoverの設定 */
+/*---------------------------------------------------*/
+/* Table関連 */
+/* tdリンクのマウスオーバー時の動作 */
+.clc:hover {
+  background-color: #e8d4ff !important;
+  cursor: pointer !important;
+}
+/* trリンクのマウスオーバー時の動作 */
+tr.clc:hover td {
+  background-color: #e8d4ff !important;
+  cursor: pointer !important;
+}
+/* tableリンクのマウスオーバー時の動作 */
+td.clc:hover table tr td {
+  background-color: #e8d4ff;
+  cursor: pointer !important;
+}
+/* ボタン関連 */
+/* 通常ボタン */
+.btn.onbtn:hover {
+  background: #01445f;
+  color: #dff5f5;
+}
+/* 通常ボタンactive */
+/* 終了したレースボタン */
+.btn.onbtn.fin:hover {
+  background: #01445f;
+  color: #ebebeb;
+}
+/* オッズボタン */
+.btn.numbtn.on1:hover {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.btn.numbtn.on2:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color:#404040;
+}
+.btn.numbtn.on3:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #e61717;
+}
+.btn.numbtn.on4:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #0066cc;
+}
+.btn.numbtn.on5:hover {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color:#f0c518;
+}
+.btn.numbtn.on6:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #228900;
+}
+.btn.numbtn.on7:hover {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #ff9500;
+}
+.btn.numbtn.on8:hover {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #f28abd;
+}
+.btn.numbtn.on9:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #822bd9;
+}
+/* 全選択ボタン */
+.btn.numbtn_zen:hover {
+  background: linear-gradient(#e4f6ff, #ffffff);
+}
+/* 選択済みボタン */
+/*.btn.numbtn_zen.active:hover{background:linear-gradient(@btn_border_color, #1989c1)}*/
+/* 消ボタン */
+.btn.numbtn_clr:hover {
+  background: linear-gradient(#ebebeb, #ffffff);
+}
+/* 大きいボタン(投票はこちら) */
+button.bigbtn:hover,input[type="button"]:hover {
+  background: linear-gradient(#fffd94, #fffffa);
+  color: #b05700;
+}
+/* オッズボタン */
+.btn.numbtn:hover {
+  background: #dff5f5;
+}
+/* ログインボタン*/
+/*
+.btn.loginbtn:hover{background:linear-gradient(#0086bf, rgba(0,134,191,0.8))}
+*/
+/* ▼▲ボタン */
+a.betbtn:hover {
+  color: #D7DF01;
+  text-decoration: none;
+  cursor: pointer;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+}
+/*---------------------------------------------------*/
+/* ボタン */
+/*---------------------------------------------------*/
+/* 通常ボタン */
+.btn.onbtn {
+  padding: 5px 0px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #0577b0;
+  color: #01445f;
+  background: #dff5f5;
+}
+/* 終了したレースボタン */
+.btn.onbtn.fin {
+  border: 2px solid #808080;
+  background-color: #ebebeb;
+}
+/* 選択済みボタン */
+.btn.onbtn.active {
+  color: #FFFFFF;
+  background: linear-gradient(#1989c1, #0577b0);
+  border: 2px solid #0086bf;
+  border-collapse: collapse;
+  cursor: default;
+}
+/* オッズボタン */
+.btn.numbtn {
+  height: 40px;
+  width: 22px;
+  padding: 6px 2px;
+  margin: 6px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #0577b0;
+  color: #01445f;
+  background: #dff5f5;
+}
+.btn.numbtn.white {
+  color: #404040;
+  border: 2px solid #404040;
+  background: linear-gradient(#ffffff, #ffffff);
+  font-weight: bold;
+  padding: 0px 1px;
+}
+.btn.numbtn.on1 {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.btn.numbtn.on2 {
+  color: #ffffff;
+  border: 2px solid #404040;
+  background-color: #404040;
+}
+.btn.numbtn.on3 {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #e61717;
+}
+.btn.numbtn.on4 {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color:  #0066cc;
+}
+.btn.numbtn.on5 {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color:  #f0c518;
+}
+.btn.numbtn.on6 {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color:  #228900;
+}
+.btn.numbtn.on7 {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #ff9500;
+}
+.btn.numbtn.on8 {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color: #f28abd;
+}
+.btn.numbtn.on9 {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background-color:  #822bd9;
+}
+/* 全選択ボタン */
+.btn.numbtn_zen {
+  text-align: center;
+  border-radius: 4px;
+  width: 23.5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #0577b0;
+  color: #01445f;
+  background: #dff5f5;
+}
+/* 選択済みボタン */
+/*
+.btn.numbtn_zen.active{
+	color: #FFFFFF;
+    border: 1px solid #0086bf;
+    background: linear-gradient(#1989c1, @btn_border_color);
+    border-collapse: collapse;
+    cursor: default;
+}
+*/
+/* 消ボタン */
+.btn.numbtn_clr {
+  padding: 1px 2px;
+  margin: 1px 0 4px 0;
+  text-align: center;
+  border-collapse: collapse;
+  width: 23.5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #404040;
+  background: #dff5f5;
+  border: 2px solid #808080;
+}
+/* 大きいボタン(投票はこちら用のdiv) */
+div.bigbtn {
+  background-color: #f6f6f6;
+  border: 1px solid #888888;
+  padding: 2%;
+  box-shadow: inset 2px 2px 2px #FFFFFF;
+  width: 21%;
+  margin-left: 1%;
+  display: inline-block;
+  _display: inline;
+  height: 110px;
+  margin-top: 10px;
+}
+/* 大きいボタン(投票はこちら) */
+button.bigbtn,input[type="button"].bigbtn {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 15px;
+  background: linear-gradient(#fffbe5, #fff4bf);
+  color: #b05700;
+  border: 1px solid #ff7f00;
+}
+/* 共通ヘッダ・枠サイズ */
+.kyotuHeader {
+ min-width: 241px !important;
+ max-width: 262px !important;
+ width: 19% !important;
+}
+/* 共通ヘッダ・開催日程LIVE・投票ボタン */
+.btn.onbtn.top {
+  margin: 0;
+  padding: 0;
+  width: 46px;
+  height: 44px;
+  font-size: 16px;
+}
+/* 共通ヘッダ リンク部分 */
+li.btn_drop {
+  line-height: 70px;
+}
+/* 共通ヘッダ ヘッダ領域の固定 */
+.navipos{
+	right:auto;
+	left:auto;
+}
+/* 共通ヘッダ 今日・明日の開催 */
+button.btn_today_tomo {
+  WIDTH: 119px;
+}
+/* 共通ヘッダ レースなしメッセージ */
+.no_race_msg {
+  FONT-SIZE: 10pt;
+  HEIGHT: 18px;
+  WIDTH: 88px;
+  PADDING-TOP: 3px;
+  PADDING-LEFT: 3px;
+}
+/* 共通ヘッダ・フッタ 確認ダイアログ */
+.comheadfootdlg {
+  margin:10px 10px 10px 10px;
+  width:260px;
+}
+/* 共通ヘッダ・フッタ 確認ダイアログボタン領域 */
+div.comheadfootdlg_btn_area {
+  padding-top:10px;
+}
+/* 共通ヘッダ・フッタ 確認ダイアログボタン */
+button.comheadfootdlg {
+  width:100px;
+  margin:5px;
+}
+/* 共通フッタ トップページへ */
+div.toppageto {
+  padding-right: 20px;
+}
+/* ログイン */
+.login_input {
+  color: #000000;
+  padding: 1px 4px;
+}
+/* ログインボタン*/
+/*
+.btn.loginbtn{
+	text-align:center;
+	font-size: @base_font_size;
+	color:#FFFFFF;
+	border:1px solid #0086bf;
+	border-radius:4px;
+	background:linear-gradient(rgba(0,134,191,0.8), #0086bf);
+	line-height:1.0;
+}
+*/
+/* ▼▲ボタン */
+a.betbtn {
+  border-radius: 4px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+  text-decoration: none;
+  font-size: 10px;
+  padding: 0 4px 3px 4px;
+  color: #FFFFFF;
+  margin: 0;
+}
+/* オレンジ色 */
+button.orange,input[type="button"].orange{
+  border: 2px solid #E67300 !important;
+  background: #ffffb7 !important;
+  color: #E67300 !important;
+}
+button.orange:hover,input[type="button"].orange:hover{
+  background: #E67300 !important;
+  color: #ffffb7 !important;
+}
+
+/* 一押しボタンの色 */
+button.ichioshi,input[type="button"].ichioshi{
+  border: 2px solid #E67300 !important;
+  background: #ffffb7 !important;
+  color: #E67300 !important;
+}
+button.ichioshi:hover,input[type="button"].ichioshi:hover{
+  background: #E67300 !important;
+  color: #ffffb7 !important;
+}
+
+/*---------------------------------------------------*/
+/* カレンダー */
+/*---------------------------------------------------*/
+/* リンク領域の設定 */
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  color: #01445F;
+  font-weight: normal !important;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  background: none;
+  --background-color: #dff5f5 !important;
+}
+/* リンク文字の設定 */
+.ui-state-default.on,
+.ui-widget-content .ui-state-default.on,
+.ui-widget-header .ui-state-default.on {
+  color: #109DDA !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  border: none;
+}
+/* リンクhover時 */
+.ui-state-default.on:hover,
+.ui-widget-content .ui-state-default.on:hover,
+.ui-widget-header .ui-state-default.on:hover {
+  color: #fff !important;
+  background: linear-gradient(#0577b0, rgba(5, 119, 176, 0.9)) !important;
+  border: none;
+}
+.ui-datepicker .ui-datepicker-title,
+.ui-datepicker table {
+  font-size: 16px;
+}
+/* カレンダーのボタン定義 */
+a.ui-datepicker-prev,
+a.ui-datepicker-next {
+  padding: 14px 23px;
+  text-align: center;
+  border: 2px solid #0577b0;
+  border-radius: 4px;
+  background: #dff5f5;
+  cursor: pointer;
+}
+/* hover時の設定 */
+a.ui-datepicker-prev.ui-state-hover.ui-datepicker-prev-hover,
+a.ui-datepicker-next.ui-state-hover.ui-datepicker-prev-hover,
+a.ui-datepicker-prev.ui-state-hover.ui-datepicker-next-hover,
+a.ui-datepicker-next.ui-state-hover.ui-datepicker-next-hover {
+  margin: 1px;
+  background: #01445F;
+}
+span.ico_prev {
+  background-repeat: no-repeat;
+  background-image: url("../img/icon/ico_arrow_l.png");
+  background-position: center center;
+  width: 16px;
+  height: 16px;
+}
+span.ico_next {
+  background-repeat: no-repeat;
+  background-image: url("../img/icon/ico_arrow_r.png");
+  background-position: center center;
+  width: 16px;
+  height: 16px;
+}
+/* カレンダーのフォント */
+.ui-datepicker .ui-datepicker-title,
+.ui-datepicker table {
+  font-size: 16px;
+}
+ui-state-active,
+.ui-state-default.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  color: #333 !important;
+  font-weight: normal !important;
+  border-radius: 3px;
+  text-align: center;
+}
+.ui-state-active.on,
+.ui-state-default.ui-state-active.on,
+.ui-widget-content .ui-state-active.on,
+.ui-widget-header .ui-state-active.on {
+  color: #fff !important;
+  border: none;
+  background: linear-gradient(rgba(5, 119, 176, 0.9), #0577b0) !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+}
+.ui-state-active.on:hover,
+.ui-state-default.ui-state-active.on:hover,
+.ui-widget-content .ui-state-active.on:hover,
+.ui-widget-header .ui-state-active.on:hover {
+  color: #fff !important;
+  background: linear-gradient(#0577b0, rgba(5, 119, 176, 0.9)) !important;
+  border: none;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+}
+.ui-datepicker td span {
+  border: none;
+  border-radius: 3px;
+  background: none;
+  text-decoration: none;
+}
+.ui-datepicker td span.on {
+  color: #fff !important;
+  border: none;
+  background: linear-gradient(rgba(5, 119, 176, 0.9), #0577b0) !important;
+  font-weight: bold !important;
+}
+.ui-datepicker {
+  width: 100%;
+  padding: 0;
+}
+.ui-datepicker.ui-datepicker-title {
+  margin: 0;
+}
+.ui-widget-header {
+  display: block;
+  font-size: 14px;
+  border: none;
+  background: none;
+  color: #333;
+  font-weight: normal;
+  margin: 0;
+}
+.ui-datepicker-today {
+  font-weight: bold;
+}
+a.ui-datepicker-prev.ui-state-active,
+a.ui-datepicker-next.ui-state-active {
+  margin: 1px;
+  background: linear-gradient(#dff4ff, #ffffff);
+}
+span.ico_prev {
+  background-repeat: no-repeat;
+  background-image: url("../img/icon/ico_arrow_l.png");
+  background-position: center center;
+  width: 16px;
+  height: 16px;
+}
+span.ico_next {
+  background-repeat: no-repeat;
+  background-image: url("../img/icon/ico_arrow_r.png");
+  background-position: center center;
+  width: 16px;
+  height: 16px;
+}
+div#cal_block {
+  width: 100%;
+  padding: 10px 4px;
+  background-color: #F5F4F2;
+  border: 1px solid #E6E6E6;
+}
+div#cal_block button.day ,div#cal_block input[type="button"].day{
+  width: 48px;
+  padding: 3px 0 5px 0;
+}
+div#cal_block div#calendar_area {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #E9E8E7;
+  border: 1px solid #DDD;
+}
+div#cal_block div#calendar_area div.buline p {
+  line-height: 1.2;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #0880BD;
+}
+.ui-widget-content {
+  border: none;
+  background: none;
+  color: #333;
+}
+/*---------------------------------------------------*/
+/* 入力フォーム */
+/*---------------------------------------------------*/
+.input_color {
+  display: inline-block;
+  _display: inline;
+  /* bootstrap無効用 */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.input_color:hover {
+  background-color: #D6D8D9;
+  display: inline-block;
+  _display: inline;
+  /* bootstrap無効用 */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.input_color input:hover,
+.input_color select {
+  cursor: pointer;
+}
+input,
+input:hover,
+select,
+select:hover {
+  border: 2px solid #888888;
+}
+input[type="text"],
+input[type="text"]:hover {
+  cursor: text;
+  border: 2px solid #888888;
+}
+input[type="password"],
+input[type="password"]:hover {
+  cursor: text;
+  border: 2px solid #888888;
+}
+/*---------------------------------------------------*/
+/* バナー */
+/*---------------------------------------------------*/
+.bannerSlider {
+  position: relative;
+  padding: 0 80px;
+  overflow: hidden;
+}
+.bannerSlider .slides {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bannerSlider .slides li {
+  width: 175px;
+  float: left;
+  margin-right: 20px;
+}
+.bannerSlider .slides li:last-child {
+  margin-right: 0;
+}
+.bannerSlider .flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bannerSlider .flex-direction-nav li a {
+  width: 30px;
+  height: 44px;
+  display: table-cell;
+  border: 1px solid #0098d9;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e4f6ff));
+  background: -moz-linear-gradient(top, #ffffff, #e4f6ff);
+  background: linear-gradient(#ffffff, #e4f6ff);
+  border-radius: 5px;
+}
+.bannerSlider .flex-direction-nav li a:hover {
+  text-decoration: none;
+}
+.bannerSlider .flex-direction-nav .flex-nav-prev {
+  float: left;
+  margin-left: 20px;
+}
+.bannerSlider .flex-direction-nav .flex-nav-prev a {
+  padding-right: 2px;
+}
+.bannerSlider .flex-direction-nav .flex-nav-next {
+  float: right;
+  margin-right: 20px;
+}
+.bannerSlider .flex-direction-nav .flex-nav-next a {
+  padding-left: 2px;
+}
+select.selectoff {
+  color: #999999;
+  border: 1px solid #888888;
+  background-color: #e8e8e8;
+}
+table#member_mini tr td {
+  font-size: 12px;
+  border: 1px solid #888888;
+  padding: 2px 5px;
+  text-align: center;
+}
+td img {
+  display: inline-block;
+}
+div#main {
+  margin-top: 20px;
+}
+table#maintbl {
+  width: 99%;
+  min-width: 1263px;
+  max-width: 1349px;
+  margin-top: 20px;
+  border: none;
+}
+.main_center {
+  width: auto;
+  min-width: 780px;
+}
+table#maintbl tr td {
+  vertical-align: top;
+  border: none;
+}
+.main {
+  min-width: 1263px;
+  height: 100%;
+  margin: 20px auto;
+}
+img.shadow {
+  margin-top: -3px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.col-md-4 {
+  width: 33%;
+  float: left;
+}
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+ul.nav li.dropdown.active a,
+ul.nav li.dropdown a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+.navbar-nav > li > .dropdown-menu {
+  margin-top: -9px;
+}
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.93);
+  color: #FFFFFF;
+}
+.dropdown-menu > li > a {
+  color: #FFFFFF;
+}
+.race_title {
+  position: relative;
+  background-color: #FFFFFF;
+  background-image: url("../img/raceinfo_bg.png");
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 40px;
+  min-width: 1263px;
+}
+.race_place {
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+}
+.race_name {
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+}
+.raceinfo_icon {
+  margin: 0;
+}
+/*
+table#kai,table#kai2,table#kai3{
+	margin-right:2px;
+	background-color:#f5f4f2;
+	border:1px solid #e6e6e6;
+}
+table#kai tr td,table#kai2 tr td,table#kai3 tr td{line-height:0.6;vertical-align:middle;}
+table#kai tr.ht30,table#kai2 tr.ht30,table#kai3 tr.ht30{height:31px;}
+table#kai tr.ht42,table#kai2 tr.ht42,table#kai3 tr.ht42{height:42px;}
+*/
+/* 上記記述をht30をヘッダにht42をボディで定義し直す予定 */
+/* 暫定で値のみ変更 */
+table#kai tr.ht30,
+table#kai2 tr.ht30,
+table#kai3 tr.ht30 {
+  height: 40px;
+}
+table#kai tr.ht42,
+table#kai2 tr.ht42,
+table#kai3 tr.ht42 {
+  height: 50px;
+}
+table#kai tr.ht84,
+table#kai2 tr.ht84,
+table#kai3 tr.ht84 {
+  height: 84px;
+}
+table#kai tr.hb,
+table#kai2 tr.hb,
+table#kai3 tr.hb {
+  height: auto;
+}
+table#kai tr td.pp,
+table#kai2 tr td.pp,
+table#kai3 tr td.pp {
+  padding: 5px 0;
+}
+table#kai tr td table,
+table#kai2 tr td table,
+table#kai3 tr td table {
+  width: auto;
+}
+table#kai table#select_s0,
+table#kai2 table#select_s0,
+table#kai3 table#select_s0,
+table#kai table#select_s1,
+table#kai2 table#select_s1,
+table#kai3 table#select_s1,
+table#kai table#select_s2,
+table#kai2 table#select_s2,
+table#kai3 table#select_s2,
+table#kai table#select_s3,
+table#kai2 table#select_s3,
+table#kai3 table#select_s3,
+table#kai table#select_s4,
+table#kai2 table#select_s4,
+table#kai3 table#select_s4,
+table#kai table#select_s5,
+table#kai2 table#select_s5,
+table#kai3 table#select_s5,
+table#kai table#select_s6,
+table#kai2 table#select_s6,
+table#kai3 table#select_s6,
+table#kai table#select_s7,
+table#kai2 table#select_s7,
+table#kai3 table#select_s7 {
+  margin: 0 auto;
+}
+table#kai table#select_s0 tr td,
+table#kai2 table#select_s0 tr td,
+table#kai3 table#select_s0 tr td,
+table#kai table#select_s1 tr td,
+table#kai2 table#select_s1 tr td,
+table#kai3 table#select_s1 tr td,
+table#kai table#select_s2 tr td,
+table#kai2 table#select_s2 tr td,
+table#kai3 table#select_s2 tr td,
+table#kai table#select_s3 tr td,
+table#kai2 table#select_s3 tr td,
+table#kai3 table#select_s3 tr td,
+table#kai table#select_s4 tr td,
+table#kai2 table#select_s4 tr td,
+table#kai3 table#select_s4 tr td,
+table#kai table#select_s5 tr td,
+table#kai2 table#select_s5 tr td,
+table#kai3 table#select_s5 tr td,
+table#kai table#select_s6 tr td,
+table#kai2 table#select_s6 tr td,
+table#kai3 table#select_s6 tr td,
+table#kai table#select_s7 tr td,
+table#kai2 table#select_s7 tr td,
+table#kai3 table#select_s7 tr td {
+  padding: 0px;
+  line-height: 1.0;
+  text-align: center;
+  vertical-align: middle;
+}
+table#kai table#select_s0 tr td.bgc1,
+table#kai2 table#select_s0 tr td.bgc1,
+table#kai3 table#select_s0 tr td.bgc1,
+table#kai table#select_s1 tr td.bgc1,
+table#kai2 table#select_s1 tr td.bgc1,
+table#kai3 table#select_s1 tr td.bgc1,
+table#kai table#select_s2 tr td.bgc1,
+table#kai2 table#select_s2 tr td.bgc1,
+table#kai3 table#select_s2 tr td.bgc1,
+table#kai table#select_s3 tr td.bgc1,
+table#kai2 table#select_s3 tr td.bgc1,
+table#kai3 table#select_s3 tr td.bgc1,
+table#kai table#select_s4 tr td.bgc1,
+table#kai2 table#select_s4 tr td.bgc1,
+table#kai3 table#select_s4 tr td.bgc1,
+table#kai table#select_s5 tr td.bgc1,
+table#kai2 table#select_s5 tr td.bgc1,
+table#kai3 table#select_s5 tr td.bgc1,
+table#kai table#select_s6 tr td.bgc1,
+table#kai2 table#select_s6 tr td.bgc1,
+table#kai3 table#select_s6 tr td.bgc1,
+table#kai table#select_s7 tr td.bgc1,
+table#kai2 table#select_s7 tr td.bgc1,
+table#kai3 table#select_s7 tr td.bgc1 {
+  background-color: #dfdfdf;
+  text-align: center;
+}
+table#kai table#select_s0 tr td.bgc2,
+table#kai2 table#select_s0 tr td.bgc2,
+table#kai3 table#select_s0 tr td.bgc2,
+table#kai table#select_s1 tr td.bgc2,
+table#kai2 table#select_s1 tr td.bgc2,
+table#kai3 table#select_s1 tr td.bgc2,
+table#kai table#select_s2 tr td.bgc2,
+table#kai2 table#select_s2 tr td.bgc2,
+table#kai3 table#select_s2 tr td.bgc2,
+table#kai table#select_s3 tr td.bgc2,
+table#kai2 table#select_s3 tr td.bgc2,
+table#kai3 table#select_s3 tr td.bgc2,
+table#kai table#select_s4 tr td.bgc2,
+table#kai2 table#select_s4 tr td.bgc2,
+table#kai3 table#select_s4 tr td.bgc2,
+table#kai table#select_s5 tr td.bgc2,
+table#kai2 table#select_s5 tr td.bgc2,
+table#kai3 table#select_s5 tr td.bgc2,
+table#kai table#select_s6 tr td.bgc2,
+table#kai2 table#select_s6 tr td.bgc2,
+table#kai3 table#select_s6 tr td.bgc2,
+table#kai table#select_s7 tr td.bgc2,
+table#kai2 table#select_s7 tr td.bgc2,
+table#kai3 table#select_s7 tr td.bgc2 {
+  background-color: #ebebeb;
+  text-align: center;
+}
+table#kai table#select_s0 tr td.bgc3,
+table#kai2 table#select_s0 tr td.bgc3,
+table#kai3 table#select_s0 tr td.bgc3,
+table#kai table#select_s1 tr td.bgc3,
+table#kai2 table#select_s1 tr td.bgc3,
+table#kai3 table#select_s1 tr td.bgc3,
+table#kai table#select_s2 tr td.bgc3,
+table#kai2 table#select_s2 tr td.bgc3,
+table#kai3 table#select_s2 tr td.bgc3,
+table#kai table#select_s3 tr td.bgc3,
+table#kai2 table#select_s3 tr td.bgc3,
+table#kai3 table#select_s3 tr td.bgc3,
+table#kai table#select_s4 tr td.bgc3,
+table#kai2 table#select_s4 tr td.bgc3,
+table#kai3 table#select_s4 tr td.bgc3,
+table#kai table#select_s5 tr td.bgc3,
+table#kai2 table#select_s5 tr td.bgc3,
+table#kai3 table#select_s5 tr td.bgc3,
+table#kai table#select_s6 tr td.bgc3,
+table#kai2 table#select_s6 tr td.bgc3,
+table#kai3 table#select_s6 tr td.bgc3,
+table#kai table#select_s7 tr td.bgc3,
+table#kai2 table#select_s7 tr td.bgc3,
+table#kai3 table#select_s7 tr td.bgc3 {
+  background-color: #e9e8e6;
+  text-align: center;
+}
+table#kai table#select_s0 tr td.bgc4,
+table#kai2 table#select_s0 tr td.bgc4,
+table#kai3 table#select_s0 tr td.bgc4,
+table#kai table#select_s1 tr td.bgc4,
+table#kai2 table#select_s1 tr td.bgc4,
+table#kai3 table#select_s1 tr td.bgc4,
+table#kai table#select_s2 tr td.bgc4,
+table#kai2 table#select_s2 tr td.bgc4,
+table#kai3 table#select_s2 tr td.bgc4,
+table#kai table#select_s3 tr td.bgc4,
+table#kai2 table#select_s3 tr td.bgc4,
+table#kai3 table#select_s3 tr td.bgc4,
+table#kai table#select_s4 tr td.bgc4,
+table#kai2 table#select_s4 tr td.bgc4,
+table#kai3 table#select_s4 tr td.bgc4,
+table#kai table#select_s5 tr td.bgc4,
+table#kai2 table#select_s5 tr td.bgc4,
+table#kai3 table#select_s5 tr td.bgc4,
+table#kai table#select_s6 tr td.bgc4,
+table#kai2 table#select_s6 tr td.bgc4,
+table#kai3 table#select_s6 tr td.bgc4,
+table#kai table#select_s7 tr td.bgc4,
+table#kai2 table#select_s7 tr td.bgc4,
+table#kai3 table#select_s7 tr td.bgc4 {
+  background-color: #f5f4f2;
+  text-align: center;
+}
+table#kai tr.tline,
+table#kai2 tr.tline,
+table#kai3 tr.tline {
+  border-top: 1px solid #888888;
+  -webkit-box-shadow: 0 2px 1px #FFFFFF;
+  -moz-box-shadow: 0 2px 1px #FFFFFF;
+  box-shadow: 0 2px 1px #ffffff;
+}
+table#kai tr td.kumisuu,
+table#kai2 tr td.kumisuu,
+table#kai3 tr td.kumisuu,
+table#kai tr td.kingaku,
+table#kai2 tr td.kingaku,
+table#kai3 tr td.kingaku {
+  font-size: 12px;
+  text-align: left;
+  padding: 8px 0 0 0;
+  line-height: 1.0;
+}
+table#kai tr td.kumisuu div.kumi,
+table#kai2 tr td.kumisuu div.kumi,
+table#kai3 tr td.kumisuu div.kumi,
+table#kai tr td.kingaku div.kumi,
+table#kai2 tr td.kingaku div.kumi,
+table#kai3 tr td.kingaku div.kumi {
+  margin: 0 5px;
+}
+table#kai tr td.kumisuu span.title,
+table#kai2 tr td.kumisuu span.title,
+table#kai3 tr td.kumisuu span.title,
+table#kai tr td.kingaku span.title,
+table#kai2 tr td.kingaku span.title,
+table#kai3 tr td.kingaku span.title {
+  padding-left: 5px;
+}
+table#kai tr td.kumisuu,
+table#kai2 tr td.kumisuu,
+table#kai3 tr td.kumisuu {
+  background-color: #ebebeb;
+  border-top: 1px solid #FFFFFF;
+}
+table#kai tr td.k2t,
+table#kai2 tr td.k2t,
+table#kai3 tr td.k2t {
+  padding: 10px 0;
+}
+table#kai tr td.kaketype,
+table#kai2 tr td.kaketype,
+table#kai3 tr td.kaketype {
+  text-align: center;
+  background-color: #ffffff;
+}
+table#kai2 {
+  border: none;
+}
+i.icon-arrow {
+  color: #666666;
+  font-size: 18px;
+  vertical-align: middle;
+  padding-left: 2px;
+}
+div#kaime_link {
+  padding: 6px 0;
+  background: url("../img/icon/page_carl.png") no-repeat right bottom;
+}
+table#kaime_table {
+  margin: 0 0 0 5px;
+  padding: 0;
+  line-height: 1.3;
+}
+table#kaime_table tr td {
+  padding: 0;
+  padding-right: 7px;
+}
+table#kaime_table tr td:last-child {
+  padding: 0;
+}
+table#oddstime td.caution,
+#printing_tbl td.caution {
+  background-color: #F6F6F6;
+  border: 1px solid #888888;
+  padding: 5px 0 5px 5px;
+  /* font-size:12px;*/
+  color: #666666;
+}
+table#oddstime td.caution {
+  color: #333333;
+}
+div#history {
+  margin: 20px 0 0 0;
+}
+span.on0 {
+  color: #666666;
+}
+div.tooltipBox {
+  position: relative;
+  z-index: 999;
+}
+div.popupTable {
+  background-color: #EEF0F7;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+  padding: 5px 10px 15px 10px;
+  border: 2px solid #0670b1;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+div.popupTable p {
+  font-weight: bold;
+  margin: 5px;
+  padding: 0;
+  color: #0670b1;
+  text-decoration: none;
+}
+table.popupInner {
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 2px solid #999999;
+  font-size: 12px;
+  text-align: center;
+}
+table.popupInner th,
+table.popupInner td {
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #999999;
+}
+table.popupInner th {
+  background-color: #D7F6F5;
+}
+table.popupInner td.ff {
+  background-color: #FADDF1;
+}
+table.popupInner td.dd {
+  background-color: #EBFFE5;
+}
+table.popupInner.narrow th,
+table.popupInner.narrow td {
+  padding: 1px 2px;
+}
+table.popupInner.narrow2 th,
+table.popupInner.narrow2 td {
+  padding: 0;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=30);
+  opacity: 0.05;
+}
+.iblock {
+  display: inline-block;
+}
+a.memlink:hover {
+  text-decoration: none;
+}
+a.memlink:hover div.pickupRaceText {
+  background-color: #F0F0F0;
+}
+a.memlink:hover div.raceListText {
+  background-color: #F0F0F0;
+}
+div#topbtns {
+  width: 100%;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+div#topbtns.raceinfo {
+  background-color: #F0F0F0;
+  margin: 0 auto;
+}
+div#topbtns.bbottom {
+  border-bottom: 1px solid #888888;
+}
+div#topbtns div.topbtns_inner {
+  margin: 0 auto;
+  min-width: 1263px;
+  padding: 10px 10px 29px 25px;
+}
+#topdbtn_1,
+#topdbtn_2,
+#hcomRaceDiv {
+  width: 100%;
+  padding: 10px 0 0 0;
+}
+#topdbtn_1 ul,
+#topdbtn_2 ul,
+#hcomRaceDiv ul {
+  margin: 0;
+}
+#topdbtn_1 ul li,
+#topdbtn_2 ul li,
+#hcomRaceDiv ul li {
+  width: 16%;
+  margin: 0;
+  padding: 10px 6px;
+  min-width: 200px;
+  max-width: 211px;
+  background-color: #FFFFFF;
+  border: 1px solid #0670b1;
+  border-radius: 4px;
+  clear: both;
+}
+#topdbtn_1 ul li p.place,
+#topdbtn_2 ul li p.place,
+#hcomRaceDiv ul li p.place {
+  width: 86px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  color: #404040;
+  font-weight: bold;
+}
+#topdbtn_1 ul li img,
+#topdbtn_2 ul li img,
+#hcomRaceDiv ul li img {
+  margin-right: 1px;
+}
+
+#hcomnoRaceMsg {
+  height: 50%;
+  left:100%;
+  margin-left: 550px;
+}
+
+
+
+div#info_block {
+  width: 1280px;
+  margin: 0 auto;
+  vertical-align: top;
+}
+div#margin_20_10_0_20 {
+  margin: 20px 10px 0 20px;
+}
+div#margin_20_0_0_20 {
+  margin: 20px 0 0 20px;
+}
+div#margin_0_0_0_0 {
+  margin: 0 0 0 0;
+}
+.lh10 {
+  line-height: 1.0;
+}
+.lh12 {
+  line-height: 1.2;
+}
+.lh15 {
+  line-height: 1.5;
+}
+.lh17 {
+  line-height: 1.7;
+}
+.lh20 {
+  line-height: 2.0;
+}
+.odds_cart_btn,
+.odds_cart_edit_btn {
+  width: 100px !important;
+  height: 24px !important;
+  vertical-align: middle !important;
+  text-align: middle !important;
+}
+table#table_seirituyotei tr th {
+  padding: 2px 4px;
+  background-color: #DDDDDD;
+  font-weight: bold;
+  text-align: center;
+}
+table#table_seirituyotei tr td {
+  padding: 2px 4px;
+  background-color: #FFFFFF;
+  font-weight: normal;
+  text-align: center;
+}
+table#table_seirituyotei tr td.al-r {
+  text-align: right;
+}
+table#table_seirituyotei tr td.bold {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+table.seiritu {
+  width: 100%;
+  font-size: 12px;
+  background-color: #FFFFFF;
+  border: 1px solid #888888;
+  color: #333333;
+}
+table.seiritu td {
+  padding: 2px;
+  border: 1px solid #e6e6e6;
+}
+table.seiritu td.s1 {
+  background-color: #d9d7ce;
+}
+table.seiritu td.s2 {
+  background-color: #f5f5f5;
+}
+table.popupInner.tenkai td {
+  text-align: left;
+}
+table.popupInner.tenkai td span {
+  padding: 0 3px;
+}
+table.popupInner.tenkai td span.top {
+  font-weight: bold;
+  color: #006EFF;
+}
+div#race_member_table_8,
+div#race_member_table_9 {
+  height: 506px;
+  border: 1px solid #888888;
+  overflow: auto;
+  padding: 10px;
+}
+div#race_member_table_5_cut,
+div#race_member_table_2_cut {
+  width: 620px;
+  height: auto;
+  overflow: auto;
+}
+div#race_member_table_5_cut table.race_member,
+div#race_member_table_2_cut table.race_member {
+  width: 1784px;
+}
+div#race_member_table_5_cut span.fblue:hover,
+div#race_member_table_2_cut span.fblue:hover {
+  text-decoration: underline;
+}
+div#bikou_over_f {
+  overflow: auto;
+  width: 99%;
+  height: 340px;
+  border: 2px solid #999999;
+  font-size: 12px;
+}
+table#race_tenkai tr td {
+  text-align: left;
+  padding: 0 0 0 5px;
+}
+div.biko_tbl {
+  width: 100%;
+  height: 250px;
+  display: table;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #888888;
+}
+div.biko_tbl p {
+  display: table-cell;
+}
+#powerTip {
+  cursor: default;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 2147483647;
+}
+table#member_mini tr td.bet {
+  padding: 2px 5px;
+}
+table#oddstime {
+  height: 89px;
+}
+table#oddstime tr.bd {
+  border-top: 1px solid #888888;
+}
+table#oddstime td {
+  border: none;
+  font-size: 12px;
+}
+div#bet_info {
+  height: 97px;
+}
+div#bet_info table.bet_info_table {
+  width: 100%;
+  font-size: 12px;
+  background-color: #FFFFFF;
+}
+div#bet_info table.bet_info_table tr td {
+  border: 1px solid #888888;
+  padding: 7px 4px;
+}
+div#bet_info table.bet_info_table td.bgg {
+  background-color: #f5f5f5;
+}
+div#bet_right,
+div#bet_right2 {
+  float: left;
+  width: 388px;
+  font-size: 14px;
+}
+table.race_info_table {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+table.race_info_table thead.type01 {
+  background-color: #d9d7ce;
+}
+table.race_info_table thead.type01 td {
+  text-align: center;
+}
+table.race_info_table td {
+  font-weight: normal;
+  border: 1px solid #888888 !important;
+  padding: 4px;
+  text-align: left;
+  line-height: 1.5;
+  border-collaspe: collaspe;
+}
+table.race_info_table td p {
+  margin: 0 !important;
+}
+div#syaban_link {
+  --width: 100%;
+  margin-top: 10px;
+}
+div#odds_box {
+  max-width: 820px;
+  height: 338px;
+  overflow: auto;
+}
+table#race_no1_9 {
+  width: 100%;
+  font-size: 12px;
+  border: 1px solid #888888;
+  background-color: #eeeeee;
+}
+table#race_no1_9 td {
+  padding: 6px 4px 6px 3px;
+}
+table#odds_table_1,
+table#odds_table_2,
+table#odds_table_3,
+table#odds_table_4,
+table#odds_table_5,
+table#odds_table_6,
+table#odds_table_7,
+table#odds_table_8,
+table#odds_table_9 {
+  min-width: 728px;
+  width: 100%;
+}
+table#odds_table_1 tr td,
+table#odds_table_2 tr td,
+table#odds_table_3 tr td,
+table#odds_table_4 tr td,
+table#odds_table_5 tr td,
+table#odds_table_6 tr td,
+table#odds_table_7 tr td,
+table#odds_table_8 tr td,
+table#odds_table_9 tr td {
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #888888;
+  text-align: center;
+}
+table#odds_table_1 tr th,
+table#odds_table_2 tr th,
+table#odds_table_3 tr th,
+table#odds_table_4 tr th,
+table#odds_table_5 tr th,
+table#odds_table_6 tr th,
+table#odds_table_7 tr th,
+table#odds_table_8 tr th,
+table#odds_table_9 tr th {
+  font-size: 13px;
+  border: 1px solid #888888;
+  text-align: center;
+}
+.odds_koumoku_long {
+  width: 15px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.odds_koumoku_short {
+  width: 15px;
+}
+.hr_border {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: 0;
+  border-top: 0px solid #666666;
+  width: 100%;
+}
+/*
+p.dash{
+	width:100%;
+	height:10px;
+	margin:0 0 10px 0;
+	border-bottom:1px dashed #0670b1;
+}
+*/
+div.betset,
+button#set_init ,input[type="button"]#set_init{
+  margin: 5px 2px 10px 2px;
+}
+table#shikin03 td {
+  text-align: center;
+}
+div#loginbox1 .sidebox4_title {
+  background-color: #eef1f2;
+  color: #404040;
+  padding: 5px 0;
+  text-align: left;
+  padding-left: 10px;
+}
+span.plus,
+tr.tplus {
+  display: none;
+}
+table.tejun th,
+table.tejun td {
+  border-left: 0;
+  border-right: 0;
+}
+table.tejun_bar,
+table.tejun_bar td {
+  border: 0;
+  padding: 0;
+  font-size: 9px;
+}
+table.tejun_bar {
+  width: 500px;
+}
+table.tejun_bar td {
+  padding: 3px 0;
+}
+table.tejun_bar td.bar_blue {
+  background-color: #b778ff;
+}
+table.tejun_bar td.bar_yellow {
+  background-color: #ffe477;
+}
+table.tejun_bar td.bar_green {
+  background-color: #98ff76;
+}
+table.tejun_bar td.bar_orange {
+  background-color: #ffb327;
+}
+table.tejun_bar td span {
+  color: #FFFFFF;
+  padding: 1px 0;
+}
+table.tejun_bar td.bar_blue span {
+  background-color: #560cab;
+}
+table.tejun_bar td.bar_yellow span {
+  background-color: #b59204;
+}
+table.tejun_bar td.bar_green span {
+  background-color: #2caf01;
+}
+table.tejun_bar td.bar_orange span {
+  background-color: #bf7e05;
+}
+table.narabi_hannrei th.s1,
+table.narabi_hannrei th.s2,
+table.narabi_hannrei th.s3,
+table.narabi_hannrei th.s4 {
+  color: #ffffff;
+}
+table.narabi_hannrei th.s1 {
+  background-color: #ac165e;
+}
+table.narabi_hannrei th.s2 {
+  background-color: #1f3e7c;
+}
+table.narabi_hannrei th.s3 {
+  background-color: #6b3700;
+}
+table.narabi_hannrei th.s4 {
+  background-color: #3d692f;
+}
+table.narabi_hannrei td {
+  text-align: left;
+}
+table.chokkin_hannrei td {
+  text-align: left;
+}
+.close {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+.opbtn {
+  padding: 8px 10px !important;
+}
+#bet_right3 p.title {
+  color: #0670b1;
+  font-weight: bold;
+  font-size: 16px;
+}
+#bet_right3 div.racetitle {
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #0670b1;
+}
+table#rhistory thead td {
+  text-align: center;
+  padding: 2px 0;
+}
+table#rhistory tbody td {
+  text-align: center;
+  padding: 2px;
+}
+.race_odds_boxx {
+  border: 1px solid #888888;
+}
+.race_odds_intro {
+  font-size: 12px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+#cleft,
+#ccenter,
+#cright {
+  margin-bottom: 20px;
+}
+#ccenter {
+  width: auto;
+}
+.nodeco,
+.nodeco:hover {
+  text-decoration: none;
+}
+table.race_member td.rborder,
+table.kimarite td.rborder {
+  border-right: 2px solid #999999 !important;
+}
+div.kumisuu {
+  font-size: 12px;
+  width: 88px;
+  margin: 10px 4px 4px 4px;
+}
+div.kumisuu div.kumi_num {
+  display: inline-block;
+  width: 48px;
+  text-align: right;
+  font-weight: bold;
+  border-bottom: 1px solid #999999;
+  padding-bottom: 3px;
+  margin: 2px;
+}
+div.kumisuu.off {
+  color: #999999;
+}
+img.event_icon {
+  margin-right: -3px;
+}
+/*---------------------------------------------------*/
+/* レース情報 */
+/*---------------------------------------------------*/
+/* レース情報 */
+table.yosou01 {
+  background-color: #f5f4f2;
+  border: 1px solid #e6e6e6;
+  color: #333333;
+}
+table.yosou01 td {
+  padding: 2px;
+}
+table.yosou01 td.s1 {
+  background-color: #e6e6e6;
+}
+table.yosou01 td.s2 {
+  background-color: #1f3e7c;
+  color: #FFFFFF;
+}
+table.yosou01 td.s3 {
+  background-color: #3d692f;
+  color: #FFFFFF;
+}
+table.yosou01 td.s4 {
+  background-color: #f5f4f2;
+  color: #b8b7b5;
+}
+table.yosou01 td.s5 {
+  background-color: #e1eff5;
+}
+table.yosou02 {
+  background-color: #f5f4f2;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin: 2px;
+}
+table.yosou02 td {
+  border: 1px solid #ffffff !important;
+}
+table.yosou02 td.nob {
+  font-weight: normal;
+  border: 0px solid #ffffff !important;
+}
+/*---------------------------------------------------*/
+/* 開催共通ヘッダ(PC0201) */
+/*---------------------------------------------------*/
+/* 選手写真領域の定義 */
+.players {
+  min-width: 1263px;
+}
+ul#players {
+  float: left;
+  width: 100%;
+  padding: 10px 0 5px 30px;
+  display: table;
+  table-layout: fixed;
+  margin-left: 0px;
+}
+ul#players div {
+  margin: 2px 0;
+}
+#playerPhotos {
+  width: 70%;
+}
+/* 選手写真の定義 */
+ul#players li {
+  display: table-cell;
+  padding-left: 0px;
+  padding-right: 4px;
+}
+.face {
+  border: 1px solid #888888;
+  height: 110px;
+  width: auto;
+}
+.face:hover {
+  border: 1px solid #0086bf;
+}
+/* 選手写真の最大横幅設定(max-image-sizeを240 * 204と定め、108+2 * 94+2) */
+ul#players div.mxw {
+  max-width: 96px;
+  margin: 0;
+}
+/* 選手写真なしの場合にimgタグに設定するクラス定義（横幅固定化） */
+ul#players img.deffw {
+  width: 83px
+}
+/* 選手写真に付属するアイコン関連 */
+ul#players li div.rtv {
+  position: relative;
+}
+/* 一押し・好相性（テーブル） */
+table.ichitbl {
+  margin: 0 auto;
+}
+/* 一押し・好相性（td） */
+td.ichitd {
+  padding: 4px;
+}
+/* 一押し */
+ul#players li img.ichi1 {
+  position: absolute;
+  right: 35%;
+  bottom: 5px;
+}
+/* 好相性 */
+ul#players li img.ichi2 {
+  position: absolute;
+  right: 15%;
+  bottom: 5px;
+}
+/*凡例用div*/
+.expdiv {
+  height: 110px;
+  background-color: #F5F4F2;
+  border: 1px solid #888888;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  width: 7%;
+}
+/* 開催共通ヘッダタイトル */
+div.titlehh {
+  padding-top: 5px;
+  padding-left: 30px;
+}
+/* 開催共通ヘッダタイトル（インタビュー部） */
+div.intvtitle {
+  padding-top: 7px;
+  padding-left: 20px;
+}
+/* 開催共通ヘッダレースボタン部領域（出走表、結果一覧ボタン含む） */
+div.hhracediv {
+  margin-top: 10px;
+  margin-right: 15px;
+}
+/* 開催共通ヘッダレースボタン部領域 */
+div.hhracebtn {
+  margin-bottom: 15px;
+}
+/* 開催共通ヘッダレースボタン */
+button.hhracebtn {
+  width: 58px;
+}
+/* 開催共通ヘッダボタンサイズ(レース以外) */
+.btn_sz_hh {
+  width: 128px;
+}
+/* 開催共通ヘッダ：レースタイトル（太幅） */
+div.hhracetitle_thick {
+  background-image: url("../img/raceinfo_hh_bg.png")!important;
+  height: 70px!important;
+}
+/* 開催共通ヘッダ：優勝者インタビュー */
+div.hh_intvtitle {
+  padding-top: 7px;
+  padding-right: 20px;
+}
+/* 開催共通ヘッダ：優勝者インタビュー */
+td.hh_interview {
+  padding: 0px 8px;
+}
+/* 開催共通ヘッダ：優勝者インタビュー */
+img.hh_interview {
+  padding-right: 5px;
+}
+/* 開催共通ヘッダ：場情報 */
+div.hhjoinfo {
+  padding-top: 5px;
+  padding-left: 30px;
+}
+/* 上部タブ表示位置(6日以下) */
+ul.nav-6less {
+  margin-top: 5px;
+}
+/* 上部タブ表示位置(7日以上) */
+ul.nav-7over {
+  margin-top: 1px;
+}
+/* 上部タブ表示位置(7日以上) */
+a.nav-7over {
+  padding:5px 8px!important;
+}
+/* 上部タブ表示位置(7日以上) */
+span.nav-7over {
+  font-size: 15px!important;
+}
+/* 上部タブmargin */
+a.hh-nav {
+  margin: 5px 3px 0 3px!important;
+}
+/* 上部ボタン表示位置(6日以下) */
+div.upbtn-6less {
+  margin-top: -42px;
+  margin-right: 15px;
+}
+/* 上部ボタン表示位置(7日以上) */
+div.upbtn-7over {
+  margin-top: 6px;
+  margin-right: 15px;
+}
+/* 下部エラー表示領域(outer) */
+div.underr-outer {
+  height: 100px;
+  margin-top: 8px;
+  width: 100%;
+}
+/* 下部エラー表示領域(inner) */
+table.underr-inner {
+  height: 100%;
+  width: 100%;
+}
+/* 上部エラー表示領域(outer) */
+div.hhErrMsg {
+  align: center;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+/* 選手名（4文字表示対応） */
+.w110pt {
+  width: 110px!important;
+}
+/*---------------------------------------------------*/
+/* リンク関連 */
+/*---------------------------------------------------*/
+a {
+  color: #0076A8;
+  text-decoration: none;
+}
+a:hover {
+  color: #1d55bf;
+  text-decoration: underline;
+}
+/* リンク用下線 */
+.txt_underline {
+  text-decoration: underline;
+  text-underline-position: below;
+}
+.txt_underline:hover {
+  cursor: pointer;
+}
+/*---------------------------------------------------*/
+/* disabledの定義
+/*---------------------------------------------------*/
+/* bootstrap無効用定義 */
+fieldset[disabled] input[type=checkbox],
+fieldset[disabled] input[type=radio],
+input[type=checkbox].disabled,
+input[type=checkbox][disabled],
+input[type=radio].disabled,
+input[type=radio][disabled] {
+  cursor: default;
+}
+/* aのdisabledの定義 */
+a.disabled:hover {
+  color: inherit;
+  text-decoration: none;
+}
+/* p,divのdisabledの定義(属性にdisabledを定義してください。) */
+span.disabled,
+span.disabled:hover,
+p.disabled,
+p.disabled:hover,
+div.disabled,
+div.disabled:hover {
+  background-color: inherit;
+  cursor: default;
+  pointer-events: none;
+}
+/* ボタンのdisabled定義(属性もしくはclassにdisabledを定義してください。) */
+.btn:disabled,
+.btn[disabled],
+fieldset[disabled] .btn,
+.btn.disabled {
+  opacity: 0.25;
+  cursor: default;
+  pointer-events: none;
+}
+/* チェックボックス等のdisable定義(属性にdisabledを定義してください。) */
+input:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+/* その他のdisabled定義(classにdisabledを定義してください。) */
+.disabled {
+  opacity: 0.25;
+  pointer-events: none;
+  cursor: default;
+}
+/* 入力フォームのdisabled定義(classにdisabledを定義してください。) */
+.input_color.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 1;
+}
+/* タブのdisabled定義(classにdisabledを定義してください。) */
+.nav-tabs > li.disabled > a,
+.nav-tabs > li.disabled > a:focus,
+.nav-tabs > li.disabled > a:hover {
+  cursor: default;
+  pointer-events: none;
+}
+/* ボタン関連 */
+/* 通常ボタン */
+.btn.onbtn[disabled]:hover,.btn.onbtn.disabled:hover {
+  border: 2px solid #0577b0;
+  color: #01445f;
+  background: #dff5f5;
+
+}
+/* 通常ボタンactive */
+/* 終了したレースボタン */
+.btn.onbtn.fin[disabled]:hover,.btn.onbtn.fin.disabled:hover {
+  background-color: #ebebeb;
+  color: #01445f;
+}
+/* オッズボタン */
+.btn.numbtn.on1[disabled]:hover,.btn.numbtn.on1.disabled:hover {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background: linear-gradient(#ffffff, #ffffff);
+}
+.btn.numbtn.on2[disabled]:hover,.btn.numbtn.on2.disabled:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  background: linear-gradient(#404040, #404040);
+}
+.btn.numbtn.on3[disabled]:hover,.btn.numbtn.on3.disabled:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background: linear-gradient(#e61717, #e61717);
+}
+.btn.numbtn.on4[disabled]:hover,.btn.numbtn.on4.disabled:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background: linear-gradient(#e61717, #e61717);
+}
+.btn.numbtn.on5[disabled]:hover,.btn.numbtn.on5.disabled:hover {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background: linear-gradient(#f0c518, #f0c518);
+}
+.btn.numbtn.on6[disabled]:hover,.btn.numbtn.on6.disabled:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background: linear-gradient(#228900, #228900);
+}
+.btn.numbtn.on7[disabled]:hover,.btn.numbtn.on7.disabled:hover {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background: linear-gradient(#ff9500, #ff9500);
+}
+.btn.numbtn.on8[disabled]:hover,.btn.numbtn.on8.disabled:hover {
+  color: #404040;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background: linear-gradient(#f28abd, #f28abd);
+}
+.btn.numbtn.on9[disabled]:hover,.btn.numbtn.on9.disabled:hover {
+  color: #ffffff;
+  border: 2px solid #404040;
+  font-weight: bold;
+  background: linear-gradient(#822bd9, #822bd9);
+}
+/* 全選択ボタン */
+.btn.numbtn_zen[disabled]:hover,.btn.numbtn_zen.disabled:hover {
+  border: 2px solid #0577b0;
+  color: #01445f;
+  background: #dff5f5;
+}
+/* 消ボタン */
+.btn.numbtn_clr[disabled]:hover,.btn.numbtn_clr.disabled:hover {
+  color: #404040;
+  background: #dff5f5;
+  border: 2px solid #808080;
+}
+/* 大きいボタン(投票はこちら) */
+button.bigbtn:hover,input[type="button"][disabled]:hover,button.bigbtn:hover,input[type="button"].disabled:hover {
+  background: linear-gradient(#fffbe5, #fff4bf);
+  color: #b05700;
+  border: 1px solid #ff7f00;
+}
+/* オッズボタン */
+.btn.numbtn[disabled]:hover,.btn.numbtn.disabled:hover {
+  background: #dff5f5;
+}
+/* ログインボタン*/
+/*
+.btn.loginbtn[disabled]:hover,.btn.loginbtn.disabled:hover{
+	background:linear-gradient(rgba(0,134,191,0.8), #0086bf);
+}
+*/
+/* ▼▲ボタン */
+a.betbtn[disabled]:hover,a.betbtn.disabled:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+  color: #FFFFFF;
+}
+.btn.onbtn.jupdbtn {
+  padding: 5px 15px;
+  margin: 5px;
+}
+/*---------------------------------------------------*/
+/* タブ */
+/*---------------------------------------------------*/
+.nav-tabs {
+  border-bottom: 1px solid #0880bd;
+}
+.nav-tabs > li {
+  font-weight: bold;
+  font-size: 16px;
+}
+/* 未選択時 */
+.nav-tabs > li > a,
+.nav-tabs > li > a:focus,
+.nav-tabs > li > a:hover {
+  border-right: 1px solid #888888;
+  border-left: 1px solid #888888;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #0880BD;
+  position: relative;
+  display: block;
+  margin: 5px 5px 0 5px;
+  padding: 5px 15px 0 15px;
+  background-color: #F0F0F0;
+  border-radius: 4px 4px 0 0;
+  text-decoration: none;
+  height: 38px;
+}
+/* 選択時 */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  cursor: default;
+  color: #404040;
+  background-color: #FFFFFF;
+  border-right: 1px solid #0880BD;
+  border-left: 1px solid #0880BD;
+  border-top: 1px solid #0880BD;
+  border-bottom: 1px solid #FFFFFF;
+  height: 38px;
+  text-decoration: none;
+}
+@media (max-width: 1354px) {
+  .nav-tabs > li > a,
+  .nav-tabs > li > a:focus,
+  .nav-tabs > li > a:hover {
+    padding: 5px 9px 0 9px;
+  }
+}
+/*---------------------------------------------------*/
+/* 車番色 */
+/*---------------------------------------------------*/
+/* 小さいサイズの車番枠 */
+div.snum {
+  width: 15px;
+  height: 22px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+  margin: auto auto;
+  border: 1px solid #666;
+  border-collapse: collapse;
+  border-radius: 3px;
+  display: inline-block;
+  _display: inline;
+}
+/* 大きいサイズの車番枠 */
+div.lnum {
+  width: 22px;
+  height: 22px;
+  font-size: 14px;
+  text-align: center;
+  margin: auto auto;
+  border: 1px solid #666;
+  border-collapse: collapse;
+  border-radius: 3px;
+  display: inline-block;
+  _display: inline;
+}
+/* 白カラー(空白時に使用) */
+.base_color_0 {
+  border: 0px solid #f5f4f2 !important;
+  color: #f5f4f2 !important;
+  padding: 1px 5px !important;
+}
+/* 車番カラー */
+.base_color_1 {
+  background-color: #FFFFFF !important;
+  color: #404040 !important;
+}
+.base_color_2 {
+  background-color: #404040 !important;
+  color: #FFFFFF !important;
+}
+.base_color_3 {
+  background-color: #E61717 !important;
+  color: #FFFFFF !important;
+}
+.base_color_4 {
+  background-color: #0066CC !important;
+  color: #FFFFFF !important;
+}
+.base_color_5 {
+  background-color: #F0C518 !important;
+  color: #404040 !important;
+}
+.base_color_6 {
+  background-color: #228900 !important;
+  color: #FFFFFF !important;
+}
+.base_color_7 {
+  background-color: #FF9500 !important;
+  color: #404040 !important;
+}
+.base_color_8 {
+  background-color: #F28ABD !important;
+  color: #404040 !important;
+}
+.base_color_9 {
+  background-color: #822BD9 !important;
+  color: #FFFFFF !important;
+}
+.base_color_10 {
+  border: 0px solid #ffffff !important;
+  color: #333333 !important;
+}
+.base_color_00 {
+  background-color: #EEEEEE !important;
+  color: #333333 !important;
+}
+.base_color_4_border {
+  background-color: #0066CC !important;
+  color: #FFFFFF !important;
+  border-left: 4px double #FFFFFF !important;
+  border-right: 4px double #FFFFFF !important;
+}
+.base_color_5_border {
+  background-color: #F0C518 !important;
+  color: #404040 !important;
+  border-left: 4px double #404040 !important;
+  border-right: 4px double #404040 !important;
+}
+.base_color_6_border {
+  background-color: #228900 !important;
+  color: #FFFFFF !important;
+  border-left: 4px double #E61717 !important;
+  border-right: 4px double #E61717 !important;
+}
+/* 表用車番カラー */
+.base_color_1_bk {
+  background-color: #FFFFFF !important;
+  color: #404040 !important;
+}
+.base_color_2_bk {
+  background-color: #f5f5f5 !important;
+}
+.base_color_3_bk {
+  background-color: #fff0f0 !important;
+}
+.base_color_4_bk {
+  background-color: #f0f5ff !important;
+}
+.base_color_5_bk {
+  background-color: #FFFCF0 !important;
+  color: #404040 !important;
+}
+.base_color_6_bk {
+  background-color: #f0ffeb !important;
+}
+.base_color_7_bk {
+  background-color: #FFF8EB !important;
+  color: #404040 !important;
+}
+.base_color_8_bk {
+  background-color: #FFF0F8 !important;
+  color: #404040 !important;
+}
+.base_color_9_bk {
+  background-color: #f7f0ff !important;
+}
+/*---------------------------------------------------*/
+/* グレード色 */
+/*---------------------------------------------------*/
+/* GP */
+.grade_color_gp {
+  background-color: #dc7010 !important;
+}
+/* G1 */
+.grade_color_g1 {
+  background-color: #e62dc7 !important;
+}
+/* G2 */
+.grade_color_g2 {
+  background-color: #8e4bd9 !important;
+}
+/* G3 */
+.grade_color_g3 {
+  background-color: #4b62d9 !important;
+}
+/* F1 */
+.grade_color_f1 {
+  background-color: #e1bb0a !important;
+}
+/* F2 */
+.grade_color_f2 {
+  background-color: #388fe6 !important;
+}
+/* GPの表色 */
+.grade_gp_bg_color {
+  background-color: #fff9d5 !important;
+}
+/* G1・G2の表色 */
+/*.grade_color_g1_bk{background-color:#EEDDF7 !important}*/
+.grade_g1_bg_color,
+.grade_g2_bg_color {
+  background-color: #f2e5ff !important;
+}
+/* G3の表色 */
+/*.grade_g3_bg_color{background-color:#F0F5FF !important}*/
+.grade_g3_bg_color {
+  background-color: #e5f2ff !important;
+}
+/* F1の表色 */
+.white_bg_color {
+  background-color: #ffffff !important;
+}
+/* F2の表色 */
+.white_bg_color {
+  background-color: #ffffff !important;
+}
+/*---------------------------------------------------*/
+/* クラス色(3種類使用のため現行サイトの値) */
+/*---------------------------------------------------*/
+/* S級 */
+.class_color_S_dark {
+  background-color: #ffcff1 !important;
+}
+.class_color_S {
+  background-color: #ffe3f6 !important;
+}
+.class_color_S_light {
+  background-color: #fff3fb !important;
+}
+/* Ａ級１・２班 */
+.class_color_A1_dark {
+  background-color: #b9f5b9 !important;
+}
+.class_color_A1 {
+  background-color: #d5ffd5 !important;
+}
+.class_color_A1_light {
+  background-color: #eaffea !important;
+}
+/* Ａ級３班 */
+.class_color_A3_dark {
+  background-color: #e7fbff !important;
+}
+.class_color_A3 {
+  background-color: #cbf5fe !important;
+}
+.class_color_A3_light {
+  background-color: #aaecfa !important;
+}
+/* Ｌ級１班 */
+.class_color_L1 {
+  background-color: #fef5fa !important;
+}
+/*---------------------------------------------------*/
+/* クラス色(ＵＩ標準) */
+/*---------------------------------------------------*/
+/* S級 */
+.class_color_S_base {
+  background-color: #fdecec !important;
+}
+/* Ａ級１・２班 */
+.class_color_A1_base {
+  background-color: #efffe8 !important;
+}
+/* Ａ級３班 */
+.class_color_A3_base {
+  background-color: #e6f2ff !important;
+}
+/*---------------------------------------------------*/
+/* 決まり手 */
+/*---------------------------------------------------*/
+/* 逃げ（表色） */
+.klmari_nige_graph {
+  background-color: #f0e8ff;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* 逃げ（項目説明色） */
+.klmari_nige_exp {
+  width: 50px;
+  color: #ffffff;
+  background-color: #a28ace;
+  text-align: center;
+  border: 1px solid #888888;
+  vertical-align: middle;
+  margin: auto auto;
+  display: inline-block;
+  _display: inline;
+}
+/* 捲り（表色） */
+.klmari_makuri_graph {
+  background-color: #fffef8;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* 捲り（項目説明色） */
+.klmari_makuri_exp {
+  width: 50px;
+  color: #ffffff;
+  background-color: #bfba47;
+  text-align: center;
+  border: 1px solid #888888;
+  vertical-align: middle;
+  margin: auto auto;
+  display: inline-block;
+  _display: inline;
+}
+/* 差し（表色） */
+.klmari_sashi_graph {
+  background-color: #ccffcf;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* 差し（項目説明色） */
+.klmari_sashi_exp {
+  width: 50px;
+  color: #ffffff;
+  background-color: #59c361;
+  text-align: center;
+  border: 1px solid #888888;
+  vertical-align: middle;
+  margin: auto auto;
+  display: inline-block;
+  _display: inline;
+}
+/* マーク（表色） */
+.klmari_mark_graph {
+  background-color: #fdeb97;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* マーク（項目説明色） */
+.klmari_mark_exp {
+  width: 50px;
+  color: #ffffff;
+  background-color: #cfb84c;
+  text-align: center;
+  border: 1px solid #888888;
+  vertical-align: middle;
+  margin: auto auto;
+  display: inline-block;
+  _display: inline;
+}
+/* 決まり手なし（表色） */
+.klmari_nasi_graph {
+  background-color: #7f7f7f;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* 決まり手なし（項目説明色） */
+.klmari_nasi_exp {
+  width: 50px;
+  color: #ffffff;
+  background-color: #cfb84c;
+  text-align: center;
+  border: 1px solid #888888;
+  vertical-align: middle;
+  margin: auto auto;
+  display: inline-block;
+  _display: inline;
+}
+/*---------------------------------------------------*/
+/* 脚質 */
+/*---------------------------------------------------*/
+/* 逃げ（表色） */
+.kyaku_nige_graph {
+  background-color: #f0e8ff;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* 逃げ（項目説明色） */
+.kyaku_nige_exp {
+  width: 50px;
+  color: #ffffff;
+  background-color: #a28ace;
+  text-align: center;
+  border: 1px solid #888888;
+  vertical-align: middle;
+  margin: auto auto;
+  display: inline-block;
+  _display: inline;
+}
+/* 追（表色） */
+.kyaku_ou_graph {
+  background-color: #e1f3ff;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* 追（項目説明色） */
+.kyaku_ou_exp {
+  width: 50px;
+  color: #ffffff;
+  background-color: #86b8eb;
+  text-align: center;
+  border: 1px solid #888888;
+  vertical-align: middle;
+  margin: auto auto;
+  display: inline-block;
+  _display: inline;
+}
+/* 両（表色） */
+.kyaku_ryoho_graph {
+  background-color: #e7e8c0;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* 両（項目説明色） */
+.kyaku_ryoho_exp {
+  width: 50px;
+  color: #ffffff;
+  background-color: #a6a56c;
+  text-align: center;
+  border: 1px solid #888888;
+  vertical-align: middle;
+  margin: auto auto;
+  display: inline-block;
+  _display: inline;
+}
+/*---------------------------------------------------*/
+/* 並び予想 */
+/*---------------------------------------------------*/
+
+/* 先行一車 */
+.senkoissya{
+  color:#FFFFFF !important;
+  background-color:#5f9ea0 !important;
+  text-align: center;
+  border:1px solid #808080;
+}
+/* 二分戦 */
+.nibusen {
+  color: #ffffff !important;
+  background-color: #ac165e !important;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* 三分戦 */
+.sanbusen {
+  color: #ffffff !important;
+  background-color: #1f3e7c !important;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* 四分戦 */
+.yonbusen {
+  color: #ffffff !important;
+  background-color: #6b3700 !important;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/* コマ切れ */
+.komagire{
+  color:#FFFFFF !important;
+  background-color:#808000 !important;
+  text-align: center;
+  border:1px solid #808080;
+}
+/* ラインなし */
+.noline{
+  color:#404040 !important;
+  background-color:#CCCCCC !important;
+  text-align: center;
+  border:1px solid #808080;
+}
+/* 競 */
+.seri {
+  color: #ffffff !important;
+  background-color: #3d692f !important;
+  text-align: center;
+  border: 1px solid #888888;
+}
+/*---------------------------------------------------*/
+/* Dokanto */
+/*---------------------------------------------------*/
+/* Dokanto7の色 */
+.dokanto7_color {
+  background-color: #ffe9cc !important;
+}
+/* Dokanto7の色 濃い色*/
+.dokanto7_color2 {
+  background-color: #ff9000 !important;
+}
+/* Dokanto4の色 */
+.dokanto4_color {
+  background-color: #daf2fe !important;
+}
+/* Dokanto4の色 濃い色*/
+.dokanto4_color2 {
+  background-color: #44bcf9 !important;
+}
+/* Dokantoの色 */
+.dokanto_color {
+  background-color: #e1f8dc !important;
+}
+
+/*---------------------------------------------------*/
+/* 文字サイズとフォント */
+/*---------------------------------------------------*/
+/*情報共通ヘッダ、画面タイトル*/
+.midasi1_fsz {
+  font-size: 18px;
+  font-weight: bolder;
+}
+/*トップページの「サイト検索」「開催情報」などのタイトル、小領域のタイトル*/
+.midasi2_fsz {
+  font-size: 16px;
+  font-weight: bolder;
+}
+/*小領域内段落のタイトル3*/
+.midasi3_fsz {
+  font-size: 14px;
+  font-weight: bolder;
+}
+/*小領域段落内の情報のタイトル*/
+.midasi4_fsz {
+  font-size: 14px;
+}
+/*本文（基準サイズ）*/
+.body_base_fsz {
+  font-size: 14px;
+}
+/*補足*/
+.body_sub_fsz {
+  font-size: 11px;
+}
+/*表のタイトル*/
+.tbl_title_fsz {
+  font-size: 14px;
+}
+/*表の値*/
+.tbl_val11_fsz {
+  font-size: 11px;
+}
+.tbl_val12_fsz {
+  font-size: 12px;
+}
+.tbl_val14_fsz {
+  font-size: 14px;
+}
+/*デフォルトの文字色*/
+.body_base_color {
+  color: #404040;
+}
+/*エラー文言*/
+.error_msg_fsz {
+  font-size: 16px;
+  color: #dd1616;
+  font-weight: bolder;
+}
+/*正常文言*/
+.nomal_msg_fsz {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bolder;
+}
+/*注意文言*/
+.warning_msg_fsz {
+  font-size: 14px;
+  color: #dd1616;
+  font-weight: bolder;
+}
+
+/*注意文言(会員系)*/
+.warning_mem_msg_fsz {
+  font-size: 16px;
+  color: #0000cd;
+  font-weight: bolder;
+}
+
+/*ヘッダナビゲーション*/
+.header_navi_fsz {
+  font-size: 14px;
+  font-weight: bolder;
+}
+/*緊急ティッカー*/
+.emergency_ticker_fsz {
+  font-size: 14px;
+  font-weight: bolder;
+}
+/*施工者ティッカー*/
+.cont_ticker_fsz {
+  font-size: 18px;
+}
+/* 開催情報の競輪場名 */
+.stadium_fsz {
+  font-size: 14px;
+}
+/* 開催中止 */
+.discontinued {
+  font-size: 14px;
+}
+/* ボタンのサイズ */
+.btn_fsz {
+  font-size: 16px !important;
+}
+.btn_fsz_mini {
+  font-size: 14px !important;
+}
+/* 強調(赤) */
+.empcolor_red {
+  color: #dd1616 !important;
+  font-weight: bolder;
+}
+/* 強調(青) */
+.empcolor_blue {
+  color: #0076a8 !important;
+  font-weight: bolder;
+}
+/* 青字 */
+.color_blue {
+  color: #0076a8 !important;
+}
+/* 赤字 */
+.color_red {
+  color: #dd1616 !important;
+}
+/* 記号用フォント */
+.kigo_font {
+  font-family: "ＭＳ Ｐゴシック";
+}
+/* 通常時のフォント設定 */
+.normal,
+.norml {
+  font-weight: normal !important;
+}
+/*---------------------------------------------------*/
+/* テーブル関連 */
+/*---------------------------------------------------*/
+/* 通常の線 */
+.b-r {
+  border-right: 1px solid #888888;
+}
+.b-l {
+  border-left: 1px solid #888888;
+}
+.b-b {
+  border-bottom: 1px solid #888888;
+}
+.b-t {
+  border-top: 1px solid #888888;
+}
+.b-a {
+  border: 1px solid #888888;
+}
+/* 線の定義削除 */
+.nb-r {
+  border-right: none !important;
+}
+.nb-l {
+  border-left: none !important;
+}
+.nb-b {
+  border-bottom: none !important;
+}
+.nb-t {
+  border-top: none !important;
+}
+.nb-a {
+  border: none !important;
+}
+/* 太い線 */
+.wb-r {
+  border-right: 2px solid #888888 !important;
+}
+.wb-l {
+  border-left: 2px solid #888888 !important;
+}
+.wb-b {
+  border-bottom: 2px solid #888888 !important;
+}
+.wb-t {
+  border-top: 2px solid #888888 !important;
+}
+.wb-a {
+  border: 2px solid #888888 !important;
+}
+/* 薄い線 */
+.cb-r {
+  border-right: 1px solid #cccccc !important;
+}
+.cb-l {
+  border-left: 1px solid #cccccc !important;
+}
+.cb-b {
+  border-bottom: 1px solid #cccccc !important;
+}
+.cb-t {
+  border-top: 1px solid #cccccc !important;
+}
+.cb-a {
+  border: 1px solid #cccccc !important;
+}
+/* 線の定義削除 */
+table.nob,
+table td.nob {
+  border: none !important;
+}
+/* 余白なし */
+.clearfix {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* tdリンク用▲を表示 */
+.over {
+  /*
+	background-image:url("../img/member_over_gray.png");
+	background-repeat:no-repeat;
+	background-position:right top;
+*/
+}
+/* trリンク用▲を表示 */
+tr.over td {
+  /*
+	background-image:url("../img/member_over_gray.png");
+	background-repeat:no-repeat;
+	background-position:right top;
+*/
+}
+/* 交互に色変更用テーブル(table(ヘッダがある場合はtbody)のクラスにaltertableを設定) */
+.altertable tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+}
+.altertable tr:nth-child(even) td {
+  background-color: #f9ffff;
+}
+/* タイトルが２行ある場合 */
+.altertable_t2 tr:nth-child(odd) td {
+  background-color: #f9ffff;
+}
+.altertable_t2 tr:nth-child(even) td {
+  background-color: #FFFFFF;
+}
+/* 交互に色変更用テーブル(rowspan等で複数行で1つの場合の個別対応用) */
+.altertable_kisu {
+  background-color: #FFFFFF;
+}
+.altertable_guusu {
+  background-color: #f9ffff;
+}
+/* テーブルサイズ100% */
+.w100pc {
+  width: 100%;
+}
+/* テーブルタイトルの色 */
+.tbl_header {
+  background-color: #D9D7CE  !important;
+}
+/* レース情報テーブルタイトルの色 */
+.tbl_header2 {
+  background-color: #F5F4F2  !important;
+}
+/* 凡例 */
+.exptable {
+  background-color: #f5f4f2;
+}
+/* 空白時の色 */
+.blankcolor {
+  background-color: #AAAAAA !important;
+}
+/* 表の高さ */
+.td_hgt {
+  height: 32px;
+  padding: 4px !important;
+  vertical-align: middle;
+}
+/* 表のスクロールを外だしにする場合の定義 */
+.scroll_header {
+  background-color: #FFFFFF !important;
+  border: none !important;
+  width: 17px;
+}
+/*---------------------------------------------------*/
+/* 順位の色 */
+/*---------------------------------------------------*/
+/* 1位の色 */
+.first_color {
+  background-color: #666666;
+  color: #ffffff;
+}
+/* 2位の色 */
+.second_color {
+  background-color: #999999;
+  color: #404040;
+}
+/* 3位の色 */
+.third_color {
+  background-color: #cccccc;
+  color: #404040;
+}
+/*---------------------------------------------------*/
+/* その他の色 */
+/*---------------------------------------------------*/
+/* 前日発売 */
+.zenjitsu {
+  background-color: #FFF4FF;
+}
+/* データがないときの色 */
+.nodata {
+  background-color: #ffff80;
+}
+/* 買い目等の黄色 */
+.kaime_color {
+  background-color: #ffffdb;
+}
+/* 土曜日背景色 */
+.week_sat {
+  background-color: #d3f2ff !important;
+}
+/* 日曜日背景色 */
+.week_sun {
+  background-color: #ffeafb !important;
+}
+
+/*---------------------------------------------------*/
+/* ソートテーブルの定義 */
+/*---------------------------------------------------*/
+table.sorting td {
+  padding: 5px 0 5px 2px;
+  vertical-align: middle;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+}
+table.sorting th.headerSortUp {
+  background-image: url("../img/common/sort_asc.png") !important;
+}
+table.sorting th.headerSortDown {
+  background-image: url("../img/common/sort_desc.png") !important;
+}
+table.sorting th {
+  background-color: #F5F4F2;
+  text-align: center;
+  font-weight: normal;
+  padding: 4px 6px;
+}
+table.sorting th.header {
+  background-image: url("../img/common/sort_bg.png");
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+table.sorting th.header:hover {
+  background-color: #e8d4ff !important;
+  cursor: pointer !important;
+}
+/*---------------------------------------------------*/
+/* インラインアイコンの設定(色等) */
+/*---------------------------------------------------*/
+/* アイコンの枠 */
+.icon-color {
+  padding: 1px 4px 2px 4px;
+  font-size: 12px;
+  width: 80px;
+  height: 16px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 1;
+  display: inline-block;
+  border-radius: 3px;
+}
+/************ トピックのカテゴリ ************/
+/* レース情報 */
+.icon-color.race {
+  color: #00578a;
+  background: #cfe3f7;
+  border: 1px solid #00578a;
+}
+/* 制度 */
+.icon-color.seido {
+  color: #606e77;
+  background: #d8e0e5;
+  border: 1px solid #606e77;
+}
+/* 選手 */
+.icon-color.player {
+  color: #0b732f;
+  background: #c1e9da;
+  border: 1px solid #0b732f;
+}
+/* 競輪学校 */
+.icon-color.school {
+  color: #1f91a5;
+  background: #cbfffb;
+  border: 1px solid #1f91a5;
+}
+/* インターネット投票・電話投票 */
+.icon-color.tohyo {
+  color: #e7821d;
+  background: #fde6b8;
+  border: 1px solid #e7821d;
+}
+/* 自転車競技(色未定) */
+.icon-color.kyogi {
+  color: #1d9d23;
+  background: #d1f5d1;
+  border: 1px solid #1d9d23;
+}
+/* メディア・イベント */
+.icon-color.mediaeEve {
+  color: #a46c13;
+  background: #f9dfd2;
+  border: 1px solid #a46c13;
+}
+/* NEW */
+.icon-color.new {
+  width: 34px;
+  padding: 1px 0 2px;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+  background: #dd1616;
+  border: 1px solid #dd1616;
+}
+/* お知らせ */
+.icon-color.info {
+  color: #60900c;
+  background: #f1f0ac;
+  border: 1px solid #60900c;
+}
+/* 250競走 */
+.icon-color.velo250 {
+  color: #822bd9;
+  background: #f2e5ff;
+  border: 1px solid #822bd9;
+}
+/************ 地域 ************/
+/* 北日本 */
+.icon-color.kitanihon {
+  color: #00578a;
+  background: #cfe3f7;
+  border: 1px solid #00578a;
+}
+/* 関東 */
+.icon-color.kanto {
+  color: #606e77;
+  background: #d8e0e5;
+  border: 1px solid #606e77;
+}
+/* 南関東 */
+.icon-color.minamikanto {
+  color: #0b732f;
+  background: #c1e9da;
+  border: 1px solid #0b732f;
+}
+/* 中部 */
+.icon-color.chubu {
+  color: #1f91a5;
+  background: #cbfffb;
+  border: 1px solid #1f91a5;
+}
+/* 近畿 */
+.icon-color.kinki {
+  color: #e7821d;
+  background: #fde6b8;
+  border: 1px solid #e7821d;
+}
+/* 中国(色未定) */
+.icon-color.chugoku {
+  color: #1d9d23;
+  background: #d1f5d1;
+  border: 1px solid #1d9d23;
+}
+/* 四国 */
+.icon-color.shikoku {
+  color: #a46c13;
+  background: #f9dfd2;
+  border: 1px solid #a46c13;
+}
+/* 九州 */
+.icon-color.kyushu {
+  color: #60900c;
+  background: #f1f0ac;
+  border: 1px solid #60900c;
+}
+
+/*---------------------------------------------------*/
+/*ロード時の定義 */
+/*---------------------------------------------------*/
+/* 大枠 */
+#divfixload {
+  position: fixed;
+  background-color: rgba(25, 255, 255, 0.0);
+  height: 100%;
+  left: 0;
+  top: 0;
+  right:0;
+  bottom: 0;
+  z-index:15;
+
+}
+
+/* 中枠 */
+#divrelload {
+  position: relative;
+  height: 100%;
+}   
+
+/* 画像表示 */
+#divabsload {
+    position: absolute;
+    background-image: url(../img/common/common_spiner.gif);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+}
+
+/*---------------------------------------------------*/
+/* 共通関数で使用(色等) */
+/*---------------------------------------------------*/
+/* ヘッダナビゲーション文字色 */
+.color_white {color: #FFFFFF}
+/* リンクマウスオーバー時の文字色 */
+.color_blue_light {color: #0670B1}
+/* 投票ボタン文字色 */
+.vote_button_color {color: #B05700}
+/* トップページのグレードレースのタイトル */
+.grade_title {color: #FF9500}
+/* トップページのサイト内検索 */
+.banner_title {color: #F2499D}
+/* トップページの競輪トピックス */
+.topics_title {color: #404040}
+/* トップページのDokanto!のタイトル　※SP */
+.dokanto_title {color: #333333}
+/* グレード F2 */
+.grade_f2_color {color: #498BE3}
+/* グレード F1 */
+.grade_f1_color {color: #DCBB25}
+/* グレード G3 */
+.grade_g3_color {color: #0066CC}
+/* グレード G2 */
+.grade_g2_color {color: #545DD6}
+/* グレード G1 */
+.grade_g1_color {color: #E200C4}
+/* グレード GP */
+.grade_gp_color {color: #EAC100}
+/* Ｓ級３班 */
+.class_color_S_thin {background-color: #FFF9FD}
+/* Ａ級４班 */
+.class_color_A1_thin {background-color: #F7FFF7}
+/* B級１班 */
+.class_color_B1 {background-color: #AAECFA !important;}
+/* B級２班 */
+.class_color_B2 {background-color: #CBF5FE !important;}
+/* B級３班 */
+.class_color_B3 {background-color: #E7FBFF !important;}
+/* 投票履歴&ダイジェストの的中行の背景色 */
+.hit_bg_color {background-color: #F2DCDB}
+/* 投票履歴&ダイジェストの結果未表示行の背景色 */
+.still_bg_color {background-color: #FFFCF0}
+/* 案内系画面のタイトル背景色 */
+.guide_title_bg_color {background-color: #66cc99}
+/* 共通ヘッダの開催情報背景色 */
+.kaisai_info_bg_color {background-color: #F0F0F0}
+/* 投票履歴&ダイジェストのカレンダーの背景色 */
+.calendar_bg_color {background-color: #E9E8E7}
+/* 前日発売の背景色 */
+.zenjitu_hatubai_bg_color {background-color: #FFF4FF}
+/* レース情報投票確認の買い目グループごとの表示色 */
+.kaime_bg_color {background-color: #EFFFE8}
+/* ランキング情報のボタンアクティブ時の背景色 */
+.ranking_button_active {background-color: #10A070}
+/* メッセージ行の背景色 */
+.msg_bg_color {background-color: #FFFF80}
+/* 勝ちの背景色 */
+.win_bg_color {background-color: #FFF0F0}
+/* 背景色 */
+.white_bg_color {background-color: #FFFFFF}
+
+/* 旧車番カラー */
+.base_old_color_1 {
+  background-color: #FFFFFF !important;
+  color: #404040 !important;
+}
+.base_old_color_2 {
+  background-color: #404040 !important;
+  color: #FFFFFF !important;
+}
+.base_old_color_3 {
+  background-color: #E61717 !important;
+  color: #FFFFFF !important;
+}
+.base_old_color_4 {
+  background-color: #0066CC !important;
+  color: #FFFFFF !important;
+}
+.base_old_color_5 {
+  background-color: #F0C518 !important;
+  color: #404040 !important;
+}
+.base_old_color_6 {
+  background-color: #228900 !important;
+  color: #FFFFFF !important;
+}
+.base_old_color_7 {
+  background-color: #FF9500 !important;
+  color: #404040 !important;
+}
+.base_old_color_8 {
+  background-color: #F28ABD !important;
+  color: #404040 !important;
+}
+.base_old_color_9 {
+  background-color: #822BD9 !important;
+  color: #FFFFFF !important;
+}
+
+/* 旧表用車番カラー */
+.base_old_color_1_bk {
+  background-color: #FFFFFF !important;
+  color: #404040 !important;
+}
+.base_old_color_2_bk {
+  background-color: #f5f5f5 !important;
+}
+.base_old_color_3_bk {
+  background-color: #fff0f0 !important;
+}
+.base_old_color_4_bk {
+  background-color: #f0f5ff !important;
+}
+.base_old_color_5_bk {
+  background-color: #FFFCF0 !important;
+  color: #404040 !important;
+}
+.base_old_color_6_bk {
+  background-color: #f0ffeb !important;
+}
+.base_old_color_7_bk {
+  background-color: #FFF8EB !important;
+  color: #404040 !important;
+}
+.base_old_color_8_bk {
+  background-color: #FFF0F8 !important;
+  color: #404040 !important;
+}
+.base_old_color_9_bk {
+  background-color: #f7f0ff !important;
+}
+
+
+/*---------------------------------------------------*/
+/* IME設定 */
+/*---------------------------------------------------*/
+
+/* 全角 */
+.imefull{
+    ime-mode:active;
+}
+
+/* 全角カナ */
+.imefullKana{
+    ime-mode:active;
+}
+
+/* 半角 */
+.imehalf{
+    ime-mode:disabled;
+}
+
+/* 半角カナ */
+.imehalfKana{
+    ime-mode:active;
+}
+
+/* 数値 */
+.imenum{
+    ime-mode:disabled;
+}
+
+/*---------------------------------------------------*/
+/* アイコンサイズ */
+/*---------------------------------------------------*/
+
+/* グレード */
+.gradeIconSize{
+    width:26px;
+    height:16px;
+}
+
+/* 開催付加 */
+.inforIconSize{
+    width:16px;
+    height:16px;
+}
+.classTeamIconSize{
+    width:12px;
+    height:12px;
+}
+/* 開催区分 */
+.HoldingIconSize{
+    width:16px;
+    height:16px;
+}
+/* 選手画像（小：ピックアップ、一押し選手） */
+.face_pickup {
+  border: 1px solid #888888;
+  height: 70px;
+  width: auto;
+}
+/* 選手画像（小）の最大横幅設定(max-image-sizeを240 * 204と定め、68+2 * 57.8+2) */
+.face_pickup_mxw {
+  width: 60px;
+  margin-right: 2px;
+}
+/* 選手画像（小）なしの場合にimgタグに設定するクラス定義（横幅固定化） */
+.face_pickup_deffw {
+  width: 53px;
+}
+
+/*---------------------------------------------------*/
+/* 入力フォーム */
+/*---------------------------------------------------*/
+.input_bkColor {
+	cursor: pointer;
+}
+.input_bkColor:hover {
+	cursor: pointer;
+	background-color: #D6D8D9 !important;
+}
+.input_bkColor input:hover,
+.input_bkColor select {
+	cursor: pointer;
+}
+.input_bkColor.disabled {
+	pointer-events: none;
+	cursor: default;
+	opacity: 1;
+}
+
+/*---------------------------------------------------*/
+/* 印刷設定 */
+/*---------------------------------------------------*/
+@page {
+	size: A4;
+	margin:10mm 13mm 4mm;
+}
+
+/* chrome,safri用cssハック（実質safri用）　*/
+@media print and (-webkit-min-device-pixel-ratio:0){
+	body{
+		zoom:0.9;
+		margin-top:auto;
+		margin-bottom:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+/* chrome用のcssハック（上記定義のchromeを無効化） */
+@media print and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm){
+	body{
+		zoom:1;
+	}
+}
+
+/* edge用cssハック（上記定義のedgeを無効化） */
+@supports(-ms-accelerator:true){
+	body{
+		zoom:1;
+	}
+}
+
+@supports(-ms-ime-align:auto){
+	body{
+		zoom:1;
+	}
+}
+
+
+/* 画面表示on、印刷対象off */
+@media screen {
+    .printOn{
+        display:none;
+    }
+}
+/* 画面表示off、印刷対象on */
+@media print {
+    .screenOn{
+        display:none;
+    }
+    body {
+        background-image: #FFFFFF !important;
+        background: #FFFFFF !important;
+    	width:i184mm; /* needed for Chrome */
+    }
+}
+
+
+.bgtrans {
+    background-color: transparent !important;
+}

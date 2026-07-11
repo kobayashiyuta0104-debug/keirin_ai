@@ -1,0 +1,613 @@
+JSJ006 BLOCKS
+======================================================================
+   0001: from playwright.sync_api import sync_playwright
+   0002: import json
+   0003: import time
+   0004: 
+   0005: 
+🔥 0006: OUTPUT_JSON = "155_all_venues_jsj006.json"
+   0007: 
+   0008: 
+   0009: def main():
+   0010: 
+   0011:     print("=" * 70)
+   0012:     print("🔥 155修正版 全開催 × 全レース JSJ006自動取得")
+   0013:     print("=" * 70)
+   0014: 
+   0015:     all_results = {}
+   0016: 
+   0017:     current_race = {
+   0018:         "venue": None,
+   0019:         "race_no": None,
+   0020:     }
+   0021: 
+   0022:     with sync_playwright() as p:
+   0023: 
+   0024:         browser = p.chromium.launch(
+   0025:             headless=False,
+   0026:             channel="msedge",
+   0027:         )
+   0028: 
+   0029:         context = browser.new_context()
+   0030: 
+   0031:         page = context.new_page()
+   0032: 
+   0033:         # ==================================================
+   0034:         # JSJ006監視
+   0035:         # ==================================================
+   0036: 
+   0037:         def handle_response(response):
+   0038: 
+   0039:             url = response.url
+   0040: 
+   0041:             if "type=JSJ006" not in url:
+   0042:                 return
+   0043: 
+   0044:             print()
+   0045:             print("🔥 JSJ006通信発見！")
+   0046:             print(url)
+
+   0001: from playwright.sync_api import sync_playwright
+   0002: import json
+   0003: import time
+   0004: 
+   0005: 
+   0006: OUTPUT_JSON = "155_all_venues_jsj006.json"
+   0007: 
+   0008: 
+   0009: def main():
+   0010: 
+   0011:     print("=" * 70)
+🔥 0012:     print("🔥 155修正版 全開催 × 全レース JSJ006自動取得")
+   0013:     print("=" * 70)
+   0014: 
+   0015:     all_results = {}
+   0016: 
+   0017:     current_race = {
+   0018:         "venue": None,
+   0019:         "race_no": None,
+   0020:     }
+   0021: 
+   0022:     with sync_playwright() as p:
+   0023: 
+   0024:         browser = p.chromium.launch(
+   0025:             headless=False,
+   0026:             channel="msedge",
+   0027:         )
+   0028: 
+   0029:         context = browser.new_context()
+   0030: 
+   0031:         page = context.new_page()
+   0032: 
+   0033:         # ==================================================
+   0034:         # JSJ006監視
+   0035:         # ==================================================
+   0036: 
+   0037:         def handle_response(response):
+   0038: 
+   0039:             url = response.url
+   0040: 
+   0041:             if "type=JSJ006" not in url:
+   0042:                 return
+   0043: 
+   0044:             print()
+   0045:             print("🔥 JSJ006通信発見！")
+   0046:             print(url)
+   0047: 
+   0048:             venue = current_race["venue"]
+   0049:             race_no = current_race["race_no"]
+   0050: 
+   0051:             if venue is None:
+   0052:                 print("⚠ venue未設定")
+
+   0001: from playwright.sync_api import sync_playwright
+   0002: import json
+   0003: import time
+   0004: 
+   0005: 
+   0006: OUTPUT_JSON = "155_all_venues_jsj006.json"
+   0007: 
+   0008: 
+   0009: def main():
+   0010: 
+   0011:     print("=" * 70)
+   0012:     print("🔥 155修正版 全開催 × 全レース JSJ006自動取得")
+   0013:     print("=" * 70)
+   0014: 
+   0015:     all_results = {}
+   0016: 
+   0017:     current_race = {
+   0018:         "venue": None,
+   0019:         "race_no": None,
+   0020:     }
+   0021: 
+   0022:     with sync_playwright() as p:
+   0023: 
+   0024:         browser = p.chromium.launch(
+   0025:             headless=False,
+   0026:             channel="msedge",
+   0027:         )
+   0028: 
+   0029:         context = browser.new_context()
+   0030: 
+   0031:         page = context.new_page()
+   0032: 
+   0033:         # ==================================================
+🔥 0034:         # JSJ006監視
+   0035:         # ==================================================
+   0036: 
+   0037:         def handle_response(response):
+   0038: 
+   0039:             url = response.url
+   0040: 
+   0041:             if "type=JSJ006" not in url:
+   0042:                 return
+   0043: 
+   0044:             print()
+   0045:             print("🔥 JSJ006通信発見！")
+   0046:             print(url)
+   0047: 
+   0048:             venue = current_race["venue"]
+   0049:             race_no = current_race["race_no"]
+   0050: 
+   0051:             if venue is None:
+   0052:                 print("⚠ venue未設定")
+   0053:                 return
+   0054: 
+   0055:             if race_no is None:
+   0056:                 print("⚠ race未設定")
+   0057:                 return
+   0058: 
+   0059:             try:
+   0060: 
+   0061:                 data = response.json()
+   0062: 
+   0063:             except Exception as e:
+   0064: 
+   0065:                 print(
+   0066:                     f"❌ JSON解析失敗: {e}"
+   0067:                 )
+   0068: 
+   0069:                 return
+   0070: 
+   0071:             if venue not in all_results:
+   0072: 
+   0073:                 all_results[venue] = {}
+   0074: 
+
+   0001: from playwright.sync_api import sync_playwright
+   0002: import json
+   0003: import time
+   0004: 
+   0005: 
+   0006: OUTPUT_JSON = "155_all_venues_jsj006.json"
+   0007: 
+   0008: 
+   0009: def main():
+   0010: 
+   0011:     print("=" * 70)
+   0012:     print("🔥 155修正版 全開催 × 全レース JSJ006自動取得")
+   0013:     print("=" * 70)
+   0014: 
+   0015:     all_results = {}
+   0016: 
+   0017:     current_race = {
+   0018:         "venue": None,
+   0019:         "race_no": None,
+   0020:     }
+   0021: 
+   0022:     with sync_playwright() as p:
+   0023: 
+   0024:         browser = p.chromium.launch(
+   0025:             headless=False,
+   0026:             channel="msedge",
+   0027:         )
+   0028: 
+   0029:         context = browser.new_context()
+   0030: 
+   0031:         page = context.new_page()
+   0032: 
+   0033:         # ==================================================
+   0034:         # JSJ006監視
+   0035:         # ==================================================
+   0036: 
+   0037:         def handle_response(response):
+   0038: 
+   0039:             url = response.url
+   0040: 
+🔥 0041:             if "type=JSJ006" not in url:
+   0042:                 return
+   0043: 
+   0044:             print()
+   0045:             print("🔥 JSJ006通信発見！")
+   0046:             print(url)
+   0047: 
+   0048:             venue = current_race["venue"]
+   0049:             race_no = current_race["race_no"]
+   0050: 
+   0051:             if venue is None:
+   0052:                 print("⚠ venue未設定")
+   0053:                 return
+   0054: 
+   0055:             if race_no is None:
+   0056:                 print("⚠ race未設定")
+   0057:                 return
+   0058: 
+   0059:             try:
+   0060: 
+   0061:                 data = response.json()
+   0062: 
+   0063:             except Exception as e:
+   0064: 
+   0065:                 print(
+   0066:                     f"❌ JSON解析失敗: {e}"
+   0067:                 )
+   0068: 
+   0069:                 return
+   0070: 
+   0071:             if venue not in all_results:
+   0072: 
+   0073:                 all_results[venue] = {}
+   0074: 
+   0075:             all_results[
+   0076:                 venue
+   0077:             ][
+   0078:                 str(race_no)
+   0079:             ] = data
+   0080: 
+   0081:             player_count = 0
+
+   0005: 
+   0006: OUTPUT_JSON = "155_all_venues_jsj006.json"
+   0007: 
+   0008: 
+   0009: def main():
+   0010: 
+   0011:     print("=" * 70)
+   0012:     print("🔥 155修正版 全開催 × 全レース JSJ006自動取得")
+   0013:     print("=" * 70)
+   0014: 
+   0015:     all_results = {}
+   0016: 
+   0017:     current_race = {
+   0018:         "venue": None,
+   0019:         "race_no": None,
+   0020:     }
+   0021: 
+   0022:     with sync_playwright() as p:
+   0023: 
+   0024:         browser = p.chromium.launch(
+   0025:             headless=False,
+   0026:             channel="msedge",
+   0027:         )
+   0028: 
+   0029:         context = browser.new_context()
+   0030: 
+   0031:         page = context.new_page()
+   0032: 
+   0033:         # ==================================================
+   0034:         # JSJ006監視
+   0035:         # ==================================================
+   0036: 
+   0037:         def handle_response(response):
+   0038: 
+   0039:             url = response.url
+   0040: 
+   0041:             if "type=JSJ006" not in url:
+   0042:                 return
+   0043: 
+   0044:             print()
+🔥 0045:             print("🔥 JSJ006通信発見！")
+   0046:             print(url)
+   0047: 
+   0048:             venue = current_race["venue"]
+   0049:             race_no = current_race["race_no"]
+   0050: 
+   0051:             if venue is None:
+   0052:                 print("⚠ venue未設定")
+   0053:                 return
+   0054: 
+   0055:             if race_no is None:
+   0056:                 print("⚠ race未設定")
+   0057:                 return
+   0058: 
+   0059:             try:
+   0060: 
+   0061:                 data = response.json()
+   0062: 
+   0063:             except Exception as e:
+   0064: 
+   0065:                 print(
+   0066:                     f"❌ JSON解析失敗: {e}"
+   0067:                 )
+   0068: 
+   0069:                 return
+   0070: 
+   0071:             if venue not in all_results:
+   0072: 
+   0073:                 all_results[venue] = {}
+   0074: 
+   0075:             all_results[
+   0076:                 venue
+   0077:             ][
+   0078:                 str(race_no)
+   0079:             ] = data
+   0080: 
+   0081:             player_count = 0
+   0082: 
+   0083:             if isinstance(data, dict):
+   0084: 
+   0085:                 players = data.get(
+
+   0084: 
+   0085:                 players = data.get(
+   0086:                     "sensyuTypeInfo",
+   0087:                     []
+   0088:                 )
+   0089: 
+   0090:                 if isinstance(players, list):
+   0091: 
+   0092:                     player_count = len(players)
+   0093: 
+   0094:             print(
+   0095:                 f"🔥 取得成功 "
+   0096:                 f"{venue} "
+   0097:                 f"{race_no}R "
+   0098:                 f"選手数={player_count}"
+   0099:             )
+   0100: 
+   0101:         context.on(
+   0102:             "response",
+   0103:             handle_response
+   0104:         )
+   0105: 
+   0106:         # ==================================================
+   0107:         # KEIRIN.JP
+   0108:         # ==================================================
+   0109: 
+   0110:         page.goto(
+   0111:             "https://www.keirin.jp/pc/top",
+   0112:             wait_until="domcontentloaded",
+   0113:             timeout=120000,
+   0114:         )
+   0115: 
+   0116:         print()
+   0117:         print("🔥 Edgeを操作してください")
+   0118:         print()
+   0119:         print("122テストで巡回成功した時と同じ画面まで進んでください")
+   0120:         print()
+   0121:         print("開催場が横に並んでいて")
+   0122:         print("1R～12Rのレースボタンが見える画面")
+   0123:         print()
+🔥 0124:         print("さらにJSJ006通信が出るページを開いてください")
+   0125:         print()
+   0126:         print("準備できたらEdgeは触らなくてOK")
+   0127:         print()
+   0128: 
+   0129:         input(
+   0130:             "🔥 準備できたらEnter："
+   0131:         )
+   0132: 
+   0133:         # ==================================================
+   0134:         # 開催場取得
+   0135:         # ==================================================
+   0136: 
+   0137:         print()
+   0138:         print("🔥 開催場取得開始")
+   0139: 
+   0140:         venue_elements = page.locator(
+   0141:             "td.tdkeirin[onclick^='raKeirinjoClick']"
+   0142:         )
+   0143: 
+   0144:         venue_count = venue_elements.count()
+   0145: 
+   0146:         venues = []
+   0147: 
+   0148:         for i in range(venue_count):
+   0149: 
+   0150:             el = venue_elements.nth(i)
+   0151: 
+   0152:             try:
+   0153: 
+   0154:                 name = (
+   0155:                     el.inner_text()
+   0156:                     .strip()
+   0157:                 )
+   0158: 
+   0159:                 onclick = (
+   0160:                     el.get_attribute(
+   0161:                         "onclick"
+   0162:                     )
+   0163:                     or ""
+   0164:                 )
+
+   0382:                     "race_no"
+   0383:                 ] = race_no
+   0384: 
+   0385:                 all_results[
+   0386:                     venue_name
+   0387:                 ].pop(
+   0388:                     str(race_no),
+   0389:                     None,
+   0390:                 )
+   0391: 
+   0392:                 print()
+   0393:                 print("-" * 60)
+   0394:                 print(
+   0395:                     f"🔥 {venue_name} "
+   0396:                     f"{race_no}R"
+   0397:                 )
+   0398:                 print(
+   0399:                     f"SELECTOR: {selector}"
+   0400:                 )
+   0401: 
+   0402:                 try:
+   0403: 
+   0404:                     button = page.locator(
+   0405:                         selector
+   0406:                     ).first
+   0407: 
+   0408:                     button.click(
+   0409:                         timeout=10000,
+   0410:                         force=True,
+   0411:                     )
+   0412: 
+   0413:                 except Exception as e:
+   0414: 
+   0415:                     print(
+   0416:                         f"❌ レースクリック失敗: {e}"
+   0417:                     )
+   0418: 
+   0419:                     continue
+   0420: 
+   0421:                 # ==========================================
+🔥 0422:                 # JSJ006待機
+   0423:                 # ==========================================
+   0424: 
+   0425:                 success = False
+   0426: 
+   0427:                 for wait_count in range(
+   0428:                     40
+   0429:                 ):
+   0430: 
+   0431:                     page.wait_for_timeout(
+   0432:                         500
+   0433:                     )
+   0434: 
+   0435:                     if (
+   0436:                         str(race_no)
+   0437:                         in all_results[
+   0438:                             venue_name
+   0439:                         ]
+   0440:                     ):
+   0441: 
+   0442:                         success = True
+   0443:                         break
+   0444: 
+   0445:                 if success:
+   0446: 
+   0447:                     data = all_results[
+   0448:                         venue_name
+   0449:                     ][
+   0450:                         str(race_no)
+   0451:                     ]
+   0452: 
+   0453:                     player_count = 0
+   0454: 
+   0455:                     if isinstance(
+   0456:                         data,
+   0457:                         dict,
+   0458:                     ):
+   0459: 
+   0460:                         players = data.get(
+   0461:                             "sensyuTypeInfo",
+   0462:                             []
+
+   0446: 
+   0447:                     data = all_results[
+   0448:                         venue_name
+   0449:                     ][
+   0450:                         str(race_no)
+   0451:                     ]
+   0452: 
+   0453:                     player_count = 0
+   0454: 
+   0455:                     if isinstance(
+   0456:                         data,
+   0457:                         dict,
+   0458:                     ):
+   0459: 
+   0460:                         players = data.get(
+   0461:                             "sensyuTypeInfo",
+   0462:                             []
+   0463:                         )
+   0464: 
+   0465:                         if isinstance(
+   0466:                             players,
+   0467:                             list,
+   0468:                         ):
+   0469: 
+   0470:                             player_count = len(
+   0471:                                 players
+   0472:                             )
+   0473: 
+   0474:                     print(
+   0475:                         f"✅ {venue_name} "
+   0476:                         f"{race_no}R "
+   0477:                         f"取得完了 "
+   0478:                         f"選手数={player_count}"
+   0479:                     )
+   0480: 
+   0481:                 else:
+   0482: 
+   0483:                     print(
+   0484:                         f"❌ {venue_name} "
+   0485:                         f"{race_no}R "
+🔥 0486:                         "JSJ006通信なし"
+   0487:                     )
+   0488: 
+   0489:             print()
+   0490:             print("=" * 60)
+   0491:             print(
+   0492:                 f"🔥 {venue_name}終了"
+   0493:             )
+   0494:             print(
+   0495:                 "取得数:",
+   0496:                 len(
+   0497:                     all_results[
+   0498:                         venue_name
+   0499:                     ]
+   0500:                 )
+   0501:             )
+   0502:             print("=" * 60)
+   0503: 
+   0504:         # ==================================================
+   0505:         # 保存
+   0506:         # ==================================================
+   0507: 
+   0508:         with open(
+   0509:             OUTPUT_JSON,
+   0510:             "w",
+   0511:             encoding="utf-8",
+   0512:         ) as f:
+   0513: 
+   0514:             json.dump(
+   0515:                 all_results,
+   0516:                 f,
+   0517:                 ensure_ascii=False,
+   0518:                 indent=2,
+   0519:             )
+   0520: 
+   0521:         # ==================================================
+   0522:         # 集計
+   0523:         # ==================================================
+   0524: 
+   0525:         print()
+   0526:         print("=" * 70)
+
+
+KEYWORD HITS
+======================================================================
+0006: OUTPUT_JSON = "155_all_venues_jsj006.json"
+0012:     print("🔥 155修正版 全開催 × 全レース JSJ006自動取得")
+0034:         # JSJ006監視
+0037:         def handle_response(response):
+0039:             url = response.url
+0041:             if "type=JSJ006" not in url:
+0045:             print("🔥 JSJ006通信発見！")
+0061:                 data = response.json()
+0102:             "response",
+0103:             handle_response
+0110:         page.goto(
+0124:         print("さらにJSJ006通信が出るページを開いてください")
+0141:             "td.tdkeirin[onclick^='raKeirinjoClick']"
+0159:                 onclick = (
+0161:                         "onclick"
+0173:             if "raKeirinjoClick" not in onclick:
+0179:                     onclick
+0181:                         "raKeirinjoClick(",
+0274:                 page.evaluate(
+0277:                         raKeirinjoClick(
+0408:                     button.click(
+0422:                 # JSJ006待機
+0486:                         "JSJ006通信なし"

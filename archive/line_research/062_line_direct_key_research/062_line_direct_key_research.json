@@ -1,0 +1,2376 @@
+{
+  "program": "062_test.py",
+  "created_at": "2026-07-11T00:40:06.314025",
+  "purpose": "ライン並び予想の直接取得キー・JSON・通信先探索",
+  "race_date": "20260710",
+  "race_key": "20260710_前橋_1R",
+  "venue": "前橋",
+  "race_no": 1,
+  "pj0314_changed": false,
+  "line_dom_truth": {
+    "found": true,
+    "target_text": "並び予想\t\t\n\nコマ切れ\n\n\t\t\t \n\n\t1\t5\t\t7\t2\t\t3\t\t4\t\t6\t\t\t\n\n\n情報提供：アオケイ",
+    "target_html": "<table class=\"fl-l\" style=\"width: 34%; height:105px;\"><tbody><tr class=\"b-a tbl_header2\" data-toggle=\"modal\" data-target=\"#narabi_hannrei\" style=\"height:30px\"><td class=\"al-l\" style=\"width: 30%;padding-left:4px\">並び予想</td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 30%;\"><p class=\"komagire\">コマ切れ</p></td><td class=\"al-c\" style=\"width: 1%;\"></td><td class=\"al-c\" style=\"width: 5%;\"> </td><td style=\"width:auto\">&nbsp;</td></tr><tr class=\"b-a\" style=\"background-color:#FFFFFF\"><td colspan=\"6\"><table><tbody><tr><td><img class=\"yajirusi_left\" src=\"/pc/static/img/member_left_short.png\"></td><td><div class=\"snum base_color_1\">1</div></td><td><div class=\"snum base_color_5\">5</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_7\">7</div></td><td><div class=\"snum base_color_2\">2</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_3\">3</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_4\">4</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_6\">6</div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td><td><div class=\"snum base_color_0\"></div></td></tr></tbody></table></td></tr><tr><td colspan=\"6\" class=\"al-r\" style=\"height:25px;width:100%\"><table style=\"width:100%\"><tbody><tr><td class=\"al-r\">情報提供：アオケイ</td></tr></tbody></table></td></tr></tbody></table>",
+    "prediction_type": "コマ切れ",
+    "provider": "アオケイ",
+    "rider_numbers": [
+      1,
+      5,
+      7,
+      2,
+      3,
+      4,
+      6
+    ]
+  },
+  "race_click_response_count": 7,
+  "resource_type_summary": {
+    "xhr": 7
+  },
+  "jsj_type_summary": {
+    "JSJ003": 1,
+    "JSJ004": 1,
+    "JSJ006": 1,
+    "JSJ005": 1,
+    "JSJ048": 1,
+    "JSJ001": 1
+  },
+  "direct_source_candidates": [
+    {
+      "score": 195,
+      "reasons": [
+        "PROVIDER_MATCH",
+        "TYPE_MATCH",
+        "ALL_RIDER_NUMBERS_PRESENT",
+        "XHR_OR_FETCH",
+        "JSJ_TYPE"
+      ],
+      "sequence": 94,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ005",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ005",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ005"
+        ]
+      },
+      "body_length": 1276,
+      "keywords": [
+        "コマ切れ",
+        "line",
+        "narabi",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0094_RACE_CLICK_20260710___1R_xhr_JSJ005.json"
+    },
+    {
+      "score": 115,
+      "reasons": [
+        "PROVIDER_MATCH",
+        "ALL_RIDER_NUMBERS_PRESENT",
+        "XHR_OR_FETCH",
+        "JSJ_TYPE"
+      ],
+      "sequence": 93,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ006",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ006",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ006"
+        ]
+      },
+      "body_length": 10504,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0093_RACE_CLICK_20260710___1R_xhr_JSJ006.json"
+    },
+    {
+      "score": 35,
+      "reasons": [
+        "ALL_RIDER_NUMBERS_PRESENT",
+        "XHR_OR_FETCH",
+        "JSJ_TYPE"
+      ],
+      "sequence": 92,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ004",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ004",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ004"
+        ]
+      },
+      "body_length": 5438,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0092_RACE_CLICK_20260710___1R_xhr_JSJ004.json"
+    },
+    {
+      "score": 35,
+      "reasons": [
+        "ALL_RIDER_NUMBERS_PRESENT",
+        "XHR_OR_FETCH",
+        "JSJ_TYPE"
+      ],
+      "sequence": 96,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ001",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ001",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ001"
+        ]
+      },
+      "body_length": 5058,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0096_RACE_CLICK_20260710___1R_xhr_JSJ001.json"
+    },
+    {
+      "score": 35,
+      "reasons": [
+        "ALL_RIDER_NUMBERS_PRESENT",
+        "XHR_OR_FETCH",
+        "JSJ_TYPE"
+      ],
+      "sequence": 95,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?kaisaibikbn=1&kanyusyaflg=false&shccp=0&dispid=PJ0315&type=JSJ048",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ048",
+      "encp": null,
+      "kday": null,
+      "query": {
+        "kaisaibikbn": [
+          "1"
+        ],
+        "kanyusyaflg": [
+          "false"
+        ],
+        "shccp": [
+          "0"
+        ],
+        "dispid": [
+          "PJ0315"
+        ],
+        "type": [
+          "JSJ048"
+        ]
+      },
+      "body_length": 4807,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0095_RACE_CLICK_20260710___1R_xhr_JSJ048.json"
+    },
+    {
+      "score": 35,
+      "reasons": [
+        "ALL_RIDER_NUMBERS_PRESENT",
+        "XHR_OR_FETCH",
+        "JSJ_TYPE"
+      ],
+      "sequence": 91,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ003",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ003",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ003"
+        ]
+      },
+      "body_length": 695,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0091_RACE_CLICK_20260710___1R_xhr_JSJ003.json"
+    },
+    {
+      "score": 10,
+      "reasons": [
+        "XHR_OR_FETCH"
+      ],
+      "sequence": 97,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/ana",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": null,
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 0,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0097_RACE_CLICK_20260710___1R_xhr_ana.txt"
+    }
+  ],
+  "race_click_captures": [
+    {
+      "sequence": 91,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ003",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ003",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ003"
+        ]
+      },
+      "body_length": 695,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0091_RACE_CLICK_20260710___1R_xhr_JSJ003.json"
+    },
+    {
+      "sequence": 92,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ004",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ004",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ004"
+        ]
+      },
+      "body_length": 5438,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0092_RACE_CLICK_20260710___1R_xhr_JSJ004.json"
+    },
+    {
+      "sequence": 93,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ006",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ006",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ006"
+        ]
+      },
+      "body_length": 10504,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0093_RACE_CLICK_20260710___1R_xhr_JSJ006.json"
+    },
+    {
+      "sequence": 94,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ005",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ005",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ005"
+        ]
+      },
+      "body_length": 1276,
+      "keywords": [
+        "コマ切れ",
+        "line",
+        "narabi",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0094_RACE_CLICK_20260710___1R_xhr_JSJ005.json"
+    },
+    {
+      "sequence": 95,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?kaisaibikbn=1&kanyusyaflg=false&shccp=0&dispid=PJ0315&type=JSJ048",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ048",
+      "encp": null,
+      "kday": null,
+      "query": {
+        "kaisaibikbn": [
+          "1"
+        ],
+        "kanyusyaflg": [
+          "false"
+        ],
+        "shccp": [
+          "0"
+        ],
+        "dispid": [
+          "PJ0315"
+        ],
+        "type": [
+          "JSJ048"
+        ]
+      },
+      "body_length": 4807,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0095_RACE_CLICK_20260710___1R_xhr_JSJ048.json"
+    },
+    {
+      "sequence": 96,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ001",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ001",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ001"
+        ]
+      },
+      "body_length": 5058,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0096_RACE_CLICK_20260710___1R_xhr_JSJ001.json"
+    },
+    {
+      "sequence": 97,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/ana",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": null,
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 0,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0097_RACE_CLICK_20260710___1R_xhr_ana.txt"
+    }
+  ],
+  "all_captures": [
+    {
+      "sequence": 1,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/top",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "document",
+      "content_type": "text/html;charset=UTF-8",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 76577,
+      "keywords": [
+        "line",
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0001_TOP_OPEN_document_top.txt"
+    },
+    {
+      "sequence": 2,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/ie10-viewport-bug-workaround.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 641,
+      "keywords": [
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0002_TOP_OPEN_script_ie10-viewport-bug-workaround.js.txt"
+    },
+    {
+      "sequence": 3,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery.cookie.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 3140,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0003_TOP_OPEN_script_jquery.cookie.js.txt"
+    },
+    {
+      "sequence": 4,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery.json.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1925,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0004_TOP_OPEN_script_jquery.json.min.js.txt"
+    },
+    {
+      "sequence": 5,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/common/bootstrap.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 36816,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0005_TOP_OPEN_script_bootstrap.min.js.txt"
+    },
+    {
+      "sequence": 6,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery-1.11.3.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 284394,
+      "keywords": [
+        "line",
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0006_TOP_OPEN_script_jquery-1.11.3.js.txt"
+    },
+    {
+      "sequence": 7,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/commonLoad.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1683,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0007_TOP_OPEN_script_commonLoad.js.txt"
+    },
+    {
+      "sequence": 8,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/commonLink.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1544,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0008_TOP_OPEN_script_commonLink.js.txt"
+    },
+    {
+      "sequence": 9,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/P_ticker.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1044,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0009_TOP_OPEN_script_P_ticker.js.txt"
+    },
+    {
+      "sequence": 10,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/commonSubmit.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 851,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0010_TOP_OPEN_script_commonSubmit.js.txt"
+    },
+    {
+      "sequence": 11,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/commonJSON.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 5343,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0011_TOP_OPEN_script_commonJSON.js.txt"
+    },
+    {
+      "sequence": 12,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/subdialog.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 35486,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0012_TOP_OPEN_script_subdialog.js.txt"
+    },
+    {
+      "sequence": 13,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/PC0101_c.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1300,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0013_TOP_OPEN_script_PC0101_c.js.txt"
+    },
+    {
+      "sequence": 14,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/PC0101_v.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 9128,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0014_TOP_OPEN_script_PC0101_v.js.txt"
+    },
+    {
+      "sequence": 15,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/PC0101.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 9843,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0015_TOP_OPEN_script_PC0101.js.txt"
+    },
+    {
+      "sequence": 16,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery-ui.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 470325,
+      "keywords": [
+        "line",
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0016_TOP_OPEN_script_jquery-ui.js.txt"
+    },
+    {
+      "sequence": 17,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery.carouFredSel-6.2.1-packed.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 54780,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0017_TOP_OPEN_script_jquery.carouFredSel-6.2.1-packed.js.txt"
+    },
+    {
+      "sequence": 18,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/PC0102.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1399,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0018_TOP_OPEN_script_PC0102.js.txt"
+    },
+    {
+      "sequence": 19,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/slick/slick.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 36928,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0019_TOP_OPEN_script_slick.min.js.txt"
+    },
+    {
+      "sequence": 20,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/PJ0101.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 8515,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0020_TOP_OPEN_script_PJ0101.js.txt"
+    },
+    {
+      "sequence": 21,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/PJ0101_c.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 2176,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0021_TOP_OPEN_script_PJ0101_c.js.txt"
+    },
+    {
+      "sequence": 22,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/com_kaime.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 30256,
+      "keywords": [
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0022_TOP_OPEN_script_com_kaime.js.txt"
+    },
+    {
+      "sequence": 23,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/static/js/PJ0101_v.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 31611,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0023_TOP_OPEN_script_PJ0101_v.js.txt"
+    },
+    {
+      "sequence": 24,
+      "phase": "TOP_OPEN",
+      "url": "https://www.keirin.jp/pc/ana",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": null,
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 0,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0024_TOP_OPEN_xhr_ana.txt"
+    },
+    {
+      "sequence": 25,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/racelive",
+      "method": "POST",
+      "post_data": "encp=D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM",
+      "status": 200,
+      "resource_type": "document",
+      "content_type": "text/html;charset=UTF-8",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 94720,
+      "keywords": [
+        "line",
+        "narabi",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0025_LIVE_CLICK_document_racelive.txt"
+    },
+    {
+      "sequence": 26,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery-1.11.3.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 284394,
+      "keywords": [
+        "line",
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0026_LIVE_CLICK_script_jquery-1.11.3.js.txt"
+    },
+    {
+      "sequence": 27,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/common/bootstrap.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 36816,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0027_LIVE_CLICK_script_bootstrap.min.js.txt"
+    },
+    {
+      "sequence": 28,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery.cookie.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 3140,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0028_LIVE_CLICK_script_jquery.cookie.js.txt"
+    },
+    {
+      "sequence": 29,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery.json.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1925,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0029_LIVE_CLICK_script_jquery.json.min.js.txt"
+    },
+    {
+      "sequence": 30,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery.carouFredSel-6.2.1-packed.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 54780,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0030_LIVE_CLICK_script_jquery.carouFredSel-6.2.1-packed.js.txt"
+    },
+    {
+      "sequence": 31,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery-ui.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 470325,
+      "keywords": [
+        "line",
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0031_LIVE_CLICK_script_jquery-ui.js.txt"
+    },
+    {
+      "sequence": 32,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/subdialog.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 35486,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0032_LIVE_CLICK_script_subdialog.js.txt"
+    },
+    {
+      "sequence": 33,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/P_ticker.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1044,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0033_LIVE_CLICK_script_P_ticker.js.txt"
+    },
+    {
+      "sequence": 34,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/commonJSON.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 5343,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0034_LIVE_CLICK_script_commonJSON.js.txt"
+    },
+    {
+      "sequence": 35,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/commonLoad.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1683,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0035_LIVE_CLICK_script_commonLoad.js.txt"
+    },
+    {
+      "sequence": 36,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/commonSubmit.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 851,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0036_LIVE_CLICK_script_commonSubmit.js.txt"
+    },
+    {
+      "sequence": 37,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/commonLink.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1544,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0037_LIVE_CLICK_script_commonLink.js.txt"
+    },
+    {
+      "sequence": 38,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/com_kaime.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 30256,
+      "keywords": [
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0038_LIVE_CLICK_script_com_kaime.js.txt"
+    },
+    {
+      "sequence": 39,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PC0101_v.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 9128,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0039_LIVE_CLICK_script_PC0101_v.js.txt"
+    },
+    {
+      "sequence": 40,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PC0101_c.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1300,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0040_LIVE_CLICK_script_PC0101_c.js.txt"
+    },
+    {
+      "sequence": 41,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PC0101.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 9843,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0041_LIVE_CLICK_script_PC0101.js.txt"
+    },
+    {
+      "sequence": 42,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PC0102.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1399,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0042_LIVE_CLICK_script_PC0102.js.txt"
+    },
+    {
+      "sequence": 43,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/common.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 72,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0043_LIVE_CLICK_script_common.js.txt"
+    },
+    {
+      "sequence": 44,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/common/jquery.tablesorter.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 16514,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0044_LIVE_CLICK_script_jquery.tablesorter.min.js.txt"
+    },
+    {
+      "sequence": 45,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/movieclip-0.8.1.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 4432,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0045_LIVE_CLICK_script_movieclip-0.8.1.min.js.txt"
+    },
+    {
+      "sequence": 46,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/tweenjs-0.6.1.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 23076,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0046_LIVE_CLICK_script_tweenjs-0.6.1.min.js.txt"
+    },
+    {
+      "sequence": 47,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/easeljs-0.8.1.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 85438,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0047_LIVE_CLICK_script_easeljs-0.8.1.min.js.txt"
+    },
+    {
+      "sequence": 48,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/Chart_B.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 121271,
+      "keywords": [
+        "line",
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0048_LIVE_CLICK_script_Chart_B.js.txt"
+    },
+    {
+      "sequence": 49,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/commonOzz.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 314,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0049_LIVE_CLICK_script_commonOzz.js.txt"
+    },
+    {
+      "sequence": 50,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/com_ozz.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1365,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0050_LIVE_CLICK_script_com_ozz.js.txt"
+    },
+    {
+      "sequence": 51,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/CreateStream.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 409,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0051_LIVE_CLICK_script_CreateStream.js.txt"
+    },
+    {
+      "sequence": 52,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/get_count_tickets.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 328,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0052_LIVE_CLICK_script_get_count_tickets.js.txt"
+    },
+    {
+      "sequence": 53,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/swfobject.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 25680,
+      "keywords": [
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0053_LIVE_CLICK_script_swfobject.js.txt"
+    },
+    {
+      "sequence": 54,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PC0201_c.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 453,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0054_LIVE_CLICK_script_PC0201_c.js.txt"
+    },
+    {
+      "sequence": 55,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PC0201_v.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 17471,
+      "keywords": [
+        "line",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0055_LIVE_CLICK_script_PC0201_v.js.txt"
+    },
+    {
+      "sequence": 56,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/commonInputCheck.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 840,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0056_LIVE_CLICK_script_commonInputCheck.js.txt"
+    },
+    {
+      "sequence": 57,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/commonFormat.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1196,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0057_LIVE_CLICK_script_commonFormat.js.txt"
+    },
+    {
+      "sequence": 58,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/get_list_tickets.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 3191,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0058_LIVE_CLICK_script_get_list_tickets.js.txt"
+    },
+    {
+      "sequence": 59,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PC0201.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 7815,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0059_LIVE_CLICK_script_PC0201.js.txt"
+    },
+    {
+      "sequence": 60,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PJ9102_c.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 363,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0060_LIVE_CLICK_script_PJ9102_c.js.txt"
+    },
+    {
+      "sequence": 61,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PJ9110_c.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 489,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0061_LIVE_CLICK_script_PJ9110_c.js.txt"
+    },
+    {
+      "sequence": 62,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PJ9110.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 576,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0062_LIVE_CLICK_script_PJ9110.js.txt"
+    },
+    {
+      "sequence": 63,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PJ9110_v.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 11358,
+      "keywords": [
+        "情報提供"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0063_LIVE_CLICK_script_PJ9110_v.js.txt"
+    },
+    {
+      "sequence": 64,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/PJ9102_v.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 7409,
+      "keywords": [
+        "line",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0064_LIVE_CLICK_script_PJ9102_v.js.txt"
+    },
+    {
+      "sequence": 65,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/commonLive.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 18077,
+      "keywords": [
+        "並び予想",
+        "情報提供",
+        "line",
+        "narabi",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0065_LIVE_CLICK_script_commonLive.js.txt"
+    },
+    {
+      "sequence": 66,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/FPJ0315.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 53418,
+      "keywords": [
+        "情報提供",
+        "line",
+        "narabi",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0066_LIVE_CLICK_script_FPJ0315.js.txt"
+    },
+    {
+      "sequence": 67,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/commonRace.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 223006,
+      "keywords": [
+        "情報提供",
+        "line",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0067_LIVE_CLICK_script_commonRace.js.txt"
+    },
+    {
+      "sequence": 68,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/js/common/dash.all.min.js",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "script",
+      "content_type": "application/javascript",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 793844,
+      "keywords": [
+        "line",
+        "formation"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0068_LIVE_CLICK_script_dash.all.min.js.txt"
+    },
+    {
+      "sequence": 69,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/ana",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": null,
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 0,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0069_LIVE_CLICK_xhr_ana.txt"
+    },
+    {
+      "sequence": 70,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/help/PY0101.html",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "document",
+      "content_type": "text/html; charset=UTF-8",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 635,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0070_LIVE_CLICK_document_PY0101.html.txt"
+    },
+    {
+      "sequence": 71,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/help/PY0104.html",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "document",
+      "content_type": "text/html; charset=UTF-8",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1544,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0071_LIVE_CLICK_document_PY0104.html.txt"
+    },
+    {
+      "sequence": 72,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/help/PY0105.html",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "document",
+      "content_type": "text/html; charset=UTF-8",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 3571,
+      "keywords": [
+        "line"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0072_LIVE_CLICK_document_PY0105.html.txt"
+    },
+    {
+      "sequence": 73,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/help/PY0102.html",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "document",
+      "content_type": "text/html; charset=UTF-8",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1199,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0073_LIVE_CLICK_document_PY0102.html.txt"
+    },
+    {
+      "sequence": 74,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/help/PY0106.html",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "document",
+      "content_type": "text/html; charset=UTF-8",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 634,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0074_LIVE_CLICK_document_PY0106.html.txt"
+    },
+    {
+      "sequence": 75,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/static/help/PY0103.html",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "document",
+      "content_type": "text/html; charset=UTF-8",
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 1766,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0075_LIVE_CLICK_document_PY0103.html.txt"
+    },
+    {
+      "sequence": 76,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/json?kaisaibikbn=1&kanyusyaflg=false&dispid=PJ0315&shccp=0&type=JSJ048",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ048",
+      "encp": null,
+      "kday": null,
+      "query": {
+        "kaisaibikbn": [
+          "1"
+        ],
+        "kanyusyaflg": [
+          "false"
+        ],
+        "dispid": [
+          "PJ0315"
+        ],
+        "shccp": [
+          "0"
+        ],
+        "type": [
+          "JSJ048"
+        ]
+      },
+      "body_length": 4807,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0076_LIVE_CLICK_xhr_JSJ048.json"
+    },
+    {
+      "sequence": 77,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjgyhkxpvG8okZf7-LyoWGBSw&type=JSJ001",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ001",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjgyhkxpvG8okZf7-LyoWGBSw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjgyhkxpvG8okZf7-LyoWGBSw"
+        ],
+        "type": [
+          "JSJ001"
+        ]
+      },
+      "body_length": 5058,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0077_LIVE_CLICK_xhr_JSJ001.json"
+    },
+    {
+      "sequence": 78,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ006",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ006",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ006"
+        ]
+      },
+      "body_length": 10504,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0078_LIVE_CLICK_xhr_JSJ006.json"
+    },
+    {
+      "sequence": 79,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ004",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ004",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ004"
+        ]
+      },
+      "body_length": 5438,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0079_LIVE_CLICK_xhr_JSJ004.json"
+    },
+    {
+      "sequence": 80,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ003",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ003",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ003"
+        ]
+      },
+      "body_length": 695,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0080_LIVE_CLICK_xhr_JSJ003.json"
+    },
+    {
+      "sequence": 81,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ005",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ005",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ005"
+        ]
+      },
+      "body_length": 1276,
+      "keywords": [
+        "コマ切れ",
+        "line",
+        "narabi",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0081_LIVE_CLICK_xhr_JSJ005.json"
+    },
+    {
+      "sequence": 82,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/json?kaisaibikbn=1&kanyusyaflg=false&shccp=0&dispid=PJ0315&type=JSJ048",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ048",
+      "encp": null,
+      "kday": null,
+      "query": {
+        "kaisaibikbn": [
+          "1"
+        ],
+        "kanyusyaflg": [
+          "false"
+        ],
+        "shccp": [
+          "0"
+        ],
+        "dispid": [
+          "PJ0315"
+        ],
+        "type": [
+          "JSJ048"
+        ]
+      },
+      "body_length": 4807,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0082_LIVE_CLICK_xhr_JSJ048.json"
+    },
+    {
+      "sequence": 83,
+      "phase": "LIVE_CLICK",
+      "url": "https://www.keirin.jp/pc/ana",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": null,
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 0,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0083_LIVE_CLICK_xhr_ana.txt"
+    },
+    {
+      "sequence": 84,
+      "phase": "VENUE_CLICK_前橋",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjgyhkxpvG8okZf7-LyoWGBSw&type=JSJ001",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ001",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjgyhkxpvG8okZf7-LyoWGBSw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjgyhkxpvG8okZf7-LyoWGBSw"
+        ],
+        "type": [
+          "JSJ001"
+        ]
+      },
+      "body_length": 5058,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0084_VENUE_CLICK___xhr_JSJ001.json"
+    },
+    {
+      "sequence": 85,
+      "phase": "VENUE_CLICK_前橋",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ003",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ003",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ003"
+        ]
+      },
+      "body_length": 695,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0085_VENUE_CLICK___xhr_JSJ003.json"
+    },
+    {
+      "sequence": 86,
+      "phase": "VENUE_CLICK_前橋",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ004",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ004",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ004"
+        ]
+      },
+      "body_length": 5438,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0086_VENUE_CLICK___xhr_JSJ004.json"
+    },
+    {
+      "sequence": 87,
+      "phase": "VENUE_CLICK_前橋",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ005",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ005",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ005"
+        ]
+      },
+      "body_length": 1276,
+      "keywords": [
+        "コマ切れ",
+        "line",
+        "narabi",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0087_VENUE_CLICK___xhr_JSJ005.json"
+    },
+    {
+      "sequence": 88,
+      "phase": "VENUE_CLICK_前橋",
+      "url": "https://www.keirin.jp/pc/json?kaisaibikbn=1&kanyusyaflg=false&shccp=0&dispid=PJ0315&type=JSJ048",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ048",
+      "encp": null,
+      "kday": null,
+      "query": {
+        "kaisaibikbn": [
+          "1"
+        ],
+        "kanyusyaflg": [
+          "false"
+        ],
+        "shccp": [
+          "0"
+        ],
+        "dispid": [
+          "PJ0315"
+        ],
+        "type": [
+          "JSJ048"
+        ]
+      },
+      "body_length": 4807,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0088_VENUE_CLICK___xhr_JSJ048.json"
+    },
+    {
+      "sequence": 89,
+      "phase": "VENUE_CLICK_前橋",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ006",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ006",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ006"
+        ]
+      },
+      "body_length": 10504,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0089_VENUE_CLICK___xhr_JSJ006.json"
+    },
+    {
+      "sequence": 90,
+      "phase": "VENUE_CLICK_前橋",
+      "url": "https://www.keirin.jp/pc/ana",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": null,
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 0,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0090_VENUE_CLICK___xhr_ana.txt"
+    },
+    {
+      "sequence": 91,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ003",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ003",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ003"
+        ]
+      },
+      "body_length": 695,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0091_RACE_CLICK_20260710___1R_xhr_JSJ003.json"
+    },
+    {
+      "sequence": 92,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ004",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ004",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ004"
+        ]
+      },
+      "body_length": 5438,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0092_RACE_CLICK_20260710___1R_xhr_JSJ004.json"
+    },
+    {
+      "sequence": 93,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ006",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ006",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ006"
+        ]
+      },
+      "body_length": 10504,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0093_RACE_CLICK_20260710___1R_xhr_JSJ006.json"
+    },
+    {
+      "sequence": 94,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ005",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ005",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ005"
+        ]
+      },
+      "body_length": 1276,
+      "keywords": [
+        "コマ切れ",
+        "line",
+        "narabi",
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0094_RACE_CLICK_20260710___1R_xhr_JSJ005.json"
+    },
+    {
+      "sequence": 95,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?kaisaibikbn=1&kanyusyaflg=false&shccp=0&dispid=PJ0315&type=JSJ048",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ048",
+      "encp": null,
+      "kday": null,
+      "query": {
+        "kaisaibikbn": [
+          "1"
+        ],
+        "kanyusyaflg": [
+          "false"
+        ],
+        "shccp": [
+          "0"
+        ],
+        "dispid": [
+          "PJ0315"
+        ],
+        "type": [
+          "JSJ048"
+        ]
+      },
+      "body_length": 4807,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0095_RACE_CLICK_20260710___1R_xhr_JSJ048.json"
+    },
+    {
+      "sequence": 96,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/json?encp=D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw&type=JSJ001",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": "application/json;charset=utf-8",
+      "jsj_type": "JSJ001",
+      "encp": "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw",
+      "kday": null,
+      "query": {
+        "encp": [
+          "D-fs-ibaZM4Z3cYeuKvjg8_IV3ulechqB52PfOAHoTw"
+        ],
+        "type": [
+          "JSJ001"
+        ]
+      },
+      "body_length": 5058,
+      "keywords": [
+        "yoso"
+      ],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0096_RACE_CLICK_20260710___1R_xhr_JSJ001.json"
+    },
+    {
+      "sequence": 97,
+      "phase": "RACE_CLICK_20260710_前橋_1R",
+      "url": "https://www.keirin.jp/pc/ana",
+      "method": "GET",
+      "post_data": null,
+      "status": 200,
+      "resource_type": "xhr",
+      "content_type": null,
+      "jsj_type": null,
+      "encp": null,
+      "kday": null,
+      "query": {},
+      "body_length": 0,
+      "keywords": [],
+      "saved_body": "C:\\競輪AI\\data_official\\line_research\\062_line_direct_key_research\\response_bodies\\0097_RACE_CLICK_20260710___1R_xhr_ana.txt"
+    }
+  ]
+}

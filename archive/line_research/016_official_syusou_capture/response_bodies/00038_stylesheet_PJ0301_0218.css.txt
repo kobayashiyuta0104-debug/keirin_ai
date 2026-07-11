@@ -1,0 +1,66 @@
+/* PJ0301_PC_レースプログラム(0218)  */
+
+@charset "UTF-8";
+
+
+div.PJ0301 table {table-layout:fixed;}
+
+div.PJ0301 table td{
+	border:1px solid #888888;
+	padding:0 4px;
+}
+
+div.PJ0301 p{margin-bottom:0px!important;}
+
+div.PJ0301 .shoukinbtn{
+	background: #C188FF !important;
+	color: #404040 !important;
+	border: 2px solid #644882;
+}
+div.PJ0301 #shoukinbtn:hover{
+	background: #644882 !important;
+	color: #FFFFFF !important;
+}
+
+
+div.PJ0301 .gaitebangumi{
+	background: #FFBBDD !important;
+	color: #404040 !important;
+	border: 2px solid #F67F7F;
+}
+
+div.PJ0301 #gaitebangumi:hover{
+	background: #F67F7F !important;
+	color: #FFFFFF !important;
+}
+
+.mardivtop{
+	margin-top: 10px;
+}
+
+.gaiteidiv{
+	width: 50%;
+	margin-top: 20px;
+}
+
+.gaiteiNametd{
+	padding: 5px;
+}
+
+.shoukinListtd{
+	padding: 10px 5px 10px 10px !important;
+	border-right-width: 0px !important;
+}
+
+.gaiteiListtd{
+	padding: 10px 5px 10px 10px !important;
+	border-left-width: 0px !important;
+}
+
+.mesdiv{
+	margin-top: 2px;
+}
+
+.tablhei{
+	height: 72px
+}

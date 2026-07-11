@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE html>
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2">
+   <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+   <meta http-equiv="content-script-type" content="text/javascript" />
+   <meta http-equiv="content-style-type" content="text/css" />
+   <meta http-equiv="imagetoolbar" content="no" />
+   <meta name="author" content="JKA" />
+   <meta name="copyright" content="COPYRIGHT(C) JKA. ALL RIGHTS RESERVED." />
+   <meta name="robots" content="NOINDEX,NOFOLLOW" />
+   <title>LIVE&amp;投票｜KEIRIN.JP</title>
+   <link rel="icon" href="/pc/static/img/common/favicon.ico" />
+   <link rel="stylesheet" href="/pc/static/css/common/bootstrap.min.css" />
+   <link rel="stylesheet" href="/pc/static/css/common/bootstrap-theme.min.css" />
+   <link rel="stylesheet" href="/pc/static/css/common/font-awesome.min.css" />
+   <link rel="stylesheet" href="/pc/static/css/common/tablesort.css" />
+   <link rel="stylesheet" type="text/css" href="/pc/static/css/common/jquery-ui.css" />
+   <link rel="stylesheet" media="all" href="/pc/static/css/P_base.css" />
+   <link rel="stylesheet" media="all" href="/pc/static/css/race_base.css" />
+   <link rel="stylesheet" media="all" href="/pc/static/css/PJ0311.css" />
+   <link rel="stylesheet" media="all" href="/pc/static/css/PJ0312.css" />
+   <link rel="stylesheet" media="all" href="/pc/static/css/PJ0314.css" />
+   <link rel="stylesheet" media="all" href="/pc/static/css/PJ0315.css" />
+   <link rel="stylesheet" media="all" href="/pc/static/css/PJ0328.css" />
+   <link rel="stylesheet" media="all" href="/pc/static/css/PT0511.css" />
+   <link rel="stylesheet" type="text/css" href="/pc/static/css/subdialog.css" />
+   <script type="text/javascript" src="/pc/static/js/common/jquery-1.11.3.js"></script>
+   <script type="text/javascript" src="/pc/static/js/common/bootstrap.min.js"></script>
+   <script type="text/javascript" src="/pc/static/js/common/jquery.cookie.js"></script>
+   <script type="text/javascript" src="/pc/static/js/common/jquery.json.min.js"></script>
+   <script type="text/javascript" src="/pc/static/js/common/jquery.tablesorter.min.js"></script>
+   <script type="text/javascript" src="/pc/static/js/common.js"></script>
+   <script type="text/javascript" src="/pc/static/js/common/jquery.carouFredSel-6.2.1-packed.js"></script>
+   <script type="text/javascript" src="/pc/static/js/common/jquery-ui.js"></script>
+   <script type="text/javascript" src="/pc/static/js/easeljs-0.8.1.min.js"></script>
+   <script type="text/javascript" src="/pc/static/js/tweenjs-0.6.1.min.js"></script>
+   <script type="text/javascript" src="/pc/static/js/movieclip-0.8.1.min.js"></script>
+   <script type="text/javascript" src="/pc/static/js/subdialog.js"></script>
+   <script type="text/javascript" src="/pc/static/js/Chart_B.js"></script>
+   <script type="text/javascript" src="/pc/static/js/common/dash.all.min.js"></script>
+
+   <script type="text/javascript" src="/pc/static/js/P_ticker.js"></script>
+   
+   <script type="text/javascript" src="/pc/static/js/commonJSON.js"></script>
+   <script type="text/javascript" src="/pc/static/js/commonLoad.js"></script>
+   <script type="text/javascript" src="/pc/static/js/commonSubmit.js"></script>
+   <script type="text/javascript" src="/pc/static/js/commonLink.js"></script>
+   <script type="text/javascript" src="/pc/static/js/swfobject.js"></script>
+   <script type="text/javascript" src="/pc/static/js/CreateStream.js"></script>
+   
+   <script type="text/javascript" src="/pc/static/js/commonInputCheck.js"></script>
+   <script type="text/javascript" src="/pc/static/js/com_ozz.js"></script>
+   <script type="text/javascript" src="/pc/static/js/com_kaime.js"></script>
+   <script type="text/javascript" src="/pc/static/js/commonOzz.js"></script>
+   <script type="text/javascript" src="/pc/static/js/commonFormat.js"></script>
+   <script type="text/javascript" src="/pc/static/js/get_count_tickets.js"></script>
+   <script type="text/javascript" src="/pc/static/js/get_list_tickets.js"></script>
+   
+   <script type="text/javascript" src="/pc/static/js/PC0101_v.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PC0101_c.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PC0101.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PC0102.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PC0201_v.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PC0201_c.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PC0201.js"></script>
+
+
+   <script type="text/javascript" src="/pc/static/js/PJ9102_v.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PJ9102_c.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PJ9110_v.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PJ9110_c.js"></script>
+   <script type="text/javascript" src="/pc/static/js/PJ9110.js"></script>
+
+   <script type="text/javascript" src="/pc/static/js/FPJ0315.js"></script>
+   <script type="text/javascript" src="/pc/static/js/commonLive.js"></script>
+   <script type="text/javascript" src="/pc/static/js/commonRace.js"></script></head><body>
+   <div class="basewindows clear-fix">
+     
+     <div class="clear-fix" id="PC0101"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<nav id="menu" class="navbar header_bg navipos" role="navigation">
+  <div class="container" id="nav_menus">
+    <div class="navbar-header">
+	  <a class="navbar-brand" id="btnKeirinjp" onclick="shLinkClick(0)"><img src="/pc/static/img/topbtn.png" alt="KEIRIN.JP TOP" class="top_logo" style="cursor:pointer" /></a><input id="shHdnLink_0" type="hidden" name="shHdnLink_0" value="/pc/top" />
+	</div>
+    <div id="navbar" class="collapse navbar-collapse">
+	  <ul class="nav navbar-nav">
+           <li class="dropdown"><a role="button" id="btnSyoshinsya" class="topmenu_txt" onclick="shLinkClick(1)">初心者コンテンツ</a><input id="shHdnLink_1" type="hidden" name="shHdnLink_1" value="/pc/static/beginner/select-language/index.html" />
+           </li>
+           <li class="dropdown"><a role="button" id="btnKaisainittei" class="topmenu_txt" onclick="shLinkClick(2)">開催日程</a><input id="shHdnLink_2" type="hidden" name="shHdnLink_2" value="/pc/raceschedule" />
+           </li>
+           <li class="dropdown"><a role="button" id="btnKensakuShiryou" class="topmenu_txt" onclick="shLinkClick(3)">検索/資料室</a><input id="shHdnLink_3" type="hidden" name="shHdnLink_3" value="/pc/search" />
+           </li>
+           <li class="dropdown"><a role="button" id="btnRanking" class="topmenu_txt" onclick="shLinkClick(7)">ランキング</a><input id="shHdnLink_7" type="hidden" name="shHdnLink_7" value="/pc/prizeranking" />
+           </li>
+           <li class="dropdown"><a role="button" id="btnKeirinJyougai" class="topmenu_txt" onclick="shLinkClick(4)">競輪場/場外売場</a><input id="shHdnLink_4" type="hidden" name="shHdnLink_4" value="/pc/jyolist" />
+           </li>
+           <li class="dropdown"><a role="button" id="btnKeirinSchool" class="topmenu_txt" onclick="shLinkClick(5)">日本競輪選手養成所</a><input id="shHdnLink_5" type="hidden" name="shHdnLink_5" value="/pc/dfw/portal/guest/jik/index.html" />
+           </li>
+           <li class="dropdown"><a role="button" id="btnLink" class="topmenu_txt" onclick="shLinkClick(6)">リンク</a><input id="shHdnLink_6" type="hidden" name="shHdnLink_6" value="/pc/dfw/portal/guest/link/index.html" />
+           </li>
+           <li class="dropdown　btn_drop"></li>
+           <li class="dropdown　btn_drop"></li>
+           <li class="dropdown　btn_drop"></li>
+           <li class="dropdown　btn_drop"> </li>
+	  </ul>
+	</div>
+  </div>
+  <div id="topfix">
+    <div id="colorbar" class="menu_colorbar"></div>
+       <div id="ticker_area" class="ticker_area clear-fix">
+     <table class="w100pc">
+       <tbody>
+       <tr>
+       <td style="border-style: none">       
+         <div id="ticker" class="fl-l comHeadTicker">
+           <div id="ticker_inner">
+           </div>
+         </div>
+       </td>
+       </tr>
+       </tbody>
+     </table>
+       </div>
+  </div>
+     <div id="breads" class="bread_area clear-fix">
+       <div class="bread_crab fl-l" id="hcomBlDiv">
+       </div>
+       <div id="shGSearch" class="searchbox fl-r">
+       </div>
+     </div>
+</nav><input id="sh_hidden1" type="hidden" name="sh_hidden1" value="false" />
+       <div id="main" style="MARGIN-TOP: 0px">
+         <div id="topbtns" class="raceinfo bbottom">
+	       <div id="sh_suc_div">     
+             <div class="topbtns_inner">
+               <div id="hcomBtngroup" role="group" class="btn-group">
+                 <button id="shTodayRace" class="btn btn_fsz onbtn active btn_today_tomo" name="btnRaceToday" onclick="shChgRaceListBtn(0)" jname="今日の開催" value="ボタン">今日の開催</button>
+                 <button id="shTomorrowRace" class="btn btn_fsz onbtn btn_today_tomo" name="btnRaceTomorrow" onclick="shChgRaceListBtn(1)" jname="明日の開催" value="ボタン">明日の開催</button> 
+               </div>
+               <div id="hcomnoRaceMsg" class="dispoff" jname="レースなしメッセージ" name="divNoRaceMsg"><span id="UNQ_orlabel_18" class="no_race_msg"></span></div>
+               <div calss="dispon" id="hcomRaceDiv">
+                 <div id="hcomRace" class="dispon list-inline" jname="レースリスト" name="divRaceList"></div>
+               </div>
+             </div>
+           </div>
+  	     </div>
+       </div>
+   <script type="text/javascript">
+	var pc0101_json = {"kaisaiDateKbn":"0","loginState":false,"RaceList":[{"gradeBackColor":"grade_g3_bg_color","kaisaiDate":"20260710","naibuKeirinCd":"22","keirinjoName":"前橋","gradeKbn":"3","gradeIconPath":"/pc/static/img/icon/grade/ico_g3.png","gradeIconName":"G3","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_day1.png","nichijiIconName":"初日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","kubunIconName":"1","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM","tyusiKbn":"0","denColorFlg":"0","raceNum":"12R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260710","naibuKeirinCd":"11","keirinjoName":"函館","gradeKbn":"2","gradeIconPath":"/pc/static/img/icon/grade/ico_f1.png","gradeIconName":"F1","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_fday.png","nichijiIconName":"最終日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png","kubunIconName":"3","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"T9wMz-ha1TZ640Z-S5GN5Lj37nIT_hpE1pP7n8r0_zE","tyusiKbn":"0","denColorFlg":"0","raceNum":"12R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260710","naibuKeirinCd":"37","keirinjoName":"伊東","gradeKbn":"2","gradeIconPath":"/pc/static/img/icon/grade/ico_f1.png","gradeIconName":"F1","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_day1.png","nichijiIconName":"初日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png","kubunIconName":"3","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"W2uRQM1igycPTuhMZ-U0HxluJbAQf-41MmWPl-1Y9aE","tyusiKbn":"0","denColorFlg":"0","raceNum":"12R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260710","naibuKeirinCd":"44","keirinjoName":"大垣","gradeKbn":"2","gradeIconPath":"/pc/static/img/icon/grade/ico_f1.png","gradeIconName":"F1","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_fday.png","nichijiIconName":"最終日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","kubunIconName":"1","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"M55-TiOKRgzcmeiQ08HxlTDSC_Y4MZOULUfYGnS8eTw","tyusiKbn":"0","denColorFlg":"0","raceNum":"12R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260710","naibuKeirinCd":"13","keirinjoName":"いわき平","gradeKbn":"1","gradeIconPath":"/pc/static/img/icon/grade/ico_f2.png","gradeIconName":"F2","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_day1.png","nichijiIconName":"初日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png","kubunIconName":"5","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"6nWOJ2YgWUh0vVMBoyI8CI6juP_egQtEjCYj4mlac8Y","tyusiKbn":"0","denColorFlg":"0","raceNum":"9R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260710","naibuKeirinCd":"36","keirinjoName":"小田原","gradeKbn":"1","gradeIconPath":"/pc/static/img/icon/grade/ico_f2.png","gradeIconName":"F2","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_day1.png","nichijiIconName":"初日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png","kubunIconName":"8","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"oGn5WPyFKUs7MmpVS67mXcyaXcWr_MsPN1Xq4sYA1Ag","tyusiKbn":"0","denColorFlg":"0","raceNum":"7R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260710","naibuKeirinCd":"42","keirinjoName":"名古屋","gradeKbn":"1","gradeIconPath":"/pc/static/img/icon/grade/ico_f2.png","gradeIconName":"F2","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_day1.png","nichijiIconName":"初日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png","kubunIconName":"5","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"u93Y_4IZiF1UgerS4eAiiib0tYhdENWfypeOKshBZA4","tyusiKbn":"0","denColorFlg":"0","raceNum":"9R","denTime":"","denTitle":"発売締切","loginState":false},{"gradeBackColor":"white_bg_color","kaisaiDate":"20260710","naibuKeirinCd":"62","keirinjoName":"広島","gradeKbn":"1","gradeIconPath":"/pc/static/img/icon/grade/ico_f2.png","gradeIconName":"F2","nichijiIconPath":"/pc/static/img/icon/Himoku/ico_fday.png","nichijiIconName":"最終日","KubunIconPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png","kubunIconName":"8","touhyouFlg":"0","liveFlg":"1","touhyouLivePara":"Ozpk-eumfo_0DwX9fHqEYT7qyR_ltNxTg6mAvFPgD6E","tyusiKbn":"0","denColorFlg":"0","raceNum":"7R","denTime":"","denTitle":"発売締切","loginState":false}],"tickerFlg":true,"tickerFlashFlg":"0","kanyusyaFlgJSON":false,"parentDspId":"FPJ0315","currentDspId":"PJ0315","touhyouLnkPath":"/pc/racevote","liveLinkPath":"/pc/racelive","tickerData":[{"tickerColorData":"color_red","tickerTextData":"【お知らせ】Androidスマートフォンにてライブ映像の再生不具合が発生しております。詳しくは競輪トピックスをご覧ください。　　"},{"tickerColorData":"body_base_color","tickerTextData":"KEIRIN.JPインターネット・電話投票会員（CTC会員）募集中！詳しくは競輪トピックスをご覧ください。　　"},{"tickerColorData":"body_base_color","tickerTextData":"ミッドナイト競輪は1番車から競走得点上位順に選手を並べ、より分かりやすく、よりシンプルに！　　"}],"breadCrumbData":[{"postgetFlg":"1","breadCrumbPath":"/pc/top","breadCrumbName":"トップページ","breadCrumbDspID":"PJ0101"},{"postgetFlg":"0","breadCrumbPath":"/pc/racelist","breadCrumbName":"開催情報","breadCrumbDspID":"FPJ0305"},{"postgetFlg":"2","breadCrumbPath":"","breadCrumbName":"LIVE\u0026amp;投票","breadCrumbDspID":""}],"forceProtcolParam":"0","resultCd":0,"writeANA":false};
+	PC0101View.shDrawJSONData(pc0101_json,0);
+   </script><input id="sfHdnLink_0" type="hidden" name="sfHdnLink_0" value="https://keirin.jp/pc/static/help/PU0311.html" />   
+</div>
+     </div>
+     
+     
+     <div class="clear-fix dispoff" id="PC0201"><div id="hhMain">
+   <div id="hhDivErrArea" class="dispoff">
+   </div>
+   <div id="hhDivSucArea" class="col2_layA2_T dispoff">
+     <div id="hhDivTitleArea" class="race_title clear-fix">
+       <div id="hhDivTitle" class="fl-l titlehh">
+         <div class="fl-l"><span id="hhLblJo" class="race_place"></span></div>
+         <div id="hhDivIconField" class="fl-l"></div>
+         <div class="fl-l"><span id="hhLblRaceName" class="race_name"></span></div> 
+       </div>
+       <div id="hhDivWinner" class="fl-r hh_intvtitle">
+       </div>
+     </div>
+     <div id="hhJoinfo"></div>
+     <div id="hhDivKaisaibi" class="race_days clear-fix">
+       
+     </div>
+     <div id="hhDivRaceUnder" class="">
+       <div class="race_btns clear-fix">
+         <div id="hhDivRaceNum" class="fl-l hhracediv hhracebtn">
+           
+         </div>
+         <div class="fl-r hhracediv">
+           <button id="hhbtnSyusouList" class="btn btn_fsz onbtn btn_sz_hh" type="button">出走表一覧</button>
+           <button id="hhbtnResultList" class="btn btn_fsz onbtn btn_sz_hh" type="button">結果一覧</button>
+         </div>
+       </div>
+       <div id="hhDivMessage" class="dispoff nodata v-al-m al-c hhErrMsg">
+         <span id="hhLblMessage"></span>
+       </div>
+       <div id="hhDivPlayersList" class="players clear-fix">
+           <div id="playerPhotos" class="fl-l">
+             <ul id="players" class="list-inline">
+             </ul>
+           </div>
+         <div id="hhDivGuideIcon" class="fl-l expdiv al-c title_T20 disphidden">
+         </div>
+         <div id="hhDivVote" class="fl-l bigbtn dispoff"><button id="hhbtnVote" class="btn bigbtn orange">投票はこちら</button> 
+         </div>
+       </div>
+     </div>
+     <div id="hhDivRaceDtlFrame" class="race_detail" style="PADDING: 0 30px;">
+       <table class="w100pc">
+         <tbody>
+           <tr id="hhTrTickerH">
+             <td id="hhTdRaceDtl" style="width: 1px; vertical-align: top;">
+               <div id="hhDivRaceDtl" class="nobr" style="PADDING-TOP: 5px">
+                 <span id="hhLblRaceDtl" style="MARGIN-RIGHT: 10px"></span>
+                 <span id="hhLblShimeTitle" style="FONT-SIZE: 11px">発売締切</span>
+                 <span id="hhLblShimeTime" class="lineth"></span>
+                 <span id="hhLblShimeArrow"> &gt; </span>
+                 <span id="hhLblShimeHenTime" class="empcolor_red" style="PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px"></span>
+                 <span id="hhLblHassoTitle" style="FONT-SIZE: 11px">発走予定</span>
+                 <span id="hhLblHassoTime" class="lineth"></span>
+                 <span id="hhLblHassoArrow"> &gt; </span>
+                 <span id="hhLblHassoHenTime" class="empcolor_red" style="PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px"></span>
+               </div>
+             </td>
+             <td id="hhTdPadding" style="width: 1px; height: 35px;">
+             </td>
+             <td id="hhTdTicker">
+               <div style="MARGIN-LEFT: 5px; MARGIN-TOP: 4px; MARGIN-RIGHT: 5px; MARGIN-BOTTOM: 4px">
+                 <div id="hhTickerArea" class="ticker_area3">
+                   <div id="hhTicker">
+                     <div id="hhTicker_inner">
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </td>
+           </tr>
+           <tr id="hhTrTickerF">
+             <td id="hhTdTickerF" colspan="2">
+               <div style="MARGIN-LEFT: 5px; MARGIN-TOP: 4px; MARGIN-RIGHT: 5px; MARGIN-BOTTOM: 4px">
+                 <div id="hhTickerFArea" class="ticker_area3">
+                   <div id="hhTickerF">
+                     <div id="hhTickerF_inner">
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     <div id="hhDivKaisaiHeadMessage" class="nodata al-c underr-outer dispoff">
+     </div>
+   </div><input id="hhhdnPostUrl1" type="hidden" name="hhhdnPostUrl1" value="/pc/racelive" style="POSITION: ; VISIBILITY: hidden" /><input id="hhhdnPostUrl2" type="hidden" name="hhhdnPostUrl2" value="/pc/racelist" style="POSITION: ; VISIBILITY: hidden" /><input id="hhhdnPostUrl3" type="hidden" name="hhhdnPostUrl3" value="/pc/racevote" style="POSITION: ; VISIBILITY: hidden" /><input id="hhhdnPostUrl4" type="hidden" name="hhhdnPostUrl4" value="/pc/racerprofile" style="POSITION: ; VISIBILITY: hidden" /><input id="hhhdnPostUrl5" type="hidden" name="hhhdnPostUrl5" value="/pc/racestream" style="POSITION: ; VISIBILITY: hidden" />
+   <script type="text/javascript">
+     var jshhSpacer = "/pc/static/img/spacer.png";
+   </script>
+</div> 
+     </div>
+     
+
+     <div class="">
+       <div class="col2_layA1_L fl-l dispon" style="margin-right: 14px;">
+         
+         <div class="dispoff" id="PJ0311"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+	<div id="stdivmain">
+		 <div id="stdivmsg" class="msgstream m-al-c"></div>
+		 <div id="flashdiv">
+		 	<video id="videoPlayer" controls="controls"></video>
+		 </div>
+		<div id="stdivracestream"></div>
+	</div>
+	<input id="sthdnHelpUrl" type="hidden" value="/pc/static/help/PX0410.html#kankyo_flash" />
+	<input id="sthdncontextPath" type="hidden" value="/pc" />
+</div>
+         </div> 
+         
+         <div style="height: 10px;"></div>
+         
+         <div class="dispoff" id="PJ0312"><div xmlns="http://www.w3.org/1999/xhtml"><input id="rahdnAscIcon" type="hidden" name="rahdnAscIcon" value="/pc/static/img/common/sort_asc.png" /><input id="rahdnAscName" type="hidden" name="rahdnAscName" value="ソート昇順" /><input id="rahdnDscIcon" type="hidden" name="rahdnDscIcon" value="/pc/static/img/common/sort_desc.png" /><input id="rahdnDscName" type="hidden" name="rahdnDscName" value="ソート降順" /><input id="rahdnNonIcon" type="hidden" name="rahdnNonIcon" value="/pc/static/img/common/sort_bg.png" /><input id="rahdnNonName" type="hidden" name="rahdnNonName" value="ソート指定なし" /><input id="rahdnRedFont" type="hidden" name="rahdnRedFont" value="color_red" /> 
+           <div id="radivErrorRaceInfo"></div>
+           <div id="radivHeldRaceList"></div>
+           <div id="radivHeldRaceListTbl"></div>
+</div>
+         </div> 
+         
+       </div>
+     
+       <div class="col2_layA1_R" style="margin-left: 480px;">
+         
+         <div class="dispoff" id="PJ0313"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+   
+   <div class="clear-fix">
+     <div class="fl-l">
+       <div class="btn-group" role="group" style="padding: 0px 0px 10px;">
+         <button id="rcbtnLive" class="btn btn_fsz onbtn" style="width: 182px; height: 46px;" type="button">LIVE モード</button>
+         <button id="rcbtnVote" class="btn btn_fsz onbtn" style="width: 182px; height: 46px;" type="button">投票モード</button>
+       </div>
+     </div>
+     <div class="fl-l">
+       <p id="rclblVideoWindow" class="al-l" style="margin-top: 10px; margin-left:10px;"><a href="javascript:void(0)" class="txt_underline" onclick="rcClickStreamLink()">映像を別ウィンドウで表示 <i class="fa fa-external-link"></i></a></p>
+     </div>
+     <div class="fl-r">
+       <div style="padding: 0px 0px 10px;">
+         <span style="margin: 0px 20px;"><a href="javascript:void(0)" class="txt_underline" onclick="rcClickDispHelp()">ヘルプ</a></span>
+         <button id="rcbtnRacePrint" class="btn onbtn" style="width: 120px; height: 40px;" type="button" onclick="rcClickPrintBtn()"><i class="fa fa-print"></i>　出走表印刷</button>
+       </div>
+     </div>
+   </div>
+   <div class="btn-group" style="width: 100%;">
+     <button id="rcbtn1" onclick="btnClickOfFrame('PJ0315')" class="btn onbtn" style="width: 11.2%; height: 36px;" type="button">基本情報</button>
+     <button id="rcbtn2" onclick="btnClickOfFrame('PJ0316')" class="btn onbtn" style="width: 11.2%; height: 36px;" type="button">直近成績</button>
+     <button id="rcbtn3" onclick="btnClickOfFrame('PJ0317')" class="btn onbtn" style="width: 11.2%; height: 36px;" type="button">対戦成績</button>
+     <button id="rcbtn4" onclick="btnClickOfFrame('PJ0318')" class="btn onbtn" style="width: 11.2%; height: 36px;" type="button">種目別成績</button>
+     <button id="rcbtn5" onclick="btnClickOfFrame('PJ0319')" class="btn onbtn" style="width: 11.2%; height: 36px;" type="button">当場成績</button>
+     <button id="rcbtn6" onclick="btnClickOfFrame('PT0511')" class="btn onbtn" style="width: 11.2%; height: 36px;" type="button"></button>
+     <button id="rcbtn7" onclick="btnClickOfFrame('PJ0320')" class="btn onbtn" style="width: 11.3%; height: 36px; font-size: 11px !important;" type="button">コメント着度数等</button>
+     <button id="rcbtn8" onclick="btnClickOfFrame('PJ0326')" class="btn onbtn" style="width: 11.2%; height: 36px;" type="button">競走結果</button>
+     <button id="rcbtn9" onclick="rcClickDigestBtn()" class="btn onbtn" style="width: 11.2%; height: 36px;" type="button">ダイジェスト</button>
+   </div><input id="rcUrlLogin" type="hidden" name="rcUrlLogin" value="https://keirin.jp/pc/LoginServlet" /><input id="rcUrlRacePrint" type="hidden" name="rcUrlRacePrint" value="/pc/racetableprintselect" /><input id="rcUrlLiveMode" type="hidden" name="rcUrlLiveMode" value="/pc/racelive" /><input id="rcUrlVoteMode" type="hidden" name="rcUrlVoteMode" value="/pc/racevote" /><input id="rcUrlStream" type="hidden" name="rcUrlStream" value="/pc/racestream" /><input id="rcUrlDigest" type="hidden" name="rcUrlDigest" value="/pc/digest" /><input id="rcUrlRaceHelp" type="hidden" name="rcUrlRaceHelp" value="/pc/static/help/PU0315.html" /><input id="rcUrlResultHelp" type="hidden" name="rcUrlResultHelp" value="/pc/static/help/PU0326.html" /><input id="rcUrlKaimeHelp" type="hidden" name="rcUrlKaimeHelp" value="/pc/static/help/PU0328.html" /><input id="rcUrlOddsHelp" type="hidden" name="rcUrlOddsHelp" value="/pc/static/help/PU0511.html" /><input id="rcUrlOddsVoteHelp" type="hidden" name="rcUrlOddsVoteHelp" value="/pc/static/help/PW0511.html" />
+   
+</div>
+         </div> 
+         
+         <div class="" style="margin: 5px 0;">
+           
+           <div class="dispoff" id="PJ0307"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+ 
+ <div class="al-r dispoff" id="apPrintArea">
+	<div style="padding:0 0 10px 0">
+		<span class="" style="margin:0 20px"><a href="javascript:void(0)" class="txt_underline" onclick="rcClickDispHelp();">ヘルプ</a></span>
+		<button type="button" style="width:120px;height: 40px;" class="btn onbtn" onclick="rcClickPrintBtn();"><i class="fa fa-print"></i>　出走表印刷</button>
+	</div>
+</div>
+  <div id="apErrorArea">
+  </div>
+  <div id="apdivRaceBaseInfo">
+  </div>
+</div>
+           </div> 
+           
+           
+           <div class="dispoff" id="PJ0315"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+ <div id="rbdivErrorRaceInfo"></div>
+ <div id="rbdivRaceBaseInfo">
+ 
+ <div class="dispon clear-fix" id="race_member_table_1_1">
+   
+   
+   <div class="fl-l race_member_l_1">
+     <table class="race_member">
+       <thead>
+         <tr id="rbLeftHeader_1" class="forChrome">
+           <td class="race_header_height" style="width: 2%;" rowspan="2"><p><span>枠<br />番</span></p></td>
+           <td style="width: 2%;" rowspan="2"><p><span>印</span></p></td>
+           <td style="width: 2%;" rowspan="2"><p><span>車<br />番</span></p></td>
+           <td class="nb-b playername" rowspan="2"><p><span>選手名</span></p><p><span>府県</span><span>/</span><span>級班</span><span class="tbl_val14_fsz">前</span><span>現</span><span>/</span><span>脚質</span></p></td>
+           <td class="wb-r period race_header_height1"><p><span>期別</span></p></td>
+         </tr>
+         <tr id="rbLeftHeader_2">
+           <td class="wb-r age race_header_height2"><p><span>年齢</span></p></td>
+         </tr>
+       </thead>
+       <tbody id="rbTableLeftBody">
+       </tbody>
+     </table>
+   </div>
+   
+   
+   <div class="fl-l race_member_r_1">
+     <table class="race_member1_1">
+       <thead>
+         <tr id="rbRightHeader_1">
+           <td class="wb-r" colspan="11"><p class="dispib">直近4ヶ月成績</p>　<p class="dispib">※ 率は％表示</p></td>
+           <td class="clc" style="width: 30%;" rowspan="2" colspan="5" onclick="tableHeaderClick('PY0105');">
+             <table style="width: 100%;">
+               <thead>
+                 <tr>
+                   <td class="b-b nb-r nb-t nb-l"><p><span>直近成績</span></p></td>
+                 </tr>
+                 <tr>
+                   <td class="td_row1_height nb-l nb-r nb-b"><p><span>前場所</span></p></td>
+                 </tr>
+                 <tr>
+                   <td class="td_row1_height nb-l nb-r nb-b"><p><span>今場所</span></p></td>
+                 </tr>
+               </thead>
+             </table>
+           </td>
+           <td class="clc race_header_height" style="width: 4%;" rowspan="2" onclick="tableHeaderClick('PY0106');">
+             <p><span>調</span></p>
+             <p><span>子</span></p></td>
+         </tr>
+         <tr id="rbRightHeader_2">
+           <td class="clc resultPoint" rowspan="2" onclick="tableHeaderClick('PY0101');">
+             <p>競走得点</p></td>
+           <td class="wb-r clc kimarite" rowspan="2" colspan="4" onclick="tableHeaderClick('PY0102');">
+             <table style="width: 100%;">
+               <thead>
+                 <tr>
+                   <td class="race_body_height_half b-b nb-r nb-t nb-l" colspan="4">
+                     <p><span>決まり手</span></p></td>
+                 </tr>
+                 <tr>
+                   <td class="td_row1_height decisive cb-r" style="width: 25%;">
+                     <p><span>逃</span></p></td>
+                   <td class="td_row1_height decisive cb-r" style="width: 25%;">
+                     <p><span>捲</span></p></td>
+                   <td class="td_row1_height decisive cb-r" style="width: 25%;">
+                     <p><span>差</span></p></td>
+                   <td class="td_row1_height decisive nb-r" style="width: 25%;">
+                     <p><span>マ </span></p></td>
+                 </tr>
+               </thead>
+             </table>
+           </td>
+           <td class="wb-r clc" style="width: 13%;" rowspan="2" colspan="3" onclick="tableHeaderClick('PY0103');">
+             <table style="width: 100%; height: 100%;">
+               <tbody>
+                 <tr>
+                   <td class="td_row2_height decisive al-c cb-r nb-b nb-l " style="width: 33%;"><p><span>B</span></p></td>
+                   <td class="td_row2_height decisive al-c cb-r nb-b" style="width: 33%;"><p><span>H</span></p></td>
+                   <td class="td_row2_height decisive al-c nb-b nb-r" style="width: 34%;"><p><span>S</span></p></td>
+                 </tr>
+               </tbody>
+             </table>
+           </td>
+           <td class="wb-r clc" style="width: 19%;" rowspan="2" colspan="3" onclick="tableHeaderClick('PY0104');">
+             <table style="width: 100%; height: 100%;">
+               <tbody>
+                 <tr>
+                   <td class="td_row2_height decisive al-c cb-r nb-b nb-l" style="width: 32%;"><p><span>勝率</span></p></td>
+                   <td class="td_row2_height decisive al-c cb-r nb-b" style="width: 34%;"><p><span>２連</span><br /><span>対率</span></p></td>
+                   <td class="td_row2_height decisive al-c nb-b nb-r" style="width: 34%;"><p><span>３連</span><br /><span>対率</span></p></td>
+                 </tr>
+               </tbody>
+             </table>
+           </td>
+         </tr>
+       </thead>
+       <tbody id="rbTableRightBody">
+       </tbody>
+     </table>
+   </div>
+   
+   
+ </div>
+ <div id="rbYudoYosoInfo">
+   
+   
+ </div><input id="rbUrlSensyu" type="hidden" name="rbUrlSensyu" value="/pc/racerprofile" /><input id="rbUrlRaceProgram" type="hidden" name="rbUrlRaceProgram" value="/pc/racelist" />
+ 
+ </div>
+ 
+</div>
+           </div> 
+           
+           
+           <div class="dispoff" id="PJ0316"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+ <div id="rldivErrorRaceInfo"></div>
+ <div id="rldivRaceTyoResultInfo">
+ 
+   <div class="dispon clear-fix" id="race_member_table_2">
+     
+     
+     <div class="fl-l race_member_l_1">
+       <table class="race_member">
+         <thead>
+           <tr id="rlLeftHeader_1">
+             <td class="race_header_height" style="width: 2%;" rowspan="2">
+               <p><span>枠<br />番</span></p></td>
+             <td style="width: 2%;" rowspan="2">
+               <p><span>印</span></p></td>
+             <td style="width: 2%;" rowspan="2">
+               <p><span>車<br />番</span></p></td>
+             <td class="nb-b playername" rowspan="2">
+               <p><span>選手名</span></p>
+               <p><span>府県</span><span>/</span><span>級班</span><span class="tbl_val14_fsz">前</span><span>現</span><span>/</span><span>脚質</span></p></td>
+             <td class="wb-r period race_header_height1">
+               <p><span>期別</span></p></td>
+           </tr>
+           <tr id="rlLeftHeader_2">
+             <td class="wb-r age race_header_height2">
+               <p><span>年齢</span></p></td>
+           </tr>
+         </thead>
+         <tbody id="rlTableLeftBody">
+         </tbody>
+       </table>
+     </div>
+     <div class="fl-l race_member_r_1" style="margin-left: -1px; -ms-overflow-x: scroll;">
+       <table class="race_member2">
+         <thead id="rlTableRightHead">
+         </thead>
+         <tbody id="rlTableRightBody" style="font-size: 14px;">
+         </tbody>
+       </table>
+     </div>
+     
+     
+   </div>
+   <div id="rlYudoYosoInfo">
+     
+     
+   </div><input id="rlUrlSensyu" type="hidden" name="rlUrlSensyu" value="/pc/racerprofile" /><input id="rlUrlRaceProgram" type="hidden" name="rlUrlRaceProgram" value="/pc/racelist" />
+ 
+ </div>
+
+</div>
+           </div> 
+           
+           
+           <div class="dispoff" id="PJ0317"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+ <div id="rwdivErrorRaceInfo"></div>
+ <div id="rwdivRaceTaisenInfo">
+ 
+ <div class="dispon clear-fix" id="race_member_table_2">
+   
+   
+   <div class="fl-l race_member_l_1">
+     <table class="race_member">
+       <thead>
+         <tr id="rwLeftHeader_1">
+           <td class="race_header_height" style="width: 2%;" rowspan="2"><p><span>枠<br />番</span></p></td>
+           <td style="width: 2%;" rowspan="2"><p><span>印</span></p></td>
+           <td style="width: 2%;" rowspan="2"><p><span>車<br />番</span></p></td>
+           <td class="nb-b playername" rowspan="2"><p><span>選手名</span></p><p><span>府県</span><span>/</span><span>級班</span><span class="tbl_val14_fsz">前</span><span>現</span><span>/</span><span>脚質</span></p></td>
+           <td class="wb-r period race_header_height1"><p><span>期別</span></p></td>
+         </tr>
+         <tr id="rwLeftHeader_2">
+           <td class="wb-r age race_header_height2"><p><span>年齢</span></p></td>
+         </tr>
+       </thead>
+       <tbody id="rwTableLeftBody">
+       </tbody>
+     </table>
+   </div>
+   
+   
+   <div class="fl-l race_member_r_1" style="margin-left:-1px">
+     <table class="race_member3" style="width: 100%;">
+       <thead>
+         <tr id="rwRightHeader_1">
+           <td class="al-c tbl_header2 race_header_height1" colspan="10"><p>対戦成績　(直近１年間）</p></td>
+         </tr>
+         <tr id="rwRightHeader_2" class="bold">
+         </tr>
+       </thead>
+       <tbody id="rwTableRightBody">
+       </tbody>
+     </table>
+   </div>
+   
+   
+ </div>
+ <div id="rwYudoYosoInfo">
+   
+   
+ </div><input id="rwUrlSensyu" type="hidden" name="rwUrlSensyu" value="/pc/racerprofile" />
+ 
+ </div>
+ 
+</div>
+           </div> 
+           
+           
+           <div class="dispoff" id="PJ0318"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+ <div id="rsdivErrorRaceInfo"></div>
+ <div id="rsdivRaceSyumokuInfo">
+ 
+ <div class="dispon clear-fix" id="race_member_table_1_1">
+   
+   
+   <div class="fl-l race_member_l_1">
+     <table class="race_member">
+       <thead>
+         <tr id="rsLeftHeader_1" class="forChrome">
+           <td class="race_header_height" style="width: 2%;" rowspan="2"><p><span>枠<br />番</span></p></td>
+           <td style="width: 2%;" rowspan="2"><p><span>印</span></p></td>
+           <td style="width: 2%;" rowspan="2"><p><span>車<br />番</span></p></td>
+           <td class="nb-b playername" rowspan="2"><p><span>選手名</span></p><p><span>府県</span><span>/</span><span>級班</span><span class="tbl_val14_fsz">前</span><span>現</span><span>/</span><span>脚質</span></p></td>
+           <td class="wb-r period race_header_height1"><p><span>期別</span></p></td>
+         </tr>
+         <tr id="rsLeftHeader_2">
+           <td class="wb-r age race_header_height2"><p><span>年齢</span></p></td>
+         </tr>
+       </thead>
+       <tbody id="rsTableLeftBody">
+       </tbody>
+     </table>
+   </div>
+   
+   
+   <div class="fl-l race_member_r" style="margin-left:-1px">
+     <table class="race_member4" style="width: 100%;">
+       <thead>
+         <tr id="rsRightHeader_1">
+           <td class="b-r syu_header" colspan="19"><p class="dispib">直近1年成績</p>　<p class="dispib">※ 率は％表示</p></td>
+         </tr>
+         <tr id="rsRightHeader_2">
+           <td rowspan="2" colspan="4" class="" style="width: 19%;">
+             <table style="width: 100%;height:100%;table-layout:fixed">
+               <tr>
+                 <td colspan="4" class="b-b b-r nb-t nb-l" style="width: 100%;"><p><span>決まり手</span></p></td>
+               </tr>
+               <tr>
+                 <td class="decisive" style="width: 25%;"><p><span>逃</span></p></td>
+                 <td class="decisive" style="width: 25%;"><p><span>捲</span></p></td>
+                 <td class="decisive" style="width: 25%;"><p><span>差</span></p></td>
+                 <td class="decisive" style="width: 25%;"><p><span>マ</span></p></td>
+               </tr>
+             </table>
+           </td>
+           <td rowspan="2" colspan="2" class="" style="width: 10%;">
+             <table style="width: 100%;height:100%;table-layout:fixed">
+               <tr>
+                 <td class="al-c decisive" style="width: 50%;"><p><span>B</span></p></td>
+                 <td class="al-c nb-a" style="width: 50%;"><p><span>H</span></p></td>
+               </tr>
+             </table>
+           </td>
+           <td rowspan="2" style="width: 5%;" class=""><p><span>S</span></p></td>
+           <td rowspan="2" colspan="3" class="wb-l" style="width: 21%;">
+             <table style="width: 100%;height:100%;table-layout:fixed">
+               <tr>
+                 <td class="al-c decisive"><p><span>勝率</span></p></td>
+                 <td class="al-c decisive"><p><span>２連</span><span><br /></span><span>対率</span></p></td>
+                 <td class="al-c nb-a"><p><span>３連</span><span><br /></span><span>対率</span></p></td>
+               </tr>
+             </table>
+           </td>
+           <td class="wb-l" style="width: 5%;" rowspan="2">
+             <p><span>１</span><span><br /></span><span>着</span></p>
+           </td>
+           <td class="" style="width: 5%;" rowspan="2">
+             <p><span>２</span><span><br /></span><span>着</span></p>
+           </td>
+           <td class="" style="width: 5%;" rowspan="2">
+              <p><span>３</span><span><br /></span><span>着</span></p>
+           </td>
+           <td class="wb-r" style="width: 5%;" rowspan="2">
+             <p><span>着</span><span><br /></span><span>外</span></p>
+           </td>
+           <td class="clc" style="width: 25%;" rowspan="2" colspan="5" onclick="tableHeaderClick('PY0105');">
+             <p>直近成績</p>
+           </td>
+         </tr>
+       </thead>
+       <tbody id="rsTableRightBody">
+       </tbody>
+     </table>
+   </div>
+   
+   
+ </div>
+ <div id="rsYudoYosoInfo">
+   
+   
+ </div><input id="rsUrlSensyu" type="hidden" name="rsUrlSensyu" value="/pc/racerprofile" />
+ 
+ </div>
+ 
+</div>
+           </div> 
+           
+           
+           <div class="dispoff" id="PJ0319"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+ <div id="rtdivErrorRaceInfo"></div>
+ <div id="rtdivRaceTyoResultInfo">
+ 
+   <div class="dispon clear-fix" id="race_member_table_2">
+     
+     
+     <div class="fl-l race_member_l_1">
+       <table class="race_member">
+         <thead>
+           <tr id="rtLeftHeader_1">
+             <td class="race_header_height" style="width: 2%;" rowspan="2">
+               <p><span>枠<br />番</span></p></td>
+             <td style="width: 2%;" rowspan="2">
+               <p><span>印</span></p></td>
+             <td style="width: 2%;" rowspan="2">
+               <p><span>車<br />番</span></p></td>
+             <td class="nb-b playername" rowspan="2">
+               <p><span>選手名</span></p>
+               <p><span>府県</span><span>/</span><span>級班</span><span class="tbl_val14_fsz">前</span><span>現</span><span>/</span><span>脚質</span></p></td>
+             <td class="wb-r period race_header_height1">
+               <p><span>期別</span></p></td>
+           </tr>
+           <tr id="rtLeftHeader_2">
+             <td class="wb-r age race_header_height2">
+               <p><span>年齢</span></p></td>
+           </tr>
+         </thead>
+         <tbody id="rtTableLeftBody">
+         </tbody>
+       </table>
+     </div>
+     <div class="fl-l race_member_r_1" style="margin-left: -1px; -ms-overflow-x: scroll;">
+       <table class="race_member2">
+         <thead id="rtTableRightHead">
+         </thead>
+         <tbody id="rtTableRightBody" style="font-size: 14px;">
+         </tbody>
+       </table>
+     </div>
+     
+     
+   </div>
+   <div id="rtYudoYosoInfo">
+     
+     
+   </div><input id="rtUrlSensyu" type="hidden" name="rtUrlSensyu" value="/pc/racerprofile" /><input id="rtUrlRaceProgram" type="hidden" name="rtUrlRaceProgram" value="/pc/racelist" />
+ 
+ </div>
+
+</div>
+           </div> 
+           
+           
+           <div class="dispoff" id="PJ0320"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+ <div id="ridivErrorRaceInfo"></div>
+ <div id="ridivRaceCommentInfo">
+ 
+ <div class="dispon clear-fix" id="race_member_table_2">
+   
+   
+   <div class="fl-l race_member_l_1">
+     <table class="race_member">
+       <thead>
+         <tr id="riLeftHeader_1">
+           <td class="race_header_height" style="width: 2%;" rowspan="2"><p><span>枠<br />番</span></p></td>
+           <td style="width: 2%;" rowspan="2"><p><span>印</span></p></td>
+           <td style="width: 2%;" rowspan="2"><p><span>車<br />番</span></p></td>
+           <td class="nb-b playername" rowspan="2"><p><span>選手名</span></p><p><span>府県</span><span>/</span><span>級班</span><span class="tbl_val14_fsz">前</span><span>現</span><span>/</span><span>脚質</span></p></td>
+           <td class="wb-r period race_header_height1"><p><span>期別</span></p></td>
+         </tr>
+         <tr id="riLeftHeader_2">
+           <td class="wb-r age race_header_height2"><p><span>年齢</span></p></td>
+         </tr>
+       </thead>
+       <tbody id="riTableLeftBody">
+       </tbody>
+     </table>
+   </div>
+   
+   
+   <div class="fl-l race_member_r_1">
+     <table class="race_member6" style="width:100%;">
+       <thead>
+         <tr id="riRightHeader_1">
+           <td class="al-c race_header_height" style="width:11%" rowspan="2"><p><span>ホーム</span><span><br /></span><span>バンク</span></p></td>
+           <td class="al-c" style="width:11%" rowspan="2"><p><span>ギヤ</span><span><br /></span><span>倍数</span></p></td>
+           <td class="al-c wb-r" style="width: 6%" rowspan="2"><p><span>失</span><span><br /></span><span>格</span><br /><span>点</span></p></td>
+           <td class="al-c wb-r race_header_height1" colspan="4"><p><span>直近4ヶ月</span></p></td>
+           <td class="al-c" style="width:46%" rowspan="2"><p><span>選手コメント</span></p></td>
+         </tr>
+         <tr id="riRightHeader_2">
+           <td class="tbl_header2 al-c race_header_height2" style="width: 6%"><p><span>1着</span></p></td>
+           <td class="tbl_header2 al-c" style="width: 6%"><p><span>2着</span></p></td>
+           <td class="tbl_header2 al-c" style="width: 6%"><p><span>3着</span></p></td>
+           <td class="tbl_header2 al-c wb-r" style="width: 7%"><p><span>着外</span></p></td>
+         </tr>
+       </thead>
+       <tbody id="riTableRightBody">
+       </tbody>
+     </table>
+   </div>
+   
+   
+ </div>
+ <div id="riYudoYosoInfo">
+   
+   
+ </div><input id="riUrlSensyu" type="hidden" name="riUrlSensyu" value="/pc/racerprofile" />
+ 
+ </div>
+ 
+</div>
+           </div> 
+           
+           
+           <div class="dispoff" id="PJ0326"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+ <div id="rrdivErrorRaceInfo"></div>
+ <div id="rrdivRaceResultInfo">
+ 
+ <div class="dispon clear-fix" id="race_member_table_7">
+   <div style="margin-right:1%">
+     <div>
+       
+       <div class="clear-fix">
+         <div class="fl-l">
+           <p style="margin:5px 0">■ 天候<br /><span id="rrDispTenki"></span></p>
+         </div>
+         <div class="fl-r">
+           <button type="button" class="btn onbtn" style="width:120px" id="rrbtnDigest" onclick="rrClickDigestBtn();"><img height="16" style="margin-right: 6px;" alt="film" src="/pc/static/img/icon/ico_film.png" />ダイジェスト</button>
+         </div>
+       </div>
+       
+       
+       <div class="clear-fix">
+         <p class="fl-l" style="margin-top:10px">■ 払戻金</p><p id="rrlblLastUpdateTime" class="fl-r"></p>
+       </div>
+       <table id="rrDispHaraiGaku" style="width:100%;table-layout:fixed;">
+       </table>
+       <table id="rrDispHaraiGaku2" style="width:100%;table-layout:fixed;">
+       </table>       
+       
+       
+       <div class="clear-fix">
+         <p style="margin-top:10px">■ 着順</p>
+       </div>
+       <table id="rrDispTyakuJyun" style="width:100%">
+         <thead>
+           <tr class="ht_32">
+             <td class="tbl_header2 al-c">着</td>
+             <td class="tbl_header2 al-c">車番</td>
+             <td class="tbl_header2 al-c">選手名</td>
+             <td class="tbl_header2 al-c">年齢</td>
+             <td class="tbl_header2 al-c">府県</td>
+             <td class="tbl_header2 al-c">期別</td>
+             <td class="tbl_header2 al-c">級班</td>
+             <td class="tbl_header2 al-c">着差</td>
+             <td class="tbl_header2 al-c">上り</td>
+             <td class="tbl_header2 al-c">決まり手</td>
+             <td class="tbl_header2 al-c">H/B</td>
+             <td class="tbl_header2 al-c">個人状況</td>
+           </tr>
+         </thead>
+         <tbody id="rrTableTyakuJyunBody">
+         </tbody>
+       </table>
+       
+     </div>
+     
+     <div id="rrDispShortCriticism" style="margin-top:10px">
+       <p>■ ＢＳ通過順位・短評</p>
+       <table style="width:100%">
+         <thead>
+           <tr class="ht_32">
+             <td class="tbl_header2 al-c" style="width:10%">着</td>
+             <td class="tbl_header2 al-c" style="width:10%">ＢＳ<br />通過順位</td>
+             <td class="tbl_header2 al-c" style="width:10%">車番</td>
+             <td class="tbl_header2 al-c" style="width:20%">選手名</td>
+             <td class="tbl_header2 al-c" style="width:auto">短評</td>
+           </tr>
+         </thead>
+         <tbody id="rrTableShortCriticismBody">
+         </tbody>
+       </table>
+     </div>
+     
+     <div style="margin-top:10px">
+       
+       <div id="rrDispSyabanItem" class="fl-l" style="width:30%;">
+         <p>■ 車番</p>
+         <table style="width:100%">
+           <thead>
+             <tr>
+               <td class="tbl_header2 al-c">車番</td>
+               <td class="tbl_header2 al-c">選手名</td>
+               <td class="tbl_header2 al-c">府県</td>
+             </tr>
+           </thead>
+           <tbody id="rrTableSyabanItemBody">
+           </tbody>
+         </table>
+       </div>
+       
+       
+       <div id="rrDispRaceTenkai" class="fl-l" style="width:36%; margin:0 2%">
+         <p>■ レース展開<img height="16px" class="yajirusi_left" src="/pc/static/img/member_left_short.png" /></p>
+         <table style="width:100%;" class="tanten_ari_tbl_race">
+           <tr>
+             <td class="tbl_header2 al-c" style="width:22%">周回中</td>
+             <td style="width:78%;">
+               <table id="rrTableTenkaiGoing" class="rece_deployment" style="width:100%;table-layout: fixed;">
+               </table>
+             </td>
+           </tr>
+           <tr>
+             <td class="tbl_header2 al-c">打鐘</td>
+             <td>
+               <table id="rrTableTenkaiBell" class="rece_deployment" style="width:100%;table-layout: fixed;">
+               </table>
+             </td>
+           </tr>
+           <tr>
+             <td class="tbl_header2 al-c">ＨＳ</td>
+             <td>
+               <table id="rrTableTenkaiHS" class="rece_deployment" style="width:100%;table-layout: fixed;">
+               </table>
+             </td>
+           </tr>
+           <tr>
+             <td class="tbl_header2 al-c">ＢＳ</td>
+             <td>
+               <table id="rrTableTenkaiBS" class="rece_deployment" style="width:100%;table-layout: fixed;">
+               </table>
+             </td>
+           </tr>
+           <tr>
+             <td class="tbl_header2 al-c">ゴール前</td>
+             <td>
+               <table id="rrTableTenkaiGoal" class="rece_deployment" style="width:100%;table-layout: fixed;">
+               </table>
+             </td>
+           </tr>
+         </table>
+       </div>
+       
+       
+       <div id="rrDispRaceBikou" class="fl-l" style="width:30%;">
+         <p>■ 備考</p>
+         <div class="v-al-m al-l b-a" style="min-height:282px;width:100%"><p id="rrpRaceBikou" style="word-wrap: break-word;"></p></div>
+       </div>
+       
+     </div>
+     <div style="margin-top:10px">
+       <p id="rrlblTenkaiMei" class="fl-r"></p>
+     </div>
+   </div>
+ </div><input id="rrUrlSensyu" type="hidden" name="rrUrlSensyu" value="/pc/racerprofile" /><input id="rrUrlDigest" type="hidden" name="rrUrlDigest" value="/pc/digest" />
+ 
+ </div>
+ 
+</div>
+           </div> 
+           
+           
+           <div class="dispoff" id="PJ0328"><div xmlns="http://www.w3.org/1999/xhtml">	 
+ <div class="clear-fix">
+       <div class="fl-l" style="width: 100%;" id="kaimeInquiry"></div>
+		<div id="PM0116_tekichu" class="PM0116_tekichu al-c">
+			<div class="fl-r clear-fix">
+				<div class="cancel_btn al-r">
+					<a id="sub_dlg_Cancel" class="cancel_btn_fsz"> × </a>
+				</div>
+				<canvas id="canvas" width="740" height="523" class="pm0105canvas"></canvas>
+				<div class="clear-fix pm0105div10">
+					<div class="clear-fix al-c">
+						<button id="UNQ_skip" type="button" class="btn btn_fsz onbtn skipButton">スキップ</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="PM0116_omedetou" class="PM0116_omedetou al-c">
+			<div id="popupRanking" align="center">
+				<div class="fl-r clear-fix">
+					<div class="cancel_btn"><a id="sub_dlg_Cancel" class="cancel_btn_fsz"> × </a></div>
+				</div>
+				<div id="clear-fix chaku_title" class="sub_dlg_title"></div>
+				<table class="tblome">
+					<tr>
+						<td>
+							<div class="fsz45 al-c"><span class="empcolor_red">おめでとうございます！<br />投票した買い目が的中しました。</span></div>
+						</td>
+					</tr>
+					<tr>
+						<td><div class="hei10"> </div></td>
+					</tr>
+					<tr>
+						<td>
+							<div class="scrollclass">
+								<table id="PM0116_tekityuKaimeInfo" align="center"></table>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		</div>
+   </div>
+           </div> 
+           
+           
+           <div class="dispoff" id="PT0511"><div id="ozzMain" xmlns="http://www.w3.org/1999/xhtml">
+		<div class="" id="ozzArea">
+				<div class="">
+					<table>
+						<tr>
+							<td class="kksk">
+								<table class="kksk_tbl" cellspacing="1">
+									<tr>
+										<td class="al-l kklbl">賭式選択</td>
+										<td class="kake"><button class="btn onbtn al-c kkbtn" type="button" id="btnKake3Rentan">3連単</button></td>
+										<td class="kake"><button class="btn onbtn al-c kkbtn" type="button" id="btnKake2Syatan">2車単</button></td>
+										<td class="kake"><button class="btn onbtn al-c kkbtn" type="button" id="btnKake3Renhuku">3連複</button></td>
+										<td class="kake"><button class="btn onbtn al-c kkbtn" type="button" id="btnKake2Syahuku">2車複</button></td>
+										<td class="kake"><button class="btn onbtn al-c kkbtn" type="button" id="btnKake2Wakutan">2枠単</button></td>
+										<td class="kake"><button class="btn onbtn al-c kkbtn" type="button" id="btnKake2Wakuhuku">2枠複</button></td>
+										<td class="kake"><button class="btn onbtn al-c kkbtn" type="button" id="btnKakeWide">ワイド</button></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table class="hyoji_tbl">
+									<tr>
+										<td class="al-r hjlbl">表示選択</td>
+										<td><button class="btn onbtn al-c hjbtn" type="button" id="btnHyojiHyojun">標 準</button></td>
+										<td><button class="btn onbtn al-c hjbtn" type="button" id="btnHyojiNinOrder">人気順</button></td>
+										<td><button class="btn onbtn al-c hjbtn" type="button" id="btnHyojiOzzSearch">オッズ検索</button></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<div id="divHyojunNinki">
+						<table class="msg_tbl1">
+							<tbody>
+								<tr>
+									<td id="syusou_table"></td>
+
+									<td class="msgArea">
+										<table class="msg_tbl2">
+											<tbody>
+												<tr>
+													<td class="al-l gdmsg" colspan="2" id="lblGuideMsg"></td>
+												</tr>
+												<tr>
+													<td class="al-l usmsg" colspan="2" id="lblUpdateStopMsg"></td>
+												</tr>
+												<tr class="timeArea">
+													<td class="al-r" id="lblGettime"></td>
+													<td class="al-r"><button class="btn onbtn al-c upbtn" type="button" id="btnOzzUpd">オッズ更新</button></td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div id="opPullDown_table"></div>
+						<div class="error_msg_fsz" id="lblErrorMsg"></div>
+						<div id="ozz_table" class="ozz_tbl"></div>
+
+						<div class="htbArea">
+							<div class="dispon htbArea2">
+								<table class="htb_tbl">
+									<tbody>
+										<tr>
+											<td class="al-r" id="lblHatubaiCnt"></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+					<div class="clear-fix dispoff" id="divOzzSearch">
+
+						<div class="fl-l osArea">
+							<table class="race_member syuso_tbl" id="osSyusouArea">
+							</table>
+						</div>
+						<div class="fl-l osArea2"> </div>
+						<div class="fl-l osSelArea" id="osSelectArea"></div>
+						<div class="fl-l margin_t2 width_75" id="osArea">
+							<div>
+								<table class="fl-r ossel_tbl">
+									<tr class="odArea">
+										<td> </td>
+										<td colspan="2" class="al-r hjjun">表示順</td>
+										<td class="al-r hjbtn"><button class="btn onbtn hjbtn active" type="button" id="osBtnHyojiHyojun">標 準</button></td>
+										<td class="al-r hjbtn"><button class="btn onbtn hjbtn" type="button" id="osBtnHyojiNinOrder">人気順</button></td>
+									</tr>
+									<tr>
+										<td colspan="5" class="al-r osusmsg">
+											<div id="osLblUpdateStopMsg"></div>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="3" class="al-l osgdmsg" id="osLblGuideMsg">
+											
+										</td>
+										<td colspan="2" class="al-r v-al-b"><span class="v-al-b" id="osLblGettime"></span>
+											<button class="btn onbtn al-c dispib upbtn" id="osBtnOzzUpd">オッズ更新</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+
+							<table class="osdis_tbl">
+								<tr>
+									<td class="nonb"> </td>
+									<td class="osdisArea">
+										<div class="clear-fix v-al-m osdisArea" id="osDisplayArea">
+										</div> 
+										<div class="dispon htb">
+											<table class="htb">
+												<tbody>
+													<tr>
+														<td class="clrbtn"><button class="btn onbtn al-c dispib clrbtn" id="osBtnClear">クリア</button></td>
+														<td class="memo">※ オッズの右は人気順を表示しています。</td>
+														<td class="al-r htb" id="osLblHatubaiCnt"></td>
+													</tr>
+												</tbody>
+											</table>
+										</div> 
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<script type="text/javascript">
+		
+		var RST_OZZDATA_ALL_LIST = new Array();
+		var PAGE_CNT = 0;
+		
+		
+		var SEARCH_NINKI_LIST = null;
+		var SEARCH_HYOJUN_LIST = null;
+		
+				
+		
+		var okrKaisaiDate = null;
+		var okrKaisaiDateMMDD = null;
+		var okrKeirinJyo = null;
+		var okrKeirinJyoName = null;
+		var okrRace = null;
+		var okrKakesiki = null;
+		var okrKumiban = null;
+	</script>
+
+		
+		<div id="kannren_ozu" class="kannren_ozu">
+			<div class="okr_auto">
+				<div class="okr_h">
+					<div class="clear-fix okr_h">
+						<div class="fl-l clear-fix">
+							<table>
+								<colgroup>
+									<col class="gpcol1" />
+									<col class="gpcol1" />
+									<col class="gpcol2" />
+									<col class="gpcol1" />
+									<col class="gpcol1" />
+								</colgroup>
+								<tr>
+									<td id="okrKaisaiDate"></td>
+									<td id="okrKeirinJyo"></td>
+									<td id="okrRace"></td>
+									<td id="okrKakesiki"></td>
+									<td id="okrKumiban"></td>
+								</tr>
+							</table>
+						</div>
+						<div class="fl-r clear-fix">
+							<div class="al-r" id="okrLblUpdateStopMsg"></div>
+							<div class="clear-fix">
+								<div class="fl-r clear-fix">
+									<span id="okrDentoSimeTime" class="margin_r30"></span> <span id="okrNowTime"></span>
+									<button id="okrBtnUpdate" class="btn onbtn upbtn">オッズ更新</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<table align="left" class="altertable tbl_odds" id="okrKanrenOzz_table">
+					</table>
+
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		<div id="conf_cancel" class="conf_cancel">
+			<div>
+				<div class="dg">
+					<p class="al-c">選択中のオッズの買い目情報は破棄されますが、よろしいでしょうか？</p>
+					<div class="al-c dgbtn">
+						<button id="ozz_cancel_btn" type="button" class="btn onbtn dgbtn">キャンセル</button>
+						<button id="ozz_ok_btn" type="button" class="btn onbtn dgbtn">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+		<div id="alert_dialog" class="alert_dialog">
+			<div>
+				<div class="dg">
+					<p id="alert_dialog_p" class="al-c">成立する組番を選択してください。</p>
+					<div class="al-c dgbtn">
+						<button id="alert_ok_btn" type="button" class="btn onbtn dgbtn">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+</div>
+           </div>
+           
+           
+           <div class="dispoff" id="PJ0314"><div xmlns="http://www.w3.org/1999/xhtml">
+   <div id="rfErrorArea">
+   </div>
+   <div id="rfPaintArea">
+   </div>
+</div>
+           </div>
+           
+        
+         </div>
+       </div>
+     </div>
+     <script type="text/javascript">
+       var anaJsonType = "PJ0315";
+       var anaOddsType = "";
+     </script>
+     
+     <div class="clear-fix" id="PC0102" style="width: 100%;"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml"> 
+   <div class="al-r clear-fix toppageto" id="shbtnTop"><img id="shLinkTopOfPage" onclick="window.location.href=&quot;#top&quot;" alt="ページトップへ" src="/pc/static/img/icon/totop.png" style="cursor:pointer" />
+   </div>
+   <div class="al-r clear-fix toppageto" id="shbtnTopoff" style="height: 20px;"></div>
+
+   <footer class="footer">
+     <div class="container clear-fix">
+     <a target="_blank" role="button" id="sfLinkGuideandHelp" jname="操作ガイド/ヘルプ" onclick="sfLinkClick(0)">操作ガイド/ヘルプ</a> |
+     <a role="button" id="sfLinkinquiry" jname="お問い合わせ" onclick="sfLinkClick(1)">お問い合わせ</a><input id="sfHdnLink_1" type="hidden" name="sfHdnLink_1" value="/pc/dfw/portal/guest/site/otoiawase.html" /> |
+<noscript>
+     <a role="button" id="sfLinkUseenvironment" jname="お客様利用環境表示" href="/pc/userenvironment">お客様利用環境表示</a>
+</noscript>
+<script>
+//<![CDATA[
+	var htmltxt = '<a role="button" id="sfLinkUseenvironment"  jname="お客様利用環境表示" onclick="sfLinkClick(2)" >お客様利用環境表示</a>';
+     document.write(htmltxt);
+//]]>
+</script><input id="sfHdnLink_2" type="hidden" name="sfHdnLink_2" value="/pc/userenvironment" /> |      
+     <a role="button" id="sfLinkSiteMap" jname="サイトマップ" onclick="sfLinkClick(3)">サイトマップ</a><input id="sfHdnLink_3" type="hidden" name="sfHdnLink_3" value="/pc/dfw/portal/guest/sitemap/index.html" /> |
+     <a role="button" id="sfLinkSitePolicy" jname="サイトポリシー" onclick="sfLinkClick(4)">サイトポリシー</a><input id="sfHdnLink_4" type="hidden" name="sfHdnLink_4" value="/pc/dfw/portal/guest/policy/index.html" /> |
+     <a role="button" id="sfLinkSumahoSite" jname="スマホサイト" onclick="sfLinkClick(5)">スマホサイト</a><input id="sfHdnLink_5" type="hidden" name="sfHdnLink_5" value="https://keirin.jp/sp/top" />    
+       <div class="fl-r copyright">COPYRIGHT JKA. ALL RIGHTS  RESERVED.</div>
+     </div><input id="sfHelpLink" type="hidden" name="sfHelpLink" value="https://keirin.jp/pc/static/help/PU0311.html" />   
+   </footer>
+<script>
+	sfLoadingFinalize();
+//<![CDATA[
+    var anaxhr = new XMLHttpRequest();
+    var anaURL = location.protocol + '//' + location.host + '/pc' + '/ana';
+    anaxhr.open("GET", anaURL);
+    anaxhr.setRequestHeader("X-KEIRINJP-ANA-SCREEN", screen.width+"x"+screen.height);
+    anaxhr.setRequestHeader("X-KEIRINJP-ANA-URI", window.location.href);
+    if("anaJsonType" in window){
+      anaxhr.setRequestHeader("X-KEIRINJP-ANA-JSONTYPE", anaJsonType);
+    }
+    anaxhr.send();
+   
+//]]>
+</script>
+</div>
+     </div><input id="raceLiveHelp" type="hidden" name="raceLiveHelp" value="/pc/static/help/PU0311.html" />
+     
+   </div>
+
+   <div class="dispoff"><div lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+
+	<div id="y3rentan" class="y3rentan">
+		<div id="padivnodata"></div>
+		<div id="padivGousya"></div>
+	</div>
+	
+</div><div xmlns="http://www.w3.org/1999/xhtml">
+   <div id="over_kyosotokuten" class="over_kyosotokuten">
+     <div id="ptGraphArea">
+       <p class="al-c" style="PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+       <canvas id="canvas_tokuten" class="b-a" style="BACKGROUND-COLOR: #ffffff" width="970" height="455">
+       </canvas>
+       </p>
+     </div>
+     <div id="ptHyoArea">
+     </div>
+     <div id="ptErrmsgArea">
+     </div>
+   </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml">
+<div id="kimarite" class="kimarite dispoff">
+<div id="pw_err_div"></div>
+<div id="pw_div"></div>
+</div>
+</div><div xmlns="http://www.w3.org/1999/xhtml">
+<div id="B15" class="B15 dispoff">
+	<div id="pbh_err_div"></div>
+	<div id="pbh_div"></div>
+</div>	
+</div><div xmlns="http://www.w3.org/1999/xhtml">
+	<div id="S17" class="S17 dispoff">
+		<div id="psc_err_div"></div>
+		<div id="psc_div"></div>
+	</div>
+</div><div xmlns="http://www.w3.org/1999/xhtml">
+	<div id="taisen_seiseki2" class="taisen_seiseki2 dispoff">
+		<div id="ps_err_div"></div>
+		<div id="ps_div"></div>
+	</div>
+</div><div xmlns="http://www.w3.org/1999/xhtml">
+	<div id="chaku" class="chaku dispoff">
+		<div id="ph_err_div"></div>
+		<div id="ph_div"></div>
+	</div>
+</div><div id="tejun1" class="tejun1 dispoff">
+	<div id="p1w_err_div"></div>
+	<div id="p1w_div">
+		<div class="clear-fix">
+			<div class="sub_msg" style="padding-bottom:10px">
+				表示した選手本人が１着を取った際の決まり手別に、２着を取った選手の決まり手を表しています。<br />
+				決まり手同士の組み合わせの傾向を、予想のご参考にしてください。
+			</div>
+			<table style="width:850px">
+			<tr>
+				<td style="width:5%">
+					<table style="height:60px">
+					<tr>
+						<td class="b-a tbl_header" style="padding:4px">1<br />着</td>
+						<td class="b-a tbl_header" style="padding:4px">本<br />人</td>
+					</tr>   
+					<tr>
+						<td class="b-a tbl_header" style="padding:4px">2<br />着</td>
+						<td class="b-a tbl_header" style="padding:4px">相<br />手</td>
+					</tr>
+					</table>
+				</td>
+				<td style="width:95%">
+					<table style="height:60px" id="p1w_tbluchiwake">
+					</table>
+				</td>
+			</tr>
+			</table>
+
+			<div class="fl-r clear-fix" style="margin-top: 10px; margin-right: 2px;">
+				<table class="sample_bar_tbl">
+				<tr>
+					<td class="">単位(％)</td>
+					<td class="klmari_nige_graph">逃げ</td>
+					<td class="klmari_makuri_graph">捲り</td>
+					<td class="klmari_sashi_graph">差し</td>
+					<td class="klmari_mark_graph">マーク</td>
+				</tr>
+				</table>
+			</div>
+		</div>								
+	</div>
+</div><div id="tejun2" class="tejun2 dispoff">
+		<div id="p2w_err_div"></div>
+		<div id="p2w_div">
+			<div class="clear-fix">
+				<div class="sub_msg" style="padding-bottom:10px">
+					表示した選手本人が２着を取った際の決まり手別に、１着を取った選手の決まり手を表しています。<br />
+					決まり手同士の組み合わせの傾向を、予想のご参考にしてください。
+				</div>
+				<table style="width:850px">
+				<tr>
+					<td style="width:5%">
+						<table style="height:60px">
+						<tr>
+							<td class="b-a tbl_header" style="padding:4px">1<br />着</td>
+							<td class="b-a tbl_header" style="padding:4px">相<br />手</td>
+						</tr>   
+						<tr>
+							<td class="b-a tbl_header" style="padding:4px">2<br />着</td>
+							<td class="b-a tbl_header" style="padding:4px">本<br />人</td>
+						</tr>
+						</table>
+					</td>
+					<td style="width:95%">
+						<table style="height:60px" id="p2w_tbluchiwake">
+						</table>
+					</td>
+				</tr>
+				</table>
+				
+				<div class="fl-r clear-fix" style="margin-top: 10px; margin-right: 2px;">
+					<table class="sample_bar_tbl">
+					<tr>
+						<td class="">単位(％)</td>
+						<td class="klmari_nige_graph">逃げ</td>
+						<td class="klmari_makuri_graph">捲り</td>
+						<td class="klmari_sashi_graph">差し</td>
+						<td class="klmari_mark_graph">マーク</td>
+					</tr>
+					</table>
+				</div>
+			</div>
+		</div>		
+	</div><div xmlns="http://www.w3.org/1999/xhtml">
+<div id="tanten_ari">
+<div id="tan_div" class="dispoff">
+	<table class="kara100p_tbl" border="0" width="100%"><tbody><tr>
+		<td style="width: 476px;">
+			<table class="tanten_ari_tbl">
+				<tbody><tr>
+					<th>競輪場</th>
+					<th>グレード</th>
+					<th>開催日</th>
+					<th>レース</th>
+					<th>種目</th>
+				</tr>
+				<tr>
+					<td id="piKeirinjyo"></td>
+					<td class="grade" id="piGrade"></td>
+					<td class="kdate" id="piKaisaihi"></td>
+					<td id="piRaceNo"></td>
+					<td id="piSyumoku"></td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td style="width: 30px;">
+		</td>
+		<td>
+			<div class="fl-r clear-fix" style="padding-right: 20px;">
+				<button class="btn onbtn" style="width: 130px;" type="button" id="pibtnResult">競走結果</button>
+				<div class="wsp10"></div>
+				<button class="btn onbtn" style="width: 130px;" type="button" id="pibtnDigest"><img height="16" style="margin-right: 6px;" alt="film" src="/pc/static/img/icon/ico_film.png" />ダイジェスト</button>
+			</div>
+		</td>
+	</tr></tbody></table>
+
+	<div style="padding-top: 5px;" id="pidivBs">
+		<p>■ ＢＳ通過順位・短評</p>
+		<table class="tanten_ari_tbl_bs">
+			<thead>
+				<tr>
+					<th style="width: 46px;">着</th>
+					<th style="width: 86px;">ＢＳ<br />通過順位</th>
+					<th style="width: 76px;">車番</th>
+					<th style="width: 160px;">選手名</th>
+					<th style="width: 730px;">短評</th>
+				</tr>
+			</thead>
+			<tbody id="pitbodyBs">
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="inline_top" style="width: 200px; margin-right: 10px; padding-top: 5px;" id="pidivSyaban">
+		<p id="pipSyabanTitle">■ 車番</p>
+		<table id="pitableSyaban" class="tanten_ari_tbl_sya" style="width: 100%; height: 305px;">
+		</table>
+		<div id="piSyabanComment" class="al-c">今開催出場選手は<br />太字で表示されます。</div>
+	</div>
+
+	<div class="inline_top" style="width: 300px; margin-right: 10px; padding-top: 5px;" id="pidivTenkai">
+		<p>■ レース展開<img height="16" class="yajirusi_left" src="/pc/static/img/member_left_short.png" /></p>
+		<table class="tanten_ari_tbl_race" style="width: 100%;">
+			<tbody>
+			<tr>
+				<th class="al-c" style="width: 25%;">周回中</th>
+				<td style="width: 75%;">
+					<table id="piTableTenkaiGoing" class="rece_deployment" style="width: 100%; table-layout: fixed;">
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<th class="al-c">打鐘</th>
+				<td>
+					<table id="piTableTenkaiBell" class="rece_deployment" style="width: 100%; table-layout: fixed;">
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<th class="al-c">ＨＳ</th>
+				<td>
+					<table id="piTableTenkaiHS" class="rece_deployment" style="width: 100%; table-layout: fixed;">
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<th class="al-c">ＢＳ</th>
+				<td>
+					<table id="piTableTenkaiBS" class="rece_deployment" style="width: 100%; table-layout: fixed;">
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<th class="al-c">ゴール前</th>
+				<td>
+					<table id="piTableTenkaiGoal" class="rece_deployment" style="width: 100%; table-layout: fixed;">
+					</table>
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+	
+	<div class="inline_top" style="width: 290px; margin-right: 10px; padding-top: 5px;" id="pidivHarai">
+		<p>■ 払戻金</p>
+		<table class="tanten_ari_tbl_modoshi" style="width: 100%;">
+			<tbody id="pitbodyHarai">
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="inline_top" style="width: 270px; padding-top: 5px;" id="pidivBiko">
+		<p>■ 備考</p>
+		<table class="bikou_tbl" style="height: 305px;">
+			<tbody><tr>
+				<td><div id="pilblBiko"></div></td>
+			</tr>
+		</tbody></table>
+	</div>
+	<div style="text-align: center; padding-top: 10px;" id="pidivTeikyo"><p id="pipTeikyo"></p></div>
+</div>
+<div id="tan_err_div" class="dispoff"></div>
+</div>
+</div> 
+   </div>
+
+   <div id="raceInfoSubHelp" class="raceInfoSubHelp dispoff">
+     <iframe id="PY0101" class="raceInfoSubHelpFrame dispoff" src="/pc/static/help/PY0101.html" allowtransparency="true" frameborder="0" height="100%" width="100%" scrolling="no"></iframe>
+     <iframe id="PY0102" class="raceInfoSubHelpFrame dispoff" src="/pc/static/help/PY0102.html" allowtransparency="true" frameborder="0" height="100%" width="100%" scrolling="no"></iframe>
+     <iframe id="PY0103" class="raceInfoSubHelpFrame dispoff" src="/pc/static/help/PY0103.html" allowtransparency="true" frameborder="0" height="100%" width="100%" scrolling="no"></iframe>
+     <iframe id="PY0104" class="raceInfoSubHelpFrame dispoff" src="/pc/static/help/PY0104.html" allowtransparency="true" frameborder="0" height="100%" width="100%" scrolling="no"></iframe>
+     <iframe id="PY0105" class="raceInfoSubHelpFrame dispoff" src="/pc/static/help/PY0105.html" allowtransparency="true" frameborder="0" height="100%" width="100%" scrolling="no"></iframe>
+     <iframe id="PY0106" class="raceInfoSubHelpFrame dispoff" src="/pc/static/help/PY0106.html" allowtransparency="true" frameborder="0" height="100%" width="100%" scrolling="no"></iframe>
+   </div>
+
+   <script type="text/javascript">
+     var displayingId = "PJ0315";
+     var parentFuncId = "FPJ0315";
+     var currentPath = "/pc";
+     var ozzStartFlg = "0";
+     var jsonData = [];
+     jsonData["PC0201"] = {"C0201data":{"encSelParaK":"D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM","encSelParaR":"D-fs-ibaZM4Z3cYeuKvjg-86H6yIcmrK9ms2fjfwuMM","selKaisai":"20260710","selKjyoCd":"22","selRaceNo":12,"encParaS":"D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM","imgGradeSrc":"/pc/static/img/icon/grade/ico_g3.png","imgGradeAlt":"G3","raceName":"まえばし七夕賞・ＣＴＣ杯","joName":"前橋競輪場","imgFuka1Src":"/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png","imgFuka1Alt":"01","imgFuka2Src":"","imgFuka2Alt":"","joInfo":"","hhMessage":"","flgRaceCancel":false,"flgSectionCancel":false,"cntRace":0,"flgPrevBet":false,"cidPrevBetBgcolor":"zenjitu_hatubai_bg_color","imgPushSrc":"","imgPushAlt":"","imgCongenialSrc":"","imgCongenialAlt":"","imgInterviewSrc":"/pc/static/img/icon/ico_film.png","imgInterviewAlt":"ダイジェストボタン","flgActvKekkaList":true,"flgRecodes":true,"flgActvSyumoku":true,"flgActvDugest":true,"flgActvSyutujyo":true,"flgLogin":false,"C0201ticker":[{"vPattern":"0","tickText":"★前橋競輪オンラインショップ『前橋恵輪堂』好評営業中！ご家庭から前橋競輪オリジナルグッズが買えちゃいます♪詳しくは前橋競輪ホームページよりアクセスして下さい。","cidFontColor":"color_white"},{"vPattern":"0","tickText":"★前橋競輪では毎月、色々なキャンペーンを実施しております！詳しくはホームページをご覧ください。","cidFontColor":"color_white"}],"C0201kaisai":[{"txtEventDate":"07/10","txtDaily":"(初日)","encParaK":"D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM","flgSelect":true},{"txtEventDate":"07/11","txtDaily":"(2日目)","encParaK":"D-fs-ibaZM4Z3cYeuKvjgyhkxpvG8okZf7-LyoWGBSw","flgSelect":true},{"txtEventDate":"07/12","txtDaily":"(最終日)","encParaK":"D-fs-ibaZM4Z3cYeuKvjg82sgUz-XN0rScSA8VLqLwE","flgSelect":false}],"C0201race":[{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjg6yKHIJumn0V1D_pL0-QyZo","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjg7YnWUEHNDveXwNz883qAmo","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjg8ZETJHI272cmccux_n2-tM","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjgx_V5PzaCViSMMgd67MdmnE","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjgw1yGwbwqSrsgs13Go265no","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjg8DsXR-nb3YbGx_2ykhaIlQ","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjg4aVYN1CM9vOgRObzAFqc1s","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjg21M9qrRZgsxZlCiipFEj34","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjg1HWeyq02UGb7WtTymQwe2Q","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjgy9fAEn0CSI1hSKg7GzMboQ","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjg1JXltTL3ak5aqJ3aGavmvw","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"},{"flgRaceEnd":true,"flgActvRaceBtn":true,"encParaR":"D-fs-ibaZM4Z3cYeuKvjg-86H6yIcmrK9ms2fjfwuMM","rcvKekka":"1","rcvRefund":"1","rcvOdds":"2"}],"C0201interview":[],"C0201racedtl":{"syumoku":"Ｓ級初特選","kyori":2035,"syukai":6,"nameKyosou":"先固","aftStartTime":"16:25","aftBetTime":"16:22","bfrStartTime":"16:25","bfrBetTime":"16:22","flgViewPut":false,"C0201sensyu":[{"imgPlayerPictSrc":"/pc/dfw/portal/picture/sen01/sen0150/015035_00.jpg","imgPlayerPictAlt":"阿部","cidCarNum":"base_color_1","carNum":1,"namePlayerSei":"阿部","numPlayer":"015035","flgPush":false,"flgCongenial":false},{"imgPlayerPictSrc":"/pc/dfw/portal/picture/sen01/sen0143/014396_00.jpg","imgPlayerPictAlt":"脇本","cidCarNum":"base_color_2","carNum":2,"namePlayerSei":"脇本","numPlayer":"014396","flgPush":false,"flgCongenial":false},{"imgPlayerPictSrc":"/pc/dfw/portal/picture/sen01/sen0153/015343_00.jpg","imgPlayerPictAlt":"佐々木","cidCarNum":"base_color_3","carNum":3,"namePlayerSei":"佐々木","numPlayer":"015343","flgPush":false,"flgCongenial":false},{"imgPlayerPictSrc":"/pc/dfw/portal/picture/sen01/sen0139/013963_00.jpg","imgPlayerPictAlt":"柏野","cidCarNum":"base_color_4","carNum":4,"namePlayerSei":"柏野","numPlayer":"013963","flgPush":false,"flgCongenial":false},{"imgPlayerPictSrc":"/pc/dfw/portal/picture/sen01/sen0150/015051_00.jpg","imgPlayerPictAlt":"簗田","cidCarNum":"base_color_5","carNum":5,"namePlayerSei":"簗田","numPlayer":"015051","flgPush":false,"flgCongenial":false},{"imgPlayerPictSrc":"/pc/dfw/portal/picture/sen01/sen0137/013791_00.jpg","imgPlayerPictAlt":"村上","cidCarNum":"base_color_6","carNum":6,"namePlayerSei":"村上","numPlayer":"013791","flgPush":false,"flgCongenial":false},{"imgPlayerPictSrc":"/pc/dfw/portal/picture/sen01/sen0131/013162_00.jpg","imgPlayerPictAlt":"佐藤","cidCarNum":"base_color_7","carNum":7,"namePlayerSei":"佐藤","numPlayer":"013162","flgPush":false,"flgCongenial":false},{"imgPlayerPictSrc":"/pc/dfw/portal/picture/sen01/sen0150/015094_00.jpg","imgPlayerPictAlt":"佐々木","cidCarNum":"base_color_8","carNum":8,"namePlayerSei":"佐々木","numPlayer":"015094","flgPush":false,"flgCongenial":false},{"imgPlayerPictSrc":"/pc/dfw/portal/picture/sen01/sen0144/014484_00.jpg","imgPlayerPictAlt":"河端","cidCarNum":"base_color_9","carNum":9,"namePlayerSei":"河端","numPlayer":"014484","flgPush":false,"flgCongenial":false}]}},"resultCd":0,"writeANA":false};
+     jsonData["PJ0307"] = {};
+     jsonData["PJ0311"] = {"kaimeFlg":1,"streamFlg":0,"subWinFlg":0,"jyoIntroUrl":"/pc/racestream","kaimeUrl":"/pc/racelive","divMsg":"ライブ映像配信時間外です。","bannerList":[{"bannerType":"0","bannerUrl":"https://www.maebashi-keirin.jp/","bannerImgPath":"/pc/dfw/portal/picture/banner/22/20250402164854029_maebashikeirin_banner.png","winKbn":"1","resultCd":0,"writeANA":false},{"bannerType":"0","bannerUrl":"www.nikkansports.com/public_race/keirin/pdf/keirin.pdf","bannerImgPath":"/pc/dfw/portal/picture/banner/22/20260710183927841_maebashitanabatasyou_gif.gif","winKbn":"1","resultCd":0,"writeANA":false}],"liveUrl":"https://cfl.st.keirin.jp/22/dash/22.mpd","kjcd":"22","bkcd":"22","kday":"20260710","resultCd":0,"writeANA":false};
+     jsonData["PJ0312"] = {"divMsg":"","today":"今日(07/10)","tomorrow":"明日(07/11)","dateKBN":"1","currentTime":"0039","raceUrl":"/pc/racelive","kaisaiData":[{"bkname":"いわき平","bkCode":"13","kCode":"13","tyushiKbn":0,"greadCd":"1","greadColor":"","greadPath":"/pc/static/img/icon/grade/ico_f2.png","greadName":"F2","nitijiPath":"/pc/static/img/icon/Himoku/ico_day1.png","nitijiName":"初日","kaisaiKbnPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png","kaisaiKbnName":"5","huka1Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka1Name":"","huka2Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka2Name":"","raceNum":"9R","denTime":"","denBoldFlg":"","denColorFlg":"","stColorFlg":"0","stTime":"23:30","raceUrlPrm":"6nWOJ2YgWUh0vVMBoyI8CI6juP_egQtEjCYj4mlac8Y","resultCd":0,"writeANA":false},{"bkname":"小田原","bkCode":"36","kCode":"36","tyushiKbn":0,"greadCd":"1","greadColor":"","greadPath":"/pc/static/img/icon/grade/ico_f2.png","greadName":"F2","nitijiPath":"/pc/static/img/icon/Himoku/ico_day1.png","nitijiName":"初日","kaisaiKbnPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png","kaisaiKbnName":"8","huka1Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png","huka1Name":"02","huka2Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka2Name":"","raceNum":"7R","denTime":"","denBoldFlg":"","denColorFlg":"","stColorFlg":"0","stTime":"10:40","raceUrlPrm":"oGn5WPyFKUs7MmpVS67mXcyaXcWr_MsPN1Xq4sYA1Ag","resultCd":0,"writeANA":false},{"bkname":"名古屋","bkCode":"42","kCode":"42","tyushiKbn":0,"greadCd":"1","greadColor":"","greadPath":"/pc/static/img/icon/grade/ico_f2.png","greadName":"F2","nitijiPath":"/pc/static/img/icon/Himoku/ico_day1.png","nitijiName":"初日","kaisaiKbnPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png","kaisaiKbnName":"5","huka1Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png","huka1Name":"02","huka2Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka2Name":"","raceNum":"9R","denTime":"","denBoldFlg":"","denColorFlg":"","stColorFlg":"0","stTime":"23:20","raceUrlPrm":"u93Y_4IZiF1UgerS4eAiiib0tYhdENWfypeOKshBZA4","resultCd":0,"writeANA":false},{"bkname":"広島","bkCode":"62","kCode":"62","tyushiKbn":0,"greadCd":"1","greadColor":"","greadPath":"/pc/static/img/icon/grade/ico_f2.png","greadName":"F2","nitijiPath":"/pc/static/img/icon/Himoku/ico_fday.png","nitijiName":"最終日","kaisaiKbnPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png","kaisaiKbnName":"8","huka1Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka1Name":"","huka2Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka2Name":"","raceNum":"7R","denTime":"","denBoldFlg":"","denColorFlg":"","stColorFlg":"0","stTime":"10:30","raceUrlPrm":"Ozpk-eumfo_0DwX9fHqEYT7qyR_ltNxTg6mAvFPgD6E","resultCd":0,"writeANA":false},{"bkname":"函館","bkCode":"11","kCode":"11","tyushiKbn":0,"greadCd":"2","greadColor":"","greadPath":"/pc/static/img/icon/grade/ico_f1.png","greadName":"F1","nitijiPath":"/pc/static/img/icon/Himoku/ico_fday.png","nitijiName":"最終日","kaisaiKbnPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png","kaisaiKbnName":"3","huka1Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka1Name":"","huka2Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka2Name":"","raceNum":"12R","denTime":"","denBoldFlg":"","denColorFlg":"","stColorFlg":"0","stTime":"20:30","raceUrlPrm":"T9wMz-ha1TZ640Z-S5GN5Lj37nIT_hpE1pP7n8r0_zE","resultCd":0,"writeANA":false},{"bkname":"伊東","bkCode":"37","kCode":"37","tyushiKbn":0,"greadCd":"2","greadColor":"","greadPath":"/pc/static/img/icon/grade/ico_f1.png","greadName":"F1","nitijiPath":"/pc/static/img/icon/Himoku/ico_day1.png","nitijiName":"初日","kaisaiKbnPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png","kaisaiKbnName":"3","huka1Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png","huka1Name":"02","huka2Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_03.png","huka2Name":"03","raceNum":"12R","denTime":"","denBoldFlg":"","denColorFlg":"","stColorFlg":"0","stTime":"20:17","raceUrlPrm":"W2uRQM1igycPTuhMZ-U0HxluJbAQf-41MmWPl-1Y9aE","resultCd":0,"writeANA":false},{"bkname":"大垣","bkCode":"44","kCode":"44","tyushiKbn":0,"greadCd":"2","greadColor":"","greadPath":"/pc/static/img/icon/grade/ico_f1.png","greadName":"F1","nitijiPath":"/pc/static/img/icon/Himoku/ico_fday.png","nitijiName":"最終日","kaisaiKbnPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","kaisaiKbnName":"","huka1Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka1Name":"","huka2Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka2Name":"","raceNum":"12R","denTime":"","denBoldFlg":"","denColorFlg":"","stColorFlg":"0","stTime":"16:03","raceUrlPrm":"M55-TiOKRgzcmeiQ08HxlTDSC_Y4MZOULUfYGnS8eTw","resultCd":0,"writeANA":false},{"bkname":"前橋","bkCode":"22","kCode":"22","tyushiKbn":0,"greadCd":"3","greadColor":"grade_g3_bg_color","greadPath":"/pc/static/img/icon/grade/ico_g3.png","greadName":"G3","nitijiPath":"/pc/static/img/icon/Himoku/ico_day1.png","nitijiName":"初日","kaisaiKbnPath":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","kaisaiKbnName":"","huka1Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png","huka1Name":"01","huka2Path":"/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png","huka2Name":"","raceNum":"12R","denTime":"","denBoldFlg":"","denColorFlg":"","stColorFlg":"0","stTime":"16:25","raceUrlPrm":"D-fs-ibaZM4Z3cYeuKvjg4mTE575CE8r_gIQiMQDVIM","resultCd":0,"writeANA":false}],"resultCd":0,"writeANA":false};
+     jsonData["PJ0314"] = {"narabiyoso":{"chushiFlg":"2","maxAxixY":0,"ryoikiFlg":"false"},"sanrentan":{"ryoikiFlg":"false"},"kaime":{"ryoikiFlg":"false"},"sensyuShokaiFlg":"0","interViewFlg":"0","biko":{"hyojiFlg":"false"},"streamURL":"/pc/racestream","raceNo":"12","resultCd":0,"writeANA":false};
+     jsonData["PJ0315"] = {"syusouInfoExistFlg":"1","bKeirinjyoCd":"22","charColor1":"color_red","charColor2":"color_blue","lastUpdateTime":"2026/07/10 07:01\u0026nbsp;更新","yudoSensyuName":"金子　真也","raceResult1Syaban":"1","raceResult2Syaban":"3","backCnt1Syaban":"9","backCnt2Syaban":"3","sensyuTypeInfo":[{"syabanBgColorInfo":"base_color_1_bk","syabanCharColorInfo":"base_color_1","syaban":"1","wakuban":"1","sensyuRegistNo":"015035","sensyuName":"阿部　拓真","huKen":"宮　城","prevKyuhan":"SS","kyuhan":"SS","kyakusitu":"両","sotugyouki":"107","age":"35","heikinTokuten":"115.50","nigeCnt":"0","makuriCnt":"1","sasiCnt":"5","markCnt":"3","backCnt":"0","homeTori":"0","stTori":"5","syouritu":"8","rentairitu2":"39","rentairitu3":"56","konResultInfoSubData":{"msg":"　","kaisaiKbn":"1","gaiTeiGrade":"Ｇ３","resultInfoSubData":[]},"tyo4InfoSubData":{"kaisaiKbn":"2","bKeirinjyoCd":"56","kerinjyoName":"岸","kaisaiFirst":"20260616","gaiTeiGrade":"Ｇ１","kkParameter":"Jf8M704WoVPTu-FwuPh-RmWcRQXK-mYcE_6HLOZ1sCQ","resultInfoSubData":[{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-2.png","imgTyakuiName":"2","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RtqrJM4yzV9iIYpRryIVoCGEYBgp5kyq4gWEhQk1t5Gg"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-2.png","imgTyakuiName":"2","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-Rrk61zSkLZHfBD4QVwcx5E0U1E_t423pIX0Ar3icHSwG"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Bcircle-3.png","imgTyakuiName":"3","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-Rrr0X1mrzLhOeovNnvBnaxpHBuXC4BTETK3Vd9xgLgl9"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Wcircle-7.png","imgTyakuiName":"7","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RgxEnm-4bdWjCZY1STlWRqmsrxO88givSOaybaGIlj2f"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-1.png","imgTyakuiName":"1","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RkJFbAJktQV-Om25ixmBGRu54Q6VHGT7y5y3AEeBdnPZ"}]}},{"syabanBgColorInfo":"base_color_2_bk","syabanCharColorInfo":"base_color_2","syaban":"2","wakuban":"2","sensyuRegistNo":"014396","sensyuName":"脇本　雄太","huKen":"福　井","prevKyuhan":"SS","kyuhan":"SS","kyakusitu":"逃","sotugyouki":"94","age":"37","heikinTokuten":"111.85","nigeCnt":"0","makuriCnt":"1","sasiCnt":"0","markCnt":"0","backCnt":"0","homeTori":"0","stTori":"0","syouritu":"14","rentairitu2":"14","rentairitu3":"42","konResultInfoSubData":{"msg":"　","kaisaiKbn":"1","gaiTeiGrade":"Ｇ３","resultInfoSubData":[]},"tyo4InfoSubData":{"kaisaiKbn":"2","bKeirinjyoCd":"56","kerinjyoName":"岸","kaisaiFirst":"20260616","gaiTeiGrade":"Ｇ１","kkParameter":"Jf8M704WoVPTu-FwuPh-RmWcRQXK-mYcE_6HLOZ1sCQ","resultInfoSubData":[{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-3.png","imgTyakuiName":"3","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RvMOLYXpofiFwF9jx2ZcJpOoPjvfdpiI_ZooLDVfrsVj"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-7.png","imgTyakuiName":"7","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RtiC8NqwaBkySP4oL3dzyfWy_PTUujT2TGdeDsB0JV8H"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-3.png","imgTyakuiName":"3","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-Rj0eeGyDFDbSzpqa9yysrORwQWIs4tKsuWjz_B4HOrW5"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Wcircle-8.png","imgTyakuiName":"8","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-Rht4MTEu1X6ifmnXZrscHeLIJi4TKsf4oATObgkXyA_-"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-1.png","imgTyakuiName":"1","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RpubPwuPiJ-ZCuuiix_ykoO4WYN_Zb90uo5o-ObOWHj8"}]}},{"syabanBgColorInfo":"base_color_3_bk","syabanCharColorInfo":"base_color_3","syaban":"3","wakuban":"3","sensyuRegistNo":"015343","sensyuName":"佐々木　悠葵","huKen":"群　馬","prevKyuhan":"S1","kyuhan":"S1","kyakusitu":"両","sotugyouki":"115","age":"30","heikinTokuten":"115.05","nigeCnt":"2","makuriCnt":"3","sasiCnt":"5","markCnt":"0","backCnt":"3","homeTori":"4","stTori":"2","syouritu":"38","rentairitu2":"55","rentairitu3":"61","konResultInfoSubData":{"msg":"　","kaisaiKbn":"1","gaiTeiGrade":"Ｇ３","resultInfoSubData":[]},"tyo4InfoSubData":{"kaisaiKbn":"2","bKeirinjyoCd":"56","kerinjyoName":"岸","kaisaiFirst":"20260616","gaiTeiGrade":"Ｇ１","kkParameter":"Jf8M704WoVPTu-FwuPh-RmWcRQXK-mYcE_6HLOZ1sCQ","resultInfoSubData":[{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-1.png","imgTyakuiName":"1","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RtqrJM4yzV9iIYpRryIVoCGEYBgp5kyq4gWEhQk1t5Gg"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-7.png","imgTyakuiName":"7","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-Rrk61zSkLZHfBD4QVwcx5E0U1E_t423pIX0Ar3icHSwG"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-6.png","imgTyakuiName":"6","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RqG5oASjoPlVtctDE_g0HCqH-VFMsf4muzybiUIhiBs8"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-1.png","imgTyakuiName":"1","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RkDx7-o_REN8Eo1gTVRMqw0Mg0a3n1A2KNsoMmIhCOH_"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-6.png","imgTyakuiName":"6","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RkJFbAJktQV-Om25ixmBGRu54Q6VHGT7y5y3AEeBdnPZ"}]}},{"syabanBgColorInfo":"base_color_4_bk","syabanCharColorInfo":"base_color_4","syaban":"4","wakuban":"4","sensyuRegistNo":"013963","sensyuName":"柏野　智典","ketujyouTuikaHojyuColorInfo":"body_base_color","ketujyouTuikaHojyu":"(追加)","huKen":"岡　山","prevKyuhan":"S1","kyuhan":"S1","kyakusitu":"追","sotugyouki":"88","age":"48","heikinTokuten":"110.21","nigeCnt":"0","makuriCnt":"0","sasiCnt":"7","markCnt":"2","backCnt":"0","homeTori":"0","stTori":"2","syouritu":"15","rentairitu2":"28","rentairitu3":"53","konResultInfoSubData":{"msg":"　","kaisaiKbn":"1","gaiTeiGrade":"Ｇ３","resultInfoSubData":[]},"tyo4InfoSubData":{"kaisaiKbn":"2","bKeirinjyoCd":"25","kerinjyoName":"宮","kaisaiFirst":"20260701","gaiTeiGrade":"Ｆ１","kkParameter":"CpPQzSRN4GOX-sUUc0RGwReX2o2RJLkehGeC86tnLN4","resultInfoSubData":[{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Bcircle-6.png","imgTyakuiName":"6","backTori":"0","kkrParameter":"CpPQzSRN4GOX-sUUc0RGwcbg9VwIW5rMOWW9pa1b9wh4ZTcBX68wtWcP_Vjhryj9"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Wcircle-R.png","imgTyakuiName":"落","backTori":"0","kkrParameter":"CpPQzSRN4GOX-sUUc0RGwW72sbfyQFKAo4TD7_bWAXVV-A_qgUq5ong2MMGF4xxy"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-3.png","imgTyakuiName":"3","backTori":"0","kkrParameter":"CpPQzSRN4GOX-sUUc0RGwQJksd06VBI6elq99HE8wdWhKRwjfHmZdR2rMKYibYiv"}]}},{"syabanBgColorInfo":"base_color_5_bk","syabanCharColorInfo":"base_color_5","syaban":"5","wakuban":"4","sensyuRegistNo":"015051","sensyuName":"簗田　一輝","huKen":"静　岡","prevKyuhan":"S1","kyuhan":"S1","kyakusitu":"両","sotugyouki":"107","age":"30","heikinTokuten":"112.04","nigeCnt":"0","makuriCnt":"0","sasiCnt":"5","markCnt":"3","backCnt":"1","homeTori":"1","stTori":"7","syouritu":"8","rentairitu2":"33","rentairitu3":"50","konResultInfoSubData":{"msg":"　","kaisaiKbn":"1","gaiTeiGrade":"Ｇ３","resultInfoSubData":[]},"tyo4InfoSubData":{"kaisaiKbn":"2","bKeirinjyoCd":"23","kerinjyoName":"取","kaisaiFirst":"20260627","gaiTeiGrade":"Ｇ３","kkParameter":"fnI91TdVAK41Vyxrjvt6va6p4XfjW9_1pLtEeatOEDM","resultInfoSubData":[{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Bcircle-5.png","imgTyakuiName":"5","backTori":"0","kkrParameter":"fnI91TdVAK41Vyxrjvt6veusq07dWBI_pXSiR3XXehKHdZnv5DhgljGHjrcCsBIy"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-2.png","imgTyakuiName":"2","backTori":"0","kkrParameter":"fnI91TdVAK41Vyxrjvt6vSPVa8gJeidwwf5cJB23XCREuA1fH_IufeAkjvVeO_s5"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Wcircle-2.png","imgTyakuiName":"2","backTori":"0","kkrParameter":"fnI91TdVAK41Vyxrjvt6veXNdjkW5ozJLZUoa8VeXAE7Qf0gBZB9QWkFLXxVPsAV"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Bcircle-4.png","imgTyakuiName":"4","backTori":"0","kkrParameter":"fnI91TdVAK41Vyxrjvt6vQ9DQFQpf0EkJD82p2ll8zGCULVYNaiiRjYwp1VgYCv_"}]}},{"syabanBgColorInfo":"base_color_6_bk","syabanCharColorInfo":"base_color_6","syaban":"6","wakuban":"5","sensyuRegistNo":"013791","sensyuName":"村上　博幸","huKen":"京　都","prevKyuhan":"S1","kyuhan":"S1","kyakusitu":"追","sotugyouki":"86","age":"47","heikinTokuten":"109.57","nigeCnt":"0","makuriCnt":"0","sasiCnt":"3","markCnt":"1","backCnt":"0","homeTori":"0","stTori":"3","syouritu":"10","rentairitu2":"20","rentairitu3":"40","konResultInfoSubData":{"msg":"　","kaisaiKbn":"1","gaiTeiGrade":"Ｇ３","resultInfoSubData":[]},"tyo4InfoSubData":{"kaisaiKbn":"2","bKeirinjyoCd":"25","kerinjyoName":"宮","kaisaiFirst":"20260701","gaiTeiGrade":"Ｆ１","kkParameter":"CpPQzSRN4GOX-sUUc0RGwReX2o2RJLkehGeC86tnLN4","resultInfoSubData":[{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Bcircle-1.png","imgTyakuiName":"1","backTori":"0","kkrParameter":"CpPQzSRN4GOX-sUUc0RGwcbg9VwIW5rMOWW9pa1b9wh4ZTcBX68wtWcP_Vjhryj9"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Wcircle-3.png","imgTyakuiName":"3","backTori":"0","kkrParameter":"CpPQzSRN4GOX-sUUc0RGwYFqrgZC7L3G7WDQFSrD9yPyoRWxD6NI0NzMAF-nTQHH"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Bcircle-1.png","imgTyakuiName":"1","backTori":"0","kkrParameter":"CpPQzSRN4GOX-sUUc0RGwdpEkz-clP1Syb0lCJT2yPAxS43BDk_mRY7h6GefQUPQ"}]}},{"syabanBgColorInfo":"base_color_7_bk","syabanCharColorInfo":"base_color_7","syaban":"7","wakuban":"5","sensyuRegistNo":"013162","sensyuName":"佐藤　慎太郎","huKen":"福　島","prevKyuhan":"S1","kyuhan":"S1","kyakusitu":"追","sotugyouki":"78","age":"49","heikinTokuten":"113.33","nigeCnt":"0","makuriCnt":"0","sasiCnt":"5","markCnt":"5","backCnt":"0","homeTori":"0","stTori":"1","syouritu":"4","rentairitu2":"47","rentairitu3":"47","konResultInfoSubData":{"msg":"　","kaisaiKbn":"1","gaiTeiGrade":"Ｇ３","resultInfoSubData":[]},"tyo4InfoSubData":{"kaisaiKbn":"2","bKeirinjyoCd":"56","kerinjyoName":"岸","kaisaiFirst":"20260616","gaiTeiGrade":"Ｇ１","kkParameter":"Jf8M704WoVPTu-FwuPh-RmWcRQXK-mYcE_6HLOZ1sCQ","resultInfoSubData":[{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-5.png","imgTyakuiName":"5","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-Rr7YBHRQ7KbTKl4Ha5IccFNSRqO76LXTnAOsqA5MLhqf"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-2.png","imgTyakuiName":"2","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RjjwgJ__qGoWjextIxsUzb40YucPRVK_Z5WZD9xqdwfu"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Bcircle-5.png","imgTyakuiName":"5","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-Rrr0X1mrzLhOeovNnvBnaxpHBuXC4BTETK3Vd9xgLgl9"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Wcircle-5.png","imgTyakuiName":"5","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RlfjPAFMxDaEiv-x49AkGB8V-0eRT05HKuxrwpdWTbIV"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-normal-5.png","imgTyakuiName":"5","backTori":"0","kkrParameter":"Jf8M704WoVPTu-FwuPh-RgXAk-9WpSHA5eGPaQ33DzEqndEdnS6DmaM2hFq2Kr6H"}]}},{"syabanBgColorInfo":"base_color_8_bk","syabanCharColorInfo":"base_color_8","syaban":"8","wakuban":"6","sensyuRegistNo":"015094","sensyuName":"佐々木　龍","huKen":"神奈川","prevKyuhan":"S1","kyuhan":"S1","kyakusitu":"追","sotugyouki":"109","age":"35","heikinTokuten":"109.87","nigeCnt":"0","makuriCnt":"0","sasiCnt":"3","markCnt":"4","backCnt":"0","homeTori":"0","stTori":"2","syouritu":"8","rentairitu2":"29","rentairitu3":"41","konResultInfoSubData":{"msg":"　","kaisaiKbn":"1","gaiTeiGrade":"Ｇ３","resultInfoSubData":[]},"tyo4InfoSubData":{"msg":"病気欠場","kaisaiKbn":"2","bKeirinjyoCd":"84","kerinjyoName":"武","kaisaiFirst":"20260629","gaiTeiGrade":"Ｆ１","kkParameter":"uXOPvbsfbpEeQ909fsorM7RoPv5xHh1KT4A30YudI-E","resultInfoSubData":[{"imgTyakuiPath":"","imgTyakuiName":"","backTori":"","kkrParameter":""}]}},{"syabanBgColorInfo":"base_color_9_bk","syabanCharColorInfo":"base_color_9","syaban":"9","wakuban":"6","sensyuRegistNo":"014484","sensyuName":"河端　朋之","huKen":"岡　山","prevKyuhan":"S1","kyuhan":"S1","kyakusitu":"逃","sotugyouki":"95","age":"41","heikinTokuten":"110.61","nigeCnt":"3","makuriCnt":"7","sasiCnt":"4","markCnt":"1","backCnt":"8","homeTori":"5","stTori":"8","syouritu":"29","rentairitu2":"48","rentairitu3":"58","konResultInfoSubData":{"msg":"　","kaisaiKbn":"1","gaiTeiGrade":"Ｇ３","resultInfoSubData":[]},"tyo4InfoSubData":{"kaisaiKbn":"2","bKeirinjyoCd":"74","kerinjyoName":"知","kaisaiFirst":"20260629","gaiTeiGrade":"Ｆ１","kkParameter":"u3ftnY5SRux-xk3s1TGkhfkTOEcKM5hTmP4RhG8vkkg","resultInfoSubData":[{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Bcircle-1.png","imgTyakuiName":"1","backTori":"0","kkrParameter":"u3ftnY5SRux-xk3s1TGkhV63__fPzc0xX6QRVNS7DhFftUu4W7mOZEa5dZgXfX42"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Wcircle-2.png","imgTyakuiName":"2","backTori":"1","kkrParameter":"u3ftnY5SRux-xk3s1TGkhVtE_C48rfyiwzK93fUD6kxkxeDtnfi3oEKS4xCZCsrW"},{"imgTyakuiPath":"/pc/static/img/icon/print/setP-Bcircle-1.png","imgTyakuiName":"1","backTori":"0","kkrParameter":"u3ftnY5SRux-xk3s1TGkhR8ey3evZR-mF7t_thA_dFVErRw6j_Wkl_opJJG30gQp"}]}}],"resultCd":0,"writeANA":false};
+     jsonData["PJ0316"] = {};
+     jsonData["PJ0317"] = {};
+     jsonData["PJ0318"] = {};
+     jsonData["PJ0319"] = {};
+     jsonData["PJ0320"] = {};
+     jsonData["PJ0326"] = {};
+     
+     var jst001Ret = null;
+     var jst002Ret = null;
+     var jst004Ret = null;
+     var jst061Ret = null;
+     var jst011Maindata = null;
+     var jst010Maindata = null;
+     var jst015Maindata = {"data":{"mode":"0"},"resultCd":0,"writeANA":false};
+     var jst012Maindata = null;
+     var jst016Maindata = null;
+   </script></body></html>

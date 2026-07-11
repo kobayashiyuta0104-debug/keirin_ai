@@ -1,0 +1,179 @@
+{
+  "source_file": "C:\\競輪AI\\231_20260706_model_ready_154_features.json",
+  "race_count": 70,
+  "structural_slot_ok_count": 8,
+  "recent_finish_missing_cell_count": 254,
+  "recent_finish_present_cell_count": 1192,
+  "recent_finish_pattern_distribution": {
+    "(False, False, False)": 377,
+    "(False, False, True)": 11,
+    "(True, True, True)": 63,
+    "(False, True, True)": 15,
+    "(True, True, False)": 8,
+    "(False, True, False)": 1,
+    "(True, False, False)": 7
+  },
+  "problem_count": 16,
+  "problems": [
+    {
+      "race_key": "20260706_京王閣_4R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 1,
+      "values": [
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_4R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 2,
+      "values": [
+        null,
+        null,
+        2
+      ]
+    },
+    {
+      "race_key": "20260706_京王閣_7R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 6,
+      "values": [
+        null,
+        null,
+        1
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_1R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 5,
+      "values": [
+        3,
+        null,
+        7
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_2R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 3,
+      "values": [
+        null,
+        null,
+        7
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_4R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 1,
+      "values": [
+        null,
+        1,
+        1
+      ]
+    },
+    {
+      "race_key": "20260706_伊東_7R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 2,
+      "values": [
+        null,
+        4,
+        4
+      ]
+    },
+    {
+      "race_key": "20260706_佐世保_4R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 3,
+      "values": [
+        null,
+        null,
+        4
+      ]
+    },
+    {
+      "race_key": "20260706_別府_6R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 1,
+      "values": [
+        null,
+        5,
+        4
+      ]
+    },
+    {
+      "race_key": "20260706_取手_8R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 6,
+      "values": [
+        null,
+        2,
+        2
+      ]
+    },
+    {
+      "race_key": "20260706_取手_9R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 1,
+      "values": [
+        null,
+        null,
+        7
+      ]
+    },
+    {
+      "race_key": "20260706_取手_9R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 6,
+      "values": [
+        null,
+        2,
+        7
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_5R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 3,
+      "values": [
+        null,
+        1,
+        2
+      ]
+    },
+    {
+      "race_key": "20260706_和歌山_10R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 6,
+      "values": [
+        null,
+        4,
+        2
+      ]
+    },
+    {
+      "race_key": "20260706_岸和田_3R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 4,
+      "values": [
+        null,
+        null,
+        1
+      ]
+    },
+    {
+      "race_key": "20260706_豊橋_5R",
+      "type": "RECENT_FINISH_GAP",
+      "player": 7,
+      "values": [
+        null,
+        null,
+        1
+      ]
+    }
+  ]
+}

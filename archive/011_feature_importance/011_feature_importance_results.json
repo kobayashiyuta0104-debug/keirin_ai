@@ -1,0 +1,2186 @@
+{
+  "dataset": {
+    "total_race_count": 2565,
+    "train_race_count": 2064,
+    "test_race_count": 501,
+    "train_first_date": "20260601",
+    "train_last_date": "20260627",
+    "test_first_date": "20260628",
+    "test_last_date": "20260704",
+    "original_feature_count": 181
+  },
+  "logistic_regression": {
+    "roc_auc": 0.5651508788769571,
+    "pr_auc": 0.22006746648963052,
+    "transformed_feature_count": 703,
+    "high_risk_top50": [
+      {
+        "transformed_feature": "p6_prefecture_石 川",
+        "original_feature": "p6_prefecture",
+        "coefficient": 1.8936838921468502,
+        "absolute_coefficient": 1.8936838921468502,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_群 馬",
+        "original_feature": "p6_prefecture",
+        "coefficient": 1.5275355194986449,
+        "absolute_coefficient": 1.5275355194986449,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_茨 城",
+        "original_feature": "p1_prefecture",
+        "coefficient": 1.3259759042792203,
+        "absolute_coefficient": 1.3259759042792203,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_山 梨",
+        "original_feature": "p3_prefecture",
+        "coefficient": 1.2894257175441224,
+        "absolute_coefficient": 1.2894257175441224,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_秋 田",
+        "original_feature": "p5_prefecture",
+        "coefficient": 1.2820064235503454,
+        "absolute_coefficient": 1.2820064235503454,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_山 形",
+        "original_feature": "p2_prefecture",
+        "coefficient": 1.2802115078669583,
+        "absolute_coefficient": 1.2802115078669583,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p7_prefecture_栃 木",
+        "original_feature": "p7_prefecture",
+        "coefficient": 1.2681484827822536,
+        "absolute_coefficient": 1.2681484827822536,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p4_prefecture_宮 崎",
+        "original_feature": "p4_prefecture",
+        "coefficient": 1.2516844515867558,
+        "absolute_coefficient": 1.2516844515867558,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p8_riding_style_逃",
+        "original_feature": "p8_riding_style",
+        "coefficient": 1.2335306433676716,
+        "absolute_coefficient": 1.2335306433676716,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_石 川",
+        "original_feature": "p2_prefecture",
+        "coefficient": 1.182163297945059,
+        "absolute_coefficient": 1.182163297945059,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_新 潟",
+        "original_feature": "p6_prefecture",
+        "coefficient": 1.1537039302254994,
+        "absolute_coefficient": 1.1537039302254994,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_鹿児島",
+        "original_feature": "p5_prefecture",
+        "coefficient": 1.1352574717811015,
+        "absolute_coefficient": 1.1352574717811015,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_香 川",
+        "original_feature": "p1_prefecture",
+        "coefficient": 1.128296982420299,
+        "absolute_coefficient": 1.128296982420299,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p7_prefecture_京 都",
+        "original_feature": "p7_prefecture",
+        "coefficient": 1.1187599802934252,
+        "absolute_coefficient": 1.1187599802934252,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_富 山",
+        "original_feature": "p1_prefecture",
+        "coefficient": 1.1116495072484596,
+        "absolute_coefficient": 1.1116495072484596,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p4_prefecture_京 都",
+        "original_feature": "p4_prefecture",
+        "coefficient": 1.1014671523187687,
+        "absolute_coefficient": 1.1014671523187687,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_岩 手",
+        "original_feature": "p6_prefecture",
+        "coefficient": 1.094066532771416,
+        "absolute_coefficient": 1.094066532771416,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_沖 縄",
+        "original_feature": "p1_prefecture",
+        "coefficient": 1.0824400232030693,
+        "absolute_coefficient": 1.0824400232030693,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_鹿児島",
+        "original_feature": "p2_prefecture",
+        "coefficient": 1.039299444007774,
+        "absolute_coefficient": 1.039299444007774,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_岩 手",
+        "original_feature": "p1_prefecture",
+        "coefficient": 1.0361356569227884,
+        "absolute_coefficient": 1.0361356569227884,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p7_prefecture_富 山",
+        "original_feature": "p7_prefecture",
+        "coefficient": 1.0253929514061049,
+        "absolute_coefficient": 1.0253929514061049,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_高 知",
+        "original_feature": "p3_prefecture",
+        "coefficient": 1.0221620723686846,
+        "absolute_coefficient": 1.0221620723686846,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p4_prefecture_愛 知",
+        "original_feature": "p4_prefecture",
+        "coefficient": 0.9830378307348607,
+        "absolute_coefficient": 0.9830378307348607,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p9_prefecture_栃 木",
+        "original_feature": "p9_prefecture",
+        "coefficient": 0.9663996801775511,
+        "absolute_coefficient": 0.9663996801775511,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_秋 田",
+        "original_feature": "p2_prefecture",
+        "coefficient": 0.9295906015019707,
+        "absolute_coefficient": 0.9295906015019707,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_宮 城",
+        "original_feature": "p5_prefecture",
+        "coefficient": 0.9263236937011133,
+        "absolute_coefficient": 0.9263236937011133,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p9_prefecture_徳 島",
+        "original_feature": "p9_prefecture",
+        "coefficient": 0.9258542512702517,
+        "absolute_coefficient": 0.9258542512702517,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_新 潟",
+        "original_feature": "p3_prefecture",
+        "coefficient": 0.9170512016438899,
+        "absolute_coefficient": 0.9170512016438899,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p8_previous_class_S1",
+        "original_feature": "p8_previous_class",
+        "coefficient": 0.90739689623669,
+        "absolute_coefficient": 0.90739689623669,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p8_prefecture_静 岡",
+        "original_feature": "p8_prefecture",
+        "coefficient": 0.8927898367506233,
+        "absolute_coefficient": 0.8927898367506233,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p7_prefecture_北海道",
+        "original_feature": "p7_prefecture",
+        "coefficient": 0.8924675816361657,
+        "absolute_coefficient": 0.8924675816361657,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_奈 良",
+        "original_feature": "p5_prefecture",
+        "coefficient": 0.8716503386887445,
+        "absolute_coefficient": 0.8716503386887445,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p4_prefecture_新 潟",
+        "original_feature": "p4_prefecture",
+        "coefficient": 0.8711884504920223,
+        "absolute_coefficient": 0.8711884504920223,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p7_prefecture_福 島",
+        "original_feature": "p7_prefecture",
+        "coefficient": 0.8403338433172004,
+        "absolute_coefficient": 0.8403338433172004,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_広 島",
+        "original_feature": "p2_prefecture",
+        "coefficient": 0.8117705618847821,
+        "absolute_coefficient": 0.8117705618847821,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_群 馬",
+        "original_feature": "p3_prefecture",
+        "coefficient": 0.8035742667852931,
+        "absolute_coefficient": 0.8035742667852931,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_大 阪",
+        "original_feature": "p5_prefecture",
+        "coefficient": 0.791601420333498,
+        "absolute_coefficient": 0.791601420333498,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_千 葉",
+        "original_feature": "p1_prefecture",
+        "coefficient": 0.7740770322514495,
+        "absolute_coefficient": 0.7740770322514495,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_徳 島",
+        "original_feature": "p5_prefecture",
+        "coefficient": 0.7223762277687896,
+        "absolute_coefficient": 0.7223762277687896,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_香 川",
+        "original_feature": "p3_prefecture",
+        "coefficient": 0.7114740707956148,
+        "absolute_coefficient": 0.7114740707956148,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_愛 媛",
+        "original_feature": "p6_prefecture",
+        "coefficient": 0.6906878949965097,
+        "absolute_coefficient": 0.6906878949965097,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p7_class_S2",
+        "original_feature": "p7_class",
+        "coefficient": 0.6863182288242097,
+        "absolute_coefficient": 0.6863182288242097,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_沖 縄",
+        "original_feature": "p5_prefecture",
+        "coefficient": 0.6818932591385699,
+        "absolute_coefficient": 0.6818932591385699,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_滋 賀",
+        "original_feature": "p3_prefecture",
+        "coefficient": 0.6801586451990286,
+        "absolute_coefficient": 0.6801586451990286,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p1_previous_class_A3",
+        "original_feature": "p1_previous_class",
+        "coefficient": 0.6782241214136695,
+        "absolute_coefficient": 0.6782241214136695,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_和歌山",
+        "original_feature": "p1_prefecture",
+        "coefficient": 0.6775275064566721,
+        "absolute_coefficient": 0.6775275064566721,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p5_class_S1",
+        "original_feature": "p5_class",
+        "coefficient": 0.6711023866978371,
+        "absolute_coefficient": 0.6711023866978371,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p9_prefecture_愛 知",
+        "original_feature": "p9_prefecture",
+        "coefficient": 0.6693769250187607,
+        "absolute_coefficient": 0.6693769250187607,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_愛 知",
+        "original_feature": "p5_prefecture",
+        "coefficient": 0.6465388552602472,
+        "absolute_coefficient": 0.6465388552602472,
+        "direction": "HIGH_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_鹿児島",
+        "original_feature": "p6_prefecture",
+        "coefficient": 0.6446530748749966,
+        "absolute_coefficient": 0.6446530748749966,
+        "direction": "HIGH_RISK"
+      }
+    ],
+    "low_risk_top50": [
+      {
+        "transformed_feature": "p8_riding_style_両",
+        "original_feature": "p8_riding_style",
+        "coefficient": -1.4299971173107748,
+        "absolute_coefficient": 1.4299971173107748,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_大 阪",
+        "original_feature": "p1_prefecture",
+        "coefficient": -1.404554033888968,
+        "absolute_coefficient": 1.404554033888968,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_栃 木",
+        "original_feature": "p2_prefecture",
+        "coefficient": -1.3151008327688698,
+        "absolute_coefficient": 1.3151008327688698,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_静 岡",
+        "original_feature": "p3_prefecture",
+        "coefficient": -1.2994991295848384,
+        "absolute_coefficient": 1.2994991295848384,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_山 口",
+        "original_feature": "p2_prefecture",
+        "coefficient": -1.2721889242550022,
+        "absolute_coefficient": 1.2721889242550022,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_三 重",
+        "original_feature": "p2_prefecture",
+        "coefficient": -1.2703968112378505,
+        "absolute_coefficient": 1.2703968112378505,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p9_prefecture_宮 城",
+        "original_feature": "p9_prefecture",
+        "coefficient": -1.251215213241331,
+        "absolute_coefficient": 1.251215213241331,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_三 重",
+        "original_feature": "p1_prefecture",
+        "coefficient": -1.2280190259399335,
+        "absolute_coefficient": 1.2280190259399335,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_兵 庫",
+        "original_feature": "p5_prefecture",
+        "coefficient": -1.226675157546581,
+        "absolute_coefficient": 1.226675157546581,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p4_prefecture_三 重",
+        "original_feature": "p4_prefecture",
+        "coefficient": -1.2129443274866105,
+        "absolute_coefficient": 1.2129443274866105,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_奈 良",
+        "original_feature": "p2_prefecture",
+        "coefficient": -1.1975093508555068,
+        "absolute_coefficient": 1.1975093508555068,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_富 山",
+        "original_feature": "p5_prefecture",
+        "coefficient": -1.1617497731144748,
+        "absolute_coefficient": 1.1617497731144748,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_新 潟",
+        "original_feature": "p5_prefecture",
+        "coefficient": -1.1041648730852085,
+        "absolute_coefficient": 1.1041648730852085,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_長 崎",
+        "original_feature": "p1_prefecture",
+        "coefficient": -1.0999129495661681,
+        "absolute_coefficient": 1.0999129495661681,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_佐 賀",
+        "original_feature": "p5_prefecture",
+        "coefficient": -1.0544199473222808,
+        "absolute_coefficient": 1.0544199473222808,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_栃 木",
+        "original_feature": "p5_prefecture",
+        "coefficient": -1.0386156923075311,
+        "absolute_coefficient": 1.0386156923075311,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p4_prefecture_東 京",
+        "original_feature": "p4_prefecture",
+        "coefficient": -1.0318320875720108,
+        "absolute_coefficient": 1.0318320875720108,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_石 川",
+        "original_feature": "p3_prefecture",
+        "coefficient": -0.974375193907437,
+        "absolute_coefficient": 0.974375193907437,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p9_prefecture_茨 城",
+        "original_feature": "p9_prefecture",
+        "coefficient": -0.9633062191136579,
+        "absolute_coefficient": 0.9633062191136579,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_京 都",
+        "original_feature": "p6_prefecture",
+        "coefficient": -0.9626949103027163,
+        "absolute_coefficient": 0.9626949103027163,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_北海道",
+        "original_feature": "p5_prefecture",
+        "coefficient": -0.9279575963202792,
+        "absolute_coefficient": 0.9279575963202792,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p1_previous_class_S1",
+        "original_feature": "p1_previous_class",
+        "coefficient": -0.9068459562717095,
+        "absolute_coefficient": 0.9068459562717095,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p7_prefecture_沖 縄",
+        "original_feature": "p7_prefecture",
+        "coefficient": -0.8970575000617681,
+        "absolute_coefficient": 0.8970575000617681,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p9_prefecture_神奈川",
+        "original_feature": "p9_prefecture",
+        "coefficient": -0.8945251658590656,
+        "absolute_coefficient": 0.8945251658590656,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_岩 手",
+        "original_feature": "p2_prefecture",
+        "coefficient": -0.8819506327814999,
+        "absolute_coefficient": 0.8819506327814999,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_兵 庫",
+        "original_feature": "p2_prefecture",
+        "coefficient": -0.8794205177576969,
+        "absolute_coefficient": 0.8794205177576969,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_長 野",
+        "original_feature": "p6_prefecture",
+        "coefficient": -0.8770369623236992,
+        "absolute_coefficient": 0.8770369623236992,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p7_prefecture_岡 山",
+        "original_feature": "p7_prefecture",
+        "coefficient": -0.8648126505409077,
+        "absolute_coefficient": 0.8648126505409077,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_山 梨",
+        "original_feature": "p5_prefecture",
+        "coefficient": -0.8243324586182486,
+        "absolute_coefficient": 0.8243324586182486,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_熊 本",
+        "original_feature": "p1_prefecture",
+        "coefficient": -0.8174661327490331,
+        "absolute_coefficient": 0.8174661327490331,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_広 島",
+        "original_feature": "p5_prefecture",
+        "coefficient": -0.8117892903511484,
+        "absolute_coefficient": 0.8117892903511484,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_長 野",
+        "original_feature": "p3_prefecture",
+        "coefficient": -0.8034724152743443,
+        "absolute_coefficient": 0.8034724152743443,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p9_back_count",
+        "original_feature": "p9_back_count",
+        "coefficient": -0.7939933952153737,
+        "absolute_coefficient": 0.7939933952153737,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p4_prefecture_鹿児島",
+        "original_feature": "p4_prefecture",
+        "coefficient": -0.7903660123809769,
+        "absolute_coefficient": 0.7903660123809769,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_三 重",
+        "original_feature": "p6_prefecture",
+        "coefficient": -0.7888188795376253,
+        "absolute_coefficient": 0.7888188795376253,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p8_previous_class_A1",
+        "original_feature": "p8_previous_class",
+        "coefficient": -0.7600596391611654,
+        "absolute_coefficient": 0.7600596391611654,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_石 川",
+        "original_feature": "p1_prefecture",
+        "coefficient": -0.7583745277819159,
+        "absolute_coefficient": 0.7583745277819159,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_prefecture_京 都",
+        "original_feature": "p5_prefecture",
+        "coefficient": -0.7503237057826535,
+        "absolute_coefficient": 0.7503237057826535,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_長 野",
+        "original_feature": "p1_prefecture",
+        "coefficient": -0.7497715801280231,
+        "absolute_coefficient": 0.7497715801280231,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_山 口",
+        "original_feature": "p6_prefecture",
+        "coefficient": -0.7368665561018697,
+        "absolute_coefficient": 0.7368665561018697,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_previous_class_SS",
+        "original_feature": "p5_previous_class",
+        "coefficient": -0.7326398404328751,
+        "absolute_coefficient": 0.7326398404328751,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p5_class_SS",
+        "original_feature": "p5_class",
+        "coefficient": -0.7326398404328751,
+        "absolute_coefficient": 0.7326398404328751,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_高 知",
+        "original_feature": "p2_prefecture",
+        "coefficient": -0.7314328171406225,
+        "absolute_coefficient": 0.7314328171406225,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p6_prefecture_兵 庫",
+        "original_feature": "p6_prefecture",
+        "coefficient": -0.727280642402061,
+        "absolute_coefficient": 0.727280642402061,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p3_prefecture_京 都",
+        "original_feature": "p3_prefecture",
+        "coefficient": -0.7119708500082236,
+        "absolute_coefficient": 0.7119708500082236,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p8_prefecture_千 葉",
+        "original_feature": "p8_prefecture",
+        "coefficient": -0.7038623782279236,
+        "absolute_coefficient": 0.7038623782279236,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p1_prefecture_山 口",
+        "original_feature": "p1_prefecture",
+        "coefficient": -0.7027560670983745,
+        "absolute_coefficient": 0.7027560670983745,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p6_class_A3",
+        "original_feature": "p6_class",
+        "coefficient": -0.6991185165038635,
+        "absolute_coefficient": 0.6991185165038635,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_熊 本",
+        "original_feature": "p2_prefecture",
+        "coefficient": -0.6944631552771692,
+        "absolute_coefficient": 0.6944631552771692,
+        "direction": "LOW_RISK"
+      },
+      {
+        "transformed_feature": "p2_prefecture_大 分",
+        "original_feature": "p2_prefecture",
+        "coefficient": -0.6918400019931645,
+        "absolute_coefficient": 0.6918400019931645,
+        "direction": "LOW_RISK"
+      }
+    ]
+  },
+  "random_forest": {
+    "roc_auc": 0.579458875757394,
+    "pr_auc": 0.1976524140573267,
+    "transformed_feature_count": 703,
+    "importance_top50": [
+      {
+        "transformed_feature": "p5_race_score",
+        "original_feature": "p5_race_score",
+        "importance": 0.014210200820383203
+      },
+      {
+        "transformed_feature": "p6_race_score",
+        "original_feature": "p6_race_score",
+        "importance": 0.014123503170458846
+      },
+      {
+        "transformed_feature": "p3_race_score",
+        "original_feature": "p3_race_score",
+        "importance": 0.013738521061987504
+      },
+      {
+        "transformed_feature": "p1_race_score",
+        "original_feature": "p1_race_score",
+        "importance": 0.013216544821354164
+      },
+      {
+        "transformed_feature": "p7_race_score",
+        "original_feature": "p7_race_score",
+        "importance": 0.013211018652110584
+      },
+      {
+        "transformed_feature": "p2_race_score",
+        "original_feature": "p2_race_score",
+        "importance": 0.012788484013922097
+      },
+      {
+        "transformed_feature": "p4_race_score",
+        "original_feature": "p4_race_score",
+        "importance": 0.01174654998091196
+      },
+      {
+        "transformed_feature": "p3_top2_rate",
+        "original_feature": "p3_top2_rate",
+        "importance": 0.011299161126594999
+      },
+      {
+        "transformed_feature": "p2_top3_rate",
+        "original_feature": "p2_top3_rate",
+        "importance": 0.010996003881612412
+      },
+      {
+        "transformed_feature": "p4_top2_rate",
+        "original_feature": "p4_top2_rate",
+        "importance": 0.010448666137460533
+      },
+      {
+        "transformed_feature": "p6_graduation_term",
+        "original_feature": "p6_graduation_term",
+        "importance": 0.010364869327510271
+      },
+      {
+        "transformed_feature": "p3_top3_rate",
+        "original_feature": "p3_top3_rate",
+        "importance": 0.010191935897342776
+      },
+      {
+        "transformed_feature": "p2_top2_rate",
+        "original_feature": "p2_top2_rate",
+        "importance": 0.010125039196488867
+      },
+      {
+        "transformed_feature": "p2_graduation_term",
+        "original_feature": "p2_graduation_term",
+        "importance": 0.010083770305279493
+      },
+      {
+        "transformed_feature": "p5_top3_rate",
+        "original_feature": "p5_top3_rate",
+        "importance": 0.009799982690298274
+      },
+      {
+        "transformed_feature": "p3_win_rate",
+        "original_feature": "p3_win_rate",
+        "importance": 0.009755686947530906
+      },
+      {
+        "transformed_feature": "p4_top3_rate",
+        "original_feature": "p4_top3_rate",
+        "importance": 0.009733009379479306
+      },
+      {
+        "transformed_feature": "p5_top2_rate",
+        "original_feature": "p5_top2_rate",
+        "importance": 0.009583724716689467
+      },
+      {
+        "transformed_feature": "p3_graduation_term",
+        "original_feature": "p3_graduation_term",
+        "importance": 0.00956552825174237
+      },
+      {
+        "transformed_feature": "p7_top2_rate",
+        "original_feature": "p7_top2_rate",
+        "importance": 0.009524087344312364
+      },
+      {
+        "transformed_feature": "p2_win_rate",
+        "original_feature": "p2_win_rate",
+        "importance": 0.009509504007917856
+      },
+      {
+        "transformed_feature": "p1_top3_rate",
+        "original_feature": "p1_top3_rate",
+        "importance": 0.009472442151430777
+      },
+      {
+        "transformed_feature": "p5_graduation_term",
+        "original_feature": "p5_graduation_term",
+        "importance": 0.009429031362397543
+      },
+      {
+        "transformed_feature": "p7_graduation_term",
+        "original_feature": "p7_graduation_term",
+        "importance": 0.009390242672449494
+      },
+      {
+        "transformed_feature": "p6_top2_rate",
+        "original_feature": "p6_top2_rate",
+        "importance": 0.009283109871545531
+      },
+      {
+        "transformed_feature": "p7_top3_rate",
+        "original_feature": "p7_top3_rate",
+        "importance": 0.00924898321125521
+      },
+      {
+        "transformed_feature": "p5_win_rate",
+        "original_feature": "p5_win_rate",
+        "importance": 0.00919489036399398
+      },
+      {
+        "transformed_feature": "p2_age",
+        "original_feature": "p2_age",
+        "importance": 0.009098499273989065
+      },
+      {
+        "transformed_feature": "p4_graduation_term",
+        "original_feature": "p4_graduation_term",
+        "importance": 0.009087295552126413
+      },
+      {
+        "transformed_feature": "p4_win_rate",
+        "original_feature": "p4_win_rate",
+        "importance": 0.009053873137673963
+      },
+      {
+        "transformed_feature": "p4_age",
+        "original_feature": "p4_age",
+        "importance": 0.008969924925488766
+      },
+      {
+        "transformed_feature": "p1_top2_rate",
+        "original_feature": "p1_top2_rate",
+        "importance": 0.008954513139491166
+      },
+      {
+        "transformed_feature": "p7_age",
+        "original_feature": "p7_age",
+        "importance": 0.00876319114860034
+      },
+      {
+        "transformed_feature": "p3_age",
+        "original_feature": "p3_age",
+        "importance": 0.008752366888257918
+      },
+      {
+        "transformed_feature": "p5_recent_finish_2",
+        "original_feature": "p5_recent_finish_2",
+        "importance": 0.00875061626341094
+      },
+      {
+        "transformed_feature": "p6_top3_rate",
+        "original_feature": "p6_top3_rate",
+        "importance": 0.008741082402695454
+      },
+      {
+        "transformed_feature": "p1_win_rate",
+        "original_feature": "p1_win_rate",
+        "importance": 0.008662357958441447
+      },
+      {
+        "transformed_feature": "p5_age",
+        "original_feature": "p5_age",
+        "importance": 0.008329015823400697
+      },
+      {
+        "transformed_feature": "p1_age",
+        "original_feature": "p1_age",
+        "importance": 0.008291331010269125
+      },
+      {
+        "transformed_feature": "p6_age",
+        "original_feature": "p6_age",
+        "importance": 0.008162113693042941
+      },
+      {
+        "transformed_feature": "p1_graduation_term",
+        "original_feature": "p1_graduation_term",
+        "importance": 0.008043375832462622
+      },
+      {
+        "transformed_feature": "p7_win_rate",
+        "original_feature": "p7_win_rate",
+        "importance": 0.007910690370479092
+      },
+      {
+        "transformed_feature": "p6_recent_finish_1",
+        "original_feature": "p6_recent_finish_1",
+        "importance": 0.007691895285576064
+      },
+      {
+        "transformed_feature": "p1_start_count",
+        "original_feature": "p1_start_count",
+        "importance": 0.006896862717817133
+      },
+      {
+        "transformed_feature": "p4_start_count",
+        "original_feature": "p4_start_count",
+        "importance": 0.006833860398349856
+      },
+      {
+        "transformed_feature": "p3_start_count",
+        "original_feature": "p3_start_count",
+        "importance": 0.006790409362959397
+      },
+      {
+        "transformed_feature": "p6_sashi_count",
+        "original_feature": "p6_sashi_count",
+        "importance": 0.006659178428126335
+      },
+      {
+        "transformed_feature": "p7_start_count",
+        "original_feature": "p7_start_count",
+        "importance": 0.006596086292015943
+      },
+      {
+        "transformed_feature": "p1_sashi_count",
+        "original_feature": "p1_sashi_count",
+        "importance": 0.006585457637452895
+      },
+      {
+        "transformed_feature": "p3_recent_finish_3",
+        "original_feature": "p3_recent_finish_3",
+        "importance": 0.00648746308558716
+      }
+    ]
+  },
+  "original_feature_aggregation": {
+    "top50": [
+      {
+        "original_feature": "p5_prefecture",
+        "logistic_abs_coefficient_sum": 25.36154895248563,
+        "logistic_signed_coefficient_sum": 0.025650001621467335,
+        "logistic_expanded_feature_count": 49,
+        "random_forest_importance_sum": 0.011022919571797775,
+        "random_forest_expanded_feature_count": 49,
+        "logistic_normalized": 1.0,
+        "random_forest_normalized": 0.7757047005265701,
+        "combined_score": 0.8878523502632851,
+        "combined_rank": 1
+      },
+      {
+        "original_feature": "p1_prefecture",
+        "logistic_abs_coefficient_sum": 22.192543758075576,
+        "logistic_signed_coefficient_sum": 0.025650001617368436,
+        "logistic_expanded_feature_count": 44,
+        "random_forest_importance_sum": 0.009884813504604063,
+        "random_forest_expanded_feature_count": 44,
+        "logistic_normalized": 0.8750468593086674,
+        "random_forest_normalized": 0.6956139205594634,
+        "combined_score": 0.7853303899340653,
+        "combined_rank": 2
+      },
+      {
+        "original_feature": "p2_prefecture",
+        "logistic_abs_coefficient_sum": 22.766511253717717,
+        "logistic_signed_coefficient_sum": 0.025650001640255802,
+        "logistic_expanded_feature_count": 46,
+        "random_forest_importance_sum": 0.008860885325974184,
+        "random_forest_expanded_feature_count": 46,
+        "logistic_normalized": 0.8976782646978831,
+        "random_forest_normalized": 0.623558064940509,
+        "combined_score": 0.7606181648191961,
+        "combined_rank": 3
+      },
+      {
+        "original_feature": "p6_prefecture",
+        "logistic_abs_coefficient_sum": 20.303016627823755,
+        "logistic_signed_coefficient_sum": 0.02565000161967468,
+        "logistic_expanded_feature_count": 46,
+        "random_forest_importance_sum": 0.009722797556691368,
+        "random_forest_expanded_feature_count": 46,
+        "logistic_normalized": 0.8005432422862288,
+        "random_forest_normalized": 0.6842125371476049,
+        "combined_score": 0.7423778897169169,
+        "combined_rank": 4
+      },
+      {
+        "original_feature": "p7_prefecture",
+        "logistic_abs_coefficient_sum": 17.275475369473853,
+        "logistic_signed_coefficient_sum": 0.025650001625628305,
+        "logistic_expanded_feature_count": 46,
+        "random_forest_importance_sum": 0.010674987610495637,
+        "random_forest_expanded_feature_count": 46,
+        "logistic_normalized": 0.6811679918225468,
+        "random_forest_normalized": 0.7512200387191831,
+        "combined_score": 0.716194015270865,
+        "combined_rank": 5
+      },
+      {
+        "original_feature": "p4_prefecture",
+        "logistic_abs_coefficient_sum": 18.238407603660324,
+        "logistic_signed_coefficient_sum": 0.025650001619329316,
+        "logistic_expanded_feature_count": 47,
+        "random_forest_importance_sum": 0.009093184456315915,
+        "random_forest_expanded_feature_count": 47,
+        "logistic_normalized": 0.7191361867459132,
+        "random_forest_normalized": 0.6399054152192271,
+        "combined_score": 0.6795208009825702,
+        "combined_rank": 6
+      },
+      {
+        "original_feature": "p3_prefecture",
+        "logistic_abs_coefficient_sum": 18.58399342320148,
+        "logistic_signed_coefficient_sum": 0.025650001636726753,
+        "logistic_expanded_feature_count": 49,
+        "random_forest_importance_sum": 0.008775882156503583,
+        "random_forest_expanded_feature_count": 49,
+        "logistic_normalized": 0.7327625555528265,
+        "random_forest_normalized": 0.6175762234067376,
+        "combined_score": 0.6751693894797821,
+        "combined_rank": 7
+      },
+      {
+        "original_feature": "p5_race_score",
+        "logistic_abs_coefficient_sum": 0.0028325025174400107,
+        "logistic_signed_coefficient_sum": 0.0028325025174400107,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.014210200820383203,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0001116849180918188,
+        "random_forest_normalized": 1.0,
+        "combined_score": 0.5000558424590459,
+        "combined_rank": 8
+      },
+      {
+        "original_feature": "p6_race_score",
+        "logistic_abs_coefficient_sum": 0.009291457224707133,
+        "logistic_signed_coefficient_sum": 0.009291457224707133,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.014123503170458846,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.00036636000593317456,
+        "random_forest_normalized": 0.993898914517802,
+        "combined_score": 0.49713263726186757,
+        "combined_rank": 9
+      },
+      {
+        "original_feature": "p3_race_score",
+        "logistic_abs_coefficient_sum": 0.027940790554543682,
+        "logistic_signed_coefficient_sum": -0.027940790554543682,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.013738521061987504,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0011016988988681335,
+        "random_forest_normalized": 0.9668069604112055,
+        "combined_score": 0.4839543296550368,
+        "combined_rank": 10
+      },
+      {
+        "original_feature": "p1_race_score",
+        "logistic_abs_coefficient_sum": 0.05406478719243839,
+        "logistic_signed_coefficient_sum": 0.05406478719243839,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.013216544821354164,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.002131762034476984,
+        "random_forest_normalized": 0.9300744576667958,
+        "combined_score": 0.46610310985063635,
+        "combined_rank": 11
+      },
+      {
+        "original_feature": "p7_race_score",
+        "logistic_abs_coefficient_sum": 0.034975256503884264,
+        "logistic_signed_coefficient_sum": -0.034975256503884264,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.013211018652110584,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.001379066261662871,
+        "random_forest_normalized": 0.9296855701828375,
+        "combined_score": 0.46553231822225016,
+        "combined_rank": 12
+      },
+      {
+        "original_feature": "p2_race_score",
+        "logistic_abs_coefficient_sum": 0.026933031618223607,
+        "logistic_signed_coefficient_sum": 0.026933031618223607,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.012788484013922097,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.001061963197464087,
+        "random_forest_normalized": 0.8999509701212817,
+        "combined_score": 0.4505064666593729,
+        "combined_rank": 13
+      },
+      {
+        "original_feature": "p4_race_score",
+        "logistic_abs_coefficient_sum": 0.03591945358930692,
+        "logistic_signed_coefficient_sum": -0.03591945358930692,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.01174654998091196,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0014162957340106204,
+        "random_forest_normalized": 0.8266280068373582,
+        "combined_score": 0.41402215128568437,
+        "combined_rank": 14
+      },
+      {
+        "original_feature": "p3_top2_rate",
+        "logistic_abs_coefficient_sum": 0.006238996663057512,
+        "logistic_signed_coefficient_sum": 0.006238996663057512,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.011299161126594999,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.00024600219311313165,
+        "random_forest_normalized": 0.7951443663193984,
+        "combined_score": 0.3976951842562558,
+        "combined_rank": 15
+      },
+      {
+        "original_feature": "p2_top3_rate",
+        "logistic_abs_coefficient_sum": 0.015227557125711848,
+        "logistic_signed_coefficient_sum": 0.015227557125711848,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.010996003881612412,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0006004190498869127,
+        "random_forest_normalized": 0.7738105900544118,
+        "combined_score": 0.38720550455214936,
+        "combined_rank": 16
+      },
+      {
+        "original_feature": "p4_top2_rate",
+        "logistic_abs_coefficient_sum": 0.012741658086002942,
+        "logistic_signed_coefficient_sum": 0.012741658086002942,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.010448666137460533,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0005024006266286886,
+        "random_forest_normalized": 0.7352933480343852,
+        "combined_score": 0.3678978743305069,
+        "combined_rank": 17
+      },
+      {
+        "original_feature": "p6_graduation_term",
+        "logistic_abs_coefficient_sum": 0.010884321716370009,
+        "logistic_signed_coefficient_sum": 0.010884321716370009,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.010364869327510271,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0004291662838402171,
+        "random_forest_normalized": 0.7293964004113747,
+        "combined_score": 0.36491278334760746,
+        "combined_rank": 18
+      },
+      {
+        "original_feature": "p3_top3_rate",
+        "logistic_abs_coefficient_sum": 0.002375010014589129,
+        "logistic_signed_coefficient_sum": -0.002375010014589129,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.010191935897342776,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 9.364609468604082e-05,
+        "random_forest_normalized": 0.7172267321319905,
+        "combined_score": 0.3586601891133383,
+        "combined_rank": 19
+      },
+      {
+        "original_feature": "p2_top2_rate",
+        "logistic_abs_coefficient_sum": 0.028193044374353736,
+        "logistic_signed_coefficient_sum": -0.028193044374353736,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.010125039196488867,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.00111164520854672,
+        "random_forest_normalized": 0.7125190786864494,
+        "combined_score": 0.356815361947498,
+        "combined_rank": 20
+      },
+      {
+        "original_feature": "p2_graduation_term",
+        "logistic_abs_coefficient_sum": 0.012069048565214568,
+        "logistic_signed_coefficient_sum": 0.012069048565214568,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.010083770305279493,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0004758797890391354,
+        "random_forest_normalized": 0.7096149050064985,
+        "combined_score": 0.35504539239776883,
+        "combined_rank": 21
+      },
+      {
+        "original_feature": "p5_top3_rate",
+        "logistic_abs_coefficient_sum": 0.0071245042307078125,
+        "logistic_signed_coefficient_sum": -0.0071245042307078125,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009799982690298274,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0002809175513709921,
+        "random_forest_normalized": 0.689644208000292,
+        "combined_score": 0.3449625627758315,
+        "combined_rank": 22
+      },
+      {
+        "original_feature": "p3_win_rate",
+        "logistic_abs_coefficient_sum": 0.0014311738921728792,
+        "logistic_signed_coefficient_sum": -0.0014311738921728792,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009755686947530906,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 5.643085502601421e-05,
+        "random_forest_normalized": 0.6865270287762074,
+        "combined_score": 0.34329172981561673,
+        "combined_rank": 23
+      },
+      {
+        "original_feature": "p4_top3_rate",
+        "logistic_abs_coefficient_sum": 0.022866466300816075,
+        "logistic_signed_coefficient_sum": 0.022866466300816075,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009733009379479306,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0009016194690496214,
+        "random_forest_normalized": 0.684931163359649,
+        "combined_score": 0.3429163914143493,
+        "combined_rank": 24
+      },
+      {
+        "original_feature": "p9_prefecture",
+        "logistic_abs_coefficient_sum": 13.294143464956091,
+        "logistic_signed_coefficient_sum": 0.02565000162688799,
+        "logistic_expanded_feature_count": 39,
+        "random_forest_importance_sum": 0.0022294837533069077,
+        "random_forest_expanded_feature_count": 39,
+        "logistic_normalized": 0.5241849971333538,
+        "random_forest_normalized": 0.1568931911299186,
+        "combined_score": 0.3405390941316362,
+        "combined_rank": 25
+      },
+      {
+        "original_feature": "p5_top2_rate",
+        "logistic_abs_coefficient_sum": 0.022455881730000165,
+        "logistic_signed_coefficient_sum": 0.022455881730000165,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009583724716689467,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0008854302145374016,
+        "random_forest_normalized": 0.6744257057185645,
+        "combined_score": 0.33765556796655094,
+        "combined_rank": 26
+      },
+      {
+        "original_feature": "p3_graduation_term",
+        "logistic_abs_coefficient_sum": 0.02978904905331763,
+        "logistic_signed_coefficient_sum": -0.02978904905331763,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.00956552825174237,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0011745753033115933,
+        "random_forest_normalized": 0.6731451844101679,
+        "combined_score": 0.33715987985673973,
+        "combined_rank": 27
+      },
+      {
+        "original_feature": "p7_top2_rate",
+        "logistic_abs_coefficient_sum": 0.026347390392586024,
+        "logistic_signed_coefficient_sum": 0.026347390392586024,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009524087344312364,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0010388714996054597,
+        "random_forest_normalized": 0.6702289056077907,
+        "combined_score": 0.3356338885536981,
+        "combined_rank": 28
+      },
+      {
+        "original_feature": "p2_win_rate",
+        "logistic_abs_coefficient_sum": 0.008290337626967693,
+        "logistic_signed_coefficient_sum": 0.008290337626967693,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009509504007917856,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0003268860921113091,
+        "random_forest_normalized": 0.6692026473177889,
+        "combined_score": 0.3347647667049501,
+        "combined_rank": 29
+      },
+      {
+        "original_feature": "p1_top3_rate",
+        "logistic_abs_coefficient_sum": 0.0005395323014592621,
+        "logistic_signed_coefficient_sum": 0.0005395323014592621,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009472442151430777,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 2.1273633659760504e-05,
+        "random_forest_normalized": 0.6665945310106698,
+        "combined_score": 0.3333079023221648,
+        "combined_rank": 30
+      },
+      {
+        "original_feature": "p5_graduation_term",
+        "logistic_abs_coefficient_sum": 0.03865662642393399,
+        "logistic_signed_coefficient_sum": 0.03865662642393399,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009429031362397543,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0015242218247929742,
+        "random_forest_normalized": 0.663539627735062,
+        "combined_score": 0.3325319247799275,
+        "combined_rank": 31
+      },
+      {
+        "original_feature": "p7_graduation_term",
+        "logistic_abs_coefficient_sum": 0.027639600222004304,
+        "logistic_signed_coefficient_sum": 0.027639600222004304,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009390242672449494,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0010898230338291465,
+        "random_forest_normalized": 0.6608099907342667,
+        "combined_score": 0.3309499068840479,
+        "combined_rank": 32
+      },
+      {
+        "original_feature": "p6_top2_rate",
+        "logistic_abs_coefficient_sum": 0.002182098846955211,
+        "logistic_signed_coefficient_sum": 0.002182098846955211,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009283109871545531,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 8.603965203558075e-05,
+        "random_forest_normalized": 0.6532708431699135,
+        "combined_score": 0.3266784414109745,
+        "combined_rank": 33
+      },
+      {
+        "original_feature": "p8_prefecture",
+        "logistic_abs_coefficient_sum": 11.698280157815288,
+        "logistic_signed_coefficient_sum": 0.025650001627904057,
+        "logistic_expanded_feature_count": 38,
+        "random_forest_importance_sum": 0.0027288975239610535,
+        "random_forest_expanded_feature_count": 38,
+        "logistic_normalized": 0.4612604766267151,
+        "random_forest_normalized": 0.19203792813727905,
+        "combined_score": 0.3266492023819971,
+        "combined_rank": 34
+      },
+      {
+        "original_feature": "p7_top3_rate",
+        "logistic_abs_coefficient_sum": 0.010757616066812945,
+        "logistic_signed_coefficient_sum": 0.010757616066812945,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.00924898321125521,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.00042417030943051347,
+        "random_forest_normalized": 0.6508692824374733,
+        "combined_score": 0.32564672637345193,
+        "combined_rank": 35
+      },
+      {
+        "original_feature": "p5_win_rate",
+        "logistic_abs_coefficient_sum": 0.001455060036502046,
+        "logistic_signed_coefficient_sum": 0.001455060036502046,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.00919489036399398,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 5.73726801635055e-05,
+        "random_forest_normalized": 0.647062661549777,
+        "combined_score": 0.32356001711497023,
+        "combined_rank": 36
+      },
+      {
+        "original_feature": "p2_age",
+        "logistic_abs_coefficient_sum": 0.03989060386621688,
+        "logistic_signed_coefficient_sum": 0.03989060386621688,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009098499273989065,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0015728772694818898,
+        "random_forest_normalized": 0.640279429474221,
+        "combined_score": 0.32092615337185143,
+        "combined_rank": 37
+      },
+      {
+        "original_feature": "p4_graduation_term",
+        "logistic_abs_coefficient_sum": 0.04139871119705611,
+        "logistic_signed_coefficient_sum": -0.04139871119705611,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009087295552126413,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0016323415921722995,
+        "random_forest_normalized": 0.6394910013580904,
+        "combined_score": 0.32056167147513137,
+        "combined_rank": 38
+      },
+      {
+        "original_feature": "p4_win_rate",
+        "logistic_abs_coefficient_sum": 0.005081632430592457,
+        "logistic_signed_coefficient_sum": -0.005081632430592457,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.009053873137673963,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0002003675895392981,
+        "random_forest_normalized": 0.6371389998012575,
+        "combined_score": 0.31866968369539844,
+        "combined_rank": 39
+      },
+      {
+        "original_feature": "p4_age",
+        "logistic_abs_coefficient_sum": 0.05702376133899254,
+        "logistic_signed_coefficient_sum": -0.05702376133899254,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.008969924925488766,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0022484336996066545,
+        "random_forest_normalized": 0.6312313977028564,
+        "combined_score": 0.31673991570123156,
+        "combined_rank": 40
+      },
+      {
+        "original_feature": "p1_top2_rate",
+        "logistic_abs_coefficient_sum": 0.01602949052360466,
+        "logistic_signed_coefficient_sum": -0.01602949052360466,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.008954513139491166,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0006320390979918301,
+        "random_forest_normalized": 0.6301468397720851,
+        "combined_score": 0.31538943943503844,
+        "combined_rank": 41
+      },
+      {
+        "original_feature": "p5_recent_finish_2",
+        "logistic_abs_coefficient_sum": 0.07718904096187948,
+        "logistic_signed_coefficient_sum": -0.07718904096187948,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.00875061626341094,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0030435460036960537,
+        "random_forest_normalized": 0.6157982124263156,
+        "combined_score": 0.30942087921500583,
+        "combined_rank": 42
+      },
+      {
+        "original_feature": "p7_age",
+        "logistic_abs_coefficient_sum": 0.04939652050123928,
+        "logistic_signed_coefficient_sum": 0.04939652050123928,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.00876319114860034,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.001947693360282635,
+        "random_forest_normalized": 0.6166831320237476,
+        "combined_score": 0.3093154126920151,
+        "combined_rank": 43
+      },
+      {
+        "original_feature": "p3_age",
+        "logistic_abs_coefficient_sum": 0.06305861229927978,
+        "logistic_signed_coefficient_sum": -0.06305861229927978,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.008752366888257918,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0024863864749514655,
+        "random_forest_normalized": 0.6159214073669858,
+        "combined_score": 0.3092038969209686,
+        "combined_rank": 44
+      },
+      {
+        "original_feature": "p6_top3_rate",
+        "logistic_abs_coefficient_sum": 0.0102223391874062,
+        "logistic_signed_coefficient_sum": -0.0102223391874062,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.008741082402695454,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0004030644660764827,
+        "random_forest_normalized": 0.615127295749205,
+        "combined_score": 0.30776518010764076,
+        "combined_rank": 45
+      },
+      {
+        "original_feature": "p1_win_rate",
+        "logistic_abs_coefficient_sum": 0.013959198247493625,
+        "logistic_signed_coefficient_sum": 0.013959198247493625,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.008662357958441447,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0005504079531437891,
+        "random_forest_normalized": 0.6095873005549721,
+        "combined_score": 0.30506885425405794,
+        "combined_rank": 46
+      },
+      {
+        "original_feature": "p5_age",
+        "logistic_abs_coefficient_sum": 0.05387758133581175,
+        "logistic_signed_coefficient_sum": 0.05387758133581175,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.008329015823400697,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.002124380550917862,
+        "random_forest_normalized": 0.5861293537423836,
+        "combined_score": 0.29412686714665076,
+        "combined_rank": 47
+      },
+      {
+        "original_feature": "p1_age",
+        "logistic_abs_coefficient_sum": 0.04524895023069848,
+        "logistic_signed_coefficient_sum": 0.04524895023069848,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.008291331010269125,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0017841556253315406,
+        "random_forest_normalized": 0.5834773987413314,
+        "combined_score": 0.29263077718333147,
+        "combined_rank": 48
+      },
+      {
+        "original_feature": "p6_age",
+        "logistic_abs_coefficient_sum": 0.024108686338116227,
+        "logistic_signed_coefficient_sum": 0.024108686338116227,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.008162113693042941,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0009505999173506075,
+        "random_forest_normalized": 0.574384119986197,
+        "combined_score": 0.2876673599517738,
+        "combined_rank": 49
+      },
+      {
+        "original_feature": "p1_graduation_term",
+        "logistic_abs_coefficient_sum": 0.01905581430686451,
+        "logistic_signed_coefficient_sum": 0.01905581430686451,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.008043375832462622,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0007513663436947486,
+        "random_forest_normalized": 0.566028301368208,
+        "combined_score": 0.2833898338559514,
+        "combined_rank": 50
+      }
+    ],
+    "bottom50": [
+      {
+        "original_feature": "p6_riding_style",
+        "logistic_abs_coefficient_sum": 0.3271147036175137,
+        "logistic_signed_coefficient_sum": 0.02565000162597561,
+        "logistic_expanded_feature_count": 4,
+        "random_forest_importance_sum": 0.0038138698251672827,
+        "random_forest_expanded_feature_count": 4,
+        "logistic_normalized": 0.012898056985019201,
+        "random_forest_normalized": 0.2683895796670687,
+        "combined_score": 0.14064381832604397,
+        "combined_rank": 132
+      },
+      {
+        "original_feature": "p8_previous_class",
+        "logistic_abs_coefficient_sum": 1.8031475318474395,
+        "logistic_signed_coefficient_sum": 0.025650001628385138,
+        "logistic_expanded_feature_count": 5,
+        "random_forest_importance_sum": 0.0029797590172979285,
+        "random_forest_expanded_feature_count": 5,
+        "logistic_normalized": 0.07109768946784761,
+        "random_forest_normalized": 0.20969154869533885,
+        "combined_score": 0.14039461908159323,
+        "combined_rank": 133
+      },
+      {
+        "original_feature": "p6_mark_count",
+        "logistic_abs_coefficient_sum": 0.019101173235442012,
+        "logistic_signed_coefficient_sum": 0.019101173235442012,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0039544111033246185,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0007531548357408173,
+        "random_forest_normalized": 0.2782797479999287,
+        "combined_score": 0.13951645141783478,
+        "combined_rank": 134
+      },
+      {
+        "original_feature": "p2_riding_style",
+        "logistic_abs_coefficient_sum": 1.0117556333566071,
+        "logistic_signed_coefficient_sum": 0.025650001625299956,
+        "logistic_expanded_feature_count": 3,
+        "random_forest_importance_sum": 0.0033792530729159077,
+        "random_forest_expanded_feature_count": 3,
+        "logistic_normalized": 0.03989329024233148,
+        "random_forest_normalized": 0.23780473728905263,
+        "combined_score": 0.13884901376569206,
+        "combined_rank": 135
+      },
+      {
+        "original_feature": "p6_class",
+        "logistic_abs_coefficient_sum": 1.7882330253972947,
+        "logistic_signed_coefficient_sum": 0.02565000162699796,
+        "logistic_expanded_feature_count": 7,
+        "random_forest_importance_sum": 0.0029168571943098067,
+        "random_forest_expanded_feature_count": 7,
+        "logistic_normalized": 0.07050961393357774,
+        "random_forest_normalized": 0.20526502272408761,
+        "combined_score": 0.13788731832883266,
+        "combined_rank": 136
+      },
+      {
+        "original_feature": "p2_nige_count",
+        "logistic_abs_coefficient_sum": 0.015515533766381179,
+        "logistic_signed_coefficient_sum": 0.015515533766381179,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0038676999101331148,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0006117739021165162,
+        "random_forest_normalized": 0.2721777094511755,
+        "combined_score": 0.136394741676646,
+        "combined_rank": 137
+      },
+      {
+        "original_feature": "p1_riding_style",
+        "logistic_abs_coefficient_sum": 0.34171357559058163,
+        "logistic_signed_coefficient_sum": 0.025650001625069155,
+        "logistic_expanded_feature_count": 3,
+        "random_forest_importance_sum": 0.0036603132683081896,
+        "random_forest_expanded_feature_count": 3,
+        "logistic_normalized": 0.013473687124977082,
+        "random_forest_normalized": 0.25758350037233907,
+        "combined_score": 0.13552859374865808,
+        "combined_rank": 138
+      },
+      {
+        "original_feature": "p1_nige_count",
+        "logistic_abs_coefficient_sum": 0.00694785526650892,
+        "logistic_signed_coefficient_sum": 0.00694785526650892,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.003826358412015458,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0002739523236347114,
+        "random_forest_normalized": 0.26926842627916314,
+        "combined_score": 0.13477118930139892,
+        "combined_rank": 139
+      },
+      {
+        "original_feature": "p7_mark_count",
+        "logistic_abs_coefficient_sum": 0.06145768654774448,
+        "logistic_signed_coefficient_sum": -0.06145768654774448,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0037355286469035252,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0024232623434351057,
+        "random_forest_normalized": 0.2628765556603014,
+        "combined_score": 0.13264990900186824,
+        "combined_rank": 140
+      },
+      {
+        "original_feature": "p4_nige_count",
+        "logistic_abs_coefficient_sum": 0.04990481145824107,
+        "logistic_signed_coefficient_sum": -0.04990481145824107,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0035283967220472567,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0019677351549677335,
+        "random_forest_normalized": 0.2483002715194638,
+        "combined_score": 0.12513400333721578,
+        "combined_rank": 141
+      },
+      {
+        "original_feature": "p8_class",
+        "logistic_abs_coefficient_sum": 0.6008966187209699,
+        "logistic_signed_coefficient_sum": 0.02565000162636792,
+        "logistic_expanded_feature_count": 4,
+        "random_forest_importance_sum": 0.0031295394138545255,
+        "random_forest_expanded_feature_count": 4,
+        "logistic_normalized": 0.023693214473876893,
+        "random_forest_normalized": 0.22023189210426175,
+        "combined_score": 0.12196255328906933,
+        "combined_rank": 142
+      },
+      {
+        "original_feature": "p7_nige_count",
+        "logistic_abs_coefficient_sum": 0.24601399418957992,
+        "logistic_signed_coefficient_sum": -0.24601399418957992,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0029847709839831912,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.009700274799874502,
+        "random_forest_normalized": 0.21004425072598668,
+        "combined_score": 0.10987226276293059,
+        "combined_rank": 143
+      },
+      {
+        "original_feature": "p9_previous_class",
+        "logistic_abs_coefficient_sum": 1.6648502607360813,
+        "logistic_signed_coefficient_sum": 0.025650001626233584,
+        "logistic_expanded_feature_count": 6,
+        "random_forest_importance_sum": 0.002149767623580431,
+        "random_forest_expanded_feature_count": 6,
+        "logistic_normalized": 0.06564466010554584,
+        "random_forest_normalized": 0.15128340906321258,
+        "combined_score": 0.10846403458437921,
+        "combined_rank": 144
+      },
+      {
+        "original_feature": "player_count",
+        "logistic_abs_coefficient_sum": 0.5924776363575367,
+        "logistic_signed_coefficient_sum": 0.5924776363575367,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0026231631646400785,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.023361255949608285,
+        "random_forest_normalized": 0.18459719167919122,
+        "combined_score": 0.10397922381439975,
+        "combined_rank": 145
+      },
+      {
+        "original_feature": "p6_nige_count",
+        "logistic_abs_coefficient_sum": 0.1545925731836468,
+        "logistic_signed_coefficient_sum": -0.1545925731836468,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0028170273683721728,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0060955493480809465,
+        "random_forest_normalized": 0.19823979998448796,
+        "combined_score": 0.10216767466628446,
+        "combined_rank": 146
+      },
+      {
+        "original_feature": "p9_riding_style",
+        "logistic_abs_coefficient_sum": 1.1320419402704558,
+        "logistic_signed_coefficient_sum": 0.02565000162696282,
+        "logistic_expanded_feature_count": 4,
+        "random_forest_importance_sum": 0.0022502921157114683,
+        "random_forest_expanded_feature_count": 4,
+        "logistic_normalized": 0.04463615145870287,
+        "random_forest_normalized": 0.15835751683984894,
+        "combined_score": 0.1014968341492759,
+        "combined_rank": 147
+      },
+      {
+        "original_feature": "p9_class",
+        "logistic_abs_coefficient_sum": 1.4623238549990534,
+        "logistic_signed_coefficient_sum": 0.02565000162412931,
+        "logistic_expanded_feature_count": 5,
+        "random_forest_importance_sum": 0.0019290485548989623,
+        "random_forest_expanded_feature_count": 5,
+        "logistic_normalized": 0.05765909084412347,
+        "random_forest_normalized": 0.13575097067818512,
+        "combined_score": 0.09670503076115429,
+        "combined_rank": 148
+      },
+      {
+        "original_feature": "p8_top2_rate",
+        "logistic_abs_coefficient_sum": 0.1586976047216229,
+        "logistic_signed_coefficient_sum": 0.1586976047216229,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.002592641257729916,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.006257409790661437,
+        "random_forest_normalized": 0.18244930458766034,
+        "combined_score": 0.0943533571891609,
+        "combined_rank": 149
+      },
+      {
+        "original_feature": "p8_race_score",
+        "logistic_abs_coefficient_sum": 0.5513982408015426,
+        "logistic_signed_coefficient_sum": -0.5513982408015426,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0020862838107748773,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.021741504899191154,
+        "random_forest_normalized": 0.1468159273148553,
+        "combined_score": 0.08427871610702323,
+        "combined_rank": 150
+      },
+      {
+        "original_feature": "p9_top2_rate",
+        "logistic_abs_coefficient_sum": 0.1289844604670943,
+        "logistic_signed_coefficient_sum": 0.1289844604670943,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0021405129068670413,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.005085827395982169,
+        "random_forest_normalized": 0.15063213630286462,
+        "combined_score": 0.0778589818494234,
+        "combined_rank": 151
+      },
+      {
+        "original_feature": "p6_makuri_count",
+        "logistic_abs_coefficient_sum": 0.0030834813566520338,
+        "logistic_signed_coefficient_sum": 0.0030834813566520338,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.002162820553681562,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.00012158095558078397,
+        "random_forest_normalized": 0.15220196962869084,
+        "combined_score": 0.07616177529213582,
+        "combined_rank": 152
+      },
+      {
+        "original_feature": "p9_race_score",
+        "logistic_abs_coefficient_sum": 0.18651117490900015,
+        "logistic_signed_coefficient_sum": 0.18651117490900015,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0018700548305683577,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.007354092419923768,
+        "random_forest_normalized": 0.13159946535631917,
+        "combined_score": 0.06947677888812147,
+        "combined_rank": 153
+      },
+      {
+        "original_feature": "p8_top3_rate",
+        "logistic_abs_coefficient_sum": 0.07054209976662174,
+        "logistic_signed_coefficient_sum": -0.07054209976662174,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0017506986875100421,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.002781458652181733,
+        "random_forest_normalized": 0.12320013697475891,
+        "combined_score": 0.06299079781347032,
+        "combined_rank": 154
+      },
+      {
+        "original_feature": "p8_graduation_term",
+        "logistic_abs_coefficient_sum": 0.05321695433952651,
+        "logistic_signed_coefficient_sum": 0.05321695433952651,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0017545804322430553,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.002098332181493624,
+        "random_forest_normalized": 0.1234733030462366,
+        "combined_score": 0.06278581761386512,
+        "combined_rank": 155
+      },
+      {
+        "original_feature": "p9_sashi_count",
+        "logistic_abs_coefficient_sum": 0.23388591057359565,
+        "logistic_signed_coefficient_sum": 0.23388591057359565,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0016245288947288397,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.009222067272459437,
+        "random_forest_normalized": 0.11432131855579444,
+        "combined_score": 0.061771692914126944,
+        "combined_rank": 156
+      },
+      {
+        "original_feature": "p8_age",
+        "logistic_abs_coefficient_sum": 0.06733973747393482,
+        "logistic_signed_coefficient_sum": 0.06733973747393482,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0016889859601888428,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0026551902488327708,
+        "random_forest_normalized": 0.1188572900226822,
+        "combined_score": 0.060756240135757485,
+        "combined_rank": 157
+      },
+      {
+        "original_feature": "p8_start_count",
+        "logistic_abs_coefficient_sum": 0.04446642566097086,
+        "logistic_signed_coefficient_sum": 0.04446642566097086,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0015109614694372943,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0017533008628249735,
+        "random_forest_normalized": 0.10632935371820794,
+        "combined_score": 0.05404132729051646,
+        "combined_rank": 158
+      },
+      {
+        "original_feature": "p9_age",
+        "logistic_abs_coefficient_sum": 0.0909645687264961,
+        "logistic_signed_coefficient_sum": 0.0909645687264961,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0014664140034512598,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0035867118722486724,
+        "random_forest_normalized": 0.10319446023224571,
+        "combined_score": 0.05339058605224719,
+        "combined_rank": 159
+      },
+      {
+        "original_feature": "p8_win_rate",
+        "logistic_abs_coefficient_sum": 0.05527065070185769,
+        "logistic_signed_coefficient_sum": -0.05527065070185769,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0014508049304404835,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.002179308953305895,
+        "random_forest_normalized": 0.10209601882328359,
+        "combined_score": 0.052137663888294744,
+        "combined_rank": 160
+      },
+      {
+        "original_feature": "p9_win_rate",
+        "logistic_abs_coefficient_sum": 0.06461304783156782,
+        "logistic_signed_coefficient_sum": -0.06461304783156782,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0014241554479443685,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0025476775078927204,
+        "random_forest_normalized": 0.10022064191390953,
+        "combined_score": 0.05138415971090113,
+        "combined_rank": 161
+      },
+      {
+        "original_feature": "p9_top3_rate",
+        "logistic_abs_coefficient_sum": 0.050454492584730656,
+        "logistic_signed_coefficient_sum": -0.050454492584730656,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.001328408722670844,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.001989408954447387,
+        "random_forest_normalized": 0.09348275506179801,
+        "combined_score": 0.047736082008122696,
+        "combined_rank": 162
+      },
+      {
+        "original_feature": "p9_graduation_term",
+        "logistic_abs_coefficient_sum": 0.05792078344647399,
+        "logistic_signed_coefficient_sum": 0.05792078344647399,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0012024789095535027,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0022838030735026263,
+        "random_forest_normalized": 0.0846208244874808,
+        "combined_score": 0.04345231378049171,
+        "combined_rank": 163
+      },
+      {
+        "original_feature": "p9_back_count",
+        "logistic_abs_coefficient_sum": 0.7939933952153737,
+        "logistic_signed_coefficient_sum": -0.7939933952153737,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0007865972199826077,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.031306975638708226,
+        "random_forest_normalized": 0.0553544056079987,
+        "combined_score": 0.043330690623353464,
+        "combined_rank": 164
+      },
+      {
+        "original_feature": "p8_back_count",
+        "logistic_abs_coefficient_sum": 0.23905254667239456,
+        "logistic_signed_coefficient_sum": 0.23905254667239456,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0010237307509800087,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.009425786536944366,
+        "random_forest_normalized": 0.07204196224388065,
+        "combined_score": 0.04073387439041251,
+        "combined_rank": 165
+      },
+      {
+        "original_feature": "p8_home_count",
+        "logistic_abs_coefficient_sum": 0.2314133934876464,
+        "logistic_signed_coefficient_sum": -0.2314133934876464,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0009736286771198879,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.009124576496537924,
+        "random_forest_normalized": 0.06851617999115879,
+        "combined_score": 0.03882037824384836,
+        "combined_rank": 166
+      },
+      {
+        "original_feature": "p8_recent_finish_1",
+        "logistic_abs_coefficient_sum": 0.007426621084910871,
+        "logistic_signed_coefficient_sum": 0.007426621084910871,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0010718173289218566,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.00029282994894454207,
+        "random_forest_normalized": 0.07542591005360283,
+        "combined_score": 0.037859370001273686,
+        "combined_rank": 167
+      },
+      {
+        "original_feature": "p8_sashi_count",
+        "logistic_abs_coefficient_sum": 0.3414349574772074,
+        "logistic_signed_coefficient_sum": 0.3414349574772074,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0008217020232717061,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.01346270127731075,
+        "random_forest_normalized": 0.057824800202193584,
+        "combined_score": 0.035643750739752164,
+        "combined_rank": 168
+      },
+      {
+        "original_feature": "p9_home_count",
+        "logistic_abs_coefficient_sum": 0.34208046036286704,
+        "logistic_signed_coefficient_sum": 0.34208046036286704,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0008038603411735625,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.013488153306556635,
+        "random_forest_normalized": 0.05656924566614851,
+        "combined_score": 0.03502869948635257,
+        "combined_rank": 169
+      },
+      {
+        "original_feature": "p9_start_count",
+        "logistic_abs_coefficient_sum": 0.07584357347707564,
+        "logistic_signed_coefficient_sum": 0.07584357347707564,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0009279925048634457,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.002990494532458057,
+        "random_forest_normalized": 0.06530467208685238,
+        "combined_score": 0.03414758330965522,
+        "combined_rank": 170
+      },
+      {
+        "original_feature": "p8_recent_finish_3",
+        "logistic_abs_coefficient_sum": 0.11000949641741631,
+        "logistic_signed_coefficient_sum": 0.11000949641741631,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0009073607136323988,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.004337648959198705,
+        "random_forest_normalized": 0.06385277204041162,
+        "combined_score": 0.03409521049980516,
+        "combined_rank": 171
+      },
+      {
+        "original_feature": "p9_recent_finish_3",
+        "logistic_abs_coefficient_sum": 0.15373190370726172,
+        "logistic_signed_coefficient_sum": -0.15373190370726172,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0008308027417027151,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.00606161335000774,
+        "random_forest_normalized": 0.05846523579814624,
+        "combined_score": 0.03226342457407699,
+        "combined_rank": 172
+      },
+      {
+        "original_feature": "p9_makuri_count",
+        "logistic_abs_coefficient_sum": 0.1882900610187751,
+        "logistic_signed_coefficient_sum": 0.1882900610187751,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0007298548978392111,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.007424233487139641,
+        "random_forest_normalized": 0.05136133592090427,
+        "combined_score": 0.029392784704021957,
+        "combined_rank": 173
+      },
+      {
+        "original_feature": "p8_makuri_count",
+        "logistic_abs_coefficient_sum": 0.045937664429073016,
+        "logistic_signed_coefficient_sum": 0.045937664429073016,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0007925595372365401,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0018113114666275447,
+        "random_forest_normalized": 0.055773985692002856,
+        "combined_score": 0.0287926485793152,
+        "combined_rank": 174
+      },
+      {
+        "original_feature": "p9_mark_count",
+        "logistic_abs_coefficient_sum": 0.3738968128944796,
+        "logistic_signed_coefficient_sum": -0.3738968128944796,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0005559095624316869,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.014742664716377064,
+        "random_forest_normalized": 0.039120457863923125,
+        "combined_score": 0.026931561290150095,
+        "combined_rank": 175
+      },
+      {
+        "original_feature": "p9_recent_finish_2",
+        "logistic_abs_coefficient_sum": 0.010736832170209001,
+        "logistic_signed_coefficient_sum": -0.010736832170209001,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0007406763064254998,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.00042335080520216836,
+        "random_forest_normalized": 0.052122859893934004,
+        "combined_score": 0.026273105349568088,
+        "combined_rank": 176
+      },
+      {
+        "original_feature": "p8_recent_finish_2",
+        "logistic_abs_coefficient_sum": 0.08312329603418897,
+        "logistic_signed_coefficient_sum": 0.08312329603418897,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.000666489101412259,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0032775323064817077,
+        "random_forest_normalized": 0.046902159219047966,
+        "combined_score": 0.025089845762764837,
+        "combined_rank": 177
+      },
+      {
+        "original_feature": "p9_recent_finish_1",
+        "logistic_abs_coefficient_sum": 0.01582579935118181,
+        "logistic_signed_coefficient_sum": -0.01582579935118181,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0006956268490963343,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.0006240076022498128,
+        "random_forest_normalized": 0.04895264028207981,
+        "combined_score": 0.024788323942164812,
+        "combined_rank": 178
+      },
+      {
+        "original_feature": "p9_nige_count",
+        "logistic_abs_coefficient_sum": 0.6035017682658782,
+        "logistic_signed_coefficient_sum": 0.6035017682658782,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.00035556754051277467,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.02379593491692984,
+        "random_forest_normalized": 0.025021992652119757,
+        "combined_score": 0.024408963784524798,
+        "combined_rank": 179
+      },
+      {
+        "original_feature": "p8_mark_count",
+        "logistic_abs_coefficient_sum": 0.37036367446367585,
+        "logistic_signed_coefficient_sum": 0.37036367446367585,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0003812541069539012,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.014603353886528973,
+        "random_forest_normalized": 0.02682960724995722,
+        "combined_score": 0.020716480568243097,
+        "combined_rank": 180
+      },
+      {
+        "original_feature": "p8_nige_count",
+        "logistic_abs_coefficient_sum": 0.17410264810232592,
+        "logistic_signed_coefficient_sum": -0.17410264810232592,
+        "logistic_expanded_feature_count": 1,
+        "random_forest_importance_sum": 0.0003395892527531285,
+        "random_forest_expanded_feature_count": 1,
+        "logistic_normalized": 0.006864827082466605,
+        "random_forest_normalized": 0.023897568869401163,
+        "combined_score": 0.015381197975933885,
+        "combined_rank": 181
+      }
+    ]
+  },
+  "problem_count": 0,
+  "problems": []
+}
