@@ -1,6 +1,7 @@
 name: Keirin Daily Pipeline
 
 on:
+  workflow_dispatch:      # ← 手動実行用のトリガー
   schedule:
     - cron: "0 21 * * *"   # 日本時間06:00に毎日実行
 
