@@ -59,13 +59,13 @@ from collections import Counter
 
 BASE = Path(r"C:\競輪AI")
 
-OFFICIAL_PROGRAM_DIR = (
+AI_PROGRAM_DIR = (
     BASE
-    / "official_program"
+    / "ai_program"
 )
 
 COLLECTOR_FILE = (
-    OFFICIAL_PROGRAM_DIR
+    AI_PROGRAM_DIR
     / "004_collect_historical_raw.py"
 )
 
