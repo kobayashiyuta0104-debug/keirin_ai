@@ -1,0 +1,38 @@
+name: Keirin Daily Pipeline
+
+on:
+  workflow_dispatch:      # ← 手動実行用のトリガー
+  schedule:
+    - cron: "0 21 * * *"   # 日本時間06:00に毎日実行
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run 001
+        run: python official_program/001_collect_today_pro_race.py
+
+      - name: Run 002
+        run: python official_program/002_collect_yesterday_result.py
+
+      - name: Run 003
+        run: python official_program/003_export_player_csv.py
+        
+      - name: Run 004
+        run: python official_program/004_export_result_csv.py
+  
+      - name: Run 005
+        run: python official_program/005_export_lines_csv.py
