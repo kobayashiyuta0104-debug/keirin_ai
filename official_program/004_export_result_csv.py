@@ -13,13 +13,19 @@ Part 1
 
 import json
 import csv
+import os
 from pathlib import Path
 
 # ===========================================================
 # 基本設定
 # ===========================================================
 
-BASE = Path(r"C:\競輪AI")
+import os
+
+if os.name == "nt":
+    BASE = Path(r"C:\競輪AI")
+else:
+    BASE = Path(__file__).resolve().parent.parent
 
 DAILY_DIR = BASE / "data_official" / "daily"
 RESULT_CSV_DIR = BASE / "csv" / "result"

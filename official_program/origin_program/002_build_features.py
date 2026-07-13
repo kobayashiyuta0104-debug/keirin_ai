@@ -12,6 +12,7 @@ Part 1
 """
 
 import json
+import os
 from pathlib import Path
 from collections import Counter
 
@@ -26,7 +27,12 @@ from collections import Counter
 # ファイル設定
 # ===========================================================
 
-BASE = Path(r"C:\競輪AI")
+import os
+
+if os.name == "nt":
+    BASE = Path(r"C:\競輪AI")
+else:
+    BASE = Path(__file__).resolve().parent.parent
 
 INPUT_FILE = (
     BASE

@@ -1,5 +1,6 @@
 import json
 import importlib.util
+import os
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -7,7 +8,12 @@ from pathlib import Path
 # 基本設定
 # ===========================================================
 
-BASE = Path(r"C:\競輪AI")
+import os
+
+if os.name == "nt":
+    BASE = Path(r"C:\競輪AI")
+else:
+    BASE = Path(__file__).resolve().parent.parent
 
 OFFICIAL_PROGRAM_DIR = BASE / "official_program"
 ORIGIN_PROGRAM_DIR = BASE / "official_program"/ "origin_program" 

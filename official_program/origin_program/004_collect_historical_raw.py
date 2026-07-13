@@ -14,6 +14,7 @@ Part 1
 
 import json
 import time
+import os
 from pathlib import Path
 from datetime import datetime, timedelta
 from collections import Counter
@@ -31,7 +32,12 @@ import requests
 # フォルダ設定
 # ===========================================================
 
-BASE = Path(r"C:\競輪AI")
+import os
+
+if os.name == "nt":
+    BASE = Path(r"C:\競輪AI")
+else:
+    BASE = Path(__file__).resolve().parent.parent
 
 DATA_OFFICIAL_DIR = (
     BASE
