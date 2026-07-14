@@ -43,7 +43,31 @@ jobs:
       - name: Run 005
         run: python official_program/005_export_lines_csv.py
 
-              - name: Commit generated files
+      - name: Delete JSON older than 14 days
+        run: |
+          python << 'EOF'
+          from pathlib import Path
+          from datetime import datetime, timedelta
+
+          daily_dir = Path("data_official/daily")
+
+          if daily_dir.exists():
+              cutoff = datetime.now() - timedelta(days=14)
+
+              for file in daily_dir.glob("*_*.json"):
+                  try:
+                      date_text = file.name.split("_")[0]
+                      file_date = datetime.strptime(date_text, "%Y%m%d")
+
+                      if file_date < cutoff:
+                          print(f"Delete: {file}")
+                          file.unlink()
+
+                  except Exception:
+                      pass
+          EOF
+
+                - name: Commit generated files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -51,6 +75,9 @@ jobs:
           git add csv/
           git add data_official/daily/
 
-          git diff --cached --quiet || git commit -m "Auto update CSV and JSON"
-
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto update CSV and cleanup old JSON"
+            git push
+          else
+            echo "No changes"
+          fi
