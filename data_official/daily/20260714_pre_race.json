@@ -4,7 +4,7 @@
   "target_date": "20260714",
   "race_count": 84,
   "player_found_count": 84,
-  "line_found_count": 30,
+  "line_found_count": 42,
   "races": [
     {
       "race_key": "20260714_函館_1R",
@@ -13,56 +13,13 @@
       "race_no": 1,
       "encParaR": "T9wMz-ha1TZ640Z-S5GN5FCUM2VaRpKiFMqub9xPiOk",
       "player_count": 7,
-      "line_found": true,
+      "line_found": false,
       "line_prediction": {
-        "line_found": true,
-        "prediction_type": "三分戦",
-        "provider": "北競新聞社",
-        "main_lines": [
-          [
-            5,
-            3,
-            7
-          ],
-          [
-            4,
-            1
-          ],
-          [
-            6,
-            2
-          ]
-        ],
-        "positions": [
-          {
-            "ichi": 1,
-            "shaban": 5
-          },
-          {
-            "ichi": 2,
-            "shaban": 3
-          },
-          {
-            "ichi": 3,
-            "shaban": 7
-          },
-          {
-            "ichi": 5,
-            "shaban": 4
-          },
-          {
-            "ichi": 6,
-            "shaban": 1
-          },
-          {
-            "ichi": 8,
-            "shaban": 6
-          },
-          {
-            "ichi": 9,
-            "shaban": 2
-          }
-        ]
+        "line_found": false,
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "positions": []
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
@@ -71,7 +28,6 @@
         "charColor2": "color_blue",
         "lastUpdateTime": "2026/07/14 07:04&nbsp;更新",
         "yudoSensyuName": "小田桐　義継",
-        "yosoinMei": "北競新聞社",
         "raceResult1Syaban": "3",
         "raceResult2Syaban": "5",
         "backCnt1Syaban": "5",
@@ -139,7 +95,6 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
-            "yosoin": "×",
             "sensyuRegistNo": "014748",
             "sensyuName": "山口　智弘",
             "huKen": "愛　知",
@@ -198,7 +153,6 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
-            "yosoin": "◎",
             "sensyuRegistNo": "013307",
             "sensyuName": "浦川　尊明",
             "huKen": "茨　城",
@@ -315,7 +269,6 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
-            "yosoin": "○",
             "sensyuRegistNo": "015611",
             "sensyuName": "長谷川　飛向",
             "huKen": "東　京",
@@ -374,7 +327,6 @@
             "syabanBgColorInfo": "base_color_6_bk",
             "syabanCharColorInfo": "base_color_6",
             "syaban": "6",
-            "yosoin": "▲",
             "sensyuRegistNo": "015899",
             "sensyuName": "加藤　駿",
             "huKen": "愛　知",
@@ -433,7 +385,6 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
-            "yosoin": "△",
             "sensyuRegistNo": "014444",
             "sensyuName": "星野　辰也",
             "ketujyouTuikaHojyuColorInfo": "body_base_color",
@@ -497,105 +448,14 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 1,
-          "lineKeitai": "三分戦",
-          "lineKeitaiClass": "sanbusen",
-          "kyoHyoji": "false",
-          "teikyo": "北競新聞社",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "shaban": [
-            {
-              "ichi": "6",
-              "shaban": "1",
-              "classname": "base_color_1"
-            },
-            {
-              "ichi": "9",
-              "shaban": "2",
-              "classname": "base_color_2"
-            },
-            {
-              "ichi": "2",
-              "shaban": "3",
-              "classname": "base_color_3"
-            },
-            {
-              "ichi": "5",
-              "shaban": "4",
-              "classname": "base_color_4"
-            },
-            {
-              "ichi": "1",
-              "shaban": "5",
-              "classname": "base_color_5"
-            },
-            {
-              "ichi": "8",
-              "shaban": "6",
-              "classname": "base_color_6"
-            },
-            {
-              "ichi": "3",
-              "shaban": "7",
-              "classname": "base_color_7"
-            }
-          ]
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
         },
         "sanrentan": {
-          "ryoikiFlg": "true",
-          "shiji": [
-            {
-              "ritsu": "24.2",
-              "classname": "base_color_5",
-              "shaban": "5"
-            },
-            {
-              "ritsu": "24.1",
-              "classname": "base_color_3",
-              "shaban": "3"
-            },
-            {
-              "ritsu": "16.6",
-              "classname": "base_color_7",
-              "shaban": "7"
-            },
-            {
-              "ritsu": "12.6",
-              "classname": "base_color_2",
-              "shaban": "2"
-            },
-            {
-              "ritsu": "9.4",
-              "classname": "base_color_6",
-              "shaban": ""
-            },
-            {
-              "ritsu": "6.9",
-              "classname": "base_color_4",
-              "shaban": ""
-            },
-            {
-              "ritsu": "5.8",
-              "classname": "base_color_1",
-              "shaban": ""
-            }
-          ]
+          "ryoikiFlg": "false"
         },
         "kaime": {
-          "teikyo": "北競新聞社",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "yoso": [
-            "3=5-72",
-            "4=1-35",
-            "3=7-52",
-            "",
-            "3=2-56",
-            "",
-            "2=6-35",
-            ""
-          ]
+          "ryoikiFlg": "false"
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -1125,37 +985,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "25.1",
+              "ritsu": "28.2",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "17.5",
+              "ritsu": "21.9",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "17.3",
+              "ritsu": "20.9",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "14.2",
+              "ritsu": "11.1",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "11.8",
+              "ritsu": "8.1",
               "classname": "base_color_4",
-              "shaban": "4"
+              "shaban": ""
             },
             {
-              "ritsu": "8.3",
+              "ritsu": "6.3",
               "classname": "base_color_2",
               "shaban": ""
             },
             {
-              "ritsu": "5.3",
+              "ritsu": "3.1",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -1723,37 +1583,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "24.7",
+              "ritsu": "24.5",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "23.2",
+              "ritsu": "22.9",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "18.9",
+              "ritsu": "18.8",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "13.0",
+              "ritsu": "12.6",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "9.5",
+              "ritsu": "10.2",
               "classname": "base_color_1",
-              "shaban": ""
+              "shaban": "1"
             },
             {
-              "ritsu": "7.1",
+              "ritsu": "7.2",
               "classname": "base_color_4",
               "shaban": ""
             },
             {
-              "ritsu": "3.3",
+              "ritsu": "3.4",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -2291,37 +2151,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "28.2",
+              "ritsu": "28.5",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "18.8",
+              "ritsu": "20.4",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "17.0",
-              "classname": "base_color_7",
-              "shaban": "7"
-            },
-            {
-              "ritsu": "16.7",
+              "ritsu": "18.8",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "8.8",
+              "ritsu": "14.7",
+              "classname": "base_color_7",
+              "shaban": "7"
+            },
+            {
+              "ritsu": "7.6",
               "classname": "base_color_5",
               "shaban": ""
             },
             {
-              "ritsu": "6.4",
+              "ritsu": "5.7",
               "classname": "base_color_2",
               "shaban": ""
             },
             {
-              "ritsu": "3.8",
+              "ritsu": "3.9",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -2877,22 +2737,22 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "25.3",
+              "ritsu": "25.6",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "15.9",
-              "classname": "base_color_1",
-              "shaban": "1"
-            },
-            {
-              "ritsu": "15.6",
+              "ritsu": "16.1",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "12.8",
+              "ritsu": "15.8",
+              "classname": "base_color_1",
+              "shaban": "1"
+            },
+            {
+              "ritsu": "12.5",
               "classname": "base_color_4",
               "shaban": "4"
             },
@@ -2902,12 +2762,12 @@
               "shaban": "7"
             },
             {
-              "ritsu": "10.2",
+              "ritsu": "9.6",
               "classname": "base_color_3",
-              "shaban": "3"
+              "shaban": ""
             },
             {
-              "ritsu": "8.2",
+              "ritsu": "8.4",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -3480,37 +3340,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "32.0",
+              "ritsu": "31.9",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "27.0",
+              "ritsu": "26.9",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "22.7",
+              "ritsu": "22.4",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "8.3",
+              "ritsu": "8.5",
               "classname": "base_color_4",
               "shaban": ""
             },
             {
-              "ritsu": "6.0",
+              "ritsu": "6.2",
               "classname": "base_color_6",
               "shaban": ""
             },
             {
-              "ritsu": "2.2",
+              "ritsu": "2.3",
               "classname": "base_color_7",
               "shaban": ""
             },
             {
-              "ritsu": "1.4",
+              "ritsu": "1.5",
               "classname": "base_color_2",
               "shaban": ""
             }
@@ -4088,27 +3948,27 @@
               "shaban": "7"
             },
             {
-              "ritsu": "27.0",
+              "ritsu": "26.8",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "22.2",
+              "ritsu": "21.8",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "5.9",
+              "ritsu": "6.0",
               "classname": "base_color_1",
               "shaban": ""
             },
             {
-              "ritsu": "5.4",
+              "ritsu": "5.7",
               "classname": "base_color_5",
               "shaban": ""
             },
             {
-              "ritsu": "4.5",
+              "ritsu": "4.7",
               "classname": "base_color_6",
               "shaban": ""
             },
@@ -4661,7 +4521,7 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "20.1",
+              "ritsu": "20.9",
               "classname": "base_color_1",
               "shaban": "1"
             },
@@ -4671,12 +4531,12 @@
               "shaban": "3"
             },
             {
-              "ritsu": "17.5",
+              "ritsu": "17.8",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "12.9",
+              "ritsu": "12.8",
               "classname": "base_color_2",
               "shaban": "2"
             },
@@ -4686,12 +4546,12 @@
               "shaban": "5"
             },
             {
-              "ritsu": "11.2",
+              "ritsu": "10.6",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "5.2",
+              "ritsu": "4.9",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -5284,7 +5144,7 @@
               "shaban": "1"
             },
             {
-              "ritsu": "22.1",
+              "ritsu": "22.2",
               "classname": "base_color_7",
               "shaban": "7"
             },
@@ -5294,7 +5154,7 @@
               "shaban": "2"
             },
             {
-              "ritsu": "11.0",
+              "ritsu": "11.1",
               "classname": "base_color_4",
               "shaban": "4"
             },
@@ -5309,7 +5169,7 @@
               "shaban": ""
             },
             {
-              "ritsu": "6.1",
+              "ritsu": "5.9",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -5865,37 +5725,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "20.5",
+              "ritsu": "20.7",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "18.5",
+              "ritsu": "18.9",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "17.8",
+              "ritsu": "17.7",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "16.5",
+              "ritsu": "16.7",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "10.2",
+              "ritsu": "10.1",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "8.7",
+              "ritsu": "8.4",
               "classname": "base_color_5",
               "shaban": ""
             },
             {
-              "ritsu": "7.4",
+              "ritsu": "7.2",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -6444,7 +6304,7 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "27.0",
+              "ritsu": "26.4",
               "classname": "base_color_3",
               "shaban": "3"
             },
@@ -6454,7 +6314,7 @@
               "shaban": "7"
             },
             {
-              "ritsu": "13.4",
+              "ritsu": "13.7",
               "classname": "base_color_2",
               "shaban": "2"
             },
@@ -6464,17 +6324,17 @@
               "shaban": "4"
             },
             {
-              "ritsu": "10.5",
+              "ritsu": "10.6",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "8.6",
+              "ritsu": "8.7",
               "classname": "base_color_1",
               "shaban": ""
             },
             {
-              "ritsu": "4.4",
+              "ritsu": "4.6",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -6998,7 +6858,7 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "24.9",
+              "ritsu": "25.0",
               "classname": "base_color_1",
               "shaban": "1"
             },
@@ -7013,12 +6873,12 @@
               "shaban": "2"
             },
             {
-              "ritsu": "13.7",
+              "ritsu": "13.5",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "11.4",
+              "ritsu": "11.5",
               "classname": "base_color_6",
               "shaban": "6"
             },
@@ -7028,7 +6888,7 @@
               "shaban": ""
             },
             {
-              "ritsu": "8.9",
+              "ritsu": "8.8",
               "classname": "base_color_3",
               "shaban": ""
             }
@@ -11526,7 +11386,6 @@
         "charColor2": "color_blue",
         "lastUpdateTime": "2026/07/14 07:05&nbsp;更新",
         "yudoSensyuName": "篠崎　高志",
-        "yosoinMei": "アオケイ",
         "raceResult1Syaban": "5",
         "raceResult2Syaban": "7",
         "backCnt1Syaban": "3",
@@ -11536,7 +11395,6 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
-            "yosoin": "注",
             "sensyuRegistNo": "015468",
             "sensyuName": "和泉　尚吾",
             "huKen": "愛　媛",
@@ -11607,7 +11465,6 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
-            "yosoin": "▲",
             "sensyuRegistNo": "015605",
             "sensyuName": "加藤　将武",
             "huKen": "埼　玉",
@@ -11672,7 +11529,6 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
-            "yosoin": "◎",
             "sensyuRegistNo": "015840",
             "sensyuName": "阿部　英斗",
             "huKen": "福　岡",
@@ -11737,7 +11593,6 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
-            "yosoin": "△",
             "sensyuRegistNo": "014499",
             "sensyuName": "佐藤　博紀",
             "huKen": "岩　手",
@@ -11802,7 +11657,6 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
-            "yosoin": "○",
             "sensyuRegistNo": "015475",
             "sensyuName": "伊藤　旭",
             "huKen": "熊　本",
@@ -11931,7 +11785,6 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
-            "yosoin": "×",
             "sensyuRegistNo": "014588",
             "sensyuName": "柿澤　大貴",
             "huKen": "長　野",
@@ -12032,56 +11885,13 @@
       "race_no": 11,
       "encParaR": "VB1S_PaPR1rdxlfD6hcdcMi6Ks6XB8Zr-BZF4h6O0pI",
       "player_count": 7,
-      "line_found": true,
+      "line_found": false,
       "line_prediction": {
-        "line_found": true,
-        "prediction_type": "三分戦",
-        "provider": "アオケイ",
-        "main_lines": [
-          [
-            1,
-            4,
-            6
-          ],
-          [
-            5,
-            2
-          ],
-          [
-            7,
-            3
-          ]
-        ],
-        "positions": [
-          {
-            "ichi": 1,
-            "shaban": 1
-          },
-          {
-            "ichi": 2,
-            "shaban": 4
-          },
-          {
-            "ichi": 3,
-            "shaban": 6
-          },
-          {
-            "ichi": 5,
-            "shaban": 5
-          },
-          {
-            "ichi": 6,
-            "shaban": 2
-          },
-          {
-            "ichi": 8,
-            "shaban": 7
-          },
-          {
-            "ichi": 9,
-            "shaban": 3
-          }
-        ]
+        "line_found": false,
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "positions": []
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
@@ -12090,7 +11900,6 @@
         "charColor2": "color_blue",
         "lastUpdateTime": "2026/07/14 07:05&nbsp;更新",
         "yudoSensyuName": "渡邉　高志",
-        "yosoinMei": "アオケイ",
         "raceResult1Syaban": "3",
         "raceResult2Syaban": "7",
         "backCnt1Syaban": "7",
@@ -12100,7 +11909,6 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
-            "yosoin": "注",
             "sensyuRegistNo": "015186",
             "sensyuName": "南　潤",
             "huKen": "和歌山",
@@ -12165,7 +11973,6 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
-            "yosoin": "△",
             "sensyuRegistNo": "014685",
             "sensyuName": "掛水　泰範",
             "huKen": "高　知",
@@ -12236,7 +12043,6 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
-            "yosoin": "◎",
             "sensyuRegistNo": "015439",
             "sensyuName": "佐々木　眞也",
             "huKen": "神奈川",
@@ -12301,7 +12107,6 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
-            "yosoin": "×",
             "sensyuRegistNo": "014318",
             "sensyuName": "椎木尾　拓哉",
             "huKen": "和歌山",
@@ -12366,7 +12171,6 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
-            "yosoin": "▲",
             "sensyuRegistNo": "015725",
             "sensyuName": "青木　瑞樹",
             "huKen": "岡　山",
@@ -12501,7 +12305,6 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
-            "yosoin": "○",
             "sensyuRegistNo": "015440",
             "sensyuName": "長田　龍拳",
             "huKen": "静　岡",
@@ -12569,105 +12372,14 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 1,
-          "lineKeitai": "三分戦",
-          "lineKeitaiClass": "sanbusen",
-          "kyoHyoji": "false",
-          "teikyo": "アオケイ",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "shaban": [
-            {
-              "ichi": "1",
-              "shaban": "1",
-              "classname": "base_color_1"
-            },
-            {
-              "ichi": "6",
-              "shaban": "2",
-              "classname": "base_color_2"
-            },
-            {
-              "ichi": "9",
-              "shaban": "3",
-              "classname": "base_color_3"
-            },
-            {
-              "ichi": "2",
-              "shaban": "4",
-              "classname": "base_color_4"
-            },
-            {
-              "ichi": "5",
-              "shaban": "5",
-              "classname": "base_color_5"
-            },
-            {
-              "ichi": "3",
-              "shaban": "6",
-              "classname": "base_color_6"
-            },
-            {
-              "ichi": "8",
-              "shaban": "7",
-              "classname": "base_color_7"
-            }
-          ]
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
         },
         "sanrentan": {
-          "ryoikiFlg": "true",
-          "shiji": [
-            {
-              "ritsu": "25.9",
-              "classname": "base_color_3",
-              "shaban": "3"
-            },
-            {
-              "ritsu": "21.0",
-              "classname": "base_color_4",
-              "shaban": "4"
-            },
-            {
-              "ritsu": "16.2",
-              "classname": "base_color_7",
-              "shaban": "7"
-            },
-            {
-              "ritsu": "15.2",
-              "classname": "base_color_1",
-              "shaban": "1"
-            },
-            {
-              "ritsu": "8.2",
-              "classname": "base_color_2",
-              "shaban": ""
-            },
-            {
-              "ritsu": "8.1",
-              "classname": "base_color_5",
-              "shaban": ""
-            },
-            {
-              "ritsu": "5.1",
-              "classname": "base_color_6",
-              "shaban": ""
-            }
-          ]
+          "ryoikiFlg": "false"
         },
         "kaime": {
-          "teikyo": "アオケイ",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "yoso": [
-            "3=7-421",
-            "3=4-716",
-            "3-2-754",
-            "3-1-742",
-            "4=1-632",
-            "",
-            "",
-            ""
-          ]
+          "ryoikiFlg": "false"
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -13275,12 +12987,12 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "27.8",
+              "ritsu": "27.6",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "23.7",
+              "ritsu": "24.1",
               "classname": "base_color_1",
               "shaban": "1"
             },
@@ -13290,22 +13002,22 @@
               "shaban": "7"
             },
             {
-              "ritsu": "10.9",
+              "ritsu": "10.2",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "9.5",
+              "ritsu": "10.2",
               "classname": "base_color_3",
-              "shaban": ""
+              "shaban": "3"
             },
             {
-              "ritsu": "8.8",
+              "ritsu": "8.5",
               "classname": "base_color_4",
               "shaban": ""
             },
             {
-              "ritsu": "4.3",
+              "ritsu": "4.5",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -17814,58 +17526,13 @@
       "race_no": 11,
       "encParaR": "v3GkGBnzcJwx-zPUFdtwmbQFmUEO8DbNZQOTRyXemHs",
       "player_count": 7,
-      "line_found": true,
+      "line_found": false,
       "line_prediction": {
-        "line_found": true,
-        "prediction_type": "コマ切れ",
-        "provider": "競輪毎日",
-        "main_lines": [
-          [
-            4,
-            1,
-            6
-          ],
-          [
-            2
-          ],
-          [
-            7
-          ],
-          [
-            3,
-            5
-          ]
-        ],
-        "positions": [
-          {
-            "ichi": 1,
-            "shaban": 4
-          },
-          {
-            "ichi": 2,
-            "shaban": 1
-          },
-          {
-            "ichi": 3,
-            "shaban": 6
-          },
-          {
-            "ichi": 5,
-            "shaban": 2
-          },
-          {
-            "ichi": 7,
-            "shaban": 7
-          },
-          {
-            "ichi": 9,
-            "shaban": 3
-          },
-          {
-            "ichi": 10,
-            "shaban": 5
-          }
-        ]
+        "line_found": false,
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "positions": []
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
@@ -17874,7 +17541,6 @@
         "charColor2": "color_blue",
         "lastUpdateTime": "2026/07/14 07:05&nbsp;更新",
         "yudoSensyuName": "月森　亮輔",
-        "yosoinMei": "競輪毎日",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "4",
         "backCnt1Syaban": "4",
@@ -17884,7 +17550,6 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
-            "yosoin": "◎",
             "sensyuRegistNo": "013495",
             "sensyuName": "友定　祐己",
             "huKen": "岡　山",
@@ -17943,7 +17608,6 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
-            "yosoin": "△",
             "sensyuRegistNo": "014337",
             "sensyuName": "佐々木　翔一",
             "huKen": "佐　賀",
@@ -18008,7 +17672,6 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
-            "yosoin": "×",
             "sensyuRegistNo": "015609",
             "sensyuName": "安倍　大成",
             "huKen": "埼　玉",
@@ -18073,7 +17736,6 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
-            "yosoin": "○",
             "sensyuRegistNo": "015551",
             "sensyuName": "渡口　勝成",
             "huKen": "山　口",
@@ -18132,7 +17794,6 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
-            "yosoin": "▲",
             "sensyuRegistNo": "014004",
             "sensyuName": "松永　将",
             "huKen": "茨　城",
@@ -18191,7 +17852,6 @@
             "syabanBgColorInfo": "base_color_6_bk",
             "syabanCharColorInfo": "base_color_6",
             "syaban": "6",
-            "yosoin": "注",
             "sensyuRegistNo": "015118",
             "sensyuName": "木村　幸希",
             "huKen": "広　島",
@@ -18317,107 +17977,16 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 1,
-          "lineKeitai": "コマ切れ",
-          "lineKeitaiClass": "komagire",
-          "kyoHyoji": "false",
-          "teikyo": "競輪毎日",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "shaban": [
-            {
-              "ichi": "2",
-              "shaban": "1",
-              "classname": "base_color_1"
-            },
-            {
-              "ichi": "5",
-              "shaban": "2",
-              "classname": "base_color_2"
-            },
-            {
-              "ichi": "9",
-              "shaban": "3",
-              "classname": "base_color_3"
-            },
-            {
-              "ichi": "1",
-              "shaban": "4",
-              "classname": "base_color_4"
-            },
-            {
-              "ichi": "10",
-              "shaban": "5",
-              "classname": "base_color_5"
-            },
-            {
-              "ichi": "3",
-              "shaban": "6",
-              "classname": "base_color_6"
-            },
-            {
-              "ichi": "7",
-              "shaban": "7",
-              "classname": "base_color_7"
-            }
-          ]
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
         },
         "sanrentan": {
-          "ryoikiFlg": "true",
-          "shiji": [
-            {
-              "ritsu": "26.3",
-              "classname": "base_color_1",
-              "shaban": "1"
-            },
-            {
-              "ritsu": "22.3",
-              "classname": "base_color_4",
-              "shaban": "4"
-            },
-            {
-              "ritsu": "11.8",
-              "classname": "base_color_3",
-              "shaban": "3"
-            },
-            {
-              "ritsu": "11.2",
-              "classname": "base_color_7",
-              "shaban": "7"
-            },
-            {
-              "ritsu": "10.9",
-              "classname": "base_color_2",
-              "shaban": "2"
-            },
-            {
-              "ritsu": "8.9",
-              "classname": "base_color_5",
-              "shaban": ""
-            },
-            {
-              "ritsu": "8.2",
-              "classname": "base_color_6",
-              "shaban": ""
-            }
-          ]
+          "ryoikiFlg": "false"
         },
         "kaime": {
-          "teikyo": "競輪毎日",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "yoso": [
-            "1=4-635",
-            "1=3-456",
-            "1-2-467",
-            "1-6-427",
-            "1-5-436",
-            "3-5-142",
-            "",
-            ""
-          ]
+          "ryoikiFlg": "false"
         },
-        "sensyuShokaiFlg": "2",
+        "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
         "biko": {
           "hyojiFlg": "false"
@@ -18435,56 +18004,13 @@
       "race_no": 12,
       "encParaR": "v3GkGBnzcJwx-zPUFdtwmbi7mhGghRMfBRMLcgLkL8I",
       "player_count": 7,
-      "line_found": true,
+      "line_found": false,
       "line_prediction": {
-        "line_found": true,
-        "prediction_type": "三分戦",
-        "provider": "競輪毎日",
-        "main_lines": [
-          [
-            5,
-            1
-          ],
-          [
-            2,
-            7,
-            4
-          ],
-          [
-            6,
-            3
-          ]
-        ],
-        "positions": [
-          {
-            "ichi": 1,
-            "shaban": 5
-          },
-          {
-            "ichi": 2,
-            "shaban": 1
-          },
-          {
-            "ichi": 4,
-            "shaban": 2
-          },
-          {
-            "ichi": 5,
-            "shaban": 7
-          },
-          {
-            "ichi": 6,
-            "shaban": 4
-          },
-          {
-            "ichi": 8,
-            "shaban": 6
-          },
-          {
-            "ichi": 9,
-            "shaban": 3
-          }
-        ]
+        "line_found": false,
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "positions": []
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
@@ -18493,7 +18019,6 @@
         "charColor2": "color_blue",
         "lastUpdateTime": "2026/07/14 07:05&nbsp;更新",
         "yudoSensyuName": "奥村　諭志",
-        "yosoinMei": "競輪毎日",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "5",
@@ -18503,7 +18028,6 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
-            "yosoin": "◎",
             "sensyuRegistNo": "013249",
             "sensyuName": "諸橋　愛",
             "huKen": "新　潟",
@@ -18574,7 +18098,6 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
-            "yosoin": "×",
             "sensyuRegistNo": "015183",
             "sensyuName": "小森　貴大",
             "huKen": "福　井",
@@ -18633,7 +18156,6 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
-            "yosoin": "注",
             "sensyuRegistNo": "014890",
             "sensyuName": "大西　貴晃",
             "huKen": "大　分",
@@ -18692,7 +18214,6 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
-            "yosoin": "▲",
             "sensyuRegistNo": "014485",
             "sensyuName": "田中　勇二",
             "huKen": "岡　山",
@@ -18751,7 +18272,6 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
-            "yosoin": "○",
             "sensyuRegistNo": "015598",
             "sensyuName": "大川　剛",
             "huKen": "青　森",
@@ -18874,7 +18394,6 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
-            "yosoin": "△",
             "sensyuRegistNo": "013059",
             "sensyuName": "香川　雄介",
             "huKen": "香　川",
@@ -18936,105 +18455,14 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 1,
-          "lineKeitai": "三分戦",
-          "lineKeitaiClass": "sanbusen",
-          "kyoHyoji": "false",
-          "teikyo": "競輪毎日",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "shaban": [
-            {
-              "ichi": "2",
-              "shaban": "1",
-              "classname": "base_color_1"
-            },
-            {
-              "ichi": "4",
-              "shaban": "2",
-              "classname": "base_color_2"
-            },
-            {
-              "ichi": "9",
-              "shaban": "3",
-              "classname": "base_color_3"
-            },
-            {
-              "ichi": "6",
-              "shaban": "4",
-              "classname": "base_color_4"
-            },
-            {
-              "ichi": "1",
-              "shaban": "5",
-              "classname": "base_color_5"
-            },
-            {
-              "ichi": "8",
-              "shaban": "6",
-              "classname": "base_color_6"
-            },
-            {
-              "ichi": "5",
-              "shaban": "7",
-              "classname": "base_color_7"
-            }
-          ]
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
         },
         "sanrentan": {
-          "ryoikiFlg": "true",
-          "shiji": [
-            {
-              "ritsu": "20.5",
-              "classname": "base_color_1",
-              "shaban": "1"
-            },
-            {
-              "ritsu": "17.4",
-              "classname": "base_color_7",
-              "shaban": "7"
-            },
-            {
-              "ritsu": "16.9",
-              "classname": "base_color_5",
-              "shaban": "5"
-            },
-            {
-              "ritsu": "15.4",
-              "classname": "base_color_2",
-              "shaban": "2"
-            },
-            {
-              "ritsu": "11.7",
-              "classname": "base_color_3",
-              "shaban": "3"
-            },
-            {
-              "ritsu": "8.9",
-              "classname": "base_color_6",
-              "shaban": ""
-            },
-            {
-              "ritsu": "8.8",
-              "classname": "base_color_4",
-              "shaban": ""
-            }
-          ]
+          "ryoikiFlg": "false"
         },
         "kaime": {
-          "teikyo": "競輪毎日",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "yoso": [
-            "1=5-273",
-            "1=2-573",
-            "1-7-524",
-            "1-3-567",
-            "2=7-415",
-            "",
-            "",
-            ""
-          ]
+          "ryoikiFlg": "false"
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -19636,37 +19064,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "26.7",
+              "ritsu": "29.0",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "24.9",
+              "ritsu": "26.8",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "16.2",
+              "ritsu": "15.5",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "10.2",
+              "ritsu": "11.4",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "8.9",
+              "ritsu": "7.0",
               "classname": "base_color_5",
               "shaban": ""
             },
             {
-              "ritsu": "8.5",
+              "ritsu": "6.0",
               "classname": "base_color_7",
               "shaban": ""
             },
             {
-              "ritsu": "4.4",
+              "ritsu": "3.9",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -20284,39 +19712,39 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "21.8",
+              "ritsu": "22.3",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "18.0",
+              "ritsu": "17.8",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "17.7",
+              "ritsu": "17.0",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "11.7",
+              "ritsu": "11.5",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "10.5",
-              "classname": "base_color_4",
-              "shaban": "4"
-            },
-            {
-              "ritsu": "10.4",
+              "ritsu": "10.8",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "9.6",
+              "ritsu": "10.1",
+              "classname": "base_color_4",
+              "shaban": "4"
+            },
+            {
+              "ritsu": "10.1",
               "classname": "base_color_6",
-              "shaban": ""
+              "shaban": "6"
             }
           ]
         },
@@ -20927,37 +20355,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "24.1",
+              "ritsu": "23.7",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "21.5",
-              "classname": "base_color_7",
-              "shaban": "7"
-            },
-            {
-              "ritsu": "20.6",
+              "ritsu": "20.8",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "10.1",
+              "ritsu": "20.7",
+              "classname": "base_color_7",
+              "shaban": "7"
+            },
+            {
+              "ritsu": "10.6",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "9.5",
+              "ritsu": "9.4",
               "classname": "base_color_2",
               "shaban": ""
             },
             {
-              "ritsu": "7.6",
+              "ritsu": "8.3",
               "classname": "base_color_4",
               "shaban": ""
             },
             {
-              "ritsu": "6.3",
+              "ritsu": "6.0",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -21578,12 +21006,12 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "23.5",
+              "ritsu": "23.6",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "21.7",
+              "ritsu": "21.4",
               "classname": "base_color_1",
               "shaban": "1"
             },
@@ -21593,12 +21021,12 @@
               "shaban": "2"
             },
             {
-              "ritsu": "12.7",
+              "ritsu": "12.6",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "11.5",
+              "ritsu": "11.6",
               "classname": "base_color_4",
               "shaban": "4"
             },
@@ -21608,7 +21036,7 @@
               "shaban": ""
             },
             {
-              "ritsu": "4.7",
+              "ritsu": "4.9",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -22223,37 +21651,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "28.9",
+              "ritsu": "29.0",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "22.7",
+              "ritsu": "23.7",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "14.0",
+              "ritsu": "12.8",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "12.6",
+              "ritsu": "12.5",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "8.0",
+              "ritsu": "8.4",
               "classname": "base_color_6",
               "shaban": ""
             },
             {
-              "ritsu": "7.8",
+              "ritsu": "7.7",
               "classname": "base_color_7",
               "shaban": ""
             },
             {
-              "ritsu": "5.5",
+              "ritsu": "5.7",
               "classname": "base_color_3",
               "shaban": ""
             }
@@ -22874,7 +22302,7 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "30.5",
+              "ritsu": "30.3",
               "classname": "base_color_4",
               "shaban": "4"
             },
@@ -22884,12 +22312,12 @@
               "shaban": "2"
             },
             {
-              "ritsu": "23.1",
+              "ritsu": "22.9",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "6.9",
+              "ritsu": "7.0",
               "classname": "base_color_5",
               "shaban": ""
             },
@@ -22899,12 +22327,12 @@
               "shaban": ""
             },
             {
-              "ritsu": "2.7",
+              "ritsu": "2.9",
               "classname": "base_color_3",
               "shaban": ""
             },
             {
-              "ritsu": "1.9",
+              "ritsu": "2.0",
               "classname": "base_color_7",
               "shaban": ""
             }
@@ -23489,37 +22917,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "31.6",
+              "ritsu": "31.5",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "26.5",
+              "ritsu": "26.3",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "23.4",
+              "ritsu": "23.0",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "9.2",
+              "ritsu": "9.5",
               "classname": "base_color_1",
               "shaban": ""
             },
             {
-              "ritsu": "5.4",
+              "ritsu": "5.5",
               "classname": "base_color_3",
               "shaban": ""
             },
             {
-              "ritsu": "2.0",
+              "ritsu": "2.1",
               "classname": "base_color_6",
               "shaban": ""
             },
             {
-              "ritsu": "1.6",
+              "ritsu": "1.7",
               "classname": "base_color_2",
               "shaban": ""
             }
@@ -24070,32 +23498,32 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "23.0",
+              "ritsu": "22.6",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "19.8",
+              "ritsu": "19.9",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "18.8",
+              "ritsu": "18.7",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "15.1",
+              "ritsu": "16.2",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "14.5",
+              "ritsu": "13.4",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "8.5",
+              "ritsu": "8.8",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -24696,37 +24124,37 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "22.0",
+              "ritsu": "21.8",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "20.5",
+              "ritsu": "20.7",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "15.1",
+              "ritsu": "15.3",
               "classname": "base_color_6",
               "shaban": "6"
             },
             {
-              "ritsu": "12.9",
+              "ritsu": "12.6",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "11.1",
+              "ritsu": "10.9",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "10.4",
+              "ritsu": "10.1",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "7.6",
+              "ritsu": "8.1",
               "classname": "base_color_4",
               "shaban": ""
             }
@@ -25351,22 +24779,22 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "25.1",
+              "ritsu": "24.9",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "19.8",
+              "ritsu": "19.7",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "18.7",
+              "ritsu": "18.6",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "12.1",
+              "ritsu": "12.2",
               "classname": "base_color_5",
               "shaban": "5"
             },
@@ -25376,12 +24804,12 @@
               "shaban": ""
             },
             {
-              "ritsu": "7.7",
+              "ritsu": "8.2",
               "classname": "base_color_4",
               "shaban": ""
             },
             {
-              "ritsu": "7.7",
+              "ritsu": "7.6",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -26010,12 +25438,12 @@
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "23.4",
+              "ritsu": "23.5",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "23.2",
+              "ritsu": "22.9",
               "classname": "base_color_5",
               "shaban": "5"
             },
@@ -26025,22 +25453,22 @@
               "shaban": "7"
             },
             {
-              "ritsu": "14.4",
+              "ritsu": "14.3",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "10.7",
+              "ritsu": "10.8",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "8.1",
+              "ritsu": "8.3",
               "classname": "base_color_4",
               "shaban": ""
             },
             {
-              "ritsu": "5.4",
+              "ritsu": "5.3",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -26640,32 +26068,32 @@
               "shaban": "1"
             },
             {
-              "ritsu": "24.1",
+              "ritsu": "24.3",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "13.4",
+              "ritsu": "13.0",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "10.6",
+              "ritsu": "10.7",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "10.2",
+              "ritsu": "9.9",
               "classname": "base_color_7",
-              "shaban": "7"
+              "shaban": ""
             },
             {
-              "ritsu": "8.4",
+              "ritsu": "8.6",
               "classname": "base_color_2",
               "shaban": ""
             },
             {
-              "ritsu": "6.9",
+              "ritsu": "7.1",
               "classname": "base_color_6",
               "shaban": ""
             }
@@ -26704,21 +26132,65 @@
       "race_no": 1,
       "encParaR": "yARyZ2RxXOeo4l7Z4BiVftSzwMusNxQGumK8KnUZafw",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "二分戦",
+        "provider": "赤競",
+        "main_lines": [
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            6
+          ],
+          [
+            5,
+            4,
+            7
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 1
+          },
+          {
+            "ichi": 2,
+            "shaban": 3
+          },
+          {
+            "ichi": 3,
+            "shaban": 2
+          },
+          {
+            "ichi": 5,
+            "shaban": 6
+          },
+          {
+            "ichi": 7,
+            "shaban": 5
+          },
+          {
+            "ichi": 8,
+            "shaban": 4
+          },
+          {
+            "ichi": 9,
+            "shaban": 7
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "27",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 16:06&nbsp;更新",
         "yudoSensyuName": "櫻井　宏樹",
+        "yosoinMei": "赤競",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "5",
@@ -26728,6 +26200,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "015177",
             "sensyuName": "森川　康輔",
             "huKen": "岐　阜",
@@ -26792,6 +26265,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "▲",
             "sensyuRegistNo": "011712",
             "sensyuName": "金田　健一郎",
             "huKen": "大　阪",
@@ -26856,6 +26330,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "○",
             "sensyuRegistNo": "012287",
             "sensyuName": "西川　弘資",
             "huKen": "三　重",
@@ -26902,6 +26377,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "×",
             "sensyuRegistNo": "013324",
             "sensyuName": "市川　博章",
             "huKen": "静　岡",
@@ -26966,6 +26442,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "△",
             "sensyuRegistNo": "012883",
             "sensyuName": "大沼　孝行",
             "huKen": "静　岡",
@@ -27143,55 +26620,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "二分戦",
+          "lineKeitaiClass": "nibusen",
+          "kyoHyoji": "false",
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "1",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "3",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "2",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "8",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "7",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "5",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "9",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "21.2",
+              "ritsu": "21.8",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "16.2",
+              "ritsu": "18.0",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "16.0",
+              "ritsu": "14.3",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "14.9",
+              "ritsu": "13.4",
               "classname": "base_color_6",
               "shaban": "6"
             },
             {
-              "ritsu": "13.5",
+              "ritsu": "12.8",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "9.0",
+              "ritsu": "11.0",
               "classname": "base_color_2",
-              "shaban": ""
+              "shaban": "2"
             },
             {
-              "ritsu": "8.7",
+              "ritsu": "8.2",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=3-452",
+            "1=4-352",
+            "1-5-342",
+            "1-2-345",
+            "4-5-137",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -27211,21 +26738,65 @@
       "race_no": 2,
       "encParaR": "yARyZ2RxXOeo4l7Z4BiVfnbZXgClWSk0WFSAc3UJ-aw",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "二分戦",
+        "provider": "赤競",
+        "main_lines": [
+          [
+            3,
+            1,
+            7
+          ],
+          [
+            5
+          ],
+          [
+            2,
+            4,
+            6
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 3
+          },
+          {
+            "ichi": 2,
+            "shaban": 1
+          },
+          {
+            "ichi": 3,
+            "shaban": 7
+          },
+          {
+            "ichi": 5,
+            "shaban": 5
+          },
+          {
+            "ichi": 7,
+            "shaban": 2
+          },
+          {
+            "ichi": 8,
+            "shaban": 4
+          },
+          {
+            "ichi": 9,
+            "shaban": 6
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "27",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 16:06&nbsp;更新",
         "yudoSensyuName": "近藤　寛央",
+        "yosoinMei": "赤競",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "2",
@@ -27235,6 +26806,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "○",
             "sensyuRegistNo": "014093",
             "sensyuName": "窪田　陽介",
             "huKen": "滋　賀",
@@ -27281,6 +26853,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "×",
             "sensyuRegistNo": "015708",
             "sensyuName": "山口　直樹",
             "huKen": "神奈川",
@@ -27327,6 +26900,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "◎",
             "sensyuRegistNo": "015998",
             "sensyuName": "木曽田　晃大",
             "huKen": "京　都",
@@ -27391,6 +26965,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "△",
             "sensyuRegistNo": "013244",
             "sensyuName": "小林　高志",
             "huKen": "東　京",
@@ -27455,6 +27030,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "▲",
             "sensyuRegistNo": "014429",
             "sensyuName": "千澤　大輔",
             "ketujyouTuikaHojyuColorInfo": "body_base_color",
@@ -27652,36 +27228,76 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "二分戦",
+          "lineKeitaiClass": "nibusen",
+          "kyoHyoji": "false",
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "2",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "7",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "1",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "8",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "5",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "9",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "3",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "19.3",
+              "ritsu": "19.2",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "16.4",
-              "classname": "base_color_4",
-              "shaban": "4"
-            },
-            {
-              "ritsu": "15.6",
+              "ritsu": "16.8",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "15.5",
+              "ritsu": "16.3",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "13.0",
+              "ritsu": "16.2",
+              "classname": "base_color_4",
+              "shaban": "4"
+            },
+            {
+              "ritsu": "12.0",
               "classname": "base_color_5",
               "shaban": "5"
             },
@@ -27691,16 +27307,26 @@
               "shaban": "7"
             },
             {
-              "ritsu": "9.7",
+              "ritsu": "8.8",
               "classname": "base_color_6",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "3=1-247",
+            "3=2-145",
+            "3-4-126",
+            "2-4-356",
+            "2-1-347",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -27720,21 +27346,65 @@
       "race_no": 3,
       "encParaR": "yARyZ2RxXOeo4l7Z4BiVfqQXTtdT-JeVaRLFMMKWtRw",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "二分戦",
+        "provider": "赤競",
+        "main_lines": [
+          [
+            2,
+            5,
+            4
+          ],
+          [
+            7,
+            3,
+            1
+          ],
+          [
+            6
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 2
+          },
+          {
+            "ichi": 2,
+            "shaban": 5
+          },
+          {
+            "ichi": 3,
+            "shaban": 4
+          },
+          {
+            "ichi": 5,
+            "shaban": 7
+          },
+          {
+            "ichi": 6,
+            "shaban": 3
+          },
+          {
+            "ichi": 7,
+            "shaban": 1
+          },
+          {
+            "ichi": 9,
+            "shaban": 6
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "27",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 16:06&nbsp;更新",
         "yudoSensyuName": "飯島　淳",
+        "yosoinMei": "赤競",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "2",
@@ -27790,6 +27460,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "◎",
             "sensyuRegistNo": "015874",
             "sensyuName": "角田　吏",
             "huKen": "福　島",
@@ -27854,6 +27525,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "×",
             "sensyuRegistNo": "014810",
             "sensyuName": "小川　辰徳",
             "huKen": "埼　玉",
@@ -27913,6 +27585,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "▲",
             "sensyuRegistNo": "014434",
             "sensyuName": "山崎　功也",
             "huKen": "宮　城",
@@ -27977,6 +27650,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "△",
             "sensyuRegistNo": "013998",
             "sensyuName": "桂馬　将人",
             "huKen": "福　島",
@@ -28107,6 +27781,7 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
+            "yosoin": "○",
             "sensyuRegistNo": "015965",
             "sensyuName": "篠原　輝利",
             "huKen": "茨　城",
@@ -28156,36 +27831,76 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "二分戦",
+          "lineKeitaiClass": "nibusen",
+          "kyoHyoji": "false",
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "7",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "1",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "6",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "3",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "2",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "9",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "5",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "22.0",
+              "ritsu": "23.0",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "20.3",
+              "ritsu": "19.7",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "16.0",
+              "ritsu": "16.4",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "12.9",
+              "ritsu": "13.2",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "12.6",
+              "ritsu": "12.3",
               "classname": "base_color_3",
               "shaban": "3"
             },
@@ -28195,16 +27910,26 @@
               "shaban": ""
             },
             {
-              "ritsu": "6.1",
+              "ritsu": "5.4",
               "classname": "base_color_6",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "2=7-354",
+            "2=3-751",
+            "2-5-734",
+            "2-4-735",
+            "7-3-215",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -28224,21 +27949,65 @@
       "race_no": 4,
       "encParaR": "yARyZ2RxXOeo4l7Z4BiVfqWDlTv0GRDjBh_lnBZGp-g",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "二分戦",
+        "provider": "赤競",
+        "main_lines": [
+          [
+            3,
+            1,
+            4,
+            6
+          ],
+          [
+            7
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 3
+          },
+          {
+            "ichi": 2,
+            "shaban": 1
+          },
+          {
+            "ichi": 3,
+            "shaban": 4
+          },
+          {
+            "ichi": 4,
+            "shaban": 6
+          },
+          {
+            "ichi": 6,
+            "shaban": 7
+          },
+          {
+            "ichi": 8,
+            "shaban": 5
+          },
+          {
+            "ichi": 9,
+            "shaban": 2
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "27",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 16:06&nbsp;更新",
         "yudoSensyuName": "石田　典大",
+        "yosoinMei": "赤競",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "2",
@@ -28248,6 +28017,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "○",
             "sensyuRegistNo": "014158",
             "sensyuName": "本間　慎吾",
             "huKen": "新　潟",
@@ -28312,6 +28082,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "△",
             "sensyuRegistNo": "014829",
             "sensyuName": "桜井　雄太",
             "huKen": "愛　知",
@@ -28376,6 +28147,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "◎",
             "sensyuRegistNo": "015975",
             "sensyuName": "小笠原　匠海",
             "huKen": "東　京",
@@ -28440,6 +28212,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "▲",
             "sensyuRegistNo": "014516",
             "sensyuName": "村松　俊弥",
             "huKen": "山　梨",
@@ -28504,6 +28277,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "×",
             "sensyuRegistNo": "015997",
             "sensyuName": "片岡　遼真",
             "huKen": "福　井",
@@ -28701,55 +28475,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "二分戦",
+          "lineKeitaiClass": "nibusen",
+          "kyoHyoji": "false",
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "2",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "9",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "1",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "3",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "8",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "4",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "6",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "28.1",
+              "ritsu": "27.9",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "25.4",
+              "ritsu": "24.7",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "14.6",
+              "ritsu": "14.3",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "13.1",
+              "ritsu": "12.9",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "12.1",
+              "ritsu": "12.6",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "3.4",
+              "ritsu": "3.9",
               "classname": "base_color_7",
               "shaban": ""
             },
             {
-              "ritsu": "3.0",
+              "ritsu": "3.3",
               "classname": "base_color_6",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "3=1-524",
+            "3=5-124",
+            "3-2-154",
+            "5=2-314",
+            "",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -28769,21 +28593,69 @@
       "race_no": 5,
       "encParaR": "yARyZ2RxXOeo4l7Z4BiVfoi1d5Bp9ZUhHIRrXuKL91c",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "コマ切れ",
+        "provider": "赤競",
+        "main_lines": [
+          [
+            4,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 4
+          },
+          {
+            "ichi": 2,
+            "shaban": 2
+          },
+          {
+            "ichi": 4,
+            "shaban": 1
+          },
+          {
+            "ichi": 5,
+            "shaban": 3
+          },
+          {
+            "ichi": 7,
+            "shaban": 5
+          },
+          {
+            "ichi": 9,
+            "shaban": 6
+          },
+          {
+            "ichi": 11,
+            "shaban": 7
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "27",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 16:06&nbsp;更新",
         "yudoSensyuName": "櫻井　宏樹",
+        "yosoinMei": "赤競",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "7",
@@ -28793,6 +28665,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "012336",
             "sensyuName": "高谷　雅彦",
             "huKen": "青　森",
@@ -28857,6 +28730,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "×",
             "sensyuRegistNo": "014302",
             "sensyuName": "武田　憲祐",
             "huKen": "神奈川",
@@ -28921,6 +28795,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "○",
             "sensyuRegistNo": "014347",
             "sensyuName": "外崎　一成",
             "huKen": "北海道",
@@ -28985,6 +28860,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "△",
             "sensyuRegistNo": "014520",
             "sensyuName": "伊藤　彰規",
             "huKen": "神奈川",
@@ -29049,6 +28925,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "▲",
             "sensyuRegistNo": "014753",
             "sensyuName": "山田　純也",
             "huKen": "岐　阜",
@@ -29226,55 +29103,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "コマ切れ",
+          "lineKeitaiClass": "komagire",
+          "kyoHyoji": "false",
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "4",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "2",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "5",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "1",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "7",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "9",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "11",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "20.3",
+              "ritsu": "19.7",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "19.6",
+              "ritsu": "18.3",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "16.4",
+              "ritsu": "16.9",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "14.2",
+              "ritsu": "16.4",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "11.0",
-              "classname": "base_color_5",
-              "shaban": "5"
+              "ritsu": "10.3",
+              "classname": "base_color_6",
+              "shaban": "6"
             },
             {
-              "ritsu": "9.9",
-              "classname": "base_color_6",
+              "ritsu": "9.7",
+              "classname": "base_color_5",
               "shaban": ""
             },
             {
-              "ritsu": "8.2",
+              "ritsu": "8.5",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=3-245",
+            "1=2-345",
+            "1-4-325",
+            "1-5-324",
+            "2-4-135",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -29294,21 +29221,65 @@
       "race_no": 6,
       "encParaR": "yARyZ2RxXOeo4l7Z4BiVfg5WXkGa9Qf0MG_AHGvxJks",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "三分戦",
+        "provider": "赤競",
+        "main_lines": [
+          [
+            1,
+            2
+          ],
+          [
+            6,
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 1
+          },
+          {
+            "ichi": 2,
+            "shaban": 2
+          },
+          {
+            "ichi": 4,
+            "shaban": 6
+          },
+          {
+            "ichi": 5,
+            "shaban": 3
+          },
+          {
+            "ichi": 6,
+            "shaban": 7
+          },
+          {
+            "ichi": 8,
+            "shaban": 4
+          },
+          {
+            "ichi": 9,
+            "shaban": 5
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "27",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 16:06&nbsp;更新",
         "yudoSensyuName": "石田　典大",
+        "yosoinMei": "赤競",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "1",
@@ -29318,6 +29289,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "015526",
             "sensyuName": "梅田　加津也",
             "huKen": "神奈川",
@@ -29382,6 +29354,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "○",
             "sensyuRegistNo": "014087",
             "sensyuName": "高橋　隆太",
             "huKen": "静　岡",
@@ -29428,6 +29401,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "△",
             "sensyuRegistNo": "014220",
             "sensyuName": "山崎　悟",
             "huKen": "茨　城",
@@ -29492,6 +29466,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "×",
             "sensyuRegistNo": "015456",
             "sensyuName": "安藤　直希",
             "huKen": "京　都",
@@ -29556,6 +29531,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "▲",
             "sensyuRegistNo": "013333",
             "sensyuName": "小西　誠也",
             "huKen": "三　重",
@@ -29754,55 +29730,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "三分戦",
+          "lineKeitaiClass": "sanbusen",
+          "kyoHyoji": "false",
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "1",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "2",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "5",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "8",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "9",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "4",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "6",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "20.1",
+              "ritsu": "21.5",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "18.2",
+              "ritsu": "18.0",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "17.2",
+              "ritsu": "16.4",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "14.8",
+              "ritsu": "14.5",
               "classname": "base_color_6",
               "shaban": "6"
             },
             {
-              "ritsu": "13.5",
+              "ritsu": "13.8",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "9.4",
+              "ritsu": "8.9",
               "classname": "base_color_5",
               "shaban": ""
             },
             {
-              "ritsu": "6.4",
+              "ritsu": "6.6",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=2-435",
+            "1=4-235",
+            "1-3-246",
+            "4=5-123",
+            "",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -29822,21 +29848,65 @@
       "race_no": 7,
       "encParaR": "yARyZ2RxXOeo4l7Z4BiVfnD0MUqDlVZ7Zz3QSh-NS9I",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "三分戦",
+        "provider": "赤競",
+        "main_lines": [
+          [
+            4,
+            1,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 4
+          },
+          {
+            "ichi": 2,
+            "shaban": 1
+          },
+          {
+            "ichi": 3,
+            "shaban": 5
+          },
+          {
+            "ichi": 5,
+            "shaban": 6
+          },
+          {
+            "ichi": 6,
+            "shaban": 7
+          },
+          {
+            "ichi": 8,
+            "shaban": 3
+          },
+          {
+            "ichi": 9,
+            "shaban": 2
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "27",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 16:06&nbsp;更新",
         "yudoSensyuName": "近藤　寛央",
+        "yosoinMei": "赤競",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "4",
@@ -29846,6 +29916,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "015365",
             "sensyuName": "古賀　勝大",
             "huKen": "和歌山",
@@ -29910,6 +29981,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "×",
             "sensyuRegistNo": "014527",
             "sensyuName": "飯田　憲司",
             "huKen": "静　岡",
@@ -29974,6 +30046,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "▲",
             "sensyuRegistNo": "015350",
             "sensyuName": "山本　修平",
             "huKen": "東　京",
@@ -30038,6 +30111,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "○",
             "sensyuRegistNo": "015811",
             "sensyuName": "水谷　亮太",
             "huKen": "愛　知",
@@ -30102,6 +30176,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "△",
             "sensyuRegistNo": "015189",
             "sensyuName": "山本　隼人",
             "huKen": "大　阪",
@@ -30291,55 +30366,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "三分戦",
+          "lineKeitaiClass": "sanbusen",
+          "kyoHyoji": "false",
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "2",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "9",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "8",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "1",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "3",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "5",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "6",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "28.8",
+              "ritsu": "28.2",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "20.7",
+              "ritsu": "20.2",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "15.9",
+              "ritsu": "16.6",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "12.1",
+              "ritsu": "12.2",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "10.9",
+              "ritsu": "11.4",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "6.2",
+              "ritsu": "6.3",
               "classname": "base_color_6",
               "shaban": ""
             },
             {
-              "ritsu": "5.0",
+              "ritsu": "4.7",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=4-523",
+            "1=2-435",
+            "1-5-423",
+            "1-3-425",
+            "2-3-146",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -30359,21 +30484,65 @@
       "race_no": 8,
       "encParaR": "yARyZ2RxXOeo4l7Z4BiVfne12oz-qVifgBSYwf2wGIw",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "二分戦",
+        "provider": "赤競",
+        "main_lines": [
+          [
+            2,
+            1,
+            6
+          ],
+          [
+            5
+          ],
+          [
+            7,
+            3,
+            4
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 2
+          },
+          {
+            "ichi": 2,
+            "shaban": 1
+          },
+          {
+            "ichi": 3,
+            "shaban": 6
+          },
+          {
+            "ichi": 5,
+            "shaban": 5
+          },
+          {
+            "ichi": 7,
+            "shaban": 7
+          },
+          {
+            "ichi": 8,
+            "shaban": 3
+          },
+          {
+            "ichi": 9,
+            "shaban": 4
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "27",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 16:06&nbsp;更新",
         "yudoSensyuName": "飯島　淳",
+        "yosoinMei": "赤競",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "2",
@@ -30383,6 +30552,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "○",
             "sensyuRegistNo": "012785",
             "sensyuName": "小橋　明紀",
             "huKen": "青　森",
@@ -30447,6 +30617,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "◎",
             "sensyuRegistNo": "015689",
             "sensyuName": "菊地　圭",
             "huKen": "宮　城",
@@ -30511,6 +30682,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "△",
             "sensyuRegistNo": "013311",
             "sensyuName": "根本　雄紀",
             "huKen": "茨　城",
@@ -30639,6 +30811,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "▲",
             "sensyuRegistNo": "013482",
             "sensyuName": "松崎　貴久",
             "huKen": "富　山",
@@ -30767,6 +30940,7 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
+            "yosoin": "×",
             "sensyuRegistNo": "015880",
             "sensyuName": "吉岡　優太",
             "huKen": "茨　城",
@@ -30834,55 +31008,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "二分戦",
+          "lineKeitaiClass": "nibusen",
+          "kyoHyoji": "false",
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "2",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "1",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "8",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "9",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "5",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "3",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "7",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "20.9",
+              "ritsu": "23.0",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "18.8",
+              "ritsu": "21.3",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "15.5",
+              "ritsu": "13.2",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "13.5",
+              "ritsu": "12.6",
+              "classname": "base_color_6",
+              "shaban": "6"
+            },
+            {
+              "ritsu": "12.2",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "11.9",
+              "ritsu": "9.2",
               "classname": "base_color_4",
-              "shaban": "4"
+              "shaban": ""
             },
             {
-              "ritsu": "10.3",
+              "ritsu": "8.2",
               "classname": "base_color_5",
-              "shaban": "5"
-            },
-            {
-              "ritsu": "8.9",
-              "classname": "base_color_6",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "2=1-736",
+            "2=7-135",
+            "2-3-174",
+            "7=3-214",
+            "",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -30902,21 +31126,65 @@
       "race_no": 9,
       "encParaR": "yARyZ2RxXOeo4l7Z4BiVfmFTuk0g4wU-dPyFgcReXlk",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "三分戦",
+        "provider": "赤競",
+        "main_lines": [
+          [
+            3,
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 3
+          },
+          {
+            "ichi": 2,
+            "shaban": 1
+          },
+          {
+            "ichi": 3,
+            "shaban": 4
+          },
+          {
+            "ichi": 5,
+            "shaban": 2
+          },
+          {
+            "ichi": 6,
+            "shaban": 5
+          },
+          {
+            "ichi": 8,
+            "shaban": 6
+          },
+          {
+            "ichi": 9,
+            "shaban": 7
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "27",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 16:06&nbsp;更新",
         "yudoSensyuName": "石田　典大",
+        "yosoinMei": "赤競",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "2,3",
@@ -30926,6 +31194,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "014510",
             "sensyuName": "菅谷　隆司",
             "huKen": "東　京",
@@ -30990,6 +31259,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "×",
             "sensyuRegistNo": "015809",
             "sensyuName": "高野　信元",
             "huKen": "愛　知",
@@ -31054,6 +31324,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "○",
             "sensyuRegistNo": "015796",
             "sensyuName": "川田　真也",
             "huKen": "埼　玉",
@@ -31118,6 +31389,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "△",
             "sensyuRegistNo": "013308",
             "sensyuName": "木村　貴宏",
             "huKen": "茨　城",
@@ -31182,6 +31454,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "▲",
             "sensyuRegistNo": "012679",
             "sensyuName": "坂上　忠克",
             "huKen": "石　川",
@@ -31377,55 +31650,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "三分戦",
+          "lineKeitaiClass": "sanbusen",
+          "kyoHyoji": "false",
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "2",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "5",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "1",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "3",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "6",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "8",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "9",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "24.3",
-              "classname": "base_color_2",
-              "shaban": "2"
-            },
-            {
-              "ritsu": "22.6",
+              "ritsu": "23.9",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "17.7",
+              "ritsu": "20.4",
+              "classname": "base_color_2",
+              "shaban": "2"
+            },
+            {
+              "ritsu": "19.9",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "12.4",
-              "classname": "base_color_5",
-              "shaban": "5"
-            },
-            {
-              "ritsu": "10.8",
+              "ritsu": "14.3",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "6.4",
+              "ritsu": "11.1",
+              "classname": "base_color_5",
+              "shaban": "5"
+            },
+            {
+              "ritsu": "5.5",
               "classname": "base_color_6",
               "shaban": ""
             },
             {
-              "ritsu": "5.6",
+              "ritsu": "4.7",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "赤競",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=3-245",
+            "1=2-345",
+            "1-4-325",
+            "2-5-136",
+            "2-3-156",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -35766,58 +36089,13 @@
       "race_no": 10,
       "encParaR": "Jf8M704WoVPTu-FwuPh-RuB3ZpLPkQ3-evuvmaIylMw",
       "player_count": 7,
-      "line_found": true,
+      "line_found": false,
       "line_prediction": {
-        "line_found": true,
-        "prediction_type": "四分戦",
-        "provider": "競輪研究社",
-        "main_lines": [
-          [
-            5,
-            1
-          ],
-          [
-            3
-          ],
-          [
-            6,
-            2
-          ],
-          [
-            4,
-            7
-          ]
-        ],
-        "positions": [
-          {
-            "ichi": 1,
-            "shaban": 5
-          },
-          {
-            "ichi": 2,
-            "shaban": 1
-          },
-          {
-            "ichi": 4,
-            "shaban": 3
-          },
-          {
-            "ichi": 6,
-            "shaban": 6
-          },
-          {
-            "ichi": 7,
-            "shaban": 2
-          },
-          {
-            "ichi": 9,
-            "shaban": 4
-          },
-          {
-            "ichi": 10,
-            "shaban": 7
-          }
-        ]
+        "line_found": false,
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "positions": []
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
@@ -35826,7 +36104,6 @@
         "charColor2": "color_blue",
         "lastUpdateTime": "2026/07/14 09:42&nbsp;更新",
         "yudoSensyuName": "坂本　匡洋",
-        "yosoinMei": "競輪研究社",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "4",
         "backCnt1Syaban": "5",
@@ -35836,7 +36113,6 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
-            "yosoin": "◎",
             "sensyuRegistNo": "015254",
             "sensyuName": "鈴木　輝大",
             "huKen": "東　京",
@@ -35901,7 +36177,6 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
-            "yosoin": "×",
             "sensyuRegistNo": "014161",
             "sensyuName": "藤田　大輔",
             "huKen": "千　葉",
@@ -36030,7 +36305,6 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
-            "yosoin": "▲",
             "sensyuRegistNo": "015508",
             "sensyuName": "菅野　航基",
             "huKen": "宮　城",
@@ -36095,7 +36369,6 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
-            "yosoin": "○",
             "sensyuRegistNo": "015338",
             "sensyuName": "土田　栄二",
             "huKen": "茨　城",
@@ -36224,7 +36497,6 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
-            "yosoin": "注",
             "sensyuRegistNo": "013483",
             "sensyuName": "宮越　孝治",
             "huKen": "富　山",
@@ -36292,107 +36564,16 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 1,
-          "lineKeitai": "四分戦",
-          "lineKeitaiClass": "yonbusen",
-          "kyoHyoji": "false",
-          "teikyo": "競輪研究社",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "shaban": [
-            {
-              "ichi": "2",
-              "shaban": "1",
-              "classname": "base_color_1"
-            },
-            {
-              "ichi": "7",
-              "shaban": "2",
-              "classname": "base_color_2"
-            },
-            {
-              "ichi": "4",
-              "shaban": "3",
-              "classname": "base_color_3"
-            },
-            {
-              "ichi": "9",
-              "shaban": "4",
-              "classname": "base_color_4"
-            },
-            {
-              "ichi": "1",
-              "shaban": "5",
-              "classname": "base_color_5"
-            },
-            {
-              "ichi": "6",
-              "shaban": "6",
-              "classname": "base_color_6"
-            },
-            {
-              "ichi": "10",
-              "shaban": "7",
-              "classname": "base_color_7"
-            }
-          ]
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
         },
         "sanrentan": {
-          "ryoikiFlg": "true",
-          "shiji": [
-            {
-              "ritsu": "25.4",
-              "classname": "base_color_1",
-              "shaban": "1"
-            },
-            {
-              "ritsu": "20.8",
-              "classname": "base_color_4",
-              "shaban": "4"
-            },
-            {
-              "ritsu": "15.9",
-              "classname": "base_color_5",
-              "shaban": "5"
-            },
-            {
-              "ritsu": "12.3",
-              "classname": "base_color_7",
-              "shaban": "7"
-            },
-            {
-              "ritsu": "10.2",
-              "classname": "base_color_2",
-              "shaban": "2"
-            },
-            {
-              "ritsu": "9.1",
-              "classname": "base_color_3",
-              "shaban": ""
-            },
-            {
-              "ritsu": "5.9",
-              "classname": "base_color_6",
-              "shaban": ""
-            }
-          ]
+          "ryoikiFlg": "false"
         },
         "kaime": {
-          "teikyo": "競輪研究社",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "yoso": [
-            "1=5-42",
-            "1=4-57",
-            "1=2-56",
-            "4=7-12",
-            "",
-            "",
-            "",
-            ""
-          ]
+          "ryoikiFlg": "false"
         },
-        "sensyuShokaiFlg": "2",
+        "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
         "biko": {
           "hyojiFlg": "false"
@@ -36410,56 +36591,13 @@
       "race_no": 11,
       "encParaR": "Jf8M704WoVPTu-FwuPh-Rn41kVBWnvZKtWmw0pXpiCE",
       "player_count": 7,
-      "line_found": true,
+      "line_found": false,
       "line_prediction": {
-        "line_found": true,
-        "prediction_type": "三分戦",
-        "provider": "競輪研究社",
-        "main_lines": [
-          [
-            3,
-            6
-          ],
-          [
-            5,
-            1,
-            7
-          ],
-          [
-            4,
-            2
-          ]
-        ],
-        "positions": [
-          {
-            "ichi": 1,
-            "shaban": 3
-          },
-          {
-            "ichi": 2,
-            "shaban": 6
-          },
-          {
-            "ichi": 4,
-            "shaban": 5
-          },
-          {
-            "ichi": 5,
-            "shaban": 1
-          },
-          {
-            "ichi": 6,
-            "shaban": 7
-          },
-          {
-            "ichi": 8,
-            "shaban": 4
-          },
-          {
-            "ichi": 9,
-            "shaban": 2
-          }
-        ]
+        "line_found": false,
+        "prediction_type": null,
+        "provider": null,
+        "main_lines": [],
+        "positions": []
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
@@ -36468,7 +36606,6 @@
         "charColor2": "color_blue",
         "lastUpdateTime": "2026/07/14 07:05&nbsp;更新",
         "yudoSensyuName": "吉川　悟",
-        "yosoinMei": "競輪研究社",
         "raceResult1Syaban": "5",
         "raceResult2Syaban": "4",
         "backCnt1Syaban": "3",
@@ -36478,7 +36615,6 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
-            "yosoin": "○",
             "sensyuRegistNo": "015635",
             "sensyuName": "藤岡　徹也",
             "huKen": "兵　庫",
@@ -36543,7 +36679,6 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
-            "yosoin": "注",
             "sensyuRegistNo": "014230",
             "sensyuName": "山田　義彦",
             "huKen": "埼　玉",
@@ -36608,7 +36743,6 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
-            "yosoin": "△",
             "sensyuRegistNo": "015594",
             "sensyuName": "金田　涼馬",
             "huKen": "神奈川",
@@ -36673,7 +36807,6 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
-            "yosoin": "×",
             "sensyuRegistNo": "014807",
             "sensyuName": "福田　拓也",
             "huKen": "栃　木",
@@ -36738,7 +36871,6 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
-            "yosoin": "◎",
             "sensyuRegistNo": "015460",
             "sensyuName": "仲野　結音",
             "huKen": "大　阪",
@@ -36934,105 +37066,14 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 1,
-          "lineKeitai": "三分戦",
-          "lineKeitaiClass": "sanbusen",
-          "kyoHyoji": "false",
-          "teikyo": "競輪研究社",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "shaban": [
-            {
-              "ichi": "5",
-              "shaban": "1",
-              "classname": "base_color_1"
-            },
-            {
-              "ichi": "9",
-              "shaban": "2",
-              "classname": "base_color_2"
-            },
-            {
-              "ichi": "1",
-              "shaban": "3",
-              "classname": "base_color_3"
-            },
-            {
-              "ichi": "8",
-              "shaban": "4",
-              "classname": "base_color_4"
-            },
-            {
-              "ichi": "4",
-              "shaban": "5",
-              "classname": "base_color_5"
-            },
-            {
-              "ichi": "2",
-              "shaban": "6",
-              "classname": "base_color_6"
-            },
-            {
-              "ichi": "6",
-              "shaban": "7",
-              "classname": "base_color_7"
-            }
-          ]
+          "maxAxixY": 0,
+          "ryoikiFlg": "false"
         },
         "sanrentan": {
-          "ryoikiFlg": "true",
-          "shiji": [
-            {
-              "ritsu": "28.1",
-              "classname": "base_color_5",
-              "shaban": "5"
-            },
-            {
-              "ritsu": "20.2",
-              "classname": "base_color_1",
-              "shaban": "1"
-            },
-            {
-              "ritsu": "15.8",
-              "classname": "base_color_4",
-              "shaban": "4"
-            },
-            {
-              "ritsu": "12.4",
-              "classname": "base_color_3",
-              "shaban": "3"
-            },
-            {
-              "ritsu": "9.6",
-              "classname": "base_color_7",
-              "shaban": ""
-            },
-            {
-              "ritsu": "8.0",
-              "classname": "base_color_2",
-              "shaban": ""
-            },
-            {
-              "ritsu": "5.5",
-              "classname": "base_color_6",
-              "shaban": ""
-            }
-          ]
+          "ryoikiFlg": "false"
         },
         "kaime": {
-          "teikyo": "競輪研究社",
-          "errFlg": "false",
-          "ryoikiFlg": "true",
-          "yoso": [
-            "5=1-73",
-            "5=3-16",
-            "5=4-12",
-            "5=2-14",
-            "",
-            "",
-            "",
-            ""
-          ]
+          "ryoikiFlg": "false"
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -37052,21 +37093,73 @@
       "race_no": 1,
       "encParaR": "Ozpk-eumfo_0DwX9fHqEYfVak7iftVK30ZdJ3Yk6h0w",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "ライン無し",
+        "provider": "リズム",
+        "main_lines": [
+          [
+            4
+          ],
+          [
+            6
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 4
+          },
+          {
+            "ichi": 3,
+            "shaban": 6
+          },
+          {
+            "ichi": 5,
+            "shaban": 2
+          },
+          {
+            "ichi": 7,
+            "shaban": 1
+          },
+          {
+            "ichi": 9,
+            "shaban": 3
+          },
+          {
+            "ichi": 11,
+            "shaban": 5
+          },
+          {
+            "ichi": 13,
+            "shaban": 7
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "62",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 15:18&nbsp;更新",
         "yudoSensyuName": "石黒　健",
+        "yosoinMei": "リズム",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "2",
@@ -37076,6 +37169,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "015406",
             "sensyuName": "吉岡　詩織",
             "huKen": "広　島",
@@ -37140,6 +37234,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "×",
             "sensyuRegistNo": "015020",
             "sensyuName": "奥井　迪",
             "huKen": "東　京",
@@ -37204,6 +37299,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "△",
             "sensyuRegistNo": "015394",
             "sensyuName": "三森　彩桜",
             "huKen": "福　島",
@@ -37268,6 +37364,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "○",
             "sensyuRegistNo": "015321",
             "sensyuName": "比嘉　真梨代",
             "huKen": "沖　縄",
@@ -37332,6 +37429,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "注",
             "sensyuRegistNo": "015490",
             "sensyuName": "杉浦　菜留",
             "huKen": "愛　知",
@@ -37396,6 +37494,7 @@
             "syabanBgColorInfo": "base_color_6_bk",
             "syabanCharColorInfo": "base_color_6",
             "syaban": "6",
+            "yosoin": "▲",
             "sensyuRegistNo": "014910",
             "sensyuName": "篠崎　新純",
             "huKen": "千　葉",
@@ -37509,55 +37608,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "ライン無し",
+          "lineKeitaiClass": "noline",
+          "kyoHyoji": "false",
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "7",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "5",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "9",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "1",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "11",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "3",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "13",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "30.2",
+              "ritsu": "29.9",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "21.8",
+              "ritsu": "21.3",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "15.5",
+              "ritsu": "15.8",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "12.7",
+              "ritsu": "13.0",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "10.3",
+              "ritsu": "10.1",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "7.9",
+              "ritsu": "8.3",
               "classname": "base_color_6",
               "shaban": ""
             },
             {
-              "ritsu": "1.2",
+              "ritsu": "1.3",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=4-235",
+            "1=2-435",
+            "1-3-425",
+            "1-5-423",
+            "",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -37577,21 +37726,73 @@
       "race_no": 2,
       "encParaR": "Ozpk-eumfo_0DwX9fHqEYZxcQK29kl4t91i8Z515JRQ",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "ライン無し",
+        "provider": "リズム",
+        "main_lines": [
+          [
+            5
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 5
+          },
+          {
+            "ichi": 3,
+            "shaban": 2
+          },
+          {
+            "ichi": 5,
+            "shaban": 4
+          },
+          {
+            "ichi": 7,
+            "shaban": 1
+          },
+          {
+            "ichi": 9,
+            "shaban": 3
+          },
+          {
+            "ichi": 11,
+            "shaban": 6
+          },
+          {
+            "ichi": 13,
+            "shaban": 7
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "62",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 15:18&nbsp;更新",
         "yudoSensyuName": "甲斐下　智",
+        "yosoinMei": "リズム",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "1",
@@ -37601,6 +37802,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "015080",
             "sensyuName": "児玉　碧衣",
             "huKen": "福　岡",
@@ -37647,6 +37849,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "○",
             "sensyuRegistNo": "015308",
             "sensyuName": "當銘　直美",
             "ketujyouTuikaHojyuColorInfo": "body_base_color",
@@ -37713,6 +37916,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "×",
             "sensyuRegistNo": "015669",
             "sensyuName": "河内　桜雪",
             "huKen": "群　馬",
@@ -37777,6 +37981,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "△",
             "sensyuRegistNo": "015762",
             "sensyuName": "高橋　美沙紀",
             "huKen": "愛　知",
@@ -37841,6 +38046,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "注",
             "sensyuRegistNo": "015776",
             "sensyuName": "高本　美穂",
             "huKen": "熊　本",
@@ -37905,6 +38111,7 @@
             "syabanBgColorInfo": "base_color_6_bk",
             "syabanCharColorInfo": "base_color_6",
             "syaban": "6",
+            "yosoin": "▲",
             "sensyuRegistNo": "015496",
             "sensyuName": "布居　光",
             "huKen": "和歌山",
@@ -38018,10 +38225,50 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "ライン無し",
+          "lineKeitaiClass": "noline",
+          "kyoHyoji": "false",
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "7",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "3",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "9",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "5",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "1",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "11",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "13",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
@@ -38037,7 +38284,7 @@
               "shaban": "2"
             },
             {
-              "ritsu": "21.1",
+              "ritsu": "21.0",
               "classname": "base_color_3",
               "shaban": "3"
             },
@@ -38048,12 +38295,12 @@
             },
             {
               "ritsu": "4.6",
-              "classname": "base_color_6",
+              "classname": "base_color_5",
               "shaban": ""
             },
             {
-              "ritsu": "4.5",
-              "classname": "base_color_5",
+              "ritsu": "4.6",
+              "classname": "base_color_6",
               "shaban": ""
             },
             {
@@ -38064,9 +38311,19 @@
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=2-345",
+            "1=3-245",
+            "1-4-235",
+            "1-5-234",
+            "2-3-145",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -38086,21 +38343,65 @@
       "race_no": 3,
       "encParaR": "Ozpk-eumfo_0DwX9fHqEYWxvWvTzX6cAq5qu54LUgPU",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "二分戦",
+        "provider": "リズム",
+        "main_lines": [
+          [
+            2,
+            4,
+            7
+          ],
+          [
+            5
+          ],
+          [
+            1,
+            6,
+            3
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 2
+          },
+          {
+            "ichi": 2,
+            "shaban": 4
+          },
+          {
+            "ichi": 3,
+            "shaban": 7
+          },
+          {
+            "ichi": 5,
+            "shaban": 5
+          },
+          {
+            "ichi": 7,
+            "shaban": 1
+          },
+          {
+            "ichi": 8,
+            "shaban": 6
+          },
+          {
+            "ichi": 9,
+            "shaban": 3
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "62",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 15:18&nbsp;更新",
         "yudoSensyuName": "藤井　將",
+        "yosoinMei": "リズム",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "1",
@@ -38110,6 +38411,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "014305",
             "sensyuName": "大谷　靖茂",
             "huKen": "愛　知",
@@ -38174,6 +38476,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "×",
             "sensyuRegistNo": "014707",
             "sensyuName": "飯塚　直人",
             "huKen": "佐　賀",
@@ -38238,6 +38541,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "△",
             "sensyuRegistNo": "013056",
             "sensyuName": "山本　貴章",
             "huKen": "岡　山",
@@ -38302,6 +38606,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "注",
             "sensyuRegistNo": "012992",
             "sensyuName": "吉良　勝信",
             "huKen": "福　岡",
@@ -38366,6 +38671,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "▲",
             "sensyuRegistNo": "014789",
             "sensyuName": "茅野　寛史",
             "huKen": "鹿児島",
@@ -38412,6 +38718,7 @@
             "syabanBgColorInfo": "base_color_6_bk",
             "syabanCharColorInfo": "base_color_6",
             "syaban": "6",
+            "yosoin": "○",
             "sensyuRegistNo": "014171",
             "sensyuName": "深見　仁哉",
             "huKen": "愛　知",
@@ -38543,55 +38850,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "二分戦",
+          "lineKeitaiClass": "nibusen",
+          "kyoHyoji": "false",
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "7",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "1",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "9",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "2",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "5",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "8",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "3",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "22.0",
+              "ritsu": "23.4",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "15.9",
+              "ritsu": "16.9",
               "classname": "base_color_6",
               "shaban": "6"
             },
             {
-              "ritsu": "15.0",
+              "ritsu": "14.7",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "14.3",
+              "ritsu": "14.7",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "13.3",
+              "ritsu": "13.1",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "12.5",
+              "ritsu": "10.1",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "6.7",
+              "ritsu": "6.8",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=6-324",
+            "1=2-634",
+            "1-3-624",
+            "1-4-623",
+            "2-4-716",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -38611,21 +38968,69 @@
       "race_no": 4,
       "encParaR": "Ozpk-eumfo_0DwX9fHqEYRAyADm2CKuleqNpX4P4DgA",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "コマ切れ",
+        "provider": "リズム",
+        "main_lines": [
+          [
+            1,
+            3
+          ],
+          [
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 1
+          },
+          {
+            "ichi": 2,
+            "shaban": 3
+          },
+          {
+            "ichi": 4,
+            "shaban": 2
+          },
+          {
+            "ichi": 6,
+            "shaban": 6
+          },
+          {
+            "ichi": 7,
+            "shaban": 4
+          },
+          {
+            "ichi": 9,
+            "shaban": 5
+          },
+          {
+            "ichi": 11,
+            "shaban": 7
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "62",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 15:18&nbsp;更新",
         "yudoSensyuName": "船瀬　惇平",
+        "yosoinMei": "リズム",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "6",
@@ -38635,6 +39040,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "015382",
             "sensyuName": "竹元　健竜",
             "huKen": "福　岡",
@@ -38705,6 +39111,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "×",
             "sensyuRegistNo": "013654",
             "sensyuName": "滝山　実",
             "huKen": "徳　島",
@@ -38769,6 +39176,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "○",
             "sensyuRegistNo": "013155",
             "sensyuName": "四元　慎也",
             "huKen": "宮　崎",
@@ -38833,6 +39241,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "△",
             "sensyuRegistNo": "014891",
             "sensyuName": "小岩　哲也",
             "huKen": "大　分",
@@ -38897,6 +39306,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "▲",
             "sensyuRegistNo": "014755",
             "sensyuName": "奥出　健士郎",
             "huKen": "福　井",
@@ -39025,6 +39435,7 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
+            "yosoin": "注",
             "sensyuRegistNo": "014331",
             "sensyuName": "栗田　貴徳",
             "huKen": "愛　媛",
@@ -39074,55 +39485,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "コマ切れ",
+          "lineKeitaiClass": "komagire",
+          "kyoHyoji": "false",
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "1",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "4",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "2",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "7",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "9",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "6",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "11",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "18.2",
+              "ritsu": "18.8",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "17.4",
+              "ritsu": "16.2",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "15.8",
-              "classname": "base_color_5",
-              "shaban": "5"
-            },
-            {
-              "ritsu": "14.9",
+              "ritsu": "15.3",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "14.3",
+              "ritsu": "15.1",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "9.6",
-              "classname": "base_color_6",
-              "shaban": ""
+              "ritsu": "14.8",
+              "classname": "base_color_5",
+              "shaban": "5"
             },
             {
-              "ritsu": "9.6",
+              "ritsu": "10.3",
+              "classname": "base_color_6",
+              "shaban": "6"
+            },
+            {
+              "ritsu": "9.2",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=3-247",
+            "1-2-347",
+            "1-4-327",
+            "1-7-324",
+            "",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -39142,21 +39603,67 @@
       "race_no": 5,
       "encParaR": "Ozpk-eumfo_0DwX9fHqEYQgEuK1RXXpg-aKoT5Y1Sf0",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "コマ切れ",
+        "provider": "リズム",
+        "main_lines": [
+          [
+            2,
+            4,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 2
+          },
+          {
+            "ichi": 2,
+            "shaban": 4
+          },
+          {
+            "ichi": 3,
+            "shaban": 5
+          },
+          {
+            "ichi": 5,
+            "shaban": 1
+          },
+          {
+            "ichi": 7,
+            "shaban": 6
+          },
+          {
+            "ichi": 8,
+            "shaban": 3
+          },
+          {
+            "ichi": 10,
+            "shaban": 7
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "62",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 15:18&nbsp;更新",
         "yudoSensyuName": "石黒　健",
+        "yosoinMei": "リズム",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "6",
@@ -39166,6 +39673,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "×",
             "sensyuRegistNo": "012598",
             "sensyuName": "大庭　正紀",
             "huKen": "富　山",
@@ -39230,6 +39738,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "◎",
             "sensyuRegistNo": "014321",
             "sensyuName": "石坂　永伍",
             "huKen": "岡　山",
@@ -39294,6 +39803,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "△",
             "sensyuRegistNo": "014359",
             "sensyuName": "関根　彰人",
             "huKen": "沖　縄",
@@ -39358,6 +39868,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "○",
             "sensyuRegistNo": "012474",
             "sensyuName": "小川　圭二",
             "huKen": "徳　島",
@@ -39422,6 +39933,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "▲",
             "sensyuRegistNo": "013142",
             "sensyuName": "黒田　大介",
             "huKen": "愛　媛",
@@ -39486,6 +39998,7 @@
             "syabanBgColorInfo": "base_color_6_bk",
             "syabanCharColorInfo": "base_color_6",
             "syaban": "6",
+            "yosoin": "注",
             "sensyuRegistNo": "014494",
             "sensyuName": "山崎　翼",
             "huKen": "大　分",
@@ -39617,21 +40130,61 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "コマ切れ",
+          "lineKeitaiClass": "komagire",
+          "kyoHyoji": "false",
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "5",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "1",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "8",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "2",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "3",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "7",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "10",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "19.8",
+              "ritsu": "21.4",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "16.9",
+              "ritsu": "18.5",
               "classname": "base_color_4",
               "shaban": "4"
             },
@@ -39641,31 +40194,41 @@
               "shaban": "3"
             },
             {
-              "ritsu": "15.7",
+              "ritsu": "14.3",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "13.8",
+              "ritsu": "13.3",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "9.9",
+              "ritsu": "9.7",
               "classname": "base_color_6",
               "shaban": ""
             },
             {
-              "ritsu": "7.2",
+              "ritsu": "6.2",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "2=4-513",
+            "2=1-346",
+            "2-3-416",
+            "2-6-413",
+            "1=4-235",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -39685,21 +40248,67 @@
       "race_no": 6,
       "encParaR": "Ozpk-eumfo_0DwX9fHqEYa0ndb-uqDRx20BHIJWhGOo",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "コマ切れ",
+        "provider": "リズム",
+        "main_lines": [
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 1
+          },
+          {
+            "ichi": 2,
+            "shaban": 2
+          },
+          {
+            "ichi": 3,
+            "shaban": 4
+          },
+          {
+            "ichi": 5,
+            "shaban": 3
+          },
+          {
+            "ichi": 6,
+            "shaban": 6
+          },
+          {
+            "ichi": 8,
+            "shaban": 5
+          },
+          {
+            "ichi": 10,
+            "shaban": 7
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "62",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 15:18&nbsp;更新",
         "yudoSensyuName": "藤井　將",
+        "yosoinMei": "リズム",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "1",
@@ -39709,6 +40318,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "015565",
             "sensyuName": "入江　航太",
             "huKen": "熊　本",
@@ -39773,6 +40383,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "○",
             "sensyuRegistNo": "012326",
             "sensyuName": "國武　耕二",
             "huKen": "佐　賀",
@@ -39837,6 +40448,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "×",
             "sensyuRegistNo": "013594",
             "sensyuName": "高田　真幸",
             "huKen": "福　岡",
@@ -39896,6 +40508,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "▲",
             "sensyuRegistNo": "012466",
             "sensyuName": "郡　英治",
             "ketujyouTuikaHojyuColorInfo": "body_base_color",
@@ -39962,6 +40575,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "△",
             "sensyuRegistNo": "014845",
             "sensyuName": "表原　周",
             "huKen": "徳　島",
@@ -40026,6 +40640,7 @@
             "syabanBgColorInfo": "base_color_6_bk",
             "syabanCharColorInfo": "base_color_6",
             "syaban": "6",
+            "yosoin": "注",
             "sensyuRegistNo": "014133",
             "sensyuName": "高橋　紀史",
             "huKen": "佐　賀",
@@ -40157,55 +40772,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "コマ切れ",
+          "lineKeitaiClass": "komagire",
+          "kyoHyoji": "false",
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "1",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "2",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "5",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "3",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "8",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "6",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "10",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "19.7",
+              "ritsu": "21.5",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "19.2",
+              "ritsu": "21.0",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "16.5",
+              "ritsu": "15.8",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "14.3",
+              "ritsu": "13.4",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "13.5",
+              "ritsu": "12.5",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "9.1",
+              "ritsu": "8.9",
               "classname": "base_color_6",
               "shaban": ""
             },
             {
-              "ritsu": "7.4",
+              "ritsu": "6.5",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=2-435",
+            "1=3-256",
+            "1-5-236",
+            "1-6-235",
+            "3=6-215",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -40225,21 +40890,65 @@
       "race_no": 7,
       "encParaR": "Ozpk-eumfo_0DwX9fHqEYROqe7YNC6ktl8U4djah-AY",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "三分戦",
+        "provider": "リズム",
+        "main_lines": [
+          [
+            1,
+            2,
+            5
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 1
+          },
+          {
+            "ichi": 2,
+            "shaban": 2
+          },
+          {
+            "ichi": 3,
+            "shaban": 5
+          },
+          {
+            "ichi": 5,
+            "shaban": 4
+          },
+          {
+            "ichi": 6,
+            "shaban": 3
+          },
+          {
+            "ichi": 8,
+            "shaban": 7
+          },
+          {
+            "ichi": 9,
+            "shaban": 6
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "62",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 15:18&nbsp;更新",
         "yudoSensyuName": "甲斐下　智",
+        "yosoinMei": "リズム",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "7",
@@ -40249,6 +40958,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "○",
             "sensyuRegistNo": "015830",
             "sensyuName": "細中　翔太",
             "huKen": "岡　山",
@@ -40313,6 +41023,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "◎",
             "sensyuRegistNo": "013650",
             "sensyuName": "吉本　哲郎",
             "huKen": "広　島",
@@ -40377,6 +41088,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "注",
             "sensyuRegistNo": "014333",
             "sensyuName": "阿部　兼士",
             "huKen": "福　岡",
@@ -40441,6 +41153,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "×",
             "sensyuRegistNo": "014422",
             "sensyuName": "前田　義和",
             "ketujyouTuikaHojyuColorInfo": "body_base_color",
@@ -40507,6 +41220,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "▲",
             "sensyuRegistNo": "014185",
             "sensyuName": "隅　貴史",
             "huKen": "山　口",
@@ -40635,6 +41349,7 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
+            "yosoin": "△",
             "sensyuRegistNo": "015828",
             "sensyuName": "秋末　蓮",
             "huKen": "兵　庫",
@@ -40702,55 +41417,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "三分戦",
+          "lineKeitaiClass": "sanbusen",
+          "kyoHyoji": "false",
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "1",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "2",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "6",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "5",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "3",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "9",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "8",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "21.6",
+              "ritsu": "21.7",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "20.0",
+              "ritsu": "19.9",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "16.1",
-              "classname": "base_color_5",
-              "shaban": "5"
-            },
-            {
-              "ritsu": "13.2",
-              "classname": "base_color_4",
-              "shaban": "4"
-            },
-            {
-              "ritsu": "12.3",
+              "ritsu": "16.3",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "10.5",
+              "ritsu": "14.0",
+              "classname": "base_color_5",
+              "shaban": "5"
+            },
+            {
+              "ritsu": "11.1",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "5.9",
+              "ritsu": "9.8",
+              "classname": "base_color_4",
+              "shaban": ""
+            },
+            {
+              "ritsu": "6.9",
               "classname": "base_color_6",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "2=1-547",
+            "2=4-173",
+            "2-7-146",
+            "2-3-147",
+            "4=3-217",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -40770,21 +41535,67 @@
       "race_no": 8,
       "encParaR": "Ozpk-eumfo_0DwX9fHqEYXOnhHXaQgl_iAw2atQADJ8",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "三分戦",
+        "provider": "リズム",
+        "main_lines": [
+          [
+            1,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 1
+          },
+          {
+            "ichi": 2,
+            "shaban": 3
+          },
+          {
+            "ichi": 4,
+            "shaban": 6
+          },
+          {
+            "ichi": 5,
+            "shaban": 4
+          },
+          {
+            "ichi": 7,
+            "shaban": 2
+          },
+          {
+            "ichi": 8,
+            "shaban": 5
+          },
+          {
+            "ichi": 10,
+            "shaban": 7
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "62",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 15:18&nbsp;更新",
         "yudoSensyuName": "船瀬　惇平",
+        "yosoinMei": "リズム",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "6",
@@ -40794,6 +41605,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "015741",
             "sensyuName": "堀川　敬太郎",
             "huKen": "福　岡",
@@ -40858,6 +41670,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "△",
             "sensyuRegistNo": "015377",
             "sensyuName": "蒋野　翔太",
             "huKen": "徳　島",
@@ -40922,6 +41735,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "○",
             "sensyuRegistNo": "013447",
             "sensyuName": "坂本　晃輝",
             "huKen": "佐　賀",
@@ -40986,6 +41800,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "×",
             "sensyuRegistNo": "012757",
             "sensyuName": "市本　隆司",
             "huKen": "広　島",
@@ -41050,6 +41865,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "注",
             "sensyuRegistNo": "014556",
             "sensyuName": "小川　祐司",
             "huKen": "愛　媛",
@@ -41160,6 +41976,7 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
+            "yosoin": "▲",
             "sensyuRegistNo": "014474",
             "sensyuName": "山崎　晃",
             "huKen": "石　川",
@@ -41227,55 +42044,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "三分戦",
+          "lineKeitaiClass": "sanbusen",
+          "kyoHyoji": "false",
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "1",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "7",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "2",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "5",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "8",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "4",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "10",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "22.1",
+              "ritsu": "21.3",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "15.4",
+              "ritsu": "15.8",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "14.3",
-              "classname": "base_color_2",
-              "shaban": "2"
-            },
-            {
-              "ritsu": "13.6",
-              "classname": "base_color_6",
-              "shaban": "6"
-            },
-            {
-              "ritsu": "13.3",
-              "classname": "base_color_5",
-              "shaban": "5"
-            },
-            {
-              "ritsu": "13.0",
+              "ritsu": "14.6",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "8.0",
+              "ritsu": "14.6",
+              "classname": "base_color_6",
+              "shaban": "6"
+            },
+            {
+              "ritsu": "14.2",
+              "classname": "base_color_2",
+              "shaban": "2"
+            },
+            {
+              "ritsu": "12.1",
+              "classname": "base_color_5",
+              "shaban": "5"
+            },
+            {
+              "ritsu": "7.0",
               "classname": "base_color_7",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=3-425",
+            "1=4-256",
+            "1-2-345",
+            "1-5-342",
+            "2=5-143",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
@@ -41295,21 +42162,65 @@
       "race_no": 9,
       "encParaR": "Ozpk-eumfo_0DwX9fHqEYWUTeokJ9RWyonfjireo9as",
       "player_count": 7,
-      "line_found": false,
+      "line_found": true,
       "line_prediction": {
-        "line_found": false,
-        "prediction_type": null,
-        "provider": null,
-        "main_lines": [],
-        "positions": []
+        "line_found": true,
+        "prediction_type": "三分戦",
+        "provider": "リズム",
+        "main_lines": [
+          [
+            7,
+            3,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "positions": [
+          {
+            "ichi": 1,
+            "shaban": 7
+          },
+          {
+            "ichi": 2,
+            "shaban": 3
+          },
+          {
+            "ichi": 3,
+            "shaban": 6
+          },
+          {
+            "ichi": 5,
+            "shaban": 1
+          },
+          {
+            "ichi": 6,
+            "shaban": 2
+          },
+          {
+            "ichi": 8,
+            "shaban": 5
+          },
+          {
+            "ichi": 9,
+            "shaban": 4
+          }
+        ]
       },
       "jsj006": {
         "syusouInfoExistFlg": "1",
         "bKeirinjyoCd": "62",
         "charColor1": "color_red",
         "charColor2": "color_blue",
-        "lastUpdateTime": "2026/07/14 02:37&nbsp;更新",
+        "lastUpdateTime": "2026/07/14 15:18&nbsp;更新",
         "yudoSensyuName": "藤井　將",
+        "yosoinMei": "リズム",
         "raceResult1Syaban": "1",
         "raceResult2Syaban": "2",
         "backCnt1Syaban": "7",
@@ -41319,6 +42230,7 @@
             "syabanBgColorInfo": "base_color_1_bk",
             "syabanCharColorInfo": "base_color_1",
             "syaban": "1",
+            "yosoin": "◎",
             "sensyuRegistNo": "015446",
             "sensyuName": "林　敬宏",
             "ketujyouTuikaHojyuColorInfo": "body_base_color",
@@ -41385,6 +42297,7 @@
             "syabanBgColorInfo": "base_color_2_bk",
             "syabanCharColorInfo": "base_color_2",
             "syaban": "2",
+            "yosoin": "○",
             "sensyuRegistNo": "013330",
             "sensyuName": "舘　泰守",
             "huKen": "愛　知",
@@ -41449,6 +42362,7 @@
             "syabanBgColorInfo": "base_color_3_bk",
             "syabanCharColorInfo": "base_color_3",
             "syaban": "3",
+            "yosoin": "×",
             "sensyuRegistNo": "015561",
             "sensyuName": "原井　剣也",
             "huKen": "福　岡",
@@ -41513,6 +42427,7 @@
             "syabanBgColorInfo": "base_color_4_bk",
             "syabanCharColorInfo": "base_color_4",
             "syaban": "4",
+            "yosoin": "△",
             "sensyuRegistNo": "013058",
             "sensyuName": "富　弥昭",
             "huKen": "山　口",
@@ -41577,6 +42492,7 @@
             "syabanBgColorInfo": "base_color_5_bk",
             "syabanCharColorInfo": "base_color_5",
             "syaban": "5",
+            "yosoin": "注",
             "sensyuRegistNo": "014952",
             "sensyuName": "多田　晃紀",
             "huKen": "岡　山",
@@ -41705,6 +42621,7 @@
             "syabanBgColorInfo": "base_color_7_bk",
             "syabanCharColorInfo": "base_color_7",
             "syaban": "7",
+            "yosoin": "▲",
             "sensyuRegistNo": "015934",
             "sensyuName": "吉田　航",
             "huKen": "大　分",
@@ -41760,55 +42677,105 @@
       "jsj005": {
         "narabiyoso": {
           "chushiFlg": "2",
-          "maxAxixY": 0,
-          "errFlg": "true",
-          "errMsg": "現在並び予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "maxAxixY": 1,
+          "lineKeitai": "三分戦",
+          "lineKeitaiClass": "sanbusen",
+          "kyoHyoji": "false",
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "shaban": [
+            {
+              "ichi": "5",
+              "shaban": "1",
+              "classname": "base_color_1"
+            },
+            {
+              "ichi": "6",
+              "shaban": "2",
+              "classname": "base_color_2"
+            },
+            {
+              "ichi": "2",
+              "shaban": "3",
+              "classname": "base_color_3"
+            },
+            {
+              "ichi": "9",
+              "shaban": "4",
+              "classname": "base_color_4"
+            },
+            {
+              "ichi": "8",
+              "shaban": "5",
+              "classname": "base_color_5"
+            },
+            {
+              "ichi": "3",
+              "shaban": "6",
+              "classname": "base_color_6"
+            },
+            {
+              "ichi": "1",
+              "shaban": "7",
+              "classname": "base_color_7"
+            }
+          ]
         },
         "sanrentan": {
           "ryoikiFlg": "true",
           "shiji": [
             {
-              "ritsu": "24.0",
+              "ritsu": "22.3",
               "classname": "base_color_3",
               "shaban": "3"
             },
             {
-              "ritsu": "18.6",
+              "ritsu": "17.2",
               "classname": "base_color_7",
               "shaban": "7"
             },
             {
-              "ritsu": "15.4",
+              "ritsu": "17.0",
               "classname": "base_color_1",
               "shaban": "1"
             },
             {
-              "ritsu": "13.7",
+              "ritsu": "14.6",
               "classname": "base_color_2",
               "shaban": "2"
             },
             {
-              "ritsu": "12.3",
+              "ritsu": "12.2",
               "classname": "base_color_5",
               "shaban": "5"
             },
             {
-              "ritsu": "10.1",
+              "ritsu": "10.5",
               "classname": "base_color_4",
               "shaban": "4"
             },
             {
-              "ritsu": "5.6",
+              "ritsu": "5.7",
               "classname": "base_color_6",
               "shaban": ""
             }
           ]
         },
         "kaime": {
-          "errFlg": "true",
-          "errMsg": "現在買い目予想情報は提供されておりません。",
-          "ryoikiFlg": "true"
+          "teikyo": "リズム",
+          "errFlg": "false",
+          "ryoikiFlg": "true",
+          "yoso": [
+            "1=2-345",
+            "1=3-245",
+            "1-4-235",
+            "1-5-234",
+            "3=7-614",
+            "",
+            "",
+            ""
+          ]
         },
         "sensyuShokaiFlg": "0",
         "interViewFlg": "0",
