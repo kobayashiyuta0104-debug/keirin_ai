@@ -31,7 +31,10 @@ TARGET_DATE = datetime.now(JST).strftime("%Y%m%d")
 
 import time
 
-print("datetime.now() =", datetime.now())
+JST = timezone(timedelta(hours=9))
+
+print("datetime.now(JST) =", datetime.now(JST))
+print("TARGET_DATE =", TARGET_DATE)
 print("time.tzname =", time.tzname)
 
 # 保存先
