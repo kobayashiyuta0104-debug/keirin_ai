@@ -50,13 +50,11 @@ def export_lines_csv():
 
     output_rows = []
 
-    # 最大ライン数を調べる（列数を決めるため）
-    max_lines = 0
-    for row in rows:
-        line_info = row.get("line_prediction", {})
-        main_lines = line_info.get("main_lines", [])
-        if len(main_lines) > max_lines:
-            max_lines = len(main_lines)
+    # ===========================================================
+    # ライン列は固定7列
+    # ===========================================================
+
+    max_lines = 9
 
     # CSVヘッダー作成
     fieldnames = [
