@@ -28,6 +28,11 @@ DAILY_DIR.mkdir(parents=True, exist_ok=True)
 # 今日の日付
 TARGET_DATE = datetime.now().strftime("%Y%m%d")
 
+import time
+
+print("datetime.now() =", datetime.now())
+print("time.tzname =", time.tzname)
+
 # 保存先
 PRE_RACE_FILE = DAILY_DIR / f"{TARGET_DATE}_pre_race.json"
 
