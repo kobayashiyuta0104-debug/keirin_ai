@@ -1,7 +1,7 @@
 import json
 import importlib.util
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 # ===========================================================
@@ -25,7 +25,8 @@ DAILY_DIR = BASE / "data_official" / "daily"
 DAILY_DIR.mkdir(parents=True, exist_ok=True)
 
 # 昨日の日付
-YESTERDAY = (datetime.now() - timedelta(days=1)).strftime("%Y%m%d")
+JST = timezone(timedelta(hours=9))
+YESTERDAY = (datetime.now(JST) - timedelta(days=1)).strftime("%Y%m%d")
 
 # 保存先
 INTEGRATED_FILE = DAILY_DIR / f"{YESTERDAY}_integrated.json"

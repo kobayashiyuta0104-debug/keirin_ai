@@ -2,7 +2,7 @@ import json
 import csv
 import os
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # ===========================================================
 # 基本設定
@@ -20,7 +20,8 @@ CSV_DIR = BASE / "csv" / "lines"
 CSV_DIR.mkdir(parents=True, exist_ok=True)
 
 # 前日の日付
-YESTERDAY = (datetime.now() - timedelta(days=1)).strftime("%Y%m%d")
+JST = timezone(timedelta(hours=9))
+YESTERDAY = (datetime.now(JST) - timedelta(days=1)).strftime("%Y%m%d")
 
 PRE_RACE_FILE = DAILY_DIR / f"{YESTERDAY}_pre_race.json"
 OUTPUT_CSV = CSV_DIR / f"{YESTERDAY}_lines.csv"

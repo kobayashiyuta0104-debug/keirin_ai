@@ -3,7 +3,7 @@ import urllib.request
 import urllib.parse
 import importlib.util
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # ===========================================================
@@ -26,7 +26,8 @@ DAILY_DIR = BASE / "data_official" / "daily"
 DAILY_DIR.mkdir(parents=True, exist_ok=True)
 
 # 今日の日付
-TARGET_DATE = datetime.now().strftime("%Y%m%d")
+JST = timezone(timedelta(hours=9))
+TARGET_DATE = datetime.now(JST).strftime("%Y%m%d")
 
 import time
 
