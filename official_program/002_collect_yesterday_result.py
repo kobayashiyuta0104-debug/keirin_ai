@@ -21,7 +21,7 @@ ORIGIN_PROGRAM_DIR = BASE / "official_program"/ "origin_program"
 COLLECTOR_FILE = BASE/ "official_program" / "origin_program"  / "004_collect_historical_raw.py"
 
 
-DAILY_DIR = BASE / "data_official" / "daily" / "integrated"
+DAILY_DIR = BASE / "data_official" / "daily" / "result"
 DAILY_DIR.mkdir(parents=True, exist_ok=True)
 
 # 昨日の日付
@@ -29,7 +29,7 @@ JST = timezone(timedelta(hours=9))
 YESTERDAY = (datetime.now(JST) - timedelta(days=1)).strftime("%Y%m%d")
 
 # 保存先
-INTEGRATED_FILE = DAILY_DIR / f"{YESTERDAY}_integrated.json"
+result_FILE = DAILY_DIR / f"{YESTERDAY}_result.json"
 
 
 # ===========================================================
@@ -114,16 +114,16 @@ def collect_yesterday_results():
 
     output = {
         "program": "002_collect_yesterday_result.py",
-        "data_type": "INTEGRATED",
+        "data_type": "result",
         "target_date": YESTERDAY,
         "race_count": len(connected_rows),
         "races": connected_rows,
     }
 
-    save_json(INTEGRATED_FILE, output)
+    save_json(result_FILE, output)
 
     print()
-    print("保存:", INTEGRATED_FILE)
+    print("保存:", result_FILE)
     print("=== 完了 ===")
 
     return output

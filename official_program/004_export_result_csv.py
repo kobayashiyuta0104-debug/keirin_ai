@@ -27,19 +27,19 @@ if os.name == "nt":
 else:
     BASE = Path(__file__).resolve().parent.parent
 
-DAILY_DIR = BASE / "data_official" / "daily" / "integrated"
+DAILY_DIR = BASE / "data_official" / "daily" / "result"
 RESULT_CSV_DIR = BASE / "csv" / "result"
 
 RESULT_CSV_DIR.mkdir(parents=True, exist_ok=True)
 
 # ===========================================================
-# 最新integrated.json自動検出
+# 最新result.json自動検出
 # ===========================================================
 
-def find_latest_integrated_json():
+def find_latest_result_json():
     candidates = []
 
-    for path in DAILY_DIR.glob("*_integrated.json"):
+    for path in DAILY_DIR.glob("*_result.json"):
         name = path.name
         try:
             date_text = name.split("_")[0]
@@ -49,7 +49,7 @@ def find_latest_integrated_json():
             continue
 
     if not candidates:
-        raise FileNotFoundError("integrated.json が見つかりません")
+        raise FileNotFoundError("result.json が見つかりません")
 
     candidates.sort(key=lambda x: x[0], reverse=True)
     return candidates[0][1]
@@ -104,17 +104,17 @@ def normalize_space(value):
 """
 ===========================================================
 Part 2
-・integrated.json 読込
+・result.json 読込
 ・JSJ012（着順 + 払戻）抽出
 ・result行生成
 ===========================================================
 """
 
 # ===========================================================
-# integrated.json 読込
+# result.json 読込
 # ===========================================================
 
-def load_integrated_json(path):
+def load_result_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -228,8 +228,8 @@ Part 3
 # 全レース → 全result行生成
 # ===========================================================
 
-def build_all_result_rows(integrated):
-    races = integrated.get("races")
+def build_all_result_rows(result):
+    races = result.get("races")
     if not isinstance(races, list):
         return []
 
@@ -260,7 +260,7 @@ def save_result_csv(rows, date_text):
 ===========================================================
 Part 4
 ・main
-・最新integrated.json → result.csv 出力
+・最新result.json → result.csv 出力
 ===========================================================
 """
 
@@ -273,17 +273,17 @@ def main():
     print("006 Result CSV Exporter")
     print("===" * 20)
 
-    integrated_path = find_latest_integrated_json()
-    date_text = integrated_path.name.split("_")[0]
+    result_path = find_latest_result_json()
+    date_text = result_path.name.split("_")[0]
 
-    print(f"検出された最新integrated: {integrated_path}")
+    print(f"検出された最新result: {result_path}")
     print(f"対象日付: {date_text}")
 
-    integrated = load_integrated_json(integrated_path)
+    result = load_result_json(result_path)
 
-    rows = build_all_result_rows(integrated)
+    rows = build_all_result_rows(result)
 
-    print(f"レース数: {len(integrated.get('races', []))}")
+    print(f"レース数: {len(result.get('races', []))}")
     print(f"結果行数: {len(rows)}")
 
     output_path = save_result_csv(rows, date_text)
