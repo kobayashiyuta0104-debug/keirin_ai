@@ -5,8 +5,16 @@ permissions:
   
 on:
   workflow_dispatch:      # ← 手動実行用のトリガー
-  schedule:
-    - cron: "0 21 * * *"   # 日本時間06:00に毎日実行
+  
+schedule:
+  # 日本時間02:00
+  - cron: '0 17 * * *'
+
+  # 日本時間04:00
+  - cron: '0 19 * * *'
+
+  # 日本時間08:00
+  - cron: '0 23 * * *'
 
 jobs:
   run:
