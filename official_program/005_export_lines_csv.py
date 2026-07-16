@@ -15,7 +15,7 @@ if os.name == "nt":
 else:
     BASE = Path(__file__).resolve().parent.parent
 
-DAILY_DIR = BASE / "data_official" / "daily"
+DAILY_DIR = BASE / "data_official" / "daily" / "pre_race"
 CSV_DIR = BASE / "csv" / "lines"
 CSV_DIR.mkdir(parents=True, exist_ok=True)
 

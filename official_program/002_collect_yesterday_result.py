@@ -21,7 +21,7 @@ ORIGIN_PROGRAM_DIR = BASE / "official_program"/ "origin_program"
 COLLECTOR_FILE = BASE/ "official_program" / "origin_program"  / "004_collect_historical_raw.py"
 
 
-DAILY_DIR = BASE / "data_official" / "daily"
+DAILY_DIR = BASE / "data_official" / "daily" / "integrated"
 DAILY_DIR.mkdir(parents=True, exist_ok=True)
 
 # 昨日の日付

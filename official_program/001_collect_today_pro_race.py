@@ -22,7 +22,7 @@ ORIGIN_PROGRAM_DIR = BASE  / "official_program"/ "origin_program"
 
 COLLECTOR_FILE = BASE / "official_program" / "origin_program" / "004_collect_historical_raw.py"
 
-DAILY_DIR = BASE / "data_official" / "daily"
+DAILY_DIR = BASE / "data_official" / "daily"/ "pre_race"
 DAILY_DIR.mkdir(parents=True, exist_ok=True)
 
 # 今日の日付
@@ -47,6 +47,47 @@ def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+# ===========================================================
+# 既存JSONとマージ
+# ===========================================================
+
+def merge_previous_data(output):
+
+    if not PRE_RACE_FILE.exists():
+        return output
+
+    try:
+        with open(PRE_RACE_FILE, "r", encoding="utf-8") as f:
+            old = json.load(f)
+    except:
+        return output
+
+    old_map = {}
+
+    for race in old.get("races", []):
+        old_map[race["race_key"]] = race
+
+    for race in output["races"]:
+
+        old_race = old_map.get(race["race_key"])
+
+        if old_race is None:
+            continue
+
+        # ライン予想が今回取れなかった場合
+        if (
+            not race["line_found"]
+            and old_race.get("line_found")
+        ):
+            race["line_found"] = True
+            race["line_prediction"] = old_race.get(
+                "line_prediction"
+            )
+            race["jsj005"] = old_race.get(
+                "jsj005"
+            )
+
+    return output
 
 # ===========================================================
 # 004 モジュール読込
@@ -255,6 +296,8 @@ def collect_today_pre_race():
         "line_found_count": line_found_count,
         "races": races,
     }
+
+    output = merge_previous_data(output)
 
     save_json(PRE_RACE_FILE, output)
 
