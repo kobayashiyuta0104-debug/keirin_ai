@@ -67,6 +67,7 @@ RESULT_HEADERS = [
     "登録番号",
     "着順",
     "結果ステータス",
+    "結果理由",
     "3連単組番",
     "3連単払戻",
     "人気",
@@ -175,22 +176,41 @@ def build_result_rows_from_race(race):
         player_id = str(r.get("sensyuRegistNo", "")).zfill(6)
         finish_rank = to_int(r.get("tyaku"))
 
-        # 状態判定
-        text = (
-            str(r.get("kikaku", "")) +
-            str(r.get("jyoutai", "")) +
-            str(r.get("tyakusa", ""))
-        )
-
+        # 個人状態
         status = "NORMAL"
-        if "落" in text:
-            status = "落車"
-        elif "失" in text:
-            status = "失格"
-        elif "棄" in text:
-            status = "棄権"
-        elif "欠" in text:
-            status = "欠場"
+        note = None
+
+        state_list = r.get("kojinStateItemSubData", [])
+
+        if isinstance(state_list, list) and state_list:
+
+            state = state_list[0]
+
+            status = state.get("kojinState")
+            if not status:
+                status = "NORMAL"
+
+            reason = state.get("tyakuNote")
+            if not note:
+                note = None
+            note = state.get("tyakuNote")
+
+        else:
+
+            text = (
+                str(r.get("kikaku", "")) +
+                str(r.get("jyoutai", "")) +
+                str(r.get("tyakusa", ""))
+            )
+
+            if "落" in text:
+                status = "落車"
+            elif "失" in text:
+                status = "失格"
+            elif "棄" in text:
+                status = "棄権"
+            elif "欠" in text:
+                status = "欠場"
 
         rows.append({
             "レースキー": race.get("race_key"),
@@ -201,7 +221,9 @@ def build_result_rows_from_race(race):
             "車番": car_no,
             "登録番号": player_id,
             "着順": finish_rank,
+
             "結果ステータス": status,
+            "結果理由": note,
 
             "3連単組番": trifecta_comb,
             "3連単払戻": trifecta_payout,
