@@ -1,0 +1,217 @@
+{
+  "program": "001_collect_historical_schedule.py",
+  "target_date": "20251130",
+  "venue_count": 8,
+  "venues": [
+    {
+      "競輪場コード": "27",
+      "競輪場名": "京王閣",
+      "encPrm": "2VJimz9EDEXUM2mIdkaXc2WqLNmVuRlI5zR1-J44Iwk"
+    },
+    {
+      "競輪場コード": "37",
+      "競輪場名": "伊東",
+      "encPrm": "h__77j4w8AlDcHCZGhh7w2hPqvk9Pund5nL2Ou5Oe00"
+    },
+    {
+      "競輪場コード": "13",
+      "競輪場名": "いわき平",
+      "encPrm": "6uw4vMFPkLqXBclnOh-l8qKc-NpfqLzQUmAxljYh1ho"
+    },
+    {
+      "競輪場コード": "45",
+      "競輪場名": "豊橋",
+      "encPrm": "dcMhrCzhpFQ5tSBiE8Lk2EbhSe5T6UyIATae9Vpt3MY"
+    },
+    {
+      "競輪場コード": "53",
+      "競輪場名": "奈良",
+      "encPrm": "kcv9vRY3BQhJPm4clm0MgwKI4jqlnrAFwfRxAxg9ugE"
+    },
+    {
+      "競輪場コード": "62",
+      "競輪場名": "広島",
+      "encPrm": "SuKJIPVhVoiNK6nnisncLwadvzpZ7suNjkMBboQsgKM"
+    },
+    {
+      "競輪場コード": "83",
+      "競輪場名": "久留米",
+      "encPrm": "bIihQu3XpBpTSyx69yNd6PhfKPTOrd-u3etryOZf2-Q"
+    },
+    {
+      "競輪場コード": "86",
+      "競輪場名": "別府",
+      "encPrm": "Gg52YFj8s7zUgX0NswlV0jOQxOWNSmc3_BgUEWKoPTc"
+    }
+  ],
+  "raw_jsj057": {
+    "kInfo": [
+      {
+        "jyoName": "京王閣",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f1.png",
+        "gradeIconChar": "F1",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day2.png",
+        "nitijiIconChar": "2日目",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png",
+        "kaisaiIconChar": "3",
+        "bgColor": "white_bg_color",
+        "encPrm": "2VJimz9EDEXUM2mIdkaXc2WqLNmVuRlI5zR1-J44Iwk",
+        "bKeirinCd": "27",
+        "KeirinCd": "27",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "伊東",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f1.png",
+        "gradeIconChar": "F1",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day2.png",
+        "nitijiIconChar": "2日目",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+        "kaisaiIconChar": "1",
+        "huka1Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png",
+        "huka1IconChar": "01",
+        "huka2Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+        "huka2IconChar": "02",
+        "bgColor": "dokanto_color",
+        "encPrm": "h__77j4w8AlDcHCZGhh7w2hPqvk9Pund5nL2Ou5Oe00",
+        "bKeirinCd": "37",
+        "KeirinCd": "37",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "いわき平",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day1.png",
+        "nitijiIconChar": "初日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png",
+        "kaisaiIconChar": "5",
+        "bgColor": "white_bg_color",
+        "encPrm": "6uw4vMFPkLqXBclnOh-l8qKc-NpfqLzQUmAxljYh1ho",
+        "bKeirinCd": "13",
+        "KeirinCd": "13",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "豊橋",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day1.png",
+        "nitijiIconChar": "初日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png",
+        "kaisaiIconChar": "5",
+        "bgColor": "white_bg_color",
+        "encPrm": "dcMhrCzhpFQ5tSBiE8Lk2EbhSe5T6UyIATae9Vpt3MY",
+        "bKeirinCd": "45",
+        "KeirinCd": "45",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "奈良",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day1.png",
+        "nitijiIconChar": "初日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png",
+        "kaisaiIconChar": "5",
+        "bgColor": "white_bg_color",
+        "encPrm": "kcv9vRY3BQhJPm4clm0MgwKI4jqlnrAFwfRxAxg9ugE",
+        "bKeirinCd": "53",
+        "KeirinCd": "53",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "広島",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day1.png",
+        "nitijiIconChar": "初日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png",
+        "kaisaiIconChar": "8",
+        "bgColor": "white_bg_color",
+        "encPrm": "SuKJIPVhVoiNK6nnisncLwadvzpZ7suNjkMBboQsgKM",
+        "bKeirinCd": "62",
+        "KeirinCd": "62",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "久留米",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day1.png",
+        "nitijiIconChar": "初日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png",
+        "kaisaiIconChar": "3",
+        "huka1Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+        "huka1IconChar": "02",
+        "bgColor": "white_bg_color",
+        "encPrm": "bIihQu3XpBpTSyx69yNd6PhfKPTOrd-u3etryOZf2-Q",
+        "bKeirinCd": "83",
+        "KeirinCd": "83",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "別府",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day2.png",
+        "nitijiIconChar": "2日目",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png",
+        "kaisaiIconChar": "8",
+        "huka1Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+        "huka1IconChar": "02",
+        "bgColor": "white_bg_color",
+        "encPrm": "Gg52YFj8s7zUgX0NswlV0jOQxOWNSmc3_BgUEWKoPTc",
+        "bKeirinCd": "86",
+        "KeirinCd": "86",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      }
+    ],
+    "kResultCd": 1,
+    "resultCd": 0,
+    "reqprm": {
+      "kday": "20251130"
+    },
+    "writeANA": false
+  }
+}

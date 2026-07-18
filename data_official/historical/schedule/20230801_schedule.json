@@ -1,0 +1,191 @@
+{
+  "program": "001_collect_historical_schedule.py",
+  "target_date": "20230801",
+  "venue_count": 7,
+  "venues": [
+    {
+      "競輪場コード": "36",
+      "競輪場名": "小田原",
+      "encPrm": "IAuYKe7sFyFNu9UWqjEfRbPAW4deQ6i_zWvEazMqBlo"
+    },
+    {
+      "競輪場コード": "53",
+      "競輪場名": "奈良",
+      "encPrm": "QiwmUhsgjAwv5s4ANF05KutTYp0LzR04_wEDJ49wXe8"
+    },
+    {
+      "競輪場コード": "61",
+      "競輪場名": "玉野",
+      "encPrm": "LaXRJbF6aRqbcLJ-VzIJ1pk9CFkz5gvy421K091hC0k"
+    },
+    {
+      "競輪場コード": "12",
+      "競輪場名": "青森",
+      "encPrm": "jO_OtG-D_ngA1UTywZef2QSQydp6-M-jhNXEjsYV4rs"
+    },
+    {
+      "競輪場コード": "21",
+      "競輪場名": "弥彦",
+      "encPrm": "GUtJyf3wGjk1w1vpz6hOZjR-QbZLKy3wN0cXOKdxd0Y"
+    },
+    {
+      "競輪場コード": "51",
+      "競輪場名": "福井",
+      "encPrm": "kDABDQw8d3S_8hl3dLC8w1M9ArXF0OnhrbU7_Jdho4w"
+    },
+    {
+      "競輪場コード": "84",
+      "競輪場名": "武雄",
+      "encPrm": "7KEG1-tbp4yqnEOvW46lxHOQl6eE_DWNyTc4O-HF9wU"
+    }
+  ],
+  "raw_jsj057": {
+    "kInfo": [
+      {
+        "jyoName": "小田原",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f1.png",
+        "gradeIconChar": "F1",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day2.png",
+        "nitijiIconChar": "2日目",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+        "kaisaiIconChar": "1",
+        "huka1Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png",
+        "huka1IconChar": "01",
+        "bgColor": "dokanto_color",
+        "encPrm": "IAuYKe7sFyFNu9UWqjEfRbPAW4deQ6i_zWvEazMqBlo",
+        "bKeirinCd": "36",
+        "KeirinCd": "36",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "奈良",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f1.png",
+        "gradeIconChar": "F1",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day1.png",
+        "nitijiIconChar": "初日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png",
+        "kaisaiIconChar": "5",
+        "bgColor": "white_bg_color",
+        "encPrm": "QiwmUhsgjAwv5s4ANF05KutTYp0LzR04_wEDJ49wXe8",
+        "bKeirinCd": "53",
+        "KeirinCd": "53",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "玉野",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f1.png",
+        "gradeIconChar": "F1",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day2.png",
+        "nitijiIconChar": "2日目",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png",
+        "kaisaiIconChar": "3",
+        "huka1Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+        "huka1IconChar": "02",
+        "bgColor": "white_bg_color",
+        "encPrm": "LaXRJbF6aRqbcLJ-VzIJ1pk9CFkz5gvy421K091hC0k",
+        "bKeirinCd": "61",
+        "KeirinCd": "61",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "青森",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_fday.png",
+        "nitijiIconChar": "最終日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png",
+        "kaisaiIconChar": "8",
+        "bgColor": "white_bg_color",
+        "encPrm": "jO_OtG-D_ngA1UTywZef2QSQydp6-M-jhNXEjsYV4rs",
+        "bKeirinCd": "12",
+        "KeirinCd": "12",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "弥彦",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day1.png",
+        "nitijiIconChar": "初日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png",
+        "kaisaiIconChar": "5",
+        "bgColor": "white_bg_color",
+        "encPrm": "GUtJyf3wGjk1w1vpz6hOZjR-QbZLKy3wN0cXOKdxd0Y",
+        "bKeirinCd": "21",
+        "KeirinCd": "21",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "福井",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day2.png",
+        "nitijiIconChar": "2日目",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+        "kaisaiIconChar": "1",
+        "huka1Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+        "huka1IconChar": "02",
+        "bgColor": "white_bg_color",
+        "encPrm": "kDABDQw8d3S_8hl3dLC8w1M9ArXF0OnhrbU7_Jdho4w",
+        "bKeirinCd": "51",
+        "KeirinCd": "51",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "武雄",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day1.png",
+        "nitijiIconChar": "初日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png",
+        "kaisaiIconChar": "8",
+        "bgColor": "white_bg_color",
+        "encPrm": "7KEG1-tbp4yqnEOvW46lxHOQl6eE_DWNyTc4O-HF9wU",
+        "bKeirinCd": "84",
+        "KeirinCd": "84",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      }
+    ],
+    "kResultCd": 1,
+    "resultCd": 0,
+    "reqprm": {
+      "kday": "20230801"
+    },
+    "writeANA": false
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "program": "001_collect_historical_schedule.py",
+  "target_date": "20260620",
+  "venue_count": 7,
+  "venues": [
+    {
+      "競輪場コード": "56",
+      "競輪場名": "岸和田",
+      "encPrm": "Jf8M704WoVPTu-FwuPh-RhsDaxsFpWTsNGhHJT7YUrw"
+    },
+    {
+      "競輪場コード": "11",
+      "競輪場名": "函館",
+      "encPrm": "T9wMz-ha1TZ640Z-S5GN5HEacbOU2PIeN9j5f1RxldQ"
+    },
+    {
+      "競輪場コード": "35",
+      "競輪場名": "平塚",
+      "encPrm": "DmIwu_ksRjo1cUHhq6GFl9jDWhxdwaUwsxqBbfpJxZU"
+    },
+    {
+      "競輪場コード": "74",
+      "競輪場名": "高知",
+      "encPrm": "u3ftnY5SRux-xk3s1TGkhS03pegQeKtUgbAXiQSsJfM"
+    },
+    {
+      "競輪場コード": "75",
+      "競輪場名": "松山",
+      "encPrm": "4QhapE1YS9GkaZAPKYUWdfP0UVpvSjRea7fD3dNxc48"
+    },
+    {
+      "競輪場コード": "81",
+      "競輪場名": "小倉",
+      "encPrm": "aTOkj2dFUUpQATsHeOxViLiLQ4VG6ZMRylfOtgGIZxA"
+    },
+    {
+      "競輪場コード": "87",
+      "競輪場名": "熊本",
+      "encPrm": "IOS13V6oiZkyQWK3r2H3SskyH9GcABe_HUBf4mqV3DU"
+    }
+  ],
+  "raw_jsj057": {
+    "kInfo": [
+      {
+        "jyoName": "岸和田",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_g1.png",
+        "gradeIconChar": "G1",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day5.png",
+        "nitijiIconChar": "5日目",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+        "kaisaiIconChar": "1",
+        "huka1Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_01.png",
+        "huka1IconChar": "01",
+        "huka2Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+        "huka2IconChar": "02",
+        "bgColor": "grade_g1_bg_color",
+        "encPrm": "Jf8M704WoVPTu-FwuPh-RhsDaxsFpWTsNGhHJT7YUrw",
+        "bKeirinCd": "56",
+        "KeirinCd": "56",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "函館",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f1.png",
+        "gradeIconChar": "F1",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day1.png",
+        "nitijiIconChar": "初日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png",
+        "kaisaiIconChar": "3",
+        "bgColor": "white_bg_color",
+        "encPrm": "T9wMz-ha1TZ640Z-S5GN5HEacbOU2PIeN9j5f1RxldQ",
+        "bKeirinCd": "11",
+        "KeirinCd": "11",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "平塚",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f1.png",
+        "gradeIconChar": "F1",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day2.png",
+        "nitijiIconChar": "2日目",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_1.png",
+        "kaisaiIconChar": "1",
+        "bgColor": "white_bg_color",
+        "encPrm": "DmIwu_ksRjo1cUHhq6GFl9jDWhxdwaUwsxqBbfpJxZU",
+        "bKeirinCd": "35",
+        "KeirinCd": "35",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "高知",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_fday.png",
+        "nitijiIconChar": "最終日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png",
+        "kaisaiIconChar": "5",
+        "huka1Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+        "huka1IconChar": "02",
+        "bgColor": "white_bg_color",
+        "encPrm": "u3ftnY5SRux-xk3s1TGkhS03pegQeKtUgbAXiQSsJfM",
+        "bKeirinCd": "74",
+        "KeirinCd": "74",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "松山",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_day2.png",
+        "nitijiIconChar": "2日目",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_8.png",
+        "kaisaiIconChar": "8",
+        "bgColor": "white_bg_color",
+        "encPrm": "4QhapE1YS9GkaZAPKYUWdfP0UVpvSjRea7fD3dNxc48",
+        "bKeirinCd": "75",
+        "KeirinCd": "75",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "小倉",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_fday.png",
+        "nitijiIconChar": "最終日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_3.png",
+        "kaisaiIconChar": "3",
+        "bgColor": "white_bg_color",
+        "encPrm": "aTOkj2dFUUpQATsHeOxViLiLQ4VG6ZMRylfOtgGIZxA",
+        "bKeirinCd": "81",
+        "KeirinCd": "81",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      },
+      {
+        "jyoName": "熊本",
+        "zenjituFlg": 0,
+        "gradeIcon": "/pc/static/img/icon/grade/ico_f2.png",
+        "gradeIconChar": "F2",
+        "nitijiIcon": "/pc/static/img/icon/Himoku/ico_fday.png",
+        "nitijiIconChar": "最終日",
+        "kaisaiIcon": "/pc/static/img/icon/KaisaiIcon/ico_kaisai_5.png",
+        "kaisaiIconChar": "5",
+        "huka1Icon": "/pc/static/img/icon/KaisaiIcon/ico_kaisaihuka_02.png",
+        "huka1IconChar": "02",
+        "bgColor": "white_bg_color",
+        "encPrm": "IOS13V6oiZkyQWK3r2H3SskyH9GcABe_HUBf4mqV3DU",
+        "bKeirinCd": "87",
+        "KeirinCd": "87",
+        "btnFlgLive": 1,
+        "btnFlgOdds": 1,
+        "btnFlgResult": 1,
+        "btnFlgDokanto": 0,
+        "btnFlgLiveDelivery": 0
+      }
+    ],
+    "kResultCd": 1,
+    "resultCd": 0,
+    "reqprm": {
+      "kday": "20260620"
+    },
+    "writeANA": false
+  }
+}

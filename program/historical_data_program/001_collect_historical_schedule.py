@@ -38,11 +38,6 @@ OUTPUT_DIR.mkdir(
     exist_ok=True,
 )
 
-OUTPUT_FILE = (
-    OUTPUT_DIR
-    / f"{TARGET_DATE}_schedule.json"
-)
-
 # ===========================================================
 # JSON取得
 # ===========================================================
@@ -80,18 +75,26 @@ def fetch_json(url):
 # schedule取得
 # ===========================================================
 
-def collect_schedule():
+def collect_schedule(target_date=None):
 
+    if target_date is None:
+        target_date = TARGET_DATE
+
+    output_file = (
+        OUTPUT_DIR
+        / f"{target_date}_schedule.json"
+    )
+    
     print()
     print("======================================")
     print("Historical Schedule")
-    print("TARGET :", TARGET_DATE)
+    print("TARGET :", target_date)
     print("======================================")
     print()
 
     url = (
         f"https://www.keirin.jp/pc/json?"
-        f"kday={TARGET_DATE}"
+        f"kday={target_date}"
         f"&type=JSJ057"
     )
 
@@ -135,7 +138,7 @@ def collect_schedule():
             "001_collect_historical_schedule.py",
 
         "target_date":
-            TARGET_DATE,
+            target_date,
 
         "venue_count":
             len(venues),
@@ -149,7 +152,7 @@ def collect_schedule():
     }
 
     with open(
-        OUTPUT_FILE,
+        output_file,
         "w",
         encoding="utf-8",
     ) as f:
@@ -164,13 +167,22 @@ def collect_schedule():
     print()
     print("======================================")
     print("保存完了")
-    print(OUTPUT_FILE)
+    print(output_file)
     print("======================================")
 
 # ===========================================================
 # main
 # ===========================================================
 
+def main(target_date=None):
+
+    collect_schedule(target_date)
+
+
+# ===========================================================
+# 実行
+# ===========================================================
+
 if __name__ == "__main__":
 
-    collect_schedule()
+    main()

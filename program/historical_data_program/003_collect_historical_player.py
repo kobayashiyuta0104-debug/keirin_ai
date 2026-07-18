@@ -29,14 +29,6 @@ else:
 
 TARGET_DATE = "20230101"
 
-INPUT_FILE = (
-    BASE
-    / "data_official"
-    / "historical"
-    / "pre_race"
-    / f"{TARGET_DATE}_pre_race.json"
-)
-
 OUTPUT_DIR = (
     BASE
     / "data_official"
@@ -47,11 +39,6 @@ OUTPUT_DIR = (
 OUTPUT_DIR.mkdir(
     parents=True,
     exist_ok=True,
-)
-
-OUTPUT_FILE = (
-    OUTPUT_DIR
-    / f"{TARGET_DATE}_player.json"
 )
 
 # ===========================================================
@@ -78,10 +65,10 @@ def save_json(path, data):
 # pre_race.json読込
 # ===========================================================
 
-def load_pre_race():
+def load_pre_race(input_file):
 
     with open(
-        INPUT_FILE,
+        input_file,
         "r",
         encoding="utf-8",
     ) as f:
@@ -172,16 +159,27 @@ def build_race_key(
 # Player取得
 # ===========================================================
 
-def collect_player():
+def collect_player(target_date=None):
+
+    if target_date is None:
+        target_date = TARGET_DATE
+
+    input_file = (
+        BASE
+        / "data_official"
+        / "historical"
+        / "pre_race"
+        / f"{target_date}_pre_race.json"
+    )
 
     print()
     print("========================================")
     print("Historical Player")
-    print("TARGET :", TARGET_DATE)
+    print("TARGET :", target_date)
     print("========================================")
     print()
 
-    pre_race = load_pre_race()
+    pre_race = load_pre_race(input_file)
 
     venues = pre_race.get(
         "venues",
@@ -194,7 +192,7 @@ def collect_player():
             "003_collect_historical_player.py",
 
         "target_date":
-            TARGET_DATE,
+            target_date,
 
         "venue_count":
             len(venues),
@@ -310,7 +308,7 @@ def collect_player():
 
             race_key = build_race_key(
 
-                TARGET_DATE,
+                target_date,
 
                 venue_name,
 
@@ -384,11 +382,19 @@ def collect_player():
 # 保存
 # ===========================================================
 
-def save_player(output):
+def save_player(output, target_date=None):
+
+    if target_date is None:
+        target_date = TARGET_DATE
+
+    output_file = (
+        OUTPUT_DIR
+        / f"{target_date}_player.json"
+    )
 
     save_json(
 
-        OUTPUT_FILE,
+        output_file,
 
         output,
 
@@ -405,7 +411,7 @@ def save_player(output):
     print("保存先")
 
     print(
-        OUTPUT_FILE
+        output_file
     )
 
     print()
@@ -446,12 +452,13 @@ def save_player(output):
 # main
 # ===========================================================
 
-def main():
+def main(target_date=None):
 
-    output = collect_player()
+    output = collect_player(target_date)
 
     save_player(
-        output
+        output,
+        target_date,
     )
 
 

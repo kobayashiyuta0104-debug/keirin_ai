@@ -24,13 +24,7 @@ from pathlib import Path
 
 BASE = Path(r"C:\競輪AI")
 
-INPUT_FILE = (
-    BASE
-    / "data_official"
-    / "historical"
-    / "pre_race"
-    / "20230101_pre_race.json"
-)
+TARGET_DATE = "20230101"
 
 OUTPUT_DIR = (
     BASE
@@ -42,11 +36,6 @@ OUTPUT_DIR = (
 OUTPUT_DIR.mkdir(
     parents=True,
     exist_ok=True,
-)
-
-OUTPUT_FILE = (
-    OUTPUT_DIR
-    / "20230101_result.json"
 )
 
 # ===========================================================
@@ -156,20 +145,24 @@ def fetch_jsj012(encp):
 # レース結果取得
 # ===========================================================
 
-def collect_result():
+def collect_result(target_date=None):
+
+    if target_date is None:
+        target_date = TARGET_DATE
+
+    input_file = (
+        BASE
+        / "data_official"
+        / "historical"
+        / "pre_race"
+        / f"{target_date}_pre_race.json"
+    )
 
     data = load_json(
 
-        INPUT_FILE,
-
+        input_file,
     )
-
-    target_date = data.get(
-
-        "target_date",
-
-    )
-
+    
     venues = data.get(
 
         "venues",
@@ -368,11 +361,19 @@ def collect_result():
 # 保存
 # ===========================================================
 
-def save_result(output):
+def save_result(output, target_date=None):
+
+    if target_date is None:
+        target_date = TARGET_DATE
+
+    output_file = (
+        OUTPUT_DIR
+        / f"{target_date}_result.json"
+    )
 
     save_json(
 
-        OUTPUT_FILE,
+        output_file,
 
         output,
 
@@ -405,7 +406,7 @@ def save_result(output):
     print("保存先")
 
     print(
-        OUTPUT_FILE,
+        output_file,
     )
 
     print()
@@ -434,14 +435,13 @@ def save_result(output):
 # main
 # ===========================================================
 
-def main():
+def main(target_date=None):
 
-    output = collect_result()
+    output = collect_result(target_date)
 
     save_result(
-
         output,
-
+        target_date,
     )
 
 

@@ -25,14 +25,6 @@ BASE = Path(r"C:\競輪AI")
 
 TARGET_DATE = "20230101"
 
-SCHEDULE_FILE = (
-    BASE
-    / "data_official"
-    / "historical"
-    / "schedule"
-    / f"{TARGET_DATE}_schedule.json"
-)
-
 OUTPUT_DIR = (
     BASE
     / "data_official"
@@ -43,11 +35,6 @@ OUTPUT_DIR = (
 OUTPUT_DIR.mkdir(
     parents=True,
     exist_ok=True,
-)
-
-OUTPUT_FILE = (
-    OUTPUT_DIR
-    / f"{TARGET_DATE}_pre_race.json"
 )
 
 # ===========================================================
@@ -107,17 +94,33 @@ def fetch_jsj001(encp):
 # main
 # ===========================================================
 
-def collect_pre_race():
+def collect_pre_race(target_date=None):
 
+    if target_date is None:
+        target_date = TARGET_DATE
+
+    schedule_file = (
+        BASE
+        / "data_official"
+        / "historical"
+        / "schedule"
+        / f"{target_date}_schedule.json"
+    )
+
+    output_file = (
+        OUTPUT_DIR
+        / f"{target_date}_pre_race.json"
+    )
+    
     print()
     print("========================================")
     print("Historical Pre Race")
-    print("TARGET :", TARGET_DATE)
+    print("TARGET :", target_date)
     print("========================================")
     print()
 
     with open(
-        SCHEDULE_FILE,
+        schedule_file,
         "r",
         encoding="utf-8",
     ) as f:
@@ -131,7 +134,7 @@ def collect_pre_race():
 
     output = {
 
-        "target_date": TARGET_DATE,
+        "target_date":  target_date,
 
         "venue_count": len(venues),
 
@@ -179,7 +182,7 @@ def collect_pre_race():
         })
 
     with open(
-        OUTPUT_FILE,
+        output_file,
         "w",
         encoding="utf-8",
     ) as f:
@@ -194,10 +197,22 @@ def collect_pre_race():
     print()
     print("========================================")
     print("保存完了")
-    print(OUTPUT_FILE)
+    print(output_file,)
     print("========================================")
 
+# ===========================================================
+# main
+# ===========================================================
+
+def main(target_date=None):
+
+    collect_pre_race(target_date)
+
+
+# ===========================================================
+# 実行
+# ===========================================================
 
 if __name__ == "__main__":
 
-    collect_pre_race()
+    main()

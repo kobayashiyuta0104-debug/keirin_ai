@@ -9,13 +9,7 @@ from pathlib import Path
 
 BASE = Path(r"C:\競輪AI")
 
-PRE_RACE_FILE = (
-    BASE
-    / "data_official"
-    / "historical"
-    / "pre_race"
-    / "20230101_pre_race.json"
-)
+TARGET_DATE = "20230101"
 
 MASTER_FILE = (
     BASE
@@ -34,13 +28,6 @@ OUTPUT_DIR = (
 OUTPUT_DIR.mkdir(
     parents=True,
     exist_ok=True,
-)
-
-TARGET_DATE = "20230101"
-
-OUTPUT_FILE = (
-    OUTPUT_DIR
-    / f"{TARGET_DATE}_race_data.json"
 )
 
 # ===========================================================
@@ -67,10 +54,10 @@ def save_json(path, data):
 # pre_race
 # ===========================================================
 
-def load_pre_race():
+def load_pre_race(pre_race_file):
 
     with open(
-        PRE_RACE_FILE,
+        pre_race_file,
         "r",
         encoding="utf-8",
     ) as f:
@@ -325,15 +312,31 @@ def create_race_row(
 # メイン処理
 # ===========================================================
 
-def collect_race_data():
+def collect_race_data(target_date=None):
 
-    pre_race = load_pre_race()
+    if target_date is None:
+        target_date = TARGET_DATE
+
+    pre_race_file = (
+        BASE
+        / "data_official"
+        / "historical"
+        / "pre_race"
+        / f"{target_date}_pre_race.json"
+    )
+
+    output_file = (
+        OUTPUT_DIR
+        / f"{target_date}_race_data.json"
+    )
+
+    pre_race = load_pre_race(pre_race_file)
 
     bank_master = load_bank_master()
 
     output = {
 
-        "target_date": TARGET_DATE,
+        "target_date": target_date,
 
         "race_count": 0,
 
@@ -345,7 +348,7 @@ def collect_race_data():
 
     print("========================================")
     print("Historical Race Data")
-    print("TARGET :", TARGET_DATE)
+    print("TARGET :", target_date)
     print("========================================")
     print()
 
@@ -431,7 +434,7 @@ def collect_race_data():
 
             race_key = build_race_key(
 
-                TARGET_DATE,
+                target_date,
 
                 venue_name,
 
@@ -443,7 +446,7 @@ def collect_race_data():
 
                 race_key,
 
-                TARGET_DATE,
+                target_date,
 
                 bank_code,
 
@@ -495,7 +498,7 @@ def collect_race_data():
 
     save_json(
 
-        OUTPUT_FILE,
+        output_file,
 
         output,
 
@@ -529,7 +532,7 @@ def collect_race_data():
     print("保存先")
 
     print(
-        OUTPUT_FILE
+        output_file
     )
 
     print()
@@ -548,6 +551,11 @@ def collect_race_data():
 # main
 # ===========================================================
 
+def main(target_date=None):
+
+    collect_race_data(target_date)
+
+
 if __name__ == "__main__":
 
-    collect_race_data()
+    main()

@@ -1,0 +1,32 @@
+================================================================================
+20240903
+'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "c:\競輪AI\program\historical_data_program\999_collect_all_historical.py", line 210, in run
+    m002.main(target_date)
+    ~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\競輪AI\program\historical_data_program\002_collect_historical_pre_race.py", line 209, in main
+    collect_pre_race(target_date)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\競輪AI\program\historical_data_program\002_collect_historical_pre_race.py", line 171, in collect_pre_race
+    jsj001["C0201data"]["joName"].replace("競輪場", ""),
+    ~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+
+================================================================================
+20250423
+'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "c:\競輪AI\program\historical_data_program\999_collect_all_historical.py", line 210, in run
+    m002.main(target_date)
+    ~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\競輪AI\program\historical_data_program\002_collect_historical_pre_race.py", line 209, in main
+    collect_pre_race(target_date)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\競輪AI\program\historical_data_program\002_collect_historical_pre_race.py", line 171, in collect_pre_race
+    jsj001["C0201data"]["joName"].replace("競輪場", ""),
+    ~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+
