@@ -164,7 +164,7 @@ def build_result_rows_from_race(race):
     for r in results_raw:
         car_no = to_int(r.get("syaban"))
         player_id = str(r.get("sensyuRegistNo", "")).zfill(6)
-        finish_rank = to_int(r.get("tyakujyun"))
+        finish_rank = to_int(r.get("tyaku"))
 
         # 状態判定
         text = (

@@ -36,23 +36,14 @@ RESULT_CSV_DIR.mkdir(parents=True, exist_ok=True)
 # 最新result.json自動検出
 # ===========================================================
 
-def find_latest_result_json():
-    candidates = []
+def find_result_json():
 
-    for path in DAILY_DIR.glob("*_result.json"):
-        name = path.name
-        try:
-            date_text = name.split("_")[0]
-            int(date_text)
-            candidates.append((date_text, path))
-        except Exception:
-            continue
+    target = DAILY_DIR / "20260716_result.json"
 
-    if not candidates:
-        raise FileNotFoundError("result.json が見つかりません")
+    if not target.exists():
+        raise FileNotFoundError(target)
 
-    candidates.sort(key=lambda x: x[0], reverse=True)
-    return candidates[0][1]
+    return target
 
 # ===========================================================
 # CSVヘッダー（日本語）
@@ -273,7 +264,7 @@ def main():
     print("006 Result CSV Exporter")
     print("===" * 20)
 
-    result_path = find_latest_result_json()
+    result_path = find_result_json()
     date_text = result_path.name.split("_")[0]
 
     print(f"検出された最新result: {result_path}")
