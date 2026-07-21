@@ -1,0 +1,332 @@
+import re
+import time
+import urllib.request
+
+from pathlib import Path
+from collections import defaultdict
+
+# ==========================================================
+# 014_collect_historical_racelist_html.py
+#
+# OddsPark 過去RaceList HTML収集（日単位HTML版）
+#
+# 保存形式
+#
+# historical/
+#     html/
+#         20230101.html
+#         20230102.html
+#         ...
+# ==========================================================
+
+TARGET_MONTH = "202301"
+
+BASE_DIR = Path(r"C:\競輪AI")
+
+SAVE_DIR = (
+    BASE_DIR
+    / "data_official"
+    / "historical"
+    / "html"
+)
+
+SAVE_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+HEADERS = {
+
+    "User-Agent":
+
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+
+        "AppleWebKit/537.36 "
+
+        "(KHTML, like Gecko) "
+
+        "Chrome/138.0 Safari/537.36"
+
+}
+
+
+# ==========================================================
+# ダウンロード
+# ==========================================================
+
+def download(url):
+
+    req = urllib.request.Request(
+        url,
+        headers=HEADERS
+    )
+
+    with urllib.request.urlopen(req, timeout=30) as res:
+
+        return res.read().decode(
+            "utf-8",
+            errors="ignore"
+        )
+
+
+# ==========================================================
+# Calendar取得
+# ==========================================================
+
+calendar_url = (
+
+    "https://www.oddspark.com/keirin/"
+
+    f"KaisaiCalendar.do?target={TARGET_MONTH}"
+
+)
+
+print("=" * 70)
+print("014 OddsPark Historical Collector")
+print("=" * 70)
+print()
+
+print("Calendar取得中...")
+
+calendar_html = download(calendar_url)
+
+print("OK")
+print()
+
+
+# ==========================================================
+# AllRaceList抽出
+# ==========================================================
+
+pattern = re.compile(
+
+    r'AllRaceList\.do\?kaisaiBi=(\d{8})&amp;joCode=(\d+)'
+
+)
+
+allrace_urls = []
+
+for date, jo in pattern.findall(calendar_html):
+
+    allrace_urls.append(
+
+        (
+
+            date,
+
+            "https://www.oddspark.com/keirin/"
+
+            f"AllRaceList.do?kaisaiBi={date}&joCode={jo}"
+
+        )
+
+    )
+
+print(f"開催数 : {len(allrace_urls)}")
+print()
+
+
+# ==========================================================
+# RaceList抽出
+# ==========================================================
+
+race_urls = []
+
+count = 0
+
+for date, allrace_url in allrace_urls:
+
+    count += 1
+
+    print(
+
+        f"[{count}/{len(allrace_urls)}] "
+
+        f"AllRaceList取得"
+
+    )
+
+    try:
+
+        html = download(allrace_url)
+
+    except Exception as e:
+
+        print(e)
+
+        continue
+
+    races = re.findall(
+
+        r'RaceList\.do\?joCode=(\d+)'
+        r'&amp;kaisaiBi=(\d{8})'
+        r'&amp;raceNo=(\d+)',
+
+        html
+
+    )
+
+    for jo, date, race in races:
+
+        race_urls.append(
+
+            (
+
+                date,
+
+                jo,
+
+                race.zfill(2),
+
+                "https://www.oddspark.com/keirin/"
+                f"RaceList.do?"
+                f"joCode={jo}"
+                f"&kaisaiBi={date}"
+                f"&raceNo={race}"
+
+            )
+
+        )
+
+    time.sleep(0.3)
+
+print()
+print("RaceList数 :", len(race_urls))
+print()
+
+
+# ==========================================================
+# 日付ごとにHTMLをまとめる
+# ==========================================================
+
+day_htmls = defaultdict(list)
+
+saved = 0
+skip = 0
+error = 0
+
+print("=" * 70)
+print("RaceList取得開始")
+print("=" * 70)
+print()
+
+# ==========================================================
+# RaceList取得（日付ごとにメモリへ保持）
+# ==========================================================
+
+for i, (date, jo, race, race_url) in enumerate(race_urls, 1):
+
+    race_key = f"{date}_{jo}_{race}"
+
+    print(
+        f"[{i}/{len(race_urls)}] "
+        f"{race_key}"
+    )
+
+    try:
+
+        html = download(race_url)
+
+        day_htmls[date].append({
+
+            "race_key": race_key,
+            "html": html
+
+        })
+
+        saved += 1
+
+    except Exception as e:
+
+        error += 1
+
+        print("ERROR")
+        print(race_key)
+        print(type(e).__name__)
+        print(e)
+
+    time.sleep(0.3)
+
+
+# ==========================================================
+# 日単位HTML保存
+# ==========================================================
+
+print()
+print("=" * 70)
+print("日単位HTML保存")
+print("=" * 70)
+print()
+
+for date in sorted(day_htmls.keys()):
+
+    outfile = SAVE_DIR / f"{date}.html"
+
+    if outfile.exists():
+
+        skip += 1
+
+        print(f"SKIP {outfile.name}")
+
+        continue
+
+    with open(
+        outfile,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        f.write(
+            "<!-- =============================================== -->\n"
+        )
+        f.write(
+            f"<!-- DATE={date} -->\n"
+        )
+        f.write(
+            "<!-- GENERATED BY 014_collect_historical_racelist_html.py -->\n"
+        )
+        f.write(
+            "<!-- =============================================== -->\n\n"
+        )
+
+        for race in day_htmls[date]:
+
+            f.write(
+                f"<!-- RACE_KEY={race['race_key']} -->\n"
+            )
+
+            f.write(
+                race["html"]
+            )
+
+            f.write("\n")
+
+            f.write(
+                "<!-- END_RACE -->\n\n"
+            )
+
+    print(
+        f"SAVE {outfile.name} "
+        f"({len(day_htmls[date])} races)"
+    )
+
+
+# ==========================================================
+# 完了
+# ==========================================================
+
+print()
+print("=" * 70)
+print("収集完了")
+print("=" * 70)
+
+print(f"対象月            : {TARGET_MONTH}")
+print(f"開催(AllRaceList) : {len(allrace_urls)}")
+print(f"RaceList取得      : {saved}")
+print(f"保存日数          : {len(day_htmls)}")
+print(f"保存スキップ      : {skip}")
+print(f"取得エラー        : {error}")
+print(f"保存先            : {SAVE_DIR}")
+
+print()
+print("終了しました。")
