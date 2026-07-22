@@ -89,33 +89,34 @@ def find_previous_pre_race_json():
 # ===========================================================
 
 PLAYER_HEADERS = [
-    "レースキー",
-    "開催日",
-    "競輪場",
-    "レース番号",
-    "車番",
-    "登録番号",
-    "選手名",
-    "府県",
-    "年齢",
-    "期別",
-    "級班",
-    "前級班",
-    "脚質",
-    "ギヤ倍率",
-    "平均競走得点",
-    "勝率",
-    "２連対率",
-    "３連対率",
-    "逃げ",
-    "捲り",
-    "差し",
-    "マーク",
-    "バック",
-    "ホーム",
-    "スタート",
-    "誘導選手",
-    "status",
+    "race_key",
+    "date",
+    "jo_code",
+    "jo_name",
+    "race_no",
+
+    "car_no",
+    "player_id",
+    "player_name",
+    "prefecture",
+    "age",
+    "term",
+    "class",
+    "previous_class",
+    "style",
+
+    "average_score",
+    "win_rate",
+    "quinella_rate",
+    "trio_rate",
+
+    "escape_count",
+    "makuri_count",
+    "sashi_count",
+    "mark_count",
+    "back_count",
+    "home_count",
+    "start_count",
 ]
 
 
@@ -181,41 +182,40 @@ def build_player_row(race, player):
     """
     1選手をCSV行へ変換
     """
+
+    jo_code = str(race.get("jsj006", {}).get("bKeirinjyoCd", "")).zfill(2)
+
     return {
-        "レースキー": race.get("race_key"),
-        "開催日": race.get("race_date"),
-        "競輪場": race.get("venue"),
-        "レース番号": race.get("race_no"),
+        "race_key": race.get("race_key"),
+        "date": race.get("race_date"),
+        "jo_code": jo_code,
+        "jo_name": race.get("venue"),
+        "race_no": race.get("race_no"),
 
-        "車番": player.get("car_no"),
-        "登録番号": player.get("player_id"),
-        "選手名": normalize_space(player.get("player_name")),
-        "府県": normalize_space(player.get("prefecture")),
-        "年齢": to_int(player.get("age")),
-        "期別": to_int(player.get("graduation_term")),
-        "級班": player.get("class"),
-        "前級班": player.get("previous_class"),
-        "脚質": player.get("riding_style"),
+        "car_no": player.get("car_no"),
+        "player_id": player.get("player_id"),
+        "player_name": normalize_space(player.get("player_name")),
+        "prefecture": normalize_space(player.get("prefecture")),
+        "age": to_int(player.get("age")),
+        "term": to_int(player.get("graduation_term")),
+        "class": player.get("class"),
+        "previous_class": player.get("previous_class"),
+        "style": player.get("riding_style"),
 
-        "ギヤ倍率": player.get("giyaritu") or None,
+        "average_score": to_float(player.get("race_score")),
+        "win_rate": to_float(player.get("win_rate")),
+        "quinella_rate": to_float(player.get("top2_rate")),
+        "trio_rate": to_float(player.get("top3_rate")),
 
-        "平均競走得点": to_float(player.get("race_score")),
-        "勝率": to_float(player.get("win_rate")),
-        "２連対率": to_float(player.get("top2_rate")),
-        "３連対率": to_float(player.get("top3_rate")),
-
-        "逃げ": to_int(player.get("nige_count")),
-        "捲り": to_int(player.get("makuri_count")),
-        "差し": to_int(player.get("sashi_count")),
-        "マーク": to_int(player.get("mark_count")),
-        "バック": to_int(player.get("back_count")),
-        "ホーム": to_int(player.get("home_count")),
-        "スタート": to_int(player.get("start_count")),
-
-        "誘導選手": player.get("yudoSensyu") or None,
-
-        "status": race.get("status"),
+        "escape_count": to_int(player.get("nige_count")),
+        "makuri_count": to_int(player.get("makuri_count")),
+        "sashi_count": to_int(player.get("sashi_count")),
+        "mark_count": to_int(player.get("mark_count")),
+        "back_count": to_int(player.get("back_count")),
+        "home_count": to_int(player.get("home_count")),
+        "start_count": to_int(player.get("start_count")),
     }
+
 # ===========================================================
 # レース → 選手一覧展開
 # ===========================================================
@@ -257,8 +257,6 @@ def extract_players_from_race(race):
             "win_rate": to_float(p.get("syouritu")),
             "top2_rate": to_float(p.get("rentairitu2")),
             "top3_rate": to_float(p.get("rentairitu3")),
-            "giyaritu": p.get("giyaritu"),
-            "yudoSensyu": p.get("yudoSensyu"),
         }
 
         players.append(player)

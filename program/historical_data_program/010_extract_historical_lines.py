@@ -49,7 +49,7 @@ def parse_line_tokens(text):
     text = text.replace(" ", "")
     text = text.replace("\u3000", "")
 
-    return re.findall(r"\(|\)|\d", text)
+    return re.findall(r"\(|（|\)|）|\d", text)
 
 def parse_single_line(text):
     """
@@ -83,7 +83,7 @@ def parse_single_line(text):
         # ------------------------
         # 競り開始
         # ------------------------
-        if token == "(":
+        if token in ("(", "（"):
 
             in_seri = True
             seri_group = []
@@ -93,7 +93,7 @@ def parse_single_line(text):
         # ------------------------
         # 競り終了
         # ------------------------
-        if token == ")":
+        if token in (")", "）"):
 
             # 括弧内は全員同順位
             for rider in seri_group:
@@ -165,7 +165,9 @@ def parse_keirin_lines(ul):
         cls = ""
 
         for c in span.get("class", []):
+
             if c.startswith("no"):
+
                 cls = c
                 break
 
@@ -175,50 +177,39 @@ def parse_keirin_lines(ul):
         value = span.get_text(strip=True)
 
         # --------------------
-        # no0 = 区切り記号
+        # 区切り記号
         # --------------------
-
         if cls == "no0":
 
-            if value == "(":
+            # 競り開始
+            if value in ("(", "（"):
+
                 in_seri = True
                 continue
 
-            elif value == ")":
+            # 競り終了
+            if value in (")", "）"):
 
                 in_seri = False
-
-                # 競りが終わったら1ライン終了
-                if current_line:
-
-                    main_lines.append(current_line)
-
-                    line_no += 1
-
-                    current_line = []
-
-                    current_position = 1
-
+                current_position += 1
                 continue
 
-            else:
-                # &nbsp; = ライン終了
-                if current_line:
+            # &nbsp; = ライン終了
+            if current_line:
 
-                    main_lines.append(current_line)
+                main_lines.append(current_line)
 
-                    line_no += 1
+                current_line = []
 
-                    current_line = []
+                line_no += 1
 
-                    current_position = 1
+                current_position = 1
 
-                continue
+            continue
 
         # --------------------
         # 車番
         # --------------------
-
         rider = int(cls.replace("no", ""))
 
         current_line.append(rider)
@@ -230,6 +221,7 @@ def parse_keirin_lines(ul):
         cars[str(rider)]["seri"] = 1 if in_seri else 0
 
         if not in_seri:
+
             current_position += 1
 
     if current_line:
