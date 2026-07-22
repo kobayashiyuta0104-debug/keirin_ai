@@ -27,6 +27,13 @@ else:
 RACE_DATA_DIR = BASE / "data_official" / "daily" / "race_data"
 RACE_CSV_DIR = BASE / "csv" / "race"
 
+SESSION_MASTER_FILE = (
+    BASE
+    / "data_official"
+    / "master"
+    / "session_master.json"
+)
+
 RACE_CSV_DIR.mkdir(parents=True, exist_ok=True)
 
 # ===========================================================
@@ -59,23 +66,20 @@ def find_latest_race_json():
 
 RACE_HEADERS = [
 
-    "レースキー",
-    "開催日",
-    "競輪場コード",
-    "競輪場名",
-    "開催名",
-    "グレード",
-    "レース番号",
-    "周長(m)",
-    "みなし直線(m)",
-    "カント角(度)",
-    "レース種別",
-    "距離",
-    "周回数",
-    "発走時刻",
-    "投票締切",
-    "天候",
-    "風速",
+    "race_key",
+    "date",
+    "jo_code",
+    "jo_name",
+    "event_name",
+    "grade",
+    "race_no",
+    "track_length",
+    "straight_length",
+    "bank_angle",
+    "race_type",
+    "session",
+    "weather",
+    "wind_speed",
 
 ]
 
@@ -92,6 +96,56 @@ def load_race_json(path):
 
         return json.load(f)
 
+def load_session_master():
+
+    with open(
+        SESSION_MASTER_FILE,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        return json.load(f)
+    
+def time_to_minutes(time_str):
+
+    if not time_str:
+        return None
+
+    hour, minute = map(int, time_str.split(":"))
+
+    return hour * 60 + minute
+
+def detect_session(
+
+    first_start,
+    last_start,
+    session_master,
+
+):
+
+    first = time_to_minutes(first_start)
+    last = time_to_minutes(last_start)
+
+    if first is None or last is None:
+
+        return "不明"
+
+    for rule in session_master:
+
+        if (
+
+            rule["first_min"] <= first <= rule["first_max"]
+
+            and
+
+            rule["last_min"] <= last <= rule["last_max"]
+
+        ):
+
+            return rule["display_name"]
+
+    return "不明"
+
 """
 ===========================================================
 Part3
@@ -99,33 +153,77 @@ Part3
 ===========================================================
 """
 
-def build_race_rows(data):
+def build_race_rows(
+    data,
+    session_master,
+):
 
     races = data.get("races", [])
 
     rows = []
 
+    session_map = {}
+
+    venue_times = {}
+
+    for race in races:
+
+        venue_key = (
+            race.get("開催日"),
+            race.get("競輪場コード"),
+        )
+
+        venue_times.setdefault(venue_key, [])
+
+        start = race.get("発走時刻")
+
+        if start:
+
+            venue_times[venue_key].append(start)
+
+    for venue_key, times in venue_times.items():
+
+        if times:
+
+            session_map[venue_key] = detect_session(
+
+                min(times),
+                max(times),
+                session_master,
+
+            )
+
+        else:
+
+            session_map[venue_key] = "unknown"
+
     for race in races:
 
         rows.append({
 
-            "レースキー": race.get("race_key"),
-            "開催日": race.get("開催日"),
-            "競輪場コード": race.get("競輪場コード"),
-            "競輪場名": race.get("競輪場名"),
-            "開催名": race.get("開催名"),
-            "グレード": race.get("グレード"),
-            "レース番号": race.get("レース番号"),
-            "周長(m)": race.get("周長(m)"),
-            "みなし直線(m)": race.get("みなし直線(m)"),
-            "カント角(度)": race.get("カント角(度)"),
-            "レース種別": race.get("レース種別"),
-            "距離": race.get("距離"),
-            "周回数": race.get("周回数"),
-            "発走時刻": race.get("発走時刻"),
-            "投票締切": race.get("投票締切"),
-            "天候": race.get("天候"),
-            "風速": race.get("風速"),
+            "race_key": race.get("race_key"),
+            "date": race.get("開催日"),
+            "jo_code": race.get("競輪場コード"),
+            "jo_name": race.get("競輪場名"),
+            "event_name": race.get("開催名"),
+            "grade": race.get("グレード"),
+            "race_no": race.get("レース番号"),
+            "track_length": race.get("周長(m)"),
+            "straight_length": race.get("みなし直線(m)"),
+            "bank_angle": race.get("カント角(度)"),
+            "race_type": race.get("レース種別"),
+            "session": session_map.get(
+
+                (
+                    race.get("開催日"),
+                    race.get("競輪場コード"),
+                ),
+
+                "unknown",
+
+            ),
+            "weather": race.get("天候"),
+            "wind_speed": race.get("風速"),
 
         })
 
@@ -180,7 +278,15 @@ def main():
 
     race_json = load_race_json(race_json_path)
 
-    rows = build_race_rows(race_json)
+    session_master = load_session_master()
+
+    rows = build_race_rows(
+
+        race_json,
+
+        session_master,
+
+    )
 
     print(f"レース数: {len(rows)}")
 
