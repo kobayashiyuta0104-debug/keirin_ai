@@ -17,8 +17,13 @@ from pathlib import Path
 # 1日JSON保存
 # ==========================================================
 
-BASE = Path(r"C:\競輪AI")
+import os
 
+if os.name == "nt":
+    BASE = Path(r"C:\競輪AI")
+else:
+    BASE = Path(__file__).resolve().parent.parent
+    
 HTML_DIR = (
     BASE /
     "data_official" /
