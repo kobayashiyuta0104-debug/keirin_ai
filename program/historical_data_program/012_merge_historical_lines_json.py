@@ -11,7 +11,12 @@ from pathlib import Path
 # historical_lines.json に統合する
 # ==========================================================
 
-BASE = Path(r"C:\競輪AI")
+import os
+
+if os.name == "nt":
+    BASE = Path(r"C:\競輪AI")
+else:
+    BASE = Path(__file__).resolve().parent.parent
 
 JSON_DIR = (
     BASE
