@@ -51,6 +51,12 @@ jobs:
       - name: Run 006
         run: python official_program/006_collect_yesterday_race_data.py
 
+      - name: Run 011
+        run: python official_program/011_collect_daily_oddspark_html.py
+
+      - name: Run 012
+        run: python official_program/012_build_daily_lines_json.py
+
       # ======================================================
       # CSV出力
       # ======================================================
@@ -61,11 +67,13 @@ jobs:
       - name: Run 004
         run: python official_program/004_export_result_csv.py
 
-      - name: Run 005
-        run: python official_program/005_export_lines_csv.py
-
       - name: Run 007
         run: python official_program/007_export_race_csv.py
+
+      - name: Run 013
+        run: python official_program/013_export_daily_lines_csv.py
+
+      
 
       # ======================================================
       # 14日以前のJSON削除
