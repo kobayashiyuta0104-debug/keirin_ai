@@ -1,7 +1,7 @@
 """
 ===========================================================
 競輪AI 正式版
-006_export_result_csv.py
+008_build_historical_result_csv.py
 
 Part 1
 ・基本設定
@@ -50,21 +50,19 @@ def get_historical_json_files():
 # ===========================================================
 
 RESULT_HEADERS = [
-    "レースキー",
-    "開催日",
-    "競輪場",
-    "レース番号",
-    "車番",
-    "登録番号",
-    "着順",
-    "結果ステータス",
-    "結果理由",
-    "3連単組番",
-    "3連単払戻",
-    "人気",
-    "払戻分類",
-    "is_20000_plus",
-    "is_50000_plus",
+    "race_key",
+    "date",
+    "jo_code",
+    "jo_name",
+    "race_no",
+    "car_no",
+    "player_id",
+    "finish_order",
+    "result_status",
+    "result_reason",
+    "trifecta",
+    "trifecta_payout",
+    "popularity",
 ]
 
 # ===========================================================
@@ -146,19 +144,11 @@ def build_result_rows_from_race(race):
 
     trifecta_comb = trifecta.get("kumiBan") if trifecta else None
     trifecta_payout = to_int(trifecta.get("haraiGaku")) if trifecta else None
-    trifecta_pop = trifecta.get("ninki") if trifecta else None
-
-    # 払戻分類（001と同じロジック）
-    if trifecta_payout is None:
-        payout_class = None
-    elif trifecta_payout < 10000:
-        payout_class = "UNDER_10000"
-    elif trifecta_payout < 20000:
-        payout_class = "10000_TO_19999"
-    elif trifecta_payout < 50000:
-        payout_class = "20000_TO_49999"
-    else:
-        payout_class = "50000_PLUS"
+    trifecta_pop = (
+        to_int(str(trifecta.get("ninki", "")).replace("(", "").replace(")", ""))
+        if trifecta
+        else None
+    )
 
     rows = []
 
@@ -208,24 +198,22 @@ def build_result_rows_from_race(race):
                 status = "欠場"
 
         rows.append({
-            "レースキー": race.get("race_key"),
-            "開催日": race.get("race_date"),
-            "競輪場": race.get("venue"),
-            "レース番号": race.get("race_no"),
+            "race_key": race.get("race_key"),
+            "date": race.get("race_date"),
+            "jo_code": race.get("jo_code"),
+            "jo_name": race.get("venue"),
+            "race_no": race.get("race_no"),
 
-            "車番": car_no,
-            "登録番号": player_id,
-            "着順": finish_rank,
-            "結果ステータス": status,
-            "結果理由": note,
+            "car_no": car_no,
+            "player_id": player_id,
+            "finish_order": finish_rank,
 
-            "3連単組番": trifecta_comb,
-            "3連単払戻": trifecta_payout,
-            "人気": trifecta_pop,
+            "result_status": status,
+            "result_reason": note,
 
-            "払戻分類": payout_class,
-            "is_20000_plus": int(trifecta_payout >= 20000) if trifecta_payout else None,
-            "is_50000_plus": int(trifecta_payout >= 50000) if trifecta_payout else None,
+            "trifecta": trifecta_comb,
+            "trifecta_payout": trifecta_payout,
+            "popularity": trifecta_pop,
         })
 
     return rows
@@ -261,6 +249,7 @@ def build_all_result_rows(result):
 
             race["venue"] = venue_name
             race["race_date"] = target_date
+            race["jo_code"] = venue.get("bank_code")
 
             result_rows = build_result_rows_from_race(race)
 

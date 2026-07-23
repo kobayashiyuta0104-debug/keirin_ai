@@ -1,7 +1,7 @@
 """
 ===========================================================
 競輪AI 正式版
-004_export_result_csv.py
+010_export_result_csv_by_date.py
 
 Part 1
 ・基本設定
@@ -15,6 +15,7 @@ import json
 import csv
 import os
 from pathlib import Path
+from datetime import datetime, timedelta
 
 # ===========================================================
 # 基本設定
@@ -34,26 +35,11 @@ BANK_MASTER_FILE = BASE / "data_official" / "master" / "bank_master.json"
 RESULT_CSV_DIR.mkdir(parents=True, exist_ok=True)
 
 # ===========================================================
-# 最新result.json自動検出
+# 対象期間
 # ===========================================================
 
-def find_latest_result_json():
-    candidates = []
-
-    for path in DAILY_DIR.glob("*_result.json"):
-        name = path.name
-        try:
-            date_text = name.split("_")[0]
-            int(date_text)
-            candidates.append((date_text, path))
-        except Exception:
-            continue
-
-    if not candidates:
-        raise FileNotFoundError("result.json が見つかりません")
-
-    candidates.sort(key=lambda x: x[0], reverse=True)
-    return candidates[0][1]
+START_DATE = "20260716"
+END_DATE = "20260721"
 
 # ===========================================================
 # CSVヘッダー（日本語）
@@ -113,6 +99,26 @@ Part 2
 # ===========================================================
 # result.json 読込
 # ===========================================================
+def get_result_json_path(date_text):
+    path = DAILY_DIR / f"{date_text}_result.json"
+
+    if not path.exists():
+        print(f"[SKIP] {date_text} result.json がありません")
+        return None
+
+    return path
+
+def generate_target_dates(start_date, end_date):
+    dates = []
+
+    current = datetime.strptime(start_date, "%Y%m%d")
+    end = datetime.strptime(end_date, "%Y%m%d")
+
+    while current <= end:
+        dates.append(current.strftime("%Y%m%d"))
+        current += timedelta(days=1)
+
+    return dates
 
 def load_result_json(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -291,40 +297,56 @@ Part 4
 # ===========================================================
 # main
 # ===========================================================
-
 def main():
     print("===" * 20)
-    print("006 Result CSV Exporter")
+    print("010 Result CSV Exporter By Date")
     print("===" * 20)
 
-    result_path = find_latest_result_json()
-    date_text = result_path.name.split("_")[0]
-
-    print(f"検出された最新result: {result_path}")
-    print(f"対象日付: {date_text}")
-
-    result = load_result_json(result_path)
     bank_master = load_bank_master()
 
-    rows = build_all_result_rows(result, bank_master)
+    total_races = 0
+    total_rows = 0
 
-    print(f"レース数: {len(result.get('races', []))}")
-    print(f"結果行数: {len(rows)}")
+    target_dates = generate_target_dates(START_DATE, END_DATE)
 
-    output_path = save_result_csv(rows, date_text)
+    for date_text in target_dates:
+
+        result_path = get_result_json_path(date_text)
+
+        if result_path is None:
+            continue
+
+        print()
+        print("=" * 60)
+        print(f"対象日付: {date_text}")
+
+        result = load_result_json(result_path)
+
+        rows = build_all_result_rows(result, bank_master)
+
+        output_path = save_result_csv(rows, date_text)
+
+        race_count = len(result.get("races", []))
+        row_count = len(rows)
+
+        total_races += race_count
+        total_rows += row_count
+
+        print(f"レース数: {race_count}")
+        print(f"結果行数: {row_count}")
+        print(f"保存: {output_path}")
 
     print()
-    print("保存先:")
-    print(output_path)
-
-    print()
-    print("=== 006 完了 ===")
-
-
-if __name__ == "__main__":
-    main()
+    print("=" * 60)
+    print("全期間 完了")
+    print(f"対象日数: {len(target_dates)}")
+    print(f"総レース数: {total_races}")
+    print(f"総結果行数: {total_rows}")
 
 
 # ===========================================================
 # End Part 4
 # ===========================================================
+
+if __name__ == "__main__":
+    main()
