@@ -7,45 +7,45 @@ JO_NAME = {
     "11": "函館",
     "12": "青森",
     "13": "いわき平",
-    "14": "弥彦",
-    "15": "前橋",
-    "16": "取手",
-    "17": "宇都宮",
-    "18": "大宮",
-    "19": "西武園",
-    "20": "京王閣",
-    "21": "立川",
-    "22": "松戸",
-    "23": "川崎",
-    "24": "平塚",
-    "25": "小田原",
-    "26": "伊東",
-    "27": "静岡",
-    "28": "名古屋",
-    "29": "岐阜",
-    "30": "大垣",
-    "31": "豊橋",
-    "32": "富山",
-    "33": "松阪",
-    "34": "四日市",
-    "35": "福井",
-    "36": "奈良",
-    "37": "向日町",
-    "38": "和歌山",
-    "39": "岸和田",
-    "40": "玉野",
-    "41": "広島",
-    "42": "防府",
-    "43": "高松",
-    "44": "小松島",
-    "45": "高知",
-    "46": "松山",
-    "47": "小倉",
-    "48": "久留米",
-    "49": "武雄",
-    "50": "佐世保",
-    "51": "別府",
-    "52": "熊本"
+    "21": "弥彦",
+    "22": "前橋",
+    "23": "取手",
+    "24": "宇都宮",
+    "25": "大宮",
+    "26": "西武園",
+    "27": "京王閣",
+    "28": "立川",
+    "31": "松戸",
+    "34": "川崎",
+    "35": "平塚",
+    "36": "小田原",
+    "37": "伊東",
+    "38": "静岡",
+    "42": "名古屋",
+    "43": "岐阜",
+    "44": "大垣",
+    "45": "豊橋",
+    "46": "富山",
+    "47": "松阪",
+    "48": "四日市",
+    "51": "福井",
+    "53": "奈良",
+    "54": "向日町",
+    "55": "和歌山",
+    "56": "岸和田",
+    "61": "玉野",
+    "62": "広島",
+    "63": "防府",
+    "71": "高松",
+    "73": "小松島",
+    "74": "高知",
+    "75": "松山",
+    "81": "小倉",
+    "83": "久留米",
+    "84": "武雄",
+    "85": "佐世保",
+    "86": "別府",
+    "87": "熊本"
 }
 
 # ==========================================================
@@ -68,6 +68,11 @@ OUTPUT_DIR = (
     BASE /
     "csv" /
     "historical_lines"
+)
+
+OUTPUT_CSV = (
+    OUTPUT_DIR /
+    "historical_lines.csv"
 )
 
 OUTPUT_DIR.mkdir(
@@ -95,6 +100,8 @@ saved = 0
 error = 0
 total_rows = 0
 
+rows = []
+
 # ==========================================================
 # 開始
 # ==========================================================
@@ -102,11 +109,6 @@ total_rows = 0
 for index, json_file in enumerate(json_files, start=1):
 
     target_date = json_file.stem.replace("_lines", "")
-
-    output_csv = (
-        OUTPUT_DIR /
-        f"{target_date}_lines.csv"
-    )
 
     print()
     print("=" * 70)
@@ -123,9 +125,9 @@ for index, json_file in enumerate(json_files, start=1):
 
             data = json.load(f)
 
-        rows = []
-
         for race in data["races"]:
+
+            print("BEFORE :", race["race_key"])
 
             old_race_key = race["race_key"]
 
@@ -146,6 +148,8 @@ for index, json_file in enumerate(json_files, start=1):
                 raise ValueError(f"Unknown jo_code: {jo_code}")
 
             race_key = f"{date}_{jo_name}_{race_no}R"
+
+            print("AFTER  :", race_key)
 
             cars = race.get("cars")
 
@@ -179,44 +183,6 @@ for index, json_file in enumerate(json_files, start=1):
 
                 })
 
-        with open(
-            output_csv,
-            "w",
-            newline="",
-            encoding="utf-8-sig"
-        ) as f:
-
-            writer = csv.DictWriter(
-
-                f,
-
-                fieldnames=[
-
-                    "race_key",
-                    "date",
-                    "jo_code",
-                    "jo_name",
-                    "race_no",
-                    "car_no",
-                    "line_no",
-                    "line_position",
-                    "is_seri"
-
-                ]
-
-            )
-
-            writer.writeheader()
-
-            writer.writerows(rows)
-
-        saved += 1
-
-        total_rows += len(rows)
-
-        print(f"SAVE {output_csv.name}")
-        print(f"ROWS {len(rows)}")
-
     except Exception as e:
 
         error += 1
@@ -224,6 +190,48 @@ for index, json_file in enumerate(json_files, start=1):
         print(f"ERROR {json_file.name}")
         print(type(e).__name__)
         print(e)
+
+# ==========================================================
+# CSV保存
+# ==========================================================
+
+with open(
+    OUTPUT_CSV,
+    "w",
+    newline="",
+    encoding="utf-8-sig"
+) as f:
+
+    writer = csv.DictWriter(
+
+        f,
+
+        fieldnames=[
+
+            "race_key",
+            "date",
+            "jo_code",
+            "jo_name",
+            "race_no",
+            "car_no",
+            "line_no",
+            "line_position",
+            "is_seri"
+
+        ]
+
+    )
+
+    writer.writeheader()
+
+    writer.writerows(rows)
+
+saved = 1
+total_rows = len(rows)
+
+print()
+print(f"SAVE : {OUTPUT_CSV.name}")
+print(f"ROWS : {total_rows}")
 
 # ==========================================================
 # 完了
