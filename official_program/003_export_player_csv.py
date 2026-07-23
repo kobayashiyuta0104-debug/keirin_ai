@@ -28,7 +28,7 @@ if os.name == "nt":
 else:
     BASE = Path(__file__).resolve().parent.parent
 
-DAILY_DIR = BASE / "data_official" / "daily" / "pre_race"
+DAILY_DIR = BASE / "data_official" / "daily" / "player"
 PLAYER_CSV_DIR = BASE / "csv" / "player"
 
 PLAYER_CSV_DIR.mkdir(parents=True, exist_ok=True)
@@ -37,53 +37,28 @@ PLAYER_CSV_DIR.mkdir(parents=True, exist_ok=True)
 # ===========================================================
 # 最新integrated.json自動検出
 # ===========================================================
+def find_latest_player_json():
+    """
+    playerフォルダ内の *_player.json を自動検出
+    最新の日付を返す
+    """
 
-def find_latest_pre_race_json():
-    """
-    data_official/daily 内の *_pre_race.json を自動検出
-    最も新しい日付のファイルを返す
-    """
-def find_previous_pre_race_json():
     candidates = []
 
-    for path in DAILY_DIR.glob("*_pre_race.json"):
-        name = path.name
+    for path in DAILY_DIR.glob("*_player.json"):
         try:
-            date_text = name.split("_")[0]
+            date_text = path.stem.split("_")[0]
             int(date_text)
             candidates.append((date_text, path))
         except Exception:
             continue
 
-    if len(candidates) < 2:
-        raise FileNotFoundError("前日の integrated.json が見つかりません")
-
-    # 日付で降順ソート（最新が先頭）
-    candidates.sort(key=lambda x: x[0], reverse=True)
-
-    # 最新 → 当日
-    # 2番目 → 前日
-    return candidates[1][1]
-
-    candidates = []
-
-    for path in DAILY_DIR.glob("*_pre_race.json"):
-        name = path.name
-        try:
-            date_text = name.split("_")[0]
-            int(date_text)  # YYYYMMDD が整数として解釈できるか
-            candidates.append((date_text, path))
-        except Exception:
-            continue
-
     if not candidates:
-        raise FileNotFoundError("integrated.json が見つかりません")
+        raise FileNotFoundError("player.json が見つかりません")
 
     candidates.sort(key=lambda x: x[0], reverse=True)
 
     return candidates[0][1]
-
-
 # ===========================================================
 # CSVヘッダー（日本語）
 # ===========================================================
@@ -166,7 +141,7 @@ Part 2
 # integrated.json 読込
 # ===========================================================
 
-def load_pre_race_json(path):
+def load_player_json(path):
     """
     integrated.json を読込む
     """
@@ -323,7 +298,7 @@ def save_player_csv(rows, date_text):
 ===========================================================
 #Part 4
 ・main
-・最新pre_race.json → player.csv 出力
+・最新player.json → player.csv 出力
 ===========================================================
 """
 
@@ -337,19 +312,19 @@ def main():
     print("===" * 20)
 
     # 前日 pre_race.json 自動検出
-    pre_race_path = find_previous_pre_race_json()
-    date_text = pre_race_path.name.split("_")[0]
+    player_path = find_latest_player_json()
+    date_text = player_path.name.split("_")[0]
 
-    print(f"検出された最新ipre_race: {pre_race_path}")
+    print(f"検出された最新player: {player_path}")
     print(f"対象日付: {date_text}")
 
     # 読込
-    pre_race = load_pre_race_json(pre_race_path)
+    player_json = load_player_json(player_path)
 
     # 全選手行生成
-    rows = build_all_player_rows(pre_race)
+    rows = build_all_player_rows(player_json)
 
-    print(f"レース数: {len(pre_race.get('races', []))}")
+    print(f"レース数: {len(player_json.get('races', []))}")
     print(f"選手行数: {len(rows)}")
 
     # CSV保存
