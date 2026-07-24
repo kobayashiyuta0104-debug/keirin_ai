@@ -1,24 +1,32 @@
 ※重要
 　・integrated.json（前日分取得）　＝　レース結果データ
-　・pre_race.json（当日分取得）　　＝　ライン予想+選手データ
+　・player.json（前日分取得）　　  ＝　選手データ
 　・race_date（前日分取得）　　　　＝レースの詳細
-　・lines.json（前日分取得）　　　　＝ライン予想
+　・lines.json（前日分取得）　　 　＝ライン予想
 　　　→ライン予想のJSONのみオッズパークから取得している
 
 
-　※ライン予想が前日でも取れるようになったため選手データも
-　　前日から取得して全ての日程を合わせる
-
-　・結果は前日のデータから取りたい
-　　　→確定したデータを一回で全て取得したい為
-
-　・レース詳細データは前日から
-　　　→確定データとぶつける為そこに合わせて取得
+全てのデータは前日確定版をJSONで保存してその保存した最新の
+JSONをCSVに出力するという流れ
 
 
-
-
-
-
-
-　　
+※GitHubで起動するコードの順番
+【HPからデータを保存するコード】
+001_collect_yesterday_player.py
+↓
+002_collect_yesterday_result.py
+↓
+006_collect_yesterday_race_data.py
+↓
+011_collect_daily_oddspark_html.py
+↓
+012_build_daily_lines_json.py
+↓
+【保存したデータをCSVにするコード】
+003_export_player_csv.py
+↓
+004_export_result_csv.py
+↓
+007_export_race_csv.py
+↓
+013_export_daily_lines_csv.py

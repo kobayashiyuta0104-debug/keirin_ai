@@ -23,7 +23,12 @@ from datetime import datetime, timedelta, timezone
 # GitHub Actions対応（JST）
 # ==========================================================
 
-BASE_DIR = Path(r"C:\競輪AI")
+import os
+
+if os.name == "nt":
+    BASE_DIR = Path(r"C:\競輪AI")
+else:
+    BASE_DIR = Path(__file__).resolve().parent.parent
 
 SAVE_DIR = (
     BASE_DIR
@@ -444,3 +449,6 @@ print(f"TARGET DATE     : {TARGET_DATE}")
 
 print()
 print("Finished.")
+
+print("SAVE_DIR exists :", SAVE_DIR.exists())
+print("HTML files :", list(SAVE_DIR.glob("*.html")))
