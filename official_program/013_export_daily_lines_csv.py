@@ -11,7 +11,12 @@ from pathlib import Path
 # Daily Lines CSV
 # ==========================================================
 
-BASE = Path(r"C:\競輪AI")
+import os
+
+if os.name == "nt":
+    BASE = Path(r"C:\競輪AI")
+else:
+    BASE = Path(__file__).resolve().parent.parent
 
 INPUT_DIR = (
     BASE /
