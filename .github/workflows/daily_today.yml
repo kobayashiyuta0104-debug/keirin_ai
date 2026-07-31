@@ -1,0 +1,91 @@
+name: Daily Today Pipeline
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # 日本時間02:00
+    - cron: '0 17 * * *'
+
+    # 日本時間03:00
+    - cron: '0 18 * * *'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas numpy joblib lightgbm beautifulsoup4 lxml
+
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      # ======================================================
+      # 当日データ取得
+      # ======================================================
+
+      - name: Run 017
+        run: python official_program/017_collect_today_player.py
+
+      - name: Run 018
+        run: python official_program/018_collect_today_race.py
+
+      - name: Run 019
+        run: python official_program/019_collect_today_lines_html.py
+
+      - name: Run 020
+        run: python official_program/020_build_today_lines.py
+
+      # ======================================================
+      # 特徴量作成
+      # ======================================================
+
+      - name: Run 023
+        run: python official_program/023_build_today_features.py
+
+      - name: Run 027
+        run: python official_program/027_build_today_race_structure.py
+
+      # ======================================================
+      # AI予測
+      # ======================================================
+
+      - name: Run 025
+        run: python official_program/025_predict_today.py
+
+      # ======================================================
+      # GitHubへ反映
+      # ======================================================
+
+      - name: Commit generated files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add csv/
+          git add data_official/today/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto update today data"
+
+            git pull --rebase origin main
+
+            git push origin main
+          else
+            echo "No changes"
+          fi
