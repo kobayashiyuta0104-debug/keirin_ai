@@ -51,43 +51,17 @@ BACKUP_DIR.mkdir(
     exist_ok=True,
 )
 
-
-# ===========================================================
-# 日付
-# ===========================================================
-
-JST = timezone(timedelta(hours=9))
-
-TARGET_DATE = (
-    datetime.now(JST)
-    - timedelta(days=1)
-).strftime("%Y%m%d")
-
-
 # ===========================================================
 # 入力CSV
 # ===========================================================
 
-PLAYER_FILE = (
-    PLAYER_DIR /
-    f"{TARGET_DATE}_player.csv"
-)
+PLAYER_FILES = sorted(PLAYER_DIR.glob("*.csv"))
 
-RACE_FILE = (
-    RACE_DIR /
-    f"{TARGET_DATE}_race.csv"
-)
+RACE_FILES = sorted(RACE_DIR.glob("*.csv"))
 
-LINES_FILE = (
-    LINES_DIR /
-    f"{TARGET_DATE}_lines.csv"
-)
+LINES_FILES = sorted(LINES_DIR.glob("*.csv"))
 
-RESULT_FILE = (
-    RESULT_DIR /
-    f"{TARGET_DATE}_result.csv"
-)
-
+RESULT_FILES = sorted(RESULT_DIR.glob("*.csv"))
 
 # ===========================================================
 # ログ
@@ -108,48 +82,64 @@ def check_input_files():
     print("入力CSV確認")
     print("------------------------------")
 
-    files = [
+    if len(PLAYER_FILES) == 0:
+        raise FileNotFoundError("playerフォルダにCSVがありません")
 
-        PLAYER_FILE,
-        RACE_FILE,
-        LINES_FILE,
-        RESULT_FILE,
+    if len(RACE_FILES) == 0:
+        raise FileNotFoundError("raceフォルダにCSVがありません")
 
-    ]
+    if len(LINES_FILES) == 0:
+        raise FileNotFoundError("linesフォルダにCSVがありません")
 
-    for file in files:
+    if len(RESULT_FILES) == 0:
+        raise FileNotFoundError("resultフォルダにCSVがありません")
 
-        if not file.exists():
-
-            raise FileNotFoundError(file)
-
-        print("OK :", file.name)
-
+    print("Player :", len(PLAYER_FILES))
+    print("Race   :", len(RACE_FILES))
+    print("Lines  :", len(LINES_FILES))
+    print("Result :", len(RESULT_FILES))
 
 # ===========================================================
 # CSV読込
 # ===========================================================
 
-def load_csv(path):
+def load_csv(files):
 
     print()
 
-    print("読込 :", path.name)
+    df_list = []
 
-    df = pd.read_csv(
+    for path in files:
 
-        path,
+        print("読込 :", path.name)
 
-        encoding="utf-8-sig",
+        df = pd.read_csv(
 
-        low_memory=False,
+            path,
+
+            encoding="utf-8-sig",
+
+            low_memory=False,
+
+        )
+
+        print("Rows :", len(df))
+
+        df_list.append(df)
+
+    merged = pd.concat(
+
+        df_list,
+
+        ignore_index=True,
 
     )
 
-    print("Rows :", len(df))
+    print("------------------")
 
-    return df
+    print("Total :", len(merged))
 
+    return merged
 
 # ===========================================================
 # training_base読込
@@ -196,13 +186,15 @@ def backup_training_base():
 
         return
 
+    today = datetime.now().strftime("%Y%m%d")
+
     backup_file = (
 
         BACKUP_DIR /
 
-        f"training_base_{TARGET_DATE}.csv"
+        f"training_base_{today}.csv"
 
-    )
+)
 
     shutil.copy2(
 
@@ -584,8 +576,6 @@ def main():
     print("========================================")
     print()
 
-    print("TARGET DATE :", TARGET_DATE)
-
     # -------------------------------------
     # 入力確認
     # -------------------------------------
@@ -602,17 +592,10 @@ def main():
     # CSV読込
     # -------------------------------------
 
-    player_df = load_csv(
+    player_df = load_csv(PLAYER_FILES)
 
-        PLAYER_FILE
 
-    )
-
-    race_df = load_csv(
-
-        RACE_FILE
-
-    )
+    race_df = load_csv(RACE_FILES)
 
     race_df = race_df[
         [
@@ -629,11 +612,7 @@ def main():
         ]
     ]
 
-    lines_df = load_csv(
-
-        LINES_FILE
-
-    )
+    lines_df = load_csv(LINES_FILES)
 
     lines_df = lines_df[
         [
@@ -645,11 +624,7 @@ def main():
         ]
     ]
 
-    result_df = load_csv(
-
-        RESULT_FILE
-
-    )
+    result_df = load_csv(RESULT_FILES)
 
     result_df = result_df[
         [
