@@ -1,6 +1,28 @@
+# AI学習データ
 csv/ai/
-# AIモデル
-model/
+
+# AIモデルバックアップ
+model/backup/
+
 # Pythonキャッシュ
 __pycache__/
 *.pyc
+
+# 過去CSVデータ
+csv/historical_date/
+
+# 不要コード
+archive/
+
+# 過去JSON
+data_official/historical/
+data_official/historical_raw/
+
+# ドキュメント
+GITHUB実行順.txt
+競輪AI　ロードマップ.txt
+競輪AI　内容整理.txt
+競輪AI_AI仕様書.xlsx
+競輪AI_AI仕様書_レース単位.xlsx
+# official_programの中のドキュメント
+official_program/000_official_program_仕様書.xlsx
