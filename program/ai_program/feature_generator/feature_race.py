@@ -16,11 +16,9 @@ feature_line.py の出力を受け取り、
 3 grade
 4 race_type
 5 session
-6 weather
-7 wind_speed
-8 bank_type
-9 straight_type
-10 bank_angle
+6 bank_type
+7 straight_type
+8 bank_angle
 
 ===========================================================
 """
@@ -56,10 +54,6 @@ REQUIRED_COLUMNS = [
     "race_type",
 
     "session",
-
-    "weather",
-
-    "wind_speed",
 
     "track_length",
 
@@ -122,8 +116,6 @@ def convert_numeric(df):
 
     columns = [
 
-        "wind_speed",
-
         "track_length",
 
         "straight_length",
@@ -143,8 +135,6 @@ def convert_numeric(df):
         )
 
     df[columns] = df[columns].fillna(0)
-
-    df["wind_speed"] = df["wind_speed"].astype(float)
 
     df["track_length"] = df["track_length"].astype(int)
 
@@ -235,8 +225,6 @@ def clean_category_columns(df):
         "race_type",
 
         "session",
-
-        "weather",
 
     ]
 
@@ -472,10 +460,6 @@ def build_feature_race(df):
 
         "session",
 
-        "weather",
-
-        "wind_speed",
-
         "bank_type",
 
         "straight_type",
@@ -498,7 +482,26 @@ def build_feature_race(df):
 
     print()
 
+    # --------------------------------------------------
+    # Ver1では使用しない列を削除
+    # --------------------------------------------------
+
+    drop_columns = [
+
+        "weather",
+
+        "wind_speed",
+
+    ]
+
+    df = df.drop(
+        columns=drop_columns,
+        errors="ignore",
+    )
+
     return df
+
+
 
 
 # ===========================================================
