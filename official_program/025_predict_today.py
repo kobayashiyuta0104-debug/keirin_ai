@@ -23,7 +23,7 @@ AI予測
 
 ↓
 
-today_prediction.csv 保存
+yyyymmdd_prediction.csv 保存
 
 ===========================================================
 """
@@ -31,7 +31,7 @@ today_prediction.csv 保存
 import os
 import json
 import joblib
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import pandas as pd
 
 from pathlib import Path
@@ -460,41 +460,121 @@ def save_prediction(result):
     )
 
     result["レース\n番号"] = (
-        result["レース\n番号"].astype(str) + "R"
+            result["レース\n番号"].astype(str) + "R"
+        )
+
+    # --------------------------------------------------
+    # レースキー
+    # --------------------------------------------------
+
+    result["レースキー"] = (
+
+        result["日付"].str.replace("-", "")
+
+        + "_"
+
+        + result["競輪場"]
+
+        + "_"
+
+        + result["レース\n番号"].astype(str)
     )
+
+    # --------------------------------------------------
+    # Ver2・評価用列（空欄）
+    # --------------------------------------------------
+
+    result["三連単\n払戻"] = ""
+    result["実際\nクラス"] = ""
+    result["的中\n判定"] = ""
+    result["方向性\n判定"] = ""
+
+    for i in range(1, 10):
+
+        result[f"{i}号車\n期待度"] = ""
+
+    result["１着"] = ""
+    result["２着"] = ""
+    result["３着"] = ""
+
+    JST = timezone(timedelta(hours=9))
+    result["予想日時"] = datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S")    
+
+    result["AIバージョン"] = "Ver1.0"
+
+    result["AIコメント"] = ""
 
     result = result[
 
-        [
+    [
 
-            "日付",
+        "レースキー",
 
-            "競輪場",
+        "日付",
 
-            "レース\n番号",
+        "競輪場",
 
-            "発走\n時刻",
+        "レース\n番号",
 
-            "開催区分",
+        "発走\n時刻",
 
-            "AI予想",
+        "開催区分",
 
-            "AI確信度",
+        "AI予想",
 
-            "0～\n9,999",
+        "AI確信度",
 
-            "10,000～\n29,999",
+        "0～\n9,999",
 
-            "30,000～\n49,999",
+        "10,000～\n29,999",
 
-            "50,000～\n99,999",
+        "30,000～\n49,999",
 
-            "100,000\n以上",
+        "50,000～\n99,999",
 
-        ]
+        "100,000\n以上",
+
+        "三連単\n払戻",
+
+        "実際\nクラス",
+
+        "的中\n判定",
+
+        "方向性\n判定",
+
+        "1号車\n期待度",
+
+        "2号車\n期待度",
+
+        "3号車\n期待度",
+
+        "4号車\n期待度",
+
+        "5号車\n期待度",
+
+        "6号車\n期待度",
+
+        "7号車\n期待度",
+
+        "8号車\n期待度",
+
+        "9号車\n期待度",
+
+        "１着",
+
+        "２着",
+
+        "３着",
+
+        "予想日時",
+
+        "AIバージョン",
+
+        "AIコメント",
 
     ]
 
+]
     print()
 
     log(f"Columns : {len(result.columns)}")
