@@ -12,6 +12,7 @@ PREDICTION_DIR = BASE / "csv" / "prediction"
 
 TARGET_FILES = [
 
+    "20260731_prediction.csv",
     "20260801_prediction.csv",
     "20260802_prediction.csv",
     "20260803_prediction.csv",
@@ -27,9 +28,13 @@ NEW_COLUMNS = [
 
     "日付",
 
+    "グレード",
+
     "競輪場",
 
     "レース\n番号",
+
+    "レース種別",
 
     "発走\n時刻",
 
@@ -49,11 +54,13 @@ NEW_COLUMNS = [
 
     "100,000\n以上",
 
-    "三連単払戻",
+    "三連単\n払戻",
 
-    "実際クラス",
+    "実際\nクラス",
 
-    "的中判定",
+    "的中\n判定",
+
+    "方向性\n判定",
 
     "1号車\n期待度",
 
@@ -136,9 +143,10 @@ for file_name in TARGET_FILES:
     # 空欄列追加
     # ----------------------------------------
 
-    df["三連単払戻"] = ""
-    df["実際クラス"] = ""
-    df["的中判定"] = ""
+    df["三連単\n払戻"] = ""
+    df["実際\nクラス"] = ""
+    df["的中\n判定"] = ""
+    df["方向性\n判定"] = ""
 
     for i in range(1, 10):
 
@@ -155,6 +163,12 @@ for file_name in TARGET_FILES:
     # ----------------------------------------
     # 列順変更
     # ----------------------------------------
+
+    if "グレード" not in df.columns:
+        df["グレード"] = ""
+
+    if "レース種別" not in df.columns:
+        df["レース種別"] = ""
 
     df = df[NEW_COLUMNS]
 

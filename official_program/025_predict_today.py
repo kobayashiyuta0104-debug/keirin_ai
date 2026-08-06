@@ -442,14 +442,18 @@ def save_prediction(result):
     )
 
     result = result.rename(
-
+    
         columns={
 
             "date": "日付",
 
+            "grade": "グレード",
+
             "jo_name": "競輪場",
 
             "race_no": "レース\n番号",
+
+            "race_type": "レース種別",
 
             "race_time": "発走\n時刻",
 
@@ -512,9 +516,13 @@ def save_prediction(result):
 
         "日付",
 
+        "グレード",
+
         "競輪場",
 
         "レース\n番号",
+
+        "レース種別",
 
         "発走\n時刻",
 
