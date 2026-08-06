@@ -43,7 +43,7 @@ def get_result_class(payout):
 
     else:
 
-        return "100,000以上"
+        return "100,000円以上"
 
 
 def update_prediction(prediction_file, result_file):

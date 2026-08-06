@@ -1,17 +1,17 @@
 """
 ===========================================================
 競輪AI Ver1.0
-028_update_prediction_result.py
+004_update_training_prediction.py
 
 予想結果更新
 
 【役割】
 
-前日の prediction.csv
+training_prediction.csv
 
 ＋
 
-前日の result.csv
+historical_result
 
 ↓
 
@@ -39,67 +39,32 @@ else:
 
     BASE = Path(__file__).resolve().parent.parent
 
-
-# ===========================================================
-# JST
-# ===========================================================
-
-JST = timezone(
-
-    timedelta(hours=9)
-
-)
-
-YESTERDAY = (
-
-    datetime.now(JST)
-
-    - timedelta(days=1)
-
-).strftime("%Y%m%d")
-
-
 # ===========================================================
 # パス
 # ===========================================================
 
-PREDICTION_DIR = (
-
+TRAINING_DIR = (
     BASE
-
     / "csv"
-
-    / "prediction"
-
+    / "training"
 )
 
 RESULT_DIR = (
-
     BASE
-
     / "csv"
-
-    / "result"
-
+    / "historical_date"
+    / "historical_result"
 )
 
-
 PREDICTION_FILE = (
-
-    PREDICTION_DIR
-
-    / f"{YESTERDAY}_prediction.csv"
-
+    TRAINING_DIR
+    / "training_prediction.csv"
 )
 
 RESULT_FILE = (
-
     RESULT_DIR
-
-    / f"{YESTERDAY}_result.csv"
-
+    / "historical_result.csv"
 )
-
 
 # ===========================================================
 # ログ
@@ -107,7 +72,7 @@ RESULT_FILE = (
 
 def log(message):
 
-    print(f"[028_update_prediction_result] {message}")
+    print(f"[004_update_training_prediction] {message}")
 
 
 # ===========================================================
@@ -140,6 +105,8 @@ def load_prediction():
 
     print()
 
+    print(df.columns.tolist())
+
     return df
 
 
@@ -168,10 +135,11 @@ def load_result():
     )
 
     log(f"Rows    : {len(df):,}")
-
     log(f"Columns : {len(df.columns):,}")
 
     print()
+
+    df = df.set_index("race_key", drop=False)
 
     return df
 
@@ -218,9 +186,9 @@ def update_prediction(
     log("Prediction Update")
     log("=======================================")
 
-    prediction_df["三連単払戻"] = prediction_df["三連単払戻"].astype(object)
-    prediction_df["実際クラス"] = prediction_df["実際クラス"].astype(object)
-    prediction_df["的中判定"] = prediction_df["的中判定"].astype(object)
+    prediction_df["三連単\n払戻"] = prediction_df["三連単\n払戻"].astype(object)
+    prediction_df["実際\nクラス"] = prediction_df["実際\nクラス"].astype(object)
+    prediction_df["的中\n判定"] = prediction_df["的中\n判定"].astype(object)
 
     prediction_df["１着"] = prediction_df["１着"].astype(object)
     prediction_df["２着"] = prediction_df["２着"].astype(object)
@@ -234,11 +202,13 @@ def update_prediction(
 
     for race_key in prediction_df["レースキー"].unique():
 
-        race_result = result_df[
+        try:
 
-            result_df["race_key"] == race_key
+            race_result = result_df.loc[[race_key]]
 
-        ]
+        except KeyError:
+
+            continue
 
         if race_result.empty:
 
@@ -248,15 +218,19 @@ def update_prediction(
         # 払戻
         # ------------------------------
 
+        payout_value = race_result["trifecta_payout"].iloc[0]
+
+        if pd.isna(payout_value):
+
+            continue
+
         payout = int(
 
-            str(
+            float(
 
-                race_result["trifecta_payout"]
+                str(payout_value).replace(",", "")
 
-                .iloc[0]
-
-            ).replace(",", "")
+            )
 
         )
 
@@ -264,7 +238,7 @@ def update_prediction(
 
             prediction_df["レースキー"] == race_key,
 
-            "三連単払戻"
+            "三連単\n払戻"
 
         ] = payout
 
@@ -282,7 +256,7 @@ def update_prediction(
 
             prediction_df["レースキー"] == race_key,
 
-            "実際クラス"
+            "実際\nクラス"
 
         ] = result_class
 
@@ -302,7 +276,7 @@ def update_prediction(
 
             prediction_df["レースキー"] == race_key,
 
-            "的中判定"
+            "的中\n判定"
 
         ] = (
 
@@ -409,7 +383,7 @@ def main():
     print()
 
     log("=======================================")
-    log("028 Update Prediction Result")
+    log("004 Update Training Prediction")
     log("=======================================")
 
     # --------------------------------------------------
