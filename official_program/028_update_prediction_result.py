@@ -218,9 +218,9 @@ def update_prediction(
     log("Prediction Update")
     log("=======================================")
 
-    prediction_df["三連単払戻"] = prediction_df["三連単払戻"].astype(object)
-    prediction_df["実際クラス"] = prediction_df["実際クラス"].astype(object)
-    prediction_df["的中判定"] = prediction_df["的中判定"].astype(object)
+    prediction_df["三連単\n払戻"] = prediction_df["三連単\n払戻"].astype(object)
+    prediction_df["実際\nクラス"] = prediction_df["実際\nクラス"].astype(object)
+    prediction_df["的中\n判定"] = prediction_df["的中\n判定"].astype(object)
 
     prediction_df["１着"] = prediction_df["１着"].astype(object)
     prediction_df["２着"] = prediction_df["２着"].astype(object)
@@ -264,7 +264,7 @@ def update_prediction(
 
             prediction_df["レースキー"] == race_key,
 
-            "三連単払戻"
+            "三連単\n払戻"
 
         ] = payout
 
@@ -282,7 +282,7 @@ def update_prediction(
 
             prediction_df["レースキー"] == race_key,
 
-            "実際クラス"
+            "実際\nクラス"
 
         ] = result_class
 
@@ -302,7 +302,7 @@ def update_prediction(
 
             prediction_df["レースキー"] == race_key,
 
-            "的中判定"
+            "的中\n判定"
 
         ] = (
 
