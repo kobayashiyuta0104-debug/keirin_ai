@@ -16,6 +16,7 @@ import json
 import urllib.request
 import urllib.parse
 from pathlib import Path
+from datetime import datetime, timedelta
 
 # ===========================================================
 # 基本設定
@@ -23,7 +24,8 @@ from pathlib import Path
 
 BASE = Path(r"C:\競輪AI")
 
-TARGET_DATE = "20230101"
+TARGET_START = "20200101"
+TARGET_END = "20221231"
 
 OUTPUT_DIR = (
     BASE
@@ -94,7 +96,7 @@ def fetch_jsj001(encp):
 # main
 # ===========================================================
 
-def collect_pre_race(target_date=None):
+def collect_pre_race(target_date):
 
     if target_date is None:
         target_date = TARGET_DATE
@@ -204,11 +206,111 @@ def collect_pre_race(target_date=None):
 # main
 # ===========================================================
 
-def main(target_date=None):
+def main():
 
-    collect_pre_race(target_date)
+    start_date = datetime.strptime(
+        TARGET_START,
+        "%Y%m%d"
+    )
 
+    end_date = datetime.strptime(
+        TARGET_END,
+        "%Y%m%d"
+    )
 
+    current_date = start_date
+
+    total_days = 0
+    saved_days = 0
+    skipped_days = 0
+    error_days = 0
+
+    while current_date <= end_date:
+
+        target_date = current_date.strftime("%Y%m%d")
+
+        total_days += 1
+
+        output_file = (
+            OUTPUT_DIR
+            / f"{target_date}_pre_race.json"
+        )
+
+        print()
+        print("=" * 60)
+        print(
+            f"[{total_days}] {target_date}"
+        )
+        print("=" * 60)
+
+        # --------------------------------------------
+        # 既に取得済みならスキップ
+        # --------------------------------------------
+
+        if output_file.exists():
+
+            skipped_days += 1
+
+            print(
+                f"SKIP : {output_file.name}"
+            )
+
+            current_date += timedelta(days=1)
+
+            continue
+
+        try:
+
+            collect_pre_race(
+                target_date
+            )
+
+            saved_days += 1
+
+        except Exception as e:
+
+            error_days += 1
+
+            print()
+            print("ERROR")
+            print(type(e).__name__)
+            print(e)
+
+        current_date += timedelta(days=1)
+
+    print()
+    print("=" * 60)
+    print("Historical Pre Race Complete")
+    print("=" * 60)
+
+    print(
+        f"対象期間 : "
+        f"{TARGET_START} ～ {TARGET_END}"
+    )
+
+    print(
+        f"対象日数 : {total_days}"
+    )
+
+    print(
+        f"SAVED    : {saved_days}"
+    )
+
+    print(
+        f"SKIP     : {skipped_days}"
+    )
+
+    print(
+        f"ERROR    : {error_days}"
+    )
+
+    print(
+        f"OUTPUT   : {OUTPUT_DIR}"
+    )
+
+    print()
+    print("Finished.")
+    
 # ===========================================================
 # 実行
 # ===========================================================

@@ -72,7 +72,7 @@ OUTPUT_DIR = (
 
 OUTPUT_CSV = (
     OUTPUT_DIR /
-    "historical_lines.csv"
+    "historical_lines_2020.1.1_2022.12.31.csv"
 )
 
 OUTPUT_DIR.mkdir(
@@ -84,8 +84,13 @@ OUTPUT_DIR.mkdir(
 # JSON一覧
 # ==========================================================
 
+TARGET_START = "20200101"
+TARGET_END   = "20221231"
+
 json_files = sorted(
-    INPUT_DIR.glob("*_lines.json")
+    json_file
+    for json_file in INPUT_DIR.glob("*_lines.json")
+    if TARGET_START <= json_file.stem.replace("_lines", "") <= TARGET_END
 )
 
 print("=" * 70)

@@ -25,8 +25,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 #   ・Race重複排除
 # ==========================================================
 
-TARGET_START = "202301"
-TARGET_END   = "202607"
+TARGET_START = "202107"
+TARGET_END   = "202212"
 
 BASE_DIR = Path(r"C:\競輪AI")
 

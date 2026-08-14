@@ -70,7 +70,7 @@ TRAINING_FILE = (
     BASE
     / "csv"
     / "training"
-    / "training_prediction.csv"
+    / "training_prediction(2020.1.1~2022.12.31).csv"
 
 )
 
@@ -374,6 +374,51 @@ def analyze_class(df):
         *100
 
     ).round(2)
+
+    return result
+
+# ===========================================================
+# 実際クラス × AI予想 クロス集計
+# ===========================================================
+
+def analyze_actual_vs_ai_class(df):
+
+    log("=======================================")
+    log("Actual Class × AI Class Analysis")
+    log("=======================================")
+
+    result = pd.crosstab(
+        df["実際\nクラス"],
+        df["AI予想"],
+        dropna=False,
+    )
+
+    # クラス順を固定
+    result = result.reindex(
+        index=CLASS_LIST,
+        columns=CLASS_LIST,
+        fill_value=0,
+    )
+
+    # 行合計
+    result["合計"] = result.sum(axis=1)
+
+    # 列合計
+    total_row = result.sum(axis=0)
+    total_row.name = "合計"
+
+    result = pd.concat(
+        [
+            result,
+            total_row.to_frame().T,
+        ]
+    )
+
+    # インデックス名
+    result.index.name = "実際クラス"
+
+    # 通常のDataFrameへ
+    result = result.reset_index()
 
     return result
 
@@ -1565,29 +1610,18 @@ def build_summary(
 # ===========================================================
 
 def save_excel(
-
     summary_df,
-
     overall_df,
-
     class_df,
-
+    actual_vs_ai_df,
     grade_df,
-
     race_type_df,
-
     track_df,
-
     payout_distribution_df,
-
     prediction_distribution_df,
-
     high_payout_df,
-
     weakness_df,
-
     confidence_df,
-
 ):
 
     log("=======================================")
@@ -1646,6 +1680,12 @@ def save_excel(
 
             index=False,
 
+        )
+
+        actual_vs_ai_df.to_excel(
+            writer,
+            sheet_name="実際×AIクラス",
+            index=False,
         )
 
         grade_df.to_excel(
@@ -1756,6 +1796,10 @@ def main():
         prediction_df,
     )
 
+    actual_vs_ai_df = analyze_actual_vs_ai_class(
+        prediction_df
+    )
+
     grade_df = analyze_grade(
         prediction_df,
     )
@@ -1801,6 +1845,8 @@ def main():
         overall_df,
 
         class_df,
+
+        actual_vs_ai_df,
 
         grade_df,
 

@@ -28,9 +28,17 @@ else:
     BASE = Path(__file__).resolve().parent.parent
 
 HISTORICAL_DIR = BASE / "data_official" / "historical" / "result"
-RESULT_CSV_DIR = BASE / "csv" / "historical_result"
+RESULT_CSV_DIR = (
+    BASE
+    / "csv"
+    / "historical_date"
+    / "historical_result"
+)
 
 RESULT_CSV_DIR.mkdir(parents=True, exist_ok=True)
+
+TARGET_START = "20200101"
+TARGET_END = "20221231"
 
 # ===========================================================
 # 最新result.json自動検出
@@ -38,10 +46,18 @@ RESULT_CSV_DIR.mkdir(parents=True, exist_ok=True)
 
 def get_historical_json_files():
 
-    files = sorted(HISTORICAL_DIR.glob("*_result.json"))
+    files = sorted(
+        path
+        for path in HISTORICAL_DIR.glob("*_result.json")
+        if TARGET_START
+        <= path.stem.replace("_result", "")
+        <= TARGET_END
+    )
 
     if not files:
-        raise FileNotFoundError("historical result.json が見つかりません")
+        raise FileNotFoundError(
+            "対象期間のhistorical result.jsonが見つかりません"
+        )
 
     return files
 
@@ -262,7 +278,10 @@ def build_all_result_rows(result):
 # ===========================================================
 
 def save_result_csv(rows):
-    output_path = RESULT_CSV_DIR / "historical_result.csv"
+    output_path = (
+        RESULT_CSV_DIR
+        / "historical_result_2020.1.1~2022.12.31.csv"
+    )
 
     with open(output_path, "w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=RESULT_HEADERS, extrasaction="raise")

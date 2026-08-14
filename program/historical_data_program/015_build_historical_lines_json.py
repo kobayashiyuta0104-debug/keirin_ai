@@ -66,8 +66,13 @@ parse_historical_line_html = (
 # HTML一覧
 # ==========================================================
 
+TARGET_START = "20200101"
+TARGET_END   = "20221231"
+
 html_files = sorted(
-    HTML_DIR.glob("*.html")
+    html_file
+    for html_file in HTML_DIR.glob("*.html")
+    if TARGET_START <= html_file.stem <= TARGET_END
 )
 
 print("=" * 70)

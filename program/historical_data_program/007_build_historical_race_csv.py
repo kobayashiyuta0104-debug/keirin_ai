@@ -24,7 +24,12 @@ if os.name == "nt":
 else:
     BASE = Path(__file__).resolve().parent.parent
 RACE_DATA_DIR = BASE / "data_official" / "historical" / "race_data"
-RACE_CSV_DIR = BASE / "csv" / "historical_race"
+RACE_CSV_DIR = (
+    BASE
+    / "csv"
+    / "historical_date"
+    / "historical_race"
+)
 
 SESSION_MASTER_FILE = (
     BASE
@@ -34,19 +39,30 @@ SESSION_MASTER_FILE = (
 )
 
 RACE_CSV_DIR.mkdir(parents=True, exist_ok=True)
+
+TARGET_START = "20200101"
+TARGET_END = "20221231"
+
 # ===========================================================
 # 最新 race_data.json 自動検出
 # ===========================================================
 
 def get_historical_json_files():
 
-    files = sorted(RACE_DATA_DIR.glob("*_race_data.json"))
+    files = sorted(
+        path
+        for path in RACE_DATA_DIR.glob("*_race_data.json")
+        if TARGET_START
+        <= path.stem.replace("_race_data", "")
+        <= TARGET_END
+    )
 
     if not files:
-        raise FileNotFoundError("historical race_data.json が見つかりません")
+        raise FileNotFoundError(
+            "対象期間のhistorical race_data.jsonが見つかりません"
+        )
 
     return files
-
 # ===========================================================
 # CSVヘッダー
 # ===========================================================
@@ -223,7 +239,10 @@ def build_race_rows(
 
 def save_race_csv(rows):
 
-    output_path = RACE_CSV_DIR / "historical_race.csv"
+    output_path = (
+        RACE_CSV_DIR
+        / "historical_race_2020.1.1~2022.12.31.csv"
+    )
 
     with open(
         output_path,

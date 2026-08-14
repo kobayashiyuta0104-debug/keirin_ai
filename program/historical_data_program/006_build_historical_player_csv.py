@@ -16,33 +16,55 @@ import csv
 import os
 from pathlib import Path
 
-
 # ===========================================================
 # 基本設定
 # ===========================================================
-
-import os
 
 if os.name == "nt":
     BASE = Path(r"C:\競輪AI")
 else:
     BASE = Path(__file__).resolve().parent.parent
 
-HISTORICAL_DIR = BASE / "data_official" / "historical" / "players"
-PLAYER_CSV_DIR = BASE / "csv" / "historical_player"
+TARGET_START = "20200101"
+TARGET_END = "20221231"
 
-PLAYER_CSV_DIR.mkdir(parents=True, exist_ok=True)
+HISTORICAL_DIR = (
+    BASE
+    / "data_official"
+    / "historical"
+    / "player"
+)
 
+PLAYER_CSV_DIR = (
+    BASE
+    / "csv"
+    / "historical_date"
+    / "historical_player"
+)
+
+PLAYER_CSV_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
 
 # ===========================================================
 # historical JSON 一覧取得
 # ===========================================================
 
 def get_historical_json_files():
-    files = sorted(HISTORICAL_DIR.glob("*_player.json"))
+
+    files = sorted(
+        path
+        for path in HISTORICAL_DIR.glob("*_player.json")
+        if TARGET_START
+        <= path.stem.replace("_player", "")
+        <= TARGET_END
+    )
 
     if not files:
-        raise FileNotFoundError("historical player.json が見つかりません")
+        raise FileNotFoundError(
+            "対象期間のhistorical player.jsonが見つかりません"
+        )
 
     return files
 
@@ -283,7 +305,10 @@ def save_player_csv(rows):
     player CSV を保存する
     """
 
-    output_path = PLAYER_CSV_DIR / "historical_player.csv"
+    output_path = (
+        PLAYER_CSV_DIR
+        / "historical_player_2020.1.1~2022.12.31.csv"
+)
 
     with open(output_path, "w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=PLAYER_HEADERS, extrasaction="raise")
