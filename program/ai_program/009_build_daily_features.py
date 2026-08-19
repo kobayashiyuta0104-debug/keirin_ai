@@ -3,8 +3,8 @@
 競輪AI Ver1.0
 009_build_historical_features.py
 
-2020/01/01 ～ 2022/12/31
-Historical予測特徴量生成
+2026/01/01 ～ 2026/08/18
+Daily JSON予測特徴量生成
 
 【役割】
 
@@ -36,7 +36,7 @@ Feature Generator
 
 ↓
 
-training_features(2020.1.1~2022.12.31).csv
+training_features(2026.1.1~2026.8.18).csv
 
 ※特徴量ロジックは023と同じ
 ※結果JSONは使用しない
@@ -102,41 +102,41 @@ from feature_generator.feature_relative import (
 # ===========================================================
 
 START_DATE = datetime(
-    2020,
+    2026,
     1,
     1
 )
 
 END_DATE = datetime(
-    2022,
-    12,
-    31
+    2026,
+    8,
+    18
 )
 
 
 # ===========================================================
-# Historical JSON
+# Daily JSON
 # ===========================================================
 
-HISTORICAL_DIR = (
+DAILY_DIR = (
     BASE
     / "data_official"
-    / "historical"
+    / "daily"
 )
 
 
 PLAYER_DIR = (
-    HISTORICAL_DIR
+    DAILY_DIR
     / "player"
 )
 
 RACE_DIR = (
-    HISTORICAL_DIR
+    DAILY_DIR
     / "race_data"
 )
 
 LINES_DIR = (
-    HISTORICAL_DIR
+    DAILY_DIR
     / "lines"
 )
 
@@ -166,7 +166,7 @@ OUTPUT_DIR = (
 
 OUTPUT_CSV = (
     OUTPUT_DIR
-    / "training_features(2020.1.1~2022.12.31).csv"
+    / "training_features(2026.1.1~2026.8.18).csv"
 )
 
 
@@ -216,10 +216,10 @@ def generate_dates():
 
 
 # ===========================================================
-# Historical JSON読込
+# Daily JSON読込
 # ===========================================================
 
-def load_historical_data(target_date):
+def load_daily_data(target_date):
 
     player_file = (
         PLAYER_DIR
@@ -263,7 +263,7 @@ def load_historical_data(target_date):
 # ===========================================================
 # Player DataFrame
 #
-# Historical player.json
+# Daily player.json
 #
 # venues
 #   └ races
@@ -755,7 +755,7 @@ def convert_line_race_key(line_race_key, player_df):
 # ===========================================================
 # Lines DataFrame
 #
-# Historical lines.json
+# Daily lines.json
 #
 # 023と同じ形式へ変換
 # ===========================================================
@@ -1074,7 +1074,7 @@ def build_dataframe(
 # ★023と同じ
 # ===========================================================
 
-def build_historical_features(
+def build_daily_features(
     df
 ):
 
@@ -1173,7 +1173,7 @@ def main():
 
     log("=======================================")
     log(
-        "009 Historical Features"
+        "009 Daily Features"
     )
     log("=======================================")
 
@@ -1321,7 +1321,7 @@ def main():
                 race_json,
                 lines_json,
                 session_master
-            ) = load_historical_data(
+            ) = load_daily_data(
                 target_date
             )
 
@@ -1358,7 +1358,7 @@ def main():
             # Feature Generator
             # ------------------------------------------------
 
-            df = build_historical_features(
+            df = build_daily_features(
                 df
             )
 
@@ -1436,7 +1436,7 @@ def main():
     )
 
     print(
-        "009 Historical Features Complete"
+        "009 Daily Features Complete"
     )
 
     print(
@@ -1447,7 +1447,7 @@ def main():
 
     print(
         "対象期間 :",
-        "2020/01/01 ～ 2022/12/31"
+        "2026/01/01 ～ 2026/08/18"
     )
 
     print(

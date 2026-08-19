@@ -55,12 +55,12 @@ CSV_AI = (
 
 INPUT_CSV = (
     CSV_AI
-    / "training_features(2020.1.1~2022.12.31).csv"
+    / "training_features(2026.1.1~2026.8.18).csv"
 )
 
 OUTPUT_CSV = (
     CSV_AI
-    / "training_race_features(2020.1.1~2022.12.31).csv"
+    / "training_race_features(2026.1.1~2026.8.18).csv"
 )
 
 
