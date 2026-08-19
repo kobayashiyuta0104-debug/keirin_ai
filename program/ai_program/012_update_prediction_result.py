@@ -6,7 +6,7 @@
 #
 # 【役割】
 #
-# training_prediction(2020.1.1~2022.12.31).csv
+# training_prediction(2026.1.1~2026.8.18).csv
 #
 # ＋
 #
@@ -61,8 +61,7 @@ TRAINING_DIR = (
 RESULT_DIR = (
     BASE
     / "csv"
-    / "historical_date"
-    / "historical_result"
+    / "result"
 )
 
 
@@ -72,13 +71,13 @@ RESULT_DIR = (
 
 PREDICTION_FILE = (
     TRAINING_DIR
-    / "training_prediction(2020.1.1~2022.12.31).csv"
+    / "training_prediction(2026.1.1~2026.8.18).csv"
 )
 
 
 RESULT_FILE = (
     RESULT_DIR
-    / "historical_result_2020.1.1~2022.12.31.csv"
+    / "training_result(2026.1.1~2026.8.18).csv"
 )
 
 
@@ -88,7 +87,7 @@ RESULT_FILE = (
 
 OUTPUT_FILE = (
     TRAINING_DIR
-    / "training_prediction(2020.1.1~2022.12.31).csv"
+    / "training_prediction_result(2026.1.1~2026.8.18).csv"
 )
 
 # ===========================================================
@@ -123,7 +122,7 @@ def load_prediction():
     )
 
     log(
-        "Historical Prediction CSV 読込"
+        "2026 Prediction CSV 読込"
     )
 
     log(
@@ -170,7 +169,7 @@ def load_result():
     )
 
     log(
-        "Historical Result CSV 読込"
+        "2026 Result CSV 読込"
     )
 
     log(
@@ -213,30 +212,34 @@ def load_result():
 def get_result_class(payout):
 
     if pd.isna(payout):
-
         return None
 
     payout = int(payout)
 
-    if payout <= 9999:
+    if payout <= 1999:
+        return "0～1,999円"
 
-        return "0～9,999円"
+    elif payout <= 4999:
+        return "2,000～4,999円"
+
+    elif payout <= 9999:
+        return "5,000～9,999円"
+
+    elif payout <= 19999:
+        return "10,000～19,999円"
 
     elif payout <= 29999:
-
-        return "10,000～29,999円"
+        return "20,000～29,999円"
 
     elif payout <= 49999:
-
         return "30,000～49,999円"
 
     elif payout <= 99999:
-
         return "50,000～99,999円"
 
     else:
-
         return "100,000円以上"
+
 
 
 # ===========================================================
@@ -256,7 +259,7 @@ def update_prediction(
     )
 
     log(
-        "Historical Prediction Update"
+        "2026 Prediction Update"
     )
 
     log(
@@ -566,7 +569,7 @@ def save_prediction(
     )
 
     log(
-        "Historical Prediction Result CSV 保存"
+        "2026 Prediction Result CSV 保存"
     )
 
     log(
@@ -613,7 +616,7 @@ def main():
     )
 
     log(
-        "012 Update Historical Prediction Result"
+        "012 Update Prediction Result"
     )
 
     log(

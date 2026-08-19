@@ -181,13 +181,25 @@ def load_result():
 
 def get_result_class(payout):
 
-    if payout <= 9999:
+    if payout <= 1999:
 
-        return "0～9,999円"
+        return "0～1,999円"
+
+    elif payout <= 4999:
+
+        return "2,000～4,999円"
+
+    elif payout <= 9999:
+
+        return "5,000～9,999円"
+
+    elif payout <= 19999:
+
+        return "10,000～19,999円"
 
     elif payout <= 29999:
 
-        return "10,000～29,999円"
+        return "20,000～29,999円"
 
     elif payout <= 49999:
 
