@@ -66,8 +66,8 @@ parse_historical_line_html = (
 # HTML一覧
 # ==========================================================
 
-TARGET_START = "20200101"
-TARGET_END   = "20221231"
+TARGET_START = "20260716"
+TARGET_END   = "20260804"
 
 html_files = sorted(
     html_file

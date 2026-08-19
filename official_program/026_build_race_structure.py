@@ -254,29 +254,41 @@ def create_race_groups(df):
 # 1レース1行へ横展開
 # ===========================================================
 
-def build_training_race_features(race_groups):
+def build_training_race_features(
+    race_groups,
+    chunk_size=20000,
+):
+    """
+    1レース1行へ横展開
+
+    メモリ対策として、
+    chunk_size件ごとにDataFrame化して返す。
+
+    特徴量生成ロジック自体は変更しない。
+    """
 
     log("=======================================")
     log("Build Race Features")
     log("=======================================")
 
-    # 最終的にここへ1レース1辞書ずつ追加する
     race_rows = []
+
+    total_races = len(race_groups)
 
     # =======================================================
     # race_keyごとに処理
     # =======================================================
 
-    for race_index, (race_key, race_df) in enumerate(race_groups, start=1):
-
-        log(f"[{race_index}/{len(race_groups)}] {race_key}")
+    for race_index, (race_key, race_df) in enumerate(
+        race_groups,
+        start=1
+    ):
 
         # レース1行分
         race_row = {}
 
         # ---------------------------------------------------
         # レース情報
-        # （同一レースなので先頭行を採用）
         # ---------------------------------------------------
 
         first_row = race_df.iloc[0]
@@ -297,7 +309,6 @@ def build_training_race_features(race_groups):
 
         for line_no in range(1, 10):
 
-            # 該当ラインのみ抽出
             line_df = race_df[
                 race_df["line_no"] == line_no
             ].copy()
@@ -327,11 +338,15 @@ def build_training_race_features(race_groups):
 
                     for feature in PLAYER_FEATURE_COLUMNS:
 
-                        column_name = f"{prefix}_{feature}"
+                        column_name = (
+                            f"{prefix}_{feature}"
+                        )
 
                         if feature in player.index:
 
-                            race_row[column_name] = player[feature]
+                            race_row[column_name] = (
+                                player[feature]
+                            )
 
                         else:
 
@@ -345,66 +360,150 @@ def build_training_race_features(race_groups):
 
                     for feature in PLAYER_FEATURE_COLUMNS:
 
-                        column_name = f"{prefix}_{feature}"
+                        column_name = (
+                            f"{prefix}_{feature}"
+                        )
 
                         race_row[column_name] = pd.NA
 
-# ===========================================================
-# 教師データ追加
-# ===========================================================
+        # ===================================================
+        # 教師データ追加
+        # ===================================================
 
-        # payout_class は同一レースで共通なので先頭行を採用
         if "payout_class" in race_df.columns:
 
-            race_row["payout_class"] = first_row["payout_class"]
+            race_row["payout_class"] = (
+                first_row["payout_class"]
+            )
 
         else:
 
             race_row["payout_class"] = pd.NA
 
+        # ===================================================
         # 1レース分追加
+        # ===================================================
+
         race_rows.append(race_row)
 
+        # ===================================================
+        # チャンク処理
+        # ===================================================
+
+        if len(race_rows) >= chunk_size:
+
+            chunk_df = pd.DataFrame(race_rows)
+
+            log(
+                f"Chunk : "
+                f"{race_index:,}/{total_races:,} "
+                f""
+                f"({len(chunk_df):,} races)"
+            )
+
+            yield chunk_df
+
+            # メモリ解放
+            del chunk_df
+
+            race_rows = []
+
+    # =======================================================
+    # 最終端数
+    # =======================================================
+
+    if race_rows:
+
+        chunk_df = pd.DataFrame(race_rows)
+
+        log(
+            f"Chunk : "
+            f"{total_races:,}/{total_races:,} "
+            f""
+            f"({len(chunk_df):,} races)"
+        )
+
+        yield chunk_df
+
+        del chunk_df
+
     print()
 
-    log(f"Race Rows : {len(race_rows):,}")
-
-    print()
-
-    return pd.DataFrame(race_rows)
-
+    log("Build Race Features 完了")
 
 # ===========================================================
 # CSV保存
 # ===========================================================
 
-def save_training_race_features(df):
+def save_training_race_features(chunks):
 
     log("=======================================")
     log("Save CSV")
     log("=======================================")
 
-    # 出力フォルダが無ければ作成
     OUTPUT_CSV.parent.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    df.to_csv(
+    # -------------------------------------------------------
+    # 既存ファイル削除
+    # -------------------------------------------------------
 
-        OUTPUT_CSV,
+    if OUTPUT_CSV.exists():
 
-        index=False,
+        OUTPUT_CSV.unlink()
 
-        encoding="utf-8-sig",
+        log("既存CSV削除")
 
-    )
+    # -------------------------------------------------------
+    # チャンクを順次保存
+    # -------------------------------------------------------
+
+    first_chunk = True
+
+    total_rows = 0
+
+    total_columns = 0
+
+    for chunk_df in chunks:
+
+        total_rows += len(chunk_df)
+
+        total_columns = len(chunk_df.columns)
+
+        chunk_df.to_csv(
+
+            OUTPUT_CSV,
+
+            mode="w" if first_chunk else "a",
+
+            header=first_chunk,
+
+            index=False,
+
+            encoding="utf-8-sig",
+
+        )
+
+        first_chunk = False
+
+        log(
+            f"保存済み : "
+            f"{total_rows:,} rows"
+        )
+
+        del chunk_df
+
+    # -------------------------------------------------------
+    # 完了
+    # -------------------------------------------------------
 
     log(f"Save : {OUTPUT_CSV}")
 
-    log(f"Rows : {len(df):,}")
+    log(f"Rows : {total_rows:,}")
 
-    log(f"Columns : {len(df.columns):,}")
+    log(f"Columns : {total_columns:,}")
 
     print()
 
@@ -428,13 +527,14 @@ def main():
     race_groups = create_race_groups(df)
 
     # 1レース1行へ変換
-    race_feature_df = build_training_race_features(
-        race_groups
+    race_feature_chunks = build_training_race_features(
+        race_groups,
+        chunk_size=20000,
     )
 
     # CSV保存
     save_training_race_features(
-        race_feature_df
+        race_feature_chunks
     )
 
     log("Complete")

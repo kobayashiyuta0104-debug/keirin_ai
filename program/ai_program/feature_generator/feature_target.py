@@ -124,24 +124,50 @@ def create_payout_class(df):
     AI学習用目的変数作成
 
     trifecta_payoutから
-    payout_classを生成する。
+    8クラスのpayout_classを生成する。
+
+    Class 0 : 0～1,999円
+    Class 1 : 2,000～4,999円
+    Class 2 : 5,000～9,999円
+    Class 3 : 10,000～19,999円
+    Class 4 : 20,000～29,999円
+    Class 5 : 30,000～49,999円
+    Class 6 : 50,000～99,999円
+    Class 7 : 100,000円以上
     """
 
     log("payout_class 作成")
 
     conditions = [
 
-        df["trifecta_payout"] <= 9999,
+        # Class 0
+        df["trifecta_payout"] <= 1999,
 
+        # Class 1
+        (df["trifecta_payout"] >= 2000) &
+        (df["trifecta_payout"] <= 4999),
+
+        # Class 2
+        (df["trifecta_payout"] >= 5000) &
+        (df["trifecta_payout"] <= 9999),
+
+        # Class 3
         (df["trifecta_payout"] >= 10000) &
+        (df["trifecta_payout"] <= 19999),
+
+        # Class 4
+        (df["trifecta_payout"] >= 20000) &
         (df["trifecta_payout"] <= 29999),
 
+        # Class 5
         (df["trifecta_payout"] >= 30000) &
-        (df["trifecta_payout"] <= 59999),
+        (df["trifecta_payout"] <= 49999),
 
-        (df["trifecta_payout"] >= 60000) &
+        # Class 6
+        (df["trifecta_payout"] >= 50000) &
         (df["trifecta_payout"] <= 99999),
 
+        # Class 7
         df["trifecta_payout"] >= 100000,
 
     ]
@@ -149,14 +175,13 @@ def create_payout_class(df):
     values = [
 
         0,
-
         1,
-
         2,
-
         3,
-
         4,
+        5,
+        6,
+        7,
 
     ]
 

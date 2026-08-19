@@ -37,8 +37,8 @@ RESULT_CSV_DIR = (
 
 RESULT_CSV_DIR.mkdir(parents=True, exist_ok=True)
 
-TARGET_START = "20200101"
-TARGET_END = "20221231"
+TARGET_START = "20230101"
+TARGET_END = "20251231"
 
 # ===========================================================
 # 最新result.json自動検出
@@ -76,7 +76,9 @@ RESULT_HEADERS = [
     "finish_order",
     "result_status",
     "result_reason",
-    "trifecta",
+    "trifecta_1st",
+    "trifecta_2nd",
+    "trifecta_3rd",
     "trifecta_payout",
     "popularity",
 ]
@@ -159,7 +161,30 @@ def build_result_rows_from_race(race):
             break
 
     trifecta_comb = trifecta.get("kumiBan") if trifecta else None
-    trifecta_payout = to_int(trifecta.get("haraiGaku")) if trifecta else None
+
+    # --------------------------------------------------
+    # 3連単を1着・2着・3着に分解
+    # --------------------------------------------------
+
+    trifecta_1st = None
+    trifecta_2nd = None
+    trifecta_3rd = None
+
+    if trifecta_comb:
+
+        parts = str(trifecta_comb).replace("－", "-").replace("―", "-").split("-")
+
+        if len(parts) == 3:
+
+            trifecta_1st = to_int(parts[0])
+            trifecta_2nd = to_int(parts[1])
+            trifecta_3rd = to_int(parts[2])
+
+    trifecta_payout = (
+        to_int(trifecta.get("haraiGaku"))
+        if trifecta
+        else None
+    )
     trifecta_pop = (
         to_int(str(trifecta.get("ninki", "")).replace("(", "").replace(")", ""))
         if trifecta
@@ -227,7 +252,9 @@ def build_result_rows_from_race(race):
             "result_status": status,
             "result_reason": note,
 
-            "trifecta": trifecta_comb,
+            "trifecta_1st": trifecta_1st,
+            "trifecta_2nd": trifecta_2nd,
+            "trifecta_3rd": trifecta_3rd,
             "trifecta_payout": trifecta_payout,
             "popularity": trifecta_pop,
         })
@@ -280,7 +307,7 @@ def build_all_result_rows(result):
 def save_result_csv(rows):
     output_path = (
         RESULT_CSV_DIR
-        / "historical_result_2020.1.1~2022.12.31.csv"
+        / "historical_result_2023.1.1~2025.12.31.csv"
     )
 
     with open(output_path, "w", encoding="utf-8-sig", newline="") as f:

@@ -28,14 +28,14 @@ if os.name == "nt":
 else:
     BASE = Path(__file__).resolve().parent.parent
 
-TARGET_START = "20200101"
-TARGET_END = "20221231"
+TARGET_START = "20260716"
+TARGET_END = "20260804"
 
 OUTPUT_DIR = (
     BASE
     / "data_official"
     / "historical"
-    / "players"
+    / "player"
 )
 
 OUTPUT_DIR.mkdir(

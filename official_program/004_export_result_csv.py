@@ -70,7 +70,9 @@ RESULT_HEADERS = [
     "finish_order",
     "result_status",
     "result_reason",
-    "trifecta",
+    "trifecta_1st",
+    "trifecta_2nd",
+    "trifecta_3rd",
     "trifecta_payout",
     "popularity",
 ]
@@ -165,7 +167,20 @@ def build_result_rows_from_race(race, bank_master):
             trifecta = item
             break
 
-    trifecta_comb = trifecta.get("kumiBan") if trifecta else None
+    trifecta_1st = None
+    trifecta_2nd = None
+    trifecta_3rd = None
+
+    if trifecta:
+        kumi_ban = str(trifecta.get("kumiBan", "")).strip()
+
+        if "-" in kumi_ban:
+            parts = kumi_ban.split("-")
+
+            if len(parts) == 3:
+                trifecta_1st = to_int(parts[0])
+                trifecta_2nd = to_int(parts[1])
+                trifecta_3rd = to_int(parts[2])
     trifecta_payout = to_int(trifecta.get("haraiGaku")) if trifecta else None
     trifecta_pop = (
     to_int(str(trifecta.get("ninki", "")).replace("(", "").replace(")", ""))
@@ -231,7 +246,9 @@ def build_result_rows_from_race(race, bank_master):
             "result_status": status,
             "result_reason": note,
 
-            "trifecta": trifecta_comb,
+            "trifecta_1st": trifecta_1st,
+            "trifecta_2nd": trifecta_2nd,
+            "trifecta_3rd": trifecta_3rd,
             "trifecta_payout": trifecta_payout,
             "popularity": trifecta_pop,
         })

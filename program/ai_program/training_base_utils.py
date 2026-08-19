@@ -18,10 +18,10 @@ import pandas as pd
 
 BASE = Path(r"C:\競輪AI")
 
-PLAYER_CSV = BASE / "csv" / "historical_player" / "historical_player.csv"
-RACE_CSV = BASE / "csv" / "historical_race" / "historical_race.csv"
-LINES_CSV = BASE / "csv" / "historical_lines" / "historical_lines.csv"
-RESULT_CSV = BASE / "csv" / "historical_result" / "historical_result.csv"
+PLAYER_DIR = BASE / "csv" / "historical_date" / "historical_player"
+RACE_DIR = BASE / "csv" / "historical_date" / "historical_race"
+LINES_DIR = BASE / "csv" / "historical_date" / "historical_lines"
+RESULT_DIR = BASE / "csv" / "historical_date" / "historical_result"
 
 OUTPUT_CSV = BASE / "csv" / "ai" / "training_base.csv"
 
@@ -32,49 +32,122 @@ OUTPUT_CSV = BASE / "csv" / "ai" / "training_base.csv"
 
 def load_csv():
 
-    for csv_file in [
-        PLAYER_CSV,
-        RACE_CSV,
-        LINES_CSV,
-        RESULT_CSV,
-    ]:
-
-        if not csv_file.exists():
-            raise FileNotFoundError(
-                f"CSVがありません：{csv_file}"
-            )
-
     print()
     print("=" * 60)
     print("[1/8] CSV読込")
     print("=" * 60)
 
-    player = pd.read_csv(
-        PLAYER_CSV,
-        low_memory=False
+    # ======================================================
+    # 読込対象ファイル
+    # 2020～2022
+    # 2023～2025
+    # ======================================================
+
+    target_periods = [
+        "2020.1.1~2022.12.31",
+        "2023.1.1~2025.12.31",
+    ]
+
+    def load_period_csv(directory, table_name):
+
+        files = []
+
+        for period in target_periods:
+
+            matched = list(
+                directory.glob(f"*{period}*.csv")
+            )
+
+            if not matched:
+
+                raise FileNotFoundError(
+                    f"{table_name} の {period} CSVが見つかりません："
+                    f"{directory}"
+                )
+
+            files.extend(matched)
+
+        print(
+            f"{table_name} 読込ファイル数 : "
+            f"{len(files)}"
+        )
+
+        frames = []
+
+        for csv_file in sorted(files):
+
+            print(
+                f"  読込 : {csv_file.name}"
+            )
+
+            df = pd.read_csv(
+                csv_file,
+                low_memory=False
+            )
+
+            print(
+                f"         {len(df):,} rows"
+            )
+
+            frames.append(df)
+
+        combined = pd.concat(
+            frames,
+            ignore_index=True
+        )
+
+        print(
+            f"  {table_name} 合計 : "
+            f"{len(combined):,}"
+        )
+
+        print()
+
+        return combined
+
+    # ======================================================
+    # 4種類のCSVを期間ごとに結合
+    # ======================================================
+
+    player = load_period_csv(
+        PLAYER_DIR,
+        "Player"
     )
 
-    race = pd.read_csv(
-        RACE_CSV,
-        low_memory=False
+    race = load_period_csv(
+        RACE_DIR,
+        "Race"
     )
 
-    lines = pd.read_csv(
-        LINES_CSV,
-        low_memory=False
+    lines = load_period_csv(
+        LINES_DIR,
+        "Lines"
     )
 
-    result = pd.read_csv(
-        RESULT_CSV,
-        low_memory=False
+    result = load_period_csv(
+        RESULT_DIR,
+        "Result"
     )
+
+    # ======================================================
+    # 最終件数
+    # ======================================================
+
+    print("=" * 60)
+    print("CSV結合完了")
+    print("=" * 60)
 
     print(f"Player : {len(player):,}")
     print(f"Race   : {len(race):,}")
     print(f"Lines  : {len(lines):,}")
     print(f"Result : {len(result):,}")
 
-    return player, race, lines, result
+    return (
+        player,
+        race,
+        lines,
+        result
+    )
 
 
 # ==========================================================
