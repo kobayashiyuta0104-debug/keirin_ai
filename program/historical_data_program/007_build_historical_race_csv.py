@@ -23,7 +23,7 @@ if os.name == "nt":
     BASE = Path(r"C:\競輪AI")
 else:
     BASE = Path(__file__).resolve().parent.parent
-RACE_DATA_DIR = BASE / "data_official" / "historical" / "race_data"
+RACE_DATA_DIR = BASE / "data_official" / "daily" / "race_data"
 RACE_CSV_DIR = (
     BASE
     / "csv"
@@ -40,8 +40,8 @@ SESSION_MASTER_FILE = (
 
 RACE_CSV_DIR.mkdir(parents=True, exist_ok=True)
 
-TARGET_START = "20200101"
-TARGET_END = "20221231"
+TARGET_START = "20260101"
+TARGET_END = "20260818"
 
 # ===========================================================
 # 最新 race_data.json 自動検出
@@ -241,7 +241,7 @@ def save_race_csv(rows):
 
     output_path = (
         RACE_CSV_DIR
-        / "historical_race_2020.1.1~2022.12.31.csv"
+        / "historical_race_2026.1.1~2026.8.18.csv"
     )
 
     with open(

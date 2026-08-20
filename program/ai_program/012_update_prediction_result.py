@@ -61,7 +61,8 @@ TRAINING_DIR = (
 RESULT_DIR = (
     BASE
     / "csv"
-    / "result"
+    / "historical_date"
+    / "historical_result"
 )
 
 
@@ -77,7 +78,7 @@ PREDICTION_FILE = (
 
 RESULT_FILE = (
     RESULT_DIR
-    / "training_result(2026.1.1~2026.8.18).csv"
+    / "historical_result_2026.1.1~2026.8.18.csv"
 )
 
 
@@ -87,7 +88,7 @@ RESULT_FILE = (
 
 OUTPUT_FILE = (
     TRAINING_DIR
-    / "training_prediction_result(2026.1.1~2026.8.18).csv"
+    / "training_prediction(2026.1.1~2026.8.18).csv"
 )
 
 # ===========================================================

@@ -27,7 +27,7 @@ if os.name == "nt":
 else:
     BASE = Path(__file__).resolve().parent.parent
 
-HISTORICAL_DIR = BASE / "data_official" / "historical" / "result"
+HISTORICAL_DIR = BASE / "data_official" / "daily" / "result"
 RESULT_CSV_DIR = (
     BASE
     / "csv"
@@ -37,8 +37,8 @@ RESULT_CSV_DIR = (
 
 RESULT_CSV_DIR.mkdir(parents=True, exist_ok=True)
 
-TARGET_START = "20230101"
-TARGET_END = "20251231"
+TARGET_START = "20260101"
+TARGET_END = "20260818"
 
 # ===========================================================
 # 最新result.json自動検出
@@ -307,7 +307,7 @@ def build_all_result_rows(result):
 def save_result_csv(rows):
     output_path = (
         RESULT_CSV_DIR
-        / "historical_result_2023.1.1~2025.12.31.csv"
+        / "historical_result_2026.1.1~2026.8.18.csv"
     )
 
     with open(output_path, "w", encoding="utf-8-sig", newline="") as f:

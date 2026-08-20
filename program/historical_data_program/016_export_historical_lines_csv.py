@@ -60,19 +60,20 @@ BASE = Path(r"C:\競輪AI")
 INPUT_DIR = (
     BASE /
     "data_official" /
-    "historical" /
+    "daily" /
     "lines"
 )
 
 OUTPUT_DIR = (
     BASE /
     "csv" /
-    "historical_lines"
+    "historical_date"/
+    "historical_lines" 
 )
 
 OUTPUT_CSV = (
     OUTPUT_DIR /
-    "historical_lines_2020.1.1_2022.12.31.csv"
+    "historical_lines_2026.1.1_2026.8.18.csv"
 )
 
 OUTPUT_DIR.mkdir(
@@ -84,8 +85,8 @@ OUTPUT_DIR.mkdir(
 # JSON一覧
 # ==========================================================
 
-TARGET_START = "20200101"
-TARGET_END   = "20221231"
+TARGET_START = "20260101"
+TARGET_END   = "2026081"
 
 json_files = sorted(
     json_file
