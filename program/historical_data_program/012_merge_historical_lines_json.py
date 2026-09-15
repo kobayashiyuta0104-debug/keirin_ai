@@ -21,7 +21,7 @@ else:
 JSON_DIR = (
     BASE
     / "data_official"
-    / "historical"
+    / "daily"
     / "html"
     / "json"
 )

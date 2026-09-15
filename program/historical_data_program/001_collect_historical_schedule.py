@@ -25,8 +25,8 @@ if os.name == "nt":
 else:
     BASE = Path(__file__).resolve().parent.parent
 
-TARGET_START = "20260716"
-TARGET_END = "20260804"
+TARGET_START = "20260831"
+TARGET_END = "20260914"
 
 OUTPUT_DIR = (
     BASE

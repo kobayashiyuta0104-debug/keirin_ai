@@ -10,8 +10,8 @@ from datetime import datetime, timedelta
 
 BASE = Path(r"C:\競輪AI")
 
-TARGET_START = "20260716"
-TARGET_END = "20260804"
+TARGET_START = "20260819"
+TARGET_END = "20260830"
 
 MASTER_FILE = (
     BASE

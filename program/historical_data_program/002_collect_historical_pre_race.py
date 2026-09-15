@@ -24,8 +24,8 @@ from datetime import datetime, timedelta
 
 BASE = Path(r"C:\競輪AI")
 
-TARGET_START = "20260716"
-TARGET_END = "20260804"
+TARGET_START = "20260831"
+TARGET_END = "20260914"
 
 OUTPUT_DIR = (
     BASE

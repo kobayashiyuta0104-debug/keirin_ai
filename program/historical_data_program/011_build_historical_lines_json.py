@@ -24,7 +24,7 @@ PROGRAM = (
 HTML_DIR = (
     BASE
     / "data_official"
-    / "historical"
+    / "daily"
     / "html"
 )
 

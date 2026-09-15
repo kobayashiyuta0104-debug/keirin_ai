@@ -115,7 +115,7 @@ HIGH_PAYOUT_PATTERN = (
 
 OUTPUT_XLSX = (
     OUTPUT_DIR
-    / "009_feature_importance_analysis(2023.1.1~2026.7.30).xlsx"
+    / "009_feature_importance_analysis(2026.1.1~2026.8.18).xlsx"
 )
 
 

@@ -22,14 +22,14 @@ BASE = Path(r"C:\競輪AI")
 HTML_DIR = (
     BASE /
     "data_official" /
-    "historical" /
+    "daily" /
     "html"
 )
 
 OUTPUT_DIR = (
     BASE /
     "data_official" /
-    "historical" /
+    "daily" /
     "lines"
 )
 
@@ -66,8 +66,8 @@ parse_historical_line_html = (
 # HTML一覧
 # ==========================================================
 
-TARGET_START = "20260716"
-TARGET_END   = "20260804"
+TARGET_START = "20260819"
+TARGET_END   = "20260831"
 
 html_files = sorted(
     html_file
