@@ -33,16 +33,13 @@ def find_base_dir():
     if local_base.exists():
         return local_base
 
+    # GitHub Actions:
+    # リポジトリ/
+    # └── official_program/
+    #     └── 029_collect_yesterday_odds.py
+    # の構成なので、2つ目の親がリポジトリルート
     current = Path(__file__).resolve()
-    for parent in [current.parent] + list(current.parents):
-        if (parent / "data_official").exists():
-            return parent
-
-    # repo/program/official_program/029.py を想定
-    if len(current.parents) >= 3:
-        return current.parents[2]
-
-    return current.parent
+    return current.parent.parent
 
 
 BASE = find_base_dir()
