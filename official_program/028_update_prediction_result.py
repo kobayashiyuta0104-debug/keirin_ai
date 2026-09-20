@@ -259,15 +259,22 @@ def update_prediction(
         # ------------------------------
         # 払戻
         # ------------------------------
+        payout_raw = race_result["trifecta_payout"].iloc[0]
+
+        # 払戻が空欄の場合はスキップ
+        if pd.isna(payout_raw):
+            continue
 
         payout = int(
             float(
-                str(
-                    race_result["trifecta_payout"]
-                    .iloc[0]
-                ).replace(",", "")
+                str(payout_raw).replace(",", "")
             )
         )
+
+        prediction_df.loc[
+            prediction_df["レースキー"] == race_key,
+            "三連単\n払戻"
+        ] = payout
 
         prediction_df.loc[
 
