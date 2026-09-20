@@ -261,15 +261,12 @@ def update_prediction(
         # ------------------------------
 
         payout = int(
-
-            str(
-
-                race_result["trifecta_payout"]
-
-                .iloc[0]
-
-            ).replace(",", "")
-
+            float(
+                str(
+                    race_result["trifecta_payout"]
+                    .iloc[0]
+                ).replace(",", "")
+            )
         )
 
         prediction_df.loc[
