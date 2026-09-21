@@ -1,12 +1,12 @@
 {
     "program": "020_build_today_lines.py",
     "data_type": "LINES",
-    "target_date": "20260921",
-    "race_count": 78,
-    "line_found_count": 49,
+    "target_date": "20260922",
+    "race_count": 67,
+    "line_found_count": 37,
     "races": [
         {
-            "race_key": "20260921_佐世保_1R",
+            "race_key": "20260922_佐世保_1R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -61,7 +61,7 @@
             "race_no": 1
         },
         {
-            "race_key": "20260921_佐世保_2R",
+            "race_key": "20260922_佐世保_2R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -116,7 +116,7 @@
             "race_no": 2
         },
         {
-            "race_key": "20260921_佐世保_3R",
+            "race_key": "20260922_佐世保_3R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -171,7 +171,7 @@
             "race_no": 3
         },
         {
-            "race_key": "20260921_佐世保_4R",
+            "race_key": "20260922_佐世保_4R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -226,7 +226,7 @@
             "race_no": 4
         },
         {
-            "race_key": "20260921_佐世保_5R",
+            "race_key": "20260922_佐世保_5R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -281,7 +281,7 @@
             "race_no": 5
         },
         {
-            "race_key": "20260921_佐世保_6R",
+            "race_key": "20260922_佐世保_6R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -336,7 +336,7 @@
             "race_no": 6
         },
         {
-            "race_key": "20260921_佐世保_7R",
+            "race_key": "20260922_佐世保_7R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -391,7 +391,7 @@
             "race_no": 7
         },
         {
-            "race_key": "20260921_佐世保_8R",
+            "race_key": "20260922_佐世保_8R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -446,7 +446,7 @@
             "race_no": 8
         },
         {
-            "race_key": "20260921_佐世保_9R",
+            "race_key": "20260922_佐世保_9R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -501,89 +501,20 @@
             "race_no": 9
         },
         {
-            "race_key": "20260921_大宮_1R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    1,
-                    6
-                ],
-                [
-                    2,
-                    7,
-                    5
-                ],
-                [
-                    3,
-                    4
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 2,
-                    "position": 3,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "25",
-            "jo_name": "大宮",
-            "race_no": 1
-        },
-        {
-            "race_key": "20260921_大宮_2R",
+            "race_key": "20260922_大垣_10R",
             "line_found": true,
             "main_lines": [
                 [
                     5,
                     1,
+                    7
+                ],
+                [
+                    2,
+                    4,
                     3
                 ],
                 [
-                    2,
-                    7,
-                    4
-                ],
-                [
                     6
                 ]
             ],
@@ -599,13 +530,13 @@
                     "seri": 0
                 },
                 "3": {
-                    "line": 1,
+                    "line": 2,
                     "position": 3,
                     "seri": 0
                 },
                 "4": {
                     "line": 2,
-                    "position": 3,
+                    "position": 2,
                     "seri": 0
                 },
                 "5": {
@@ -616,284 +547,6 @@
                 "6": {
                     "line": 3,
                     "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "25",
-            "jo_name": "大宮",
-            "race_no": 2
-        },
-        {
-            "race_key": "20260921_大宮_3R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    4,
-                    5,
-                    1
-                ],
-                [
-                    3,
-                    7
-                ],
-                [
-                    6,
-                    2
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 1,
-                    "position": 3,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "25",
-            "jo_name": "大宮",
-            "race_no": 3
-        },
-        {
-            "race_key": "20260921_大宮_4R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    3,
-                    4
-                ],
-                [
-                    1,
-                    5
-                ],
-                [
-                    7
-                ],
-                [
-                    6,
-                    2
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 4,
-                    "position": 2,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 4,
-                    "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "25",
-            "jo_name": "大宮",
-            "race_no": 4
-        },
-        {
-            "race_key": "20260921_大宮_5R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    4,
-                    1,
-                    3
-                ],
-                [
-                    7,
-                    5,
-                    2
-                ],
-                [
-                    6
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 2,
-                    "position": 3,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 1,
-                    "position": 3,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "25",
-            "jo_name": "大宮",
-            "race_no": 5
-        },
-        {
-            "race_key": "20260921_大宮_6R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    4,
-                    1,
-                    7
-                ],
-                [
-                    5,
-                    2
-                ],
-                [
-                    3,
-                    6
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 3,
-                    "position": 2,
                     "seri": 0
                 },
                 "7": {
@@ -912,190 +565,42 @@
                     "seri": 0
                 }
             },
-            "jo_code": "25",
-            "jo_name": "大宮",
-            "race_no": 6
-        },
-        {
-            "race_key": "20260921_大宮_7R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    1,
-                    5
-                ],
-                [
-                    3,
-                    4,
-                    6
-                ],
-                [
-                    2,
-                    7
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 2,
-                    "position": 3,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "25",
-            "jo_name": "大宮",
-            "race_no": 7
-        },
-        {
-            "race_key": "20260921_富山_10R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    5,
-                    3
-                ],
-                [
-                    6,
-                    9
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    8,
-                    1,
-                    4
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 4,
-                    "position": 2,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 4,
-                    "position": 3,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "8": {
-                    "line": 4,
-                    "position": 1,
-                    "seri": 0
-                },
-                "9": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                }
-            },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 10
         },
         {
-            "race_key": "20260921_富山_11R",
+            "race_key": "20260922_大垣_11R",
             "line_found": true,
             "main_lines": [
                 [
-                    2,
+                    1,
                     4,
+                    7
+                ],
+                [
+                    2,
                     6
                 ],
                 [
-                    1
-                ],
-                [
-                    3,
-                    8
-                ],
-                [
                     5,
-                    9
-                ],
-                [
-                    7
+                    3
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 2,
+                    "line": 1,
                     "position": 1,
                     "seri": 0
                 },
                 "2": {
-                    "line": 1,
+                    "line": 2,
                     "position": 1,
                     "seri": 0
                 },
                 "3": {
                     "line": 3,
-                    "position": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "4": {
@@ -1104,71 +609,64 @@
                     "seri": 0
                 },
                 "5": {
-                    "line": 4,
+                    "line": 3,
                     "position": 1,
                     "seri": 0
                 },
                 "6": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "7": {
                     "line": 1,
                     "position": 3,
                     "seri": 0
                 },
-                "7": {
-                    "line": 5,
-                    "position": 1,
-                    "seri": 0
-                },
                 "8": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "9": {
-                    "line": 4,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 11
         },
         {
-            "race_key": "20260921_富山_1R",
+            "race_key": "20260922_大垣_1R",
             "line_found": true,
             "main_lines": [
                 [
                     4,
-                    2,
-                    9
-                ],
-                [
-                    8,
-                    6,
-                    1
-                ],
-                [
-                    5
-                ],
-                [
-                    7,
+                    1,
                     3
+                ],
+                [
+                    5,
+                    2,
+                    6
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 2,
-                    "position": 3,
-                    "seri": 0
-                },
-                "2": {
                     "line": 1,
                     "position": 2,
                     "seri": 0
                 },
-                "3": {
-                    "line": 4,
+                "2": {
+                    "line": 2,
                     "position": 2,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 1,
+                    "position": 3,
                     "seri": 0
                 },
                 "4": {
@@ -1177,373 +675,369 @@
                     "seri": 0
                 },
                 "5": {
-                    "line": 3,
+                    "line": 2,
                     "position": 1,
                     "seri": 0
                 },
                 "6": {
                     "line": 2,
-                    "position": 2,
+                    "position": 3,
                     "seri": 0
                 },
                 "7": {
-                    "line": 4,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "9": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 1
         },
         {
-            "race_key": "20260921_富山_2R",
+            "race_key": "20260922_大垣_2R",
             "line_found": true,
             "main_lines": [
                 [
-                    8,
-                    1
+                    1,
+                    7,
+                    3
                 ],
                 [
-                    3,
-                    7
-                ],
-                [
-                    5,
                     6
                 ],
                 [
                     4,
                     2,
-                    9
+                    5
                 ]
             ],
             "cars": {
                 "1": {
                     "line": 1,
-                    "position": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "2": {
-                    "line": 4,
+                    "line": 3,
                     "position": 2,
                     "seri": 0
                 },
                 "3": {
-                    "line": 2,
-                    "position": 1,
+                    "line": 1,
+                    "position": 3,
                     "seri": 0
                 },
                 "4": {
-                    "line": 4,
+                    "line": 3,
                     "position": 1,
                     "seri": 0
                 },
                 "5": {
                     "line": 3,
-                    "position": 1,
+                    "position": 3,
                     "seri": 0
                 },
                 "6": {
-                    "line": 3,
-                    "position": 2,
+                    "line": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "7": {
-                    "line": 2,
+                    "line": 1,
                     "position": 2,
                     "seri": 0
                 },
                 "8": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "9": {
-                    "line": 4,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 2
         },
         {
-            "race_key": "20260921_富山_3R",
+            "race_key": "20260922_大垣_3R",
             "line_found": true,
             "main_lines": [
                 [
-                    2,
-                    9
-                ],
-                [
-                    4
-                ],
-                [
                     7,
-                    3
-                ],
-                [
                     1,
                     6
                 ],
                 [
-                    8,
-                    5
+                    5,
+                    3
+                ],
+                [
+                    2,
+                    4
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 4,
-                    "position": 1,
+                    "line": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "2": {
-                    "line": 1,
+                    "line": 3,
                     "position": 1,
                     "seri": 0
                 },
                 "3": {
-                    "line": 3,
+                    "line": 2,
                     "position": 2,
                     "seri": 0
                 },
                 "4": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "5": {
                     "line": 2,
                     "position": 1,
                     "seri": 0
                 },
-                "5": {
-                    "line": 5,
-                    "position": 2,
-                    "seri": 0
-                },
                 "6": {
-                    "line": 4,
-                    "position": 2,
+                    "line": 1,
+                    "position": 3,
                     "seri": 0
                 },
                 "7": {
-                    "line": 3,
+                    "line": 1,
                     "position": 1,
                     "seri": 0
                 },
                 "8": {
-                    "line": 5,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "9": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 3
         },
         {
-            "race_key": "20260921_富山_4R",
+            "race_key": "20260922_大垣_4R",
             "line_found": true,
             "main_lines": [
                 [
-                    2,
-                    7,
-                    4,
-                    8
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
                     5,
-                    3,
+                    1,
+                    3
+                ],
+                [
                     6
+                ],
+                [
+                    7,
+                    2,
+                    4
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 2,
-                    "position": 1,
+                    "line": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "2": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "3": {
                     "line": 3,
                     "position": 2,
                     "seri": 0
                 },
-                "4": {
+                "3": {
                     "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 3,
                     "position": 3,
                     "seri": 0
                 },
                 "5": {
-                    "line": 3,
+                    "line": 1,
                     "position": 1,
                     "seri": 0
                 },
                 "6": {
-                    "line": 3,
-                    "position": 3,
+                    "line": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "7": {
-                    "line": 1,
-                    "position": 2,
+                    "line": 3,
+                    "position": 1,
                     "seri": 0
                 },
                 "8": {
-                    "line": 1,
-                    "position": 4,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "9": {
-                    "line": 2,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 4
         },
         {
-            "race_key": "20260921_富山_5R",
+            "race_key": "20260922_大垣_5R",
             "line_found": true,
             "main_lines": [
                 [
-                    2,
-                    7
+                    1
                 ],
                 [
-                    9,
-                    5
+                    3
                 ],
                 [
-                    3,
                     4
                 ],
                 [
-                    6,
-                    1,
-                    8
+                    2
+                ],
+                [
+                    5
+                ],
+                [
+                    6
+                ],
+                [
+                    7
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 4,
-                    "position": 2,
-                    "seri": 0
-                },
-                "2": {
                     "line": 1,
                     "position": 1,
                     "seri": 0
                 },
+                "2": {
+                    "line": 4,
+                    "position": 1,
+                    "seri": 0
+                },
                 "3": {
-                    "line": 3,
+                    "line": 2,
                     "position": 1,
                     "seri": 0
                 },
                 "4": {
                     "line": 3,
-                    "position": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "5": {
-                    "line": 2,
-                    "position": 2,
+                    "line": 5,
+                    "position": 1,
                     "seri": 0
                 },
                 "6": {
-                    "line": 4,
+                    "line": 6,
                     "position": 1,
                     "seri": 0
                 },
                 "7": {
-                    "line": 1,
-                    "position": 2,
+                    "line": 7,
+                    "position": 1,
                     "seri": 0
                 },
                 "8": {
-                    "line": 4,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "9": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 5
         },
         {
-            "race_key": "20260921_富山_6R",
+            "race_key": "20260922_大垣_6R",
             "line_found": true,
             "main_lines": [
                 [
-                    6,
-                    5
+                    6
                 ],
                 [
-                    7,
-                    3
-                ],
-                [
-                    9,
                     1
                 ],
                 [
-                    8,
-                    2,
+                    7
+                ],
+                [
+                    2
+                ],
+                [
                     4
+                ],
+                [
+                    3
+                ],
+                [
+                    5
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 3,
-                    "position": 2,
+                    "line": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "2": {
                     "line": 4,
-                    "position": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "3": {
-                    "line": 2,
-                    "position": 2,
+                    "line": 6,
+                    "position": 1,
                     "seri": 0
                 },
                 "4": {
-                    "line": 4,
-                    "position": 3,
+                    "line": 5,
+                    "position": 1,
                     "seri": 0
                 },
                 "5": {
-                    "line": 1,
-                    "position": 2,
+                    "line": 7,
+                    "position": 1,
                     "seri": 0
                 },
                 "6": {
@@ -1552,192 +1046,320 @@
                     "seri": 0
                 },
                 "7": {
-                    "line": 2,
+                    "line": 3,
                     "position": 1,
                     "seri": 0
                 },
                 "8": {
-                    "line": 4,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "9": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 6
         },
         {
-            "race_key": "20260921_富山_7R",
+            "race_key": "20260922_大垣_7R",
             "line_found": true,
             "main_lines": [
                 [
-                    9,
-                    4
-                ],
-                [
-                    7,
-                    2
-                ],
-                [
-                    3,
+                    4,
+                    1,
                     6
                 ],
                 [
+                    3
+                ],
+                [
                     5,
-                    1,
-                    8
+                    2,
+                    7
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 4,
+                    "line": 1,
                     "position": 2,
                     "seri": 0
                 },
                 "2": {
-                    "line": 2,
+                    "line": 3,
                     "position": 2,
                     "seri": 0
                 },
                 "3": {
-                    "line": 3,
+                    "line": 2,
                     "position": 1,
                     "seri": 0
                 },
                 "4": {
                     "line": 1,
-                    "position": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "5": {
-                    "line": 4,
+                    "line": 3,
                     "position": 1,
                     "seri": 0
                 },
                 "6": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "8": {
-                    "line": 4,
+                    "line": 1,
                     "position": 3,
                     "seri": 0
                 },
+                "7": {
+                    "line": 3,
+                    "position": 3,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
                 "9": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 7
         },
         {
-            "race_key": "20260921_富山_8R",
+            "race_key": "20260922_大垣_8R",
             "line_found": true,
             "main_lines": [
                 [
+                    2,
+                    4,
+                    7
+                ],
+                [
+                    1,
                     5,
-                    9
-                ],
-                [
-                    7,
-                    2
-                ],
-                [
-                    8,
-                    1
+                    3
                 ],
                 [
                     6
-                ],
-                [
-                    4,
-                    3
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "2": {
                     "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 5,
-                    "position": 2,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 5,
                     "position": 1,
                     "seri": 0
                 },
-                "5": {
+                "2": {
                     "line": 1,
                     "position": 1,
                     "seri": 0
                 },
+                "3": {
+                    "line": 2,
+                    "position": 3,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
                 "6": {
-                    "line": 4,
+                    "line": 3,
                     "position": 1,
                     "seri": 0
                 },
                 "7": {
-                    "line": 2,
-                    "position": 1,
+                    "line": 1,
+                    "position": 3,
                     "seri": 0
                 },
                 "8": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "9": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
+            "jo_code": "44",
+            "jo_name": "大垣",
             "race_no": 8
         },
         {
-            "race_key": "20260921_富山_9R",
+            "race_key": "20260922_大垣_9R",
             "line_found": true,
             "main_lines": [
                 [
                     2,
-                    9,
-                    7
-                ],
-                [
-                    1,
+                    4,
                     5
                 ],
                 [
-                    8,
+                    7,
+                    1
+                ],
+                [
+                    6,
+                    3
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "44",
+            "jo_name": "大垣",
+            "race_no": 9
+        },
+        {
+            "race_key": "20260922_大宮_1R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    1,
+                    4,
+                    5
+                ],
+                [
+                    2
+                ],
+                [
+                    7,
                     3
                 ],
                 [
+                    6
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 4,
+                    "position": 1,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "25",
+            "jo_name": "大宮",
+            "race_no": 1
+        },
+        {
+            "race_key": "20260922_大宮_2R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    2,
+                    5
+                ],
+                [
+                    1,
+                    7
+                ],
+                [
                     4,
+                    3
+                ],
+                [
                     6
                 ]
             ],
@@ -1758,17 +1380,155 @@
                     "seri": 0
                 },
                 "4": {
-                    "line": 4,
+                    "line": 3,
                     "position": 1,
                     "seri": 0
                 },
                 "5": {
-                    "line": 2,
+                    "line": 1,
                     "position": 2,
                     "seri": 0
                 },
                 "6": {
                     "line": 4,
+                    "position": 1,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "25",
+            "jo_name": "大宮",
+            "race_no": 2
+        },
+        {
+            "race_key": "20260922_大宮_3R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    4,
+                    1,
+                    5
+                ],
+                [
+                    6
+                ],
+                [
+                    7,
+                    2,
+                    3
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 3,
+                    "position": 3,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "25",
+            "jo_name": "大宮",
+            "race_no": 3
+        },
+        {
+            "race_key": "20260922_大宮_4R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    1,
+                    5,
+                    7
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    4,
+                    3
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 2,
                     "position": 2,
                     "seri": 0
                 },
@@ -1778,47 +1538,258 @@
                     "seri": 0
                 },
                 "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "25",
+            "jo_name": "大宮",
+            "race_no": 4
+        },
+        {
+            "race_key": "20260922_大宮_5R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    1,
+                    4
+                ],
+                [
+                    2,
+                    6,
+                    5
+                ],
+                [
+                    3,
+                    7
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
                     "line": 3,
                     "position": 1,
                     "seri": 0
                 },
-                "9": {
+                "4": {
                     "line": 1,
                     "position": 2,
                     "seri": 0
+                },
+                "5": {
+                    "line": 2,
+                    "position": 3,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
                 }
             },
-            "jo_code": "46",
-            "jo_name": "富山",
-            "race_no": 9
+            "jo_code": "25",
+            "jo_name": "大宮",
+            "race_no": 5
         },
         {
-            "race_key": "20260921_広島_1R",
+            "race_key": "20260922_大宮_6R",
             "line_found": true,
             "main_lines": [
                 [
-                    5,
+                    2,
+                    5
+                ],
+                [
+                    4,
+                    3
+                ],
+                [
+                    7,
+                    1,
+                    6
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 3,
+                    "position": 3,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "25",
+            "jo_name": "大宮",
+            "race_no": 6
+        },
+        {
+            "race_key": "20260922_大宮_7R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    4,
+                    6,
+                    1
+                ],
+                [
+                    3,
+                    5
+                ],
+                [
+                    2,
+                    7
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "25",
+            "jo_name": "大宮",
+            "race_no": 7
+        },
+        {
+            "race_key": "20260922_広島_1R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    4,
                     3,
                     6
+                ],
+                [
+                    5
                 ],
                 [
                     1
                 ],
                 [
-                    7,
-                    4,
                     2
+                ],
+                [
+                    7
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 2,
+                    "line": 3,
                     "position": 1,
                     "seri": 0
                 },
                 "2": {
-                    "line": 3,
-                    "position": 3,
+                    "line": 4,
+                    "position": 1,
                     "seri": 0
                 },
                 "3": {
@@ -1827,12 +1798,12 @@
                     "seri": 0
                 },
                 "4": {
-                    "line": 3,
-                    "position": 2,
+                    "line": 1,
+                    "position": 1,
                     "seri": 0
                 },
                 "5": {
-                    "line": 1,
+                    "line": 2,
                     "position": 1,
                     "seri": 0
                 },
@@ -1842,7 +1813,7 @@
                     "seri": 0
                 },
                 "7": {
-                    "line": 3,
+                    "line": 5,
                     "position": 1,
                     "seri": 0
                 },
@@ -1862,57 +1833,59 @@
             "race_no": 1
         },
         {
-            "race_key": "20260921_広島_2R",
+            "race_key": "20260922_広島_2R",
             "line_found": true,
             "main_lines": [
                 [
-                    2,
-                    7
-                ],
-                [
-                    3,
-                    4
-                ],
-                [
-                    1,
                     5,
+                    1
+                ],
+                [
+                    2,
                     6
+                ],
+                [
+                    4,
+                    3
+                ],
+                [
+                    7
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 3,
-                    "position": 1,
+                    "line": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "2": {
-                    "line": 1,
+                    "line": 2,
                     "position": 1,
                     "seri": 0
                 },
                 "3": {
-                    "line": 2,
-                    "position": 1,
+                    "line": 3,
+                    "position": 2,
                     "seri": 0
                 },
                 "4": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "6": {
                     "line": 2,
                     "position": 2,
                     "seri": 0
                 },
-                "5": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 3,
-                    "position": 3,
-                    "seri": 0
-                },
                 "7": {
-                    "line": 1,
-                    "position": 2,
+                    "line": 4,
+                    "position": 1,
                     "seri": 0
                 },
                 "8": {
@@ -1931,59 +1904,57 @@
             "race_no": 2
         },
         {
-            "race_key": "20260921_広島_3R",
+            "race_key": "20260922_広島_3R",
             "line_found": true,
             "main_lines": [
                 [
+                    1,
                     4,
-                    1
-                ],
-                [
-                    2
-                ],
-                [
                     6
                 ],
                 [
-                    3,
                     7,
+                    3
+                ],
+                [
+                    2,
                     5
                 ]
             ],
             "cars": {
                 "1": {
                     "line": 1,
-                    "position": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "2": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 4,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 4,
-                    "position": 3,
-                    "seri": 0
-                },
-                "6": {
                     "line": 3,
                     "position": 1,
                     "seri": 0
                 },
-                "7": {
-                    "line": 4,
+                "3": {
+                    "line": 2,
                     "position": 2,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "8": {
@@ -2002,29 +1973,27 @@
             "race_no": 3
         },
         {
-            "race_key": "20260921_広島_4R",
+            "race_key": "20260922_広島_4R",
             "line_found": true,
             "main_lines": [
                 [
                     2,
-                    7,
-                    4,
-                    1
-                ],
-                [
-                    3
-                ],
-                [
-                    5
-                ],
-                [
+                    5,
                     6
+                ],
+                [
+                    4
+                ],
+                [
+                    1,
+                    7,
+                    3
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 1,
-                    "position": 4,
+                    "line": 3,
+                    "position": 1,
                     "seri": 0
                 },
                 "2": {
@@ -2033,27 +2002,27 @@
                     "seri": 0
                 },
                 "3": {
+                    "line": 3,
+                    "position": 3,
+                    "seri": 0
+                },
+                "4": {
                     "line": 2,
                     "position": 1,
                     "seri": 0
                 },
-                "4": {
+                "5": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "6": {
                     "line": 1,
                     "position": 3,
                     "seri": 0
                 },
-                "5": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 4,
-                    "position": 1,
-                    "seri": 0
-                },
                 "7": {
-                    "line": 1,
+                    "line": 3,
                     "position": 2,
                     "seri": 0
                 },
@@ -2073,52 +2042,52 @@
             "race_no": 4
         },
         {
-            "race_key": "20260921_広島_5R",
+            "race_key": "20260922_広島_5R",
             "line_found": true,
             "main_lines": [
                 [
-                    1,
-                    4,
-                    6
-                ],
-                [
+                    2,
+                    5,
                     3
                 ],
                 [
-                    5,
+                    6
+                ],
+                [
+                    1,
                     7,
-                    2
+                    4
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 1,
+                    "line": 3,
                     "position": 1,
                     "seri": 0
                 },
                 "2": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "4": {
                     "line": 3,
                     "position": 3,
                     "seri": 0
                 },
-                "3": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
+                "5": {
                     "line": 1,
                     "position": 2,
                     "seri": 0
                 },
-                "5": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
                 "6": {
-                    "line": 1,
-                    "position": 3,
+                    "line": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "7": {
@@ -2142,21 +2111,21 @@
             "race_no": 5
         },
         {
-            "race_key": "20260921_広島_6R",
+            "race_key": "20260922_広島_6R",
             "line_found": true,
             "main_lines": [
                 [
                     1,
-                    4,
                     6
                 ],
                 [
+                    4,
                     2
                 ],
                 [
+                    7,
                     5,
-                    3,
-                    7
+                    3
                 ]
             ],
             "cars": {
@@ -2167,32 +2136,32 @@
                 },
                 "2": {
                     "line": 2,
-                    "position": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "3": {
                     "line": 3,
-                    "position": 2,
+                    "position": 3,
                     "seri": 0
                 },
                 "4": {
-                    "line": 1,
-                    "position": 2,
+                    "line": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "5": {
                     "line": 3,
-                    "position": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "6": {
                     "line": 1,
-                    "position": 3,
+                    "position": 2,
                     "seri": 0
                 },
                 "7": {
                     "line": 3,
-                    "position": 3,
+                    "position": 1,
                     "seri": 0
                 },
                 "8": {
@@ -2211,57 +2180,57 @@
             "race_no": 6
         },
         {
-            "race_key": "20260921_広島_7R",
+            "race_key": "20260922_広島_7R",
             "line_found": true,
             "main_lines": [
                 [
+                    3,
                     5,
-                    2
+                    1
                 ],
                 [
-                    1,
-                    4,
                     6
                 ],
                 [
+                    4,
                     7,
-                    3
+                    2
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 2,
-                    "position": 1,
+                    "line": 1,
+                    "position": 3,
                     "seri": 0
                 },
                 "2": {
-                    "line": 1,
-                    "position": 2,
+                    "line": 3,
+                    "position": 3,
                     "seri": 0
                 },
                 "3": {
-                    "line": 3,
-                    "position": 2,
+                    "line": 1,
+                    "position": 1,
                     "seri": 0
                 },
                 "4": {
-                    "line": 2,
-                    "position": 2,
+                    "line": 3,
+                    "position": 1,
                     "seri": 0
                 },
                 "5": {
                     "line": 1,
-                    "position": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "6": {
                     "line": 2,
-                    "position": 3,
+                    "position": 1,
                     "seri": 0
                 },
                 "7": {
                     "line": 3,
-                    "position": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "8": {
@@ -2280,7 +2249,145 @@
             "race_no": 7
         },
         {
-            "race_key": "20260921_弥彦_10R",
+            "race_key": "20260922_立川_10R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    3,
+                    4,
+                    6
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    7,
+                    2
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "28",
+            "jo_name": "立川",
+            "race_no": 10
+        },
+        {
+            "race_key": "20260922_立川_11R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    7,
+                    1,
+                    4
+                ],
+                [
+                    6,
+                    2
+                ],
+                [
+                    3,
+                    5
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "28",
+            "jo_name": "立川",
+            "race_no": 11
+        },
+        {
+            "race_key": "20260922_立川_12R",
             "line_found": true,
             "main_lines": [
                 [
@@ -2288,190 +2395,48 @@
                     5
                 ],
                 [
-                    7,
-                    3
-                ],
-                [
-                    6,
-                    2
-                ],
-                [
-                    4
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 4,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 10
-        },
-        {
-            "race_key": "20260921_弥彦_11R",
-            "line_found": true,
-            "main_lines": [
-                [
                     6,
                     2,
                     7
                 ],
                 [
-                    5,
-                    1
-                ],
-                [
-                    4
-                ],
-                [
-                    3
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 4,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 1,
-                    "position": 3,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 11
-        },
-        {
-            "race_key": "20260921_弥彦_12R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    3,
                     4,
-                    7
-                ],
-                [
-                    1
-                ],
-                [
-                    6,
-                    2,
-                    5
+                    3
                 ]
             ],
             "cars": {
                 "1": {
-                    "line": 2,
+                    "line": 1,
                     "position": 1,
                     "seri": 0
                 },
                 "2": {
-                    "line": 3,
+                    "line": 2,
                     "position": 2,
                     "seri": 0
                 },
                 "3": {
-                    "line": 1,
-                    "position": 1,
+                    "line": 3,
+                    "position": 2,
                     "seri": 0
                 },
                 "4": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "5": {
                     "line": 1,
                     "position": 2,
                     "seri": 0
                 },
-                "5": {
-                    "line": 3,
-                    "position": 3,
-                    "seri": 0
-                },
                 "6": {
-                    "line": 3,
+                    "line": 2,
                     "position": 1,
                     "seri": 0
                 },
                 "7": {
-                    "line": 1,
+                    "line": 2,
                     "position": 3,
                     "seri": 0
                 },
@@ -2486,26 +2451,26 @@
                     "seri": 0
                 }
             },
-            "jo_code": "21",
-            "jo_name": "弥彦",
+            "jo_code": "28",
+            "jo_name": "立川",
             "race_no": 12
         },
         {
-            "race_key": "20260921_弥彦_1R",
+            "race_key": "20260922_立川_1R",
             "line_found": true,
             "main_lines": [
                 [
-                    3,
-                    1,
-                    5
-                ],
-                [
                     7,
-                    2,
+                    1,
                     4
                 ],
                 [
+                    5,
+                    2,
                     6
+                ],
+                [
+                    3
                 ]
             ],
             "cars": {
@@ -2520,27 +2485,27 @@
                     "seri": 0
                 },
                 "3": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 2,
-                    "position": 3,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 1,
-                    "position": 3,
-                    "seri": 0
-                },
-                "6": {
                     "line": 3,
                     "position": 1,
                     "seri": 0
                 },
-                "7": {
+                "4": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "5": {
                     "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 2,
+                    "position": 3,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 1,
                     "position": 1,
                     "seri": 0
                 },
@@ -2555,523 +2520,103 @@
                     "seri": 0
                 }
             },
-            "jo_code": "21",
-            "jo_name": "弥彦",
+            "jo_code": "28",
+            "jo_name": "立川",
             "race_no": 1
         },
         {
-            "race_key": "20260921_弥彦_2R",
+            "race_key": "20260922_立川_2R",
             "line_found": true,
             "main_lines": [
-                [
-                    1,
-                    5
-                ],
-                [
-                    6,
-                    2,
-                    4
-                ],
-                [
-                    7,
-                    3
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 2,
-                    "position": 3,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 2
-        },
-        {
-            "race_key": "20260921_弥彦_3R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    7,
-                    2,
-                    6
-                ],
-                [
-                    1
-                ],
-                [
-                    4
-                ],
-                [
-                    5,
-                    3
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 4,
-                    "position": 2,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 4,
-                    "position": 1,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 1,
-                    "position": 3,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 3
-        },
-        {
-            "race_key": "20260921_弥彦_4R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    4,
-                    2,
-                    6
-                ],
-                [
-                    1,
-                    5
-                ],
                 [
                     3,
-                    7
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 1,
-                    "position": 3,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 4
-        },
-        {
-            "race_key": "20260921_弥彦_5R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    2,
-                    6
-                ],
-                [
-                    3
-                ],
-                [
-                    5
-                ],
-                [
-                    7,
-                    1,
-                    4
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 4,
-                    "position": 2,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 4,
-                    "position": 3,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 4,
-                    "position": 1,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 5
-        },
-        {
-            "race_key": "20260921_弥彦_6R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    4,
-                    3
-                ],
-                [
-                    2,
-                    5
-                ],
-                [
-                    6,
-                    7,
-                    1
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 3,
-                    "position": 3,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 6
-        },
-        {
-            "race_key": "20260921_弥彦_7R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    2,
-                    4,
-                    6
-                ],
-                [
                     5,
-                    1
-                ],
-                [
-                    7,
-                    3
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 2,
-                    "position": 2,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 1,
-                    "position": 3,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 7
-        },
-        {
-            "race_key": "20260921_弥彦_8R",
-            "line_found": true,
-            "main_lines": [
-                [
                     4,
-                    3,
-                    5
-                ],
-                [
-                    1
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
                     6
-                ]
-            ],
-            "cars": {
-                "1": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
-                "2": {
-                    "line": 3,
-                    "position": 1,
-                    "seri": 0
-                },
-                "3": {
-                    "line": 1,
-                    "position": 2,
-                    "seri": 0
-                },
-                "4": {
-                    "line": 1,
-                    "position": 1,
-                    "seri": 0
-                },
-                "5": {
-                    "line": 1,
-                    "position": 3,
-                    "seri": 0
-                },
-                "6": {
-                    "line": 4,
-                    "position": 1,
-                    "seri": 0
-                },
-                "7": {
-                    "line": 3,
-                    "position": 2,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 8
-        },
-        {
-            "race_key": "20260921_弥彦_9R",
-            "line_found": true,
-            "main_lines": [
+                ],
                 [
-                    4,
                     1
                 ],
                 [
                     7,
                     2
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 1,
+                    "position": 4,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "28",
+            "jo_name": "立川",
+            "race_no": 2
+        },
+        {
+            "race_key": "20260922_立川_3R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    1,
+                    4
+                ],
+                [
+                    5,
+                    2
                 ],
                 [
                     3,
-                    6
+                    7
                 ],
                 [
-                    5
+                    6
                 ]
             ],
             "cars": {
                 "1": {
                     "line": 1,
-                    "position": 2,
+                    "position": 1,
                     "seri": 0
                 },
                 "2": {
@@ -3086,24 +2631,24 @@
                 },
                 "4": {
                     "line": 1,
-                    "position": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "5": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "6": {
                     "line": 4,
                     "position": 1,
                     "seri": 0
                 },
-                "6": {
+                "7": {
                     "line": 3,
                     "position": 2,
                     "seri": 0
                 },
-                "7": {
-                    "line": 2,
-                    "position": 1,
-                    "seri": 0
-                },
                 "8": {
                     "line": null,
                     "position": null,
@@ -3115,637 +2660,243 @@
                     "seri": 0
                 }
             },
-            "jo_code": "21",
-            "jo_name": "弥彦",
-            "race_no": 9
-        },
-        {
-            "race_key": "20260921_松山_10R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 10
-        },
-        {
-            "race_key": "20260921_松山_11R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 11
-        },
-        {
-            "race_key": "20260921_松山_1R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 1
-        },
-        {
-            "race_key": "20260921_松山_2R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 2
-        },
-        {
-            "race_key": "20260921_松山_3R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
+            "jo_code": "28",
+            "jo_name": "立川",
             "race_no": 3
         },
         {
-            "race_key": "20260921_松山_4R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 4
-        },
-        {
-            "race_key": "20260921_松山_5R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 5
-        },
-        {
-            "race_key": "20260921_松山_6R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 6
-        },
-        {
-            "race_key": "20260921_松山_7R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 7
-        },
-        {
-            "race_key": "20260921_松山_8R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 8
-        },
-        {
-            "race_key": "20260921_松山_9R",
-            "line_found": false,
-            "main_lines": [],
-            "cars": {
-                "1": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "2": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "3": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "4": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "5": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "6": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "7": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "8": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                },
-                "9": {
-                    "line": null,
-                    "position": null,
-                    "seri": 0
-                }
-            },
-            "jo_code": "75",
-            "jo_name": "松山",
-            "race_no": 9
-        },
-        {
-            "race_key": "20260921_青森_10R",
+            "race_key": "20260922_立川_4R",
             "line_found": true,
             "main_lines": [
                 [
+                    7,
                     3,
+                    4
+                ],
+                [
+                    1,
                     5
                 ],
                 [
                     6,
-                    4,
-                    1
-                ],
-                [
-                    2,
-                    7
+                    2
                 ]
             ],
             "cars": {
                 "1": {
                     "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
                     "position": 3,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "28",
+            "jo_name": "立川",
+            "race_no": 4
+        },
+        {
+            "race_key": "20260922_立川_5R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    2,
+                    7,
+                    6
+                ],
+                [
+                    1
+                ],
+                [
+                    5,
+                    3
+                ],
+                [
+                    4
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 4,
+                    "position": 1,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "28",
+            "jo_name": "立川",
+            "race_no": 5
+        },
+        {
+            "race_key": "20260922_立川_6R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    7,
+                    1,
+                    4
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    5,
+                    3
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 2,
+                    "position": 2,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "28",
+            "jo_name": "立川",
+            "race_no": 6
+        },
+        {
+            "race_key": "20260922_立川_7R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    3,
+                    7
+                ],
+                [
+                    5,
+                    1
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    4
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 2,
+                    "position": 2,
                     "seri": 0
                 },
                 "2": {
@@ -3759,8 +2910,146 @@
                     "seri": 0
                 },
                 "4": {
+                    "line": 4,
+                    "position": 1,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "28",
+            "jo_name": "立川",
+            "race_no": 7
+        },
+        {
+            "race_key": "20260922_立川_8R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    5,
+                    2,
+                    7
+                ],
+                [
+                    4,
+                    1,
+                    3
+                ],
+                [
+                    6
+                ]
+            ],
+            "cars": {
+                "1": {
                     "line": 2,
                     "position": 2,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 1,
+                    "position": 2,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 2,
+                    "position": 3,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "5": {
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "6": {
+                    "line": 3,
+                    "position": 1,
+                    "seri": 0
+                },
+                "7": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "28",
+            "jo_name": "立川",
+            "race_no": 8
+        },
+        {
+            "race_key": "20260922_立川_9R",
+            "line_found": true,
+            "main_lines": [
+                [
+                    7,
+                    5,
+                    1
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    4,
+                    3
+                ]
+            ],
+            "cars": {
+                "1": {
+                    "line": 1,
+                    "position": 3,
+                    "seri": 0
+                },
+                "2": {
+                    "line": 2,
+                    "position": 1,
+                    "seri": 0
+                },
+                "3": {
+                    "line": 3,
+                    "position": 2,
+                    "seri": 0
+                },
+                "4": {
+                    "line": 3,
+                    "position": 1,
                     "seri": 0
                 },
                 "5": {
@@ -3770,12 +3059,67 @@
                 },
                 "6": {
                     "line": 2,
-                    "position": 1,
+                    "position": 2,
                     "seri": 0
                 },
                 "7": {
-                    "line": 3,
-                    "position": 2,
+                    "line": 1,
+                    "position": 1,
+                    "seri": 0
+                },
+                "8": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "9": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                }
+            },
+            "jo_code": "28",
+            "jo_name": "立川",
+            "race_no": 9
+        },
+        {
+            "race_key": "20260922_青森_10R",
+            "line_found": false,
+            "main_lines": [],
+            "cars": {
+                "1": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "2": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "3": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "4": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "5": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "6": {
+                    "line": null,
+                    "position": null,
+                    "seri": 0
+                },
+                "7": {
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -3794,57 +3138,43 @@
             "race_no": 10
         },
         {
-            "race_key": "20260921_青森_11R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    4,
-                    7,
-                    1
-                ],
-                [
-                    6,
-                    3
-                ],
-                [
-                    5,
-                    2
-                ]
-            ],
+            "race_key": "20260922_青森_11R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 2,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -3863,59 +3193,43 @@
             "race_no": 11
         },
         {
-            "race_key": "20260921_青森_12R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    2,
-                    7
-                ],
-                [
-                    5,
-                    1
-                ],
-                [
-                    6
-                ],
-                [
-                    3,
-                    4
-                ]
-            ],
+            "race_key": "20260922_青森_12R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 2,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 4,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 4,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -3934,57 +3248,43 @@
             "race_no": 12
         },
         {
-            "race_key": "20260921_青森_1R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    3,
-                    5,
-                    1
-                ],
-                [
-                    4
-                ],
-                [
-                    7,
-                    2,
-                    6
-                ]
-            ],
+            "race_key": "20260922_青森_1R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 3,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -4003,57 +3303,43 @@
             "race_no": 1
         },
         {
-            "race_key": "20260921_青森_2R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    4,
-                    2,
-                    5
-                ],
-                [
-                    1,
-                    7
-                ],
-                [
-                    6,
-                    3
-                ]
-            ],
+            "race_key": "20260922_青森_2R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 2,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -4072,57 +3358,43 @@
             "race_no": 2
         },
         {
-            "race_key": "20260921_青森_3R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    3,
-                    1,
-                    7
-                ],
-                [
-                    6
-                ],
-                [
-                    5,
-                    2,
-                    4
-                ]
-            ],
+            "race_key": "20260922_青森_3R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 3,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -4141,57 +3413,43 @@
             "race_no": 3
         },
         {
-            "race_key": "20260921_青森_4R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    7,
-                    1,
-                    4,
-                    6
-                ],
-                [
-                    3
-                ],
-                [
-                    2,
-                    5
-                ]
-            ],
+            "race_key": "20260922_青森_4R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 1,
-                    "position": 4,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -4210,57 +3468,43 @@
             "race_no": 4
         },
         {
-            "race_key": "20260921_青森_5R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    3,
-                    6,
-                    4
-                ],
-                [
-                    1,
-                    7
-                ],
-                [
-                    2,
-                    5
-                ]
-            ],
+            "race_key": "20260922_青森_5R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 2,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -4279,57 +3523,43 @@
             "race_no": 5
         },
         {
-            "race_key": "20260921_青森_6R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    2,
-                    7,
-                    4
-                ],
-                [
-                    3,
-                    6
-                ],
-                [
-                    5,
-                    1
-                ]
-            ],
+            "race_key": "20260922_青森_6R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 2,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -4348,57 +3578,43 @@
             "race_no": 6
         },
         {
-            "race_key": "20260921_青森_7R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    1,
-                    4,
-                    6
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    3,
-                    5
-                ]
-            ],
+            "race_key": "20260922_青森_7R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 2,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -4417,57 +3633,43 @@
             "race_no": 7
         },
         {
-            "race_key": "20260921_青森_8R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    1,
-                    7,
-                    4
-                ],
-                [
-                    5,
-                    2,
-                    3
-                ],
-                [
-                    6
-                ]
-            ],
+            "race_key": "20260922_青森_8R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 2,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 2,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 1,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -4486,57 +3688,43 @@
             "race_no": 8
         },
         {
-            "race_key": "20260921_青森_9R",
-            "line_found": true,
-            "main_lines": [
-                [
-                    6,
-                    1
-                ],
-                [
-                    2,
-                    4
-                ],
-                [
-                    3,
-                    5,
-                    7
-                ]
-            ],
+            "race_key": "20260922_青森_9R",
+            "line_found": false,
+            "main_lines": [],
             "cars": {
                 "1": {
-                    "line": 1,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "2": {
-                    "line": 2,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "3": {
-                    "line": 3,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "4": {
-                    "line": 2,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "5": {
-                    "line": 3,
-                    "position": 2,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "6": {
-                    "line": 1,
-                    "position": 1,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "7": {
-                    "line": 3,
-                    "position": 3,
+                    "line": null,
+                    "position": null,
                     "seri": 0
                 },
                 "8": {
@@ -4555,7 +3743,7 @@
             "race_no": 9
         },
         {
-            "race_key": "20260921_高知_1R",
+            "race_key": "20260922_高知_1R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -4610,7 +3798,7 @@
             "race_no": 1
         },
         {
-            "race_key": "20260921_高知_2R",
+            "race_key": "20260922_高知_2R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -4665,7 +3853,7 @@
             "race_no": 2
         },
         {
-            "race_key": "20260921_高知_3R",
+            "race_key": "20260922_高知_3R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -4720,7 +3908,7 @@
             "race_no": 3
         },
         {
-            "race_key": "20260921_高知_4R",
+            "race_key": "20260922_高知_4R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -4775,7 +3963,7 @@
             "race_no": 4
         },
         {
-            "race_key": "20260921_高知_5R",
+            "race_key": "20260922_高知_5R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -4830,7 +4018,7 @@
             "race_no": 5
         },
         {
-            "race_key": "20260921_高知_6R",
+            "race_key": "20260922_高知_6R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -4885,7 +4073,7 @@
             "race_no": 6
         },
         {
-            "race_key": "20260921_高知_7R",
+            "race_key": "20260922_高知_7R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -4940,7 +4128,7 @@
             "race_no": 7
         },
         {
-            "race_key": "20260921_高知_8R",
+            "race_key": "20260922_高知_8R",
             "line_found": false,
             "main_lines": [],
             "cars": {
@@ -4995,7 +4183,7 @@
             "race_no": 8
         },
         {
-            "race_key": "20260921_高知_9R",
+            "race_key": "20260922_高知_9R",
             "line_found": false,
             "main_lines": [],
             "cars": {
