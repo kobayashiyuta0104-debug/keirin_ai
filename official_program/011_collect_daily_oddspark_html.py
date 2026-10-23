@@ -93,37 +93,6 @@ def download(url):
                 timeout=30
             )
 
-            if r.status_code == 403 and retry == 2:
-
-                print("403 Forbidden diagnostics")
-                print("Final URL:", r.url.split("?", 1)[0])
-                print(
-                    "Redirect history:",
-                    [
-                        (history.status_code, history.url.split("?", 1)[0])
-                        for history in r.history
-                    ]
-                )
-
-                for header in (
-                    "Server",
-                    "Via",
-                    "Content-Type",
-                    "X-Cache",
-                    "CF-Ray",
-                    "X-Amz-Cf-Id",
-                    "X-Amz-Cf-Pop",
-                    "X-Request-Id",
-                    "Retry-After",
-                    "Date",
-                ):
-                    value = r.headers.get(header)
-
-                    if value:
-                        print(f"{header}: {value[:300]}")
-
-                print("Response body preview:", repr(r.text[:800]))
-
             r.raise_for_status()
 
             r.encoding = "utf-8"
@@ -165,12 +134,6 @@ calendar_url = (
 )
 
 calendar_html = download(calendar_url)
-
-if os.environ.get("ODDSPARK_CALENDAR_DIAGNOSTIC_ONLY") == "1":
-
-    print("Calendar diagnostic succeeded; stopping before race-page downloads.")
-
-    raise SystemExit(0)
 
 for date, jo in pattern.findall(calendar_html):
 
