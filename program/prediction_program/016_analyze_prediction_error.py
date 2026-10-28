@@ -64,7 +64,7 @@ ANALYSIS_DIR = (
     BASE
     / "csv"
     / "analysis"
-    / "prediction_error"
+    / "016_prediction_error"
 )
 
 ANALYSIS_DIR.mkdir(
@@ -74,7 +74,7 @@ ANALYSIS_DIR.mkdir(
 
 # 入力ファイル名を固定しない。
 # training_prediction*.csv の中から日付が新しいものを自動検出する。
-PREDICTION_PATTERN = "training_prediction*.csv"
+PREDICTION_PATTERN = "VER1.5_training_prediction*.csv"
 
 OUTPUT_XLSX = (
     ANALYSIS_DIR

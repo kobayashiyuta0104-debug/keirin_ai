@@ -6,7 +6,7 @@
 #
 # 【役割】
 #
-# training_race_features(2020.1.1~2022.12.31).csv
+# training_race_features(2026.1.1~2026.8.18).csv
 #
 # ↓
 #
@@ -22,12 +22,12 @@
 #
 # ↓
 #
-# 2020～2022全レースを1つのCSVへ保存
+# 対象期間の予想データを1つのCSVへ保存
 #
 # 保存先
 # C:\競輪AI\csv\ai\
 #
-# training_prediction(2020.1.1~2022.12.31).csv
+# training_prediction(2026.1.1~2026.8.18).csv
 #
 # ===========================================================
 
@@ -357,23 +357,24 @@ def build_prediction_dataset(
     # category
     # --------------------------------------------------
 
+    
     categorical_columns = [
 
         "jo_name",
-
         "grade",
-
         "race_type",
-
         "session",
-
         "weekday",
-
         "bank_type",
-
         "straight_type",
 
     ]
+
+    categorical_columns.extend(
+        col for col in X.columns
+        if col.endswith("_prefecture") or col.endswith("_region")
+    )
+
 
 
     for col in categorical_columns:
@@ -739,7 +740,7 @@ def save_prediction(result):
     # --------------------------------------------------
 
     result["AIバージョン"] = (
-        "Ver1.0"
+        "Ver1.5"
     )
 
 

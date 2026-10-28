@@ -25,8 +25,8 @@ if os.name == "nt":
 else:
     BASE = Path(__file__).resolve().parent.parent
 
-TARGET_START = "20260101"
-TARGET_END = "20260818"
+TARGET_START = "20261027"
+TARGET_END = "20261027"
 
 HISTORICAL_DIR = (
     BASE
@@ -307,7 +307,7 @@ def save_player_csv(rows):
 
     output_path = (
         PLAYER_CSV_DIR
-        / "historical_player_2026.1.1~2026.8.18.csv"
+        / "20261027_player.csv"
 )
 
     with open(output_path, "w", encoding="utf-8-sig", newline="") as f:

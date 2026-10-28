@@ -16,7 +16,7 @@ AIが予想した「配当クラス」と、その前後1クラスに入って�
 
 【入力】
 prediction CSV:
-    training_prediction(2026.1.1~2026.8.18).csv
+    VER1.5_training_prediction(2026.1.1~2026.8.18).csv
 
 odds CSV:
     historical_odds_2026.1.1~2026.8.18.csv
@@ -50,7 +50,7 @@ from openpyxl.utils import get_column_letter
 
 PREDICTION_FILE = Path(
     r"C:\競輪AI\csv\training"
-    r"\training_prediction(2026.1.1~2026.8.18).csv"
+    r"\VER1.5_training_prediction(2026.1.1~2026.8.18).csv"
 )
 
 ODDS_FILE = Path(
