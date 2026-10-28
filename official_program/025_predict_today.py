@@ -264,35 +264,32 @@ def build_prediction_dataset(
     X = df[feature_columns].copy()
 
     # --------------------------------------------------
-    # category
+    # カテゴリ列
     # --------------------------------------------------
 
     categorical_columns = [
-
         "jo_name",
-
         "grade",
-
         "race_type",
-
         "session",
-
         "weekday",
-
         "bank_type",
-
         "straight_type",
-
     ]
 
+    # 登録府県・地区の展開列を追加
+    categorical_columns.extend(
+        col
+        for col in X.columns
+        if col.endswith("_prefecture")
+        or col.endswith("_region")
+    )
+
     for col in categorical_columns:
-
         if col in X.columns:
-
             X[col] = X[col].astype("category")
 
     return X
-
 
 # ===========================================================
 # AI予測

@@ -181,8 +181,27 @@ def build_train_dataset(df):
     DROP_COLUMNS = [
 
         "race_key",
-
         "date",
+        "odds_rank_1",
+        "odds_rank_2",
+        "odds_rank_3",
+        "odds_rank_5",
+        "odds_rank_10",
+        "odds_rank_20",
+        "odds_rank_30",
+        "odds_rank_50",
+        "odds_rank_100",
+        "odds_ratio_1_2",
+        "odds_ratio_1_3",
+        "odds_ratio_1_5",
+        "odds_ratio_1_10",
+        "odds_spread_1_5",
+        "odds_spread_1_10",
+        "odds_spread_1_20",
+        "odds_top5_mean",
+        "odds_top10_mean",
+        "odds_10_30_mean",
+        "odds_30_100_mean",
 
         TARGET_COLUMN,
 
@@ -243,27 +262,25 @@ def train_model(
     # --------------------------------------------------
 
     categorical_columns = [
-
         "jo_name",
-
         "grade",
-
         "race_type",
-
         "session",
-
         "weekday",
-
         "bank_type",
-
         "straight_type",
-
     ]
 
+    # 選手の登録府県・地区もカテゴリとして扱う
+    categorical_columns.extend(
+        col
+        for col in X.columns
+        if col.endswith("_prefecture")
+        or col.endswith("_region")
+    )
+
     for col in categorical_columns:
-
         if col in X.columns:
-
             X[col] = X[col].astype("category")
 
     # --------------------------------------------------
