@@ -67,6 +67,10 @@ parse_historical_line_html = (
     module.parse_historical_line_html
 )
 
+extract_venue_name = (
+    module.extract_venue_name
+)
+
 # ==========================================================
 # HTML一覧
 # ==========================================================
@@ -162,23 +166,8 @@ for day_index, html_file in enumerate(html_files, 1):
         race_html = race_html.replace("<!-- END_RACE -->", "")
         race_html = race_html.strip()
 
-        # ------------------------------------------------------
-        # 競輪場名取得
-        # ------------------------------------------------------
-
-        match = re.search(
-            r"<h2>\s*([^\n<]+?)競輪場",
-            race_html,
-            re.S
-        )
-
-        if match:
-
-            jo_name = match.group(1).strip()
-
-        else:
-
-            jo_name = ""
+        jo_name = extract_venue_name(race_html)
+        race_no = int(race_key.split("_")[2])
 
         # 一時HTML作成
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -201,8 +190,6 @@ for day_index, html_file in enumerate(html_files, 1):
                 result = parse_historical_line_html(
                     temp_file
                 )
-
-                race_no = int(race_key.split("_")[2])
 
                 result["race_key"] = (
                     f"{target_date}_{jo_name}_{race_no}R"

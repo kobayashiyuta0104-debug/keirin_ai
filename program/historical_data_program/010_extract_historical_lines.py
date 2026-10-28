@@ -230,6 +230,155 @@ def parse_keirin_lines(ul):
 
     return main_lines, cars
 
+
+def _has_class_prefix(tag, prefix):
+
+    return any(
+        str(class_name).startswith(prefix)
+        for class_name in tag.get("class", [])
+    )
+
+
+def parse_winticket_lines(soup):
+    """Parse WINTICKET lines and its explicit contest start/end markers."""
+
+    label = soup.find(
+        lambda tag: (
+            tag.name == "span"
+            and tag.get_text(" ", strip=True) == "並び予想"
+        )
+    )
+
+    empty_cars = build_empty_cars()
+    if label is None:
+        return [], empty_cars
+
+    wrapper = label.find_parent("div")
+    if wrapper is None:
+        return [], empty_cars
+
+    line_wrapper = next(
+        (
+            child
+            for child in wrapper.find_all("div", recursive=False)
+            if _has_class_prefix(child, "LinePrediction___LineWrapper")
+        ),
+        None,
+    )
+    if line_wrapper is None:
+        return [], empty_cars
+
+    bib_group = line_wrapper.find(
+        lambda tag: (
+            tag.name == "div"
+            and _has_class_prefix(tag, "BibGroup___Wrapper")
+        )
+    )
+    if bib_group is None:
+        return [], empty_cars
+
+    main_lines = []
+    current_line = []
+    cars = build_empty_cars()
+    line_no = 1
+    current_position = 1
+    in_seri = False
+    seri_group = []
+
+    def finish_seri_group():
+        nonlocal current_position, in_seri, seri_group
+
+        for rider in seri_group:
+            cars[str(rider)] = {
+                "line": line_no,
+                "position": current_position,
+                "seri": 1,
+            }
+
+        if seri_group:
+            current_position += 1
+
+        in_seri = False
+        seri_group = []
+
+    for child in bib_group.find_all(["span", "div"], recursive=False):
+        marker = child.get("aria-label", "")
+
+        if marker == "ライン区切り":
+            if in_seri:
+                finish_seri_group()
+
+            if current_line:
+                main_lines.append(current_line)
+                current_line = []
+                line_no += 1
+
+            current_position = 1
+            continue
+
+        if marker == "競り開始":
+            in_seri = True
+            seri_group = []
+            continue
+
+        if marker == "競り終了":
+            if in_seri:
+                finish_seri_group()
+            continue
+
+        aria_label = marker
+        if not aria_label:
+            rider_tag = child.find(
+                attrs={"aria-label": re.compile(r"^[1-9]番$")}
+            )
+            aria_label = rider_tag.get("aria-label", "") if rider_tag else ""
+
+        match = re.fullmatch(r"([1-9])番", aria_label)
+        if not match:
+            continue
+
+        rider = int(match.group(1))
+        current_line.append(rider)
+
+        if in_seri:
+            seri_group.append(rider)
+            continue
+
+        cars[str(rider)] = {
+            "line": line_no,
+            "position": current_position,
+            "seri": 0,
+        }
+        current_position += 1
+
+    if in_seri:
+        finish_seri_group()
+
+    if current_line:
+        main_lines.append(current_line)
+
+    return main_lines, cars
+
+
+def extract_venue_name(html_text):
+    """Extract the venue name from either OddsPark or WINTICKET HTML."""
+
+    soup = BeautifulSoup(html_text, "html.parser")
+
+    for heading in soup.find_all(["h1", "h2"]):
+        text = heading.get_text(" ", strip=True)
+        match = re.match(r"^(.+?)競輪(?:場|[\s\u3000]|$)", text)
+        if match:
+            return match.group(1).strip()
+
+    if soup.title:
+        title = soup.title.get_text(" ", strip=True)
+        match = re.match(r"^(.+?)競輪", title)
+        if match:
+            return match.group(1).strip()
+
+    return ""
+
 def parse_historical_line_html(html_path):
 
     html_path = Path(html_path)
@@ -273,6 +422,12 @@ def parse_historical_line_html(html_path):
                 break
 
     if line_container is None:
+
+        main_lines, cars = parse_winticket_lines(soup)
+
+        result["line_found"] = len(main_lines) > 0
+        result["main_lines"] = main_lines
+        result["cars"] = cars
 
         return result
 
