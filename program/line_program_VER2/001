@@ -192,8 +192,8 @@ if __name__ == "__main__":
     if __import__("os").name == "nt":
         base_dir = Path(r"C:\競輪AI")
     else:
-        # このスクリプトを official_program 内に置く想定
-        base_dir = Path(__file__).resolve().parent.parent
+        # program/line_program_VER2/001 からリポジトリのルートへ戻る。
+        base_dir = Path(__file__).resolve().parents[2]
 
     output_file = (
         base_dir
