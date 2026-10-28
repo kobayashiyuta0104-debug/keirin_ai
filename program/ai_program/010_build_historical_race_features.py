@@ -7,11 +7,11 @@
 
 【役割】
 
-training_features(2020.1.1~2022.12.31).csv
+training_features(2026.1.1~2026.8.18).csv
 ↓uild_today_race_features.p
 1レース1行
 ↓
-training_race_features(2020.1.1~2022.12.31).csv
+training_race_features(2026.1.1~2026.8.18).csv
 
 
 ※Part1
@@ -151,6 +151,10 @@ PLAYER_FEATURE_COLUMNS = [
     "style_逃",
 
     "is_seri",
+
+    "prefecture",
+    "region",
+    "home_bank",
 
     "score_rank",
 

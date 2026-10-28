@@ -37,8 +37,8 @@ RESULT_CSV_DIR = (
 
 RESULT_CSV_DIR.mkdir(parents=True, exist_ok=True)
 
-TARGET_START = "20260101"
-TARGET_END = "20260818"
+TARGET_START = "20261027"
+TARGET_END = "20261027"
 
 # ===========================================================
 # 最新result.json自動検出
@@ -307,7 +307,7 @@ def build_all_result_rows(result):
 def save_result_csv(rows):
     output_path = (
         RESULT_CSV_DIR
-        / "historical_result_2026.1.1~2026.8.18.csv"
+        / "20261027_result.csv"
     )
 
     with open(output_path, "w", encoding="utf-8-sig", newline="") as f:

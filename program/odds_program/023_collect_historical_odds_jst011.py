@@ -11,8 +11,8 @@ from pathlib import Path
 # 取得期間
 # ============================================================
 
-START_DATE = "20200101"
-END_DATE = "20221231"
+START_DATE = "20261027"
+END_DATE = "20261027"
 
 
 # ============================================================
@@ -869,15 +869,7 @@ end_dt = datetime.strptime(
 
 
 csv_filename = (
-    "historical_odds_"
-    f"{start_dt.year}."
-    f"{start_dt.month}."
-    f"{start_dt.day}"
-    "~"
-    f"{end_dt.year}."
-    f"{end_dt.month}."
-    f"{end_dt.day}"
-    ".csv"
+    "20261027_odds.csv"
 )
 
 

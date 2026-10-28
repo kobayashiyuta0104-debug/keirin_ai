@@ -19,6 +19,22 @@ from pathlib import Path
 
 BASE = Path(r"C:\競輪AI")
 
+
+# ==========================================================
+# バンクマスター読み込み
+# ==========================================================
+
+MASTER_FILE = BASE / "data_official" / "master" / "bank_master.json"
+
+with open(MASTER_FILE, "r", encoding="utf-8") as f:
+    bank_master = json.load(f)
+
+JO_NAME_MAP = {
+    str(code): info["競輪場名"]
+    for code, info in bank_master["banks"].items()
+}
+
+
 HTML_DIR = (
     BASE /
     "data_official" /
@@ -66,8 +82,8 @@ parse_historical_line_html = (
 # HTML一覧
 # ==========================================================
 
-TARGET_START = "20260819"
-TARGET_END   = "20260831"
+TARGET_START = "20261027"
+TARGET_END   = "20261027"
 
 html_files = sorted(
     html_file
@@ -148,11 +164,31 @@ for day_index, html_file in enumerate(html_files, 1):
     # レースごとに解析
     # ------------------------------------------------------
 
+    
     for idx, match in enumerate(matches):
 
+        # 元のレースキーを取得
         race_key = match.group(1).strip()
 
+        # 日付・競輪場コード・レース番号に分割
+        parts = race_key.split("_")
+
+        if len(parts) == 3:
+            race_date, jo_code, race_no = parts
+
+            # バンクマスターから競輪場名を取得
+            jo_name = JO_NAME_MAP.get(jo_code)
+
+            if jo_name is None:
+                raise ValueError(
+                    f"バンクマスターに競輪場コードがありません: {jo_code}"
+                )
+
+            # 新しい形式に変換
+            race_key = f"{race_date}_{jo_name}_{int(race_no)}R"
+
         start = match.end()
+
 
         if idx + 1 < len(matches):
 
