@@ -1,7 +1,6 @@
 """Collect today's line HTML from WINTICKET for the daily pipeline."""
 
 import os
-import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -11,10 +10,7 @@ if os.name == "nt":
 else:
     BASE_DIR = Path(__file__).resolve().parent.parent
 
-LINE_PROGRAM_DIR = BASE_DIR / "program" / "line_program_VER2"
-sys.path.insert(0, str(LINE_PROGRAM_DIR))
-
-from winticket_collector import collect_lines_html
+from winticket_line_collector import collect_lines_html
 
 
 SAVE_DIR = BASE_DIR / "data_official" / "today"

@@ -240,7 +240,7 @@ def _has_class_prefix(tag, prefix):
 
 
 def parse_winticket_lines(soup):
-    """Parse WINTICKET's public '並び予想' racecard markup."""
+    """Parse WINTICKET lines and its explicit contest start/end markers."""
 
     label = soup.find(
         lambda tag: (
@@ -279,15 +279,54 @@ def parse_winticket_lines(soup):
 
     main_lines = []
     current_line = []
+    cars = build_empty_cars()
+    line_no = 1
+    current_position = 1
+    in_seri = False
+    seri_group = []
+
+    def finish_seri_group():
+        nonlocal current_position, in_seri, seri_group
+
+        for rider in seri_group:
+            cars[str(rider)] = {
+                "line": line_no,
+                "position": current_position,
+                "seri": 1,
+            }
+
+        if seri_group:
+            current_position += 1
+
+        in_seri = False
+        seri_group = []
 
     for child in bib_group.find_all(["span", "div"], recursive=False):
-        if child.get("aria-label") == "ライン区切り":
+        marker = child.get("aria-label", "")
+
+        if marker == "ライン区切り":
+            if in_seri:
+                finish_seri_group()
+
             if current_line:
                 main_lines.append(current_line)
                 current_line = []
+                line_no += 1
+
+            current_position = 1
             continue
 
-        aria_label = child.get("aria-label", "")
+        if marker == "競り開始":
+            in_seri = True
+            seri_group = []
+            continue
+
+        if marker == "競り終了":
+            if in_seri:
+                finish_seri_group()
+            continue
+
+        aria_label = marker
         if not aria_label:
             rider_tag = child.find(
                 attrs={"aria-label": re.compile(r"^[1-9]番$")}
@@ -295,20 +334,28 @@ def parse_winticket_lines(soup):
             aria_label = rider_tag.get("aria-label", "") if rider_tag else ""
 
         match = re.fullmatch(r"([1-9])番", aria_label)
-        if match:
-            current_line.append(int(match.group(1)))
+        if not match:
+            continue
+
+        rider = int(match.group(1))
+        current_line.append(rider)
+
+        if in_seri:
+            seri_group.append(rider)
+            continue
+
+        cars[str(rider)] = {
+            "line": line_no,
+            "position": current_position,
+            "seri": 0,
+        }
+        current_position += 1
+
+    if in_seri:
+        finish_seri_group()
 
     if current_line:
         main_lines.append(current_line)
-
-    cars = build_empty_cars()
-    for line_no, line in enumerate(main_lines, start=1):
-        for position, rider in enumerate(line, start=1):
-            cars[str(rider)] = {
-                "line": line_no,
-                "position": position,
-                "seri": 0,
-            }
 
     return main_lines, cars
 

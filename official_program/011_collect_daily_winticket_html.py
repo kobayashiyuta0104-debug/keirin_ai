@@ -1,7 +1,6 @@
 """Collect yesterday's line HTML from WINTICKET for the daily pipeline."""
 
 import os
-import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -11,10 +10,7 @@ if os.name == "nt":
 else:
     BASE_DIR = Path(__file__).resolve().parent.parent
 
-LINE_PROGRAM_DIR = BASE_DIR / "program" / "line_program_VER2"
-sys.path.insert(0, str(LINE_PROGRAM_DIR))
-
-from winticket_collector import collect_lines_html
+from winticket_line_collector import collect_lines_html
 
 
 SAVE_DIR = BASE_DIR / "data_official" / "daily" / "html"
@@ -28,7 +24,7 @@ TARGET_DATE = (datetime.now(JST) - timedelta(days=1)).strftime("%Y%m%d")
 OUTPUT_FILE = SAVE_DIR / f"{TARGET_DATE}.html"
 
 print("=" * 70)
-print("011 Collect Daily WINTICKET Lines HTML")
+print("011 Collect Yesterday WINTICKET Lines HTML")
 print("SOURCE: WINTICKET RaceCard")
 print("TARGET DATE:", TARGET_DATE)
 print("=" * 70)
@@ -37,7 +33,7 @@ try:
     summary = collect_lines_html(
         TARGET_DATE,
         OUTPUT_FILE,
-        generated_by="011_collect_daily_oddspark_html.py",
+        generated_by="011_collect_daily_winticket_html.py",
         allow_empty=True,
         max_races=None,
     )
