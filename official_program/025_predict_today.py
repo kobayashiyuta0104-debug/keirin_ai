@@ -505,6 +505,10 @@ def save_prediction(result):
 
     result["AIコメント"] = ""
 
+    result["購入金額"] = ""
+
+    result["収支"] = ""
+
     result = result[
 
     [
@@ -582,6 +586,10 @@ def save_prediction(result):
         "AIバージョン",
 
         "AIコメント",
+
+        "購入金額",
+
+        "収支",
 
     ]
 
