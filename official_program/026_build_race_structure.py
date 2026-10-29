@@ -82,33 +82,41 @@ def log(message):
 # ===========================================================
 
 RACE_COLUMNS = [
-
     "race_key",
-
     "date",
-
     "jo_code",
-
     "jo_name",
-
     "race_no",
-
     "weekday",
-
     "grade",
-
     "race_type",
-
     "session",
-
     "bank_type",
-
     "straight_type",
-
     "bank_angle",
 
+    # 確定オッズ特徴量
+    "odds_rank_1",
+    "odds_rank_2",
+    "odds_rank_3",
+    "odds_rank_5",
+    "odds_rank_10",
+    "odds_rank_20",
+    "odds_rank_30",
+    "odds_rank_50",
+    "odds_rank_100",
+    "odds_ratio_1_2",
+    "odds_ratio_1_3",
+    "odds_ratio_1_5",
+    "odds_ratio_1_10",
+    "odds_spread_1_5",
+    "odds_spread_1_10",
+    "odds_spread_1_20",
+    "odds_top5_mean",
+    "odds_top10_mean",
+    "odds_10_30_mean",
+    "odds_30_100_mean",
 ]
-
 
 # ===========================================================
 # 選手特徴量
@@ -147,11 +155,11 @@ PLAYER_FEATURE_COLUMNS = [
     "start_count",
 
     "style_両",
-
     "style_追",
-
     "style_逃",
-
+    "prefecture",
+    "region",
+    "home_bank",
     "is_seri",
 
     "score_rank",

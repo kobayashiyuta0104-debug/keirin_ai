@@ -40,6 +40,7 @@ from feature_generator.feature_race import build_feature_race
 from feature_generator.feature_rank import build_feature_rank
 from feature_generator.feature_relative import build_feature_relative
 from feature_generator.feature_target import build_feature_target
+from feature_generator.feature_odds import add_odds_features
 
 
 # ===========================================================
@@ -132,7 +133,7 @@ def build_features(df):
     # Player特徴量
     # --------------------------------------------------
     log("Player特徴量生成")
-
+    print("Player特徴量の読み込み元:", build_feature_player.__code__.co_filename)
     df = build_feature_player(df)
 
     # --------------------------------------------------
@@ -162,6 +163,13 @@ def build_features(df):
     log("Relative特徴量生成")
 
     df = build_feature_relative(df)
+
+    # --------------------------------------------------
+    # Odds特徴量
+    # --------------------------------------------------
+    log("Odds特徴量生成")
+
+    df = add_odds_features(df)
 
     # --------------------------------------------------
     # Target生成

@@ -335,23 +335,35 @@ def build_dataframe(
     log("PLAYER + RACE")
     log("=======================================")
 
+
+    # ------------------------------------------------------
+    # PLAYER + RACE
+    # ------------------------------------------------------
+
+    # 選手データに競輪場名がない場合は、
+    # レースデータから競輪場名を残す
+    drop_columns = [
+        "date",
+        "jo_code",
+        "race_no",
+    ]
+
+    if "jo_name" in player_df.columns:
+        drop_columns.append("jo_name")
+
     race_df = race_df.drop(
-
-        columns=[
-
-            "date",
-
-            "jo_code",
-
-            "jo_name",
-
-            "race_no",
-
-        ],
-
+        columns=drop_columns,
         errors="ignore",
-
     )
+
+    df = pd.merge(
+        player_df,
+        race_df,
+        on="race_key",
+        how="left",
+        validate="many_to_one",
+    )
+
 
     df = pd.merge(
 

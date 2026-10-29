@@ -121,6 +121,12 @@ PLAYER_FEATURE_COLUMNS = [
 
     "term",
 
+    "prefecture",
+
+    "region",
+
+    "home_bank",
+
     "class",
 
     "previous_class",
