@@ -15,17 +15,21 @@ feature_player.py
 
 import pandas as pd
 import json
+from pathlib import Path
 
 
 # ============================================================
 # 地区マスタ
 # ============================================================
 
+BASE_DIR = Path(__file__).resolve().parents[3]
+
 DISTRICT_MASTER_FILE = (
-    r"C:\競輪AI\data_official\master\district_master.json"
+    BASE_DIR
+    / "data_official"
+    / "master"
+    / "district_master.json"
 )
-
-
 # ============================================================
 # 級班変換テーブル
 # ============================================================
