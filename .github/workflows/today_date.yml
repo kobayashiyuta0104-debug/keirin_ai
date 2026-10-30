@@ -1,4 +1,4 @@
-name: Daily Today Pipeline
+name: today_date
 
 permissions:
   contents: write
@@ -7,11 +7,12 @@ on:
   workflow_dispatch:
 
   schedule:
-    # 日本時間02:00
-    - cron: '0 17 * * *'
+    # 日本時間04:00
+    - cron: '0 19 * * *'
 
-    # 日本時間03:00
-    - cron: '0 18 * * *'
+    # 日本時間05:00
+    - cron: '0 20 * * *'
+
 
 jobs:
   run:
@@ -69,12 +70,7 @@ jobs:
         run: python official_program/025_predict_today.py
 
 
-      # ======================================================
-      # netkeirin 3連単オッズ取得
-      # ======================================================
 
-      - name: Run 029
-        run: python official_program/029_collect_yesterday_odds.py
 
       # ======================================================
       # 前日予想結果更新
