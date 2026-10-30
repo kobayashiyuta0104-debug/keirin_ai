@@ -153,6 +153,13 @@ def load_prediction():
 
     )
 
+    # 列名の改行コードを統一
+    df.columns = (
+        df.columns
+        .str.replace("\r\n", "\n", regex=False)
+        .str.replace("\r", "\n", regex=False)
+    )
+
     log(f"Rows    : {len(df):,}")
 
     log(f"Columns : {len(df.columns):,}")
@@ -778,13 +785,9 @@ def save_prediction(
     log("=======================================")
 
     prediction_df.to_csv(
-
         PREDICTION_FILE,
-
         index=False,
-
         encoding="utf-8-sig",
-
     )
 
     log(f"Rows    : {len(prediction_df):,}")
